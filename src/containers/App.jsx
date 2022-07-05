@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fragment } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -11,7 +12,7 @@ import Languages from '../components/Languages';
 
 const App = () => {
   return (
-    <>
+    <Fragment>
       <Header>
         <About />
       </Header>
@@ -21,7 +22,7 @@ const App = () => {
       <Skills />
       <Interest />
       <Languages />
-    </>
+    </Fragment>
   )
 };
 
