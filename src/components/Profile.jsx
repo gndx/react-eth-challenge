@@ -3,13 +3,9 @@ import PropTypes from 'prop-types';
 import '../styles/App.css';
 import { Box } from './Box';
 
-export const Profile = ({ className }) => {
+export const Profile = ({}) => {
   return (
-    <Box
-      className={`${className}`}
-      classTitle="Profile-title"
-      title={'Profile Title'}
-    >
+    <Box classTitle="Profile-title" title={'Profile Title'}>
       <div>
         <p className={'Profile-desc'}>Profile Desc</p>
       </div>
@@ -17,8 +13,6 @@ export const Profile = ({ className }) => {
   );
 };
 
-Profile.propTypes = {
-  className: PropTypes.string,
-};
+Profile.propTypes = {};
 
 export default Profile;

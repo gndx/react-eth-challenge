@@ -21,5 +21,8 @@ Box.propTypes = {
     PropTypes.arrayOf(PropTypes.elementType),
   ]),
 };
+Box.defaultProps = {
+  className: '',
+};
 
 export default Box;
