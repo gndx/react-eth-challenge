@@ -57,4 +57,22 @@ export const user = {
       link: 'https://www.unam.mx/',
     },
   ],
+  skills: [
+    {
+      title: 'Javascript',
+      level: '9.5',
+    },
+    {
+      title: 'Angular',
+      level: '9.5',
+    },
+    {
+      title: 'React',
+      level: '8.5',
+    },
+    {
+      title: 'CSS',
+      level: '9.5',
+    },
+  ],
 };
