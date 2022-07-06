@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -22,7 +22,7 @@ const App = () => {
       <Interest />
       <Languages />
     </>
-  )
+  );
 };
 
 export default App;

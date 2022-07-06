@@ -8,13 +8,13 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 
 ### Retos
 
-1. [Crear los componentes del proyecto](https://github.com/platzi/react-eth-challenge/issues/1)
-2. [Añadir estilos](https://github.com/platzi/react-eth-challenge/issues/2)
-3. [Crear función getData.js](https://github.com/platzi/react-eth-challenge/issues/3)
-4. [Integrar API](https://github.com/platzi/react-eth-challenge/issues/4)
-5. [Personalizar API](https://github.com/platzi/react-eth-challenge/issues/5)
-6. [Documentar](https://github.com/platzi/react-eth-challenge/issues/6)
-7. [Deploy](https://github.com/platzi/react-eth-challenge/issues/7)
+1. [Crear los componentes del proyecto](https://github.com/gndx/react-eth-challenge/issues/1)
+2. [Añadir estilos](https://github.com/gndx/react-eth-challenge/issues/2)
+3. [Crear función getData.js](https://github.com/gndx/react-eth-challenge/issues/3)
+4. [Integrar API](https://github.com/gndx/react-eth-challenge/issues/4)
+5. [Personalizar API](https://github.com/gndx/react-eth-challenge/issues/5)
+6. [Documentar](https://github.com/gndx/react-eth-challenge/issues/6)
+7. [Deploy](https://github.com/gndx/react-eth-challenge/issues/7)
 
 ### Instalación
 
