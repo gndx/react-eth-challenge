@@ -4,7 +4,7 @@ const Profile = () => {
     return (
         <div id="profile" className="prose" >
             <h2 className="Profile-title section-headline">Profile</h2>
-            <p className='Profile-description'>
+            <p className='Profile-desc'>
             I'm a self-taught web developer focusing on the core web fundamentals
             - HTML, CSS and JS. I'm experienced in frontend frameworks like Vue
             and React and static site generators like Next.js and Eleventy. I

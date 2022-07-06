@@ -12,6 +12,10 @@ const Languages = () => {
                 <h3 className="Languages-item font-semibold">English</h3>
                 <p>Fluent</p>
             </div>
+            <div>
+                <h3 className="Languages-item font-semibold">Spanish</h3>
+                <p>Native</p>
+            </div>
       </div>
     );
 };
