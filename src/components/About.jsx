@@ -2,14 +2,13 @@ import React from 'react';
 
 const About = () => {
   return (
-      <div>
-        <h1 className="Header-title">Julian Murphy</h1>
-        <h3 className="Header-job-title">Developer</h3>
-        <p className="Header-phone">+54 293129451</p>
-        <p className="Header-email">miemail@email.com</p>
-        <p className="Header-website">mi-site.com</p>
-        <p className="Header-address">Av. siempre viva 1234</p>
-      </div>
+      <>
+        <h3 className="About-title">Developer</h3>
+        <p className="About-item">+54 293129451</p>
+        <p className="About-item">miemail@email.com</p>
+        <p className="About-item">mi-site.com</p>
+        <p className="About-item">Av. siempre viva 1234</p>
+      </>
   );
 }
 

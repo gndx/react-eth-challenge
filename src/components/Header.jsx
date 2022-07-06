@@ -3,10 +3,13 @@ import '../styles/components/Header.styl';
 
 const Header = (props) => {
   return (
-    <div className="Header">
+    <header className="Header">
       <img src="https://picsum.photos/200/300"/>
-      {props.children}
-    </div>
+      <div>
+        <h1 className="Header-title">Julian Murphy</h1>
+        {props.children}
+      </div>
+    </header>
   );
 }
 
