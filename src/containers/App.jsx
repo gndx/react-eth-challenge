@@ -18,9 +18,10 @@ const App = () => {
   }, []);
 
   const getUserData = async () => {
-    const data = await getData(
-      process.env.USER_DATA || 'http://localhost:3000/data'
+    const { data } = await getData(
+      'https://mocki.io/v1/e5dae77f-b240-4e07-aaa1-f6c00293d96d'
     );
+
     setUser(data);
   };
 
