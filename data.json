@@ -71,19 +71,19 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75"
+        "percentage": "75%"
       },
       {
         "name": "CSS",
-        "percentage": "25"
+        "percentage": "25%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55"
+        "percentage": "55%"
       },
       {
         "name": "React",
-        "percentage": "90"
+        "percentage": "90%"
       }
     ],
     "interest": [
