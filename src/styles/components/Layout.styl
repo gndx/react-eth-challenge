@@ -1,0 +1,29 @@
+.Layout
+    display: grid
+    grid-template-columns: repeat(2,1fr)
+    grid-template-rows: repeat(5,1fr)
+    grid-template-areas: "Header Header" "Profile Profile" "Experience Experience" "Academic Skills" "Interest Languages"
+
+    & >:nth-child(n)
+        border: 2px solid var(--md-sys-color-on-background)
+
+    & >:nth-child(1)
+        grid-area: Header
+
+    & >:nth-child(2)
+        grid-area: Profile
+
+    & >:nth-child(3)
+        grid-area: Experience
+
+    & >:nth-child(4)
+        grid-area: Academic
+
+    & >:nth-child(5)
+        grid-area: Skills
+
+    & >:nth-child(6)
+        grid-area: Interest
+
+    & >:nth-child(7)
+        grid-area: Languages
