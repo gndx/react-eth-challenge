@@ -3,7 +3,7 @@
 Solución al reto:
 
 Nombre: Leonardo Omaña
-Usuario Platzi: Jose Leonardo Omaña Cortes
+Usuario Platzi: LeoOmanha
 
 Para desarrollar este proyecto, me basé en TDD, de esta manera iba haciendo check de todos los tests de la app.
 
