@@ -8,19 +8,34 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import { useData } from '../hooks/useData';
 
 const App = () => {
+  const {data} = useData()
+
   return (
     <>
-      <Header>
-        <About />
+      <Header 
+        name={data?.name} 
+        profile={data?.profile} 
+        social={data?.social} 
+        avatar={data?.avatar}
+        profession={data?.profession}
+      >
+        <About 
+          profile={data?.profile}
+          address={data?.address} 
+          email={data?.email} 
+          website={data?.website} 
+          phone={data?.phone} 
+        />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
+      <Profile profile={data?.profile}/>
+      <Experience exp={data?.experience}/>
+      {/*<Academic />
       <Skills />
       <Interest />
-      <Languages />
+      <Languages /> */}
     </>
   )
 };
