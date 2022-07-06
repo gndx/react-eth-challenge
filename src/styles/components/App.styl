@@ -15,6 +15,11 @@ h4
   font-size: 2.2em;
   color: #1A438B;
 
+h5
+  font-size: 1.4em;
+  color: #aeacb8;
+  font-weight: normal;
+
 span
   font-size: 1.6em;
 
@@ -59,6 +64,7 @@ ul
   max-width: 25em;
   height: 100%;
   justify-content: space-around;
+  margin-bottom: 2em;
   .Header-social
     width: 100%;
     display: flex;
@@ -128,6 +134,27 @@ ul
     max-width: 32em;
     object-fit: contain;
 
+.Experience
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  background: url("https://i.imgur.com/wjW7rzz.jpg")
+  background-repeat: no-repeat;
+  background-size: cover;
+  .Experience-container
+    background: rgba(0, 0, 0, 0.842);
+    margin: 6em;
+    padding: 3em;
+    border-radius: 2em;
+    span, h2
+      color: white;
+    .Experience-title
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    .Experience-item
+      margin-block: 1em;
+
+
 @media screen and (max-width: 960px)
   .Header 
     padding: 4em 2em 0 2em;
@@ -161,4 +188,6 @@ ul
   .Profile
     flex-flow: column;
     align-items: center;
+    text-align: center;
+  .Experience-title, .Experience-item
     text-align: center;
