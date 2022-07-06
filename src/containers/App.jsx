@@ -18,7 +18,9 @@ const App = () => {
   }, []);
 
   const getUserData = async () => {
-    const data = await getData('http://localhost:3000/data');
+    const data = await getData(
+      process.env.USER_DATA || 'http://localhost:3000/data'
+    );
     setUser(data);
   };
 
