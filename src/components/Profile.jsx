@@ -2,7 +2,7 @@ import React from 'react';
 
 const Profile = () => {
   return (
-    <content>
+    <article>
       <h2 className="Profile-title">Profile</h2>
       <p className="Profile-desc">
         I'm a Front End web developer. I have experience on the implementation
@@ -12,7 +12,7 @@ const Profile = () => {
         constantly become a better developer and expand my knowledge in this
         area. I also enjoy and I am very open about teaching others.
       </p>
-    </content>
+    </article>
   );
 };
 

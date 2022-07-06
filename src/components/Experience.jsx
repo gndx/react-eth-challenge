@@ -2,14 +2,14 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <content>
+    <article>
       <h2 className="Experience-title">Experience</h2>
-      <article>
-        <h3 className="Experience-item">Frontend developer at Rappi</h3>
-        <h3 className="Experience-item">Frontend developer at Merqueo</h3>
-        <h3 className="Experience-item">Frontend developer at Grability</h3>
-      </article>
-    </content>
+      <ul>
+        <li className="Experience-item">Frontend developer at Rappi</li>
+        <li className="Experience-item">Frontend developer at Merqueo</li>
+        <li className="Experience-item">Frontend developer at Grability</li>
+      </ul>
+    </article>
   );
 };
 

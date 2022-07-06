@@ -2,14 +2,14 @@ import React from 'react';
 
 const Languages = () => {
   return (
-    <content>
+    <article>
       <h2 className="Languages-title">Languages</h2>
-      <article>
-        <h3 className="Languages-item">Spanish</h3>
-        <h3 className="Languages-item">English</h3>
-        <h3 className="Languages-item">Music</h3>
-      </article>
-    </content>
+      <ul>
+        <li className="Languages-item">Spanish</li>
+        <li className="Languages-item">English</li>
+        <li className="Languages-item">Music</li>
+      </ul>
+    </article>
   );
 };
 
