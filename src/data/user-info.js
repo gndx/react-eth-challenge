@@ -75,4 +75,20 @@ export const user = {
       level: '9.5',
     },
   ],
+  interest: [
+    {
+      title: 'Music',
+    },
+    {
+      title: 'Video Games',
+    },
+  ],
+  lenguages: [
+    {
+      title: 'Español',
+    },
+    {
+      title: 'Inglés',
+    },
+  ],
 };
