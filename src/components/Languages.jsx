@@ -3,9 +3,13 @@ import PropTypes from 'prop-types';
 import '../styles/App.css';
 import { Box } from './Box';
 
-export const Languages = () => {
+export const Languages = ({ className }) => {
   return (
-    <Box classTitle="Languages-title" title={'Languages-title'}>
+    <Box
+      className={className}
+      classTitle="Languages-title"
+      title={'Languages-title'}
+    >
       <div>
         <p className={'Languages-item'}>Languages-item</p>
         <p className={'Languages-item'}>Languages-item</p>
@@ -15,6 +19,11 @@ export const Languages = () => {
   );
 };
 
-Languages.propTypes = {};
+Languages.propTypes = {
+  className: PropTypes.string,
+};
 
+Languages.defaultProps = {
+  className: '',
+};
 export default Languages;

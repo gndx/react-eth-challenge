@@ -4,6 +4,7 @@ body {
 
 .Box {
   min-height: 150px;
+  max-height: 200px;
   margin: 5px;
   padding: 10px;
   background-color: aquamarine;
@@ -23,4 +24,48 @@ body {
 .About-item {
 }
 .About-title {
+}
+
+.vite-grid {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'label0 label0'
+    'label1 label1'
+    'label2 label2'
+    'label3 label4'
+    'label5 label6';
+  gap: 0px;
+  height: 100%;
+}
+
+.item-0 {
+  background-color: #8e7d7e;
+  grid-area: label0;
+}
+.item-1 {
+  background-color: #db59ae;
+  grid-area: label1;
+}
+.item-2 {
+  background-color: #d8ad5b;
+  grid-area: label2;
+}
+.item-3 {
+  background-color: #ddf9f8;
+  grid-area: label3;
+}
+.item-4 {
+  background-color: #bb9dbe;
+  grid-area: label4;
+}
+.item-5 {
+  background-color: #bc9cdc;
+  grid-area: label5;
+}
+.item-6 {
+  background-color: #857cbe;
+  grid-area: label6;
 }

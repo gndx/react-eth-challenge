@@ -15,7 +15,7 @@ const Avatar = ({ avatar }) => {
 const Header = ({ children, className, title }) => {
   const { profile } = useVite();
   return (
-    <Box className={`Header-container`}>
+    <Box className={`${className} Header-container`}>
       <header style={{ display: 'flex' }}>
         <Avatar avatar={profile?.avatar} />
         <div>

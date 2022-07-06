@@ -3,9 +3,13 @@ import PropTypes from 'prop-types';
 import '../styles/App.css';
 import { Box } from './Box';
 
-export const Interest = () => {
+export const Interest = ({ className }) => {
   return (
-    <Box classTitle="Interest-title" title={'Interest-title'}>
+    <Box
+      className={className}
+      classTitle="Interest-title"
+      title={'Interest-title'}
+    >
       <div>
         <p className={'Interest-item'}>Experience-item</p>
         <p className={'Interest-item'}>Experience-item</p>
@@ -15,6 +19,12 @@ export const Interest = () => {
   );
 };
 
-Interest.propTypes = {};
+Interest.propTypes = {
+  className: PropTypes.string,
+};
+
+Interest.defaultProps = {
+  className: '',
+};
 
 export default Interest;
