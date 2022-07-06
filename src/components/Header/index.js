@@ -2,9 +2,10 @@ import React from 'react';
 import db from '../../../data.json';
 import { Anchor, Image, Text, HeaderStyle } from './styles';
 
-export default function Header() {
+function Header() {
   return (
-    <HeaderStyle>
+
+    <HeaderStyle className='header'>
       <Anchor>
         <Image
           alt='Avatar'
@@ -13,7 +14,7 @@ export default function Header() {
       </Anchor>
       <Text>
         {' '}
-        <h1>{db.data.name}</h1>
+        <h1 className='Header-title'>{db.data.name}</h1>
         Profession:
         {' '}
         {db.data.profession}
@@ -37,5 +38,8 @@ export default function Header() {
       </Text>
 
     </HeaderStyle>
+
   );
 };
+
+export default Header;

@@ -1,12 +1,23 @@
 import React from 'react';
-import { MdFavoriteBorder } from 'react-icons/md';
+import db from '../../../data.json';
+import { Text, ProfileStyle } from './styles';
 
-export default function Profile() {
+function Profile() {
   return (
-    <button type='button'>
-      <MdFavoriteBorder size='32px' />
-      0
-      likes!
-    </button>
+
+    <ProfileStyle className='profile'>
+      <Text>
+        {' '}
+        <h2 className='Profile-title'>Profile</h2>
+        <div className='Profile-desc'>
+          {' '}
+          {db.data.profile}
+        </div>
+      </Text>
+
+    </ProfileStyle>
+
   );
 };
+
+export default Profile;

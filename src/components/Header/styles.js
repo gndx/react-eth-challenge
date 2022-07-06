@@ -7,8 +7,7 @@ export const Anchor = styled.a`
   flex-direction: column;
   text-align: center;
   text-decoration: none;
-  width: 75px;
-  padding: 10px;
+  width: 140px;
   padding-right: 30px;
 `;
 
@@ -19,8 +18,7 @@ export const Image = styled.img`
   height: auto;
   overflow: hidden;
   object-fit: cover;
-  height: 75px;
-  width: 75px;
+  width: 100%;
 `;
 
 export const Text = styled.div`
@@ -29,4 +27,9 @@ export const Text = styled.div`
 
 export const HeaderStyle = styled.div`
   background-color: lightblue;
+  box-shadow: 0px 14px 18px rgba(0, 0, 0, .2);
+  border-radius: 15px;
+  padding: 15px;
+  padding-bottom: 30px;
 `;
+
