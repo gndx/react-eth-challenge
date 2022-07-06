@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import '../styles/components/App.styl';
+import Layout from '../components/Layout';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -9,9 +10,9 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
-const App = () => {
+function App() {
   return (
-    <Fragment>
+    <Layout>
       <Header>
         <About />
       </Header>
@@ -21,8 +22,8 @@ const App = () => {
       <Skills />
       <Interest />
       <Languages />
-    </Fragment>
+    </Layout>
   );
-};
+}
 
 export default App;
