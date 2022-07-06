@@ -1,7 +1,15 @@
 import React from 'react';
 import './Header.styl';
 
-export const Header = ({ name, position, phone, email, website, image }) => {
+export const Header = ({
+  name,
+  position,
+  phone,
+  email,
+  website,
+  image,
+  children,
+}) => {
   return (
     <header className="Header-title">
       <img src={image} alt={name} />
@@ -20,6 +28,7 @@ export const Header = ({ name, position, phone, email, website, image }) => {
           Website
         </a>
       </div>
+      <section className="about">{children}</section>
     </header>
   );
 };
