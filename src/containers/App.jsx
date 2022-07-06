@@ -18,7 +18,7 @@ const App = () => {
       </Header>
       <Profile description={user.description} />
       <Experience experience={user.experience} />
-      <Academic />
+      <Academic academic={user.academic} />
       {/* 
       <Skills />
       <Interest />

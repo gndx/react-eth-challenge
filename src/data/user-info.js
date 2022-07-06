@@ -42,4 +42,19 @@ export const user = {
       link: 'http://protecounam.mx/',
     },
   ],
+  academic: [
+    {
+      title: 'Platzi',
+      periodRole: '10/2019 - Actualidad ',
+      description:
+        'Fui parte del cohor 2 de platzi master, aprendí de tecnologías como Javascript, Angular y react, Actualmente estoy aprendiendo Web 3',
+      link: 'https://platzi.com',
+    },
+    {
+      title: 'UNAM',
+      periodRole: '2015 -2022',
+      description: 'Ingeniería eléctrica electrónica',
+      link: 'https://www.unam.mx/',
+    },
+  ],
 };
