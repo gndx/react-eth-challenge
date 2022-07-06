@@ -11,10 +11,6 @@
     "lint": "eslint src/ --fix",
     "test": "jest"
   },
-  "engines": {
-    "node": "16.x",
-    "npm":"8.13.x"
-  },
   "keywords": [
     "react",
     "webpack"
