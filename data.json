@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Leonardo Omaña",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "leotangram@gmail.com",
+    "website": "https://github.com/leotangram",
+    "phone": "3004864294",
+    "avatar": "https://en.gravatar.com/userimage/130923144/2f3ca8ef02de23da584520516503660e?size=200",
+    "Profile": "I'm a Front End web developer. I have experience on the implementation of web applications using a wide range of technologies such as HTML, CSS, JavaScript, TypeScript, React and React Native. I considere my self with skills like tenacity, calm and persistence that have allowed me to constantly become a better developer and expand my knowledge in this area. I also enjoy and I am very open about teaching others.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,55 +24,48 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Ethereum Foundation + Platzi - Ethereum Developer",
+        "description": "Scholarship acquired, by solving a challenge proposed by Platzi de JavaScript. Platzi in collaboration with the Ethereum Foundation created this program by giving scholarships to 100 students to boost our professional career in Web3",
+        "institution": "Platzi"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Software Engineer",
+        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack.",
+        "institution": "Politécnico Grancolombiano University"
+      },
+      {
+        "degree": "Continue Education",
+        "description": "In addition to traditional education, I am constantly studying on platforms like Udemy, Platzi, Frontends Master. Expanding my Skills in technologies such as Express, REST, GraphQl, TDD, NodeJS, Clean Code, among others.",
+        "institution": "Platzi, Udemy, Frontend Masters"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Rappi",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "Front End Developer in Rappi - Partners Portal with React. Creation of internal design libraries with StoryBook, TypeScript. Development of microsites. Testing with Jest & Testing library. Interviews with new developers for the project",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "Feb 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Merqueo",
+        "endDate": "Feb 2020",
+        "jobDescription": "Front End Developer in Web Application with Vue, Vuex and Nuxt",
+        "jobTitle": "Frontend",
+        "startDate": "Nov 2019"
+      },
+      {
+        "company": "Grability",
+        "endDate": "Nov 2019",
+        "jobDescription": "Frontend/Mobile Developer in React Native for 'El corte Inglés'",
+        "jobTitle": "Frontend / Mobile",
+        "startDate": "Aug 2019"
       }
     ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
+    "skills": ["HTML5", "CSS", "JavaScript", "React"],
     "interest": [
+      "BlockChain",
+      "Web3",
       "javascript",
       "develop",
       "backend",
@@ -86,24 +79,24 @@
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Music",
+        "percentage": "86%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/leotangram"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/leotangram"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/leotangram/"
       }
     ]
   }
