@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.styl';
 
-export const About = (descriptionList) => {
+export const About = ({ descriptionList }) => {
   const itemList = Object.values(descriptionList);
   return (
     <div className="About-title">

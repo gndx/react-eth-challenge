@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/components/App.styl';
 import { Header } from '../components/Header';
 import { About } from '../components/About';
-// import Profile from '../components/Profile';
+import { Profile } from '../components/Profile';
 // import Experience from '../components/Experience';
 // import Academic from '../components/Academic';
 // import Skills from '../components/Skills';
@@ -18,18 +18,21 @@ const user = {
   image: 'https://www.armandorivera.tech/assets/images/armando-rivera.png',
   descriptionList: [
     'Soy un frontend centrado en la creación de productos digitales',
-    'Me encanta centrarme en los detalles de las experiencias de nuevos productos',
+    'Apasionado del código y del ecosistema JavaScript',
+    'Aprendiz de web3',
   ],
+  description:
+    'Me encanta centrarme en los detalles de las experiencias de nuevos productos con una implementación en código perfecta. Pero los grandes productos no comienzan ahí, comienzan con una sólida colaboración con los compañeros de equipo de investigación, ingeniería y productos para comprender los problemas y las circunstancias de los clientes.',
 };
 
 const App = () => {
   return (
     <>
       <Header {...user}>
-        <About {...user.descriptionList} />
+        <About descriptionList={user.descriptionList} />
       </Header>
-      {/* <Header><About /></Header> */}
-      {/* <Profile />
+      <Profile description={user.description} />
+      {/* 
       <Experience />
       <Academic />
       <Skills />
