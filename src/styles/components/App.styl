@@ -125,7 +125,7 @@ ul
     margin-bottom: 1em;
   .Profile-info
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-flow: column;
   .Profile-desc
     max-width: 32em;
@@ -141,6 +141,7 @@ ul
   background: url("https://i.imgur.com/wjW7rzz.jpg")
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   .Experience-container
     background: rgba(0, 0, 0, 0.842);
     margin: 6em;
@@ -149,6 +150,29 @@ ul
     span, h2
       color: white;
     .Experience-title
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    .Experience-item
+      margin-block: 1em;
+
+.Academic
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  background: url("https://i.imgur.com/tjbUuwt.jpg")
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .Academic-container
+    background: rgba(0, 0, 0, 0.842);
+    margin: 6em;
+    padding: 3em;
+    border-radius: 2em;
+    span, h2, h3
+      color: white;
+    h3
+      font-weight: normal;
+    .Academic-title
       font-weight: bold;
       margin-bottom: 0.5em;
     .Experience-item

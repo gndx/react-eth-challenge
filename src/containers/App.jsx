@@ -34,10 +34,10 @@ const App = () => {
           phone={data?.phone} 
         />
       </Header>
-      <Profile profile={data?.profile}/>
-      <Experience exp={data?.experience}/>
-      {/*<Academic />
-      <Skills />
+      <Profile profile={data?.profile} />
+      <Experience exp={data?.experience} />
+      <Academic academic={data?.academic} certificate={data?.certificate} />
+      {/*<Skills />
       <Interest />
       <Languages /> */}
     </>

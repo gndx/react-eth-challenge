@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function ExperienceCard({item}){
-  console.log(item)
   return (
     <>
       <h4>{item.jobTitle}</h4>
