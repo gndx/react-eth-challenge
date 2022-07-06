@@ -1,15 +1,18 @@
 import React from 'react';
 import Card from './Card';
 
-const Skills = () => {
+const Skills = ({ skills = Array(3).fill('') }) => {
   return (
     <Card>
       <h2 className="Skills-title">Skills</h2>
       <ul>
-        <li className="Skills-item">React</li>
-        <li className="Skills-item">Next</li>
-        <li className="Skills-item">Git</li>
+        {skills.map((skill, index) => (
+          <li key={`${skill}_${index}`} className="Skills-item">
+            <h4>{skill}</h4>
+          </li>
+        ))}
       </ul>
+      <hr />
     </Card>
   );
 };

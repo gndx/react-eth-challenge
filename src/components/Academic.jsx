@@ -1,14 +1,23 @@
 import React from 'react';
 import Card from './Card';
 
-const Academic = () => {
+const Academic = ({
+  academic = Array(3).fill({ degree: '', description: '', institution: '' }),
+}) => {
   return (
     <Card>
       <h2 className="Academic-title">Academic</h2>
       <ul>
-        <li className="Academic-item">Software engineer</li>
-        <li className="Academic-item">Ethereum Developer Program</li>
-        <li className="Academic-item">Producer & Composer</li>
+        {academic.map(({ degree, description, institution }, index) => (
+          <li
+            key={`${degree}_${description}_${institution}_${index}`}
+            className="Academic-item"
+          >
+            <h3>{degree}</h3>
+            <p>{description}</p>
+            <h4>{institution}</h4>
+          </li>
+        ))}
       </ul>
     </Card>
   );
