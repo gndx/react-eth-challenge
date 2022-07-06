@@ -16,11 +16,13 @@ const Header = ({ children, className, title }) => {
   const { profile } = useVite();
   return (
     <Box className={`${className} Header-container}`}>
-      <Avatar avatar={profile?.avatar} />
-      <div>
-        <h1 className={`Header-title`}>{title ? title : profile?.name}</h1>
-        {children}
-      </div>
+      <header style={{ display: 'flex' }}>
+        <Avatar avatar={profile?.avatar} />
+        <div>
+          <h1 className="Header-title">{title ? title : profile?.name}</h1>
+          {children}
+        </div>
+      </header>
     </Box>
   );
 };

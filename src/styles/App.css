@@ -3,7 +3,6 @@ body {
 }
 
 .Box {
-  display: flex;
   min-height: 150px;
   margin: 5px;
   padding: 10px;
