@@ -1,13 +1,15 @@
 import React from 'react';
 
-const DEFAULT_IMAGE = 'https://www.pngfind.com/pngs/m/21-215596_smiley-png-transparent-background-smiley-face-png-png.png'
+const DEFAULT_IMAGE = 'https://avatars.githubusercontent.com/sergiogval'
 
 export const Header = () => {
     return (
       <header>
+        <img src={DEFAULT_IMAGE} alt='avatar' />
         <h1 className='Header-title'>Sergio Valadez</h1>
         <p className='Header-job-title'>Current job: Freelancer</p>
-        <snap className='Header-email'>Correo: sergioval@gmail.com</snap>
+        <p className='Header-email'>Correo: sergioval@gmail.com</p>
+
       </header>
     );
 }
