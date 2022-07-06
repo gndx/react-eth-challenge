@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-2xl mb-1 font-medium;
+}
+h2 {
+  @apply text-xl mb-4 font-medium;
+}
+h3 {
+  @apply text-lg font-medium;
+}
+p {
+  @apply text-base;
+}
+
+.btn {
+  @apply border-2 rounded-xl px-4 py-2;
+}
+
+.btn--blue {
+  @apply btn text-white bg-blue-600;
+}
+
+.bg-gradient {
+  background-image: radial-gradient(
+    circle 610px at 5.2% 51.6%,
+    rgba(5, 8, 114, 1) 0%,
+    rgba(7, 3, 53, 1) 97.5%
+  );
+}
+
+.glass {
+  @apply bg-[rgba(255,255,255,0.1)] shadow-[0_8px_32px_0_rgba(1,1,1,0.1)];
+  backdrop-filter: blur(50px);
+  transition: 0.3s;
+}
+
+.glass:hover {
+  @apply bg-[rgba(255,255,255,0.12)];
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.link {
+  @apply flex items-center transition duration-200 ease-in-out hover:text-cyan-400  hover:drop-shadow-[0_0_8px_rgba(50,50,255,0.2)];
+}

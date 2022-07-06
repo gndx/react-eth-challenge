@@ -1,13 +1,14 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "name": "Gonzalo Othacehe",
+    "profession": "Frontend & Smart Contract Developer",
+    "address": "Mar del Plata, Argentina",
+    "email": "gonza.otc@gmail.com",
+    "website": "nulo.com",
+    "phone": "223 456 789",
+    "avatar": "https://i.postimg.cc/D0vbqtz0/1.jpg",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "welook": "https://www.welook.io/static/media/welook-logo-main.356ecc8f4e93d5e7435ef73cca5d7e33.svg",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -72,12 +73,7 @@
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
