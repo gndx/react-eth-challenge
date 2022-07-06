@@ -13,12 +13,12 @@ const Avatar = ({ avatar }) => {
 };
 
 const Header = ({ children, className, title }) => {
-  const { user } = useVite();
+  const { profile } = useVite();
   return (
     <Box className={`${className} Header-container}`}>
-      <Avatar />
+      <Avatar avatar={profile?.avatar} />
       <div>
-        <h1 className={`Header-title`}>{title ? title : user?.name}</h1>
+        <h1 className={`Header-title`}>{title ? title : profile?.name}</h1>
         {children}
       </div>
     </Box>

@@ -22,10 +22,40 @@ export const ViteProvider = ({ children, url }) => {
     languages: [],
     social: [],
   });
+  const [profile, setProfile] = useState({
+    name: '',
+    profession: '',
+    address: '',
+    email: '',
+    website: '',
+    phone: '',
+    avatar: '',
+    Profile: '',
+  });
   useEffect(() => {
     async function fetchData() {
       try {
         const data = await getData(url);
+        const {
+          name,
+          profession,
+          address,
+          email,
+          website,
+          phone,
+          avatar,
+          Profile,
+        } = data;
+        setProfile({
+          name,
+          profession,
+          address,
+          email,
+          website,
+          phone,
+          avatar,
+          Profile,
+        });
         setUser(data);
       } catch (e) {
         console.error(e);
@@ -35,7 +65,9 @@ export const ViteProvider = ({ children, url }) => {
   }, []);
 
   return (
-    <ViteContext.Provider value={{ user }}>{children}</ViteContext.Provider>
+    <ViteContext.Provider value={{ user, profile }}>
+      {children}
+    </ViteContext.Provider>
   );
 };
 
