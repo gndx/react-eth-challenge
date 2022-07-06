@@ -35,9 +35,16 @@
       {
         "company": "Novared",
         "endDate": "Enero 2022",
-        "jobDescription": "Maquetación de interfaz de un proyecto interno",
+        "jobDescription": "Maquetación de interfaz de un proyecto interno en el que se realizó una web app para gestión interna, una aplicación nativa para los usuarios generales (iOS & Android) y otra aplicación nativa de logística para Novared (Android)",
         "jobTitle": "Frontend Developer",
         "startDate": "Mayo 2021"
+      },
+      {
+        "company": "Frescro",
+        "endDate": "Junio 2021",
+        "jobDescription": "Creación de tienda virtual para la venta de productos agricolas con un content manager (Wordpress) y plugin de gestión (WooCommerce)",
+        "jobTitle": "Web Developer",
+        "startDate": "Enero 2020"
       },
       {
         "company": "Enerit",

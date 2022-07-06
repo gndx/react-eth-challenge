@@ -11,7 +11,11 @@ import Languages from '../components/Languages';
 import { useData } from '../hooks/useData';
 
 const App = () => {
-  const {data} = useData()
+  const {data, loading} = useData()
+
+  if (loading) {
+    return <div>Loading...</div>
+  }
 
   return (
     <>

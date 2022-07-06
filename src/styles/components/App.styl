@@ -112,15 +112,21 @@ ul
 .Profile
   display: flex;
   background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(220,201,182,1) 100%);
-  padding: 6em 0 6em 6em;
+  padding: 6em;
+  justify-content: space-around;
   .Profile-title
     font-weight: bold;
+    margin-bottom: 1em;
   .Profile-info
     display: flex;
     justify-content: space-around;
     flex-flow: column;
+  .Profile-desc
+    max-width: 32em;
+    min-width: 20em;
   img
-    max-width: 25em;
+    max-width: 32em;
+    object-fit: contain;
 
 @media screen and (max-width: 960px)
   .Header 
@@ -143,6 +149,12 @@ ul
   .About
     padding: 4em 2em;
 
+@media screen and (max-width: 800px)
+  .Profile
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+
 @media screen and (max-width: 620px)
   .Header-info
     grid-template-columns: 1fr!important;
@@ -150,5 +162,3 @@ ul
     flex-flow: column;
     align-items: center;
     text-align: center;
-    .Profile-title
-      margin-bottom: 1em;

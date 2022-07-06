@@ -13,11 +13,14 @@ export const useData = () => {
 }
 
 function useProviderData(){
+  const [loading, setLoading] = useState(true)
   const [data, setData] = useState(async () => {
     getData()
       .then(res => setData(res))
+      .then(() => setLoading(false))
   })
   return {
-    data
+    data,
+    loading
   }
 }
