@@ -1,3 +1,29 @@
 body {
   background-color: blue;
 }
+
+.Box {
+  display: flex;
+  min-height: 150px;
+  margin: 5px;
+  padding: 10px;
+  background-color: aquamarine;
+}
+.Header-container {
+  background-color: aqua;
+}
+.Header-avatar {
+  margin: 5px;
+}
+.Header-avatar img {
+  border-radius: 50%;
+}
+.Header-title {
+  font-size: x-large;
+}
+.About-item {
+  color: red;
+}
+.About-title {
+  color: rebeccapurple;
+}

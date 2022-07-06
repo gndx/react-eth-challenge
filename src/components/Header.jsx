@@ -1,22 +1,24 @@
 import React from 'react';
-import styles from '../styles/styles.module.css';
+import '../styles/App.css';
 import PropTypes from 'prop-types';
 import { Box } from './Box';
+import { useVite } from '../context/ViteContext';
 
 const Avatar = ({ avatar }) => {
   return (
-    <picture className={`${styles['Header-avatar']}`}>
+    <picture className={'Header-avatar'}>
       <img src={avatar} />
     </picture>
   );
 };
 
 const Header = ({ children, className, title }) => {
+  const { user } = useVite();
   return (
-    <Box className={`${className} ${styles['Header-container']}`}>
+    <Box className={`${className} Header-container}`}>
       <Avatar />
       <div>
-        <h1 className={`${styles['Header-title']}`}>{title}</h1>
+        <h1 className={`Header-title`}>{title ? title : user?.name}</h1>
         {children}
       </div>
     </Box>

@@ -1,9 +1,8 @@
 import React from 'react';
-import styles from '../styles/styles.module.css';
 import PropTypes from 'prop-types';
 
 export const Box = ({ children, className }) => {
-  return <div className={`${className} ${styles['Box']}`}>{children}</div>;
+  return <div className={`${className} Box`}>{children}</div>;
 };
 
 Box.propTypes = {
