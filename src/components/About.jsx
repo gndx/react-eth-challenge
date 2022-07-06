@@ -1,11 +1,17 @@
 import React from 'react';
+import '../styles/components/About.styl';
 
-const About = () => {
+function About() {
   return (
-    <div>
-      <i>About</i>
+    <div className='About'>
+      <i className='About-title'>About</i>
+      <ul>
+        <li className='About-item' Item />
+        <li className='About-item' Item />
+        <li className='About-item' Item />
+      </ul>
     </div>
   );
-};
+}
 
 export default About;

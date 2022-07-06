@@ -1,15 +1,17 @@
 import React from 'react';
+import '../styles/components/Languages.styl';
 
-const Languages = () => {
+function Languages() {
   return (
-    <div>
-      <ol>
-        <li>Languages</li>
-        <li>Languages</li>
-        <li>Languages</li>
-      </ol>
+    <div className='Languages'>
+      <i className='Languages-title'>About</i>
+      <ul>
+        <li className='Languages-item' Item />
+        <li className='Languages-item' Item />
+        <li className='Languages-item' Item />
+      </ul>
     </div>
   );
-};
+}
 
 export default Languages;

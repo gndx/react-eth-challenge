@@ -1,15 +1,17 @@
 import React from 'react';
+import '../styles/components/Interest.styl';
 
-const Interest = () => {
+function Interest() {
   return (
-    <div>
-      <ol>
-        <li>Interest</li>
-        <li>Interest</li>
-        <li>Interest</li>
-      </ol>
+    <div className='Interest'>
+      <i className='Interest-title'>About</i>
+      <ul>
+        <li className='Interest-item' Item />
+        <li className='Interest-item' Item />
+        <li className='Interest-item' Item />
+      </ul>
     </div>
   );
-};
+}
 
 export default Interest;

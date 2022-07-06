@@ -1,15 +1,17 @@
 import React from 'react';
+import '../styles/components/Skills.styl';
 
-const Skills = () => {
+function Skills() {
   return (
-    <div>
-      <ol>
-        <li>Skills</li>
-        <li>Skills</li>
-        <li>Skills</li>
-      </ol>
+    <div className='Skills'>
+      <i className='Skills-title'>About</i>
+      <ul>
+        <li className='Skills-item' Item />
+        <li className='Skills-item' Item />
+        <li className='Skills-item' Item />
+      </ul>
     </div>
   );
-};
+}
 
 export default Skills;
