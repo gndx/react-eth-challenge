@@ -3,11 +3,13 @@ import styled from 'styled-components';
 
 export const Anchor = styled.a`
   display: flex;
-  float: "left";
+  float: left;
   flex-direction: column;
   text-align: center;
   text-decoration: none;
   width: 75px;
+  padding: 10px;
+  padding-right: 30px;
 `;
 
 export const Image = styled.img`
@@ -19,4 +21,12 @@ export const Image = styled.img`
   object-fit: cover;
   height: 75px;
   width: 75px;
+`;
+
+export const Text = styled.div`
+  float: "left"
+`;
+
+export const HeaderStyle = styled.div`
+  background-color: lightblue;
 `;
