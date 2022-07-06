@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = ({children}) => {
     return (
-        <div className='w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white'>
+        <div className='w-full sm:max-w-sm p-8 bg-gradient-to-b from-blue-300 via-indigo-300-300 to-white'>
             <div class="px-2 mb-12">
                 <img src="https://christiankozalla.github.io/dev-resume-template/assets/jack-finnigan-rriAI0nhcbc-unsplash.d535630d.jpg" 
                 alt="Profile Picture" class="rounded-full w-48 mx-auto mb-2"/>

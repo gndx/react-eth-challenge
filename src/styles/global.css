@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .section-headline {
-  @apply font-bold sm:text-xl uppercase tracking-widest border-green-500 border-l-8 pl-2 mb-3;
+  @apply font-bold sm:text-xl uppercase tracking-widest border-blue-500 border-l-8 pl-2 mb-3;
 }
 
 progress {
@@ -21,9 +21,9 @@ progress::-webkit-progress-bar {
 
 progress::-webkit-progress-value {
   border-radius: 10px 0 0 10px;
-  background-image: linear-gradient(36deg, #d1fae5, #818cf8);
+  background-image: linear-gradient(36deg, #dbecfe, rgb(59 130 246));
 }
 
 .section-headline {
-  color: #10b981 !important;
+  color: rgb(59 130 246 / var(--tw-border-opacity)) !important;
 }
