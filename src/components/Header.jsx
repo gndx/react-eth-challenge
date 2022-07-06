@@ -11,7 +11,7 @@ export const Header = ({
   children,
 }) => {
   return (
-    <header className="Header-title">
+    <header className="Header-title wrapper">
       <img src={image} alt={name} />
       <h1>{name}</h1>
 
