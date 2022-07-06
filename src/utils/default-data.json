@@ -1,0 +1,105 @@
+{
+  "data": {
+    "name": "",
+    "profession": "",
+    "address": "",
+    "email": "",
+    "website": "",
+    "phone": "",
+    "avatar": "",
+    "Profile": "",
+    "certificate": [
+      {
+        "date": "",
+        "description": "",
+        "institution": "",
+        "name": ""
+      },
+      {
+        "date": "",
+        "description": "",
+        "institution": "",
+        "name": ""
+      }
+    ],
+    "Academic": [
+      {
+        "degree": "",
+        "description": "",
+        "endDate": "",
+        "institution": "",
+        "startDate": ""
+      },
+      {
+        "degree": "",
+        "description": " ",
+        "endDate": "",
+        "institution": "",
+        "startDate": ""
+      }
+    ],
+    "experience": [
+      {
+        "company": "",
+        "endDate": "",
+        "jobDescription": "",
+        "jobTitle": "",
+        "startDate": ""
+      },
+      {
+        "company": "",
+        "endDate": "J",
+        "jobDescription": "",
+        "jobTitle": "",
+        "startDate": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "",
+        "percentage": ""
+      },
+      {
+        "name": "",
+        "percentage": ""
+      },
+      {
+        "name": "",
+        "percentage": ""
+      },
+      {
+        "name": "",
+        "percentage": ""
+      }
+    ],
+    "interest": ["", "", "", ""],
+    "languages": [
+      {
+        "name": "",
+        "percentage": ""
+      },
+      {
+        "name": "",
+        "percentage": ""
+      }
+    ],
+    "social": [
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      },
+      {
+        "name": "",
+        "url": ""
+      }
+    ]
+  }
+}

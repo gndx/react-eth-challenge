@@ -1,22 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AppContext } from '../AppContext';
+import  LanguageItem  from './LanguageItem';
 
 const Languages = () => {
-    return (
+    const {data: {languages}}=useContext(AppContext)
+    return (        
         <div className="font-light text-lg px-2 mb-12">
         <h2 className="Languages-title text-xl font-semibold mb-4">Languages</h2>
-            <div>
-                <h3 className="Languages-item font-semibold">German</h3>
-                <p>Native</p>
-            </div>
-            <div>
-                <h3 className="Languages-item font-semibold">English</h3>
-                <p>Fluent</p>
-            </div>
-            <div>
-                <h3 className="Languages-item font-semibold">Spanish</h3>
-                <p>Native</p>
-            </div>
-      </div>
+            {
+            languages?.map((language, index)=>(
+                <div className='Languages-item' key={`langauge-${index}`}>
+                    <LanguageItem language={language}/>
+                </div>))
+            } 
+        </div>
     );
 };
 

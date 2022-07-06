@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AppContext } from '../AppContext';
 import AcademicItem from './AcademicItem';
 
 const Academic = () => {
+  const {data: {Academic}}=useContext(AppContext)
     return (
         <div id="Academic" className="prose">
         <h2 className="Academic-title section-headline">Academic</h2>
-        {[1,2,3].map(item=><div  key={item} className='Academic-item'><AcademicItem/></div>)}
+        {Academic?.map((item, index)=><div  key={`academic-${index}`} className='Academic-item'><AcademicItem item={item}/></div>)}
       </div>
     );
 };

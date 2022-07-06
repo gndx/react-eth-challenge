@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AppContext } from '../AppContext';
 import ExperiencesItem from './ExperiencesItem';
 
 const Experience = () => {
+  const {data: {experience}}=useContext(AppContext)
     return (
         <div id="experience" className="prose">
         <h2 className="Experience-title section-headline">Experience</h2>
-        {[1,2,3].map(item=><div  key={item} className='Experience-item'><ExperiencesItem /></div>)}
+        {experience?.map((experience, index)=><div  key={`experiende-${index}`} className='Experience-item'><ExperiencesItem experience={experience}/></div>)}
       </div>
     );
 };
