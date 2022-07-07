@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/components/Academic.styl';
 
 const Academic = ({ data }) => {
- console.log(data) ;
   return (
     <div className="Academic">
       <h3 className="Academic-title">Académico</h3>
@@ -20,7 +19,7 @@ const Academic = ({ data }) => {
             )
           })
         : 
-          <></>
+          <li>Cargando data...</li>
       }
       </ul>
     </div>
