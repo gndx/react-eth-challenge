@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = ({ children }) => {
+function Header({ children }) {
   return (
     <div>
       <h1>.Header-title</h1>
@@ -12,6 +12,6 @@ const Header = ({ children }) => {
       {children}
     </div>
   );
-};
+}
 
 export default Header;
