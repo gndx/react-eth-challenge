@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Francisco Cruz",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
+    "email": "francisco@example.com",
+    "website": "https://cryptocrea.co",
+    "phone": "3333333",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": " Todo conocimiento es relevante ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,39 +24,35 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Medical doctor"
+
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Software developer technologist"
+      },
+      {
+        "degree": "School Bachelor"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "10pearls",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "jobDescription": "Frontend development on AEM platform.",
+        "jobTitle": "Aem Frontend Developer",
         "startDate": "Jan 2020"
       },
       {
-        "company": "CatStore",
+        "company": "Avionos",
         "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
+        "jobDescription": "Frontend development on AEM platform.",
+        "jobTitle": "Aem Frontend Developer",
         "startDate": "Sept 2019"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
+        "name": "HTML",
         "percentage": "75%"
       },
       {
@@ -73,34 +69,20 @@
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
+      "AEM",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "80%"
       }
     ],
     "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/"
