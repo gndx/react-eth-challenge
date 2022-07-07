@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Academic = () => {
-  return <div>Academic</div>;
+  return <div className="Academic-title">Academic</div>;
 };
 
 export default Academic;

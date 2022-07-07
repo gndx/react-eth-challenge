@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Interest = () => {
-  return <div>Interest</div>;
+  return <div className="Interest-title">Interest</div>;
 };
 
 export default Interest;
