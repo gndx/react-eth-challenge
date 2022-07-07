@@ -7,7 +7,7 @@ export default function Experience({ exp = [{}, {}, {}] }) {
       <div className='Experience-container'>
         <h2 className='Experience-title'>Experiencias laborales</h2>
         <ul>
-          {exp[0].company && exp?.sort((a, b) => new Date(b.endDate) - new Date(a.endDate))?.map((item, index) => (
+          {exp?.sort((a, b) => new Date(b.endDate) - new Date(a.endDate))?.map((item, index) => (
             <li key={`${item.company}`} className='Experience-item'>
               <ExperienceCard item={item} />
             </li>

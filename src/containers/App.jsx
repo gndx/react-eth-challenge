@@ -11,11 +11,7 @@ import Languages from '../components/Languages';
 import { useData } from '../hooks/useData';
 
 const App = () => {
-  const {data, loading, setLoading} = useData()
-
-  window.addEventListener('DOMContentLoaded', () => { 
-    setLoading(false)
-  })
+  const {data, loading} = useData()
   
   if (loading) {
     return <div>Loading...</div>

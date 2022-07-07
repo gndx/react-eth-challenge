@@ -7,7 +7,8 @@ function useProviderData() {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState(async () => {
     const data = await getData('http://localhost:3000/data');
-    setData(data);
+    await setData(data);
+    setLoading(false);
   });
   return {
     data,
