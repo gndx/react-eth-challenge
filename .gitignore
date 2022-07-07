@@ -1,4 +1,5 @@
 package-lock.json
+.pre-commit-config.yaml
 
 # Logs
 logs
