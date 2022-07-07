@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -9,18 +8,26 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
+import GlobalStyle from '../styles/GlobalStyle';
+import { Main, MainContainer } from '../styles/components/containers';
+
 const App = () => {
   return (
     <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <GlobalStyle />
+      <MainContainer>
+        <Header>
+          <About />
+        </Header>
+        <Main>
+          <Profile />
+          <Experience />
+          <Academic />
+          <Skills />
+          <Interest />
+          <Languages />
+        </Main>
+      </MainContainer>
     </>
   );
 };
