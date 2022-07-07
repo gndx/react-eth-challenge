@@ -10,7 +10,7 @@ const Interest = ({ data }) => {
           data ?
               data.map((interest, index) => {
                 return (
-                  <li key={index}>
+                  <li key={index} className="Interest-item">
                     {interest}
                   </li>
                 )

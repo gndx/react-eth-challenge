@@ -11,7 +11,7 @@ const Languages = ({ data }) => {
             data ?
                 data.map((language, index) => {
                   return (
-                    <li key={index}>
+                    <li key={index} className="Languages-item">
                       {language.name} - {language.percentage}
                     </li>
                   )
