@@ -3,8 +3,11 @@
     grid-template-columns: repeat(2,1fr)
     grid-template-rows: repeat(5,1fr)
     grid-template-areas: "Header Header" "Profile Profile" "Experience Experience" "Academic Skills" "Interest Languages"
-
+    gap: 20px
+    margin: 10px
     & >:nth-child(n)
+        padding: 15px
+        background-color: var(--md-sys-color-background)
         border: 2px solid var(--md-sys-color-on-background)
 
     & >:nth-child(1)
