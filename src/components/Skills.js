@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 const Skills = () => {
   return (
-    <div>Skills</div>
-  )
-}
+    <>
+      <h2 className="Skills-title">Skills</h2>
+      <ul>
+        <li className="Skills-item"></li>
+        <li className="Skills-item"></li>
+        <li className="Skills-item"></li>
+      </ul>
+    </>
+  );
+};
 
-export default Skills
+export default Skills;
