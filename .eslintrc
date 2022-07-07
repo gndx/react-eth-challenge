@@ -19,7 +19,8 @@
     "expect": true,
     "sinon": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  "requireConfigFile": false,
   "plugins": [
     "react",
     "jsx-a11y",
@@ -274,7 +275,7 @@
     "react/jsx-sort-props": 0,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
-    "react/no-did-mount-set-state": 2,
+    "react/no-did-shallow-set-state": 2,
     "react/no-did-update-set-state": 2,
     "react/no-multi-comp": 0,
     "react/no-unknown-property": 2,
