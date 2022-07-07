@@ -19,13 +19,14 @@
     "expect": true,
     "sinon": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "plugins": [
     "react",
     "jsx-a11y",
     "import"
   ],
   "rules": {
+    "semi": [2, "never"],
     "react/jsx-filename-extension": 0,
     "array-bracket-spacing": 2,
     "arrow-body-style": 0,

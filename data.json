@@ -1,109 +1,114 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Edmundo Salamanca",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Guayas, Ecuador.",
+    "email": "esala.094@gmail.com",
+    "website": "https://edsadev.com",
+    "phone": "+593 994 234 4166",
+    "avatar": "https://avatars.githubusercontent.com/u/61200432?v=4",
+    "profile": "🎇¡Hola!🎇 Mi nombre es Edmundo Salamanca y soy fiel creyente del estudio continuo. Me dedico profesionalmente al desarrollo front-end, hasta que complete mis estudios para ser un full stack. En mis recuerdos siempre tengo presente ser un apasionado por la tecnología por lo que puedes contar conmigo si me deseas en tu proyecto.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "endDate": "Enero 2022",
+        "description": "Domina las bases de HTML y CSS. Conoce la anatomía de un documento HTML, sus elementos y las propiedades de CSS. Maqueta las pantallas principales de tu página web con responsive design. ¡Conviertete en Frontend Developer con Platzi!",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Curso de FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "endDate": "Marzo 2022",
+        "description": "Profesionaliza tus conocimientos sobre Next.js consumiendo una API para crear un dashboard de productos. Comunícate con la API para obtener, crear, actualizar y eliminar productos. Integra el sistema de autenticación y usa diferentes tecnologías como Tailwind CSS. ¡Haz el deploy directamente en Vercel y conecta un subdominio a tu dashboard junto con tu profesor Oscar Barajas!",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso profesional de Next Js"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Bachillerato General Unificado",
+        "description": "Bachillerato general especializado en ciencas exactas",
+        "endDate": "Marzo 2017",
+        "institution": "IPAC",
+        "startDate": "Jan 2013"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Novared",
+        "endDate": "Enero 2022",
+        "jobDescription": "Maquetación de interfaz de un proyecto interno en el que se realizó una web app para gestión interna, una aplicación nativa para los usuarios generales (iOS & Android) y otra aplicación nativa de logística para Novared (Android)",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Mayo 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Frescro",
+        "endDate": "Junio 2021",
+        "jobDescription": "Creación de tienda virtual para la venta de productos agricolas con un content manager (Wordpress) y plugin de gestión (WooCommerce)",
+        "jobTitle": "Web Developer",
+        "startDate": "Enero 2020"
+      },
+      {
+        "company": "Enerit",
+        "endDate": "Agosto 2020",
+        "jobDescription": "Creación de página web por medio de un content manager (WordPress) y creación de 2 tiendas virtuales (Shopify & WooCommerce)",
+        "jobTitle": "Web Developer",
+        "startDate": "Junio 2020"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "70%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "85%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "web 3.0"
     ],
     "languages": [
       {
-        "name": "Spanish",
+        "name": "Español",
         "percentage": "90%"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "Inglés",
+        "percentage": "75%"
+      },
+      {
+        "name": "Francés",
+        "percentage": "20%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/edsadev"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/edsadev"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/edsadev"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/edsadev"
       }
     ]
   }

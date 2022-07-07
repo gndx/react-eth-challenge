@@ -1,2 +1,291 @@
-body
-  background-color blue
+h1
+  font-size: 4px;
+
+h2 
+  font-size: 32px;
+  font-weight: normal;
+
+h3
+  font-size: 26px;
+
+h4
+  font-size: 22px;
+  color: #1A438B;
+
+h5
+  font-size: 14px;
+  color: #aeacb8;
+  font-weight: normal;
+
+span
+  font-size: 16px;
+
+*
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+
+ul 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+.Header 
+  min-height: 100vh;
+  display: flex;
+  padding: 40px 60px 0 60px;
+  background: linear-gradient(30deg, rgba(0,123,164,1) 13%, rgba(26,67,139,1) 58%);
+  img 
+    height: auto;
+    max-width: 250px;
+    border-radius: 50%;
+  .Header-title
+    text-align: center;
+
+.Header-container
+  width: 100%;
+  display: flex;
+  padding: 20px 40px;
+  background: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  align-items: center;
+
+.Header-subcontainer
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 250px;
+  height: 100%;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  .Header-social
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    a 
+      text-decoration: none;
+      color: #fff;
+      &:hover
+        color: #fff;
+        text-decoration: underline;
+
+.About 
+  flex-grow: 1;
+  padding: 60px 0 60px 60px;
+  text-align: center;
+  .About-title
+    margin-bottom: 20px;
+  .Header-info
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    align-content: center;
+  .Card-container
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 50%) 1px 1px 15px 1px;
+    .Card-title
+      display: flex;
+      align-items: center;
+      justify-content: stretch;
+      background: linear-gradient(30deg, rgba(0,123,164,1) 13%, rgba(26,67,139,1) 58%);
+      color: white;
+      padding: 8px 12px;
+      h4
+        flex-grow: 1;
+        color: white;
+        text-align: center;
+    span 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 60px;
+
+.Profile
+  display: flex;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(220,201,182,1) 50%);
+  padding: 60px;
+  justify-content: space-around;
+  .Profile-title
+    font-weight: bold;
+    margin-bottom: 10px;
+  .Profile-info
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  .Profile-desc
+  img
+    max-width: 320px;
+    object-fit: contain;
+
+.Experience
+  display: flex;
+  justify-content: center;
+  min-height: 70vh;
+  background: url("https://i.imgur.com/wjW7rzz.jpg")
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .Experience-container
+    background: rgba(0, 0, 0, 0.842);
+    margin: 60px;
+    padding: 30px;
+    border-radius: 20px;
+    span, h2
+      color: white;
+    .Experience-title
+      font-weight: bold;
+      margin-bottom: 5px;
+    .Experience-item
+      margin-block: 10px;
+
+.container1, .container2
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+
+.container1
+  min-height: 70vh;
+  background: url("https://i.imgur.com/tjbUuwt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .Academic-container
+    background: rgba(220, 214, 247, 0.733)
+    margin: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    span, h2, h3
+      color: black;
+    h3
+      font-weight: normal;
+    .Academic-title
+      font-weight: bold;
+      margin-bottom: 5px;
+    .Academic-item
+      margin-block: 10px;
+      h5
+        color: rgb(20, 20, 20);
+  .Skills
+    background: rgba(220, 214, 247, 0.733)
+    margin: 40px 40px 40px 0;
+    padding: 30px;
+    border-radius: 20px;
+    span, h2, h3
+      color: black;
+    h3
+      font-weight: normal;
+    .Skills-title
+      font-weight: bold;
+      margin-bottom: 5px;
+    .Skills-item
+      margin-block: 10px;
+      h5
+        color: rgb(20, 20, 20);
+      .Skills-item-container
+        margin-top: 10px;
+        width: 100%;
+        height: 25px;
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+
+.container2
+  min-height: 30vh;
+  background: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .Interest
+    background: rgba(220, 214, 247, 0.733);
+    margin: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    .Interest-title
+      font-weight: bold;
+      margin-bottom: 5px;
+    ul 
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      h4 
+        font-weight: normal;
+  .Languages
+    background: rgba(220, 214, 247, 0.733)
+    margin: 40px 40px 40px 0;
+    padding: 30px;
+    border-radius: 20px;
+    span, h2, h3
+      color: black;
+    h3
+      font-weight: normal;
+    .Languages-title
+      font-weight: bold;
+      margin-bottom: 5px;
+    .Languages-item
+      margin-block: 10px;
+      h5
+        color: rgb(20, 20, 20);
+      .Languages-item-container
+        margin-top: 10px;
+        width: 100%;
+        height: 25px;
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+
+@media (max-width: 960px)
+  .Header 
+    padding: 40px 20px 0 20px;
+  .Header-container 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    img
+      max-width: 100%;
+      max-height: 100%;
+      margin-bottom: 10px;
+    .Header-subcontainer
+      .Header-info
+        margin-top: 10px;
+      li
+        font-size: 12px;
+        padding-block: 4px;
+        margin-bottom: 4px;
+  .About
+    padding: 40px 20px;
+    width: 100%;
+  .Experience-container, .Academic-container, .Interest
+    margin: 20px!important;
+  .Skills, .Languages
+    margin: 0 20px 20px 20px!important;
+
+
+@media (max-width: 800px)
+  .Profile
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 30%, rgba(220,201,182,1) 100%);
+  .container1, .container2
+    grid-template-columns: 1fr;
+
+@media (max-width: 620px)
+  html
+    font-size: 50%;
+  .Header-info
+    grid-template-columns: 1fr!important;
+  .Profile
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+  .Experience-title, .Experience-item, .Academic-title, .Academic-item, .Academic-container h3
+    text-align: center;
