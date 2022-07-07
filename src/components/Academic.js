@@ -1,5 +1,5 @@
-import React from 'react';
-import AcademicCard from './AcademicCard';
+import React from 'react'
+import AcademicCard from './AcademicCard'
 
 export default function Academic({ academic = [{}], certificate = [{}, {}] }) {
   return (
@@ -22,5 +22,5 @@ export default function Academic({ academic = [{}], certificate = [{}, {}] }) {
         </ul>
       </div>
     </article>
-  );
+  )
 }

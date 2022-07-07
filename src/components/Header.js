@@ -1,21 +1,21 @@
-import React from 'react';
-import { AiFillLinkedin, AiFillGithub, AiFillFacebook, AiFillTwitterCircle } from 'react-icons/ai';
+import React from 'react'
+import { AiFillLinkedin, AiFillGithub, AiFillFacebook, AiFillTwitterCircle } from 'react-icons/ai'
 
 export default function Header({ children, name = 'default name', social = [], avatar = '', profession = 'default profession' }) {
   const setIcon = (socialNet, url) => {
     switch (socialNet) {
       case 'linkedin':
-        return <a href={url} aria-label='linkedin'><AiFillLinkedin size='28px' style={{ fill: 'url(#icon-gradient)' }} /></a>;
+        return <a href={url} aria-label='linkedin'><AiFillLinkedin size='28px' style={{ fill: 'url(#icon-gradient)' }} /></a>
       case 'github':
-        return <a href={url} aria-label='github'><AiFillGithub size='28px' style={{ fill: 'url(#icon-gradient)' }} /></a>;
+        return <a href={url} aria-label='github'><AiFillGithub size='28px' style={{ fill: 'url(#icon-gradient)' }} /></a>
       case 'facebook':
-        return <a href={url} aria-label='facebook'><AiFillFacebook size='28px' style={{ fill: 'url(#icon-gradient)' }} /></a>;
+        return <a href={url} aria-label='facebook'><AiFillFacebook size='28px' style={{ fill: 'url(#icon-gradient)' }} /></a>
       case 'twitter':
-        return <a href={url} aria-label='twitter'><AiFillTwitterCircle size='28px' style={{ fill: 'url(#icon-gradient)' }} /></a>;
+        return <a href={url} aria-label='twitter'><AiFillTwitterCircle size='28px' style={{ fill: 'url(#icon-gradient)' }} /></a>
       default:
-        return <div>Default</div>;
+        return <div>Default</div>
     }
-  };
+  }
   return (
     <header className='Header'>
       <svg width='0' height='0'>
@@ -38,5 +38,5 @@ export default function Header({ children, name = 'default name', social = [], a
         {children}
       </div>
     </header>
-  );
+  )
 }

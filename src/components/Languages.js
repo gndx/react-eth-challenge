@@ -1,5 +1,5 @@
-import React from 'react';
-import Fill from '../common/Fill';
+import React from 'react'
+import Fill from '../common/Fill'
 
 export default function Languages({ languages = [{}, {}, {}] }) {
   return (
@@ -18,5 +18,5 @@ export default function Languages({ languages = [{}, {}, {}] }) {
         ))}
       </ul>
     </aside>
-  );
+  )
 }

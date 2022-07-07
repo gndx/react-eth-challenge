@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 export default function ExperienceCard({ item }) {
   return (
@@ -16,5 +16,5 @@ export default function ExperienceCard({ item }) {
       </h5>
       <span>{item.jobDescription}</span>
     </>
-  );
+  )
 }

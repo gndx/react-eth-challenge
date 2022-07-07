@@ -1,5 +1,5 @@
-import React from 'react';
-import ExperienceCard from './ExperienceCard';
+import React from 'react'
+import ExperienceCard from './ExperienceCard'
 
 export default function Experience({ exp = [{}, {}, {}] }) {
   return (
@@ -15,5 +15,5 @@ export default function Experience({ exp = [{}, {}, {}] }) {
         </ul>
       </div>
     </section>
-  );
+  )
 }

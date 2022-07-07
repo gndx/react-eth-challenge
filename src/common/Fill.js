@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Fill = styled.div`
     width: ${(props) => props.amount};
@@ -11,6 +11,6 @@ const Fill = styled.div`
       font-size: 12px;
       color: white
     }
-  `;
+  `
 
-export default Fill;
+export default Fill

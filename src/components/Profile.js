@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 export default function Profile({ profile }) {
-  const photo = 'https://i.imgur.com/VYG1gyJ.png';
+  const photo = 'https://i.imgur.com/VYG1gyJ.png'
   return (
     <section className='Profile'>
       <div className='Profile-info'>
@@ -10,5 +10,5 @@ export default function Profile({ profile }) {
       </div>
       <img src={photo} alt='Quien soy foto' />
     </section>
-  );
+  )
 }
