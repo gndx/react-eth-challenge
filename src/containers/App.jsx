@@ -27,7 +27,13 @@ const App = () => {
   return (
     <>
       <Header name={list.name} profileImage={list.avatar}>
-        <About />
+        <About 
+          email={list.email}
+          profession={list.profession}
+          address={list.address}
+          website={list.website}
+          phone={list.phone}
+        />
       </Header>
       <Profile profile={list.profile} />
       <Experience />

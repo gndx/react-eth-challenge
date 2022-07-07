@@ -1,13 +1,13 @@
 import React from 'react';
 
-const About = () => {
+const About = ({profession, email, phone, address, website}) => {
   return (
       <>
-        <h3 className="About-title">Developer</h3>
-        <p className="About-item">+54 293129451</p>
-        <p className="About-item">miemail@email.com</p>
-        <p className="About-item">mi-site.com</p>
-        <p className="About-item">Av. siempre viva 1234</p>
+        <h3 className="About-title">{profession}</h3>
+        <p className="About-item">{phone}</p>
+        <p className="About-item">{email}</p>
+        <p className="About-item">{website}</p>
+        <p className="About-item">{address}</p>
       </>
   );
 }
