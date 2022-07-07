@@ -1,5 +1,4 @@
-import React from 'react';
-import '../styles/components/App.styl';
+import React, { useContext, useEffect, useState } from 'react';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -8,20 +7,60 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import getData from '../utils/getData';
 
 const App = () => {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const API= process.env.SERVER || 'http://localhost:3000/data'
+  const fetchData = async () => {
+    const response = await getData(API);
+    setData(response);
+  };
+
+  if (!data) return null;
+
+  const {
+    Academic: academics,
+    address,
+    avatar,
+    email,
+    experience: experiences,
+    interest: interests,
+    languages,
+    name,
+    phone,
+    profession,
+    Profile: profile,
+    skills,
+    website,
+  } = data;
+
   return (
-    <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
+      <div className="container mx-auto max-w-screen-xl">
+        <div className='flex flex-col sm:flex-row-reverse sm:m-12 shadow-2xl'>
+          <div>
+            <Header data={data} >
+              <About data={data}/>
+              <Skills skills={skills} />
+              <Languages languages={languages}/>
+            </Header>
+          </div>
+          <div className='content w-full p-12'>
+            <Profile profile={profile}/>
+            <hr className="mt-8 mb-12" />
+            <Experience experiences={experiences}/>
+            <hr className="mt-8 mb-12" />
+            <Academic academics={academics}/>
+            <hr className="mt-8 mb-12" />
+            <Interest interests={interests}/>          
+          </div>
+        </div>
+      </div>
   )
 };
 

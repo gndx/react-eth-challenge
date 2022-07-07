@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const Dotenv=require('dotenv-webpack')
 
 module.exports = {
   entry: './src/index.js',
@@ -29,13 +30,13 @@ module.exports = {
         ],
       },
       {
-        test: /\.css|.styl$/,
+        test: /\.css$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
           },
           'css-loader',
-          'stylus-loader',
+          "postcss-loader",
         ],
       },
     ],
@@ -48,5 +49,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
     }),
+    new Dotenv(['SERVER'])
   ],
 };

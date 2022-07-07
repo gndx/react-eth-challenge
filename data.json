@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "name": "Bárbaro Javier Valmaseda",
+    "profession": "FullStack Developer",
+    "address": "Trindad, Cuba.",
+    "email": "hello@bjvalmaseda.xyz",
+    "website": "https://bjvalmaseda.xyz",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQFnIajXuaDRig/profile-displayphoto-shrink_200_200/0/1640388942955?e=1662595200&v=beta&t=xnUpyOqVUwqZKNpF4puFgsaokHqkwFDqqoOXHL5EOwY",
+    "Profile": "5+ years of experience as Software Engineer, with skills in PHP and JavaScript creating scalable solutions.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,86 +24,85 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Computer Sciences Engineer",
+        "description": " In 2016 I successfully defended my diploma work entitled Management System for Health Trends and Analysis Units, obtaining a bachelor's degree in Computer Science Engineering. During the course of my studies, I passed a total of 70 courses, among which were Programming, Probability and Statistics, Simulation, Software Engineering, Artificial Intelligence, Database Systems, Operating Systems, etc.",
+        "endDate": "Jun 2016",
+        "institution": "University of Ciego de Avila Máximo Gómez Báez",
+        "startDate": "Sep 2011"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "CMHE-Trinidad",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Designed and implemented a system to keep track of the PCR samples and their results. Conducted diagnosis and resolved problems with the hardware of networks, software, and systems",
+        "jobTitle": "Senior Software Developerr",
+        "startDate": "Apr 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Self-Employed",
+        "endDate": "Present",
+        "jobDescription": "Implemented website, admin panel and API for clients to sell and present their products and services. Laravel/PHP, MySQL, Postgres, Vue.Implemented website, admin panel and API for clients to sell and present their products and services. Laravel/PHP, MySQL, Postgres, Vue.",
+        "jobTitle": "Full-stack Developer",
+        "startDate": "Dec 2017"
+      },
+      {
+        "company": "Joven Club de Computación y Electrónica",
+        "endDate": "Sep 2017",
+        "jobDescription": "Assisted during the process of design and implementation of the websites and admin panels. Corrected in fixing bugs in some admin panels.Assisted during the process of design and implementation of the websites and admin panels. Corrected in fixing bugs in some admin panels.",
+        "jobTitle": "Software Engineer",
+        "startDate": "Aug 2016"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "82%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "80%"
+      },
+      {
+        "name": "Laravel",
+        "percentage": "95%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "90%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/bjvalmaseda"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/bjvalmaseda"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/bjvalmaseda92"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/bjvalmaseda"
       }
     ]
   }
