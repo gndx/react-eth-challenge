@@ -36,9 +36,11 @@ const App = () => {
       </Header>
       <Profile profile={data?.profile} />
       <Experience exp={data?.experience} />
-      <Academic academic={data?.academic} certificate={data?.certificate} />
-      {/*<Skills />
-      <Interest />
+      <section className="container1">
+        <Academic academic={data?.academic} certificate={data?.certificate} />
+        <Skills skills={data?.skills}/>
+      </section>
+      {/*<Interest />
       <Languages /> */}
     </>
   )

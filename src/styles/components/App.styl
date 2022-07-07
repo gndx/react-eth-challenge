@@ -117,7 +117,7 @@ ul
 
 .Profile
   display: flex;
-  background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(220,201,182,1) 100%);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 30%, rgba(220,201,182,1) 50%);
   padding: 6em;
   justify-content: space-around;
   .Profile-title
@@ -155,8 +155,9 @@ ul
     .Experience-item
       margin-block: 1em;
 
-.Academic
-  display: flex;
+.container1
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   justify-content: center;
   min-height: 70vh;
   background: url("https://i.imgur.com/tjbUuwt.jpg")
@@ -164,20 +165,44 @@ ul
   background-size: cover;
   background-position: center;
   .Academic-container
-    background: rgba(0, 0, 0, 0.842);
-    margin: 6em;
+    background: rgba(220, 214, 247, 0.733)
+    margin: 4em;
     padding: 3em;
     border-radius: 2em;
     span, h2, h3
-      color: white;
+      color: black;
     h3
       font-weight: normal;
     .Academic-title
       font-weight: bold;
       margin-bottom: 0.5em;
-    .Experience-item
+    .Academic-item
       margin-block: 1em;
-
+      h5
+        color: rgb(20, 20, 20);
+  .Skills
+    background: rgba(220, 214, 247, 0.733)
+    margin: 4em 4em 4em 0;
+    padding: 3em;
+    border-radius: 2em;
+    span, h2, h3
+      color: black;
+    h3
+      font-weight: normal;
+    .Skills-title
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    .Skills-item
+      margin-block: 1em;
+      h5
+        color: rgb(20, 20, 20);
+      .Skills-item-container
+        margin-top: 1em;
+        width: 100%;
+        height: 2.5em;
+        background: white;
+        border-radius: 1.2em;
+        overflow: hidden;
 
 @media screen and (max-width: 960px)
   .Header 
@@ -200,18 +225,25 @@ ul
   .About
     padding: 4em 2em;
 
+
 @media screen and (max-width: 800px)
   .Profile
     flex-flow: column;
     align-items: center;
     text-align: center;
+  .container1
+    grid-template-columns: 1fr;
+  .Skills
+    margin: 0 4em 4em 4em!important;
 
 @media screen and (max-width: 620px)
+  html
+    font-size: 50%;
   .Header-info
     grid-template-columns: 1fr!important;
   .Profile
     flex-flow: column;
     align-items: center;
     text-align: center;
-  .Experience-title, .Experience-item
+  .Experience-title, .Experience-item, .Academic-title, .Academic-item, .Academic-container h3
     text-align: center;
