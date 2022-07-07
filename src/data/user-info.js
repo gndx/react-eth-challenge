@@ -56,6 +56,12 @@ export const user = {
       description: 'Ingeniería eléctrica electrónica',
       link: 'https://www.unam.mx/',
     },
+    {
+      title: 'PROTECO',
+      periodRole: '2018',
+      description: 'Recibí mentoría en tecnologías web',
+      link: 'http://protecounam.mx/',
+    },
   ],
   skills: [
     {
@@ -77,18 +83,27 @@ export const user = {
   ],
   interest: [
     {
-      title: 'Music',
+      title: 'Música',
     },
     {
-      title: 'Video Games',
+      title: 'Video Juegos',
+    },
+    {
+      title: 'Web 3',
     },
   ],
   lenguages: [
     {
       title: 'Español',
+      description: 'Lengua materna',
     },
     {
       title: 'Inglés',
+      description: 'Nivel B2',
+    },
+    {
+      title: 'Portugués',
+      description: 'Recién aprendiendo',
     },
   ],
 };

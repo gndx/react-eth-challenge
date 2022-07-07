@@ -7,7 +7,7 @@ import { Experience } from '../components/Experience';
 import { user } from '../data/user-info';
 import { Academic } from '../components/Academic';
 import { Skills } from '../components/Skills';
-// import Interest from '../components/Interest';
+import { Interest } from '../components/Interest';
 // import Languages from '../components/Languages';
 
 const App = () => {
@@ -20,8 +20,8 @@ const App = () => {
       <Experience experience={user.experience} />
       <Academic academic={user.academic} />
       <Skills skills={user.skills} />
+      <Interest interest={user.interest} />
       {/* 
-      <Interest />
       <Languages /> */}
     </>
   );
