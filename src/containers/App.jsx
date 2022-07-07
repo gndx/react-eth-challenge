@@ -40,7 +40,7 @@ const App = () => {
       <Experience data={list.experience} />
       <Academic data={list.Academic} />
       <Skills data={list.Skills} />
-      <Interest data={list.Interest} />
+      <Interest data={list.interest} />
       <Languages data={list.Languages} />
     </>
   )

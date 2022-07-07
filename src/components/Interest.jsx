@@ -1,19 +1,24 @@
 import React from 'react';
 import '../styles/components/Interest.styl';
 
-const Interest = () => {
-  return (
+const Interest = ({ data }) => {
+  return(
     <div className="Interest">
       <h3 className="Interest-title">Interest</h3>
-      <div>
-        <p className="Interest-item">Item</p>
-        <p className="Interest-item">Item</p>
-        <p className="Interest-item">Item</p>
-        <p className="Interest-item">Item</p>
-        <p className="Interest-item">Item</p>
-        <p className="Interest-item">Item</p>
-      </div>
-
+      <ul>
+        {
+          data ?
+              data.map((interest, index) => {
+                return (
+                  <li key={index}>
+                    {interest}
+                  </li>
+                )
+              })
+            :
+              <>Cargando data...</>
+        }
+      </ul>
     </div>
   );
 }
