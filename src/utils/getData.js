@@ -1,4 +1,5 @@
-export function getData(){
-  return fetch("http://localhost:3000/data")
-    .then(response => response.json())
+export default function getData(url) {
+  return fetch(url)
+    .then((response) => response.json())
+    .then((data) => data);
 }

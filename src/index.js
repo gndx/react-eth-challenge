@@ -7,4 +7,5 @@ ReactDOM.render(
   <ProviderData>
     <App />
   </ProviderData>
-  , document.getElementById('app'));
+  , document.getElementById('app'),
+);

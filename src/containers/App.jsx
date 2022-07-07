@@ -11,8 +11,12 @@ import Languages from '../components/Languages';
 import { useData } from '../hooks/useData';
 
 const App = () => {
-  const {data, loading} = useData()
+  const {data, loading, setLoading} = useData()
 
+  window.addEventListener('DOMContentLoaded', () => { 
+    setLoading(false)
+  })
+  
   if (loading) {
     return <div>Loading...</div>
   }
@@ -40,8 +44,10 @@ const App = () => {
         <Academic academic={data?.academic} certificate={data?.certificate} />
         <Skills skills={data?.skills}/>
       </section>
-      {/*<Interest />
-      <Languages /> */}
+      <section className='container2'>
+        <Interest interests={data?.interest} />
+        <Languages languages={data?.languages} />
+      </section>
     </>
   )
 };
