@@ -7,8 +7,8 @@ const Fill = styled.div`
     display: flex;
     align-items: center;
     p {
-      margin-left: 1.2em;
-      font-size: 1.2em;
+      margin-left: 12px;
+      font-size: 12px;
       color: white
     }
   `;

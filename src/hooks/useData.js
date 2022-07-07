@@ -1,28 +1,28 @@
-import React, { createContext, useState, useContext } from 'react';
-import getData from '../utils/getData';
+import React, { createContext, useState, useContext } from 'react'
+import getData from '../utils/getData'
 
-const DataContext = createContext();
+const DataContext = createContext()
 
 function useProviderData() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true)
   const [data, setData] = useState(async () => {
-    const data = await getData('https://raw.githubusercontent.com/edsadev/react-eth-challenge/main/data.json');
-    await setData(data.data);
-    setLoading(false);
-  });
+    const data = await getData('https://raw.githubusercontent.com/edsadev/react-eth-challenge/main/data.json')
+    await setData(data.data)
+    setLoading(false)
+  })
   return {
     data,
     loading,
     setLoading,
-  };
+  }
 }
 
 export function ProviderData({ children }) {
-  const data = useProviderData();
-  return <DataContext.Provider value={data}>{children}</DataContext.Provider>;
+  const data = useProviderData()
+  return <DataContext.Provider value={data}>{children}</DataContext.Provider>
 }
 
 export const useData = () => {
-  return useContext(DataContext);
-};
+  return useContext(DataContext)
+}
 

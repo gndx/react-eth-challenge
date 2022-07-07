@@ -26,6 +26,7 @@
     "import"
   ],
   "rules": {
+    "semi": [2, "never"],
     "react/jsx-filename-extension": 0,
     "array-bracket-spacing": 2,
     "arrow-body-style": 0,
