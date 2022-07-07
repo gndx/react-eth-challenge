@@ -8,18 +8,17 @@ import { Academic } from '../components/Academic';
 import { Skills } from '../components/Skills';
 import { Interest } from '../components/Interest';
 import { Languages } from '../components/Languages';
+import { getData } from '../utils/getData';
+
 const URL = 'https://fake-server10.herokuapp.com/data';
+
 const App = () => {
   const [user, setUser] = useState(null);
   useEffect(() => {
-    fetchData();
+    getData(URL).then((res) => {
+      setUser(res);
+    });
   }, []);
-
-  async function fetchData() {
-    const response = await fetch(URL);
-    const res = await response.json();
-    setUser(res);
-  }
 
   return (
     <>
