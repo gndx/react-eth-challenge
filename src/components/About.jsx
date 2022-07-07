@@ -1,14 +1,11 @@
 import React, { useContext } from 'react';
 import {MdOutlineHouse, MdOutlinePhone, MdOutlineEmail} from 'react-icons/md'
-import {AppContext} from '../AppContext'
 import SocialItem from './SocialItem';
 const SIZE='24px'
 
-const About = () => {
-    const {data}=useContext(AppContext)
-
+const About = ({data}) => {
     if(!data){
-        data={email: '', phone: '', }
+        data={email: '', phone: '', address:''}
     }
     return (       
         <div className="font-light text-lg px-2 mb-12">

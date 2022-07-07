@@ -1,8 +1,6 @@
 import React, { useContext } from 'react';
-import { AppContext } from '../AppContext';
 
-const Header = ({children}) => {
-    const {data}=useContext(AppContext)
+const Header = ({children, data={}}) => {
     return (
         <div className='w-full sm:max-w-sm p-8 bg-gradient-to-b from-blue-300 via-indigo-300-300 to-white'>
             <div className="px-2 mb-12">

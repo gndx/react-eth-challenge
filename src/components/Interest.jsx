@@ -1,8 +1,6 @@
 import React, { useContext } from 'react';
-import { AppContext } from '../AppContext';
 
-const Interest = () => {
-  const {data: {interest}}=useContext(AppContext)
+const Interest = ({interests=Array(3).fill()}) => {
     return (
         <div className="prose">
         <h2 className="section-headline Interest-title">Expand my skills</h2>
@@ -12,7 +10,7 @@ const Interest = () => {
           </h4>
           <ul>
             {
-              interest?.map((item, index)=><li className='Interest-item' key={`interests-${index}`}>{item}</li>)
+              interests.map((item, index)=><li className='Interest-item' key={`interests-${index}`}>{item}</li>)
             }        
             
           </ul>

@@ -1,13 +1,11 @@
 import React, { useContext } from 'react';
-import { AppContext } from '../AppContext';
 
-const Profile = () => {
-    const {data: {Profile}}=useContext(AppContext)
+const Profile = ({profile}) => {
     return (
         <div id="profile" className="prose" >
             <h2 className="Profile-title section-headline">Profile</h2>
             <p className='Profile-desc'>
-            {Profile}
+            {profile}
             </p>           
         </div>
     );
