@@ -92,7 +92,7 @@ export const user = {
       title: 'Web 3',
     },
   ],
-  lenguages: [
+  languages: [
     {
       title: 'Español',
       description: 'Lengua materna',

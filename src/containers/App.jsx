@@ -8,7 +8,7 @@ import { user } from '../data/user-info';
 import { Academic } from '../components/Academic';
 import { Skills } from '../components/Skills';
 import { Interest } from '../components/Interest';
-// import Languages from '../components/Languages';
+import { Languages } from '../components/Languages';
 
 const App = () => {
   return (
@@ -18,11 +18,16 @@ const App = () => {
       </Header>
       <Profile description={user.description} />
       <Experience experience={user.experience} />
-      <Academic academic={user.academic} />
-      <Skills skills={user.skills} />
-      <Interest interest={user.interest} />
-      {/* 
-      <Languages /> */}
+      <div className="mixSection">
+        <Academic academic={user.academic} />
+        <Skills skills={user.skills} />
+      </div>
+      <div className="mixSection">
+        <Interest interest={user.interest} />
+        <Languages languages={user.languages} />
+      </div>
+      {/*
+       */}
     </>
   );
 };
