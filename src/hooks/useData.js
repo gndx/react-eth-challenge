@@ -6,8 +6,8 @@ const DataContext = createContext();
 function useProviderData() {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState(async () => {
-    const data = await getData('http://localhost:3000/data');
-    await setData(data);
+    const data = await getData('https://raw.githubusercontent.com/edsadev/react-eth-challenge/main/data.json');
+    await setData(data.data);
     setLoading(false);
   });
   return {
