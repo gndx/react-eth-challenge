@@ -17,7 +17,7 @@ const App = () => {
   }, []);
 
   const fetchData = async () => {
-    const response = await getData('http://localhost:3000/data');
+    const response = await getData('https://my-json-server.typicode.com/bjvalmaseda92/json-server/data');
     setData(response);
   };
 
