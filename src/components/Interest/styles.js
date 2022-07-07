@@ -1,20 +1,20 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
-export const SkillsStyle = styled.div`
+export const InterestStyle = styled.div`
   background-color: #cde9ee;
   box-shadow: 0px 14px 18px rgba(0, 0, 0, .2);
   border-radius: 15px;
   padding: 5px;
   width: 49.3%;
-  float: right;
+  float: left;
 `;
 
 export const Item = styled.ul`
   padding: 0 8px;
 `;
 
-export const SkillsItemTitle = styled.h3`
+export const InterestItemTitle = styled.h3`
   display: flex;
   align-items: center;
   padding: 0px;
@@ -25,4 +25,3 @@ export const SkillsItemTitle = styled.h3`
     margin-right: 4px;
   }
 `;
-

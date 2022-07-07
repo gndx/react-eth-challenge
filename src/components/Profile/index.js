@@ -5,7 +5,7 @@ import { Text, ProfileStyle } from './styles';
 function Profile() {
   return (
 
-    <ProfileStyle className='profile'>
+    <ProfileStyle className='profile' key='ProfileStyle'>
       <Text>
         {' '}
         <h2 className='Profile-title'>Profile</h2>

@@ -12,11 +12,11 @@ import Languages from '../components/Languages';
 export default function App() {
   return (
     <div>
-      <Header>
+      <Header key='Header'>
         <About />
       </Header>
       <Profile />
-      <Experience />
+      <Experience key='Experience' />
       <Academic />
       <Skills />
       <Interest />

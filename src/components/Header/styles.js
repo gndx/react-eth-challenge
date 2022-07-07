@@ -21,10 +21,6 @@ export const Image = styled.img`
   width: 100%;
 `;
 
-export const Text = styled.div`
-  float: "left"
-`;
-
 export const HeaderStyle = styled.div`
   background-color: lightblue;
   box-shadow: 0px 14px 18px rgba(0, 0, 0, .2);

@@ -2,45 +2,41 @@ import React from 'react';
 import { FiChevronsRight, FiMinus } from 'react-icons/fi';
 import { GoCalendar } from 'react-icons/go';
 import db from '../../../data.json';
-import { Text, ExperienceStyle, Item, ExperienceItemTitle, ExperienceItemDate } from './styles';
+import { ExperienceStyle, Item, ExperienceItemTitle, ExperienceItemDate } from './styles';
 
 function Experience() {
   return (
 
-    <ExperienceStyle className='experience'>
-      <Text>
-        {' '}
-        <h2 className='Experience-title'>Experience</h2>
-        {db.data.experience.map((experience) => (
-          <Item key={experience.id}>
-            <div className='Experience-item'>
+    <ExperienceStyle className='experience' key='ExperienceStyle'>
 
-              <ExperienceItemTitle>
-                <FiChevronsRight size='26px' />
-                {experience.jobTitle}
-                {' '}
-                <FiMinus size='13px' />
-                {' '}
-                {experience.company}
-              </ExperienceItemTitle>
-              <ExperienceItemDate>
-                <GoCalendar size='14px' />
-                {' '}
-                {experience.startDate}
-                {' '}
-                <FiMinus size='12px' />
-                {' '}
-                {experience.endDate}
+      {' '}
+      <h2 className='Experience-title'>Experience</h2>
+      {db.data.experience.map((experience) => (
+        <Item key={experience.jobTitle} className='Experience-item'>
 
-              </ExperienceItemDate>
-              {' '}
-              {experience.jobDescription}
-            </div>
+          <ExperienceItemTitle>
+            <FiChevronsRight size='26px' />
+            {experience.jobTitle}
             {' '}
-          </Item>
-        ))}
+            <FiMinus size='13px' />
+            {' '}
+            {experience.company}
+          </ExperienceItemTitle>
+          <ExperienceItemDate>
+            <GoCalendar size='14px' />
+            {' '}
+            {experience.startDate}
+            {' '}
+            <FiMinus size='12px' />
+            {' '}
+            {experience.endDate}
 
-      </Text>
+          </ExperienceItemDate>
+          {' '}
+          {experience.jobDescription}
+
+        </Item>
+      ))}
 
     </ExperienceStyle>
 

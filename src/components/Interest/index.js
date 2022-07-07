@@ -1,12 +1,29 @@
 import React from 'react';
-import { MdFavoriteBorder } from 'react-icons/md';
+import { FiChevronsRight } from 'react-icons/fi';
+import db from '../../../data.json';
+import { InterestStyle, Item, InterestItemTitle } from './styles';
 
-export default function Interest() {
+function Interest() {
   return (
-    <button type='button'>
-      <MdFavoriteBorder size='32px' />
-      0
-      likes!
-    </button>
+
+    <InterestStyle className='interest' key='InterestStyle'>
+
+      {' '}
+      <h2 className='Interest-title'>Interest</h2>
+      {db.data.interest.map((interest) => (
+        <Item key={interest} className='Interest-item'>
+
+          <InterestItemTitle>
+            <FiChevronsRight size='26px' />
+            {interest}
+          </InterestItemTitle>
+
+        </Item>
+      ))}
+
+    </InterestStyle>
+
   );
 };
+
+export default Interest;
