@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Esteban Danilo Diaz Riascos",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "address": "Pasto, Colombia.",
+    "email": "esteban@example.com",
     "website": "https://example.com",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQFagzKkjiCMhA/profile-displayphoto-shrink_200_200/0/1652409448577?e=1662595200&v=beta&t=LONt5LoBaTW-BpL4rmKKTvEOJznnN0ccGXnNAg-dIiQ",
+    "Profile": "I am a software developer, started in this great profession from the university, I have participated in marathons and hackathons reaching international instances, being part of large development companies, getting involved in sectors such as financial, legal, retail, among others.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,59 +24,68 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Primary",
+        "description": "Primary studies.",
+        "endDate": "Apr 2005",
+        "institution": "Lions club",
+        "startDate": "Jan 2000"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Secondary",
+        "description": "Academic student, achieving technical in networking and recognition as a distinguished student and best student project.",
+        "endDate": "Dec 2011",
+        "institution": "Artemio Mendoza",
+        "startDate": "Jan 2006"
+      },
+      {
+        "degree": "Systems engineer",
+        "description": "Focused on research participating in two undergraduate research, participating in marathons and programming hackathons.",
+        "endDate": "Apr 2022",
+        "institution": "university of Nariño",
+        "startDate": "Jan 2013"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "ADL",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Holding the position of frontend developer, working mainly on projects in the housing sector.",
+        "jobTitle": "Frontend developer",
+        "startDate": "Jul 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Davinci Tech",
+        "endDate": "Jun 2022",
+        "jobDescription": "Occupying the position of full stack developer, working mainly on banking projects, retails, among others.",
+        "jobTitle": "Full stack developer",
+        "startDate": "Dic 2020"
+      },
+      {
+        "company": "Xoftix",
+        "endDate": "Jun 2020",
+        "jobDescription": "Holding the position of junior development engineer, working mainly on judicial projects.",
+        "jobTitle": "Junior development engineer",
+        "startDate": "Dic 2018"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "percentage": "95%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Backend",
+      "Frontend",
+      "Cripto"
     ],
     "languages": [
       {
@@ -85,7 +94,11 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "10%"
+      },
+      {
+        "name": "Portuguese",
+        "percentage": "0%"
       }
     ],
     "social": [
