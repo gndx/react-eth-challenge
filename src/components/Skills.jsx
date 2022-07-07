@@ -1,7 +1,13 @@
 import React from 'react';
 
 function Skills() {
-  return <h1>Skills</h1>;
+  return (
+    <section className='Skills'>
+      <h1 className='Skills-title'>Skills title</h1>
+      <p className='Skills-text'>text</p>
+      <p className='Skills-text'>text</p>
+    </section>
+  );
 }
 
 export default Skills;
