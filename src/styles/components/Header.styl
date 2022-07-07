@@ -1,7 +1,46 @@
 @import "../_vars.css";
 
 .Header
-    
+    --dimention-image: 300px 
+    display: grid
+    grid-template-columns: var(--dimention-image) auto
+    gap: 50px
+
+    &-image
+        width: var(--dimention-image)
+        height: var(--dimention-image)
+        border-radius: var(--dimention-image)
+        background-color: var(--md-sys-color-primary)
+        margin: 0
+
     &-title
-        color: var(--md-sys-color-on-background)
-        font-size: 40px
+        color: var(--md-sys-color-primary)
+        position relative
+        & input
+            position: absolute
+            right:0
+            top:0
+
+        & h1
+            margin-block-start: 0.5em
+            margin-block-end: 0.5em
+
+    &-body
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+
+@media screen and (max-width: 900px)
+    .Header
+        --dimention-image: 200px 
+        &-body
+            grid-template-columns: 1fr
+
+@media screen and (max-width: 600px)
+    .Header
+        --dimention-image: 300px 
+        grid-template-columns: 1fr
+        grid-template-rows: var(--dimention-image) auto
+
+        
+
+
