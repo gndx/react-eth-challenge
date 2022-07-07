@@ -26,7 +26,7 @@ const App = () => {
   console.log(list)
   return (
     <>
-      <Header>
+      <Header name={list.name} profileImage={list.avatar}>
         <About />
       </Header>
       <Profile profile={list.profile} />

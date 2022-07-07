@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/components/Header.styl';
 
-const Header = (props) => {
+const Header = ({children, fullName, profileImage}) => {
   return (
     <header className="Header">
-      <img src="https://picsum.photos/200/300"/>
+      <img src={profileImage} />
       <div>
-        <h1 className="Header-title">Julian Murphy</h1>
-        {props.children}
+        <h1 className="Header-title">{fullName}</h1>
+        {children}
       </div>
     </header>
   );
