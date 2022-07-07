@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Academic from '../../components/Academic';
+import { Academic } from '../../components/Academic';
 
 describe('<Academic />', () => {
   const academic = shallow(<Academic />);
