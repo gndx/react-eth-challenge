@@ -8,7 +8,7 @@ import { Academic } from '../components/Academic';
 import { Skills } from '../components/Skills';
 import { Interest } from '../components/Interest';
 import { Languages } from '../components/Languages';
-const URL = 'http://localhost:3000/data';
+const URL = 'https://fake-server10.herokuapp.com/data';
 const App = () => {
   const [user, setUser] = useState(null);
   useEffect(() => {
