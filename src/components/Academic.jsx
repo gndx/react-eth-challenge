@@ -1,28 +1,28 @@
 import React from 'react';
 import '../styles/components/Academic.styl';
 
-const Academic = (props) => {
+const Academic = ({ data }) => {
+ console.log(data) ;
   return (
     <div className="Academic">
-      <h3>Académico</h3>
+      <h3 className="Academic-title">Académico</h3>
+      <ul>
       {
-        props.data ?
-          props.data.map(academicItem => {
+        data ?
+          data.map((academicItem,index) => {
             return (
-              <>
-                <div className="Academic-item">
-                  <p>{academicItem.degree}</p>
-                  <p>{academicItem.startDate}</p>
-                  <p>{academicItem.endDate}</p>
-                  <p>{academicItem.institution}</p>
-                  <p>{academicItem.description}</p>
-                </div>
-              </>
+                  <li key={index} className="Academic-item">
+                    {academicItem.startDate}
+                    {academicItem.degree}
+                    {academicItem.institution}
+                    {academicItem.description}
+                  </li>
             )
           })
         : 
           <></>
       }
+      </ul>
     </div>
   );
 }
