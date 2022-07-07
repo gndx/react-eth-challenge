@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function AcademicCard({ item }) {
-  console.log(item);
   return (
     <>
       <h4>{item.degree ? item.degree : item.name}</h4>
