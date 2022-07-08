@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -43,7 +42,6 @@ function App() {
     social,
   } = user;
 
-  console.log(social)
   return (
     <div className='App'>
       <Header name={name} avatar={avatar} social={social}>

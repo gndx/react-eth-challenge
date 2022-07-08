@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/components/About.styl';
+import AboutItem from './AboutItem';
 
 function About({
   profession,
@@ -13,21 +14,9 @@ function About({
     <>
       <h3 className='About-title'>{profession}</h3>
       <ul>
-        <li className='About-item'>
-          <a href={`tel:${phone}`} target='_blank' rel='noopener noreferrer'>
-            {phone}
-          </a>
-        </li>
-        <li className='About-item'>
-          <a href={`mailto:${email}`} target='_blank' rel='noopener noreferrer'>
-            {email}
-          </a>
-        </li>
-        <li className='About-item'>
-          <a href={website} target='_blank' rel='noopener noreferrer'>
-            {website}
-          </a>
-        </li>
+        <AboutItem url={`tel:${phone}`} text={phone} className='About-item' />
+        <AboutItem url={`mailto:${email}`} text={email} className='About-item' />
+        <AboutItem url={website} text={website} className='About-item' />
       </ul>
       <p>{address}</p>
     </>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Item from './Item';
 
 function Academic({ academic = Array(3).fill({
   degree: '',
@@ -23,16 +24,14 @@ function Academic({ academic = Array(3).fill({
           institution,
           startDate,
         }, index) => (
-          <div className='Academic-item' key={`academic-${index}`}>
-            <h3>{degree}</h3>
-            <h5>{institution}</h5>
-            <p>{description}</p>
-            <h5>
-              {startDate}
-              -
-              {endDate}
-            </h5>
-          </div>
+          <Item
+            className='Academic-item'
+            title={degree}
+            sub={institution}
+            description={description}
+            date={`${startDate}-${endDate}`}
+            key={`academic-${index}`}
+          />
         ))
       }
       <h2 className='Certificate-title'>Certificates</h2>
@@ -43,12 +42,14 @@ function Academic({ academic = Array(3).fill({
           institution,
           name,
         }, index) => (
-          <div className='Certificate-item' key={`certificate-${index}`}>
-            <h3>{name}</h3>
-            <h5>{institution}</h5>
-            <p>{description}</p>
-            <h5>{date}</h5>
-          </div>
+          <Item
+            className='Certificate-item'
+            title={name}
+            sub={institution}
+            description={description}
+            date={date}
+            key={`certificate-${index}`}
+          />
         ))
       }
     </section>
