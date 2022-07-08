@@ -1,6 +1,6 @@
-export const getData = (api) => {
-  return fetch(api)
-    .then((response) => response.json())
-    .then(response => response)
-    .catch(error => error)
-}
+const getData = () => {
+  return fetch('http://localhost:3000/data')
+    .then((data) => data.json());
+};
+
+export default getData;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Interest = () => {
+function Interest() {
   return (
     <div className='interests'>
       <h2 className='Interest-title'> Interests </h2>
@@ -10,5 +10,7 @@ export const Interest = () => {
         <li className='Interest-item'>Music</li>
       </ul>
     </div>
-  )
+  );
 }
+
+export default Interest;

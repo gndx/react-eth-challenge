@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const About = () => {
+function About() {
   return (
     <div className='about'>
       <h2 className='About-title'> About </h2>
@@ -10,5 +10,7 @@ export const About = () => {
         <li className='About-item'>Link to tweeter</li>
       </ul>
     </div>
-  )
+  );
 }
+
+export default About;
