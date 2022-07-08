@@ -1,0 +1,36 @@
+.Academic {
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    margin: 5px 0px;
+    font-size: 18px;
+    color: #004918;
+    font-style: italic;
+  }
+  &-content {
+    .Academic-item {
+      margin: 5px 0px;
+      .item-degree {
+        font-size: 14px;
+        margin: 0px 0px 5px;
+      }
+
+      .item-institution,
+      .item-description {
+        font-size: 12px;
+        margin: 5px 0px;
+      }
+      .fact {
+        display: flex;
+        flex-direction: row;
+        margin: 5px 0px;
+        font-size: 12px;
+
+        div:first-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  padding-top: 5%;
+  margin: 0 10%;
+
+  &-title {
+    margin: 5px 0px;
+    font-size: 18px;
+    color: #004918;
+    font-style: italic;
+  }
+  &-desc {
+  }
+}

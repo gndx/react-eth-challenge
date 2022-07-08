@@ -1,0 +1,17 @@
+.Interest {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  margin-bottom: 30px;
+    &-title {
+      margin: 5px 0px;
+      font-size: 18px;
+      color: #004918;
+      font-style: italic;
+    }
+    &-content {
+      .Interest-item {
+      }
+    }
+  }
+  

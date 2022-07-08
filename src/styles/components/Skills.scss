@@ -1,0 +1,22 @@
+.Skills {
+  margin-left: 5%;
+
+  &-title {
+    margin: 5px 0px;
+    font-size: 18px;
+    color: #004918;
+    font-style: italic;
+  }
+  &-content {
+    .Skills-item {
+      display: flex;
+      flex-direction: row;
+      .Skills-name {
+        margin-right: 20px;
+        width: 150px;
+      }
+      .Skills-percentaje {
+      }
+    }
+  }
+}

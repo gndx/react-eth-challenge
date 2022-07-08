@@ -1,0 +1,41 @@
+@import "../mixins.scss";
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+  padding: 4% 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 73, 24, 1) 0%,
+    rgba(130, 200, 154, 1) 24%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  &-img {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+    justify-content: center;
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+  }
+
+  &-content {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .Header-title {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+  }
+}
