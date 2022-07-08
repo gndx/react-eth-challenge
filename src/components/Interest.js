@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Interest() {
+const Interest = ({ data }) => {
   return (
     <div>
-      <h2>.Interest-title</h2>
-      {[1, 2, 3].map(() => (
-        <p>.Interest-item</p>
+      <h2 className='Interest-title'>Interest title</h2>
+      {data.map((item,i) => (
+        <p key={`interest-${i}`} className='Interest-item'>{item}</p>
       ))}
     </div>
   );

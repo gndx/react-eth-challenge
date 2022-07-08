@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Academic() {
+const Academic = ({data}) => {
   return (
     <div>
-      <h2>.Academic-title</h2>
-      {[1, 2].map(() => (
-        <p>.Academic-item</p>
+      <h2 className='Academic-title'>Title academic</h2>
+      {data.map((item,i) => (
+        <p key={`academic-${i}`} className='Academic-item'>{item.description}</p>
       ))}
     </div>
   );

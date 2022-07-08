@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Skills() {
+const Skills = ({data}) => {
   return (
     <div>
-      <h2>.Skills-title</h2>
-      {[1, 2].map(() => (
-        <p>.Skills-item</p>
+      <h2 className="Skills-title">Skills</h2>
+      {data.map((item,i) => (
+        <p key={`skills-${i}`} className="Skills-item">{item.name}</p>
       ))}
     </div>
   );

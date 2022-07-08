@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Experience() {
+const Experience = ({data}) => {
   return (
     <div>
-      <h2>.Experience-title</h2>
-      {[1, 2, 3, 4].map((id) => (
-        <p key={id}>.Experience-item</p>
+      <h2 className='Experience-title'>Experience Title</h2>
+      {data.map((item,i) => (
+        <p key={`experience-${i}`} className='Experience-item'>{item.jobDescription}</p>
       ))}
     </div>
   );
