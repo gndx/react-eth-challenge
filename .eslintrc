@@ -19,7 +19,7 @@
     "expect": true,
     "sinon": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "plugins": [
     "react",
     "jsx-a11y",
@@ -27,6 +27,10 @@
   ],
   "rules": {
     "react/jsx-filename-extension": 0,
+    "react/function-component-definition": [2,{
+      "namedComponents": ["function-declaration","function-expression","arrow-function"],
+      "unnamedComponents": ["function-expression","arrow-function"]
+    }] ,
     "array-bracket-spacing": 2,
     "arrow-body-style": 0,
     "block-scoped-var": 2,
