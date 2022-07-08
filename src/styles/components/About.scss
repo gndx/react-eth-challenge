@@ -1,10 +1,13 @@
 .About {
-    &-title {
-    }
-    &-content {
-      .About-item {
-        margin: 5px 0px;
-      }
+  &-title {
+    font-size: 14px;
+    margin: 10px 0px;
+  }
+  &-content {
+    .About-item {
+      margin: 5px 0px;
+      font-size: 14px;
+      margin: 10px 0px;
     }
   }
-  
+}

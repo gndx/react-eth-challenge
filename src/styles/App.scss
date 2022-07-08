@@ -18,17 +18,17 @@ html {
 }
 
 body {
-  font-family: "Nunito", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 400;
   margin: unset;
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
 }
 
 .cv-facts {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 4%;
-  margin: 0 10%;
+  padding-top: 2%;
+  margin: 0 20%;
   gap: 15px;
 }
 

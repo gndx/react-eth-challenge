@@ -6,7 +6,7 @@ Recibe data como propiedades */
 const Profile = ({ data = {} }) => {
   return (
     <div className="Profile">
-      <div className="Profile-title">Curriculum Vitae</div>
+      <div className="Profile-title" />
       <div className="Profile-desc">{data.Profile}</div>
     </div>
   );

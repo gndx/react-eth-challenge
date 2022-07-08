@@ -15,9 +15,10 @@
     .Languages-item {
       display: flex;
       flex-direction: row;
-      .Languages-name {
+      .Languages-name, .Languages-percentaje {
         margin-right: 20px;
         width: 150px;
+        font-size: 14px;
       }
     }
   }

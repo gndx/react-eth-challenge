@@ -1,9 +1,9 @@
 .Profile {
   display: flex;
   flex-direction: column;
-  height: 10vh;
-  padding-top: 5%;
-  margin: 0 10%;
+  height: 8vh;
+  padding-top: 2%;
+  margin: 0 20%;
 
   &-title {
     margin: 5px 0px;
@@ -12,5 +12,9 @@
     font-style: italic;
   }
   &-desc {
+    font-size: 14px;
+    align-self: center;
+    width: 60%;
+    text-align: -webkit-center;
   }
 }

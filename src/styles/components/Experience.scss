@@ -1,8 +1,7 @@
 .Experience {
   display: flex;
   flex-direction: column;
-  padding-top: 4%;
-  margin: 0 10%;
+  margin: 0 20%;
 
   &-title {
     margin: 5px 0px;
@@ -23,14 +22,15 @@
       }
 
       .item-company {
-        font-size: 12px;
+        font-size: 14px;
         margin: 5px 0px;
       }
       .fact {
         display: flex;
         flex-direction: row;
         margin: 5px 0px;
-        font-size: 12px;
+        font-size: 14px;
+        width: 80%;
 
         div:first-child {
           margin-right: 20px;
