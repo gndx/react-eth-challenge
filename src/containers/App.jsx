@@ -14,8 +14,10 @@ import getData from '../utils/getData';
 function App() {
   const [user, setUser] = useState(undefined);
 
+  const API = process.env.SERVER || 'http://localhost:3000/data'
+
   useEffect(() => {
-    const data = getData('http://localhost:3000/data');
+    const data = getData(API);
     data.then((data) => {
       setUser(data);
     });

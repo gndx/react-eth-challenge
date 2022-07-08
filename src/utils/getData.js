@@ -1,4 +1,4 @@
-const getData = async (url = 'http://localhost:3000/data') => {
+const getData = async (url) => {
   const response = await (fetch(url));
   return response.json();
 };
