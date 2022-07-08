@@ -13,8 +13,7 @@ import getData from '../utils/getData';
 function App() {
   const [user, setUser] = useState(undefined);
 
-  const API = process.env.SERVER || 'http://localhost:3000/data';
-  console.log(API);
+  const API = process.env.SERVER || 'https://raw.githubusercontent.com/juansecod/react-eth-challenge/main/data.json';
 
   useEffect(() => {
     const data = getData(API);
