@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Experience } from '../../components/Experience';
+import { Experience, ExperienceItem } from '../../components/Experience';
 
 describe('<Experience />', () => {
   const experience = shallow(<Experience />);
@@ -14,6 +14,6 @@ describe('<Experience />', () => {
   });
 
   test('Experience haves 3 items', () => {
-    expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
+    expect(experience.find(ExperienceItem).length).toBeGreaterThan(2);
   });
 });

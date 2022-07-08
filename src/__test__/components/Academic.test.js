@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Academic } from '../../components/Academic';
+import { Academic, AcademicItem } from '../../components/Academic';
 
 describe('<Academic />', () => {
   const academic = shallow(<Academic />);
@@ -14,6 +14,6 @@ describe('<Academic />', () => {
   });
 
   test('Academic has 3 items', () => {
-    expect(academic.find('.Academic-item').length).toBeGreaterThan(2);
+    expect(academic.find(AcademicItem).length).toBeGreaterThan(2);
   });
 });

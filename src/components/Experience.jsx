@@ -11,21 +11,21 @@ export function ExperienceItem({
   jobTitle,
 }) {
   return (
-    <div>
-      <p className='Experience-item'>
-        <b>Company</b>
+    <div className="Experience-item">
+      <p>
+        <b>Company: </b>
         {company}
       </p>
-      <p className='Experience-item'>
-        <b>Time</b>
+      <p>
+        <b>Time: </b>
         {`${startDate}-${endDate}`}
       </p>
-      <p className='Experience-item'>
-        <b>Job Title</b>
+      <p>
+        <b>Job Title: </b>
         {jobTitle}
       </p>
-      <p className='Experience-item'>
-        <b>Job Description</b>
+      <p>
+        <b>Job Description: </b>
         {jobDescription}
       </p>
     </div>
@@ -42,8 +42,8 @@ export function Experience({ className, expList }) {
   return (
     <Box
       className={className}
-      classTitle='Experience-title'
-      title='Experience-title'
+      classTitle="Experience-title"
+      title="Experience-title"
     >
       <section style={{ display: 'flex', overflowWrap: 'break-word' }}>
         {experiences.map(
@@ -54,7 +54,7 @@ export function Experience({ className, expList }) {
                 {...{ company, startDate, endDate, jobDescription, jobTitle }}
               />
             );
-          },
+          }
         )}
       </section>
     </Box>
@@ -70,7 +70,7 @@ Experience.propTypes = {
       jobDescription: PropTypes.string,
       jobTitle: PropTypes.string,
       startDate: PropTypes.string,
-    }),
+    })
   ),
 };
 
@@ -84,6 +84,14 @@ Experience.defaultProps = {
         "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
       jobTitle: 'Frontend',
       startDate: 'Jan 2020',
+    },
+    {
+      company: 'CatStore',
+      endDate: 'Jan 2016',
+      jobDescription:
+        'Meow in empty rooms lick left leg for ninety minutes, still dirty.',
+      jobTitle: 'Backend',
+      startDate: 'Sept 2019',
     },
     {
       company: 'CatStore',
