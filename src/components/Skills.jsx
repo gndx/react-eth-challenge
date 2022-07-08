@@ -8,7 +8,7 @@ const Skills = () => {
       <h2 className="Skills-title">Skills</h2>
       <ul>
         {db.data.skills.map((skills) => (
-          <SkillsCard className="Skills-item" {...skills} />
+          <SkillsCard key={skills.name} className="Skills-item" {...skills} />
         ))}
       </ul>
     </div>

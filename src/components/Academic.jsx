@@ -9,7 +9,7 @@ const Academic = () => {
       <h2 className="Academic-title">Academic</h2>
       <ul>
       {db.data.Academic.map((acd) => (
-        <AcademicCard className="Academic-item" {...acd}/>
+        <AcademicCard key={acd.degree} className="Academic-item" {...acd}/>
       ))}
     </ul>
       <div className="skills">

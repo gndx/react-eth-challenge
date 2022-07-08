@@ -8,7 +8,7 @@ const About = () => {
     <h2 className='About-title'>About</h2>
     <ul >
       {db.data.social.map((about) => (
-        <AboutCard className='About-item' {...about}/>
+        <AboutCard key={about.name} className='About-item' {...about}/>
       ))}
     </ul>
     </div>

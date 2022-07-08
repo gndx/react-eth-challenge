@@ -8,7 +8,7 @@ const Experience = () => {
     <h2 className='Experience-title'>Experience</h2>
     <ul >
       {db.data.experience.map((exp) => (
-        <ExpCard className='Experience-item' {...exp}/>
+        <ExpCard key={exp.company} className='Experience-item' {...exp}/>
       ))}
     </ul>
     </div>
