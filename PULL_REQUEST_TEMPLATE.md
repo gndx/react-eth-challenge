@@ -2,15 +2,15 @@
 
 Solución al reto:
 
-Nombre:
-Usuario Platzi:
+Nombre: Francisco Cruz
+Usuario Platzi: MEGAFRAN
 
 ## Reto:
 
-- [ ] Primer problema
+- [X] Primer problema
 - [ ] Segundo problema
-- [ ] Tercer problema
-- [ ] Cuarto Problema
-- [ ] Quinto Problema
+- [X] Tercer problema
+- [X] Cuarto Problema
+- [X] Quinto Problema
 - [ ] Sexto Problema
 - [ ] Septimo Problema

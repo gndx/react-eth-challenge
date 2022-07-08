@@ -74,7 +74,8 @@ export const apiData =
       ],
       interest: [
         "AEM",
-        "frontend"
+        "frontend",
+        "basketball"
       ],
       languages: [
         {
@@ -83,6 +84,10 @@ export const apiData =
         },
         {
           name: "English",
+          percentage: "80%"
+        },
+        {
+          name: "Latino",
           percentage: "80%"
         }
       ],

@@ -1,9 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import About from '../../components/About';
+import {About} from '../../components/About';
+import { apiData } from '../../__mocks__/data';
 
 describe('<About />', () => {
-  const about = shallow(<About />);
+  const aboutData = apiData.data
+  const about = shallow(<About data={aboutData}/>);
 
   test('About render', () => {
     expect(about.length).toEqual(1);

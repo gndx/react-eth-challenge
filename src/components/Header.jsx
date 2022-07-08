@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { Children } from 'react'
 
-export const Header = () => {
+export const Header = ({title = 'Header', children}) => {
 
   return (
-    <div>Academic</div>
+    <div>
+      
+      <h1 className='Header-title'>{title}</h1>
+
+      { children }
+
+    </div>
     )
     
 }
