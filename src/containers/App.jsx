@@ -8,29 +8,34 @@ import { Skills } from '../components/Skills';
 import {Interest} from '../components/Interest';
 import { Languages } from '../components/Languages';
 
-const [data, setData] = useState([])
-
-useEffect(() => {
-  first
-
-  return () => {
-    second
-  }
-}, [])
-
 
 const App = () => {
+
+  const [apiData, setApiData] = useState([])
+
+  const getApiData = async () => 
+  {
+    const data = await (await fetch('http://localhost:3000/data')).json()
+    console.log(data)
+    setApiData(data)
+  }
+
+  useEffect(() => { getApiData() }, [])
+
+
   return (
     <>
       <Header>
         <About />
       </Header>
       <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Experience data={apiData.experience}/>
+      <section>
+        <Academic data={apiData.Academic}/>
+        <Skills data={apiData.skills}/>
+        <Interest />
+        <Languages />
+      </section>
     </>
   )
 };

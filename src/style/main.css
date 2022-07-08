@@ -1,0 +1,11 @@
+#app {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+#app section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
