@@ -1,9 +1,10 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import Profile from '../../components/Profile';
+import { shallow } from 'enzyme';
+import Profile from '../../components/Profile/Profile';
+import data from '../data/profile';
 
 describe('<Profile />', () => {
-  const profile = mount(<Profile />);
+  const profile = shallow(<Profile data={data} />);
 
   test('Profile render', () => {
     expect(profile.length).toEqual(1);

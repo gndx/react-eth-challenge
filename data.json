@@ -1,109 +1,190 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
+    "about": {
+      "name": "Alberto Sosa Fernández",
+      "profession": "Computer Engineer",
+      "address": "Florida, USA.",
+      "email": "tecsobs@gmail.com",
+      "website": "https://tecso.tech",
+      "phone": "+1 753546546",
+      "avatar": "/images/avatar.jpg",
+      "profile": "With 18 years old, I had the pleasure of discovering my passion for application development. Since then I have not stopped learning, creating projects, and gaining experiences that have made me a creative and open-minded developer."
+    },
+     "certificate": [
+       {
+         "id": "0",
+         "date": "July 2022",
+         "description": "Marca Personal Course",
+         "institution": "Platzi"
+       },
+       {
+         "id": "1",
+         "date": "July 2022",
+         "description": "Fundamentos de Ingeniería de Software Course",
+         "institution": "Platzi"
+       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "id": "0",
+        "degree": "Computer Engineer Degree",
+        "description": "I graduated from the university",
+        "endDate": "July 2011",
+        "institution": "CUJAE",
+        "startDate": "Jan 2006"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "id": "1",
+        "degree": "Virtual Reality Systems Postgraduate Degree",
+        "description": "Using graphic and physics engines",
+        "endDate": "July 2012",
+        "institution": "CUJAE",
+        "startDate": "Jan 2011"
+      },
+      {
+        "id": "2",
+        "degree": "Full Stack Development Postgraduate Degree",
+        "description": "Web development",
+        "endDate": "March 2013",
+        "institution": "CUJAE",
+        "startDate": "Feb 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "id": "0",
+        "company": "City",
+        "endDate": "July 2013",
+        "jobDescription": "C# Developer",
+        "jobTitle": "I+D Developer",
+        "startDate": "September 2011"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "id": "1",
+        "company": "Freelancer",
+        "endDate": "Present",
+        "jobDescription": "Web full stack, desktop and mobile development",
+        "jobTitle": "Developer",
+        "startDate": "July 2013"
+      },
+      {
+        "id": "2",
+        "company": "AppleAlExtremo",
+        "endDate": "Feb 2019",
+        "jobDescription": "Web full stack, and desktop development",
+        "jobTitle": "CEO & Founder",
+        "startDate": "July 2013"
+      },
+      {
+        "id": "3",
+        "company": "Tecso Busisness Solutions",
+        "endDate": "Present",
+        "jobDescription": "Web full stack, desktop and mobile development",
+        "jobTitle": "CEO & Founder",
+        "startDate": "Feb 2019"
       }
     ],
     "skills": [
       {
+        "id": "0",
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": 90
       },
       {
+        "id": "1",
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": 80
       },
       {
+        "id": "2",
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": 90
       },
       {
+        "id": "3",
         "name": "React",
-        "percentage": "90%"
+        "percentage": 90
+      },
+      {
+        "id": "4",
+        "name": "NodeJS",
+        "percentage": 90
+      },
+      {
+        "id": "5",
+        "name": "MongoDB",
+        "percentage": 85
+      },
+      {
+        "id": "6",
+        "name": "MySQL",
+        "percentage": 85
+      },
+      {
+        "id": "7",
+        "name": "PHP",
+        "percentage": 85
+      },
+      {
+        "id": "8",
+        "name": "C#",
+        "percentage": 85
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      {
+        "id": "0",
+        "name": "Music",
+        "image": "/images/music.png"
+      },
+      {
+        "id": "1",
+        "name": "Movies",
+        "image": "/images/movie.png"
+      },
+      {
+        "id": "2",
+        "name": "Travel",
+        "image": "/images/travel.png"
+      },
+      {
+        "id": "3",
+        "name": "Food",
+        "image": "/images/food.png"
+      }
     ],
     "languages": [
       {
+        "id": "0",
         "name": "Spanish",
-        "percentage": "90%"
+        "image": "/images/flags/es.svg",
+        "percentage": 100
       },
       {
+        "id": "1",
         "name": "English",
-        "percentage": "50%"
+        "image": "/images/flags/en.svg",
+        "percentage": 90
+      },
+      {
+        "id": "2",
+        "name": "French",
+        "image": "/images/flags/fr.svg",
+        "percentage": 20
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
+        "id": "0",
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/tecsobs",
+        "image": "/images/social/twitter.svg"
       },
       {
+        "id": "1",
         "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://github.com/tecsobs",
+        "image": "/images/social/github.svg"
       }
     ]
   }

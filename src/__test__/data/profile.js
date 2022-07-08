@@ -1,0 +1,1 @@
+module.exports = 'With 18 years old, I had the pleasure of discovering my passion for application development. Since then I have not stopped learning, creating projects, and gaining experiences that have made me a creative and open-minded developer.';

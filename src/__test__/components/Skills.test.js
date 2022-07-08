@@ -1,9 +1,10 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import Skills from '../../components/Skills';
+import { shallow } from 'enzyme';
+import Skills from '../../components/Skill/Skills';
+import data from '../data/skills';
 
 describe('<Skills />', () => {
-  const skills = mount(<Skills />);
+  const skills = shallow(<Skills data={data} />);
 
   test('Skills render', () => {
     expect(skills.length).toEqual(1);
