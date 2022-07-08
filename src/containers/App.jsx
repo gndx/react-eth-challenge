@@ -9,6 +9,8 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
+
+
 const App = () => {
   return (
     <>
@@ -18,11 +20,9 @@ const App = () => {
       <Profile />
       <Experience />
       <Academic />
-      <Skills />
       <Interest />
-      <Languages />
     </>
-  )
+  );
 };
 
 export default App;

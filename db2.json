@@ -1,0 +1,43 @@
+{
+    "users": [
+      {
+        "id": "7ec3d2f0-641e-11e9-9d5d-1b8ad05606d1",
+        "password": "$2b$10$RNCVsIxNLKP8Gl.BPoedXuwGczl527UfsLDYcb.9V856ng4kxULrS",
+        "favs": [
+          "18",
+          "1"
+        ],
+        "avatar": "https://gravatar.com/avatar/8e04be7dab487d77f16969fd3e0d45d4",
+        "email": "miduga@gmail.com"
+      },
+      {
+        "id": "a882e1d0-6428-11e9-9b1f-8980b7d40890",
+        "password": "$2b$10$BffxqFIacmPkKr2VZgyu7.r0nMmCMbL3nNw3CdWLpKVSKWkUAQGJS",
+        "favs": [
+          "18",
+          "16",
+          "1",
+          "15"
+        ],
+        "avatar": "https://gravatar.com/avatar/3bccd59be0a57b39bdd9b2760702795e",
+        "email": "dani@gmail.com"
+      }
+    ],
+    "experience": [
+      {
+        "company": "PugStar",
+        "endDate": "Present",
+        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobTitle": "Frontend",
+        "startDate": "Jan 2020"
+      },
+      {
+        "company": "CatStore",
+        "endDate": "Jan 2016",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Backend",
+        "startDate": "Sept 2019"
+      }
+    ]
+    
+  }
