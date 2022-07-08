@@ -34,7 +34,7 @@ const Header = ({data}) => {
             >
               <img
                 className="w-6 mr-1 colorSvg"
-                src="../icons/linkedin.svg"
+                src="/linkedin.svg"
                 alt=""
               />
               {data.networks.linkedin}
@@ -46,7 +46,7 @@ const Header = ({data}) => {
             >
               <img
                 className="w-6 mr-1 colorSvg"
-                src="../icons/github.svg"
+                src="/github.svg"
                 alt=""
               />
               {data.networks.github}
@@ -58,7 +58,7 @@ const Header = ({data}) => {
             >
               <img
                 className="w-6 mr-1 colorSvg"
-                src="../icons/twitter.svg"
+                src="/twitter.svg"
                 alt=""
               />
               {data.networks.twitter}
@@ -66,9 +66,9 @@ const Header = ({data}) => {
           </div>
         </div>
       </div>
-      <div className="ml-auto max-w-[226px] self-start bg-white/10 border-white/40 border-2 py-3 px-3 rounded-lg shadow-lg">
+      <div className="ml-auto max-w-[232px] self-start bg-white/10 border-white/40 border-2 py-3 px-3 rounded-lg shadow-lg">
         <span>
-          Puedes ver mis POAP's en mi social wallet en{' '}
+          You can see my POAP's in my social wallet on {' '}
           <img
             className="w-16 inline relative bottom-[4px]"
             src="https://www.welook.io/static/media/welook-logo-main.356ecc8f4e93d5e7435ef73cca5d7e33.svg"
@@ -80,7 +80,7 @@ const Header = ({data}) => {
           target="_blank"
           className="btn--pink mt-6"
         >
-          Ver poaps{' '}
+          See poaps{' '}
           <img
             className="w-5 inline relative top-[1px] ml-1"
             src="https://poap.xyz/POAP.f74a7300.svg"

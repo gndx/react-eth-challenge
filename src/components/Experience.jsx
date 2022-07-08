@@ -5,7 +5,7 @@ import Section from '../containers/Section';
 const Experience = ({ data }) => {
   return (
     <Section id="Experience" className="flex flex-col">
-      <span className="flex items-center mb-2">
+      <span className="flex items-center mb-3">
         <Icon name="Experience" className="mr-0.5 text-amber-800" />
         <h3 className="Experience-title">{data.experience.title}</h3>
       </span>
