@@ -17,7 +17,7 @@ const App = () => {
 
   useEffect(() => {
 
-    getData('https://json-server-cellunlockus-gmailcom.vercel.app/api/data', { cors: true })
+    getData('https://json-server-drab-five.vercel.app/api/data', { cors: true })
       .then((data) => setData(data))
       .catch((e) => console.error(e));
 
