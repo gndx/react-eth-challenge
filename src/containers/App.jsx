@@ -19,9 +19,9 @@ function VitePage() {
       </Header>
       <Profile className='item-1' />
       <Experience className='item-2' expList={user?.experience} />
-      <Academic className='item-3' />
-      <Interest className='item-4' />
-      <Languages className='item-5' />
+      <Academic className='item-3' academicList={user?.Academic} />
+      <Interest className='item-4' interestsList={user?.interest} />
+      <Languages className='item-5' languagesList={user?.languages} />
       <Skills className='item-6' />
     </main>
   );

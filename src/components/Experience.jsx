@@ -11,7 +11,7 @@ export function ExperienceItem({
   jobTitle,
 }) {
   return (
-    <div className="Experience-item">
+    <div className='Experience-item'>
       <p>
         <b>Company: </b>
         {company}
@@ -42,8 +42,8 @@ export function Experience({ className, expList }) {
   return (
     <Box
       className={className}
-      classTitle="Experience-title"
-      title="Experience-title"
+      classTitle='Experience-title'
+      title='Experience-title'
     >
       <section style={{ display: 'flex', overflowWrap: 'break-word' }}>
         {experiences.map(
@@ -54,7 +54,7 @@ export function Experience({ className, expList }) {
                 {...{ company, startDate, endDate, jobDescription, jobTitle }}
               />
             );
-          }
+          },
         )}
       </section>
     </Box>
@@ -70,7 +70,7 @@ Experience.propTypes = {
       jobDescription: PropTypes.string,
       jobTitle: PropTypes.string,
       startDate: PropTypes.string,
-    })
+    }),
   ),
 };
 
