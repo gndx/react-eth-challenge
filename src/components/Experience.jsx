@@ -1,29 +1,106 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import '../styles/App.css';
 import { Box } from './Box';
 
-export const Experience = ({ className }) => {
+export function ExperienceItem({
+  company,
+  startDate,
+  endDate,
+  jobDescription,
+  jobTitle,
+}) {
+  return (
+    <div>
+      <p className='Experience-item'>
+        <b>Company</b>
+        {company}
+      </p>
+      <p className='Experience-item'>
+        <b>Time</b>
+        {`${startDate}-${endDate}`}
+      </p>
+      <p className='Experience-item'>
+        <b>Job Title</b>
+        {jobTitle}
+      </p>
+      <p className='Experience-item'>
+        <b>Job Description</b>
+        {jobDescription}
+      </p>
+    </div>
+  );
+}
+
+export function Experience({ className, expList }) {
+  const [experiences, setExperiences] = useState(expList);
+
+  useEffect(() => {
+    setExperiences(expList);
+  }, [expList]);
+
   return (
     <Box
       className={className}
-      classTitle="Experience-title"
-      title={'Experience-title'}
+      classTitle='Experience-title'
+      title='Experience-title'
     >
-      <div>
-        <p className={'Experience-item'}>Experience-item</p>
-        <p className={'Experience-item'}>Experience-item</p>
-        <p className={'Experience-item'}>Experience-item</p>
-      </div>
+      <section style={{ display: 'flex', overflowWrap: 'break-word' }}>
+        {experiences.map(
+          ({ company, startDate, endDate, jobDescription, jobTitle }) => {
+            return (
+              <ExperienceItem
+                key={`${company}-${startDate}`}
+                {...{ company, startDate, endDate, jobDescription, jobTitle }}
+              />
+            );
+          },
+        )}
+      </section>
     </Box>
   );
-};
+}
 
 Experience.propTypes = {
   className: PropTypes.string,
+  expList: PropTypes.arrayOf(
+    PropTypes.exact({
+      company: PropTypes.string,
+      endDate: PropTypes.string,
+      jobDescription: PropTypes.string,
+      jobTitle: PropTypes.string,
+      startDate: PropTypes.string,
+    }),
+  ),
 };
 
 Experience.defaultProps = {
   className: '',
+  expList: [
+    {
+      company: 'PugStar',
+      endDate: 'Present',
+      jobDescription:
+        "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+      jobTitle: 'Frontend',
+      startDate: 'Jan 2020',
+    },
+    {
+      company: 'CatStore',
+      endDate: 'Jan 2016',
+      jobDescription:
+        'Meow in empty rooms lick left leg for ninety minutes, still dirty.',
+      jobTitle: 'Backend',
+      startDate: 'Sept 2019',
+    },
+  ],
 };
+ExperienceItem.propTypes = {
+  company: PropTypes.string,
+  endDate: PropTypes.string,
+  jobDescription: PropTypes.string,
+  jobTitle: PropTypes.string,
+  startDate: PropTypes.string,
+};
+
 export default Experience;

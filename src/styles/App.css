@@ -4,7 +4,6 @@ body {
 
 .Box {
   min-height: 150px;
-  max-height: 200px;
   margin: 5px;
   padding: 10px;
   background-color: aquamarine;

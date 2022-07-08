@@ -1,10 +1,10 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import getData from '../utils/getData';
+import { getData } from '../utils/getData';
 
 export const ViteContext = createContext({});
 
-export const ViteProvider = ({ children, url }) => {
+export function ViteProvider({ children, url }) {
   const [user, setUser] = useState({
     name: '',
     profession: '',
@@ -69,7 +69,7 @@ export const ViteProvider = ({ children, url }) => {
       {children}
     </ViteContext.Provider>
   );
-};
+}
 
 export function useVite() {
   return useContext(ViteContext);
