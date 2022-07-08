@@ -3,6 +3,7 @@
 Solución al reto:
 
 Nombre: Aitor Zaldua
+
 Usuario Platzi: @aitor_
 
 ## Reto:
