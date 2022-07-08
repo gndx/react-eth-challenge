@@ -25,7 +25,7 @@ import User from '../icons/User.jsx';
 const Icon = ({ name, className }) => {
   return (
     <div
-      className={`w-7 ${className} text-blue-400 drop-shadow-[0_0_7px_rgba(1,1,1,0.25)]`}
+      className={`w-7 ${className} text-sky-500 drop-shadow-[0_0_7px_rgba(1,1,1,0.25)]`}
     >
       {name === 'Block' && <Block className={className} />}
       {name === 'User' && <User className={className} />}

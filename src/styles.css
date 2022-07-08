@@ -9,18 +9,22 @@ h2 {
   @apply text-xl mb-4 font-medium;
 }
 h3 {
-  @apply text-lg font-medium;
+  @apply text-xl font-medium;
 }
 p {
   @apply text-base;
 }
 
 .btn {
-  @apply border-2 rounded-xl px-4 py-2;
+  @apply font-semibold rounded-lg px-4 py-2 flex items-center justify-center cursor-pointer;
 }
 
-.btn--blue {
-  @apply btn text-white bg-blue-600;
+.btn--golden {
+  @apply btn text-white bg-[rgba(255,174,0,1)] border-[2px] border-[rgb(255,174,0)]/[1] drop-shadow-[0_0_5px_rgba(255,174,0,0.5)];
+}
+
+.btn--pink {
+  @apply btn text-white bg-pink-600 hover:bg-pink-600/95;
 }
 
 .bg-gradient {
@@ -45,6 +49,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.icon--header {
+  @apply w-[1.3rem] mr-1 relative;
+}
+
 .link {
-  @apply flex items-center transition duration-200 ease-in-out hover:text-cyan-400  hover:drop-shadow-[0_0_8px_rgba(50,50,255,0.2)];
+  @apply flex items-center;
+}
+
+.colorSvg {
+  filter: invert(52%) sepia(86%) saturate(812%) hue-rotate(166deg)
+    brightness(88%) contrast(109%);
 }

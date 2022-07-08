@@ -7,23 +7,25 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
-import NavBar from '../components/NavBar'
+import NavBar from '../components/NavBar';
 import Projects from '../components/Projects';
 
+import jsonData from '../../data.json';
+let data = jsonData.data;
 
 const App = () => {
   return (
     <div className="bg-gradient flex flex-col items-center pb-8">
-      <NavBar />
-      <Header />
-      <Profile />
-      <Skills />
-      <Experience />
-      <Academic />
-      <Projects/>
-      <Interest />
-      <About />
-      <Languages />
+      <NavBar data={data} />
+      <Header data={data} />
+      <Profile data={data} />
+      <Skills data={data} />
+      <Experience data={data} />
+      <Academic data={data} />
+      <Projects data={data} />
+      <Interest data={data} />
+      <About data={data} />
+      <Languages data={data} />
     </div>
   );
 };
