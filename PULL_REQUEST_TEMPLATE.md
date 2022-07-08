@@ -1,9 +1,9 @@
 ## DESCRIPTION
 
-Solución al reto:
+Solución al reto: React Ethereum Challenge
 
-Nombre:
-Usuario Platzi:
+Nombre: Carlos J. Ramirez
+Usuario Platzi: @carlosjramirez
 
 ## Reto:
 

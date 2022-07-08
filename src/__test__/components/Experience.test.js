@@ -1,25 +1,34 @@
 import React from 'react';
 // import { mount } from 'enzyme';
-import {render, screen} from '@testing-library/react'
+import {render, act, waitFor} from '@testing-library/react'
 import Experience from '../../components/Experience';
 
 describe('<Experience />', () => {
   // const experience = mount(<Experience />);
-  render(<Experience />);
+  const {container, debug} = render(<Experience />);
+  let containerFirstChild = container.firstChild;
+
+debug();
 
   test('Experience render', () => {
     // expect(experience.length).toEqual(1);
-    expect(screen.length).toEqual(1);
+    expect(container.childElementCount).toEqual(1);
   });
 
   test('Experience title', () => {
     // expect(experience.find('.Experience-title').length).toEqual(1);
-    expect(screen.find('.Experience-title').length).toEqual(1);
+    expect(containerFirstChild.getElementsByClassName('Experience-title').length).toEqual(1);
   });
 
-  test('Experience haves 3 items', () => {
+  it('Experience haves 3 items', async () => {
     // expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
-    expect(screen.find('.Experience-item').length).toBeGreaterThan(2);
+    await act( async () => {
+      render(<Experience />, container);
+    });
+    waitFor(() => {
+      let containerSecondChild = container.childNodes[1];
+      expect(containerSecondChild.getElementsByClassName('Experience-item').length).toBeGreaterThan(2);
+    })
   });
 
 });
