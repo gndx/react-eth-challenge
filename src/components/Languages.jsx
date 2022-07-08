@@ -8,7 +8,7 @@ const Languages = () => {
       <ul>
         <li className="Languages-item">Spanish</li>
         <li className="Languages-item">English</li>
-        <li className="Languages-item">Portuguese</li>
+        <li className="Languages-item">Italian</li>
       </ul>
     </Card>
   );

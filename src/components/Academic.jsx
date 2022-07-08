@@ -8,7 +8,7 @@ const Academic = () => {
       <ul>
         <li className="Academic-item">Software engineer</li>
         <li className="Academic-item">Ethereum Developer Program</li>
-        <li className="Academic-item">Producer & Composer</li>
+        <li className="Academic-item">Agile Coach</li>
       </ul>
     </Card>
   );
