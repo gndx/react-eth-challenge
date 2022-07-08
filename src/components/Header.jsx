@@ -4,28 +4,28 @@ import PropTypes from 'prop-types';
 import { Box } from './Box';
 import { useVite } from '../context/ViteContext';
 
-const Avatar = ({ avatar }) => {
+function Avatar({ avatar }) {
   return (
-    <picture className={'Header-avatar'}>
+    <picture className="Header-avatar">
       <img src={avatar} />
     </picture>
   );
-};
+}
 
-const Header = ({ children, className, title }) => {
+function Header({ children, className, title }) {
   const { profile } = useVite();
   return (
     <Box className={`${className} Header-container`}>
       <header style={{ display: 'flex' }}>
         <Avatar avatar={profile?.avatar} />
         <div>
-          <h1 className="Header-title">{title ? title : profile?.name}</h1>
+          <h1 className="Header-title">{title || profile?.name}</h1>
           {children}
         </div>
       </header>
     </Box>
   );
-};
+}
 
 Header.propTypes = {
   title: PropTypes.string,
