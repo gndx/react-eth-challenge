@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -9,12 +9,30 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
+import getData from '../utils/getData';
+
 function App() {
+  const [profile, setProfile] = useState({});
+
+  useEffect(() => {
+    getData().then((result) => setProfile(result));
+  }, []);
+
   return (
     <>
-      <Header>
-        <About />
+      <Header
+        avatar={profile.avatar}
+        name={profile.name}
+        profession={profile.profession}
+      >
+        <About
+          email={profile.email}
+          address={profile.address}
+          phone={profile.phone}
+          website={profile.website}
+        />
       </Header>
+
       <Profile />
       <Experience />
       <Academic />

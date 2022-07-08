@@ -7,9 +7,9 @@ Usuario Platzi:
 
 ## Reto:
 
-- [ ] Primer problema
+- [x] Primer problema
 - [ ] Segundo problema
-- [ ] Tercer problema
+- [x] Tercer problema
 - [ ] Cuarto Problema
 - [ ] Quinto Problema
 - [ ] Sexto Problema
