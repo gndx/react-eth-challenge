@@ -11,11 +11,11 @@ const Experience = ({data}) => {
               data.map((experience, index) => {
                 return (
                   <li key={index} className="Experience-item">
-                    <p>{experience.jobTitle}</p>
-                    <p>{experience.startDate}</p>
-                    <p>{experience.company}</p>
-                    <p>{experience.endDate}</p>
-                    <p>{experience.jobDescription}</p>
+                    {experience.jobTitle}
+                    {experience.startDate}
+                    {experience.company}
+                    {experience.endDate}
+                    {experience.jobDescription}
                   </li>
                 )
               })

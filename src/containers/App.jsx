@@ -36,10 +36,10 @@ const App = () => {
           phone={list.phone}
         />
       </Header>
-      <Profile data={list.Profile} />
+      <Profile description={list.Profile} />
       <Experience data={list.experience} />
       <Academic data={list.Academic} />
-      <Skills data={list.Skills} />
+      <Skills data={list.skills} />
       <Interest data={list.interest} />
       <Languages data={list.languages} />
     </>
