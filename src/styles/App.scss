@@ -1,0 +1,90 @@
+@import "./components/Header.scss";
+@import "./components/About.scss";
+@import "./components/Academic.scss";
+@import "./components/Experience.scss";
+@import "./components/Interest.scss";
+@import "./components/Languages.scss";
+@import "./components/Profile.scss";
+@import "./components/Skills.scss";
+@import "./mixins.scss";
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: unset;
+  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+}
+
+.cv-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2%;
+  margin: 0 20%;
+  gap: 15px;
+}
+
+h1 {
+  font-size: 1.75rem;
+
+  @include mobileMedium {
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.4rem;
+
+  @include mobileMedium {
+    font-size: 1.1rem;
+  }
+}
+
+h3 {
+  font-size: 1.3rem;
+
+  @include mobileMedium {
+    font-size: 1rem;
+  }
+}
+
+h3 {
+  font-size: 1.2rem;
+
+  @include mobileMedium {
+    font-size: 1rem;
+  }
+}
+
+h4 {
+  font-size: 1.15rem;
+
+  @include mobileMedium {
+    font-size: 0.9rem;
+  }
+}
+
+h5 {
+  font-size: 1.1rem;
+
+  @include mobileMedium {
+    font-size: 0.9rem;
+  }
+}
+
+h6 {
+  font-size: 1rem;
+
+  @include mobileMedium {
+    font-size: 0.85rem;
+  }
+}

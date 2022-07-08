@@ -1,0 +1,25 @@
+.Languages {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  margin-bottom: 30px;
+  margin-left: 5%;
+
+  &-title {
+    margin: 5px 0px;
+    font-size: 18px;
+    color: #004918;
+    font-style: italic;
+  }
+  &-content {
+    .Languages-item {
+      display: flex;
+      flex-direction: row;
+      .Languages-name, .Languages-percentaje {
+        margin-right: 20px;
+        width: 150px;
+        font-size: 14px;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.Experience {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+
+  &-title {
+    margin: 5px 0px;
+    font-size: 18px;
+    color: #004918;
+    font-style: italic;
+  }
+  &-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    .Experience-item {
+      margin: 5px 0px;
+
+      .item-title {
+        font-size: 14px;
+        margin: 0px 0px 5px;
+      }
+
+      .item-company {
+        font-size: 14px;
+        margin: 5px 0px;
+      }
+      .fact {
+        display: flex;
+        flex-direction: row;
+        margin: 5px 0px;
+        font-size: 14px;
+        width: 80%;
+
+        div:first-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

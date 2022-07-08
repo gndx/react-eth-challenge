@@ -1,91 +1,95 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Maria Nazareth Romero",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Mérida, Venezuela",
+    "email": "maria.nromero995@gmail.com",
+    "website": "https://github.com/marianromero995",
+    "phone": "+584247382327",
+    "avatar": "https://avatars.githubusercontent.com/marianromero995",
+    "Profile": "Chemical Engineer venturing into the world of front-end development. Creation and design of web applications.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Nov 2018",
+        "description": "Diploma in statistics applied to research",
+        "institution": "Universidad de los Andes",
+        "name": "Diploma in statistics applied to research"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Dec 2021",
+        "description": "English Course",
+        "institution": "CEVAM",
+        "name": "English Course - CEVAM"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Chemical Engineer",
+        "description": "Chemical Engineer - Cum Laude",
+        "endDate": "Aug 2019",
+        "institution": "Universidad de los Andes",
+        "startDate": "Jan 2013"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Novateva",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Participation in the layout and web development of projects.",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Aug 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "NetWorkArte",
+        "endDate": "May 2017",
+        "jobDescription": "Responsible for oﬀering the company's services through diﬀerent virtual platforms. Boosting sales and generating new projects.",
+        "jobTitle": "Sales Assistant",
+        "startDate": "Feb 2015"
+      },
+      {
+        "company": "Freelancer",
+        "endDate": "Present",
+        "jobDescription": "Software development",
+        "jobTitle": "Freelancer",
+        "startDate": "Jun 2021"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": ""
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": ""
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": ""
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": ""
       }
     ],
     "interest": [
       "javascript",
-      "develop",
+      "development",
       "backend",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Native"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "Proficient"
+      },
+      {
+        "name": "German",
+        "percentage": "Basic"
       }
     ],
     "social": [

@@ -1,0 +1,45 @@
+//Responsive Breakpoints
+
+$desktop-width: 1000px;
+
+$small-desktop-width: 1100px;
+
+$content-width: 1440px;
+
+$large-desktop-width: 1600px;
+
+@mixin mobile {
+	@media screen and (max-width: $desktop-width) {
+		@content;
+	}
+}
+
+@mixin mobileMedium {
+	@media screen and (max-width: 850px) {
+		@content;
+	}
+}
+
+@mixin mobileSmall {
+	@media screen and (max-width: 450px) {
+		@content;
+	}
+}
+
+@mixin smallDesktop {
+	@media screen and (min-width: $desktop-width) and (max-width: $small-desktop-width) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media screen and (min-width: $desktop-width) {
+		@content;
+	}
+}
+
+@mixin largeDesktop {
+	@media screen and (min-width: $large-desktop-width) {
+		@content;
+	}
+}

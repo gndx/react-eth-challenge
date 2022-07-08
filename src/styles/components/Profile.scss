@@ -1,0 +1,20 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+  height: 8vh;
+  padding-top: 2%;
+  margin: 0 20%;
+
+  &-title {
+    margin: 5px 0px;
+    font-size: 18px;
+    color: #004918;
+    font-style: italic;
+  }
+  &-desc {
+    font-size: 14px;
+    align-self: center;
+    width: 60%;
+    text-align: -webkit-center;
+  }
+}

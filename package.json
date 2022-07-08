@@ -24,6 +24,7 @@
     "babel-loader": "8.2.5",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
+    "force": "^0.0.3",
     "html-loader": "3.1.2",
     "html-webpack-plugin": "5.5.0",
     "jest-fetch-mock": "3.0.3",
@@ -34,7 +35,7 @@
     "webpack-dev-server": "4.9.3"
   },
   "devDependencies": {
-    "babel-eslint": "10.1.0",
+    "@babel/eslint-parser": "^7.5.4",
     "css-loader": "6.7.1",
     "eslint": "8.19.0",
     "eslint-config-airbnb": "19.0.4",
@@ -48,7 +49,9 @@
     "jest": "28.1.2",
     "json-server": "^0.17.0",
     "mini-css-extract-plugin": "2.6.1",
+    "node-sass": "^7.0.1",
     "prettier": "2.7.1",
+    "sass-loader": "^13.0.2",
     "style-loader": "3.3.1",
     "stylus": "0.58.1",
     "stylus-loader": "7.0.0"
