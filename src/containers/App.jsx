@@ -8,21 +8,36 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import Loading from '../components/Loading';
+import AppContext from '../context/AppContext';
+import useInitialData from '../hooks/useInitialData';
 
 const App = () => {
-  return (
+  const [initialData, appLoading] = useInitialData();
+  console.log('app',appLoading);
+  const renderList = () => (
     <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      {appLoading ? (
+        <Loading />
+      ) : (
+        <AppContext.Provider value={initialData}>
+          <Header >
+            <About />
+          </Header >
+          <Profile />
+          <Experience />
+          <Academic />
+          <Skills />
+          <Interest />
+          <Languages />
+        </AppContext.Provider>
+      )}
     </>
-  )
+  );
+
+  return (<div>
+    {renderList()}
+  </div>);
 };
 
 export default App;

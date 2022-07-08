@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Picture = () => {
+const Picture = ({avatar}) => {
+  console.log(avatar)
   return (
-      <img src='https://arepa.s3.amazonaws.com/melissa.jpg'></img>
+      <img src={avatar}></img>
   );
 }
 
