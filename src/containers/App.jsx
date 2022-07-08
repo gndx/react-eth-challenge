@@ -17,11 +17,13 @@ const App = () => {
       </Header>
       <Profile />
       <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
+      <div className="App-grid">
+        <Academic />
+        <Skills />
+        <Interest />
+        <Languages />
+      </div>
+       </>
   )
 };
 

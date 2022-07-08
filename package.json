@@ -1,15 +1,18 @@
 {
   "name": "react-eth-challenge",
+  "homepage":"https://jucabega27.github.io/react-eth-challenge",
   "version": "1.0.0",
   "description": "React Eth Challenge",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development",
-    "server": "json-server data.json",
+    "start": "webpack-dev-server --mode development",
+    "server": "json-server data.data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "react",
@@ -34,7 +37,7 @@
     "webpack-dev-server": "4.9.3"
   },
   "devDependencies": {
-    "babel-eslint": "10.1.0",
+     "@babel/eslint-parser": "^7.5.4",
     "css-loader": "6.7.1",
     "eslint": "8.19.0",
     "eslint-config-airbnb": "19.0.4",
@@ -44,6 +47,7 @@
     "eslint-plugin-jsx-a11y": "6.6.0",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.30.1",
+    "gh-pages": "^4.0.0",
     "husky": "8.0.1",
     "jest": "28.1.2",
     "json-server": "^0.17.0",
