@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import '../styles/App.css';
 import { Box } from './Box';
-
+import { PercentageBar } from './PercentageBar';
 export function Languages({ className, languagesList }) {
   const [languages, setLanguages] = useState(languagesList);
 
@@ -10,17 +10,14 @@ export function Languages({ className, languagesList }) {
     setLanguages(languagesList);
   }, [languagesList]);
   return (
-    <Box
-      className={className}
-      classTitle="Languages-title"
-      title="Languages-title"
-    >
+    <Box className={className} classTitle="Languages-title" title="Languages">
       <section>
         {languages.map(({ name, percentage }) => (
-          <p
+          <PercentageBar
             key={name}
-            className="Languages-item"
-          >{`${name} - ${percentage}`}</p>
+            className={'.Languages-item'}
+            {...{ name, percentage }}
+          />
         ))}
       </section>
     </Box>

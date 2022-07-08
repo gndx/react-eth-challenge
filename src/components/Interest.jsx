@@ -11,11 +11,7 @@ export function Interest({ className, interestsList }) {
   }, [interestsList]);
 
   return (
-    <Box
-      className={className}
-      classTitle="Interest-title"
-      title="Interest-title"
-    >
+    <Box className={className} classTitle="Interest-title" title="Interest">
       <section>
         {interests.map((item) => (
           <p key={item} className="Interest-item">

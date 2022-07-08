@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Skills } from '../../components/Skills';
+import { PercentageBar } from '../../components/PercentageBar';
 
 describe('<Skills />', () => {
   const skills = shallow(<Skills />);
@@ -14,6 +15,6 @@ describe('<Skills />', () => {
   });
 
   test('Skills has 3 items', () => {
-    expect(skills.find('.Skills-item').length).toBeGreaterThan(2);
+    expect(skills.find(PercentageBar).length).toBeGreaterThan(2);
   });
 });

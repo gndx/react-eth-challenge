@@ -40,11 +40,7 @@ export function Academic({ className, academicList }) {
   }, [academicList]);
 
   return (
-    <Box
-      className={className}
-      classTitle="Academic-title"
-      title="Academic-title"
-    >
+    <Box className={className} classTitle="Academic-title" title="Academic">
       <section style={{ display: 'flex', overflowWrap: 'break-word' }}>
         {academis.map(
           ({ degree, description, endDate, institution, startDate }) => {

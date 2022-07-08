@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import '../styles/App.css';
 import { Box } from './Box';
-
+import { PercentageBar } from './PercentageBar';
 export function Skills({ className, skillLilst }) {
   const [skils, setSkils] = useState(skillLilst);
 
@@ -11,12 +11,14 @@ export function Skills({ className, skillLilst }) {
   }, [skillLilst]);
 
   return (
-    <Box className={className} classTitle="Skills-title" title="Skills-title">
+    <Box className={className} classTitle="Skills-title" title="Skills">
       <section>
         {skils.map(({ name, percentage }) => (
-          <p key={name} className="Skills-item">
-            {`${name} - ${percentage}`}
-          </p>
+          <PercentageBar
+            key={name}
+            className={'.Skills-item'}
+            {...{ name, percentage }}
+          />
         ))}
       </section>
     </Box>

@@ -40,11 +40,7 @@ export function Experience({ className, expList }) {
   }, [expList]);
 
   return (
-    <Box
-      className={className}
-      classTitle="Experience-title"
-      title="Experience-title"
-    >
+    <Box className={className} classTitle="Experience-title" title="Experience">
       <section style={{ display: 'flex', overflowWrap: 'break-word' }}>
         {experiences.map(
           ({ company, startDate, endDate, jobDescription, jobTitle }) => {

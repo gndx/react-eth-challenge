@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export const Box = ({ children, className, title, classTitle }) => {
   return (
     <div className={`${className} Box`}>
-      {title ? <h1 className={`${classTitle}`}>{title}</h1> : null}
+      {title ? <h1 className={`${classTitle} Box-title`}>{title}</h1> : null}
       {children}
     </div>
   );

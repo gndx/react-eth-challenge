@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { Languages } from '../../components/Languages';
-
+import { PercentageBar } from '../../components/PercentageBar';
 describe('<Languages />', () => {
   const languages = shallow(<Languages />);
 
@@ -14,6 +14,6 @@ describe('<Languages />', () => {
   });
 
   test('Languages has 3 items', () => {
-    expect(languages.find('.Languages-item').length).toBeGreaterThan(2);
+    expect(languages.find(PercentageBar).length).toBeGreaterThan(2);
   });
 });
