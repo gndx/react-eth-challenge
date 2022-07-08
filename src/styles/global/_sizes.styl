@@ -1,0 +1,49 @@
+@import './_color.styl';
+
+:root {
+  --headline1: 700 4.5rem/5rem 'Arial';
+  --headline2: 700 4rem/4.75rem 'Arial';
+  --headline3: 700 2rem/2rem 'Arial';
+  --headline4: 700 1.5rem/1.649999976158142rem 'Arial';
+  --headline5: 700 1.25rem/1.649999976158142rem 'Arial';
+  --body1regular: 400 1.125rem/1.6875rem 'Arial';
+  --body1bold: 700 1.125rem/1.6875rem 'Arial';
+  --body2regular: 400 0.875rem/1.5rem 'Arial';
+  --body2bold: 700 0.875rem/1.6875rem 'Arial';
+  --button: 600 1.125rem/1.6875rem 'Arial';
+  --caption: 400 0.75rem/1.6875rem 'Arial';
+  scroll-behavior: smooth;
+}
+
+body {
+  font: var(--body1regular);
+  margin: 0;
+  padding-block: 1rem;
+}
+
+h2 {
+  font: var(--headline2);
+}
+
+h3 {
+  font: var(--headline3);
+}
+
+h4 {
+  font: var(--headline4);
+}
+
+h5 {
+  font: var(--headline5);
+}
+
+.wrapper {
+  padding-inline: 2rem
+  padding-block: 1rem
+}
+
+@media screen and (min-width: 2000px) {
+  :root {
+    font-size: 24px;
+  }
+}
