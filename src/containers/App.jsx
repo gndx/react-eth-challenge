@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -7,22 +8,59 @@ import Experience from '../components/Experience';
 import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import Languages from '../components/Languajes';
+import getData from '../utils/getData';
 
-const App = () => {
+function App() {
+  const [user, setUser] = useState(undefined);
+
+  useEffect(() => {
+    const data = getData('http://localhost:3000/data');
+    data.then((data) => {
+      setUser(data);
+    });
+  }, []);
+
+  if (!user) return null;
+
+  const {
+    name,
+    profession,
+    address,
+    email,
+    website,
+    phone,
+    avatar,
+    Profile: profile,
+    certificate,
+    Academic: academic,
+    experience,
+    skills,
+    interest,
+    languages,
+    social,
+  } = user;
+
+  console.log(social)
   return (
-    <>
-      <Header>
-        <About />
+    <div className='App'>
+      <Header name={name} avatar={avatar} social={social}>
+        <About
+          profession={profession}
+          address={address}
+          email={email}
+          website={website}
+          phone={phone}
+        />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
-  )
-};
+      <Profile profile={profile} />
+      <Experience experience={experience} />
+      <Academic academic={academic} certificate={certificate} />
+      <Skills skills={skills} />
+      <Interest interest={interest} />
+      <Languages languages={languages} />
+    </div>
+  );
+}
 
 export default App;
