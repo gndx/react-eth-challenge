@@ -13,12 +13,14 @@ export function Interest({ className, interestsList }) {
   return (
     <Box
       className={className}
-      classTitle='Interest-title'
-      title='Interest-title'
+      classTitle="Interest-title"
+      title="Interest-title"
     >
       <section>
         {interests.map((item) => (
-          <p className='Interest-item'>{item}</p>
+          <p key={item} className="Interest-item">
+            {item}
+          </p>
         ))}
       </section>
     </Box>

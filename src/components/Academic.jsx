@@ -83,7 +83,7 @@ Academic.defaultProps = {
         ' I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms',
       endDate: 'Jan 2017',
       institution: 'MIT',
-      startDate: 'Jan 2018',
+      startDate: 'Jan 2020',
     },
     {
       degree: 'Atomic Master',
@@ -91,7 +91,7 @@ Academic.defaultProps = {
         ' I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms',
       endDate: 'Jan 2017',
       institution: 'MIT',
-      startDate: 'Jan 2018',
+      startDate: 'Jan 2019',
     },
     {
       degree: 'Atomic Master',

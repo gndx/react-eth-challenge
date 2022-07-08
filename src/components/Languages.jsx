@@ -12,12 +12,15 @@ export function Languages({ className, languagesList }) {
   return (
     <Box
       className={className}
-      classTitle='Languages-title'
-      title='Languages-title'
+      classTitle="Languages-title"
+      title="Languages-title"
     >
       <section>
         {languages.map(({ name, percentage }) => (
-          <p className='Languages-item'>{`${name} - ${percentage}`}</p>
+          <p
+            key={name}
+            className="Languages-item"
+          >{`${name} - ${percentage}`}</p>
         ))}
       </section>
     </Box>
@@ -28,9 +31,9 @@ Languages.propTypes = {
   className: PropTypes.string,
   languagesList: PropTypes.arrayOf(
     PropTypes.exact({
-      name: 'Spanish',
-      percentage: '90%',
-    }),
+      name: PropTypes.string,
+      percentage: PropTypes.string,
+    })
   ),
 };
 
