@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Skills = () => {
+function Skills() {
   return (
     <div className='skills'>
       <h2 className='Skills-title'> Skills </h2>
@@ -10,5 +10,7 @@ export const Skills = () => {
         <li className='Skills-item'>React</li>
       </ul>
     </div>
-  )
+  );
 }
+
+export default Skills;

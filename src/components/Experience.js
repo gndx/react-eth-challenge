@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Experience = () => {
+function Experience() {
   return (
     <div className='experience'>
       <h2 className='Experience-title'> Experience </h2>
@@ -10,5 +10,7 @@ export const Experience = () => {
         <li className='Experience-item'>Customer Support Representative</li>
       </ul>
     </div>
-  )
+  );
 }
+
+export default Experience;

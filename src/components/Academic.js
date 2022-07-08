@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Academic = () => {
+function Academic() {
   return (
     <div className='academic'>
       <h2 className='Academic-title'> Academic </h2>
@@ -10,5 +10,7 @@ export const Academic = () => {
         <li className='Academic-item'>Microverse Bootcamp</li>
       </ul>
     </div>
-  )
+  );
 }
+
+export default Academic;

@@ -1,4 +1,4 @@
-import { getData } from '../../utils/getData';
+import getData from '../../utils/getData';
 
 describe('Fetch API', () => {
   beforeEach(() => {
@@ -8,11 +8,11 @@ describe('Fetch API', () => {
   test('Test API', () => {
     fetch.mockResponseOnce(JSON.stringify({ data: '12345' }));
 
-    getData('https://google.com')
+    getData('http://localhost:3000/data')
       .then((response) => {
         expect(response.data).toEqual('12345');
-    });
+      });
     expect(fetch.mock.calls.length).toEqual(1);
-    expect(fetch.mock.calls[0][0]).toEqual('https://google.com');
+    expect(fetch.mock.calls[0][0]).toEqual('http://localhost:3000/data');
   });
 });
