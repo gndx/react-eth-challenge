@@ -51,6 +51,6 @@ module.exports = {
       filename: 'assets/[name].css',
     }),
     new CleanWebpackPlugin(),
-    new Dotenv(['SERVER']),
+    new Dotenv(),
   ],
 };
