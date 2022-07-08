@@ -1,57 +1,63 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Alejandro Medina",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Aguascalientes, Mexico.",
+    "email": "5almero5@gmail.com",
+    "website": "https://wolftrax5.vercel.app/",
+    "phone": "+52 4491896806",
+    "avatar": "https://avatars.githubusercontent.com/wolftrax5",
+    "Profile": "Hola,mi nombre es Alejandro Medina de 🇲🇽 llevo algo de tiempo dessarrollando en JS como front-end pero no tengo miedo de ver nuevas tecnologias o aprender nuevas cosas.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Ago 2021",
+        "description": "Conocer cómo funcionan las estructuras de datos básicas de Go. Aplicar métodos e interfaces para implementar structs, punteros y stringers en tu programas.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Curso Básico de Programación en Go"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Sep 2020",
+        "description": "Preparar un bundle para enviar a producción con Webpack Crear Styled-components para estructurar tu app Utilizar React Hooks",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de React Avanzado"
+      },
+      {
+        "date": "Oct 2020",
+        "description": "Conoce cómo funciona el sistema económico y tu participación en él para empezar a construir unas finanzas personales sanas.",
+        "institution": "Platzi",
+        "name": "Curso de Introducción a Educación Financiera"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
+        "degree": "Ing.ICI",
+        "description": " Formar Ingenieros en Computación Inteligente, con conocimientos sólidos de los fundamentos matemáticos y teóricos de las Ciencias de la Computación, de Inteligencia Artificial e Industria de Software",
+        "endDate": "Ago 2016",
         "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "startDate": "Jan 2011"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "AgileThought",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Created the UI interface for MVP.Engineered to display the relevant information for the managers.",
+        "jobTitle": "Senior Frontend Developer",
+        "startDate": "Feb 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "DagM8",
+        "endDate": "Feb 2021",
+        "jobDescription": "anagement of the Application architecture with MicroServices to enable High Ability platform, set up different environments to continuous integration and continuous delivery",
+        "jobTitle": "Full Stack Engineer",
+        "startDate": "Abr 2019"
+      },
+      {
+        "company": "Softtek México",
+        "endDate": "Abr 2019",
+        "jobDescription": "Implement complex calculations and algorithm need to display the data of client want to see and save. Principally focus on array and object management for every day.",
+        "jobTitle": "Front-End Developer",
+        "startDate": "Ago 2018"
       }
     ],
     "skills": [
@@ -65,7 +71,7 @@
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "85%"
       },
       {
         "name": "React",
@@ -90,20 +96,16 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/wolftrax05"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/wolftrax5"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/wolftrax/"
       }
     ]
   }

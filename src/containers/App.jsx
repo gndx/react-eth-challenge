@@ -13,23 +13,23 @@ import { Skills } from '../components/Skills';
 function VitePage() {
   const { user } = useVite();
   return (
-    <main className='vite-grid'>
-      <Header className='item-0'>
+    <main className="vite-grid">
+      <Header className="item-0">
         <About />
       </Header>
-      <Profile className='item-1' />
-      <Experience className='item-2' expList={user?.experience} />
-      <Academic className='item-3' academicList={user?.Academic} />
-      <Interest className='item-4' interestsList={user?.interest} />
-      <Languages className='item-5' languagesList={user?.languages} />
-      <Skills className='item-6' />
+      <Profile className="item-1" />
+      <Experience className="item-2" expList={user?.experience} />
+      <Academic className="item-3" academicList={user?.Academic} />
+      <Interest className="item-4" interestsList={user?.interest} />
+      <Languages className="item-5" languagesList={user?.languages} />
+      <Skills className="item-6" />
     </main>
   );
 }
 
 function App() {
   return (
-    <ViteProvider>
+    <ViteProvider url="https://raw.githubusercontent.com/wolftrax5/react-eth-challenge/main/data.json">
       <VitePage />
     </ViteProvider>
   );

@@ -62,7 +62,7 @@ export function ViteProvider({ children, url }) {
       }
     }
     fetchData();
-  }, []);
+  }, [url]);
 
   return (
     <ViteContext.Provider value={{ user, profile }}>

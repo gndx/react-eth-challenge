@@ -37,7 +37,7 @@ Avatar.propTypes = {
   avatar: PropTypes.string,
 };
 Avatar.defaultProps = {
-  avatar: 'https://arepa.s3.amazonaws.com/melissa.jpg',
+  avatar: 'https://avatars.githubusercontent.com/wolftrax5',
 };
 
 export default Header;
