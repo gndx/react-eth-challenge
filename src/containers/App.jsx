@@ -28,7 +28,7 @@ const App = () => {
       <Header>
         <About />
       </Header>
-      <Profile />
+      <Profile data={apiData.Profile}/>
       <Experience data={apiData.experience}/>
       <section>
         <Academic data={apiData.Academic}/>

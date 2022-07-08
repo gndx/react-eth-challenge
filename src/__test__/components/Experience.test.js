@@ -4,7 +4,8 @@ import {Experience} from '../../components/Experience';
 import { apiData } from '../../__mocks__/data';
 
 describe('<Experience />', () => {
-  const experience = shallow(<Experience data={apiData.experience}/>);
+  const experienceData = apiData.data.experience
+  const experience = shallow(<Experience data={experienceData}/>);
 
   test('Experience render', () => {
     expect(experience.length).toEqual(1);

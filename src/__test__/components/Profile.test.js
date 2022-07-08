@@ -1,9 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Profile from '../../components/Profile';
+import {Profile} from '../../components/Profile';
+import { apiData } from '../../__mocks__/data';
+
 
 describe('<Profile />', () => {
-  const profile = shallow(<Profile />);
+  const profileData = apiData.data.Profile
+  const profile = shallow(<Profile data={profileData}/>);
 
   test('Profile render', () => {
     expect(profile.length).toEqual(1);
