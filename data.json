@@ -1,57 +1,72 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "name": "Aitor Zaldua",
+    "profession": "Blockchain Developer",
+    "address": "A Corunha, Galiza.",
+    "email": "aitor.zaldua@draftdigital.org",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "xxx",
+    "avatar": "xxx",
+    "Profile": "This API is for the Blockchain Dev Platzi ",
+
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jul 2022",
+        "description": "Personal Brand",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Personal Brand"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Jul 2022",
+        "description": "React Professional",
         "institution": "Platzi",
         "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Electronic Engineer",
+        "description": "Telekom Enginner, Electronic",
+        "endDate": "Jun 1996",
+        "institution": "UPC Barcelona",
+        "startDate": "Sep 1988"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Blockchain Developer",
+        "description": "Smart Contracts, Front End",
+        "endDate": "Mar 2022",
+        "institution": "Platzi",
+        "startDate": "Jan 2022"
+      },
+      {
+        "degree": "Smart Contract",
+        "description": "Security and gas control",
+        "endDate": "Mar 2022",
+        "institution": "Platzi",
+        "startDate": "Jan 2022"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Draft Digital",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Building the Web3",
+        "jobTitle": "CTO",
+        "startDate": "Sep 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "DXC",
+        "endDate": "Sep 2021",
+        "jobDescription": "Engineer",
+        "jobTitle": "BCS Engineer",
+        "startDate": "Sep 2017"
+      },
+      {
+        "company": "HP",
+        "endDate": "Sep 2017",
+        "jobDescription": "Engineer",
+        "jobTitle": "Engineer",
+        "startDate": "Sept 2000"
       }
     ],
     "skills": [
@@ -81,10 +96,14 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
+        "percentage": "90%"
+      },
+      {
+        "name": "France",
         "percentage": "50%"
       }
     ],
