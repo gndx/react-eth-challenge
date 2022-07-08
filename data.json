@@ -11,7 +11,7 @@
     "certificate": [
       {
         "date": "Nov 2021",
-        "description": "a web developer or engineer who works with both the front and back ends of a website or application. In this sense, they provide an end-to-end service, and can be involved in projects that involve databases and building user-facing websites.",
+        "description": "A web developer or engineer who works with both the front and back ends of a website or application. In this sense, they provide an end-to-end service, and can be involved in projects that involve databases and building user-facing websites.",
         "institution": "Acamica - Digital House",
         "name": "Full Stack Web Development"
       },
@@ -38,7 +38,7 @@
       },
       {
         "degree": "Software Development Technician",
-        "description": " set of computer science activities dedicated to the process of creating, designing, deploying and supporting software. Software itself is the set of instructions or programs that tell a computer what to do. It is independent of hardware and makes computers programmable.",
+        "description": "Set of computer science activities dedicated to the process of creating, designing, deploying and supporting software. Software itself is the set of instructions or programs that tell a computer what to do. It is independent of hardware and makes computers programmable.",
         "endDate": "Feb 2018",
         "institution": "Servicio Nacional de Aprendizaje Sena",
         "startDate": "Nov 2019"
