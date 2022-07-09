@@ -1,0 +1,18 @@
+@import '../_variables.styl';
+
+.ColumnLayout
+    display: grid
+    grid-template-columns: 1fr 1fr
+    position: relative
+    color: primary
+    
+.ColumnLayout + .ColumnLayout::before
+    background-color: secondary
+    position:absolute
+    content:''
+    top:0
+    left: 50%
+    transform: translateX(-50%)
+    width: 60%
+    height: .15rem
+    margin-inline: auto

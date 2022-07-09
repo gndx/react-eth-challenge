@@ -8,7 +8,7 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
-
+import ColumnLayout from './ColumnLayout';
 import getData from '../utils/getData';
 
 function App() {
@@ -35,10 +35,14 @@ function App() {
 
       <Profile description={profile.Profile} />
       <Experience experiences={profile.experience} />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <ColumnLayout>
+        <Academic academics={profile.Academic} />
+        <Skills />
+      </ColumnLayout>
+      <ColumnLayout>
+        <Interest />
+        <Languages />
+      </ColumnLayout>
     </>
   );
 }
