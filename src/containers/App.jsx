@@ -8,22 +8,33 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languajes';
+import Error from '../components/Error';
 import getData from '../utils/getData';
 
 function App() {
   const [user, setUser] = useState(undefined);
+  const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const API = process.env.SERVER || 'https://raw.githubusercontent.com/juansecod/react-eth-challenge/main/data.json';
 
   useEffect(() => {
     const data = getData(API);
-    data.then((data) => {
-      const { data: info } = data;
-      (!info) ? setUser(data) : setUser(info);
-    });
+    data
+      .then((data) => {
+        const { data: info } = data;
+        (!info) ? setUser(data) : setUser(info);
+        setLoading(false);
+      })
+      .catch(() => {
+        setError(true);
+        setLoading(false);
+      });
   }, []);
 
-  if (!user) return null;
+  if (loading) return null;
+  if (!loading && error) return (<Error />);
+  if (!loading && !user) return (<Error code='404' message='Not Found' />);
 
   const {
     name,
