@@ -3,7 +3,7 @@ import Icon from '../containers/Icon';
 
 const NavBar = () => {
   return (
-    <div className="w-11/12 justify-around text-white my-2 py-2 text-lg font-semibold hidden lg:flex">
+    <div className="w-11/12 justify-around text-white my-2 py-2 text-lg font-semibold hidden lg:flex max-w-[1400px]">
       <a href="#Profile" className="link">
         <Icon name="Profile" className="w-[27px] mr-[1px] text-sky-500" />
         Profile

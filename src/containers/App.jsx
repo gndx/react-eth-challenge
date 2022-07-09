@@ -15,7 +15,7 @@ let data = jsonData.data;
 
 const App = () => {
   return (
-    <div className="bg-gradient flex flex-col items-center pb-8">
+    <div className="bg-gradient flex flex-col items-center pb-8 relative">
       <NavBar data={data} />
       <Header data={data} />
       <Profile data={data} />

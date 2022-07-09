@@ -1,20 +1,71 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Icon from '../containers/Icon';
 import Section from '../containers/Section';
 
-const Projects = () => {
+const Projects = ({ data }) => {
+  const [fullImage, setFullImage] = useState({ display: false, image: null });
+
+  const handleOpenFullImage = (imageUrl) => {
+    setFullImage({
+      display: true,
+      image: imageUrl,
+    });
+  };
+
+  const handleCloseFullImage = () => {
+    setFullImage({ display: false, image: null });
+  };
+
   return (
-    <Section id="Projects" className="flex flex-col">
-        <span className="flex items-center">
-          <Icon name="Experiment" className="mr-0.5 text-fuchsia-600 text-green-500" />
-          <h3 className="Projects-title">Personal projects</h3>
-        </span>
-        <div className="flex">
-          <p className="Projects-item mr-2">Projects-item</p>
-          <p className="Projects-item mr-2">Projects-item</p>
-          <p className="Projects-item mr-2">Projects-item</p>
+    <>
+      {fullImage.display && (
+        <div
+          className="FullImage fixed h-[100%] w-[100%] bg-black/70 z-10 flex justify-center items-center"
+          onClick={handleCloseFullImage}
+        >
+          {/* <div className="border-2"> */}
+          <img
+            className="w-4/6  rounded-sm object-fit shadow-[0_0_20px_rgba(1,1,1,1)]"
+            src={fullImage.image}
+            alt="project fullimage"
+          />
+          {/* </div> */}
         </div>
-    </Section>
+      )}
+      <Section id="Projects" className="flex flex-col">
+        <span className="flex items-center mb-3">
+          <Icon name="Experiment" className="mr-0.5 text-green-500" />
+          <h3 className="Projects-title">{data.projects.title}</h3>
+        </span>
+        <div className="flex flex-col sm:flex-row">
+          {data.projects.projects.map((item, index) => (
+            <article
+              key={index}
+              className="flex flex-col justify-between bg-white/10 rounded-md py-3 px-4 drop-shadow-lg w-full mb-4 sm:m-2 sm:w-[50vw] lg:w-[35vw]"
+            >
+              <span>
+                <h3 className="mb-1">{item.title}</h3>
+                <img
+                  className="w-full object-scale-down mb-2 drop-shadow-lg cursor-pointer"
+                  src={item.image}
+                  alt={item.title.concat(' project')}
+                  onClick={() => {
+                    handleOpenFullImage(item.image);
+                  }}
+                />
+                <p className="mb-1">{item.description}</p>
+              </span>
+              <span className="flex justify-between">
+                <a href={item.repo} className="flex items-center">
+                  <img src="/github.svg" className="mr-2"></img>Github link
+                </a>
+                <p className="mb-1">{item.date}</p>
+              </span>
+            </article>
+          ))}
+        </div>
+      </Section>
+    </>
   );
 };
 

@@ -37,7 +37,7 @@ const Header = ({data}) => {
                 src="/linkedin.svg"
                 alt=""
               />
-              {data.networks.linkedin}
+              Linkedin
             </a>
             <a
               className="flex mr-4"
@@ -49,7 +49,7 @@ const Header = ({data}) => {
                 src="/github.svg"
                 alt=""
               />
-              {data.networks.github}
+              GitHub
             </a>
             <a
               className="flex mr-4 "
@@ -61,12 +61,12 @@ const Header = ({data}) => {
                 src="/twitter.svg"
                 alt=""
               />
-              {data.networks.twitter}
+              Twitter
             </a>
           </div>
         </div>
       </div>
-      <div className="ml-auto max-w-[232px] self-start bg-white/10 border-white/40 border-2 py-3 px-3 rounded-lg shadow-lg">
+      <div className="ml-auto max-w-[232px] self-start bg-white/10 border-white/40 border-2 py-3 px-3 rounded-lg shadow-lg hidden lg:inline">
         <span>
           You can see my POAP's in my social wallet on {' '}
           <img

@@ -10,8 +10,10 @@ const Profile = ({ data }) => {
         <h3 className="Profile-title">{data.profile.title}</h3>
       </span>
       <div className="Profile-desc">
-        {data.profile.description.map((description) => (
-          <p className="mb-2.5">{description}</p>
+        {data.profile.description.map((description, index) => (
+          <p key={index} className="mb-2.5">
+            {description}
+          </p>
         ))}
       </div>
     </Section>

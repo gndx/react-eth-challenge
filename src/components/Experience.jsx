@@ -13,7 +13,7 @@ const Experience = ({ data }) => {
         {data.experience.experiences.map((experience, index) => (
           <span
             key={index}
-            className="Experience-item mb-4 bg-white/10  rounded py-5 px-4 flex"
+            className="Experience-item mb-4 bg-white/10 rounded py-5 px-4 flex"
           >
             {experience.image && (
               <img
@@ -22,7 +22,7 @@ const Experience = ({ data }) => {
                 alt=""
               />
             )}
-            <span>
+            <span className="max-w-[900px]">
               <p className="text-lg font-semibold">{experience.jobTitle}</p>
               <p className="text-lg ">{experience.company}</p>
               <p className="mb-1">
