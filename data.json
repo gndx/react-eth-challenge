@@ -159,27 +159,27 @@
       {
         "name": "Dev.To",
         "url": "https://dev.to/elreyes",
-        "icon": "/assets/devto-icon.svg"
+        "icon": "https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/public/assets/devto-icon.svg"
       },
       {
         "name": "Twitter",
         "url": "https://twitter.com/ReyesMFabian",
-        "icon": "/assets/twitter-tile.svg"
+        "icon": "https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/public/assets/twitter-tile.svg"
       },
       {
         "name": "Github",
         "url": "https://github.com/reyesmfabian",
-        "icon": "/assets/github-tile.svg"
+        "icon": "https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/public/assets/twitter-tile.svg"
       },
       {
         "name": "Linkedin",
         "url": "https://www.linkedin.com/in/reyesmfabian/",
-        "icon": "/assets/linkedin-tile.svg"
+        "icon": "https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/public/assets/twitter-tile.svg"
       },
       {
         "name": "Stack Overflow",
         "url": "https://es.stackoverflow.com/users/145473/fabian-reyes",
-        "icon": "/assets/stackoverflow-tile.svg"
+        "icon": "https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/public/assets/twitter-tile.svg"
       }
     ]
   }
