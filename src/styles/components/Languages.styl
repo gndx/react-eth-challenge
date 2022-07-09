@@ -1,8 +1,15 @@
+@require "Container.styl"
+
 .Languages
-  background-color red
+  @extends .SplitContainer
+  border-top-color red
   grid-column 2/3
   grid-row 5/6
 
-.Languages-item
-  margin-left 15px
+  .Languages-title
+    text-align center
+
+  .Languages-item
+    text-align center
+    margin-bottom 1rem
 
