@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/components/Skills.styl';
+import ProgressBar from './ProgressBar';
 
 const Skills = ({ data }) => {
   return (
@@ -11,7 +12,10 @@ const Skills = ({ data }) => {
               data.map((skill, index) => {
                 return (
                   <li key={index} className="Skills-item">
-                    {skill.name} - {skill.percentage}
+                    <ProgressBar
+                      name={ skill.name }
+                      percentage={ skill.percentage }
+                    />
                   </li>
                 )
               })
