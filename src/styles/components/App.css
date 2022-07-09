@@ -1,0 +1,87 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.app{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    height: 100vh;
+    width: 100vw;
+    grid-gap: 30px;
+}
+
+.list-experiences {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.list-about{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%
+}
+
+.image {
+    height: 100px;
+    border-radius: 100%;
+    width: 100px;
+}
+
+.header {
+    background-color:#A9B2E8;
+    height: 100%;
+    display: grid;
+    padding: 5px 80px;
+    grid-template-columns: 1fr 4fr;
+}
+
+.profile {
+    background-color: #A9E8BB;
+    height: 100%;
+    padding: 5px 80px;
+}
+
+.experience{
+    background-color: #A9E8BB;
+    height: 100%;
+    padding: 5px 80px;
+}
+
+.interest {
+    background-color: #A9E8BB;
+    padding: 5px 80px;
+}
+
+.languages {
+    background-color: #A9E8BB;
+    padding: 5px 80px;
+}
+
+.academics {
+    background-color: #A9E8BB;
+    height: 100%;
+    padding: 5px 80px;
+}
+
+.skills {
+    background-color: #A9E8BB;
+    height: 100%;
+    padding: 5px 80px;
+}
+
+.acedemic-and-skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+.interest-and-languages{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
