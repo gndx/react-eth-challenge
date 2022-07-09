@@ -1,20 +1,23 @@
 @require "Container.styl"
 
 .Header
-  width 100vw
   display flex
-  flex-direction row;
   justify-content center
-  background-color #cbcdc8;
+  background: rgb(152,202,63);
+  background: linear-gradient(0deg, rgba(204,205,203,1) 0%, rgba(152,202,63,1) 100%);
   border-bottom 3px solid #98ca3f
+  line-height 0.5rem
+  grid-column 1/3
+  grid-row 1/2
 
 .Header img
-  margin 10px
+  margin-right 5rem
   border-radius 50%
-  width 100px 
-  height 100px
   align-self center
 
 .Header-tile
-  margin-left 15px
   color red
+
++prefix-classes('About-')
+  .title, .item
+    color blue
