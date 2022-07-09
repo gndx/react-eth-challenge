@@ -1,11 +1,11 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Andrés Díaz",
+    "profession": "Software Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
+    "email": "andresdavid220@gmail.com",
+    "website": "andiazo.github.io",
+    "phone": "3013461814",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
@@ -81,11 +81,11 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [
