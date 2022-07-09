@@ -10,7 +10,7 @@ Usuario Platzi:
 - [X] Primer problema
 - [X] Segundo problema
 - [X] Tercer problema
-- [ ] Cuarto Problema
-- [ ] Quinto Problema
+- [X] Cuarto Problema
+- [X] Quinto Problema
 - [ ] Sexto Problema
 - [ ] Septimo Problema
