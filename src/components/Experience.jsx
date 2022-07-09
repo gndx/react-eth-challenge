@@ -4,18 +4,19 @@ import '../styles/components/Experience.styl';
 const Experience = ({data}) => {
   return(
     <div className="Experience">
-      <h3 className="Experience-title">Experience</h3>
+      <h2 className="Experience-title">Experience</h2>
+      <hr />
       <ul>
         {
           data ?
               data.map((experience, index) => {
                 return (
                   <li key={index} className="Experience-item">
-                    {experience.jobTitle}
-                    {experience.startDate}
-                    {experience.company}
-                    {experience.endDate}
-                    {experience.jobDescription}
+                    <h3>
+                      <span className="Job-title">{experience.jobTitle}</span> | <span className="Job-dates">{experience.startDate} - {experience.endDate}</span>
+                    </h3>
+                    <p className="Company">{experience.company}</p>
+                    <p>{experience.jobDescription}</p>
                   </li>
                 )
               })
