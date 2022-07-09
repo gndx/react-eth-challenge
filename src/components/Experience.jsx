@@ -1,13 +1,20 @@
 import React from 'react';
+import ExperienceItem from './ExperienceItem';
+import '../styles/components/Experience.styl';
 
-function Experience() {
+function Experience({ experiences }) {
   return (
     <section className='Experience'>
-      <h1 className='Experience-title'>Experience title</h1>
-      <div className='Experience-items'>
-        <p className='Experience-item'>Worked</p>
-        <p className='Experience-item'>Worked</p>
-        <p className='Experience-item'>Worked</p>
+      <div className='Experience-container General-container'>
+        <h1 className='Experience-title General-title'>Experience title</h1>
+        <div className='Experience-items'>
+          {experiences &&
+            experiences.map((exp) => (
+              <article key={exp.company} className='Experience-item'>
+                <ExperienceItem experience={exp} />
+              </article>
+            ))}
+        </div>
       </div>
     </section>
   );

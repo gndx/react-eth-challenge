@@ -33,8 +33,8 @@ function App() {
         />
       </Header>
 
-      <Profile />
-      <Experience />
+      <Profile description={profile.Profile} />
+      <Experience experiences={profile.experience} />
       <Academic />
       <Skills />
       <Interest />
