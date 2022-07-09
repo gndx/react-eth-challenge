@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
+import dateFormat from '../../utils/dateFormat';
 import AppContext from '../../context/AppContext';
 import Content from '../Content';
-import dateFormat from '../../utils/dateFormat.js';
 
 /** Shows Experience information from data context*/
 const Experience = () => {
@@ -16,10 +16,10 @@ const Experience = () => {
     return { company, dateExperience, jobTitle, jobDescription };
   };
   return (
-    <section className="experience">
-      <h2 className="Experience-title">Experience</h2>
-      {initalContent.map((item, i) => (
-        <div key={i} className="Experience-item">
+    <section className='experience'>
+      <h2 className='Experience-title'>Experience</h2>
+      {initalContent.map((item) => (
+        <div key={item.name} className='Experience-item'>
           <Content data={data.experience && experience(item)} />
         </div>
       ))}

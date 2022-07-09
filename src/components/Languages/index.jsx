@@ -8,10 +8,10 @@ const Languages = () => {
   //set inital layout
   const initalContent = data.languages ? data.languages : [0, 1, 2];
   return (
-    <section className="languages">
-      <h2 className="Languages-title">Languages</h2>
-      {initalContent.map((item, i) => (
-        <div key={i} className="Languages-item">
+    <section className='languages'>
+      <h2 className='Languages-title'>Languages</h2>
+      {initalContent.map((item) => (
+        <div key={item.name} className='Languages-item'>
           <Content data={data.languages && item} />
         </div>
       ))}

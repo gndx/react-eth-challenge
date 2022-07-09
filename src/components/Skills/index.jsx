@@ -8,11 +8,11 @@ const Skills = () => {
   //set inital layout
   const initalContent = data.skills ? data.skills : [0, 1, 2];
   return (
-    <section className="skills">
-      <h2 className="Skills-title">Skills</h2>
-      <div className="skills-content">
+    <section className='skills'>
+      <h2 className='Skills-title'>Skills</h2>
+      <div className='skills-content'>
         {initalContent.map((item, i) => (
-          <div key={i} className="Skills-item">
+          <div key={i} className='Skills-item'>
             {data.skills && item.name}
           </div>
         ))}

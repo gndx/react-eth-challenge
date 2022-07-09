@@ -14,16 +14,15 @@ import useInitialData from '../hooks/useInitialData';
 
 const App = () => {
   const [initialData, appLoading] = useInitialData();
-  console.log('app',appLoading);
   const renderList = () => (
-    <>
+    <div>
       {appLoading ? (
         <Loading />
       ) : (
         <AppContext.Provider value={initialData}>
-          <Header >
+          <Header>
             <About />
-          </Header >
+          </Header>
           <div className='container'>
             <Profile />
             <Experience />
@@ -34,12 +33,10 @@ const App = () => {
           </div>
         </AppContext.Provider>
       )}
-    </>
+    </div>
   );
 
-  return (<div>
-    {renderList()}
-  </div>);
+  return <>{renderList()}</>;
 };
 
 export default App;

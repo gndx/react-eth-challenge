@@ -1,11 +1,8 @@
 import React from 'react';
 
 /** Shows avatar from data data context*/
-const Picture = ({avatar}) => {
-  console.log(avatar)
-  return (
-      <img src={avatar}></img>
-  );
-}
+const Picture = ({ avatar }) => {
+  return <img src={avatar} alt='Oriana Avatar' />;
+};
 
 export default Picture;

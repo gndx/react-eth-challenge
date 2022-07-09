@@ -7,10 +7,10 @@ const Interest = () => {
   //set inital layout
   const initalContent = data.interest ? data.interest : [0, 1, 2];
   return (
-    <section className="interest">
-      <h2 className="Interest-title">Interest</h2>
-      {initalContent.map((item, i) => (
-        <div key={i} className="Interest-item">
+    <section className='interest'>
+      <h2 className='Interest-title'>Interest</h2>
+      {initalContent.map((item) => (
+        <div key={item.name} className='Interest-item'>
           {data.interest && item}
         </div>
       ))}
