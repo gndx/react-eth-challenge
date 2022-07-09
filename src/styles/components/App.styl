@@ -11,10 +11,9 @@ body
 
 #app
   display: grid
-  gap 0
+  gap 1rem 0
   grid-template-columns repeat(2, 1fr)
-  grid-auto-rows: minmax(500px, auto);
-  grid-template-rows repeat(5, 1fr)
+  grid-template-rows 1fr .5fr .5fr repeat(2, .7fr)
   ul
     padding 0
     list-style none
