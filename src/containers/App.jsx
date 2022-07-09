@@ -11,7 +11,7 @@ import Languages from '../components/Languages';
 import { useGetData } from '../hooks/useGetData';
 
 const App = () => {
-  const { data, loading, error } = useGetData('http://localhost:3000/data');
+  const { data, loading, error } = useGetData('http://localhost:8080/data.json');
 
   if (loading) return <p>cargando..</p>;
   if (error) return <p>A occurido un error</p>;
