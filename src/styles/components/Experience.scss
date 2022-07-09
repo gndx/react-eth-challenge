@@ -1,0 +1,16 @@
+.Experience-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Experience-item {
+  grid-column: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Experience-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
