@@ -7,57 +7,86 @@
     "website": "",
     "phone": "(+54) 29xxxxxxx-x",
     "avatar": "https://avatars.githubusercontent.com/u/9388504?v=4",
-    "Profile": "Texto texto texto texto texto texto texto texto texto texto texto",
+    "Profile": "Desarrollador de software y administrador de sistemas. Actualmente desarrollador en Trocafone dentro del área de ventas/ecommerce, integración con otros marketplaces, procesamientos de pagos y facturación.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
+        "date": "Dic 2018",
+        "description": "GIS and IDE (Qgis)",
+        "institution": "Universidad Nacional de Avellaneda",
         "name": "FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
+        "date": "2021",
+        "description": "3rd position in optimization. Ci-Vi is a platform for networking and gaining certified work experience. Self sovereign identity in blockchain. React Native Application Demo",
+        "institution": "DiDi - IdentiHack Project",
         "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "degree": "Tec. System Administration and free software",
+        "description": "Tesis: Telegram bot for remote server managment, resources metrics and download logs. Tech: Django, Docker and Python",
+        "endDate": "Jan 2019",
+        "institution": "Universidad Nacional del Comahue",
         "startDate": "Jan 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Trocafone",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Desarrollo del sitio web ecommerce en Laravel, jQuery y javascript con integraciones a microservicios desarrollados en python y NodeJs para procesar pagos y ventas de marketplaces exteriores.",
+        "jobTitle": "Software developer",
+        "startDate": "Aug 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "TWGroup SpA",
+        "endDate": "Aug 2021",
+        "jobDescription": "Desarrollo de software a medida. Mayormente, desarrollos en PHP (Laravel) y Jquery/Javascript. Líder de proyecto en desarrollo para Lex de estudio jurídico. Desarrollo en Laravel con LiveWire y AlpineJS para ecommerce ProLibro abierto a librerías de todo Chile. Desarrollo de módulo de emisión y control de documentos electrónicos (facturación) para integración con el SII de Chile. Deploy de servicios de facturación y ERPs, construcción y mantenimiento de imágenes docker. Entre otros proyectos mencionados también se encuentran: ERP personalizado, reportes en sistemas preexistentes, marketplaces para pymes",
+        "jobTitle": "Software developer",
+        "startDate": "Oct 2020"
+      },
+      {
+        "company": "Tribunal de Cuentas de la Provincia de Río Negro",
+        "endDate": "2021",
+        "jobDescription": "Desarrollo de sistema de expedientes web con backend en Laravel y sistema de stock en Yii Framework junto con un equipo de frontend que desarrolla en Angular. A cargo de desarrollar una aplicación desktop en Java para firma digital de documentos PDF integrados al sistema de expedientes. Soporte para tokens de firma digital (HSM a través del estándar PKCS11). Implementación de arquitectura SSO (single sign on) mediante el uso de Keycloak integrado con LDAP. Administrador de sistemas, mayormente automatizando tareas a través de scripting bash y python. Soluciones para el equipo interconectando sistemas con sensores (bot de telegram, GLPI, sensores de humedad y temperatura para datacenter, entre otros). Llevé a cabo la implementación de proxmox, migración de máquinas virtuales KVM, creación de contenedores LXC. Desarrollo de imágenes propias de Docker multi stage para servicios brindados en el organismo. Mantenimiento de los servidores, gestión básica de equipos de red como MikroTik y switchs. Administración de servicios como SAMBA, Squid, IRC, OpenLDAP, etc.",
+        "jobTitle": "Software developer / Sysadmin",
+        "startDate": "2018"
+      },
+      {
+        "company": "Universidad Nacional del Comahue",
+        "endDate": "Present",
+        "jobDescription": "Desarrollo de aplicaciones afines al ámbito universitario. Principalmente desarrolladas en Yii Framework (PHP). Construcción de ambientes docker y mantenimiento del sistema de workflow para programas de cátedra. Desarrollo de módulo de búsqueda de carreras y presentación de los planes en ReactJS para el sitio web oficial web.curza.uncoma.edu.ar. Configuración de equipos de redes como router MikroTik, switchs Cisco y TP-Link, access points de Unifi y Ubiquiti y su controladora. Apoyo en el diseño de vlans, conexión con otras sedes, entre otras tareas de networking.",
+        "jobTitle": "Software developer / Sysadmin",
+        "startDate": "2018"
+      },
+      {
+        "company": "Desarrollos Tello",
+        "endDate": "Present",
+        "jobDescription": "Desarrollo de aplicación web en Laravel PHP para cálculo de créditos. Proyecto VotarOnline, utilizado en diferentes cooperativas del país para llevar la votación correspondiente en medio de la pandemia. Pruebas de estrés con JMeter y mejoras de performance en código. Implementación de colas de eventos con redis. Mantenimiento de sitios Wordpress y configuraciones con Woocommerce. Administración de servidores, scripting para backups y configuración de Github Actions, autodeploy de los cambios.",
+        "jobTitle": "Software developer / Sysadmin",
+        "startDate": "2017"
+      },
+      {
+        "company": "Alessandro Leonardo",
+        "endDate": "Present",
+        "jobDescription": "Desarrollo de sitios webs a partir de mockups propios del diseñador mencionado como referencia. Soluciones de múltiples páginas web para venta en línea con Woocommerce. Administración de servidores en cloud",
+        "jobTitle": "Software developer / Sysadmin",
+        "startDate": "2019"
+      },
+      {
+        "company": "Cooperativa Obrera Ltda.",
+        "endDate": "2016",
+        "jobDescription": "Instalación y configuración de servidores GNU/Linux para renovar los equipos de cada sucursal. Mantenimiento de redes y gestión de equipos de comunicación. Utilidad de registro para control de MACAddress con base de datos no relacional (redis).",
+        "jobTitle": "Sysadmin",
+        "startDate": "2016"
       }
+
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "PHP",
+        "percentage": "85%"
       },
       {
         "name": "CSS",
@@ -65,18 +94,30 @@
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "50%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "40%"
+      },
+      {
+        "name": "GNU/Linux",
+        "percentage": "70%"
+      },
+      {
+        "name": "Python",
+        "percentage": "60%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "python",
+      "kubernetes",
+      "containers",
+      "IA"
     ],
     "languages": [
       {
@@ -84,26 +125,22 @@
         "percentage": "90%"
       },
       {
+        "name": "Portuguese",
+        "percentage": "40%"
+      },
+      {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "20%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/fkmurphy"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/njulianmurphy"
       }
     ]
   }

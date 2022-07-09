@@ -11,10 +11,9 @@ const Academic = ({ data }) => {
           data.map((academicItem,index) => {
             return (
                   <li key={index} className="Academic-item">
-                    {academicItem.startDate}
-                    {academicItem.degree}
-                    {academicItem.institution}
-                    {academicItem.description}
+                    <h3>{academicItem.institution} | <span>{academicItem.startDate}</span></h3>
+                    
+                    <p>{academicItem.description}</p>
                   </li>
             )
           })
