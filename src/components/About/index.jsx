@@ -8,11 +8,6 @@ const About = () => {
   return (
     <section className="about-content">
       <h2 className="About-title">About Me</h2>
-      <div className="about-description">
-        <p className="About-item">{data.profession}</p>
-        <p className="About-item">{data.address}</p>
-        <p className="About-item">{data.email}</p>
-      </div>
       <ul className="about-rrss">
         <li>
           <a href={data.social && data.social[0].url}>
@@ -30,6 +25,11 @@ const About = () => {
           </a>
         </li>
       </ul>
+      <div className="about-description">
+        <p className="About-item">{data.profession}</p>
+        <p className="About-item">{data.address}</p>
+        <p className="About-item">{data.email}</p>
+      </div>
     </section>
   );
 };

@@ -1,2 +1,109 @@
 body
-  background-color blue
+  background-color #FEFEFE
+
+*
+	padding: 0
+	margin: 0
+	box-sizing: border-box
+
+html
+	font-size: 62.5%
+	font-family: 'Roboto', sans-serif
+
+.container > section
+  padding: 12px
+  border-radius: 10px
+
+h1
+  align-self: end
+  font-size: 5.5rem
+
+h2
+  font-size: 4.5rem
+  font-weight: 500
+
+ul
+  list-style: none
+  font-size: 3.3rem
+
+p, .Interest-item
+  font-size: 3.3rem
+
+.container
+    height: 100%
+    gap: 10px
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: repeat(6, auto)
+    grid-template-areas:"profile"\
+                        "experience"\
+                        "academic"\
+                        "skills"\
+                        "interest"\
+                        "languages"
+    justify-content: center
+
+.profile
+  background-color: #EDECDC
+  grid-area: profile
+
+.experience
+  background-color: #EDECDC
+  grid-area: experience
+
+.academic
+  background-color: #EDECDC
+  grid-area: academic
+
+.skills
+  background-color: #EDECDC
+  grid-area: skills
+
+.interest
+  background-color: #EDECDC
+  grid-area: interest
+
+.languages
+  background-color: #EDECDC
+  grid-area: languages
+
+.Academic-item li:first-child, .Experience-item li:first-child, .Languages-item li:first-child
+  font-size: 3.9rem
+  font-weight: 400
+
+.Academic-title, .Experience-title, .Skills-title, .Interest-title, .Languages-title
+  margin-bottom: 5px
+
+.Academic-item, .Experience-item, .Skills-item, .Interest-item, .Languages-item
+  margin-top: 15px
+
+.Academic-item li:nth-child(2), .Experience-item li:nth-child(2)
+  margin-bottom: 5px
+  font-size: 2.8rem
+  color: #6A7699
+
+.Profile-desc
+  margin: 15px 0
+
+@media screen and (min-device-width: 768px)
+  h1
+    font-size: 4.2rem
+
+  h2
+    font-size: 2.6rem
+
+  p, ul, .Interest-item
+    font-size: 2rem
+
+  .container
+    margin: 0 10px
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows: repeat(4, auto)
+    grid-template-areas:"profile profile"\
+                        "experience experience"\
+                        "academic skills"\
+                        "interest languages"
+  .Academic-item li:first-child, .Experience-item li:first-child, .Languages-item li:first-child
+    font-size: 2.2rem
+  .Academic-item li:nth-child(2), .Experience-item li:nth-child(2)
+    font-size: 1.6rem

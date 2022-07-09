@@ -1,0 +1,25 @@
+.about-content
+  display: flex
+  flex-direction: column
+  align-items: center
+  grid-area: 2/2/3/2
+  justify-content: end
+  gap: 10px
+
+.about-description
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.about-rrss
+  display: flex
+  gap: 20px
+
+@media screen and (min-device-width: 768px)
+  .About-item:first-child
+    margin-left: 50px
+
+  .about-description
+    display: flex
+    flex-direction: row
+    gap: 20px

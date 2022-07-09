@@ -24,12 +24,14 @@ const App = () => {
           <Header >
             <About />
           </Header >
-          <Profile />
-          <Experience />
-          <Academic />
-          <Skills />
-          <Interest />
-          <Languages />
+          <div className='container'>
+            <Profile />
+            <Experience />
+            <Academic />
+            <Skills />
+            <Interest />
+            <Languages />
+          </div>
         </AppContext.Provider>
       )}
     </>
