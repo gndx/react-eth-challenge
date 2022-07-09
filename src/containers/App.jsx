@@ -9,8 +9,8 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import getData from '../utils/getData'; 
+import API from '../utils/config';
 
-const API = "https://serve-cvapp.herokuapp.com/data";
 const App = () => {
   const [data, setData]= useState([]); 
   const [isLoading, Loading] = useState(false);
