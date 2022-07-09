@@ -11,6 +11,8 @@ function Experience({
     startDate: '',
   }),
 }) {
+  if (experience.length === 0) return (<section className='Experience' style={{ padding: 0 }} />);
+
   return (
     <section className='Experience'>
       <h2 className='Experience-title'>Experience</h2>
