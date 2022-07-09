@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/components/Languages.styl';
+import ProgressBar from './ProgressBar'
 
 const Languages = ({ data }) => {
   return (
@@ -11,11 +12,10 @@ const Languages = ({ data }) => {
               data.map((language, index) => {
                 return (
                   <li key={index} className="Languages-item">
-                    <div className="Progress-bar">
-                      <div style={{width: language.percentage}}>
-                        <small>{language.name} - {language.percentage}</small>
-                      </div>
-                    </div>
+                    <ProgressBar
+                      name={ language.name }
+                      percentage={ language.percentage }
+                    />
                   </li>
                 )
               })
