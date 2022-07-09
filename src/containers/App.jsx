@@ -27,7 +27,7 @@ const App = () => {
   console.log(list)
   return (
     <>
-      <Header name={list.name} profileImage={list.avatar}>
+      <Header fullName={list.name} profileImage={list.avatar}>
         <About 
           email={list.email}
           profession={list.profession}
