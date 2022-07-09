@@ -13,13 +13,17 @@ const About = ({profession, email, phone, address, website}) => {
           }
           {
             email ?
-              <span className="About-item">📬 {email}</span>
+              <span className="About-item">
+                <a href={ `mailto:${email}` }>📬 {email}</a>
+              </span>
               :
               null
           }
           {
             website ?
-              <span className="About-item">🌎 {website}</span>
+              <span className="About-item">
+                <a href={website} target="_blank">🌎 {website}</a>
+              </span>
               :
               null
           }
