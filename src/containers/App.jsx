@@ -12,11 +12,11 @@ import Certification from '../components/Certifications';
 
 import getData from '../utils/getData';
 
-const App = () => {
+function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    getData('data.json')
+    getData('/data.json')
       .then((json) => {
         setData(json.data);
       })
@@ -27,20 +27,20 @@ const App = () => {
 
   return data ? (
     <>
-      <Header info={data.info}></Header>
+      <Header info={data.info} />
       <hr />
       <Profile profile={data.info.profile} />
       <hr />
       <Experience experiences={data.experience} />
       <hr />
-      <section className="Skills-box">
+      <section className='Skills-box'>
         <Academic academics={data.academic} />
         <Certification certifications={data.certificate} />
       </section>
       <hr />
       <Skills skills={data.skills} />
       <hr />
-      <section className="Interests-box">
+      <section className='Interests-box'>
         <Interest interests={data.interest} />
         <Languages languages={data.languages} />
       </section>
@@ -50,6 +50,6 @@ const App = () => {
   ) : (
     <div>Loading...</div>
   );
-};
+}
 
 export default App;
