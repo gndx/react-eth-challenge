@@ -1,2 +1,2 @@
-const API = process.env.APISERVER || "http://localhost:3000/data";
+const API = "https://serve-cvapp.herokuapp.com/data";
 export default API;
