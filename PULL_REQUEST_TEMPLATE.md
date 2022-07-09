@@ -12,7 +12,7 @@ Solución al reto:
 
 • Se arreglaron los test de jest. Usaban el método "mount" que requiere un DOM ya creado como "jsdom", cambiamos a "shallow"
 
-• Se creo un servidor api para servir el json con los datos en:
+• Se creó un servidor api para servir el json con los datos en:
 
 https://json-server-drab-five.vercel.app/api/data
 
