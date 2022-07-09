@@ -1,23 +1,32 @@
-@require "Container.styl"
-
 .Header
   display flex
   justify-content center
   background: rgb(152,202,63);
   background: linear-gradient(0deg, rgba(204,205,203,1) 0%, rgba(152,202,63,1) 100%);
   border-bottom 3px solid #98ca3f
-  line-height 0.5rem
   grid-column 1/3
   grid-row 1/2
 
-.Header img
-  margin-right 5rem
-  border-radius 50%
-  align-self center
+  div, img
+    align-self center
 
-.Header-tile
-  color red
+  img
+    margin-right 5em
+    border-radius 50%
+
+  .Header-tile
+    color red
+    font-size 1.2em
+    align-self center
 
 +prefix-classes('About-')
+  .title
+    font-style italic
+    font-weight bold
+
   .title, .item
-    color blue
+    margin auto
+
+  .item span
+    margin-right .5em
+

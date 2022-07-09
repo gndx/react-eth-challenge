@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+$hex-platzi-color = #98ca3f
+$rgba-platzi-color = rgba(204,205,203,1)
+
 body
   background-color white 
+  font-family: 'Lato', sans-serif;
   margin 0
   padding 0
 
@@ -7,6 +13,5 @@ body
   display: grid
   gap 0
   grid-template-columns repeat(2, 1fr)
+  grid-auto-rows: minmax(500px, auto);
   grid-template-rows repeat(5, 1fr)
-  //grid-template-columns repeat(4, 1fr)
-  //grid-template-rows repeat(5, 1fr)
