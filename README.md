@@ -1,28 +1,20 @@
-# react-eth-challenge
+# Resume using React
 
-## React Curriculum vitae
+Hi! This is a resume using React.
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+Styles are made using [Stylus](https://github.com/stylus/stylus)
 
-![react-cv](https://github.com/gndx/react-eth-challenge/blob/440befcbc257b886015bd050666a21a3bec6c244/screenshot.png)
+Icons from [React Icons](https://react-icons.github.io/react-icons/)
 
-### Retos
+Data comes from data.json file and it is fetch with the getData.js file.
 
-1. [Crear los componentes del proyecto](https://github.com/platzi/react-eth-challenge/issues/1)
-2. [Añadir estilos](https://github.com/platzi/react-eth-challenge/issues/2)
-3. [Crear función getData.js](https://github.com/platzi/react-eth-challenge/issues/3)
-4. [Integrar API](https://github.com/platzi/react-eth-challenge/issues/4)
-5. [Personalizar API](https://github.com/platzi/react-eth-challenge/issues/5)
-6. [Documentar](https://github.com/platzi/react-eth-challenge/issues/6)
-7. [Deploy](https://github.com/platzi/react-eth-challenge/issues/7)
-
-### Instalación
+### Installation
 
 ```
 npm install
 ```
 
-### Ejecución
+### Run Webpack server
 
 ```
 npm run start
@@ -34,13 +26,13 @@ npm run start
 npm run server
 ```
 
-### Compilar
+### Compile
 
 ```
 npm run build
 ```
 
-### Pruebas Unitarias
+### Unit Test
 
 ```
 npm run test
@@ -51,15 +43,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Enviar solución de reto
-
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
-
-### Contribuir
-
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [react-eth-challenge](https://github.com/platzi/react-eth-challenge/)
-
-### Licencia
-
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
