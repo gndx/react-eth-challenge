@@ -9,7 +9,7 @@ function Skills({skills}) {
       <div className='section'>
         {skills?.map((s,i) => {
           return (
-            <div key={i} className=' item'>
+            <div key={i} className='Skills-item item'>
               <span className='title'>{s.name}</span>
               <div className='body-column'>
                 <span className=' descrip'>📈 {s.percentage}</span>

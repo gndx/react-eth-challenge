@@ -20,4 +20,4 @@ Usuario Platzi: jthmacias1995
 - [ X ] Sexto Problema
   Se documenta en el archivo PULL_REQUEST_TEMPLATE.md la solucion a cada problema
 - [ X ] Septimo Problema
-  Se opta por desplegar la app en GitHub Pages
+  Se opta por desplegar la app en GitHub Pages: https://elprogramador2021.github.io/react-app-deploy/

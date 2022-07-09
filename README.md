@@ -1,65 +1,24 @@
-# react-eth-challenge
+## DESCRIPTION
 
-## React Curriculum vitae
+Solución al reto: react-eth-challenge
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+Nombre: Jonathan Eduardo Macias Mora
+Usuario Platzi: jthmacias1995
 
-![react-cv](https://github.com/gndx/react-eth-challenge/blob/440befcbc257b886015bd050666a21a3bec6c244/screenshot.png)
+## Reto:
 
-### Retos
+- [ X ] Primer problema
+  Se analiza e identifica las estructura para el desarrollo de los componentes y realizando su respectivo testing a cada componente.
+- [ X ] Segundo problema
+  Se utliza stylus para el estilo de los componentes mantenimiento la estructura indicada.
+- [ X ] Tercer problema
+  Se crea funcion getData la cual consume la api y devuelve el objeto json a procesar.
+- [ X ] Cuarto Problema
+  Se integra api a la aplicacion a traves de un StateProvider y useReducer para mantener los datos a lo largo de la aplicacion
+- [ X ] Quinto Problema
+  Se crea proyecto en heroku para el depliegue de la informacion personalizada
+- [ X ] Sexto Problema
+  Se documenta en el archivo PULL_REQUEST_TEMPLATE.md la solucion a cada problema
+- [ X ] Septimo Problema
+  Se opta por desplegar la app en GitHub Pages: https://elprogramador2021.github.io/react-app-deploy/
 
-1. [Crear los componentes del proyecto](https://github.com/gndx/react-eth-challenge/issues/1)
-2. [Añadir estilos](https://github.com/gndx/react-eth-challenge/issues/2)
-3. [Crear función getData.js](https://github.com/gndx/react-eth-challenge/issues/3)
-4. [Integrar API](https://github.com/gndx/react-eth-challenge/issues/4)
-5. [Personalizar API](https://github.com/gndx/react-eth-challenge/issues/5)
-6. [Documentar](https://github.com/gndx/react-eth-challenge/issues/6)
-7. [Deploy](https://github.com/gndx/react-eth-challenge/issues/7)
-
-### Instalación
-
-```
-npm install
-```
-
-### Ejecución
-
-```
-npm run start
-```
-
-### Server
-
-```
-npm run server
-```
-
-### Compilar
-
-```
-npm run build
-```
-
-### Pruebas Unitarias
-
-```
-npm run test
-```
-
-### ESlint
-
-```
-npm run lint
-```
-
-### Enviar solución de reto
-
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
-
-### Contribuir
-
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [react-eth-challenge](https://github.com/gndx/react-eth-challenge/)
-
-### Licencia
-
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
