@@ -1,20 +1,21 @@
-import React from 'react'
+/* eslint-disable react/jsx-props-no-spreading */
+import React from 'react';
 import db from '../../data.json';
 import MyLanguajes from './MyLanguajes';
 
-const Languages = () => {
+function Languages() {
 
-    return (
-      <div className='p-2 m-5'>
-      <h2 className='Languages-title font-bold size-lg'>Languages</h2>
-      <div>
+  return (
+    <div className='container my-2'>
+      <h2 className='Languages-title h3 fw-bold'>Languages</h2>
+      <div className='row m-2'>
         {db.data.languages.map((e) => (
-        <MyLanguajes className='Languages-item' key={e.name} {...e}/>
+          <MyLanguajes className='Languages-item' key={e.name} {...e} />
         ))}
       </div>
     </div>
-    )
-  
-}
+  );
 
-export default Languages
+};
+
+export default Languages;

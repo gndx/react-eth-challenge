@@ -1,18 +1,19 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import MyExperience from './MyExperience';
 import db from '../../data.json';
 
-const Experience = () => {
+function Experience() {
   return (
-    <div className='p-2 m-5'>
-      <p className='Experience-title text-lg font-bold'>Experience</p>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+    <div className='container my-2'>
+      <p className='Experience-title h3 fw-bold'>Experience</p>
+      <div className='row m-2'>
         {db.data.experience.map((e) => (
-        <MyExperience className='Experience-item' key={e.company} {...e}/>
+          <MyExperience className='Experience-item' key={e.company} {...e} />
         ))}
       </div>
     </div>
   );
-};
+}
 
 export default Experience;

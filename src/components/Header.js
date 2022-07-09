@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Header = ({children}) => {
+function Header({ children }) {
   return (
-    <div className='Header-title'>{children}</div>
-  )
-}
+    <div className='Header-title container'>{children}</div>
+  );
+};
 
-export default Header
+export default Header;

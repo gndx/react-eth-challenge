@@ -10,7 +10,7 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import getData from '../utils/getData';
 
-const App = () => {
+function App() {
   const [dataToUse, setDataToUse] = useState(null);
   useEffect(() => {
     getDataToUse();
@@ -18,7 +18,7 @@ const App = () => {
 
   const getDataToUse = async () => {
     const { data } = await getData(
-      'http://localhost:3000/data'
+      'http://localhost:3000/data',
     );
     setDataToUse(data);
   };
@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div>
       <Header>
-        <About data={dataToUse}/>
+        <About />
       </Header>
       <Profile />
       <Experience />
@@ -35,7 +35,7 @@ const App = () => {
       <Interest />
       <Languages />
     </div>
-  )
-};
+  );
+}
 
 export default App;

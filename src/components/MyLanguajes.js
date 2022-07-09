@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const MyLanguajes = ({name}) => {
+function MyLanguajes({ name }) {
   return (
-    <div className="p-2">
-        {name}
+    <div className='card shadow-sm p-3 m-2 col-12 col-sm-6 col-md-4'>
+      {name}
     </div>
-  )
-}
+  );
+};
 
-export default MyLanguajes
+export default MyLanguajes;

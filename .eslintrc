@@ -20,7 +20,6 @@
     "sinon": true
   },
   "parser": "@babel/eslint-parser",
-  "requireConfigFile": false,
   "plugins": [
     "react",
     "jsx-a11y",

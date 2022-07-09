@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 import db from '../../data.json';
 
-const Profile = () => {
+function Profile() {
   return (
-    <div className='p-2 m-5'>
-      <p className='Profile-title text-lg font-bold'>Profile</p>
+    <div className='container my-2'>
+      <p className='Profile-title h3 fw-bold'>Profile</p>
       <p className='Profile-desc'>{db.data.Profile}</p>
     </div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;
