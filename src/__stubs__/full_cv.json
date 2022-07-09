@@ -59,6 +59,13 @@
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
         "startDate": "Sept 2019"
+      },
+      {
+        "company": "HelloWorld",
+        "endDate": "Jan 2020",
+        "jobDescription": "Lorem ipsum dolor.",
+        "jobTitle": "SysOps",
+        "startDate": "Sept 2019"
       }
     ],
     "skills": [
@@ -92,6 +99,10 @@
       },
       {
         "name": "English",
+        "percentage": "30%"
+      },
+      {
+        "name": "Portuguese",
         "percentage": "50%"
       }
     ],

@@ -1,9 +1,19 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import About from '../../components/About';
+import DataStub from '../../__stubs__/full_cv.json';
 
 describe('<About />', () => {
-  const about = shallow(<About />);
+  const phone = DataStub.phone;
+  const address = DataStub.address;
+  const email = DataStub.email;
+  const about = shallow(
+    <About
+      phone={ phone }
+      address={ address }
+      email={ email }
+    />
+  );
 
   test('About render', () => {
     expect(about.length).toEqual(1);
