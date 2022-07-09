@@ -1,3 +1,3 @@
-/static/*
-  Access-Control-Allow-Origin: *
-  X-Robots-Tag: nosnippet
+/data.json
+Access-Control-Allow-Origin: *
+X-Robots-Tag: nosnippet, noindex
