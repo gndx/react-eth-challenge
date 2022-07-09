@@ -5,7 +5,7 @@ import ProgressBar from './ProgressBar';
 const Skills = ({ data }) => {
   return (
     <div className="Skills">
-      <h2 className="Skills-title">Habilidades</h2>
+      <h2 className="Skills-title">Skills</h2>
       <ul>
         {
           data ?
