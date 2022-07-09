@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import getData from '../utils/getData';
 
-const API = ' http://localhost:3000/data';
+const API = ' https://oriana-cv-oriplus.vercel.app/data';
 
 /**
  * Get data from API for context
