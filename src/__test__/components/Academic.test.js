@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Academic from '../../components/Academic';
-import json from '../../../public/static/data.json';
+import json from '../../../data.json';
 
 describe('<Academic />', () => {
   const academic = shallow(<Academic academics={json.data.academic} />);

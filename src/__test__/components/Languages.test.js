@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Languages from '../../components/Languages';
-import json from '../../../public/static/data.json';
+import json from '../../../data.json';
 
 describe('<Languages />', () => {
   const languages = shallow(<Languages languages={json.data.languages} />);
