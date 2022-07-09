@@ -16,7 +16,7 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    getData('/data.json')
+    getData('/static/data.json')
       .then((json) => {
         setData(json.data);
       })
