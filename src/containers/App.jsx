@@ -9,6 +9,7 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languajes';
 import Error from '../components/Error';
+import Loading from '../components/Loading';
 import getData from '../utils/getData';
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
       });
   }, []);
 
-  if (loading) return null;
+  if (loading) return (<Loading />);
   if (!loading && error) return (<Error />);
   if (!loading && !user) return (<Error code='404' message='Not Found' />);
 
