@@ -4,9 +4,10 @@ import '../styles/components/Profile.styl';
 const Profile = ({ description }) => {
   return (
     <div className="Profile">
-      <h3 className="Profile-title">
-        Perfil
-      </h3>
+      <h2 className="Profile-title">
+        Profile
+      </h2>
+      <hr />
       <p className="Profile-desc">
         {description} 
       </p>
