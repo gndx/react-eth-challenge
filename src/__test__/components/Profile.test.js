@@ -1,6 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Profile from '../../components/Profile';
+import 'jsdom-global/register';
 
 describe('<Profile />', () => {
   const profile = mount(<Profile />);

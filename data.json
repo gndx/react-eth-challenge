@@ -1,75 +1,99 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Jonathan Macias",
+    "profession": "ASP .NET & React Developer",
+    "address": "Cúcuta, Colombia.",
+    "email": "jthmacias1995@gmail.com",
+    "website": "https://devjm-35bdf.web.app/",
+    "phone": "3155963394",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQF08PEnVOlBZQ/profile-displayphoto-shrink_400_400/0/1646414375201?e=1662595200&v=beta&t=KqUOZxvz2tZWegZjT7UaDdSPYOomU2XDVtpFBEwKvKo",
+    "Profile": "Developer with knowledge in C#, Javascript and Java, databases, REST and SOAP Web Services, handling MVC, MVVM, component-oriented, JDBC models, and Frameworks such as .NET, ASP.NET, React, React Native.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jul 2022",
+        "description": "Learn all the concepts and fundamentals necessary to understand the blockchain ecosystem and cryptocurrencies.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Digital Economy Course: Bitcoin and Cryptocurrencies"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Jul 2021",
+        "description": "Your personal brand is the door to your professional career. Decide how you want to be perceived by recruiters, clients and future allies.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Personal Brand"
+      },
+      {
+        "date": "May 2018",
+        "description": "English course.",
+        "institution": "SENA",
+        "name": "Englsih Dot Works 0-9"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Systems engineering (SE)",
+        "description": "https://sitio.usanjose.edu.co/",
+        "endDate": "Present",
+        "institution": "Usanjose",
+        "startDate": "Jan 2019"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Technologist in Analysis and Software Development",
+        "description": "https://www.sena.edu.co/",
+        "endDate": "December 2016",
+        "institution": "SENA",
+        "startDate": "Jan 2014"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "CS SOFTWARE",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Development in ASP.NET adn .NET Core, integration and development of API REST and testing and documento of software.",
+        "jobTitle": ".NET Developer",
+        "startDate": "Jul 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "CS SOFTWARE",
+        "endDate": "Jul 2021",
+        "jobDescription": "Software Installation and Support of Software Accounting Billing and Configuration of equipment, remote, physical networks and printers.",
+        "jobTitle": "Support Technician",
+        "startDate": "Aug 2019"
+      },
+      {
+        "company": "Registraduría Nacional del Estado Civil",
+        "endDate": "Jul 2019",
+        "jobDescription": "Registration and updating of DNIs, Management of governmental software, Customer service and support and Technical support.",
+        "jobTitle": "Supernumerary",
+        "startDate": "Jul 2019"
+      },
+      {
+        "company": "Juzgados Norte de Santander",
+        "endDate": "Dec 2017",
+        "jobDescription": "Software registration and update, Customer Support and Computers and printers maintenance.",
+        "jobTitle": "System Technician",
+        "startDate": "Sep 2017"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": ".NET",
+        "percentage": "80%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "80%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "80%"
+      },
+      {
+        "name": "PostgreSQL",
+        "percentage": "70%"
+      },
+      {
+        "name": "Solidity",
+        "percentage": "60%"
       }
     ],
     "interest": [
@@ -81,29 +105,29 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "75%"
+      },
+      {
+        "name": "Interested in learning new languages",
+        "percentage": "100%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/Jonatha82370860"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/elprogramador2021"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/jonathan-eduardo-macias-mora-4425661b8/"
       }
     ]
   }

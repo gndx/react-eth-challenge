@@ -1,9 +1,10 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Interest from '../../components/Interest';
+import object from '../../../mock/object.json';
 
 describe('<Interest />', () => {
-  const interest = mount(<Interest />);
+  const interest = shallow(<Interest interest={object.interest} />);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);
