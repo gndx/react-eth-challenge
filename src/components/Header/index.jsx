@@ -3,6 +3,7 @@ import AppContext from '../../context/AppContext';
 import Picture from '../Picture';
 import '../../styles/components/Header.styl';
 
+/** Shows Header information from data context*/
 const Header = ({ children }) => {
   const data = useContext(AppContext);
   return (

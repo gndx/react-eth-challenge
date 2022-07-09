@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import AppContext from '../../context/AppContext';
 
+/** Shows profile information from data context*/
 const Profile = () => {
   const data = useContext(AppContext);
   return (

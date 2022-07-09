@@ -2,8 +2,10 @@ import React, { useContext } from 'react';
 import '../../styles/components/Skills.styl';
 import AppContext from '../../context/AppContext';
 
+/** Shows skills from data context */
 const Skills = () => {
   const data = useContext(AppContext);
+  //set inital layout
   const initalContent = data.skills ? data.skills : [0, 1, 2];
   return (
     <section className="skills">

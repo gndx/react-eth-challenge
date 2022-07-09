@@ -3,9 +3,12 @@ import AppContext from '../../context/AppContext';
 import Content from '../Content';
 import dateFormat from '../../utils/dateFormat';
 
+/** Shows Academic information from data context*/
 const Academic = () => {
   const data = useContext(AppContext);
+  // Set inital layout
   const initalContent = data.Academic ? data.Academic : [0, 1, 2];
+  // Get filtered data
   const academic = (dataAcademic) => {
     const { startDate, endDate, degree, institution } = dataAcademic;
     const dateAcademic = dateFormat(startDate, endDate);

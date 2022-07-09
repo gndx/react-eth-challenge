@@ -1,5 +1,6 @@
 import React from 'react';
 
+/** Inner content for components*/
 const Content = ({ data = {} }) => {
   const contentData = () => (
     <ul>

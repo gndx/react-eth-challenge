@@ -3,6 +3,7 @@ import AppContext from '../../context/AppContext';
 import '../../styles/components/About.styl';
 import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 
+/** Shows About from data context*/
 const About = () => {
   const data = useContext(AppContext);
   return (

@@ -3,6 +3,10 @@ import getData from '../utils/getData';
 
 const API = ' http://localhost:3000/data';
 
+/**
+ * Get data from API for context
+ * @returns [appData, appLoading]
+ */
 function useInitialData() {
   const [appLoading, setAppLoading] = useState(true);
   const [appData, setAppData] = useState([])

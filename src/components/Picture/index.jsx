@@ -1,5 +1,6 @@
 import React from 'react';
 
+/** Shows avatar from data data context*/
 const Picture = ({avatar}) => {
   console.log(avatar)
   return (

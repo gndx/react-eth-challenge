@@ -3,9 +3,12 @@ import AppContext from '../../context/AppContext';
 import Content from '../Content';
 import dateFormat from '../../utils/dateFormat.js';
 
+/** Shows Experience information from data context*/
 const Experience = () => {
   const data = useContext(AppContext);
+  //set inital layout
   const initalContent = data.experience ? data.experience : [0, 1, 2];
+  // Get filtered data
   const experience = (dataExperience) => {
     const { startDate, endDate, company, jobTitle, jobDescription } =
       dataExperience;

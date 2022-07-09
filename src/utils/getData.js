@@ -1,3 +1,8 @@
+/**
+ * Fetch data
+ * @param {string} url url to fetch
+ * @returns
+ */
 const getData = (url) => {
   return fetch(url)
     .then((response) => response.json())
