@@ -1,18 +1,22 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
+import '../../styles/components/Skills.styl';
 import AppContext from '../../context/AppContext';
-import Content from '../Content';
 
 const Skills = () => {
   const data = useContext(AppContext);
-  const initalContent = [0, 1, 2];
+  const initalContent = data.skills ? data.skills : [0, 1, 2];
   return (
     <section className="skills">
-      <h1 className="Skills-title">Skills</h1>
-      {initalContent.map((i) => (
-        <div key={i} className="Skills-item"><Content data = {data.skills && data.skills[i]}/></div>
-      ))}
+      <h2 className="Skills-title">Skills</h2>
+      <div className="skills-content">
+        {initalContent.map((item, i) => (
+          <div key={i} className="Skills-item">
+            {data.skills && item.name}
+          </div>
+        ))}
+      </div>
     </section>
   );
-}
+};
 
 export default Skills;

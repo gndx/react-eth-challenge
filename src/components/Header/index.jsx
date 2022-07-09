@@ -1,16 +1,14 @@
 import React, { useContext } from 'react';
 import AppContext from '../../context/AppContext';
 import Picture from '../Picture';
-import style from '../styles/components/Header.styl';
+import '../../styles/components/Header.styl';
 
 const Header = ({ children }) => {
   const data = useContext(AppContext);
   return (
-    <section className="header">
-      <div className='header-section'>
-        <Picture avatar={data.avatar}/>
-        <h1 className="Header-title">{data.name}</h1>
-      </div>
+    <section className="header bg-news">
+      <Picture avatar={data.avatar} />
+      <h1 className="Header-title">{data.name}</h1>
       {children}
     </section>
   );
