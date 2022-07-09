@@ -16,7 +16,7 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    getData('/static/data.json')
+    getData('https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/data.json')
       .then((json) => {
         setData(json.data);
       })
