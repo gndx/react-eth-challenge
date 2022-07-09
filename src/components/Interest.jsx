@@ -4,7 +4,7 @@ import '../styles/components/Interest.styl';
 const Interest = ({ data }) => {
   return(
     <div className="Interest">
-      <h3 className="Interest-title">Interest</h3>
+      <h2 className="Interest-title">Interest</h2>
       <ul>
         {
           data ?

@@ -4,7 +4,7 @@ import '../styles/components/Languages.styl';
 const Languages = ({ data }) => {
   return (
     <div className="Languages">
-      <h3 className="Languages-title">Languages</h3>
+      <h2 className="Languages-title">Languages</h2>
       <ul>
         {
           data ?
