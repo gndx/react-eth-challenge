@@ -8,8 +8,8 @@ Usuario Platzi:
 ## Reto:
 
 - [X] Primer problema
-- [ ] Segundo problema
-- [ ] Tercer problema
+- [X] Segundo problema
+- [X] Tercer problema
 - [ ] Cuarto Problema
 - [ ] Quinto Problema
 - [ ] Sexto Problema
