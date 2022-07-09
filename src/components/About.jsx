@@ -5,10 +5,30 @@ const About = ({profession, email, phone, address, website}) => {
       <>
         <h3 className="About-title">{profession}</h3>
         <div>
-          <span className="About-item">📞 {phone}</span>
-          <span className="About-item">📬 {email}</span>
-          <span className="About-item">🌎 {website}</span>
-          <p className="About-item">{address}</p>
+          {
+            phone ?
+              <span className="About-item">📞 {phone}</span>
+              : 
+              null
+          }
+          {
+            email ?
+              <span className="About-item">📬 {email}</span>
+              :
+              null
+          }
+          {
+            website ?
+              <span className="About-item">🌎 {website}</span>
+              :
+              null
+          }
+          {
+            address ?
+              <p className="About-item">{address}</p>
+              :
+              null
+          }
         </div>
       </>
   );
