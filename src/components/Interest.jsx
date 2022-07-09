@@ -1,13 +1,27 @@
+import AppBadge from './shared/app-badge/AppBadge';
+
 function Interest() {
   return (
-    <section className='Interest'>
-      <h4 className='Interest-title'>Interest</h4>
+    <section className='Interest section'>
+      <h3 className='Interest-title'>Interest</h3>
 
-      <article className='Interest-content'>
-        <div className='Interest-item'>Interest item</div>
-        <div className='Interest-item'>Interest item</div>
-        <div className='Interest-item'>Interest item</div>
-      </article>
+      <ul className='Interest-content badge-container'>
+        <AppBadge
+          className='Interest-item'
+          badgeType='secondary'
+          content='HTML'
+        />
+        <AppBadge
+          className='Interest-item'
+          badgeType='secondary'
+          content='Udemy'
+        />
+        <AppBadge
+          className='Interest-item'
+          badgeType='secondary'
+          content='Udemy'
+        />
+      </ul>
     </section>
   );
 }

@@ -1,12 +1,30 @@
+import AppCard from './shared/app-card/AppCard';
+
 function Academic() {
   return (
-    <section className='Academic'>
-      <h4 className='Academic-title'>Academic</h4>
+    <section className='Academic section'>
+      <h3 className='Academic-title'>Academic</h3>
 
-      <article className='Academic-content'>
-        <div className='Academic-item'>Academic item</div>
-        <div className='Academic-item'>Academic item</div>
-        <div className='Academic-item'>Academic item</div>
+      <article className='Academic-content card-container'>
+        <AppCard
+          title='Platzi'
+          description="I'm studying at Platzi because I want to become a
+          software dev."
+          cardType='secondary'
+          className='Academic-item'
+        />
+        <AppCard
+          title='Udemy'
+          cardType='secondary'
+          description='Javascript dev'
+          className='Academic-item'
+        />
+        <AppCard
+          title='Udemy'
+          cardType='secondary'
+          description='Typescript dev'
+          className='Academic-item'
+        />
       </article>
     </section>
   );

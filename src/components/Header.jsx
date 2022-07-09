@@ -1,9 +1,18 @@
 function Header({ children }) {
   return (
-    <header className='Header'>
-      <h2 className='Header-title'>Header Title</h2>
+    <header className='Header section'>
+      <div className='Header-image--container'>
+        <img
+          src='https://avatars.githubusercontent.com/gusram01'
+          alt='Gus Ramirez'
+        />
+      </div>
 
-      {children}
+      <div className='Header-content'>
+        <h1 className='Header-title'>Gus Ramírez</h1>
+
+        {children}
+      </div>
     </header>
   );
 }

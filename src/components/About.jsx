@@ -1,12 +1,26 @@
 function About() {
   return (
     <section className='About'>
-      <h4 className='About-title'>My about</h4>
+      <h3 className='About-title'> Front end Engineer </h3>
 
       <p className='About-content'>
-        <span className='About-item About-email'>Email</span>
-        <span className='About-item About-website'>https://gusramirez.dev</span>
-        <span className='About-item About-address'>CDMX</span>
+        <a
+          className='link About-item About-email'
+          href='mailto: g.ram.bt@hotmail.com'
+          rel='noopener noreferrer'
+          target='_blank'
+        >
+          g.ram.bt@hotmail.com
+        </a>
+        <a
+          className='link About-item About-website'
+          href='https://github.com/gusram01'
+          rel='noopener noreferrer'
+          target='_blank'
+        >
+          github
+        </a>
+        <span className='About-item About-address'>Ciudad de México</span>
       </p>
     </section>
   );

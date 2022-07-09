@@ -1,13 +1,15 @@
+import AppBadge from './shared/app-badge/AppBadge';
+
 function Skills() {
   return (
-    <section className='Skills'>
-      <h4 className='Skills-title'>Skills</h4>
+    <section className='Skills section'>
+      <h3 className='Skills-title'>Skills</h3>
 
-      <article className='Skills-content'>
-        <div className='Skills-item'>Skills item</div>
-        <div className='Skills-item'>Skills item</div>
-        <div className='Skills-item'>Skills item</div>
-      </article>
+      <ul className='Skills-content badge-container'>
+        <AppBadge className='Skills-item' badgeType='primary' content='HTML' />
+        <AppBadge className='Skills-item' badgeType='primary' content='Udemy' />
+        <AppBadge className='Skills-item' badgeType='primary' content='Udemy' />
+      </ul>
     </section>
   );
 }

@@ -18,10 +18,13 @@ function App() {
       </Header>
       <Profile />
       <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+
+      <div className='aditional-info-container'>
+        <Academic />
+        <Skills />
+        <Interest />
+        <Languages />
+      </div>
     </>
   );
 }
