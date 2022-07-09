@@ -8,19 +8,45 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import Certificates from '../components/Certificates';
 
 const App = () => {
   return (
     <>
-      <Header>
-        <About />
+      <Header
+        name = "Hololulu"
+        profession = "Developer"
+        phone = "123"
+        email = "asdas@adsas.com"
+        website = "asdasd.com"
+        adress = "Colombia"
+        avatar = "https://picsum.photos/200"
+      >
+        <About
+          items = {[]}
+        />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Profile 
+        desc = "asdasd"
+      />
+      <Experience
+        items = {[]}
+      />
+      <Academic
+        items = {[]}
+      />
+      <Certificates
+        items = {[]}
+      />
+      <Skills
+        items = {[]}
+      />
+      <Interest
+        items = {[]}
+      />
+      <Languages
+        items = {[]}
+      />
     </>
   )
 };
