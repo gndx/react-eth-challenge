@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/ProgressBar.styl';
 
 const ProgressBar = ({ name, percentage }) => {
   return (
