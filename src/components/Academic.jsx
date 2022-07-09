@@ -4,7 +4,7 @@ import '../styles/components/Academic.styl';
 const Academic = ({ data }) => {
   return (
     <div className="Academic">
-      <h3 className="Academic-title">Académico</h3>
+      <h2 className="Academic-title">Académico</h2>
       <ul>
       {
         data ?

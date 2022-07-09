@@ -4,7 +4,7 @@ import '../styles/components/Skills.styl';
 const Skills = ({ data }) => {
   return (
     <div className="Skills">
-      <h3 className="Skills-title">Habilidades</h3>
+      <h2 className="Skills-title">Habilidades</h2>
       <ul>
         {
           data ?

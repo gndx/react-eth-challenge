@@ -1,7 +1,11 @@
+@require "Container.styl"
+
 .Skills
-  background-color cyan
+  @extends .SplitContainer
   grid-column 2/3
   grid-row 4/5
-
-.Skills-item
-  color: red
+  .Skills-title
+    text-align center
+  .Skills-item
+    text-align center
+    margin-bottom 1rem

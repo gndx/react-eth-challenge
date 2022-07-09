@@ -24,7 +24,6 @@ const App = () => {
     return () => displayed = false;
   }, []);
 
-  console.log(list)
   return (
     <>
       <Header fullName={list.name} profileImage={list.avatar}>
