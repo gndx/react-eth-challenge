@@ -15,7 +15,7 @@ const API = "http://localhost:3000/data"
 
 const App = () => {
 
-  const data = {};
+  const data = useGetProducts(API);
 
   return (
     <div className='Main-content'>
