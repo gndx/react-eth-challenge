@@ -1,7 +1,7 @@
 .Header
   display flex
   flex-wrap wrap
-  box-sizing border-box;
+  //box-sizing border-box;
   justify-content center
   border-bottom 3px solid #98ca3f
   grid-column 1/3
@@ -15,15 +15,20 @@
 
   div
     align-self center
+    //flex 0 65%
 
   img
+    //margin auto
+    align-self center
+    flex 1
     margin-right 2rem
     border-color black
     border-radius 50%
     box-shadow 0px 9px 17px 0px rgba(0,0,0,0.24)
+    width 25vw
+    height 25vw
     max-width 200px
     max-height 200px
-
 
 +prefix-classes('About-')
   .title
@@ -35,3 +40,14 @@
     line-height 1.5em
     margin-right .8rem
 
+@media screen and (max-width: 1000px)
+  .Header
+    flex-direction column
+    flex-wrap nowrap
+    font-size 1.5em
+
+    img
+      justify-self center
+      //align-self center
+    div
+      text-align center
