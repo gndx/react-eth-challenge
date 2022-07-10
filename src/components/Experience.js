@@ -6,7 +6,7 @@ const Experience = ({ experience = Array(3).fill(0) }) => {
       <h2 className="Experience-title">Experience</h2>
       {experience.map((item, index) => (
         <div className="Experience-item" key={index}>
-          <ul className="global-ul">
+          <ul className="global-ul Experience-ul">
             <li>
               <strong>Company:</strong> {item.company}
             </li>

@@ -12,5 +12,41 @@ Usuario rennypetit:
 - [x] Tercer problema
 - [x] Cuarto Problema
 - [x] Quinto Problema
-- [ ] Sexto Problema
-- [ ] Septimo Problema
+- [x] Sexto Problema
+- [] Septimo Problema
+
+### Instalación
+
+```
+npm install
+```
+
+### Ejecución
+
+```
+npm run start
+```
+
+### Server
+
+```
+npm run server
+```
+
+### Compilar
+
+```
+npm run build
+```
+
+### Pruebas Unitarias
+
+```
+npm run test
+```
+
+### ESlint
+
+```
+npm run lint
+```

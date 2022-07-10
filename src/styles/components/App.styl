@@ -75,6 +75,14 @@ p
   a, li
     color: #47525E
 
+.Academic-ul, .Experience-ul
+  border-bottom: 1px solid #6f8786;
+
+.Experience-item, .Academic-ul
+  &:last-child
+    .Experience-ul, .Academic-item
+      border-bottom: 0;
+
 @media screen and (min-width: 768px)
   h1
   font-size: 1.8rem
