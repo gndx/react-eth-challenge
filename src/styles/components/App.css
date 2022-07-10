@@ -22,7 +22,7 @@
   font-size: 30px;
 }
 
-.About-title, .Header-job-title {
+.About-title-2, .About-title, .Header-job-title {
   font-size: 20px;
 }
 
@@ -153,6 +153,10 @@ body {
 }
 
 .About-title {
+  margin-bottom: 5px;
+}
+
+.About-title-2 {
   margin-bottom: 5px;
 }
 

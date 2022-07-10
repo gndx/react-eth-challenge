@@ -1,22 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import getData from '../utils/getData';
+import React from 'react';
 
-function Skills() {
-    const [data, setData] = useState({ skills: [] });
-
-    useEffect(() => {
-        (async function () {
-            try {
-                const result = await getData();
-                setData(result.data);
-            } catch (e) {
-                console.error(e);
-            }
-        })();
-    }, []);
-
-    const { skills } = data;
-
+function Skills({ data }) {
+    let dataFromParent = data;
+    if (typeof dataFromParent === 'undefined' || typeof dataFromParent.name === 'undefined') {
+        dataFromParent = { skills: [] };
+    }
+    const { skills } = dataFromParent;
     let keyCounter = 0;
     return (
         <div className='Skills-box'>

@@ -27,6 +27,8 @@ if [ "$3" != "" ]; then
 fi
 echo "";
 echo "CV_APP_SIDE: ${CV_APP_SIDE}";
+echo "REACT_APP_DEBUG: ${REACT_APP_DEBUG}";
+echo "REACT_APP_API_URL: ${REACT_APP_API_URL}";
 echo "";
 if [ "${CV_APP_SIDE}" = "backend" ]; then
     # npm run server
@@ -34,7 +36,8 @@ if [ "${CV_APP_SIDE}" = "backend" ]; then
         export PORT="3000" ;
     fi
     echo "Running BackEnd server on port: ${PORT}" ;
-    ${BASE_DIR}/node_modules/json-server/lib/cli/bin.js data.json --port ${PORT} ;
+    # ${BASE_DIR}/node_modules/json-server/lib/cli/bin.js data.json --port ${PORT} ;
+    npm run server;
     # json-server data.json --port ${PORT} ;
 else
     # npm build ;
@@ -43,6 +46,9 @@ else
         export PORT="8080" ;
     fi
     echo "Running FrontEnd server on port: ${PORT}" ;
-    ${BASE_DIR}/node_modules/react-scripts/bin/react-scripts.js build && node server.js
+    # ${BASE_DIR}/node_modules/react-scripts/bin/react-scripts.js build && node server.js
+    if npm run build-prod ; then
+        npm run start-prod;
+    fi
     # ${BASE_DIR}/node_modules/webpack/bin/webpack.js --mode production && node server.js ;
 fi

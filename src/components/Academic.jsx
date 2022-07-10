@@ -1,22 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import getData from '../utils/getData';
+import React from 'react';
 
-function Academic() {
-    const [data, setData] = useState({ Academic: [] });
-
-    useEffect(() => {
-        (async function () {
-            try {
-                const result = await getData();
-                setData(result.data);
-            } catch (e) {
-                console.error(e);
-            }
-        })();
-    }, []);
-
-    const { Academic } = data;
-
+function Academic({ data }) {
+    let dataFromParent = data;
+    if (typeof dataFromParent === 'undefined' || typeof dataFromParent.name === 'undefined') {
+        dataFromParent = { Academic: [] };
+    }
+    const { Academic } = dataFromParent;
     let keyCounter = 0;
     return (
         <div className='Academic-box'>

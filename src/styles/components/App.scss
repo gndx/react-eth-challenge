@@ -217,6 +217,11 @@ body {
   margin-bottom: 5px;
 }
 
+.About-title-2 {
+  @extend %sub-title-shared;
+  margin-bottom: 5px;
+}
+
 .About-item-name {
   @extend %sub-title-L2-shared;
   padding-top: 10px;

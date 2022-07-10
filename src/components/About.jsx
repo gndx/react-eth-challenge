@@ -1,22 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import getData from '../utils/getData';
+import React from 'react';
 
-function About() {
-    const [data, setData] = useState({ social: [], certificate: [] });
-
-    useEffect(() => {
-        (async function () {
-            try {
-                const result = await getData();
-                setData(result.data);
-            } catch (e) {
-                console.error(e);
-            }
-        })();
-    }, []);
-
-    const { certificate, social } = data;
-
+function About({ data }) {
+    let dataFromParent = data;
+    if (typeof dataFromParent === 'undefined' || typeof dataFromParent.name === 'undefined') {
+        dataFromParent = { social: [], certificate: [] };
+    }
+    const { certificate, social } = dataFromParent;
     let keyCounter = 0;
     return (
         <div className='About-box'>
@@ -34,7 +23,7 @@ function About() {
                 </div>
             </div>
             <div className='About-right'>
-                <div className='About-title'>Social Media</div>
+                <div className='About-title-2'>Social Media</div>
                 <div>
                     {social.map((item) => (
                         <div key={++keyCounter} className='About-item'>
