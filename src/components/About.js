@@ -1,7 +1,6 @@
 import React from 'react';
 
 const About = () => {
-
     return (
         <>
             <h3 className="About-title">

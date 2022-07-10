@@ -1,27 +1,39 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Context } from '../containers/App';
 
 const Header = (props) => {
+    const data = useContext(Context);
+    const {
+        profession,
+        address,
+        email,
+        website,
+        phone,
+        avatar,
+        name,
+    } = data;
+    
 
     return (
         <header>
             <div className='Header-image'>
-                <img src="https://avatars.dicebear.com/api/bottts/stratoff.svg" alt=''></img>
+                <img src={avatar} alt=''></img>
             </div>
             <div className='Header-info'>
 
-                <h1 className="Header-title">Javier Garcia</h1>
-                <h4 className="Header-job-title">FullStack Web Developer</h4>
-                <small className="Header-address">Bogota DC, Colombia</small>
+                <h1 className="Header-title">{name}</h1>
+                <h4 className="Header-job-title">{profession}</h4>
+                <small className="Header-address">{address}</small>
 
                 <div>
                     <span className="Header-phone">
-                        📞 <a rel="nofollow" href="tel:+573214244268">(+57) 321 4244268</a>
+                        📞 <a rel="nofollow" href={`tel+${phone}`}>Call me</a>
                     </span>
                     <span className="Header-email">
-                        📬 <a rel="nofollow" href="mailto:jegn28@gmail.com">jegn28@gmail.com</a>
+                        📬 <a rel="nofollow" href={`mailto+${email}`}>Mail me</a>
                     </span>
                     <span className="Header-website">
-                        💻 <a rel="nofollow" target="_blank" href="https://stratoff.github.io/portfolio/"> My portfolio</a>
+                        💻 <a rel="nofollow" target="_blank" href={website}>Check my portfolio</a>
                     </span>
                 </div>
 

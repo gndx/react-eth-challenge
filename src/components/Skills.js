@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Context } from '../containers/App';
 
 const Skills = () => {
+
+    const data = useContext(Context);
 
     const Skill = ({percentage, color, skill}) => {
 
@@ -20,10 +23,11 @@ const Skills = () => {
                 My Skills
             </h3>
             <ul className='Skills-list'>
-                <Skill percentage={90} color="darkcyan" skill="Python"/>
-                <Skill percentage={50} color="cornflowerblue" skill="Go"/>
-                <Skill percentage={60} color="goldenrod" skill="JavaScript"/>
-                <Skill percentage={70} color="limegreen" skill="Django"/>
+                {
+                    data.skills !== undefined ? 
+                        data.skills.map((skill, i) => <Skill key={`${i}--skill`} {...skill}/>) 
+                        : null
+                }
             </ul>
         </section>
     )

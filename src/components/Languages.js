@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Context } from '../containers/App';
 
 const Languages = () => {
+
+    const data = useContext(Context);
 
     const Language = ({percentage, color, language}) => {
         return (
@@ -19,9 +22,11 @@ const Languages = () => {
                 Languages
             </h3>
             <ul className='Languages-list'>
-                <Language percentage={100} color="palevioletred" language="Spanish (native)"/>
-                <Language percentage={60} color="mediumslateblue" language="English"/>
-                <Language percentage={1} color="darkslategray" language="Machine code"/>
+                {
+                    data.languages !== undefined ? 
+                        data.languages.map((lang, i) => <Language key={`${i}--lang`} {...lang}/>) 
+                        : null
+                }
             </ul>
         </section>
     )

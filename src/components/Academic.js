@@ -1,33 +1,28 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Context } from '../containers/App';
 
 const Academic = () => {
+
+    const data = useContext(Context);
 
     return (
         <section className='semi-section'>
             <h3 className="Academic-title">
-                Academic info
+                Academic information
             </h3>
             <ul>
-                <li className="Academic-item">
-                    <h3>💚 Platzi Courses</h3>
-                    <small>2020 - Now</small>
-                </li>
-                <li className="Academic-item">
-                    <h3>🗽 English Certification from CEVAZ</h3>
-                    <small>2015 - 2018</small>
-                </li>
-                <li className="Academic-item">
-                    <h3>📐 Bachelor of Science</h3>
-                    <small>2013 - 2017</small>
-                </li>
-
-                <li className="Academic-item">
-                    <h3>😎 Google's Web Courses (Activate initiative)</h3>
-                    <small>2015 - 2016</small>
-                </li>
+                {data.Academic !== undefined ? data.Academic.map((deg, i) => {
+                    return (
+                        <li key={`${i}--academic`} className="Academic-item">
+                            <h3>{deg.degree}</h3>
+                            <small>{deg.time}</small>
+                        </li>
+                    )
+                }) : null}
             </ul>
         </section>
     )
+
 }
 
 export default Academic;

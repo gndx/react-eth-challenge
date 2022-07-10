@@ -1,110 +1,74 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Javier Garcia",
+    "profession": "Full-Stack Web Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
+    "email": "jegn28@gmail.com",
+    "website": "https://stratoff.github.io/portfolio/",
+    "phone": "+573214244268",
+    "avatar": "https://avatars.githubusercontent.com/u/27158352?s=400&u=1bfb235441b9e4129dc2799b1439ad37ec2c8bef&v=4",
+    "Profile": "I'm a full-stack developer from Venezuela currently based in Bogota who started to work as a Front-End developer in 2018. I love learning new things and take big challenges",
+    "certificate": [],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "💚 Platzi Courses",
+        "time": "2020 - Now"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "🗽 English Certification from CEVAZ",
+        "time": "2020 - Now"
+      },
+      {
+        "degree": "📐 Bachelor of Science",
+        "time": "2015 - 2018"
+      },
+      {
+        "degree": "😎 Google's Web Courses (Activate initiative)",
+        "time": "2015 - 2016"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "link": "http://www.goldenqs.com/", 
+        "title": "GoldenQS", 
+        "time": 2019, 
+        "description": "I created the whole Front-End inspirated by a previous design made by the client and the Back-End in Wordpress and PHP"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "link": "https://ariatel.com.co/", 
+        "title": "Ariatel", 
+        "time": 2020, 
+        "description": "I have worked the last two years as a Full-Stack Developer using technologies like Python, Golang and React"
+      },
+      {
+        "link": "https://www.m-o-t.com/", 
+        "title": "MOT", 
+        "time": 2022, 
+        "description": "I have made some features and the initial layout of the website (Only Front-End and PHP components)"
       }
     ],
     "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
+      {"percentage": 90, "color": "darkcyan", "skill": "Python"},
+      {"percentage": 50, "color": "cornflowerblue", "skill": "Go"},
+      {"percentage": 60, "color": "goldenrod", "skill": "JavaScript"},
+      {"percentage": 70, "color": "limegreen", "skill": "Django"}
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "🦹‍♂️ Comics",
+      "🎬 Movies",
+      "🧘‍♂️ Yoga",
+      "🕸 Web3",
+      "🧠 AI",
+      "🔙 Backend",
+      "🎨 Frontend",
+      "🌐 Big Data",
+      "🌵 Enviroment"
     ],
     "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
+      {"percentage": 100, "color": "palevioletred", "language": "Spanish (native)"},
+      {"percentage": 60, "color": "mediumslateblue", "language": "English"},
+      {"percentage": 5, "color": "darkslategray", "language": "Draenei"}
     ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+    "social": []
   }
 }

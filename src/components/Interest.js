@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Context } from '../containers/App';
 
 const Interest = () => {
+
+    const data = useContext(Context);
 
     return (
         <section className='semi-section'>
@@ -8,24 +11,11 @@ const Interest = () => {
                 Interests
             </h3>
             <ul className='Interest-list'>
-                <li className="Interest-item">
-                    🦹‍♂️ Comics
-                </li>
-                <li className="Interest-item">
-                    🎬 Movies
-                </li>
-                <li className="Interest-item">
-                    🧘‍♂️ Yoga
-                </li>
-                <li className="Interest-item">
-                    🕸 Web3
-                </li>
-                <li className="Interest-item">
-                    🧠 AI
-                </li>
-                <li className="Interest-item">
-                    🔙 Backend
-                </li>
+                {
+                    data.interest !== undefined ? 
+                        data.interest.map((inte, i) => <li key={`${i}--interest`} className="Interest-item">{inte}</li>)
+                    : null
+                }
             </ul>
         </section>
     )
