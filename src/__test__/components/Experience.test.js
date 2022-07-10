@@ -6,7 +6,7 @@ import DataStub from '../../__stubs__/full_cv.json';
 describe('<Experience />', () => {
   const data = DataStub.data.experience;
   const experience = shallow(
-    <Experience data={ data } />
+    <Experience data={data} />,
   );
 
   test('Experience render', () => {

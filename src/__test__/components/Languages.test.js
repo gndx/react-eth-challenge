@@ -6,7 +6,7 @@ import DataStub from '../../__stubs__/full_cv.json';
 describe('<Languages />', () => {
   const data = DataStub.data.languages;
   const languages = shallow(
-    <Languages data={ data } />
+    <Languages data={data} />,
   );
 
   test('Languages render', () => {

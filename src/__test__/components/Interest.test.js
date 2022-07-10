@@ -6,7 +6,7 @@ import DataStub from '../../__stubs__/full_cv.json';
 describe('<Interest />', () => {
   const data = DataStub.data.interest;
   const interest = shallow(
-    <Interest data={ data } />
+    <Interest data={data} />,
   );
 
   test('Interest render', () => {
