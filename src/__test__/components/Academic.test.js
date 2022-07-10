@@ -1,9 +1,11 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import Academic from '../../components/Academic';
+import { shallow } from 'enzyme';
+import {Academic} from '../../components/Academic';
+import { apiData } from '../../__mocks__/data';
 
 describe('<Academic />', () => {
-  const academic = mount(<Academic />);
+  const academicData = apiData.data.Academic
+  const academic = shallow(<Academic data={academicData}/>);
 
   test('Academic render', () => {
     expect(academic.length).toEqual(1);

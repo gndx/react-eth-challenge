@@ -1,9 +1,11 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import Languages from '../../components/Languages';
+import { shallow } from 'enzyme';
+import {Languages} from '../../components/Languages';
+import { apiData } from '../../__mocks__/data';
 
 describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+  const languageData = apiData.data.languages
+  const languages = shallow(<Languages data={languageData}/>);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);

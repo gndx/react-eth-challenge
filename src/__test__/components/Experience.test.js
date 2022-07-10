@@ -1,9 +1,11 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import Experience from '../../components/Experience';
+import { shallow } from 'enzyme';
+import {Experience} from '../../components/Experience';
+import { apiData } from '../../__mocks__/data';
 
 describe('<Experience />', () => {
-  const experience = mount(<Experience />);
+  const experienceData = apiData.data.experience
+  const experience = shallow(<Experience data={experienceData}/>);
 
   test('Experience render', () => {
     expect(experience.length).toEqual(1);
