@@ -1,0 +1,35 @@
+.header
+    margin-bottom: 10px
+    padding: 32px
+    display: grid
+    grid-template-columns: 200px 1fr 100px
+    justify-items: center
+    align-items: center
+
+  .Header-title
+    margin-bottom: 46px
+
+.header > img
+    border-radius: 50%
+    width: 180px
+    height: 180px
+    grid-row-start: 1
+    grid-row-end: 3
+    border: 5px solid white
+
+.header--background
+  background: -webkit-linear-gradient(117deg, #2F4858 29%, #ABC66A 24%);
+  background: -o-linear-gradient(117deg, #2F4858 29%, #ABC66A 24%);
+  background: -moz-linear-gradient(117deg, #2F4858 29%, #ABC66A 24%);
+  background: linear-gradient(117deg, #2F4858 29%, #ABC66A 24%);
+
+@media screen and (min-device-width: 768px)
+  .header
+    grid-template-columns: 200px 1fr 200px
+
+  .Header-title
+    margin-bottom: 26px
+
+  .header > img
+    width: 200px
+    height: 200px
