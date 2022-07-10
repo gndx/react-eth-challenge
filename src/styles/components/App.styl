@@ -1,2 +1,166 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a
+  margin: 0
+  padding: 0
+  border: 0
+  outline: 0
+  font-size: 100%
+  vertical-align: baseline
+  background: transparent
+  font-family: Arial, Helvetica, sans-serif
+
 body
-  background-color blue
+  color: #2D2D2D
+
+.container
+  display: grid
+  grid-template-areas:
+    "header"\
+    "profile"\
+    "experience"\
+    "academic"\
+    "skill"\
+    "interest"\
+    "language"
+  padding: 5%
+  padding-left: 10%
+  padding-right: 10%
+  
+  @media (min-width: 768px)
+    display: grid
+    grid-template-areas:
+      "header header header"\
+      "profile profile profile"\
+      "experience experience experience"\
+      "academic academic skill"\
+      "interest language language"    
+  
+.Header
+  display: grid
+  grid-area: header
+  grid-template-areas:
+    "avatar content"\
+    "avatar about"
+  padding 10px
+  margin-top: 5px
+  margin-bottom: 5px
+  border-bottom: 1px solid
+  border-image-slice: 1
+  border-image-source: linear-gradient(to left,#b847e1,#205ce7)
+
+.Header__about
+  display: grid
+  grid-area: about
+
+.Header__avatar
+  display: grid
+  grid-area: avatar
+  justify-content: center
+  align-items: center
+
+.Header__avatar img 
+  border-radius: 50%
+  height: 200px
+  
+.Header__description
+  display: grid
+  grid-area: content
+
+.About
+  display: flex
+  flex-direction: column
+
+.About__description
+  display: flex
+
+.About-item
+  margin-right: 10px
+
+.Profile
+  display: grid
+  grid-area: profile
+  padding: 10px
+  margin-top: 5px
+  margin-bottom: 5px
+  border-bottom: 1px solid
+  border-image-slice: 1
+  border-image-source: linear-gradient(to left,#b847e1,#205ce7)
+  align-items: center
+
+.Experience
+  display: grid
+  grid-area: experience
+  padding 10px
+  margin-top: 5px
+  margin-bottom: 5px
+  border-bottom: 1px solid
+  border-image-slice: 1
+  border-image-source: linear-gradient(to left,#b847e1,#205ce7)
+
+.Experience-item
+  padding 10px
+
+.Academic
+  display: grid
+  grid-area: academic
+  padding 10px
+  margin-top: 5px
+  margin-bottom: 5px
+  border-bottom: 1px solid
+  border-image-slice: 1
+  border-image-source: linear-gradient(to left,#b847e1,#205ce7)
+
+.Skills
+  display: grid
+  grid-area: skill
+  padding 10px
+  margin-top: 5px
+  margin-bottom: 5px
+  border-bottom: 1px solid
+  border-image-slice: 1
+  border-image-source: linear-gradient(to left,#b847e1,#205ce7)
+
+.Interest
+  display: grid
+  grid-area: interest
+  padding 10px
+  margin-top: 5px
+  margin-bottom: 25px
+  border-bottom: 1px solid
+  border-image-slice: 1
+  border-image-source: linear-gradient(to left,#b847e1,#205ce7)
+
+.Languages
+  display: grid
+  grid-area: language
+  padding 10px
+  margin-top: 5px
+  margin-bottom: 25px
+  border-bottom: 1px solid
+  border-image-slice: 1
+  border-image-source: linear-gradient(to left,#b847e1,#205ce7)
+
+
+.title
+  font-size: 1.5em
+
+.subtitle
+  font-size: 1.3em
+  color: #205ce7
+
+.colorblue
+  color: #205ce7
+
+.badge
+  background-color: #205ce7
+  border-radius: 3px
+  padding: 3px
+  margin: 5px
+  color: #fff
+  text-align: center
+
+.badgeline
+  color: #b847e1
+  border-radius: 3px
+  padding: 3px
+  margin: 5px
+  text-align: center
