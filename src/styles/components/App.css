@@ -13,6 +13,15 @@ body{
     width: 100vw;
     grid-gap: 30px;
 }
+.list-languages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.list-interests {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
 .list-experiences {
     display: grid;

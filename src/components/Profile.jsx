@@ -6,7 +6,7 @@ export default function Profile() {
     const [profile, setProfile] = useState("")
 
     useEffect(async () => {
-      const { Profile } = getData('http://localhost:3000/data');
+      const { Profile } = await getData('http://localhost:3000/data');
       setProfile(Profile);
     }, []);
   return (

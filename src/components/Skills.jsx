@@ -6,7 +6,7 @@ export default function Skills() {
   const [skills, setSkills] = useState([])
 
   useEffect(async() => {
-    const { skills } = getData('http://localhost:3000/data');
+    const { skills } = await getData('http://localhost:3000/data');
     setSkills(skills);
   }, [])
 

@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { getData } from '../utils/getData';
 
 export default function Experience() {
-  const[experience, setExperience] = useState(experience)
+  const[experience, setExperience] = useState([])
 
   useEffect(async () => {
-    const { experience } = getData('http://localhost:3000/data');
+    const { experience } = await getData('http://localhost:3000/data');
     setExperience(experience);
   }, []);
 

@@ -8,7 +8,7 @@ export default function About() {
   const [profession, setProfession] = useState("")
 
   useEffect(async () => {
-    const { address, phone, email, profession } = getData('http://localhost:3000/data');
+    const { address, phone, email, profession } = await getData('http://localhost:3000/data');
     setAddress(address)
     setPhone(phone)
     setEmail(email)

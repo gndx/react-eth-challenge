@@ -8,7 +8,7 @@ export default function Header() {
   const[avatar, setAvatar] = useState("")
 
   useEffect(async () => {
-    const { name, avatar } = getData('http://localhost:3000/data');
+    const { name, avatar } = await getData('http://localhost:3000/data');
     setName(name);
     setAvatar(avatar);
   }, []);

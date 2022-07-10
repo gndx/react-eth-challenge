@@ -6,8 +6,8 @@ export default function Academic() {
   const [academic, setAcademic] = useState([])
 
   useEffect(async () => {
-    const { academic } = getData('http://localhost:3000/data');
-    setAcademic(academic);
+    const { Academic } = await getData('http://localhost:3000/data');
+    setAcademic(Academic);
   }, []);
 
   return (
