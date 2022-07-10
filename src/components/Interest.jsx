@@ -7,7 +7,7 @@ const Interest = ({
   })
 }) => {
   return (
-    <div className="Interest-container">
+    <div className="Interest-container hoverable">
       <h2 className="Interest-title">Interest</h2>
       <ul>
         {items.map((item, index) => (

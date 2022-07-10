@@ -11,7 +11,7 @@ const Experience = ({
   })
 }) => {
   return (
-    <div className="Experience-container">
+    <div className="Experience-container hoverable">
       <h2 className="Experience-title">Experience</h2>
       <ul>
         {items.map((item, index) => (

@@ -11,7 +11,7 @@ const Academic = ({
   })
 }) => {
   return (
-    <div className="Academic-container">
+    <div className="Academic-container hoverable">
       <h2 className="Academic-title">Academic</h2>
       <ul>
         {items.map((item, index) => (
@@ -19,6 +19,7 @@ const Academic = ({
             <h3>{item.degree}</h3>
             <p>{item.institution}</p>
             <p>{item.startDate}-{item.endDate}</p>
+            <p>{item.description}</p>
           </li>
         )
         )}

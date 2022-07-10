@@ -1,11 +1,19 @@
 body
-  background: linear-gradient(#8da9c4 25%, white 45%) no-repeat;
-  color: #FFF
   font-family: "Lucida Console", "Courier New", monospace;
   margin: 16px;
+
+.resumeContainer
+  color: #FFF
 
 .Two-columns
   display: flex
   gap: 16px;
   & > *
     flex-grow: 1
+
+.hoverable
+  border: 1px solid transparent;
+
+.hoverable:hover
+   background: #3d5a80;
+   border: 1px solid #293241;

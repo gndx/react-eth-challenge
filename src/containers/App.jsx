@@ -31,7 +31,7 @@ const App = () => {
   if (typeof resume === 'undefined') return <h1>Error obtaining CV 😰</h1>;
 
   return (
-    <>
+    <div className="resumeContainer">
       <Header name={resume.name} avatar={resume.avatar}>
         <About profession={resume.profession} address={resume.address} email={resume.email} website={resume.website} phone={resume.phone} />
       </Header>
@@ -45,7 +45,7 @@ const App = () => {
         <Interest items={resume.interest} />
         <Languages items={resume.languages} />
       </div>
-    </>
+    </div>
   )
 };
 

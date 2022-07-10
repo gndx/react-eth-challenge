@@ -8,7 +8,7 @@ const Languages = ({
   })
 }) => {
   return (
-    <div className="Languages-container">
+    <div className="Languages-container hoverable">
       <h2 className="Languages-title">Languages</h2>
       <ul>
         {items.map((item, index) => (

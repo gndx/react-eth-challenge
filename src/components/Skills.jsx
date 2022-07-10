@@ -8,7 +8,7 @@ const Skills = ({
   })
 }) => {
   return (
-    <div className="Skills-container">
+    <div className="Skills-container hoverable">
       <h2 className="Skills-title">Skills</h2>
       <ul>
         {items.map((item, index) => (
