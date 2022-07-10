@@ -1,0 +1,27 @@
+.profile-container {
+  width: 300px;
+  .profile-menu {
+    margin-top: 62.5px;
+    height: calc(100% - 62.5px);
+    &::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 1px;
+      top: 0;
+      left: 3px;
+      background-color: rgb(220, 147, 115);
+      opacity: 0.5;
+      z-index: 100;
+    }
+    .img-container {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      margin-top: -50px;
+      .img {
+        height: 100%;
+      }
+    }
+  }
+}

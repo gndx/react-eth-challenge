@@ -1,0 +1,37 @@
+.academic-section {
+  ul {
+    max-height: 550px;
+    transition: 0.5s max-height;
+    &.show-all {
+      max-height: 10000px;
+    }
+    li {
+      width: 49%;
+      list-style: none;
+      height: 250px;
+      .academic-item {
+        background-color: #32383e;
+        .title {
+          font-size: 20px;
+          font-weight: 400;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+        .institute {
+          font-size: 17px;
+          font-weight: lighter;
+        }
+        .year {
+          font-size: 17px;
+          font-weight: lighter;
+        }
+        a {
+          font-weight: lighter;
+          color: #e18962;
+        }
+      }
+    }
+  }
+}

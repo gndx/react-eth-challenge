@@ -1,0 +1,18 @@
+.languages-section {
+  li {
+    width: 49%;
+    list-style: none;
+    .language-item {
+      background-color: #32383e;
+      height: max-content;
+      .title {
+        font-size: 20px;
+        font-weight: 400;
+      }
+      .level {
+        font-size: 17px;
+        font-weight: lighter;
+      }
+    }
+  }
+}

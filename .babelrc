@@ -1,6 +1,22 @@
 {
   "presets": [
     "@babel/preset-env",
-    "@babel/preset-react"
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          /**
+           * Regular expression is used to match all files inside `./src` directory and map each `.src/folder/[..]` to `@folder/[..]` path
+           */
+          "@/": "./src/"
+        }
+      }
+    ]
   ]
 }
