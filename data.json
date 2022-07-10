@@ -1,109 +1,129 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Luis Fernando Ushiña Gualpa",
+    "profession": "Software Architect",
+    "address": "Quito, Ecuador.",
+    "email": "guffenix@gmail.com",
+    "website": "https://mundovirtual.solutions",
+    "phone": "0987209133",
+    "avatar": "https://scontent.fuio10-1.fna.fbcdn.net/v/t39.30808-6/244307654_6444073402277250_3544623960110572980_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFv6gUmYwUWZyR54PhSd4Gi0tV003EmcgjS1XTTcSZyCCbU0G39w0xCbrg6m3-Ni4_H09PSkZLWNTvmn43s49Gb&_nc_ohc=0Atbg8fopZQAX_LAeBv&_nc_ht=scontent.fuio10-1.fna&oh=00_AT_B-FO5bHwmmGM2go9vwgtgTBCnOi7PGE7gCtOEW0lt3g&oe=62CF90C8",
+    "Profile": "Hola soy Luis Fernando de Ecuador, actualmente soy Arquitecto Desarrollador de Software 🌈, una de mis tecnologías favoritas es java 💚 ! Me gustan los retos, el aprendizaje, viajar, comer y conocer nuevas culturas! Siento que la frase que me representa en esta etapa de mi vida es 'Senri no michi mo, ippou kara' es decir 'Un camino de mil millas, empieza por un primer paso' 🐺 . De mis hobbies el top 3 lo encabezan el ajedrez, cantar  y pienso que soy el ejemplo perfecto de que se puede ser gordito y practicar taekwondo al mismo tiempo. ",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "June 2022",
+        "description": "Techniques to nurture your confidence.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Developing Self-Confidence"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "April 2022",
+        "description": "Java focused backend development",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Backend Developer Java"
+      },
+      {
+        "date": "Jan 2022",
+        "description": "Productivity and reduced turnaround times, effective risk management",
+        "institution": "Certipro",
+        "name": "Scrum Master Certificate"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Systems and Computer Engineer",
+        "description": "Design, program, implement and maintain computer systems. Manage networks and information systems.",
+        "endDate": "Jan 2020",
+        "institution": "ESPE",
+        "startDate": "Jan 2015"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Graduate of mathematical physicist",
+        "description": "Problem solving, logical knowledge and even computer tools and more.",
+        "endDate": "Dec 2013",
+        "institution": "Salinas High School",
+        "startDate": "Jan 2008"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Ceiba Software",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Analyze, design and develop software following the process defined in the company.",
+        "jobTitle": "Software Architect",
+        "startDate": "Feb 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Emagic",
+        "endDate": "Jan Ene 2022",
+        "jobDescription": "Design and develop software following the process defined in the company.",
+        "jobTitle": "Java Software Engineer",
+        "startDate": "Dec 2017"
+      },
+      {
+        "company": "Bigdata",
+        "endDate": "Nov 2017",
+        "jobDescription": "Design and develop software following the process defined in the company.",
+        "jobTitle": "Software Developer",
+        "startDate": "Jan 2017"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "Java",
+        "percentage": "99%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "CSS3",
+        "percentage": "99%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "99%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "99%"
+      },
+      {
+        "name": "SQL",
+        "percentage": "99%"
+      },
+      {
+        "name": "HTML5",
+        "percentage": "99%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "blockchain",
+      "Web3",
+      "Ethereum"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "nativo"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "intermedio"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/guffenix"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/guffenix"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/guffenix"
       }
     ]
   }
