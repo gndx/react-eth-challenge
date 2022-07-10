@@ -1,17 +1,14 @@
 import React from 'react';
-
-const Profile = () => {
+import PropTypes from 'prop-types';
+const ComponentProfile = ({ Profile }) => {
   return (
     <div className="Profile background-green">
       <h2 className="Profile-title">Profile</h2>
-      <p className="Profile-desc">
-        Desarrollador Web responsable, enfocado en su trabajo, que sigue
-        normativas y reglamentos. De igual manera me gusta aprender nuevas
-        tecnologías y herramientas que me ayuden a realizar mi labor de manera
-        eficiente. Por otra parte, Soy colaborador y se trabajar en equipo.
-      </p>
+      <p className="Profile-desc">{Profile}</p>
     </div>
   );
 };
-
-export default Profile;
+ComponentProfile.propTypes = {
+  Profile: PropTypes.string,
+};
+export default ComponentProfile;

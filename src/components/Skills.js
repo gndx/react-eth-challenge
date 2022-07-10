@@ -1,22 +1,22 @@
-import React from 'react';
-
-const Skills = () => {
+import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
+const Skills = ({ skills = Array(3).fill(0) }) => {
   return (
     <div className="Skills background-green">
       <h2 className="Skills-title">Skills</h2>
+
       <ul className="global-ul">
-        <li className="Skills-item">
-          <strong>HTML5:</strong> 90%
-        </li>
-        <li className="Skills-item">
-          <strong>HTML5:</strong> 90%
-        </li>
-        <li className="Skills-item">
-          <strong>HTML5:</strong> 90%
-        </li>
+        {skills.map((item, index) => (
+          <li className="Skills-item" key={index}>
+            <strong>{item.name}:</strong> {item.percentage}
+          </li>
+        ))}
       </ul>
     </div>
   );
+};
+Skills.propTypes = {
+  skills: PropTypes.array,
 };
 
 export default Skills;

@@ -1,71 +1,35 @@
 import React from 'react';
-
-const Experience = () => {
+import PropTypes from 'prop-types';
+const Experience = ({ experience = Array(3).fill(0) }) => {
   return (
     <div className="Experience background-green">
       <h2 className="Experience-title">Experience</h2>
-      <div className="Experience-item">
-        <ul className="global-ul">
-          <li>
-            <strong>Company:</strong> Si señor agencia
-          </li>
-          <li>
-            <strong>End date:</strong> Present
-          </li>
-          <li>
-            <strong>Description:</strong> Desarrollador Full Stack en si señor
-            agencia.
-          </li>
-          <li>
-            <strong>Title:</strong> Full stack Developer
-          </li>
-          <li>
-            <strong>Start date:</strong> Jan 2019
-          </li>
-        </ul>
-      </div>
-      <div className="Experience-item">
-        <ul className="global-ul">
-          <li>
-            <strong>Company:</strong> Si señor agencia
-          </li>
-          <li>
-            <strong>End date:</strong> Present
-          </li>
-          <li>
-            <strong>Description:</strong> Desarrollador Full Stack en si señor
-            agencia.
-          </li>
-          <li>
-            <strong>Title:</strong> Full stack Developer
-          </li>
-          <li>
-            <strong>Start date:</strong> Jan 2019
-          </li>
-        </ul>
-      </div>
-      <div className="Experience-item">
-        <ul className="global-ul">
-          <li>
-            <strong>Company:</strong> Si señor agencia
-          </li>
-          <li>
-            <strong>End date:</strong> Present
-          </li>
-          <li>
-            <strong>Description:</strong> Desarrollador Full Stack en si señor
-            agencia.
-          </li>
-          <li>
-            <strong>Title:</strong> Full stack Developer
-          </li>
-          <li>
-            <strong>Start date:</strong> Jan 2019
-          </li>
-        </ul>
-      </div>
+      {experience.map((item, index) => (
+        <div className="Experience-item" key={index}>
+          <ul className="global-ul">
+            <li>
+              <strong>Company:</strong> {item.company}
+            </li>
+            <li>
+              <strong>End date:</strong> {item.endDate}
+            </li>
+            <li>
+              <strong>Description:</strong>
+              {item.jobDescription}
+            </li>
+            <li>
+              <strong>Title:</strong> {item.jobTitle}
+            </li>
+            <li>
+              <strong>Start date:</strong> {item.startDate}
+            </li>
+          </ul>
+        </div>
+      ))}
     </div>
   );
 };
-
+Experience.propTypes = {
+  experience: PropTypes.array,
+};
 export default Experience;

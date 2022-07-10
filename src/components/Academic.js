@@ -1,29 +1,33 @@
 import React from 'react';
-
-const Academic = () => {
+import PropTypes from 'prop-types';
+const Academic = ({ Academic = Array(3).fill(0) }) => {
   return (
     <div className="Academic background-green">
       <h2 className="Academic-title">Academic</h2>
-      <ul className="global-ul Academic-ul">
-        <li className="Academic-item">
-          <strong>Degree:</strong> Licenciado en Computación
-        </li>
-        <li className="Academic-item">
-          <strong>Description:</strong> Licenciado en computación egresado de la
-          universidad del Zulia núcleo Punto Fijo | Falcón | Venezuela
-        </li>
-        <li className="Academic-item">
-          <strong>End date:</strong> Jun 2017
-        </li>
-        <li className="Academic-item">
-          <strong>Institution:</strong> Universidad del Zulia
-        </li>
-        <li className="Academic-item">
-          <strong>Start date:</strong> Mar 2013
-        </li>
-      </ul>
+
+      {Academic.map((item, index) => (
+        <ul className="global-ul Academic-ul" key={index}>
+          <li className="Academic-item">
+            <strong>Degree:</strong> {item.degree}
+          </li>
+          <li className="Academic-item">
+            <strong>Description:</strong> {item.description}
+          </li>
+          <li className="Academic-item">
+            <strong>End date:</strong> {item.endDate}
+          </li>
+          <li className="Academic-item">
+            <strong>Institution:</strong> {item.institution}
+          </li>
+          <li className="Academic-item">
+            <strong>Start date:</strong> {item.startDate}
+          </li>
+        </ul>
+      ))}
     </div>
   );
 };
-
+Academic.propTypes = {
+  Academic: PropTypes.array,
+};
 export default Academic;

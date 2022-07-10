@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -11,23 +11,41 @@ import Languages from '../components/Languages';
 import getData from '../utils/getData';
 
 const App = () => {
-  useEffect(async () => {
-    const data = await getData();
+  const [dataPerson, setDataPerson] = useState(false);
+  useEffect(() => {
+    const fetchDataPerson = async () => {
+      const data = await getData('http://localhost:3000/data');
+      setDataPerson(data);
+    };
+    fetchDataPerson();
   }, []);
+
+  if (dataPerson === false) return <h1 className="loading">Loading...</h1>;
+
+  if (Object.keys(dataPerson).length === 0)
+    // si viene vacio y no es el primer render
+    return <h1 className="not-found">Información no disponible</h1>;
+
   return (
     <div className="container">
-      <Header>
-        <About />
+      <Header name={dataPerson.name} avatar={dataPerson.avatar}>
+        <About
+          profession={dataPerson.profession}
+          address={dataPerson.address}
+          email={dataPerson.email}
+          website={dataPerson.website}
+          phone={dataPerson.phone}
+        />
       </Header>
-      <Profile />
-      <Experience />
+      <Profile Profile={dataPerson.Profile} />
+      <Experience experience={dataPerson.experience} />
       <div className="row">
-        <Academic />
-        <Skills />
+        <Academic Academic={dataPerson.Academic} />
+        <Skills skills={dataPerson.skills} />
       </div>
       <div className="row">
-        <Interest />
-        <Languages />
+        <Interest interest={dataPerson.interest} />
+        <Languages languages={dataPerson.languages} />
       </div>
     </div>
   );
