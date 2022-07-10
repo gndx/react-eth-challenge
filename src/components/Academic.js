@@ -3,7 +3,7 @@ import React from 'react';
 const Academic = () => {
 
     return (
-        <section>
+        <section className='semi-section'>
             <h3 className="Academic-title">
                 Academic info
             </h3>
@@ -19,6 +19,11 @@ const Academic = () => {
                 <li className="Academic-item">
                     <h3>📐 Bachelor of Science</h3>
                     <small>2013 - 2017</small>
+                </li>
+
+                <li className="Academic-item">
+                    <h3>😎 Google's Web Courses (Activate initiative)</h3>
+                    <small>2015 - 2016</small>
                 </li>
             </ul>
         </section>

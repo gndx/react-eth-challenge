@@ -26,7 +26,7 @@ const Experience = () => {
             <h3 className="Experience-title">
                 My Experience
             </h3>
-            <div>
+            <div className='Experience-info'>
                 {experiences.map(el => <ExperienceItem key={el.title} {...el}/>)}
             </div>
         </section>

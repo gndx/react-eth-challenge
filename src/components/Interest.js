@@ -3,11 +3,11 @@ import React from 'react';
 const Interest = () => {
 
     return (
-        <section>
+        <section className='semi-section'>
             <h3 className="Interest-title">
                 Interests
             </h3>
-            <ul>
+            <ul className='Interest-list'>
                 <li className="Interest-item">
                     🦹‍♂️ Comics
                 </li>
@@ -24,7 +24,7 @@ const Interest = () => {
                     🧠 AI
                 </li>
                 <li className="Interest-item">
-                    🔙 Backend Development
+                    🔙 Backend
                 </li>
             </ul>
         </section>

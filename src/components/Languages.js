@@ -4,24 +4,24 @@ const Languages = () => {
 
     const Language = ({percentage, color, language}) => {
         return (
-            <li className="Skills-item">
-                <h3>{language}</h3>
+            <li className="Languages-item">
+                <h3>{language} ({percentage}%)</h3>
                 <div>
-                    <div style={{width: `${percentage}%`, color: color}}></div>
+                    <div style={{width: `${percentage}%`, background: color}}></div>
                 </div>
             </li>
         )
     }
 
     return (
-        <section>
+        <section className='semi-section'>
             <h3 className="Languages-title">
                 Languages
             </h3>
-            <ul>
-                <Language percentage={100} color="green" language="Spanish (native)"/>
-                <Language percentage={60} color="blue" language="English"/>
-                <Language percentage={1} color="yellow" language="Machine code"/>
+            <ul className='Languages-list'>
+                <Language percentage={100} color="palevioletred" language="Spanish (native)"/>
+                <Language percentage={60} color="mediumslateblue" language="English"/>
+                <Language percentage={1} color="darkslategray" language="Machine code"/>
             </ul>
         </section>
     )
