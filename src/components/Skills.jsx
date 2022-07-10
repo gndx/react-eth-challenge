@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/Percentages.styl'
 
 const Skills = (props) => {
 
@@ -10,7 +11,11 @@ const Skills = (props) => {
         <section>
             <h2 className='Skills-title'>Skills</h2>
             {items.map((item,index) => (
-                <p key={`skill-item-${index}`} className='Skills-item'></p>
+                <div className='skill-container' key={`skill-item-${index}`}>
+                    <div className='skill-fill' style={{width:item.percentage}}></div>
+                    <p className='Skills-item'>{item.name}</p>
+                    <p className='percentage'>{item.percentage}</p>
+                </div>
             ))}
         </section>
     );

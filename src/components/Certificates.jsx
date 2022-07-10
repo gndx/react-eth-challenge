@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/Items.styl'
 
 const Certificates = (props) => {
     const {
@@ -6,16 +7,18 @@ const Certificates = (props) => {
     } = props;
 
     return (
-        <section>
+        <section className='Certificates'>
             <h2 className='Certificate-title'>Certificates</h2>
-            {items.map((item, index) => (
-                <div key={`certificate-item-${index}`} className='Certificate-item'>
-                    <h4 className='certificate-name'>{item.name}</h4>
-                    <p className='certificate-institution'>{item.institution}</p>
-                    <p className='certificate-date'>{item.date}</p>
-                    <p className='certificate-descr'>{item.description}</p>
-                </div>
-            ))}
+            <div className='Certificate-items'>
+                {items.map((item, index) => (
+                    <div key={`certificate-item-${index}`} className='Certificate-item'>
+                        <h4 className='certificate-name'>{item.name}</h4>
+                        <p className='certificate-institution'>{item.institution}</p>
+                        <p className='certificate-date'>{item.date}</p>
+                        <p className='certificate-descr'>{item.description}</p>
+                    </div>
+                ))}
+            </div>
         </section>
     );
 };

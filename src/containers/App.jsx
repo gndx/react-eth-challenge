@@ -9,45 +9,52 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import Certificates from '../components/Certificates';
+import useGetProducts from '../hooks/useGetData';
+
+const API = "http://localhost:3000/data"
 
 const App = () => {
+
+  const data = {};
+
   return (
-    <>
+    <div className='Main-content'>
       <Header
-        name = "Hololulu"
-        profession = "Developer"
-        phone = "123"
-        email = "asdas@adsas.com"
-        website = "asdasd.com"
-        adress = "Colombia"
-        avatar = "https://picsum.photos/200"
+        name = {data.name}
+        profession = {data.profession}
+        avatar = {data.avatar}
       >
         <About
-          items = {[]}
+          items = {data.social}
+          phone = {data.phone}
+          email = {data.email}
+          website = {data.website}
+          adress = {data.address}
         />
       </Header>
       <Profile 
-        desc = "asdasd"
+        desc = {data.profile}
       />
       <Experience
-        items = {[]}
+        items = {data.experience}
       />
       <Academic
-        items = {[]}
+        items = {data.academic}
       />
       <Certificates
-        items = {[]}
+        items = {data.certificate}
       />
+
       <Skills
-        items = {[]}
+        items = {data.skills}
       />
       <Interest
-        items = {[]}
+        items = {data.interest}
       />
       <Languages
-        items = {[]}
+        items = {data.languages}
       />
-    </>
+    </div>
   )
 };
 

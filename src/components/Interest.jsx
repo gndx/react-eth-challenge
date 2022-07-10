@@ -10,7 +10,7 @@ const Interest = (props) => {
         <section>
             <h2 className='Interest-title'>Interests</h2>
             {items.map((item, index) => (
-                <p key={`interes-item-${index}`} className='Interest-item'></p>
+                <p key={`interes-item-${index}`} className='Interest-item'>{item}</p>
             ))}
         </section>
     );

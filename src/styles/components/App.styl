@@ -1,2 +1,59 @@
+@import '_vars'
+
 body
-  background-color blue
+  background-color: backColor
+  margin: 20px
+
+section
+  background-color: cardColor
+  border-radius: 10px
+  padding: 30px
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+h2
+  color: titleColor
+  font-size: title-text-size
+  margin: 0 0 35px
+  font-family: title-font-family
+
+h4
+  font-size: focus-text-size
+  margin: 0
+  font-family: text-font-family
+  color: focusTextColor
+
+h3
+  font-size: subtitle-text-size
+  color: subtitleColor
+
+p
+a
+  color: textColor
+  text-decoration: none
+  font-size: text-size
+  margin: 5px 0
+  font-family: text-font-family
+
+a:hover
+  color: secondaryColor
+
+.Main-content
+  display: grid
+  grid-template-rows: auto 1fr auto auto auto auto
+  grid-template-columns: 1fr 1fr 1fr
+  gap: 20px
+
+  .Header
+    grid-column: 1 / 4
+
+  .Profile
+    grid-column: 1 / 4
+
+  .Experience
+    grid-column: 1 / 4
+  
+  .Academic
+    grid-column: 1 / 4
+
+  .Certificates
+    grid-column: 1 / 4

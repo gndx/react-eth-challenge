@@ -1,0 +1,34 @@
+@import '_vars'
+
+.skill-container
+.language-container
+    margin: 5px 0
+    padding: 0 5px
+    display: flex
+    justify-content: space-between
+    position: relative
+
+    p
+        z-index: 1
+
+.skill-fill
+.language-fill
+    background: linear-gradient(-45deg, #73A9AD, #90C8AC, #C4DFAA);
+    background-size: 400% 400%;
+    animation: gradient 9s ease infinite;
+    position: absolute
+    height: 100%
+    left: 0
+    border-radius: 5px
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
