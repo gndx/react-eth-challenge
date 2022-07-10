@@ -36,10 +36,10 @@ function App() {
         <SocialNetworks socials={profile.social} />
       </Header>
 
-      <Profile description={profile.Profile} />
+      <Profile description={profile.profile} />
       <Experience experiences={profile.experience} />
       <ColumnLayout>
-        <Academic academics={profile.Academic} />
+        <Academic academics={profile.academic} />
         <Skills skills={profile.skills} />
       </ColumnLayout>
       <ColumnLayout>
