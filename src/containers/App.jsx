@@ -9,6 +9,7 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import ColumnLayout from './ColumnLayout';
+import SocialNetworks from '../components/SocialNetworks';
 import getData from '../utils/getData';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           phone={profile.phone}
           website={profile.website}
         />
+        <SocialNetworks socials={profile.social} />
       </Header>
 
       <Profile description={profile.Profile} />
@@ -40,8 +42,8 @@ function App() {
         <Skills skills={profile.skills} />
       </ColumnLayout>
       <ColumnLayout>
-        <Interest />
-        <Languages />
+        <Interest interests={profile.interest} />
+        <Languages languages={profile.languages} />
       </ColumnLayout>
     </>
   );
