@@ -1,109 +1,132 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
+    "name": "Leandro Gavidia Santamaria",
+    "profession": "React front-end developer",
+    "address": "Caracas, Venezuela",
+    "email": {
+      "name": "GitHub profile",
+      "ulr": "mailto:leandrogavidia1234@gmail.com"
+    },
+    "website": {
+      "name": "GitHub profile",
+      "url": "https://github.com/LeanderGS"
+    },
+    "phone": {
+      "number": "+58 0412-224-9713",
+      "url": "https://wa.me/584122249713"
+    },
+    "Profile": "I am a React front-end developer with a great love for the Web3. I am looking for a position as member of a team in where we can grow together and have a positive impact on people.",
+
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "institution": "Tech technological university",
+        "degree": "Bachelor’s degree in systems engineering, information technology and telematics.",
+        "startDate": "December 2021",
+        "endDate": "December 2025",
+        "type": "Remote"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "institution": "Platzi",
+        "degree": "Blockchain and cryptocurrency, JavaScript and English schools.",
+        "startDate": "October 2021",
+        "endDate": "Undefined",
+        "type": "Remote"
+      },
+      {
+        "institution": "EDx",
+        "degree": "IBM Courses full stack cloud developer.",
+        "startDate": "July 2022 ",
+        "endDate": "Undefined",
+        "type": "Remote"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "position": "Wordpress web developer",
+        "company": "Brooklyn Chile",
+        "url": "https://brooklynchile.cl/",
+        "startDate": "November 2021",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "My achievements within the agency have focused on improving the agency's website, both in design, code, and performance. Currently, my main function is to create different web products for agency clients."
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "position": "Webmaster",
+        "company": "4qui",
+        "url": "https://www.linkedin.com/company/4qui/about/",
+        "startDate": "April 2021",
+        "endDate": "November 2021",
+        "jobDescription": "Within the company, my main challenge was focused on managing and improving a subscription system for different services through different websites created with WordPress and Shopify. These services were aimed at the Spanish public. On the other hand, another achievement within the company was leading a small team of 3 people, which, thanks to task and time management tools and the Scrum methodology, was a success."
+      },
+      {
+        "position": "Shopify web developer",
+        "company": "El Chollo España",
+        "url": "https://www.instagram.com/elchollo.es/",
+        "startDate": "June 2020",
+        "endDate": "February 2021",
+        "jobDescription": "An online store was created through the Shopify platform using the “Drop-shipping” sales model. This same store, together with conversion campaigns in Facebook ADS and the Facebook Pixel, managed to obtain a ROAS (return on advertising investment) greater than 5."
       }
     ],
     "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
+      "HTML5",
+      "CSS3",
+      "Sass",
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Webpack",
+      "Figma"
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Blockchain",
+      "Content creation",
+      "NFTs"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "Native"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "level": "A2"
+      },
+      {
+        "name": "Portuguese",
+        "level": "A2"
       }
     ],
-    "social": [
+    "projects": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "DecoderMors",
+        "url": "https://leandergs.github.io/decoder-mors/",
+        "description": "Web application for Morse code decoding and encryption.",
+        "technologies": [
+          "React.js",
+          "Sass",
+          "Webpack"
+        ]
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "React expense control app",
+        "url": "https://leandergs.github.io/React-expense-control-app/",
+        "description": "Web application to control monetary expenses.",
+        "technologies": [
+          "React.js",
+          "Sass"
+        ]
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "Your weight in other planet",
+        "url": "https://leandergs.github.io/Website-your_weight_in_other_planet/",
+        "description": "Web application for Morse code decoding and encryption.",
+        "technologies": [
+          "JavaScript",
+          "Sass"
+        ]
       }
     ]
   }

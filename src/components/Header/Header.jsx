@@ -1,7 +1,9 @@
 import React from 'react';
 import "./Header.scss";
 
+
 const Header = () => {
+
     return (
         <section className='Header'>
             <h1 className='Header-title'>Leandro Gavidia Santamaria</h1>

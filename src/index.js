@@ -6,4 +6,6 @@ import "./styles/globals.scss";
 
 const root = createRoot(document.getElementById('app'));
 
+console.log()
+
 root.render(<App />);
