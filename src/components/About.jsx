@@ -11,7 +11,7 @@ function About({ data }) {
         <div className='About-box'>
             <div className='About-left'>
                 <div className='About-title'>Certificaciones</div>
-                <div className='grid-container-2-col-order-col'>
+                <div className='About-certificates'>
                     {certificate.map((item) => (
                         <div key={++keyCounter} className='About-item'>
                             <div className='About-item-name'>{item.name}</div>
@@ -28,12 +28,12 @@ function About({ data }) {
                     {social.map((item) => (
                         <div key={++keyCounter} className='About-item'>
                             <div className='About-item-name'>{item.name}</div>
-                            <div className='About-item-url'>{item.url}</div>
-                        </div>
-                    ))}
+                                <div className='About-item-url'><a href={item.url} target='_new'>{item.url}</a></div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
-        </div>
     );
 };
 
