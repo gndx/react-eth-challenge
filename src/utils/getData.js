@@ -1,5 +1,3 @@
-import React from 'react';
-
 const getData = async (url) => {
   return fetch(url)
     .then((body) => body.json());
