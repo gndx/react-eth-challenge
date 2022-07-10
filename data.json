@@ -7,7 +7,7 @@
     "website": "https://example.com",
     "phone": "3042034240",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "profile": "I am a Front end engineer who loves working on building web applications, either from scratch or with production code. My strong skill is for Javascript, either backend or front end. Today I can effortlessly work on technologies like HTML, CSS, Vanilla Javascript, TypeScript, Git/Github, Webpack, Pug, SASS, Jest, RxJs, Angular, Vue, React, and many others that help me build web applications that are maintainable and scalable.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,70 +22,84 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "title": "Platzi",
+        "description": "I'm studying at Platzi because I want to become a software dev."
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "title": "Udemy",
+        "description": "Javascript dev"
+      },
+      {
+        "title": "Udemy",
+        "description": "Typescript dev"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "title": "Frontend Engineer at Aplazo (CDMX)",
+        "description": "As a Aplazo Front end Engineer, I take a place in B2B development team. I work mainly with the Angular framework to develop the dashboard of the merchants, In the last refactoring I take a code that was highly coupled to the framework for a better approach by splitting the domain into its own library, free of frameworks and defining use-cases to maintain and scale the app in the future."
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "title": "Frontend Dev at Coconutt (CDMX)",
+        "description": "Most of my participation was on creating custom frontend web applications for the customers (final users). In my day to day I was involved working with Vue, Angular and clean architectures to build dashboards, SPA's, landing pages and improve some projects that was built before my arrived. For example we can built a landing page with template engines, vanilla Javascript, SASS and bundled the app with webpack, but for other projects we built on top of Angular framework and used CD with docker images and GH actions to accomplished the task."
+      },
+      {
+        "title": "Freelance (CDMX)",
+        "description": "I am focused on building and developing web applications for my clients. Recently I start to use Laravel as tool that let me to do my job. I mainly work with Javascript technologies and I can say that I work effortlessly with frameworks like Laravel, Express, Hapi.js, Angular, Ionic, Vue.js and Quasar. My learning roots include HTML, CSS, Vanilla Javascript, Typescript y Git, and in my day to day, I handle tools such as Webpack, Pug, SASS, RxJS, Jest."
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "content": "HTML5"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "content": "CSS"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "content": "JavaScript"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "content": "OOP"
+      },
+      {
+        "content": "Angular"
+      },
+      {
+        "content": "Vue"
+      },
+      {
+        "content": "RxJs"
+      },
+      {
+        "content": "Node"
+      },
+      {
+        "content": "Python"
+      },
+      {
+        "content": "PHP"
+      },
+      {
+        "content": "React"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      { "content": "Javascript" },
+      { "content": "Typescript" },
+      { "content": "Backend" },
+      { "content": "Front end" }
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "content": "Spanish"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "content": "English"
+      },
+      {
+        "content": "Italian"
       }
     ],
     "social": [

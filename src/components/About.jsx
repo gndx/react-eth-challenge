@@ -1,26 +1,26 @@
-function About() {
+function About({ profession, email, website, address }) {
   return (
     <section className='About'>
-      <h3 className='About-title'> Front end Engineer </h3>
+      <h3 className='About-title'>{profession}</h3>
 
       <p className='About-content'>
         <a
           className='link About-item About-email'
-          href='mailto: g.ram.bt@hotmail.com'
+          href={`mailto:${email}`}
           rel='noopener noreferrer'
           target='_blank'
         >
-          g.ram.bt@hotmail.com
+          {email}
         </a>
         <a
           className='link About-item About-website'
-          href='https://github.com/gusram01'
+          href={website}
           rel='noopener noreferrer'
           target='_blank'
         >
-          github
+          website
         </a>
-        <span className='About-item About-address'>Ciudad de México</span>
+        <span className='About-item About-address'>{address}</span>
       </p>
     </section>
   );
