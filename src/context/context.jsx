@@ -1,5 +1,6 @@
 import React, { createContext, useEffect, useState } from "react"
 import getData from "../utils/getData"
+import useGetData from "../utils/useGetData";
 
 const ApiURL = 'http://localhost:3000/data';
 
@@ -143,16 +144,11 @@ const data = {
   ]
 }
 
-const UserContext = createContext()
+const UserContext = createContext(data)
 
 export const UserProvider = ({ children }) => {
-
-  const [user, setUser] = useState({});
-
-  useEffect(() => {
-    getData(ApiURL).then(setUser)
-  }, [])
-
+  const user = useGetData(ApiURL)
+  console.log(user);
   if (!user) return <div>Loading...</div>
 
   return (

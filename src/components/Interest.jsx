@@ -6,7 +6,6 @@ const Interest = () => {
     interest
   } = useContext(AppContext)
 
-  console.log(interest);
   return (
     <div>
       <h1 className="Interest-title">Interests</h1>
