@@ -1,6 +1,6 @@
 import React from 'react';
 import AcademicItem from './AcademicItem';
-import '../styles/components/AcademicItem.styl';
+import '../styles/components/Academic.styl';
 
 function Academic({ academics }) {
   return (

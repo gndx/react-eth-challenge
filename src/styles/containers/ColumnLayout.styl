@@ -1,10 +1,11 @@
 @import '../_variables.styl';
 
 .ColumnLayout
-    display: grid
-    grid-template-columns: 1fr 1fr
     position: relative
     color: primary
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: 5em
     
 .ColumnLayout + .ColumnLayout::before
     background-color: secondary

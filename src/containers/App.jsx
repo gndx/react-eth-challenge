@@ -37,7 +37,7 @@ function App() {
       <Experience experiences={profile.experience} />
       <ColumnLayout>
         <Academic academics={profile.Academic} />
-        <Skills />
+        <Skills skills={profile.skills} />
       </ColumnLayout>
       <ColumnLayout>
         <Interest />
