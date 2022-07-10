@@ -1,7 +1,10 @@
-import { nanoid } from 'nanoid';
-import AppCard from './shared/app-card/AppCard';
+import AppCard from './shared/AppCard';
 
-function Experience({ experience }) {
+function Experience({
+  experience = Array.from({ length: 3 }, (v, k) => [
+    { title: k, description: k },
+  ]),
+}) {
   return (
     <section className='Experience section'>
       <h3 className='Experience-title'>Experience</h3>
@@ -9,7 +12,7 @@ function Experience({ experience }) {
       <article className='Experience-content card-container'>
         {experience.map((exp) => (
           <AppCard
-            key={nanoid()}
+            key={`Experience-${Math.random() * 100}`}
             title={exp.title}
             description={exp.description}
             className='Experience-item'

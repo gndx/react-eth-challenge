@@ -6,5 +6,5 @@ export default function handler(req, res) {
   const stringified = readFileSync(file, 'utf8');
 
   res.setHeader('Content-Type', 'application/json');
-  return res.end(stringified);
+  return res.end(JSON.stringify(JSON.parse(stringified).data));
 }

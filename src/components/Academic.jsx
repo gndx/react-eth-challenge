@@ -1,7 +1,10 @@
-import { nanoid } from 'nanoid';
-import AppCard from './shared/app-card/AppCard';
+import AppCard from './shared/AppCard';
 
-function Academic({ academic }) {
+function Academic({
+  academic = Array.from({ length: 3 }, (v, k) => [
+    { title: k, description: k },
+  ]),
+}) {
   return (
     <section className='Academic section'>
       <h3 className='Academic-title'>Academic</h3>
@@ -9,7 +12,7 @@ function Academic({ academic }) {
       <article className='Academic-content card-container'>
         {academic.map((item) => (
           <AppCard
-            key={nanoid()}
+            key={`Academic-${Math.random() * 100}`}
             title={item.title}
             description={item.description}
             cardType='secondary'

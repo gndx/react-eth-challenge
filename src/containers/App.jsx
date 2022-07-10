@@ -7,15 +7,18 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import getData from '../utils/getData';
 
 import '../styles/components/App.css';
-import getData from '../utils/getData';
 
 function App() {
   const [myInfo, setMyInfo] = useState(null);
 
   const getCvInfo = async () => {
-    const mockUrl = '/api';
+    const mockUrl =
+      process.env.NODE_ENV === 'development'
+        ? 'http://localhost:3000/data'
+        : '/api';
 
     try {
       const cvInfo = await getData(mockUrl);
@@ -29,7 +32,6 @@ function App() {
   useEffect(() => {
     getCvInfo();
   }, []);
-
   if (typeof myInfo === 'undefined') {
     return <h1>Error al obtener la información</h1>;
   }

@@ -1,7 +1,8 @@
-import { nanoid } from 'nanoid';
-import AppBadge from './shared/app-badge/AppBadge';
+import AppBadge from './shared/AppBadge';
 
-function Interest({ interest }) {
+function Interest({
+  interest = Array.from({ length: 3 }, (v, k) => [{ content: k }]),
+}) {
   return (
     <section className='Interest section'>
       <h3 className='Interest-title'>Interest</h3>
@@ -9,7 +10,7 @@ function Interest({ interest }) {
       <ul className='Interest-content badge-container'>
         {interest.map((item) => (
           <AppBadge
-            key={nanoid()}
+            key={`Interest-${Math.random() * 100}`}
             className='Interest-item'
             badgeType='secondary'
             content={item.content}

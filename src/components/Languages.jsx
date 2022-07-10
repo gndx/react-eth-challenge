@@ -1,7 +1,8 @@
-import { nanoid } from 'nanoid';
-import AppBadge from './shared/app-badge/AppBadge';
+import AppBadge from './shared/AppBadge';
 
-function Languages({ languages }) {
+function Languages({
+  languages = Array.from({ length: 3 }, (v, k) => [{ content: k }]),
+}) {
   return (
     <section className='Languages section'>
       <h3 className='Languages-title'>Languages</h3>
@@ -9,7 +10,7 @@ function Languages({ languages }) {
       <ul className='Languages-content percentage-container'>
         {languages.map((language) => (
           <AppBadge
-            key={nanoid()}
+            key={`Languages-${Math.random() * 100}`}
             className='Languages-item'
             content={language.content}
           />

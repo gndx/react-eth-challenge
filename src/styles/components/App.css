@@ -179,6 +179,30 @@ li {
   }
 }
 
+.card {
+  padding: 1rem 1.5rem;
+  color: white;
+  border-radius: calc(var(--radius-1) * 3px) calc(var(--radius-1) * 1px)
+    calc(var(--radius-1) * 3px) 0;
+  line-height: 2.2;
+
+  h4 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  &--primary {
+    background-color: var(--primary-color-200);
+  }
+
+  &--secondary {
+    background-color: var(--secondary-color-500);
+  }
+}
+
 .aditional-info-container,
 .card-container {
   display: grid;
@@ -186,6 +210,32 @@ li {
   gap: 1rem;
   justify-content: space-evenly;
   width: 100%;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.5rem;
+  background: var(--gray-color-100);
+  color: var(--gray-color-900);
+  border-radius: 500px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  box-shadow: inset 0 0 6px 1px rgba(0, 0, 0, 0.15), 0 0 3px rgba(0, 0, 0, 0.5);
+  user-select: none;
+
+  &--primary {
+    color: white;
+    background-color: var(--primary-color-300);
+  }
+
+  &--secondary {
+    color: white;
+    background-color: var(--secondary-color-500);
+  }
 }
 
 .badge-container {
