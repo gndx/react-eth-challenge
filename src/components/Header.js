@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
-export default function Header({ children }) {
+export default function Header({ children, handleProfileScroll, handleExperienceScroll, handleSkillsScroll, handleInterestScroll }) {
   return (
     <>
       <div className='mt-10 flex flex-row items-center justify-between sticky bg-white top-0 z-10'>
@@ -9,7 +9,10 @@ export default function Header({ children }) {
           Cv
         </h1>
         <div className='flex'>
-          <Button>Work</Button>
+          <Button onClick={handleProfileScroll}>Profile</Button>
+          <Button onClick={handleExperienceScroll}>Experience</Button>
+          <Button onClick={handleSkillsScroll}>Education and Skills</Button>
+          <Button onClick={handleInterestScroll}>Interest and Langueges</Button>
         </div>
       </div>
       { children }

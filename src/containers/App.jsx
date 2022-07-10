@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -12,9 +12,49 @@ import { useData } from '../hooks/useData';
 
 function App() {
   const { data } = useData();
+  // Ref
+  const profileRef = useRef();
+  const experienceRef = useRef();
+  const skillsRef = useRef();
+  const interestRef = useRef();
+
+  const handleProfileScroll = () => {
+    window.scrollTo({
+      top: profileRef.current.offsetTop,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+  const handleExperienceScroll = () => {
+    window.scrollTo({
+      top: experienceRef.current.offsetTop,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+  const handleSkillsScroll = () => {
+    window.scrollTo({
+      top: skillsRef.current.offsetTop,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+  const handleInterestScroll = () => {
+    window.scrollTo({
+      top: interestRef.current.offsetTop,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
   return (
     <div className='container mx-auto mb-10'>
-      <Header>
+      <Header
+        handleProfileScroll={handleProfileScroll}
+        handleExperienceScroll={handleExperienceScroll}
+        handleSkillsScroll={handleSkillsScroll}
+        handleInterestScroll={handleInterestScroll}
+
+      >
         <About
           name={data?.name}
           profession={data?.profession}
@@ -26,14 +66,18 @@ function App() {
           img={data?.avatar}
         />
       </Header>
-      <Profile
-        profile={data?.Profile}
-        social={data?.social}
-      />
-      <Experience
-        experience={data?.experience}
-      />
-      <div className='grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6'>
+      <div ref={profileRef}>
+        <Profile
+          profile={data?.Profile}
+          social={data?.social}
+        />
+      </div>
+      <div ref={experienceRef}>
+        <Experience
+          experience={data?.experience}
+        />
+      </div>
+      <div ref={skillsRef} className='grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6'>
         <Academic
           academic={data?.Academic}
         />
@@ -41,7 +85,7 @@ function App() {
           skills={data?.skills}
         />
       </div>
-      <div className='grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6'>
+      <div ref={interestRef} className='grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6'>
         <Interest
           interest={data?.interest}
         />
