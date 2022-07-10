@@ -8,9 +8,9 @@ Usuario Platzi: MEGAFRAN
 ## Reto:
 
 - [X] Primer problema
-- [ ] Segundo problema
+- [X] Segundo problema
 - [X] Tercer problema
 - [X] Cuarto Problema
 - [X] Quinto Problema
-- [ ] Sexto Problema
+- [X] Sexto Problema
 - [ ] Septimo Problema
