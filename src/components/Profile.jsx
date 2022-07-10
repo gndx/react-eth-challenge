@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/components/App.styl';
 
-const Profile = () => {
+const Profile = ({ profile }) => {
   return (
-    <>
-      <h1 className='Profile-title'>Profile</h1>
-      <span className='Profile-desc'>1</span>
-    </>
+    <div className='Profile'>
+      <h2 className='Profile-title subtitle'>Profile</h2>
+      <div className='Profile-desc'>{profile}</div>
+    </div>
   );
 };
 

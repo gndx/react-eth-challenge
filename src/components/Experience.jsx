@@ -1,14 +1,34 @@
 import React from 'react';
 import '../styles/components/App.styl';
 
-const Experience = () => {
+const Experience = ({ experience }) => {
+
+  const experiences = Array.from(new Set(experience));
+
   return (
-    <>
-      <h1 className='Experience-title'>Experience</h1>
-      <span className='Experience-item'>1</span>
-      <span className='Experience-item'>1</span>
-      <span className='Experience-item'>1</span>
-    </>
+    <div className='Experience'>
+      <h2 className='Experience-title subtitle'>Experience</h2>
+      {
+        experiences.map((item) => {
+          return (
+            <div className='Experience-item' key={item.company}>
+              <div className='colorblue'>
+                {item.jobTitle}
+              </div>
+              <div>
+                {item.company}
+              </div>
+              <div>
+                {`${item.startDate} - ${item.endDate}`}
+              </div>
+              <div>
+                {item.jobDescription}
+              </div>
+            </div>
+          );
+        })
+      }
+    </div>
   );
 };
 

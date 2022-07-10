@@ -1,14 +1,17 @@
 import React from 'react';
 import '../styles/components/App.styl';
 
-const Interest = () => {
+const Interest = ({ interest }) => {
+
+  const interests = Array.from(new Set(interest));
+
   return (
-    <>
-      <h1 className='Interest-title'>Interest</h1>
-      <span className='Interest-item'>1</span>
-      <span className='Interest-item'>1</span>
-      <span className='Interest-item'>1</span>
-    </>
+    <div className='Interest'>
+      <h2 className='Interest-title subtitle'>Interest</h2>
+      <div className='Interest-all'>
+        {interests.map((item) => <div className='Interest-item badge' key={item}>{item}</div>)}
+      </div>
+    </div>
   );
 };
 
