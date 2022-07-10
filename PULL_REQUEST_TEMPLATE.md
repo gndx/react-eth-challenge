@@ -9,7 +9,7 @@ Usuario rennypetit:
 
 - [x] Primer problema
 - [x] Segundo problema
-- [ ] Tercer problema
+- [x] Tercer problema
 - [ ] Cuarto Problema
 - [ ] Quinto Problema
 - [ ] Sexto Problema
