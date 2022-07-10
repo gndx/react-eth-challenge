@@ -1,82 +1,100 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Juan Nicolas",
+    "lastName": "Muñoz Campos",
+    "profession": "Fullstack Blockchain Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
+    "email": "juanicolasmuozcampos@example.com",
+    "website": "https://nicolasmunoz13.github.io/",
+    "phone": "3115482222",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "Engineer with knowledge on basic science and applied engineering, IT Support, tech troubleshooting. Expertise in the handling of Microsoft Oce (Word, Excel, PowerPoint), databases and forms, Java (Spring, JSF, JSP), HTML, CSS, C++, Python (Django), Javascript, SQL (MySQL, PostgreSQL). Basic knowledge in Amazon ECS, Azure. Background in computer simulation for the petroleum and chemical industry using applied mathematics and software",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "2021",
+        "description": "Certified Tech developer",
+        "institution": "Digital House",
+        "name": "Certified Tech developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "2021",
+        "description": "Diploma in Programming - Scholarship",
+        "institution": "inistry of communications, Bogota, Colombia",
+        "name": "Computer Programming"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Bachelor in Chemical Engineering",
+        "description": "Engeneering Degree",
+        "endDate": "2019",
+        "institution": "University of America, Bogota, Colombia",
+        "startDate": "2014"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Bachelor in Petroleum Engineering",
+        "description": "Engeneering Degree",
+        "endDate": "2021",
+        "institution": "University of America, Bogota, Colombia",
+        "startDate": "2016"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Globant",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Setting Rest-API services using Java for the backend, using several frameworks for this task such as spring – spring boot",
+        "jobTitle": "Java Developer",
+        "startDate": "Dec 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "HQ Rental Software",
+        "endDate": "Dec 2021",
+        "jobDescription": "Help customer to configure their software according with their requirements",
+        "jobTitle": "It Support Specialist",
+        "startDate": "March 2021"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "70%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "70%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "50%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Java",
+        "percentage": "70%"
+      },
+      {
+        "name": "Python",
+        "percentage": "50%"
+      },
+      {
+        "name": "Spring",
+        "percentage": "60%"
+      },
+      {
+        "name": "Django",
+        "percentage": "40%"
+      },
+      {
+        "name": "Bootstrap",
+        "percentage": "50%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
+      "Blockchain",
+      "Cryptocurrencies",
       "backend",
-      "frontend"
+      "frontend",
+      "Ethereum - Solidity"
     ],
     "languages": [
       {
@@ -85,7 +103,7 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "90%"
       }
     ],
     "social": [
