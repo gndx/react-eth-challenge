@@ -1,9 +1,9 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { render } from 'enzyme';
 import Academic from '../../components/Academic';
 
 describe('<Academic />', () => {
-  const academic = mount(<Academic />);
+  const academic = render(<Academic />);
 
   test('Academic render', () => {
     expect(academic.length).toEqual(1);
