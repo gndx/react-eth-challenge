@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "build-prod": "react-scripts build",
-    "start": "export REACT_APP_API_URL=http://localhost:3000/data && webpack-dev-server --open --mode development",
+    "start": "webpack-dev-server --open --mode development",
     "start-prod": "node server.js",
     "server": "json-server data.json --port ${PORT} --host 0.0.0.0",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",

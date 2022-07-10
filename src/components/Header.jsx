@@ -15,7 +15,7 @@ function Header({ data, children }) {
                     <div className='Header-job-title'>{profession}</div>
                     <div className='Header-phone'>{phone}</div>
                     <div className='Header-email'>{email}</div>
-                    <div className='Header-website'>{website}</div>
+                    <div className='Header-website'><a href={website} target='_new'>{website}</a></div>
                     <div className='Header-address'>{address}</div>
                 </div>
             </div>
