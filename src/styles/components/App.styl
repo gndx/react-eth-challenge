@@ -1,11 +1,11 @@
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+  margin: 0
+  padding: 0
+  border: 0
+  outline: 0
+  font-size: 100%
+  vertical-align: baseline
+  background: transparent
   font-family: Arial, Helvetica, sans-serif
 
 body
@@ -20,25 +20,26 @@ body
     "academic"\
     "skill"\
     "interest"\
-    "language";
+    "language"
   padding: 5%
   padding-left: 10%
   padding-right: 10%
   
-  @media screen and (min-width: 768px)
+  @media (min-width: 768px)
+    display: grid
     grid-template-areas:
-      "header header"\
-      "profile profile"\
-      "experience experience"\
-      "academic skill"\
-      "interest language";
+      "header header header"\
+      "profile profile profile"\
+      "experience experience experience"\
+      "academic academic skill"\
+      "interest language language"    
   
 .Header
   display: grid
   grid-area: header
   grid-template-areas:
-    "avatar content content content"\
-    "avatar about about about"
+    "avatar content"\
+    "avatar about"
   padding 10px
   margin-top: 5px
   margin-bottom: 5px
@@ -163,8 +164,3 @@ body
   padding: 3px
   margin: 5px
   text-align: center
-
-.subrayar
-  border-bottom: 2px solid
-  border-image-slice: 1
-  border-image-source: linear-gradient(to left,#b847e1,#205ce7)
