@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Profile() {
+function Profile({ profile }) {
   return (
     <div className='profile'>
       <h2 className='Profile-title'> Profile </h2>
-      <p className='Profile-desc'>Ethereum Developer Wannabe.</p>
+      <p className='Profile-desc'>{profile}</p>
     </div>
   );
 }

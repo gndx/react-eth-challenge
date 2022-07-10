@@ -9,6 +9,7 @@ function Academic() {
         <li className='Academic-item'>Master of Economics</li>
         <li className='Academic-item'>Microverse Bootcamp</li>
       </ul>
+
     </div>
   );
 }

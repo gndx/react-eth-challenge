@@ -1,18 +1,14 @@
 import React from 'react';
-import data from '../../data.json';
 
-console.log(data);
-const DEFAULT_IMAGE = 'https://avatars.githubusercontent.com/sergiogval';
-
-function Header() {
+function Header({ data = {} }) {
+  console.log(data);
   return (
-    <header>
-      <img src={DEFAULT_IMAGE} alt='avatar' />
-      <h1 className='Header-title'>Sergio Valadez</h1>
-      <p className='Header-job-title'>Current job: Freelancer</p>
-      <p className='Header-email'>Correo: sergioval@gmail.com</p>
-    </header>
+    <div className='header'>
+      <img src={data.avatar} alt='avatar' />
+      <h1 className='Header-title'>{data.name}</h1>
+      <h2 className='Header-job-title'>{data.profession}</h2>
+    </div>
   );
-}
+};
 
 export default Header;
