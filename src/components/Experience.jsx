@@ -1,13 +1,28 @@
 import React from 'react';
+import '../styles/components/Experience.styl';
 
-const Experience = () => {
+const Experience = ({ 
+  items = Array(3).fill({
+    "company": "",
+    "endDate": "",
+    "jobDescription": "",
+    "jobTitle": "",
+    "startDate": ""
+  })
+}) => {
   return (
-    <div>
-      <div className="Experience-title">Experience</div>
+    <div className="Experience-container">
+      <h2 className="Experience-title">Experience</h2>
       <ul>
-        <li className="Experience-item">Item 1</li>
-        <li className="Experience-item">Item 2</li>
-        <li className="Experience-item">Item 3</li>
+        {items.map((item, index) => (
+          <li key={index} className="Experience-item">
+            <h3>{item.company}</h3>
+            <p>{item.startDate}-{item.endDate}</p>
+            <p>{item.jobTitle}</p>
+            <p>{item.jobDescription}</p>
+          </li>
+        )
+        )}
       </ul>
     </div>
   );

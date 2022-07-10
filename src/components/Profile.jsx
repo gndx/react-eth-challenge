@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/components/Profile.styl';
 
-const Profile = () => {
+const Profile = ({ description }) => {
   return (
-    <div>
-      <div className="Profile-title">Profile</div>
-      <div className="Profile-desc">Description</div>
+    <div className="Profile-container">
+      <h2 className="Profile-title">Profile</h2>
+      <div className="Profile-desc">{description}</div>
     </div>
   );
 };

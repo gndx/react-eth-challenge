@@ -1,13 +1,23 @@
 import React from 'react';
+import '../styles/components/Languages.styl';
 
-const Languages = () => {
+const Languages = ({ 
+  items = Array(3).fill({
+    "name": "",
+    "percentage": ""
+  })
+}) => {
   return (
-    <div>
-      <div className="Languages-title">Languages</div>
+    <div className="Languages-container">
+      <h2 className="Languages-title">Languages</h2>
       <ul>
-        <li className="Languages-item">Item 1</li>
-        <li className="Languages-item">Item 2</li>
-        <li className="Languages-item">Item 3</li>
+        {items.map((item, index) => (
+          <li key={index} className="Languages-item">
+            <h3>{item.name}</h3>
+            <p>{item.percentage}</p>
+          </li>
+        )
+        )}
       </ul>
     </div>
   );

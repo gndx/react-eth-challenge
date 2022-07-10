@@ -1,13 +1,21 @@
 import React from 'react';
+import '../styles/components/Interest.styl';
 
-const Interest = () => {
+const Interest = ({ 
+  items = Array(3).fill({
+    "name": ""
+  })
+}) => {
   return (
-    <div>
-      <div className="Interest-title">Interest</div>
+    <div className="Interest-container">
+      <h2 className="Interest-title">Interest</h2>
       <ul>
-        <li className="Interest-item">Item 1</li>
-        <li className="Interest-item">Item 2</li>
-        <li className="Interest-item">Item 3</li>
+        {items.map((item, index) => (
+          <li key={index} className="Interest-item">
+            <p>{item}</p>
+          </li>
+        )
+        )}
       </ul>
     </div>
   );

@@ -1,13 +1,23 @@
 import React from 'react';
+import '../styles/components/Skills.styl';
 
-const Skills = () => {
+const Skills = ({ 
+  items = Array(3).fill({
+    "name": "",
+    "percentage": ""
+  })
+}) => {
   return (
-    <div>
-      <div className="Skills-title">Skills</div>
+    <div className="Skills-container">
+      <h2 className="Skills-title">Skills</h2>
       <ul>
-        <li className="Skills-item">Item 1</li>
-        <li className="Skills-item">Item 2</li>
-        <li className="Skills-item">Item 3</li>
+        {items.map((item, index) => (
+          <li key={index} className="Skills-item">
+            <h3>{item.name}</h3>
+            <p>{item.percentage}</p>
+          </li>
+        )
+        )}
       </ul>
     </div>
   );

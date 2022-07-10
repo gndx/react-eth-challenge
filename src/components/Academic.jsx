@@ -1,13 +1,27 @@
 import React from 'react';
+import '../styles/components/Academic.styl';
 
-const Academic = () => {
+const Academic = ({ 
+  items = Array(3).fill({
+    "degree": "",
+    "description": "",
+    "endDate": "",
+    "institution": "",
+    "startDate": ""
+  })
+}) => {
   return (
-    <div>
-      <div className="Academic-title">Academic</div>
+    <div className="Academic-container">
+      <h2 className="Academic-title">Academic</h2>
       <ul>
-        <li className="Academic-item">Item 1</li>
-        <li className="Academic-item">Item 2</li>
-        <li className="Academic-item">Item 3</li>
+        {items.map((item, index) => (
+          <li key={index} className="Academic-item">
+            <h3>{item.degree}</h3>
+            <p>{item.institution}</p>
+            <p>{item.startDate}-{item.endDate}</p>
+          </li>
+        )
+        )}
       </ul>
     </div>
   );
