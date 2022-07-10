@@ -11,7 +11,7 @@ import Languages from '../components/Languages';
 import Certificates from '../components/Certificates';
 import useGetProducts from '../hooks/useGetData';
 
-const API = "http://localhost:3000/data"
+const API = "http://localhost:3000/api/v1/data"
 
 const App = () => {
 
