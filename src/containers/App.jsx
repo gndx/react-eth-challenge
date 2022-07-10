@@ -1,27 +1,26 @@
 import React from 'react';
-import '../styles/components/App.styl';
-import Header from '../components/Header';
-import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import "./App.scss";
+import Header from '../components/Header/Header';
+import About from '../components/About/About';
+import Profile from '../components/Profile/Profile';
+import Experience from '../components/Experience/Experience';
+import Academic from '../components/Academic/Academic';
+import Skills from '../components/Skills/Skills';
+import Interest from '../components/Interest/Interest';
+import Languages from '../components/Languages/Languages';
 
 const App = () => {
   return (
-    <>
-      <Header>
-        <About />
-      </Header>
+    <main className="cv-container">
+      <Header />
+      <Languages />
       <Profile />
       <Experience />
       <Academic />
+      <About />
       <Skills />
       <Interest />
-      <Languages />
-    </>
+    </main>
   )
 };
 

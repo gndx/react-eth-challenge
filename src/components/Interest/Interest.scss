@@ -1,0 +1,24 @@
+@use "../../styles/vars" as *;
+@use "../../styles/mixins" as *;
+
+.Interest {
+    @include sectionStyle;
+    &-title {
+        @include subtitle;
+    }
+    & > ul {
+        margin-bottom: 6rem;
+        & > li:nth-child(even) {
+            margin: 2rem 0 2rem 2rem;
+        }
+        & > li {
+            &::marker {
+                color: $second-color;
+            }
+            & > strong {
+                font-weight: $semi-bold;
+            }
+            margin-left: 2rem;
+        }
+    }
+}

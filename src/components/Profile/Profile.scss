@@ -1,0 +1,13 @@
+@use "../../styles/vars" as *;
+@use "../../styles/mixins" as *;
+
+.Profile {
+    @include sectionStyle;
+    &-title {
+        @include subtitle;
+    }
+    &-desc {
+        line-height: 2;
+        margin-bottom: 6rem;
+    }
+}

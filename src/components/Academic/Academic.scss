@@ -1,0 +1,22 @@
+@use "../../styles/vars" as *;
+@use "../../styles/mixins" as *;
+
+.Academic {
+    @include sectionStyle;
+    &-title {
+        @include subtitle;
+    }
+    & > ol {
+        margin-bottom: 6rem;
+        & > li:nth-child(even) {
+            margin: 6rem 0;
+        }
+        & > li::marker {
+            color: $second-color;
+            font-weight: $semi-bold;
+        }
+        & > li {
+            padding-left: 1.2rem;
+        }
+    }
+}
