@@ -15,7 +15,7 @@ function App() {
   const [myInfo, setMyInfo] = useState(null);
 
   const getCvInfo = async () => {
-    const mockUrl = 'http://localhost:3000/data';
+    const mockUrl = '/api';
 
     try {
       const cvInfo = await getData(mockUrl);

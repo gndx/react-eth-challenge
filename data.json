@@ -1,27 +1,12 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "name": "Gus Ramírez",
+    "profession": "Front End Developer",
+    "address": "CDMX, México.",
+    "email": "g.ram.bt@hotmail.com",
+    "website": "https://gusramirez.dev",
+    "avatar": "https://avatars.githubusercontent.com/gusram01",
     "profile": "I am a Front end engineer who loves working on building web applications, either from scratch or with production code. My strong skill is for Javascript, either backend or front end. Today I can effortlessly work on technologies like HTML, CSS, Vanilla Javascript, TypeScript, Git/Github, Webpack, Pug, SASS, Jest, RxJs, Angular, Vue, React, and many others that help me build web applications that are maintainable and scalable.",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
     "academic": [
       {
         "title": "Platzi",
@@ -100,24 +85,6 @@
       },
       {
         "content": "Italian"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
       }
     ]
   }
