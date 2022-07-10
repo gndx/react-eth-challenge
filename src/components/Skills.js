@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div className="Skills">
+    <div className="Skills background-green">
       <h2 className="Skills-title">Skills</h2>
       <ul className="global-ul">
         <li className="Skills-item">

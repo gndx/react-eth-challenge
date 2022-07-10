@@ -8,7 +8,7 @@ Usuario rennypetit:
 ## Reto:
 
 - [x] Primer problema
-- [ ] Segundo problema
+- [x] Segundo problema
 - [ ] Tercer problema
 - [ ] Cuarto Problema
 - [ ] Quinto Problema

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Profile = () => {
   return (
-    <div className="Profile">
-      <h2 className="Profile-title">PROFILE</h2>
+    <div className="Profile background-green">
+      <h2 className="Profile-title">Profile</h2>
       <p className="Profile-desc">
         Desarrollador Web responsable, enfocado en su trabajo, que sigue
         normativas y reglamentos. De igual manera me gusta aprender nuevas

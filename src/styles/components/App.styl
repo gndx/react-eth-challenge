@@ -1,2 +1,101 @@
-body
-  background-color blue
+body, html
+  margin 0
+  font-size: 16px
+h1
+  color: #47525E
+  font-size: 1.6rem
+h2,h3
+  color: #47525E
+  font-size: 1.4rem
+  margin-top: 0
+
+a
+  color: #47525E
+p
+  color:#6F8786
+  font-size: 1rem
+  margin-bottom: 0
+
+.global-ul
+  color:#6F8786
+  line-height: 1.5rem
+  margin-bottom: 0
+
+
+.container
+  width: 90%
+  margin: auto
+
+.background-green
+  background-color: #BDF1D4
+  margin-bottom: 10px
+  padding:10px
+
+.Header
+  align-items: center
+  display: flex
+  flex-direction: column
+  line-height: 1;
+  margin-top: 20px
+  background-color: #E0F4FF
+  margin-bottom: 10px
+  padding: 10px
+
+.Header-img img
+  border-radius: 50%;
+
+.Header-title
+  padding: 0
+  margin-bottom: 10px
+  text-align: center
+
+.About-title
+  padding: 0
+  margin: 10px 0
+  text-align: center
+  font-size: 1rem
+
+.About-ul
+  padding: 0
+  display: flex
+  flex-direction: column
+  gap: 5px 20px
+  font-size: 0.9rem
+  text-align: center
+  list-style: none
+  a, li
+    color: #47525E
+
+@media screen and (min-width: 768px)
+  h1
+  font-size: 1.8rem
+  .global-ul
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+
+  .row
+    display: flex;
+    gap: 20px;
+    &:last-child
+      margin-bottom: 10px
+
+  .Header
+    flex-direction: row
+
+  .Header-title, .About-title
+    padding-left: 20px
+    text-align: left
+
+
+  .About-ul
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    text-align: left
+    padding-left: 20px
+    font-size: 1rem
+
+  .Academic, .Skills, .Interest, .Languages
+    width: 50%;
+
+  .Academic-ul
+    grid-auto-columns: 1fr

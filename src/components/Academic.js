@@ -2,7 +2,7 @@ import React from 'react';
 
 const Academic = () => {
   return (
-    <div className="Academic">
+    <div className="Academic background-green">
       <h2 className="Academic-title">Academic</h2>
       <ul className="global-ul Academic-ul">
         <li className="Academic-item">

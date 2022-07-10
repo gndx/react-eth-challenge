@@ -2,7 +2,7 @@ import React from 'react';
 
 const Languages = () => {
   return (
-    <div className="Languages">
+    <div className="Languages background-green">
       <h2 className="Languages-title">Languages</h2>
       <ul className="global-ul">
         <li className="Languages-item">

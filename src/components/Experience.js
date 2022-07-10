@@ -2,8 +2,8 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <div className="Experience">
-      <h2 className="Experience-title">EXPERIENCE</h2>
+    <div className="Experience background-green">
+      <h2 className="Experience-title">Experience</h2>
       <div className="Experience-item">
         <ul className="global-ul">
           <li>

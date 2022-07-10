@@ -2,7 +2,7 @@ import React from 'react';
 
 const Interest = () => {
   return (
-    <div className="Interest">
+    <div className="Interest background-green">
       <h2 className="Interest-title">Intereses</h2>
       <ul className="global-ul">
         <li className="Interest-item">JS</li>
