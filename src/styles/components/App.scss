@@ -1,0 +1,414 @@
+/* Shares */
+
+%header-box-blue-shared {
+  overflow: hidden;
+  background-color: #b6deee;
+  padding: 20px 10px;
+  margin-top: 10px; 
+  margin-left: 5px; 
+  margin-right: 5px; 
+  border-radius: 15px;
+}
+
+%header-box-green-shared {
+  @extend %header-box-blue-shared;
+  background-color: #c9e9cf;
+}
+
+%header-box-red-shared {
+  @extend %header-box-blue-shared;
+  background-color: #ef1325;
+  text-align: center;
+  color: white;
+}
+
+%header-box-green-shared :first-child {
+  align-self: center;
+}
+
+%title-shared {
+  font-size: 30px;
+}
+
+%sub-title-shared {
+  font-size: 20px;
+}
+
+%sub-title-L2-shared {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+%sub-title-L3-shared {
+  font-size: 15px;
+  font-style: italic;
+}
+
+%header-left-shared {
+  float: left;
+  padding: 12px;
+  text-align: left;
+}
+
+%header-center-shared {
+  float: center;
+  padding: 12px;
+}
+
+%header-right-shared {
+  float: right;
+  padding: 12px;
+}
+
+%normal-text-10-online-block-shared {
+  padding-right: 10px;
+  display: inline-block;
+}
+
+%item-general-shared {
+  padding-top: 10px;
+}
+
+%item-inline-block-general-shared {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+%item-separator-shared {
+  content: "●";
+  padding: 0 5px;
+  padding-left: 0px;
+}
+
+%grid-container-2-col-order-col-shared {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-flow: column;
+  gap: 10px 2em;
+  // align-items: start;
+}
+
+/* General */
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container-2-col {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  // align-items: start;
+}
+
+.grid-container-2-col-80-20 {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  gap: 10px 5em;
+}
+
+.grid-container-2-col-order-col {
+  @extend %grid-container-2-col-order-col-shared;
+}
+
+.grid-container-3-col {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-auto-flow: row;
+}
+
+/* Header */
+
+.header, .Header-box {
+  @extend %header-box-blue-shared;
+}
+
+.header a, .Header-image img {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 50%;
+  /* border-radius: 4px; */
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.Header-left {
+  @extend %header-left-shared;
+}
+
+.Header-center{
+  @extend %header-center-shared;
+}
+
+.Header-right {
+  @extend %header-right-shared;
+}
+
+.Header-title {
+  @extend %title-shared;
+  padding: 5px;
+}
+
+.Header-job-title {
+  @extend %sub-title-shared;
+  padding: 5px;
+}
+
+.Header-phone {
+  @extend %normal-text-10-online-block-shared;
+}
+
+.Header-email {
+  @extend %normal-text-10-online-block-shared;
+}
+
+.Header-email:before {
+  @extend %item-separator-shared;
+}
+
+.Header-website {
+  @extend %normal-text-10-online-block-shared;
+}
+
+.Header-website:before {
+  @extend %item-separator-shared;
+}
+
+.Header-address {
+  padding: 5px;
+}
+
+/* About */
+
+.About-box {
+  @extend %header-box-blue-shared;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+
+.About-certificates {
+  @extend %grid-container-2-col-order-col-shared;
+}
+
+.About-left {
+  @extend %header-left-shared;
+}
+
+.About-right {
+  @extend %header-right-shared;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.About-title {
+  @extend %sub-title-shared;
+  margin-bottom: 5px;
+}
+
+.About-title-2 {
+  @extend %sub-title-shared;
+  margin-bottom: 5px;
+}
+
+.About-item-name {
+  @extend %sub-title-L2-shared;
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+
+.About-item-institution {
+  @extend %sub-title-L3-shared;
+}
+
+/* Academic */
+
+.Academic-box {
+  @extend %header-box-green-shared;
+}
+
+.Academic-title {
+  @extend %title-shared;
+}
+
+.Academic-item {
+  @extend %item-general-shared;
+}
+
+.Academic-item-degree {
+  @extend %sub-title-L2-shared;
+  padding-top: 5px
+}
+
+.Academic-item-institution {
+  @extend %sub-title-L3-shared;
+}
+
+.Academic-item-start-date, .Academic-item-end-date {
+  @extend %normal-text-10-online-block-shared;
+}
+
+.Academic-item-end-date:before {
+  @extend %item-separator-shared;
+}
+
+/* Experience */
+
+.Experience-box {
+  @extend %header-box-green-shared;
+}
+
+.Experience-title {
+  @extend %title-shared;
+}
+
+.Experience-item {
+  @extend %item-general-shared;
+  padding-right: 10px;
+}
+
+.Experience-item-job-title {
+  @extend %sub-title-L2-shared;
+  padding-top: 5px
+}
+
+.Experience-item-company {
+  @extend %sub-title-L3-shared;
+}
+
+.Experience-item-start-date, .Experience-item-end-date {
+  @extend %normal-text-10-online-block-shared;
+}
+
+.Experience-item-end-date:before {
+  @extend %item-separator-shared;
+}
+
+/* Interest */
+
+.Interest-box {
+  @extend %header-box-green-shared;
+}
+
+.Interest-title {
+  @extend %title-shared;
+}
+
+.Interest-item {
+  @extend %item-general-shared;
+  text-transform: capitalize;
+}
+
+/* Languages */
+
+.Languages-box {
+  @extend %header-box-green-shared;
+}
+
+.Languages-title {
+  @extend %title-shared;
+}
+
+.Languages-item {
+  @extend %item-general-shared;
+}
+
+.Languages-item-name, .Languages-item-percentage {
+  @extend %item-inline-block-general-shared;
+}
+
+/* Profile */
+
+.Profile-box {
+  @extend %header-box-green-shared;
+}
+
+.Profile-title {
+  @extend %title-shared;
+}
+
+/* Skills */
+
+.Skills-box {
+  @extend %header-box-green-shared;
+}
+
+.Skills-title {
+  @extend %title-shared;
+}
+
+.Skills-item {
+  @extend %item-general-shared;
+}
+
+.Skills-item-name, .Skills-item-percentage {
+  @extend %item-inline-block-general-shared;
+}
+
+/* Error */
+
+.Error-box {
+  @extend %header-box-red-shared;
+}
+
+.Error-title {
+  @extend %title-shared;
+}
+
+.Error-message {
+  @extend %item-general-shared;
+}
+
+.Error-detail {
+  @extend %item-inline-block-general-shared;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .About-certificates {
+    display: block;
+    // display: none;
+  }
+
+  .About-left {
+    float: none;
+    // display: none;
+  }
+
+  .About-right {
+    float: none;
+    // display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .header a, .Header-image {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right, .Header-right {
+    float: none;
+  }
+}
+

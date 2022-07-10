@@ -1,71 +1,149 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Carlos J. Ramirez",
+    "profession": "Fulstack Software Developer",
+    "address": "Medellín, Colombia",
+    "email": "carlos.ramirez.divo@gmail.com",
+    "website": "https://www.carlosjramirez.com",
+    "phone": "3205645989",
+    "avatar": "https://www.carlosjramirez.com/wp-content/uploads/2022/07/IMG_1341-Profile-150x150.jpg",
+    "Profile": "Expertise areas: Software Development (PHP, Python/Flask, ReactJs, Javascript, JQuery, MySQL, Oracle Database, MongoDb, PL/SQL), AWS and Oracle Cloud Infrastructure and PaaS / IaaS management, Data Migration, QA, Banking Production Deployment Process & Production support, on-call, remote & on-site Customer Support, Web Services integration interfaces, WordPress expert, Technical Writing. Leadership, Tech Consultancy, Software Development teacher, Business Development.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "name": "Python - Advanced",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Jul 2022",
+        "description": "Python programming language - Advanced level"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "name": "Python - Intermediate",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Jun 2022",
+        "description": "Python programming language - Intermediate level"
+      },
+      {
+        "name": "Python - Basic",
+        "institution": "Platzi",
+        "date": "Jun 2022",
+        "description": "Python programming language - Basic level"
+      },
+      {
+        "name": "Ethereum for Developers",
+        "institution": "Platzi",
+        "date": "Jul 2022",
+        "description": "Ethereum, blochchain and cryptocurrencies"
+      },
+      {
+        "name": "Terraform",
+        "institution": "Platzi",
+        "date": "Nov 2021",
+        "description": "Infrastructure as a Code with Terraform"
+      },
+      {
+        "name": "Introduction to IT and Cybersecurity",
+        "institution": "Cybrary",
+        "date": "2021",
+        "description": "Cybrary - Introduction to IT and Cybersecurity"
+      },
+      {
+        "name": "Wordpress on AWS",
+        "institution": "Udemi",
+        "date": "2020",
+        "description": "Build Wordpress on AWS: A complete guide to setup in cloud"
+      },
+      {
+        "name": "Devops - Basic",
+        "institution": "Udemi",
+        "date": "2020",
+        "description": "Devops - Introductions and non-technical basics"
+      },
+      {
+        "name": "Javascript - Basic",
+        "institution": "Platzi",
+        "date": "2019",
+        "description": "Javascript basics, Desarrollo de aplicaciones web"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "institution": "UAH",
+        "degree": "Licenciado en Informática",
+        "description": "Universidad Alejandro de Humboldt. Bachelor's degree, Computer Science (no finalizado), Caracas/Venezuela. https://www.unihumboldt.edu",
+        "startDate": "2001",
+        "endDate": "2003"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "institution": "IESA",
+        "degree": "Programa de Gerencia de PYMES",
+        "description": "Diploma, Business Administration and Management, Caracas/Venezuela. https://www.iesa.edu.ve",
+        "startDate": "1990",
+        "endDate": "1990"
+      },
+      {
+        "institution": "IUNP",
+        "degree": "TSU, Computer Science",
+        "description": "(Instituto Universitario de Nuevas Profesiones), Caracas/Venezuela. https://www.iunp.edu.ve",
+        "startDate": "1984",
+        "endDate": "1987"
+      },
+      {
+        "institution": "Colegio Champagnat",
+        "degree": "Bachiller en Ciencias",
+        "description": "High School/Secondary Diplomas and Certificates, Caracas/Venezuela. https://www.colegiochampagnatccs.com",
+        "startDate": "1973",
+        "endDate": "1984"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Source Meridian",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "software development and analyst on lead metrics apps, ETL and medical terminology apps.",
+        "jobTitle": "Senior Software Development Engineer",
+        "startDate": "Mar 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "ALeNet, Inc.",
+        "endDate": "Feb 2019",
+        "jobDescription": "Master Programmer of company's main products: Clientix Bank Conciliation, ETL, Trust Administration and Loans Management, CRM and ClientTools Framework, contribute to its development, customer care of clients in Panama and Central America, making possible the company and its products' successful consolidation.",
+        "jobTitle": "VP of Technology",
+        "startDate": "Oct 2017"
+      },
+      {
+        "company": "ALeNet, Inc.",
+        "endDate": "Sep 2017",
+        "jobDescription": "Project Management of company's main products: Clientix Trust and CRM, contribute to its development, customer care of clients in Panama and Central America, achieving company and its products' successfully region consolidation.",
+        "jobTitle": "Software Engineer",
+        "startDate": "Jul 2010"
+      },
+      {
+        "company": "Mediabros",
+        "endDate": "Mar 2019",
+        "jobDescription": "Company startup duties in Panama, manage the legal and tax affairs, registry and operations with social security, municipality and other government instances; relationships with banks, and consolidate company's presence in local market.",
+        "jobTitle": "e-Commerce and Digital Media specialist",
+        "startDate": "Nov 2009"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "60%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80%"
+      },
+      {
+        "name": "Python",
+        "percentage": "80%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "90%"
       },
       {
         "name": "React",
@@ -73,37 +151,43 @@
       }
     ],
     "interest": [
+      "python",
+      "reactJS",
+      "PHP",
       "javascript",
-      "develop",
+      "AWS",
+      "DynamoDB",
+      "mongoDB",
       "backend",
-      "frontend"
+      "frontend",
+      "Software Development"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "80%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "instagram",
+        "url": "https://instagram.com/tomkat_cr"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/tomkat_cr"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/tomkat-cr"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/carlosjramirez/"
       }
     ]
   }
