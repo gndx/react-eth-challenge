@@ -1,109 +1,139 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Jhoer Perez",
+    "profession": "FullStack-Backend Developer",
+    "address": "Sogamoso, Colombia.",
+    "email": "jhoer.perez@gmail.com",
+    "website": "https://jho3r.com/",
+    "phone": "3227965591",
+    "avatar": "https://jho3r.com/7077d6c74a6b7824d65b.png",
+    "profile": "Full-Stack Developer with +2 years of experience developing web applications using JavaScript, React, Nodejs, Python, and Flask. Aiming to build better products I've both developed several applications from scratch and given support to others always seeking to reduce bugs and improve the quality of the code. I'm a lot into web and mobile development, and I'm constantly learning new technologies currently blockchain.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jun 2022",
+        "description": "Backend development with nodejs, it gives all the basics and a set of good practices and projects structure to begin develop your APIs",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "API REST with Express.js"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Jun 2022",
+        "description": "Hands on labs for React, you will have to build the structure for an ecommerce website",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "React Practical Course"
+      },
+      {
+        "date": "May 2022",
+        "description": "Here are the basics, tokens, blockchain, languages, consensous algorithms, and the promising Ethreum 2.0",
+        "institution": "Platzi",
+        "name": "Ethereum for Developers"
+      },
+      {
+        "date": "Apr 2022",
+        "description": "A full course of the fundamentals of Android, one thing is to make an application and another to really understand the operating system to make better applications",
+        "institution": "Platzi",
+        "name": "Android Technical Bases"
+      },
+      {
+        "date": "Jan 2022",
+        "description": "You will have to build a lot of projects and get a full view of the entire software lifecycle, front, back, databases, frameworks, deployment even blockchain",
+        "institution": "Udemy",
+        "name": "Web Development Bootcamp"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Electrical, Electronic and Communications Engineering",
+        "description": "Electronics has a lot of fields of action, from software architecturem, software development, electrical machines all the way to communication systems and control alghoritms, It's a really interesting area with a lot of opportunities",
+        "endDate": "Feb 2023",
+        "institution": "Universidad Pedagógica y Tecnológica de Colombia",
+        "startDate": "Feb 2016"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "MiisonTic 2022. Academic knowledge and programming abilities with emphasis in mobile applications development",
+        "description": "MisionTic a program developed by the Colombian government, to teach 100.000 people in programming abilites, that includes Python, Java, Web Development (Javascript and Flask), Mobile Development with Flutter",
+        "endDate": "Dec 2021",
+        "institution": "Universidad del Norte",
+        "startDate": "Apr 2021"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "BPSmart",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Backend applications development using programming languages like javascript-nodejs, python-flask, and databases like redis, firestore and bigquery. Use of tools like docker, travis and github for deployment and Google cloud for monitoring",
+        "jobTitle": "Software Developer",
+        "startDate": "Dec 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Universidad Pedagógica y Tecnológica de Colombia",
+        "endDate": "Mar 2022",
+        "jobDescription": "Java and C++ teaching for desktop and command line applications, Classes for introducing Android development with Java",
+        "jobTitle": "Software and Electronics Teaching Assistant",
+        "startDate": "Nov 2020"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "Javascript - Nodejs",
+        "percentage": "70%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "Python",
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "50%"
+      },
+      {
+        "name": "Java",
+        "percentage": "40%"
+      },
+      {
+        "name": "Go",
+        "percentage": "15%"
+      },
+      {
+        "name": "Scrum",
+        "percentage": "50%"
+      },
+      {
+        "name": "Git and Github",
+        "percentage": "80%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Nodejs",
+      "Python",
+      "Backend",
+      "FullStack"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/jho3r"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/jho3r"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/jho3r"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/jho3r/"
       }
     ]
   }

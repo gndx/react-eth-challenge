@@ -8,20 +8,53 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import Certificates from '../components/Certificates';
+import useGetProducts from '../hooks/useGetData';
+
+const API = "https://fathomless-hamlet-35589.herokuapp.com/api/v1/data"
 
 const App = () => {
+
+  const data = useGetProducts(API);
+
   return (
-    <>
-      <Header>
-        <About />
+    <div className='Main-content'>
+      <Header
+        name = {data.name}
+        profession = {data.profession}
+        avatar = {data.avatar}
+      >
+        <About
+          items = {data.social}
+          phone = {data.phone}
+          email = {data.email}
+          website = {data.website}
+          adress = {data.address}
+        />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
+      <Profile 
+        desc = {data.profile}
+      />
+      <Experience
+        items = {data.experience}
+      />
+      <Academic
+        items = {data.academic}
+      />
+      <Certificates
+        items = {data.certificate}
+      />
+
+      <Skills
+        items = {data.skills}
+      />
+      <Interest
+        items = {data.interest}
+      />
+      <Languages
+        items = {data.languages}
+      />
+    </div>
   )
 };
 

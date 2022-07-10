@@ -1,0 +1,16 @@
+@import '_vars'
+
+.About
+    display: grid
+    grid-template-columns: 1fr 1fr
+
+.About-items
+    display: flex
+    gap: 20px
+
+    i
+        font-size: icons-size
+
+@media (max-width : max-width-1)
+  .About
+     grid-template-columns: 1fr
