@@ -4,6 +4,7 @@
   "description": "React Eth Challenge",
   "main": "index.js",
   "scripts": {
+    "vercel-build": "npm run build",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "server": "json-server data.json",
@@ -15,7 +16,7 @@
     "react",
     "webpack"
   ],
-  "author": "Oscar Barajas <oscar@platzi.com>",
+  "author": "Oriana Morillo",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "7.18.6",

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import getData from '../utils/getData';
 
-const API = ' https://oriana-cv-oriplus.vercel.app/data';
+const API = 'https://raw.githubusercontent.com/Oriplus/react-eth-challenge/main/data.json';
 
 /**
  * Get data from API for context
@@ -14,7 +14,7 @@ function useInitialData() {
   useEffect(() => {
     getData(API).then((res) => {
       setAppLoading(false);
-      setAppData(res);
+      setAppData(res.data);
     });
   }, [setAppLoading]);
   return [appData, appLoading];

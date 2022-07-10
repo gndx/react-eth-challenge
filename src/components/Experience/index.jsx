@@ -19,7 +19,7 @@ const Experience = () => {
     <section className='experience'>
       <h2 className='Experience-title'>Experience</h2>
       {initalContent.map((item) => (
-        <div key={item.name} className='Experience-item'>
+        <div key={item.id} className='Experience-item'>
           <Content data={data.experience && experience(item)} />
         </div>
       ))}

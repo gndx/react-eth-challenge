@@ -10,7 +10,7 @@ const Interest = () => {
     <section className='interest'>
       <h2 className='Interest-title'>Interest</h2>
       {initalContent.map((item) => (
-        <div key={item.name} className='Interest-item'>
+        <div key={item} className='Interest-item'>
           {data.interest && item}
         </div>
       ))}

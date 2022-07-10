@@ -18,7 +18,7 @@ const Academic = () => {
     <section className='academic'>
       <h2 className='Academic-title'>Academic Information</h2>
       {initalContent.map((item) => (
-        <div key={item.name} className='Academic-item'>
+        <div key={item.id} className='Academic-item'>
           <Content data={data.Academic && academic(item)} />
         </div>
       ))}
