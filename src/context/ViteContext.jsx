@@ -54,7 +54,7 @@ export function ViteProvider({ children, url }) {
           website,
           phone,
           avatar,
-          Profile,
+          profile,
         });
         setUser(data);
       } catch (e) {

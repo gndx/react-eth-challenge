@@ -7,7 +7,7 @@
     "website": "https://wolftrax5.vercel.app/",
     "phone": "+52 4491896806",
     "avatar": "https://avatars.githubusercontent.com/wolftrax5",
-    "Profile": "Hola,mi nombre es Alejandro Medina de 🇲🇽 llevo algo de tiempo dessarrollando en JS como front-end pero no tengo miedo de ver nuevas tecnologias o aprender nuevas cosas.",
+    "profile": "Hola,mi nombre es Alejandro Medina de 🇲🇽 llevo algo de tiempo dessarrollando en JS como front-end pero no tengo miedo de ver nuevas tecnologias o aprender nuevas cosas.",
     "certificate": [
       {
         "date": "Ago 2021",
@@ -28,7 +28,7 @@
         "name": "Curso de Introducción a Educación Financiera"
       }
     ],
-    "Academic": [
+    "academic": [
       {
         "degree": "Ing.ICI",
         "description": " Formar Ingenieros en Computación Inteligente, con conocimientos sólidos de los fundamentos matemáticos y teóricos de las Ciencias de la Computación, de Inteligencia Artificial e Industria de Software",

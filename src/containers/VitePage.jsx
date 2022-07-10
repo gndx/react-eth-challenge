@@ -16,9 +16,9 @@ export function VitePage() {
       <Header className="item-0">
         <About />
       </Header>
-      <Profile className="item-1" userProfile={user?.Profile} />
+      <Profile className="item-1" userProfile={user?.profile} />
       <Experience className="item-2" expList={user?.experience} />
-      <Academic className="item-3" academicList={user?.Academic} />
+      <Academic className="item-3" academicList={user?.academic} />
       <Interest className="item-4" interestsList={user?.interest} />
       <Languages className="item-5" languagesList={user?.languages} />
       <Skills className="item-6" skillLilst={user?.skillLilst} />
