@@ -1,20 +1,20 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import Skills from '../../components/Skills';
+import { shallow } from 'enzyme';
+import { Skills } from '../../components/Skills';
+import { PercentageBar } from '../../components/PercentageBar';
 
 describe('<Skills />', () => {
-  const skills = mount(<Skills />);
+  const skills = shallow(<Skills />);
 
   test('Skills render', () => {
     expect(skills.length).toEqual(1);
   });
 
   test('Skills title', () => {
-    expect(skills.find('.Skills-title').length).toEqual(1);
+    expect(skills.dive('.Skills-title').length).toEqual(1);
   });
 
   test('Skills has 3 items', () => {
-    expect(skills.find('.Skills-item').length).toBeGreaterThan(2);
+    expect(skills.find(PercentageBar).length).toBeGreaterThan(2);
   });
-
 });
