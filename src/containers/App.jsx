@@ -15,8 +15,9 @@ const App = () => {
 
   const getResumeData = async () => {
     try {
-      const resumeData = await getData('http://localhost:3000/data');
-      setResume(resumeData);
+      const url = 'https://raw.githubusercontent.com/fernandospr/react-eth-challenge/main/data.json';
+      const resumeData = await getData(url);
+      setResume(resumeData.data);
     } catch (error) {
       console.log(error);
       setResume(undefined);
