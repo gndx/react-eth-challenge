@@ -14,9 +14,10 @@ import getData from '../utils/getData';
 
 function App() {
   const [profile, setProfile] = useState({});
+  const API = 'https://my-json-server.typicode.com/cacosted/cv-data/data';
 
   useEffect(() => {
-    getData().then((result) => setProfile(result));
+    getData(API).then((result) => setProfile(result));
   }, []);
 
   return (

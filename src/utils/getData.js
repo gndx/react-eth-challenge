@@ -1,7 +1,5 @@
-const API = 'https://my-json-server.typicode.com/cacosted/cv-data/data';
-
-function getData() {
-  return fetch(API)
+function getData(url) {
+  return fetch(url)
     .then((response) => response.json())
     .then((data) => data);
 }

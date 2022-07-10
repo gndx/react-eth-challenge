@@ -1,12 +1,18 @@
 import React from 'react';
+import '../styles/components/Interest.styl';
 
-function Interest() {
+function Interest({ interests }) {
   return (
     <section className='Interest'>
-      <h1 className='Interest-title'>Interest title</h1>
-      <p className='Interest-item'>text</p>
-      <p className='Interest-item'>text</p>
-      <p className='Interest-item'>text</p>
+      <h1 className='Interest-title General-title'>Interests</h1>
+      <ul className='Interest-list'>
+        {interests &&
+          interests.map((item) => (
+            <li key={item} className='Interest-item'>
+              <span>{item}</span>
+            </li>
+          ))}
+      </ul>
     </section>
   );
 }
