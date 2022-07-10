@@ -1,22 +1,24 @@
 {
   "data": {
     "name": "Oriana Morillo",
-    "profession": "Backend Developer.",
+    "profession": "Web Developer.",
     "address": "Caracas, Venezuela.",
     "email": "ocarolinamv@gmail.com",
     "website": "",
     "phone": "",
     "avatar": "https://avatars.githubusercontent.com/u/42686893?v=4",
-    "Profile": "I like learning new technologies. Blockchain enthusiast. Currently I'm working with PHP and learning Solidity ",
+    "Profile": "Systems Engineer working as a web developer-oriented in the backend, providing web apps solutions since five years ago. Currently I'm working with PHP, JavaScript, and learning Solidity. Also I like learning new technologies. Blockchain enthusiast. ",
     "certificate": [],
     "Academic": [
       {
+        "id": "1",
         "degree": "Ethereum Developer Program",
         "endDate": "Present",
         "institution": "Platzi",
         "startDate": "Junio 2022"
       },
       {
+        "id": "2",
         "degree": "Systems Engineer",
         "endDate": "Jul 2017",
         "institution": "UNEXPO University",
@@ -25,6 +27,7 @@
     ],
     "experience": [
       {
+        "id": "1",
         "company": "Tradercomusa",
         "endDate": "Present",
         "jobDescription": "Development and maintenance of web applications and APIs. Using PHP, MariaDB and JavaScript",
@@ -32,6 +35,7 @@
         "startDate": "Abr 2020"
       },
       {
+        "id": "2",
         "company": "Compralotodo",
         "endDate": "Abr 2020",
         "jobDescription": "Development and maintenance of web applications. Data Base management. Using PHP, Laravel, Vue and MySQL",
@@ -39,6 +43,7 @@
         "startDate": "Feb 2018"
       },
       {
+        "id": "3",
         "company": "BBVA Provincial",
         "endDate": "Feb 2018",
         "jobDescription": "Analysis, design, development, and management of applications web for the company's intranet. Using ASP.NET and MS SQL Server",
