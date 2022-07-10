@@ -3,10 +3,14 @@
 .Skills
   @extends .SplitContainer
   grid-column 2/3
-  grid-row 4/5
+  //grid-row 4/5
   border-top-color #fea300
   .Skills-title
     text-align center
   .Skills-item
     text-align center
     margin-bottom 1rem
+
+@media screen and (max-width: 1000px)
+  .Skills
+    grid-column 1/3
