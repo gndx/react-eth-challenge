@@ -19,7 +19,7 @@
     "expect": true,
     "sinon": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "plugins": [
     "react",
     "jsx-a11y",
@@ -79,7 +79,7 @@
     ],
     "indent": [
       2,
-      2,
+      4,
       {
         "SwitchCase": 1
       }
@@ -258,9 +258,13 @@
       2,
       "never"
     ],
+    "react/jsx-indent": [
+      2,
+      4
+    ],
     "react/jsx-indent-props": [
       2,
-      2
+      4
     ],
     "react/jsx-no-bind": [
       2,
