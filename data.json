@@ -1,110 +1,71 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
+    "name": "Fernando Luis Sproviero",
+    "profession": "Software Engineer",
+    "address": "Buenos Aires, Argentina 🇦🇷",
+    "email": "fernandospr@gmail.com",
+    "website": "https://github.com/fernandospr",
+    "phone": "",
+    "avatar": "https://avatars.githubusercontent.com/u/4404680",
+    "Profile": "Experienced Software Engineer, passionate about architecture, design patterns and unit testing.",
+    "certificate": [],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Software Engineer",
+        "description": "",
+        "endDate": "May 2011",
+        "institution": "Universidad de Buenos Aires",
+        "startDate": "Jan 2003"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Rappi Bank",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Leading teams working on features to enable users request and manage Rappi Pay Debit and Credit Cards, Virtual Wallet, Onboarding and KYC.",
+        "jobTitle": "Android Tech Lead",
+        "startDate": "Jun 2019"
       },
       {
-        "company": "CatStore",
+        "company": "Raywenderlich.com",
+        "endDate": "Present",
+        "jobDescription": "I write Kotlin & Android tutorials for RayWenderlich.com. Author of the Android Test-Driven Development by Tutorials Book.",
+        "jobTitle": "Author and Technical Editor",
+        "startDate": "Jan 2018"
+      },
+      {
+        "company": "Garbarino",
         "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "jobDescription": "Developed and led a team for the native Android and iOS Retail Apps and an In-store Kiosk Android Retail App.",
+        "jobTitle": "Mobile Software Developer",
+        "startDate": "Sept 2015"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "Kotlin",
+        "percentage": ""
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Swift",
+        "percentage": ""
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Bitcoin",
+      "Blockchain",
+      "Android/iOS Development"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Spanish 🇪🇸",
+        "percentage": "100%"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "English 🇺🇸",
+        "percentage": "65%"
       }
     ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+    "social": []
   }
 }
