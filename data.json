@@ -1,57 +1,43 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Salvador German",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Guadalajara, México.",
+    "email": "salvadorgermanbecerra@gmail.com",
+    "website": "https://salvadorgerman.com",
+    "phone": "3861207715",
+    "avatar": "https://avatars.githubusercontent.com/Macailh",
+    "Profile": "Hello, my name is Salvador German and I am 22 years old and study IT in UdG, I live in Guadalajara, México.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jan 2022",
+        "description": "Developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times.",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Jan 2022",
+        "description": "Creates components and features on the server-side, indirectly accessed by a user through a front end application or system.",
         "institution": "Platzi",
         "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Information technology engineering",
+        "description": "They efficiently manage information, producing and transforming the necessary knowledge to analyze, design, evaluate and implement Information Technology solutions according to the needs of individuals and organizations in a globalized environment.",
+        "endDate": "Jan 2022",
+        "institution": "UdG",
+        "startDate": "Aug 2018"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Freelance",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "jobDescription": "Builds, adjusts, and/or maintains it. Web developers may work for small companies, large corporations, or as freelancers, using technical and creative skills to create functional websites.",
+        "jobTitle": "Web developer",
         "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
       }
     ],
     "skills": [
@@ -61,22 +47,33 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
+        "percentage": "25%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "25%"
+      },
+      {
+        "name": "Java",
         "percentage": "55%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "10%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Blockchain",
+      "Solidity",
+      "Rust",
+      "Develop",
+      "Backend",
+      "Frontend"
     ],
     "languages": [
       {
@@ -90,20 +87,16 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Twitter",
+        "url": "https://twitter.com/Macailh"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "Github",
+        "url": "https://github.com/Macailh"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/salvador-german/"
       }
     ]
   }
