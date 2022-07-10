@@ -12,6 +12,9 @@ function Skills({ skills }) {
             <SkillsItem skill={skill} />
           </article>
         ))}
+      <i className='Skills-item'></i>
+      <i className='Skills-item'></i>
+      <i className='Skills-item'></i>
     </section>
   );
 }

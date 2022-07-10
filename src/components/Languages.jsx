@@ -25,14 +25,16 @@ function Languages({ languages }) {
         {languages &&
           languages.map(({ name, percentage }) => (
             <li className='Languages-item'>
-              {name}
-              {' - '}
+              {`${name} - `}
               <span className='Languages-badge'>
                 {getEnglishLevel(percentage)}
               </span>
             </li>
           ))}
       </ul>
+      <i className='Languages-item'></i>
+      <i className='Languages-item'></i>
+      <i className='Languages-item'></i>
     </section>
   );
 }

@@ -13,6 +13,9 @@ function Interest({ interests }) {
             </li>
           ))}
       </ul>
+      <i className='Interest-item'></i>
+      <i className='Interest-item'></i>
+      <i className='Interest-item'></i>
     </section>
   );
 }

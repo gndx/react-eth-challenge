@@ -16,6 +16,9 @@ function Experience({ experiences }) {
             ))}
         </div>
       </div>
+      <i className='Experience-item'></i>
+      <i className='Experience-item'></i>
+      <i className='Experience-item'></i>
     </section>
   );
 }

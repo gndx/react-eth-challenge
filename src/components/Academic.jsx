@@ -12,6 +12,9 @@ function Academic({ academics }) {
             <AcademicItem academic={academic} />
           </article>
         ))}
+      <i className='Academic-item'></i>
+      <i className='Academic-item'></i>
+      <i className='Academic-item'></i>
     </section>
   );
 }
