@@ -6,7 +6,7 @@
     "email": "andresdavid220@gmail.com",
     "website": "andiazo.github.io",
     "phone": "3013461814",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "avatar": "https://avatars.githubusercontent.com/u/36974713?v=4",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
@@ -57,19 +57,19 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "75"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "25"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "55"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "90"
       }
     ],
     "interest": [
@@ -81,11 +81,11 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "100%"
+        "percentage": "100"
       },
       {
         "name": "English",
-        "percentage": "60%"
+        "percentage": "60"
       }
     ],
     "social": [
