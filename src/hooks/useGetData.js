@@ -7,7 +7,8 @@ const useGetProducts = (API) => {
   useEffect(() => {
     (async () => {
         const response = await getData(API);
-        setData(response);
+        const data = response.data;
+        setData(data);
     })();
   }, []);
 
