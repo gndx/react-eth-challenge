@@ -8,7 +8,7 @@ const Interest = ({ interest }) => {
   return (
     <div className='Interest'>
       <h2 className='Interest-title subtitle'>Interest</h2>
-      <div className='Interest-all'>
+      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
         {interests.map((item) => <div className='Interest-item badge' key={item}>{item}</div>)}
       </div>
     </div>
