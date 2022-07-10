@@ -2,12 +2,12 @@
 
 Solución al reto:
 
-Nombre:
-Usuario Platzi:
+Nombre: Renny Petit
+Usuario rennypetit:
 
 ## Reto:
 
-- [ ] Primer problema
+- [x] Primer problema
 - [ ] Segundo problema
 - [ ] Tercer problema
 - [ ] Cuarto Problema
