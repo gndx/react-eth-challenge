@@ -7,7 +7,7 @@ describe('<About />', () => {
   const { phone } = DataStub;
   const { address } = DataStub;
   const { email } = DataStub;
-  const { webiste } = DataStub;
+  const { website } = DataStub;
   const { profession } = DataStub;
   const about = shallow(
     <About
