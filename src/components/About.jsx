@@ -11,7 +11,7 @@ function About({ data }) {
         <div className='About-box'>
             <div className='About-left'>
                 <div className='About-title'>Certificaciones</div>
-                <div className='About-`certificates`'>
+                <div className='About-certificates'>
                     {certificate.map((item) => (
                         <div key={++keyCounter} className='About-item'>
                             <div className='About-item-name'>{item.name}</div>
