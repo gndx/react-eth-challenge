@@ -2,7 +2,11 @@ import React, { useContext } from 'react';
 import { Context } from '../containers/App';
 
 const Header = (props) => {
+
+    // Data from API
     const data = useContext(Context);
+
+    // Easier to read
     const {
         profession,
         address,

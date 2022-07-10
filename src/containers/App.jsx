@@ -10,11 +10,15 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import getData from '../utils/getData'
 
+
+// El contexto nos permitira no tener ese pocoton
+// de props heredadas
 export const Context = createContext({});
 
 const App = () => {
   const [myData, setMyData] = useState({});
 
+  // Gets the data from api on App mount
   useEffect(() => {
     getData("http://localhost:3000/data")
       .then(rs => setMyData(rs));
@@ -22,16 +26,17 @@ const App = () => {
 
   return (
     <Context.Provider value={myData}>
-      {JSON.stringify(myData)}
       <Header>
         <About />
       </Header>
       <Profile />
       <Experience />
+      {/* grid-section nos permite dividir esas secciones al 50% */}
       <div className="grid-section">
         <Academic />
         <Skills />
       </div>
+      {/* grid-section nos permite dividir esas secciones al 50% */}
       <div className="grid-section">
         <Interest />
         <Languages />

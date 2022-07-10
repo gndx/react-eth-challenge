@@ -3,8 +3,12 @@ import { Context } from '../containers/App';
 
 const Languages = () => {
 
+    // Data from API
     const data = useContext(Context);
 
+    // Componente para reutilizar los items
+    // Como no lo usaremos en otro lado lo metemos dentro
+    // del componente principal
     const Language = ({percentage, color, language}) => {
         return (
             <li className="Languages-item">
@@ -22,7 +26,7 @@ const Languages = () => {
                 Languages
             </h3>
             <ul className='Languages-list'>
-                {
+                {   // Si ya la api trajo la info muestrala
                     data.languages !== undefined ? 
                         data.languages.map((lang, i) => <Language key={`${i}--lang`} {...lang}/>) 
                         : null

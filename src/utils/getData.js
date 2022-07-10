@@ -1,3 +1,5 @@
+// Funcion que trae la data de un endpoint mediante un fetch
+// TODO -> Seguridad xD
 const getData = (url) => {
     return fetch(url)
            .then(rs => rs.json())

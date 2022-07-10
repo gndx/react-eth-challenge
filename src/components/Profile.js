@@ -2,7 +2,10 @@ import React, { useContext } from 'react';
 import { Context } from '../containers/App';
 
 const Profile = () => {
+
+    // Data from API
     const data = useContext(Context);
+
     return (
         <section>
             <h3 className="Profile-title">
