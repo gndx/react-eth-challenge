@@ -1,10 +1,10 @@
 {
   "data": {
-    "name": "Alberto Beltrán",
+    "name": "Alberto Beltran",
     "profession": "FullStack Developer",
-    "address": "México",
+    "address": "Queretaro, Mexico",
     "email": "albertobeltran@protonmail.com",
-    "website": "",
+    "website": "github.com/albbeltran",
     "phone": "",
     "avatar": "https://cdn.substack.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https:%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F80ae9471-7d89-4b5d-acb6-8cebee1194f5_631x631.png",
     "Profile": "Full-Stack & Web3 Developer | Blockchain & Crypto Evangelist | JavaScript, Node.js, MongoDB, Express, React, Solidity | Software Engineering student",
@@ -27,7 +27,7 @@
         "degree": "Software Engineering",
         "description": "Currently, I am studying a degree in Software Engineering in one of the best universities in Mexico",
         "endDate": "Dec 2025",
-        "institution": "UAQ",
+        "institution": "Autonomous University of Queretaro",
         "startDate": "Aug 2021"
       }
     ],
@@ -66,10 +66,11 @@
       }
     ],
     "interest": [
-      "javascript",
-      "blockchain",
-      "web3",
-      "fullstack"
+      "#javascript",
+      "#blockchain",
+      "#web3",
+      "#fullstack",
+      "#solidity"
     ],
     "languages": [
       {
