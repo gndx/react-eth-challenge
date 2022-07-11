@@ -31,13 +31,13 @@ const Header = (props) => {
 
                 <div>
                     <span className="Header-phone">
-                        📞 <a rel="nofollow" href={`tel+${phone}`}>Call me</a>
+                        📞 <a rel="nofollow" href={`tel:${phone}`}>Call me</a>
                     </span>
                     <span className="Header-email">
-                        📬 <a rel="nofollow" href={`mailto+${email}`}>Mail me</a>
+                        📬 <a rel="nofollow" href={`mailto:${email}`}>Mail me</a>
                     </span>
                     <span className="Header-website">
-                        💻 <a rel="nofollow" target="_blank" href={website}>Check my portfolio</a>
+                        💻 <a rel="follow" target="_blank" href={website}>Check my portfolio</a>
                     </span>
                 </div>
 
