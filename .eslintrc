@@ -19,7 +19,12 @@
     "expect": true,
     "sinon": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "requireConfigFile": false,
+    "sourceType": "module"
+  },
   "plugins": [
     "react",
     "jsx-a11y",
