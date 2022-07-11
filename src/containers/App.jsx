@@ -17,7 +17,9 @@ const App = () => {
   useEffect(() => {
     setLoad(true);
     getData('https://boiling-reef-07418.herokuapp.com/')
-      .then((data) => setData(data))
+      .then((data) => {
+        setData(data.data);
+      })
       .then(() => setLoad(false));
   }, []);
 
