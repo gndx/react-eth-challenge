@@ -9,8 +9,9 @@ describe('<About />', () => {
     address,
     email,
     website,
-    profession
+    profession,
   } = DataStub.data;
+
   const about = shallow(
     <About
       profession={profession}
