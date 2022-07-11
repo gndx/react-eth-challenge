@@ -18,8 +18,8 @@ const App = () => {
   }, []);
 
   const getWorkerData = async () => {
-    const data = await getData('http://localhost:3000/data');
-    setWorker(data);
+    const data = await getData('https://react-eth-uchihacfc.free.beeceptor.com/worker/1');
+    setWorker(data.data);
   };
 
   if (!worker) return null;
