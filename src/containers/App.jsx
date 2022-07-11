@@ -29,18 +29,18 @@ const App = () => {
         </Header>
       </div>
       <div className='row mb-3'>
-        <Profile />
+        <Profile description={cvData.Profile} />
       </div>
       <div className='row mb-3'>
-        <Experience />
+        <Experience experience={cvData.experience} />
       </div>
       <div className='row mb-3 container-columns'>
-        <Academic />
-        <Skills />
+        <Academic academic={cvData.Academic} />
+        <Skills skills={cvData.skills} />
       </div>
       <div className='row mb-3 container-columns'>
-        <Interest />
-        <Languages />
+        <Interest interests={cvData.interest} />
+        <Languages languages={cvData.languages} />
       </div>
     </div>
   )
