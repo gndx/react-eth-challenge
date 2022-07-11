@@ -1,0 +1,5 @@
+header div {
+    display: flex;
+    gap: 1em;
+    background-color: lavenderblush;
+}

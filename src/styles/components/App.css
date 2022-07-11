@@ -1,0 +1,22 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-color: burlywood;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.AcademicContainer {
+    width: 100%;
+}

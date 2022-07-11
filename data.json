@@ -1,25 +1,25 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Miguel Angel Huamán",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Lima, Peru.",
+    "email": "hola@miguelhuaman.com",
+    "website": "https://miguelhuaman.com",
+    "phone": "+51 964858469",
+    "avatar": "https://avatars.githubusercontent.com/u/78570710?s=400&u=aefd6ff7a268818ae3204ac1b637682989dcb482&v=4",
+    "Profile": "Profile.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jul 2021",
+        "description": "Scholarship. The program developed skills in the creation of new ventures and expand your knowledge in digital transformation and programming.",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "May 2021",
+        "description": "Problem Solving Using Computational Thinking",
+        "institution": "University of Michigan",
+        "name": "Programmer"
       }
     ],
     "Academic": [
@@ -40,70 +40,70 @@
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Dígito",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Web developer",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Jul 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Dígito",
+        "endDate": "Present",
+        "jobDescription": "App developer with Power Apps and Power Automate.",
+        "jobTitle": "No Code Developer",
+        "startDate": "Jan 2022"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "Markdown",
+        "percentage": "100%"
+      },
+      {
+        "name": "JSON",
+        "percentage": "100%"
+      },
+      {
+        "name": "YAML",
+        "percentage": "100%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "percentage": "1%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Philosophy",
+      "Post-truth",
+      "AI ethics",
+      "Smart Contracts"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Español",
+        "percentage": "51%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "49%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
+        "name": "Facebook",
         "url": "https://facebook.com/"
       },
       {
-        "name": "twitter",
+        "name": "Twitter",
         "url": "https://twitter.com/"
       },
       {
-        "name": "github",
+        "name": "Github",
         "url": "https://github.com/"
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "Linkedin",
+        "url": "https://linkedin.com/"
       }
     ]
   }

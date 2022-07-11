@@ -1,0 +1,32 @@
+header img {
+    border-radius: 200px;
+    height: 12em;
+    width: 12em;
+}
+
+.AboutContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+}
+
+.Social {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.Social li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}

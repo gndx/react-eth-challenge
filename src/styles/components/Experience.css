@@ -1,0 +1,9 @@
+@media(min-width: 720px) {
+    .Experience .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .Experience .Experience-item {
+        width: 50%;
+    }
+}
