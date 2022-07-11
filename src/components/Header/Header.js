@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header(props) {
     return (
-        <header className="Header">
+        <header className="Header d-print-none">
             <h1 className="Header-title">Eimer Castro</h1>
             <h2 className="Header-job-title">job</h2>
             <h3 className="Header-phone">phone</h3>

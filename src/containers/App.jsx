@@ -7,7 +7,7 @@ import Experience from '../components/Experience/Experience';
 import Academic from '../components/Academic/Academic';
 import Skills from '../components/Skills/Skills';
 import Interest from '../components/Interest/Interest';
-import Languages from '../components/Language/Languages';
+import Languages from '../components/Languages/Languages';
 
 const App = () => {
   return (
