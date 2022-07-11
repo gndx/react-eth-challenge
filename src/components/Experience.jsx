@@ -1,6 +1,5 @@
 import React from 'react'
-import styled from 'styled-components';
-import Container from '../styles/Container';
+import Container from '../styles/components/Container';
 
 const Experience = ({ experience }) => {
     return (

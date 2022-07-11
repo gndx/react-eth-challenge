@@ -1,6 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-import Heading from '../styles/Heading';
+import Heading from '../styles/components/Heading';
 import About from './About'
 
 const Header = ({data}) => {
