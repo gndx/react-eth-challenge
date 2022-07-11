@@ -25,7 +25,6 @@ export default function App() {
   return (
 
     <div>
-      {console.log(cvData)}
       {
         cvData && (
           <div>

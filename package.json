@@ -9,7 +9,9 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "react",
@@ -25,6 +27,7 @@
     "bootstrap": "^5.1.3",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
+    "gh-pages": "^4.0.0",
     "html-loader": "3.1.2",
     "html-webpack-plugin": "5.5.0",
     "jest-fetch-mock": "3.0.3",
@@ -75,5 +78,5 @@
   "bugs": {
     "url": "https://github.com/santi1234567/react-eth-challenge/issues"
   },
-  "homepage": "https://github.com/santi1234567/react-eth-challenge#readme"
+  "homepage": "https://santi1234567.github.io/react-eth-challenge"
 }
