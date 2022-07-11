@@ -13,7 +13,7 @@ const Experience = () => {
           Crypto Trader / Dicember 2021 - Present
         </li>
         <li className="Experience-item">
-          Project Director - Esport Management - Agile Coach / November 2018 -
+          Project Director - Esport Management - Agile Coach / November 2017 -
           Present
         </li>
       </ul>
