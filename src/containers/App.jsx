@@ -15,7 +15,7 @@ const App = () => {
   useEffect(() => {
     const fetchDataPerson = async () => {
       const data = await getData(
-        'https://rennypetit.github.io/react-eth-challenge/data.json'
+        'https://react-eth-challenge-one.vercel.app/data.json'
       );
       setDataPerson(data);
     };
