@@ -1,9 +1,10 @@
 ## DESCRIPTION
 
-Solución al reto:
+Solución al reto: https://github.com/MartinIglesias86/react-eth-challenge
+Deploy: 
 
-Nombre:
-Usuario Platzi:
+Nombre: Martin Iglesias
+Usuario Platzi: martin_codes86
 
 ## Reto:
 
