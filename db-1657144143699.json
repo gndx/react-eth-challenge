@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
+    "name": "Dylan Gavilan",
+    "profession": "Web3 developer",
+    "address": "Buenos Aires, Argentina.",
+    "email": "dylan.gavilan32@gmail.com",
+    "website": "https://dylangavilan.vercel.app",
+    "phone": "1166279679",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,7 +22,7 @@
         "name": "Backend Developer"
       }
     ],
-    "academic": [
+    "Academic": [
       {
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
