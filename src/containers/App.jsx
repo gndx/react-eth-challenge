@@ -12,22 +12,25 @@ import getData from '../utils/getData';
 
 const App = () => {
   const [list, setList] = useState([]);
-  const apiUrl = "http://localhost:3000/data";
+  const apiUrl = 'http://localhost:3000/data';
 
   useEffect(() => {
     let displayed = true;
-    getData(apiUrl).then(cvData => {
+    getData(apiUrl).then((cvData) => {
       if (displayed) {
-        setList(cvData)
+        setList(cvData);
       }
-    })
-    return () => displayed = false;
+    });
+    return () => {
+      displayed = false;
+      return displayed;
+    };
   }, []);
 
   return (
     <>
       <Header fullName={list.name} profileImage={list.avatar}>
-        <About 
+        <About
           email={list.email}
           profession={list.profession}
           address={list.address}
@@ -37,12 +40,12 @@ const App = () => {
       </Header>
       <Profile description={list.Profile} />
       <Experience data={list.experience} />
-      <Academic data={list.Academic } />
+      <Academic data={list.academic} />
       <Skills data={list.skills} />
       <Interest data={list.interest} />
       <Languages data={list.languages} />
     </>
-  )
+  );
 };
 
 export default App;
