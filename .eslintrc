@@ -5,7 +5,9 @@
     "node": true
   },
   "extends": [
-    "airbnb"
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended"
   ],
   "globals": {
     "document": false,
@@ -25,6 +27,12 @@
     "jsx-a11y",
     "import"
   ],
+  "parserOptions": {
+    "requireConfigFile": false,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "rules": {
     "react/jsx-filename-extension": 0,
     "array-bracket-spacing": 2,
@@ -278,8 +286,8 @@
     "react/jsx-pascal-case": 2,
     "react/jsx-sort-prop-types": 0,
     "react/jsx-sort-props": 0,
-    "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
     "react/no-did-mount-set-state": 2,
     "react/no-did-update-set-state": 2,
     "react/no-multi-comp": 0,

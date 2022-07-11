@@ -37,7 +37,7 @@ const App = () => {
       </Header>
       <Profile description={list.Profile} />
       <Experience data={list.experience} />
-      <Academic data={list.Academic} />
+      <Academic data={list.Academic } />
       <Skills data={list.skills} />
       <Interest data={list.interest} />
       <Languages data={list.languages} />
