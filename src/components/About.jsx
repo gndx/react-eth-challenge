@@ -10,12 +10,12 @@ export default function About({ avatar, name, address, email, phone, profession,
       <div>
         <ul>
           <li className="About-item">{name}</li>
+          <li className="About-item">{profession}</li>
           <li className="About-item">{address}</li>
           <li className="About-item">{email}</li>
           <li className="About-item">{phone}</li>
-          <li className="About-item">{profession}</li>
           <li className="About-item">
-            <a href={website}>{website}</a>
+            <a href={website} target='_blank'>Linkedln</a>
           </li>
         </ul>
       </div>
