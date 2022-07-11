@@ -1,2 +1,162 @@
+*
+  font-family 'Rubik', sans-serif
+  box-sizing border-box
+  -moz-box-sizing border-box
+  -webkit-box-sizing border-box
+
 body
-  background-color blue
+  background-color #edf1f2
+  max-width 80%
+  margin 15px auto
+
+neumorphism(radius)
+  border-radius radius
+  background #edf1f2
+  box-shadow 5px 5px 6px #c9cdce, -5px -5px 6px #ffffff
+
+neumorphisminversed(radius)
+  border-radius: radius
+  background: #edf1f2
+  box-shadow: inset 5px 5px 6px #c9cdce, inset -5px -5px 6px #ffffff
+
+.card, section, header
+  neumorphism(10px)
+  padding 10px
+  margin-bottom 30px
+
+
+header
+  display flex
+  justify-content flex-start
+  align-items center
+
+
+.Header-image 
+  flex-grow 1
+  padding-right 50px
+  min-width 200px
+  max-width: 300px
+
+.Header-image img
+  max-width 100%
+  margin 10px
+  padding 20px
+  neumorphism(100%)
+
+.Header-info
+  flex-grow 2
+
+
+.Header-title, .Header-job-title, .About-title, .Profile-title, ul
+  margin 0
+
+.Header-job-title
+  margin-bottom: 1rem
+  color: rgba(0,0,0, 0.8)
+  font-weight: normal
+
+
+.Header-info div 
+  padding: 1rem 0
+
+.Header-info div span
+  neumorphism(5px)
+  font-size: 80%
+  padding 5px
+  margin-right 15px
+  font-weight bold
+  text-decoration none
+
+.Header-info div span a, .Experience-item h3 a
+  font-weight bold
+  text-decoration none
+  color: rgb(73, 110, 233)
+
+.About-title
+  margin-top: .7rem
+  color: rgba(0,0,0, 0.8)
+
+.About-item
+  font-size: 80%
+  color: rgba(0,0,0, 0.8)
+  display: inline-block
+  margin-right: 1rem 
+  margin-top: 8px
+
+.Profile-title, .Experience-title, .Academic-title, .Interest-title, .Skills-title, .Languages-title
+  font-size: 1.8rem
+  text-align: center
+  margin-top: 10px
+  margin-bottom: 20px
+
+.Profile-desc
+  font-size: 1.1rem
+  text-align: center
+  max-width: 500px
+  margin: 0 auto
+  margin-bottom: 10px
+
+.Experience-info
+  display: flex
+  justify-content: space-around
+  justify-content: center
+
+.Experience-item
+  margin 0 10px
+  padding 10px
+  neumorphism(5px)
+  margin-top: 1rem
+  margin-bottom: 2rem
+  flex-grow: 1
+
+.Experience-item h3
+  font-size: 1.5rem
+  text-align: center
+  margin-bottom: 0
+
+.Experience-item small
+  display block
+  text-align: center
+
+.Experience-item p
+  text-align: center
+
+.grid-section
+  display: flex
+  justify-content: space-between
+
+.grid-section .semi-section:first-child
+  margin-right: 15px
+
+.semi-section
+  flex: 1 1 40%
+  padding-bottom: 20px
+
+.Academic-item h3
+  margin-bottom: 0
+
+.Interest-list
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  flex-wrap: wrap
+  max-height: 7rem
+
+.Interest-item
+  margin-bottom: 1rem
+
+
+.Skills-list, .Languages-list
+  list-style: none
+  padding 0 20px
+
+.Skills-item > div, .Languages-item > div
+  display: block
+  width: 100%
+  height: 6px
+  border-radius: 0px
+  background: #edf1f2
+  box-shadow: inset 1px 1px 2px #c9cdce, inset -1px -1px 2px #ffffff
+  
+.Skills-item > div > div, .Languages-item > div > div
+  height: 100%
