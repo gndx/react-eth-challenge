@@ -8,12 +8,11 @@ const AppProvider = (props) => {
     const [data, setData] = React.useState({})
 
     React.useEffect(() => {
-      getData("https://raw.githubusercontent.com/LeanderGS/react-eth-challenge/main/data.json")
-                .then(res => setData(res))
+      getData("https://raw.githubusercontent.com/LeanderGS/react-eth-challenge/main/data.json").then(res => setData(res.data))
     }, [])
 
     return (
-        <AppContext.Provider value={{data}}>
+        <AppContext.Provider value={{ data }}>
              {props.children}
         </AppContext.Provider>
     );

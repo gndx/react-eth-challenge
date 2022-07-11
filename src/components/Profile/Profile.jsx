@@ -1,11 +1,17 @@
 import React from 'react';
-import "./Profile.scss"
+import "./Profile.scss";
+import { AppContext } from "../AppContext";
 
 const Profile = () => {
+
+    const { data } = React.useContext(AppContext);
+    
+    const { Profile } = data;
+
     return (
         <section className="Profile">
             <h2 className='Profile-title'>Profile</h2>
-            <p className="Profile-desc">I am a React front-end developer with a great love for the Web3. I am looking for a position as member of a team in where we can grow together and have a positive impact on people.</p>
+            <p className="Profile-desc">{Profile}</p>
         </section>
     )
 }

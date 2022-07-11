@@ -1,14 +1,20 @@
 import React from 'react';
 import "./Languages.scss";
+import { AppContext } from "../AppContext";
 
 const Languages = () => {
+
+    const { data } = React.useContext(AppContext);
+
+    const { languages } = data;
+
+    console.log(data)
+
     return (
         <section className='Languages'>
             <h2 className='Languages-title'>Languages</h2>
             <ul>
-                <li className='Languages-item'><strong>Spanish:</strong> Native</li>
-                <li className='Languages-item'><strong>English:</strong> A2</li>
-                <li className='Languages-item'><strong>Portuguese:</strong> A2</li>
+                { languages ? languages.map(lan => <li key={lan.name} className='Languages-item'><strong>{lan.name}</strong> {lan.level}</li>) : "" }
             </ul>
         </section>
     );

@@ -9,10 +9,6 @@ const Header = () => {
 
     const { name, profession, phone, email, address, website } = data;
 
-    let values = email ? Object.values(email) : "hola" ;
-
-    console.log(values)
-
     return (
         <section className='Header'>
             <h1 className='Header-title'>{name}</h1>
@@ -20,15 +16,24 @@ const Header = () => {
             <ul>
                 <li>
                     <strong>Phone:</strong>
-                    <a href="{phone.url}" target="_blank" title="Phone"> </a>
+                    <a 
+                        href={phone ? phone.url : ""} 
+                        target="_blank" 
+                        title="Phone"> {phone ? phone.number : ""}</a>
                 </li>
                 <li>
                     <strong>Email:</strong>
-                    <a href="mailto:leandrogavidia1234@gmail.com" target="_blank" title="Email"> Leandrogavidia1234@gmail.com</a>
+                    <a 
+                        href={email ? email.url : ""} 
+                        target="_blank" 
+                        title="Email"> {email ? email.name : ""}</a>
                 </li>
                 <li>
                     <strong>Website:</strong>
-                    <a href="https://github.com/LeanderGS" target="_blank" title="Website"> GitHub profile</a>
+                    <a 
+                        href={website ? website.url : ""} 
+                        target="_blank" 
+                        title="Website"> {website ? website.name : ""}</a>
                 </li>
                 <li><strong>Location:</strong> {address}</li>
             </ul>
