@@ -13,6 +13,9 @@ export default function Experience({ experience = [] }) {
             key={index}
             name={experienceItem.jobTitle}
             description={experienceItem.jobDescription}
+            company={experienceItem.company}
+            startDate={experienceItem.startDate}
+            endDate={experienceItem.endDate}
           />
         ))}
       </div>
