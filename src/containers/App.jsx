@@ -8,21 +8,33 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
-
+import { useInfo } from '../utils/useInfo';
 const App = () => {
+  const {
+    interest,
+    academic,
+    languages,
+    skills,
+    experience,
+    profile,
+    website,
+    phone,
+    profession,
+  } = useInfo('http://localhost:3000/data');
+  console.log(profile);
   return (
     <>
       <Header>
-        <About />
+        <About data={[website, phone, profession]} />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Profile data={profile} />
+      <Experience data={experience} />
+      <Academic data={academic} />
+      <Skills data={skills} />
+      <Interest data={interest} />
+      <Languages data={languages} />
     </>
-  )
+  );
 };
 
 export default App;
