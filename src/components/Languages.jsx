@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '../styles/components/Container';
 
-const Languages = ({ languages }) => {
+const Languages = ({languages = [{}, {}, {}]}) => {
     return (
         <Container>
             <h3 className='title Languages-title'>Languages</h3>

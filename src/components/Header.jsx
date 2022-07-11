@@ -2,7 +2,7 @@ import React from 'react';
 import Heading from '../styles/components/Heading';
 import About from './About';
 
-const Header = ({ data }) => {
+const Header = ({ data = [{}] }) => {
     return (
         <Heading className='container-columns header'>
             <div className='thumb'>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '../styles/components/Container';
 
-const Academic = ({ academic }) => {
+const Academic = ({ academic = [{}, {}, {}] }) => {
     return (
         <Container>
             <h3 className='title Academic-title'>Education</h3>

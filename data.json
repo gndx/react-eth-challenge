@@ -29,6 +29,20 @@
         "endDate": "Dec 2025",
         "institution": "Autonomous University of Queretaro",
         "startDate": "Aug 2021"
+      },
+      {
+        "degree": "Etheruem Developer Program",
+        "description": "I was selected to participate in this intense program over weeks including courses, live classes and expert coaching, with the support of Ethereum Foundation & Road to Devcon.",
+        "endDate": "Sep 2022",
+        "institution": "Platzi",
+        "startDate": "Jun 2022"
+      },
+      {
+        "degree": "Web Development with JavaScript",
+        "description": "I won a scholarship to participate in this Web Development bootcamp given by BEDU and Santander Universities.",
+        "endDate": "May 2022",
+        "institution": "BEDU",
+        "startDate": "Oct 2022"
       }
     ],
     "experience": [
@@ -45,6 +59,13 @@
         "jobDescription": "As a strategy advisor I have been involved in events and workshops for different clients and partners of Mr.Coin.",
         "jobTitle": "Strategy Advisor",
         "startDate": "Apr 2021"
+      },
+      {
+        "company": "Freelance Web Developer",
+        "endDate": "May 2021",
+        "jobDescription": "I worked with clients in Web Development using HTML, CSS, JS and CMS such as WordPress, focusing on E-Commerce using Woocommerce and Elementor.",
+        "jobTitle": "Self Employed",
+        "startDate": "Aug 2021"
       }
     ],
     "skills": [
