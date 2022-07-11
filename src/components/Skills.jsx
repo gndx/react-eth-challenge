@@ -7,11 +7,11 @@ export default function Skills({
   }),
 }) {
   return (
-    <div>
+    <div className='Skills'>
       <h2 className="Skills-title">Skills</h2>
       <ul>
-          {skills.map((item) => (
-            <li className='Skills-item'>{item.name}</li>
+          {skills.map(({ name, percentage }, index) => (
+            <li key={`skill-${index}`} className='Skills-item'>{name}</li>
           ))}
         </ul>
     </div>

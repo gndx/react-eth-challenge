@@ -7,11 +7,11 @@ export default function Languages({
   }),
 }) {
   return (
-    <div>
+    <div className='Language'>
       <h2 className="Languages-title">Languages</h2>
         <ul>
-          {languages.map((item) => (
-            <li className='Languages-item'>{item.name}</li>
+          {languages.map(({name, percentage}, index) => (
+            <li key={`${name}_${percentage}_${index}`} className='Languages-item'>{name}</li>
           ))}
         </ul>
     </div>

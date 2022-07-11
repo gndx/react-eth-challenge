@@ -39,13 +39,7 @@ const App = () => {
     skills,
     website,
   } = user;
-
-  console.log(user);
-  console.log(user.data.certificate);
-  console.log(email);
-  const salvador = 'salvador'
-
-
+//I know, thats wrong
   return (
     <>
     <Header>

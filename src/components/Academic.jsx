@@ -5,23 +5,19 @@ export default function Academic({
   degree: 'degree',
   description: 'description',
   endDate: 'endDate',
-  institution: 'institucion',
+  institution: 'institution',
   startDate: 'startDate',
 }) }) {
   return (
-    <div>
+    <div className='Academic'>
       <h2 className='Academic-title'>Academic</h2>
-      
-      {academic.map((item) => (
-        <div className='Academic-item'>
-          <h3>{item.degree} - {item.institution}</h3>
-          <ul>
-            <li>{item.description}</li>
-            <li>{item.startDate} - {item.endDate}</li>
-          </ul>
+      {academic.map(({degree, description, endDate, institution, startDate}, index) => (
+        <div key={`${degree}_${description}_${institution}_${index}`} className='Academic-item'>
+          <h3>{degree} - {institution}</h3>
+            <p>{description}</p>
+            <p>{startDate} - {endDate}</p>
         </div>
       ))}
-      
     </div>
   )
 }

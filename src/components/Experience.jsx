@@ -10,15 +10,13 @@ export default function Experience({
   }),
 }) {
   return (
-    <div>
+    <div className='Experience'>
       <h2 className="Experience-title">Experience</h2>
-      {experience.map((item) => (
-        <div className='Experience-item'>
-          <h3>{item.degree} - {item.jobTitle} - {item.company}</h3>
-          <ul>
-            <li>{item.jobDescription}</li>
-            <li>{item.startDate} - {item.endDate}</li>
-          </ul>
+      {experience.map(({company, endDate, jobDescription, jobTitle, startDate}, index) => (
+        <div key={`${company}_${endDate}_${jobDescription}_${jobTitle}_${startDate}_${index}`} className='Experience-item'>
+          <h3>{jobTitle} - {company}</h3>
+            <p>{jobDescription}</p>
+            <p>{startDate} - {endDate}</p>
         </div>
       ))}
     </div>
