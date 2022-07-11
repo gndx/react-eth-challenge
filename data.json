@@ -1,109 +1,119 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Martin Iglesias",
+    "profession": "Solidity Dev/Fullstack Dev",
+    "address": "San Carlos de Bariloche, Argentina.",
+    "email": "martin.iglesias19@gmail.com",
+    "website": "https://github.com/MartinIglesias86",
+    "phone": "+5492944606002",
+    "avatar": "https://pbs.twimg.com/profile_images/1416467846306140161/act9f2OE_400x400.jpg",
+    "Profile": "Hi, I'm Martin and I’m interested in continuing to learn and work with: Solidity, Python, Node.js, React.js and Next.js.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jul 2022",
+        "description": "I Learned to use React.js, components, props, state, effects, and more.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Curso de Introducción a React.js"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Jun 2021",
+        "description": "I learned all the concepts and fundamentals necessary to understand the blockchain ecosystem and cryptocurrencies, their operation, properties and risks.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de Economía Digital: Bitcoin y Criptomonedas"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Backend Developer",
+        "description": "Backend Developer with the MERN stack",
+        "endDate": "Nov 2022",
+        "institution": "Coderhouse",
+        "startDate": "Jan 2022"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Fullstack Developer",
+        "description": "Fullstack Developer with Angular, SQL, and Java",
+        "endDate": "Jan 2023",
+        "institution": "Argentina Programa",
+        "startDate": "Jun 2022"
+      },
+      {
+        "degree": "Automation technician",
+        "description": "Technical school degree",
+        "endDate": "Dec 2004",
+        "institution": "C.E.M. n°65",
+        "startDate": "Mar 1999"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Nueces del Sur",
+        "endDate": "Feb 2022",
+        "jobDescription": "Owner of an enterprise dedicated to the wholesale of food. Responsible for implementing innovations, logistics, purchases, and payments to suppliers.",
+        "jobTitle": "Co-Owner",
+        "startDate": "Mar 2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Galander S.A.",
+        "endDate": "Jan 2018",
+        "jobDescription": "Repair of cell phones at hardware and software level. In charge of staff, stock, material handling, and schedules.",
+        "jobTitle": "Repair technician",
+        "startDate": "Aug 2013"
+      },
+      {
+        "company": "Insetec S.A.",
+        "endDate": "Jul 2012",
+        "jobDescription": "Technical support manager. Assembly, repair and configuration of PCs and notebooks. Network setup and configuration. Staff training in the technical service area.",
+        "jobTitle": "Technical support manager",
+        "startDate": "Oct 2011"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "65%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "percentage": "95%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "React.js",
+      "Solidity",
+      "Web3",
+      "Node.js"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "99%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "90%"
+      },
+      {
+        "name": "Italian",
+        "percentage": "65%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/Martin_codes86"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/MartinIglesias86"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/martin-iglesias86"
       }
     ]
   }

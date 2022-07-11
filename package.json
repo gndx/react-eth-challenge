@@ -34,7 +34,7 @@
     "webpack-dev-server": "4.9.3"
   },
   "devDependencies": {
-    "babel-eslint": "10.1.0",
+    "@babel/eslint-parser": "^7.16.3",
     "css-loader": "6.7.1",
     "eslint": "8.19.0",
     "eslint-config-airbnb": "19.0.4",
@@ -50,8 +50,8 @@
     "mini-css-extract-plugin": "2.6.1",
     "prettier": "2.7.1",
     "style-loader": "3.3.1",
-    "stylus": "0.58.1",
-    "stylus-loader": "7.0.0"
+    "stylus": "^0.58.1",
+    "stylus-loader": "^7.0.0"
   },
   "jest": {
     "verbose": true,
