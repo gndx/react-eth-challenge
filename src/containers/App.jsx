@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from '../components/Header.jsx';
 import About from '../components/About.jsx';
 import Profile from '../components/Profile.jsx';
@@ -11,30 +11,40 @@ import '../styles/components/dist/App.css';
 import '../styles/components/dist/Header.css';
 import '../styles/components/dist/Card.css';
 import '../styles/components/dist/Avatar.css';
-import Card from '../components/Card.jsx';
+import getData from '../utils/getData.js';
 
 const App = () => {
+  const [data, setData] = useState({});
+  useEffect(() => {
+    getData('http://localhost:3000/data').then((resp) => {
+      setData((prev) => {
+        console.log(resp);
+        return resp;
+      });
+    });
+  }, []);
+
   return (
     <>
       <div className="App">
         <div className="App-container">
           <Header>
-            <About />
+            <About {...data} />
           </Header>
-          <Profile />
-          <Experience />
+          <Profile {...data} />
+          <Experience {...data} />
           <div className="App-grid">
             <div className="div1">
-              <Academic />
+              <Academic certificate={data.certificate} />
             </div>
             <div className="div2">
-              <Skills />
+              <Skills skills={data.skills} />
             </div>
             <div className="div3">
-              <Interest />
+              <Interest interest={data.interest} />
             </div>
             <div className="div4">
-              <Languages />
+              <Languages languages={data.languages} />
             </div>
           </div>
         </div>

@@ -13,22 +13,42 @@
         "date": "Jan 2021",
         "description": "FreeCodeCamp.com",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "degree": "FrontEnd Developer"
       },
       {
         "date": "june 2022",
-        "degree": "Ethereum Foundation + Platzi - Ethereum Developer",
-        "description": "Scholarship acquired, by solving a challenge proposed by Platzi de JavaScript. Platzi in collaboration with the Ethereum Foundation created this program by giving scholarships to 100 students to boost our professional career in Web3",
-        "institution": "Platzi"
+        "description": "Ethereum Foundation + Platzi - Ethereum Developer",
+        "institution": "Scholarship acquired, by solving a challenge proposed by Platzi de JavaScript. Platzi in collaboration with the Ethereum Foundation created this program by giving scholarships to 100 students to boost our professional career in Web3",
+        "degree": "Platzi"
+      },
+      {
+        "date": "Dic 2019",
+        "description": "React Developer",
+        "institution": "Freelance",
+        "degree": "Platzi + Udemy + FreeCodeCamp + LearningIN"
       }
     ],
     "experience": [
       {
-        "company": "JBKnowledge",
-        "endDate": "Jan 2022",
-        "jobDescription": "React Developer",
-        "jobTitle": "React Developer",
-        "startDate": "Sept 2021"
+        "company": "FreeLance",
+        "endDate": "Present",
+        "jobDescription": "Web Developer",
+        "jobTitle": "FullStackJs",
+        "startDate": "Dic 2019"
+      },
+      {
+        "company": "Binance",
+        "endDate": "Present",
+        "jobDescription": "Digital Finance/Defi",
+        "jobTitle": "Crypto Trader",
+        "startDate": "Dic 2021"
+      },
+      {
+        "company": "Club Atletico Newell's Old Boys",
+        "endDate": "Present",
+        "jobDescription": "Project Director, Esport Management",
+        "jobTitle": "Agile Coach",
+        "startDate": "jun 2022"
       }
     ],
     "skills": [
@@ -50,10 +70,9 @@
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Develop",
+      "FullStackJS"
     ],
     "languages": [
       {
@@ -63,6 +82,10 @@
       {
         "name": "English",
         "percentage": "70%"
+      },
+      {
+        "name": "Italian",
+        "percentage": "30%"
       }
     ],
     "social": [

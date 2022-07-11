@@ -1,14 +1,19 @@
 import React from 'react';
 import Card from './Card';
 
-const Interest = () => {
+const Interest = ({ interest }) => {
   return (
     <Card>
       <h2 className="Interest-title">Interest</h2>
-      <ul>
-        <li className="Interest-item">Web3</li>
-        <li className="Interest-item">Agile Coach</li>
-        <li className="Interest-item">Management</li>
+      <ul className="Interest-item">
+        {interest &&
+          interest.map((item) => {
+            return (
+              <li className="Interest-item" key={item}>
+                {item}
+              </li>
+            );
+          })}
       </ul>
     </Card>
   );
