@@ -4,7 +4,7 @@ const getData = async (url = 'https://google.com') => {
     const response = await data.json();
     return response;
   } catch (error) {
-    return null;
+    return {};
   }
 };
 
