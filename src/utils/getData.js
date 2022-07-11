@@ -1,5 +1,5 @@
 async function getData() {
-    let url = 'http://localhost:3000/data';
+    let url = 'https://my-json-server.typicode.com/0xiroh/react-eth-challengeZ';
     try {
         let res = await fetch(url);
         let data = await res.json();
