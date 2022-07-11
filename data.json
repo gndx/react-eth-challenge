@@ -22,7 +22,7 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
         "degree": "Tec. System Administration and free software",
         "description": "Tesis: Telegram bot for remote server managment, resources metrics and download logs. Tech: Django, Docker and Python",
