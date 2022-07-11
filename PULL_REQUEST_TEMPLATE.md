@@ -12,6 +12,11 @@ En el archivo *getData.js* del directorio *.src/utils* se aregó el método para
 La API se está integrada a traves de **React Hooks** y una suscripción al context de la aplicación con la ayuda de **React Context** para que los datos de la API estén disponibles en todos los componentes
 ### Personalizar API
 Se editó el archivo *data.json* con toda la información necesaria para el CV de Leandro Alvarez
+### Documentar
+La documentación describe el proceso de desarrollo en un archivo Markdown con extensión. md
+### Deploy
+El despligue de la aplicación se lo hace a través de **Vercel** en ek siguiente [enlace](https://www.example.com) 
+
 
 Nombre: Leandro Alvarez
 Usuario Platzi: leandroalvarez
@@ -24,4 +29,4 @@ Usuario Platzi: leandroalvarez
 - [x] Cuarto Problema
 - [x] Quinto Problema
 - [x] Sexto Problema
-- [] Septimo Problema
+- [x] Septimo Problema

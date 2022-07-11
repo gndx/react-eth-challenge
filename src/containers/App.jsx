@@ -16,9 +16,9 @@ const App = () => {
   const [loading, setLoading]= useState(true)
   useEffect(() => {
     setLoading(true);
-    getData("http://localhost:3000/data")
+    getData("https://raw.githubusercontent.com/leomaker1993/react-eth-challenge/main/data.json")
       .then(res => {
-        setMyInfo(res)
+        setMyInfo(res.data)
         setLoading(false)
       })
   },[])

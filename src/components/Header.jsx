@@ -1,5 +1,6 @@
 import React, {useContext} from 'react';
 import '../styles/components/Header.styl';
+import {BsFacebook, BsGithub, BsLinkedin, BsTwitter} from 'react-icons/bs';
 import { InfoContext } from '../containers/App';
 
 const Header =  (props)=>{
@@ -17,7 +18,10 @@ return(
                 social.map(({ name: network, url }, index) => (
                 <li key={`social-${index}`}>
                     <a href={url} target='_blank' rel='noopener noreferrer'>
-                    <i className={`fa fa-${network}`} />
+                        {network=="facebook"?<BsFacebook size='20px' />:<></>}
+                        {network=="github"?<BsGithub size='20px' />:<></>}
+                        {network=="linkedin"?<BsLinkedin size='20px' />:<></>}
+                        {network=="twitter"?<BsTwitter size='20px' />:<></>}
                     </a>
                 </li>
                 ))
