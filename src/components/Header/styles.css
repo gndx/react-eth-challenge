@@ -1,0 +1,23 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1af901;
+    border-radius: 10px;
+    width: 60vw;
+    margin: auto;
+}
+
+.Header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Header-avatar {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 100%;
+}
