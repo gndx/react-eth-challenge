@@ -4,6 +4,7 @@ const Container = styled.div.attrs(() => ({
     className: 'col-12 rounded-1',
 }))
     `
+    width: 100%;
     font-weight: bold;
     padding: 1em;
     background-color: #52b69a;

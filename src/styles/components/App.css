@@ -18,8 +18,8 @@ body {
 
 .container-columns {
     display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 7.5px;
+    grid-template-columns: 49.5% 49.5%;
+    column-gap: 1%;
 }
 
 .container-columns.header {
