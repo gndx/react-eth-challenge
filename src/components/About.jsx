@@ -1,15 +1,13 @@
 import React from 'react'
 
-const About = ({data}) => {
+const About = ({ data }) => {
     return (
         <div>
             <h5 className='h4 About-title'>{data.profession}</h5>
-            <div className='content'>
-                <p className='About-item'>{data.phone}</p>
-                <p className='About-item'>{data.email}</p>
-                <p className='About-item'>{data.website}</p>
-            </div>
+            <p className='About-item'>{data.phone}</p>
+            <p className='About-item'>{data.email}</p>
             <p className='About-item'>{data.address}</p>
+            <a className='About-item website'>{data.website}</a>
         </div>
     )
 }
