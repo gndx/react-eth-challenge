@@ -5,7 +5,7 @@ import { AppContext } from '../AppContext';
 
 const Header = () => {
 
-    const data = React.useContext(AppContext);
+    const { data } = React.useContext(AppContext);
 
     const { name, profession, phone, email, address, website } = data;
 
