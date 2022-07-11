@@ -1,9 +1,9 @@
 {
   "name": "react-eth-challenge",
   "version": "1.0.0",
-  "homepage": " https://martiniglesias86.github.io",
+  "homepage": " https://martiniglesias86.github.io/react-eth-challenge",
   "description": "React Eth Challenge",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
