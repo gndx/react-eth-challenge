@@ -2,14 +2,25 @@ import React from 'react'
 import styled from 'styled-components';
 import Container from '../styles/Container';
 
-const Skills = () => {
+const Skills = ({ skills }) => {
     return (
         <Container>
-            <h3 className='h2 title Skills-title'>.Skills-title</h3>
+            <h3 className='h2 title Skills-title'>Skills</h3>
             <div className='container-columns-text-exp'>
-                <p className='Skills-item'>.Skills-item</p>
-                <p className='Skills-item'>.Skills-item</p>
-                <p className='Skills-item'>.Skills-item</p>
+                {
+                    skills ?
+                        skills.map((skill, index) => {
+                            return (
+                                <li key={index} className='Skills-item'>
+                                    <h5 className='skill-name fw-semibold'>{skill.name}</h5>
+                                    <p className='skill-percentage'>{skill.percentage}</p>
+
+                                </li>
+                            )
+                        })
+                        :
+                        <p>Loading...</p>
+                }
             </div>
         </Container>
     )

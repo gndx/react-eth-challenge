@@ -2,11 +2,11 @@ import React from 'react'
 import styled from 'styled-components';
 import Container from '../styles/Container';
 
-const Profile = () => {
+const Profile = ({ description }) => {
     return (
         <Container>
-            <h3 className='h2 title Profile-title'>.Profile-title</h3>
-            <p className='Profile-desc'>.Profile-desc</p>
+            <h3 className='h2 title Profile-title'>Profile</h3>
+            <p className='Profile-desc'>{description}</p>
         </Container>
     )
 }
