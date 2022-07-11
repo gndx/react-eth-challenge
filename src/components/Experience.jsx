@@ -1,29 +1,31 @@
-import React from 'react'
+import React from 'react';
 import Container from '../styles/components/Container';
 
 const Experience = ({ experience }) => {
     return (
         <Container >
-            <h3 className='h2 title Experience-title'>Experience</h3>
-            <div className='container-columns-text'>
-                {
-                    experience ?
-                        experience.map((job, index) => {
-                            return (
-                                <li key={index} className='Experience-item'>
-                                    <h5 className='job-title fw-semibold'>{job.jobTitle}</h5>
-                                    <p className='job-company'>{job.company}</p>
+            <h3 className='title Experience-title'>Work Experience</h3>
+            {
+                experience ?
+                    experience.map((job, index) => {
+                        return (
+                            <li key={index} className='Experience-item container-content'>
+                                <div className='content-date'>
                                     <p className='job-date'>{job.startDate} - {job.endDate}</p>
+                                </div>
+                                <div className='content-desc'>
+                                    <h5 className='job-title'>{job.jobTitle}</h5>
+                                    <p className='job-company'>{job.company}</p>
                                     <p className='job-desc'>{job.jobDescription}</p>
-                                </li>
-                            )
-                        })
-                        :
-                        <p>Loading...</p>
-                }
-            </div>
+                                </div>
+                            </li>
+                        )
+                    })
+                    :
+                    <p>Loading...</p>
+            }
         </Container>
     )
 }
 
-export default Experience
+export default Experience;

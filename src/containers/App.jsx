@@ -22,23 +22,23 @@ const App = () => {
   console.log(cvData)
 
   return (
-    <div className='container my-4'>
-      <div className='row mb-3'>
+    <div className='container'>
+      <div className='row'>
         <Header
           data={cvData}>
         </Header>
       </div>
-      <div className='row mb-3'>
+      <div className='row'>
         <Profile description={cvData.Profile} />
       </div>
-      <div className='row mb-3'>
+      <div className='row'>
         <Experience experience={cvData.experience} />
       </div>
-      <div className='row mb-3 container-columns'>
+      <div className='row container-columns'>
         <Academic academic={cvData.Academic} />
         <Skills skills={cvData.skills} />
       </div>
-      <div className='row mb-3 container-columns'>
+      <div className='row container-columns'>
         <Interest interests={cvData.interest} />
         <Languages languages={cvData.languages} />
       </div>
