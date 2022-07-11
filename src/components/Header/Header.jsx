@@ -7,30 +7,28 @@ const Header = () => {
 
     const { data } = React.useContext(AppContext);
 
-    const { name, profession, phone, email, address, website } = data;
-
     return (
         <section className='Header'>
-            <h1 className='Header-title'>{name}</h1>
-            <p>{profession}</p>
+            <h1 className='Header-title'>{data ? data.name : ""}</h1>
+            <p>{data ? data.profession : ""}</p>
             <ul>
                 <li>
                     <strong>Phone:</strong>
                     <a 
-                        href={phone ? phone.url : ""} 
+                        href="https://wa.me/584122249713"
                         target="_blank" 
-                        title="Phone"> {phone ? phone.number : ""}</a>
+                        title="Phone"> {data ? data.phone : ""}</a>
                 </li>
                 <li>
                     <strong>Email:</strong>
                     <a 
-                    href={email ? email.url : ""} target="_blank" title="Email"> {email ? email.name : ""}</a>
+                    href="mailto:leandrogavidia1234@gmail.com" target="_blank" title="Email"> {data ? data.email : ""}</a>
                 </li>
                 <li>
                     <strong>Website:</strong>
-                    <a href={website ? website.url : ""} target="_blank" title="Website"> {website ? website.name : ""}</a>
+                    <a href={data ? data.website : ""} target="_blank" title="Website"> GitHub profile</a>
                 </li>
-                <li><strong>Location:</strong> {address}</li>
+                <li><strong>Location:</strong> {data ? data.address : ""}</li>
             </ul>
         </section>
     )

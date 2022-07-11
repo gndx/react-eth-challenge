@@ -1,18 +1,24 @@
 import React from 'react';
 import "./Academic.scss";
 import AcademicItem from "./AcademicItem/AcademicItem";
-import { AppContext } from "../AppContext";
+import getData from '../../utils/getData';
 
 const Academic = () => {
 
-    const { data } = React.useContext(AppContext);
-    const { academic } = data;
+    const [ academic, setAcademic ] = React.useState([]);
+
+    React.useEffect(() => {
+        getData("http://localhost:3000/data").then(res => setAcademic(res.academic))
+    }, [])
 
     return (
         <section className='Academic'>
             <h2 className="Academic-title">Academic information</h2>
             <ol>
-                { academic ? academic.map(aca => 
+
+                { academic.length > 0 ?
+                
+                academic.map(aca => 
                     <AcademicItem 
                         key={aca.institution}
                         className="Academic-item"
@@ -21,7 +27,16 @@ const Academic = () => {
                         institutionUrl={aca.institutionUrl}
                         type={aca.type}
                         date={aca.date}
-                    />) : "" }
+                    />) :
+
+                    <React.Fragment>
+                        <li className="Academic-item"></li>
+                        <li className="Academic-item"></li>
+                        <li className="Academic-item"></li>
+                    </React.Fragment>
+
+                }
+
             </ol>
         </section>
     );

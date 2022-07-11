@@ -5,13 +5,11 @@ import { AppContext } from "../AppContext";
 const Profile = () => {
 
     const { data } = React.useContext(AppContext);
-    
-    const { profile } = data;
 
     return (
         <section className="Profile">
             <h2 className='Profile-title'>Profile</h2>
-            <p className="Profile-desc">{profile}</p>
+            <p className="Profile-desc">{data ? data.profile : ""}</p>
         </section>
     )
 }

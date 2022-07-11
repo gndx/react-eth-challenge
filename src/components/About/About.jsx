@@ -1,19 +1,21 @@
 import React from 'react';
 import "./About.scss";
 import AboutItem from "./AboutItem/AboutItem";
-import { AppContext } from "../AppContext"
+import getData from '../../utils/getData';
 
 const About = () => {
 
-    const { data } = React.useContext(AppContext);
+    const [ projects, setProjects ] = React.useState([]);
 
-    const { projects } = data;
+    React.useEffect(() => {
+        getData("http://localhost:3000/data").then(res => setProjects(res.projects))
+    }, [])
 
     return (
         <section className='About'>
             <h2 className="About-title">About my projects</h2>
             <ol>
-                { projects ? projects.map(project => 
+                { projects.length > 0 ? projects.map(project => 
                 
                     <AboutItem 
                         className="About-item"
@@ -22,7 +24,15 @@ const About = () => {
                         projectUrl={project.url}
                         description={project.description}
                         technologies={project.technologies.map(tech => tech)}
-                    /> ) : "" }
+                    /> ) : 
+                    
+                    <React.Fragment>
+                        <li className="About-item"></li>
+                        <li className="About-item"></li>
+                        <li className="About-item"></li>
+                    </React.Fragment>
+
+                }
             </ol>
         </section>
     )

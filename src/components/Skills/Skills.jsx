@@ -1,31 +1,32 @@
 import React from 'react';
 import "./Skills.scss";
-import { AppContext } from "../AppContext";
+import getData from '../../utils/getData';
 
 const Skills = () => {
 
-    const { data } = React.useContext(AppContext);
-
-    const { skills } = data;
-
+    const [ skills, setSkills ] = React.useState([]);
+    
+    React.useEffect(() => {
+        getData("http://localhost:3000/data").then(res => setSkills(res.skills))
+    }, [])
+    
     return (
         <section className='Skills'>
             <h2 className='Skills-title'>Skills</h2>
             <p>Software:</p>
             <ul>
-                { skills ? skills.map(skill => <li key={skill} className='Skills-item'>{skill}</li>) : "" }
-                {/* <li className='Skills-item'>HTML5</li>
-                <li className='Skills-item'>CSS3</li>
-                <li className='Skills-item'>Sass</li>
-                <li className='Skills-item'>JavaScript</li>
-                <li className='Skills-item'>TypeScript</li>
-                <li className='Skills-item'>React.js</li>
-                <li className='Skills-item'>Next.js</li>
-                <li className='Skills-item'>Node.js</li>
-                <li className='Skills-item'>Express.js</li>
-                <li className='Skills-item'>MongoDB</li>
-                <li className='Skills-item'>Webpack</li>
-                <li className='Skills-item'>Figma</li> */}
+                { skills.length > 0 ? 
+                
+                    skills.map(skill => <li key={skill} className='Skills-item'>{skill}</li>) :
+                    
+                
+                    <React.Fragment>
+                        <li className='Skills-item'></li>
+                        <li className='Skills-item'></li>
+                        <li className='Skills-item'></li>
+                    </React.Fragment>
+                
+                }
             </ul>
         </section>
     );

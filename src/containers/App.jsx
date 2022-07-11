@@ -18,7 +18,7 @@ const App = () => {
     <AppProvider>
       <main className="cv-container">
         <Header />
-        <Languages />
+        <Languages  />
         <Profile />
         <Experience />
         <Academic />

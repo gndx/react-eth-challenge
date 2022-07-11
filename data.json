@@ -3,18 +3,9 @@
     "name": "Leandro Gavidia Santamaria",
     "profession": "React front-end developer",
     "address": "Caracas, Venezuela",
-    "email": {
-      "name": "Leandrogavidia1234@gmail.com",
-      "ulr": "mailto:leandrogavidia1234@gmail.com"
-    },
-    "website": {
-      "name": "GitHub profile",
-      "url": "https://github.com/LeanderGS"
-    },
-    "phone": {
-      "number": "+58 0412-224-9713",
-      "url": "https://wa.me/584122249713"
-    },
+    "email": "Leandrogavidia1234@gmail.com",
+    "website": "https://github.com/LeanderGS",
+    "phone": "+58 0412-224-9713",
     "profile": "I am a React front-end developer with a great love for the Web3. I am looking for a position as member of a team in where we can grow together and have a positive impact on people.",
 
     "academic": [
