@@ -1,12 +1,12 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "name": "Amaury Gamboa Ortega",
+    "profession": "BackEnd Developer",
+    "address": "España",
+    "email": "amaurygo88@gmail.com",
+    "website": "https://github.com/AmauryGO/",
+    "phone": "9999999",
+    "avatar": "https://avatars.githubusercontent.com/u/107063208?v=4",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
@@ -56,36 +56,48 @@
     ],
     "skills": [
       {
+        "name": "C#",
+        "percentage": "90"
+      },
+      {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "75"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "25"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70"
+      },
+      {
+        "name": "Angular",
+        "percentage": "90"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
+      "musica",
       "backend",
-      "frontend"
+      "blockchain",
+      "comida"      
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "80"
+      },
+      {
+        "name": "French",
+        "percentage": "90"
       }
     ],
     "social": [
@@ -99,7 +111,7 @@
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/AmauryGO/"
       },
       {
         "name": "linkedin",

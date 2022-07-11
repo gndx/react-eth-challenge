@@ -1,9 +1,9 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import Header from '../../components/Header';
 
 describe('<Header />', () => {
-  const header = mount(<Header />);
+  const header = shallow(<Header />);
 
   test('Header render', () => {
     expect(header.length).toEqual(1);
