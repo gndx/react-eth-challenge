@@ -12,6 +12,11 @@
 6. [Documentar](https://github.com/gndx/react-eth-challenge/issues/6)
 7. [Deploy](https://github.com/gndx/react-eth-challenge/issues/7)
 
+---
+
+![solution-image](./cv-eth-developer-program.png)
+
+---
 
 ### Principales cambios:
 
@@ -19,6 +24,12 @@
   - Nueva sección "About my projects"
   - CV de una sola columna
   - Sin imagen
+
+<br/>
+
+[**Deploy**](https://leandergs.github.io/react-eth-challenge/)
+
+---
 
 ### Instalación
 
