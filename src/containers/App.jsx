@@ -16,7 +16,6 @@ const App = () => {
     const fetchDataPerson = async () => {
       const data = await getData('http://localhost:3000/data');
       setDataPerson(data);
-      console.log(data);
     };
     fetchDataPerson();
   }, []);
