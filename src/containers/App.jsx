@@ -8,19 +8,27 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import { UserDataProvider } from "../context/UserDataProvider";
 
 const App = () => {
+
   return (
     <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <UserDataProvider>
+        < Header  >
+          <About />
+        </Header >
+        <Profile />
+        <Experience />
+        <div className='Academic-segment'>
+          <Academic />
+          <Skills />
+        </div>
+        <div className='Extra-segment'>
+          <Interest />
+          <Languages />
+        </div>
+      </UserDataProvider>
     </>
   )
 };
