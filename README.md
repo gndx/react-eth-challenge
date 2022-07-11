@@ -13,7 +13,7 @@ Usuario rennypetit:
 - [x] Cuarto Problema
 - [x] Quinto Problema
 - [x] Sexto Problema
-- [] Septimo Problema
+- [x] Septimo Problema
 
 **Información: **
 
@@ -24,3 +24,39 @@ Usuario rennypetit:
 - Se creó todos los componentes necesarios de la aplicación.
 - Codificación de acuerdo a la validación de los test.
 - Se implemento PropsTypes para la validación de las props.
+
+### Instalación
+
+```
+npm install
+```
+
+### Ejecución
+
+```
+npm run start
+```
+
+### Server
+
+```
+npm run server
+```
+
+### Compilar
+
+```
+npm run build
+```
+
+### Pruebas Unitarias
+
+```
+npm run test
+```
+
+### ESlint
+
+```
+npm run lint
+```
