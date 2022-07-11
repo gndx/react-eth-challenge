@@ -248,6 +248,12 @@
     "jsx-a11y/no-noninteractive-element-interactions": 0,
     "jsx-a11y/media-has-caption": 0,
     "react/display-name": 0,
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function"
+      }
+    ],
     "react/jsx-boolean-value": 0,
     "react/jsx-closing-bracket-location": 2,
     "react/jsx-curly-spacing": [
