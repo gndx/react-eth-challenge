@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Diego Alfonso Bustos Puebla",
-    "profession": "FrontEnd Developer",
+    "name": "Diego Bustos Puebla",
+    "profession": "FullStack Developer",
     "address": "CDMX, México.",
     "email": "diegoabustos@outlook.com",
     "website": "https://example.com",
     "phone": "55 1249 0968",
     "avatar": "https://avatars.githubusercontent.com/u/48221360?v=4",
-    "Profile": "Desarrollador proactivo y autodidacta.",
+    "Profile": "Developer specialized in the frontend in tech as Js React Ts. In constant learning. Interested in new tech like Web3",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,41 +24,41 @@
     ],
     "Academic": [
       {
-        "degree": "Ingeniería en Sistemas",
-        "description": "Adquirí conocimientos en programación",
-        "endDate": "Agosto 2017",
+        "degree": "Systems engineer",
+        "description": "University studies in computer systems",
+        "endDate": "Aug 2017",
         "institution": "Universidad CUGS",
-        "startDate": "Septiembre 2014"
+        "startDate": "Sep 2014"
       },
       {
-        "degree": "Técnico en sistemas electronicos",
-        "description": "Funcionamiento de sistemas eléctronicos",
-        "endDate": "Junio  2013",
+        "degree": "technician in electronic systems",
+        "description": "knowledge of electronic systems",
+        "endDate": "Jun 2013",
         "institution": "CONALEP 004",
-        "startDate": "Julio  2010"
+        "startDate": "Jul 2010"
       }
     ],
     "experience": [
       {
         "company": "ivoy",
-        "endDate": "Junio 2022",
-        "jobDescription": "Desarrollo de servicios internos.",
-        "jobTitle": "Desarrollador Jr",
-        "startDate": "Julio 2021"
+        "endDate": "Jun 2022",
+        "jobDescription": "Development of internal services for users using Javascript Stack, Node with Express and NestJs for de backend and the front end use React.",
+        "jobTitle": "Fullstack Dev",
+        "startDate": "Jul 2021"
       },
       {
         "company": "ivoy",
-        "endDate": "Junio 2021",
-        "jobDescription": "Desarrollo de interfaces.",
-        "jobTitle": "Desarrollador Front End",
-        "startDate": "Marzo 2019"
+        "endDate": "Jun 2021",
+        "jobDescription": "Development interfaces for clients and users replace the platform legacy for the new tech use React.",
+        "jobTitle": "Front End Dev",
+        "startDate": "Mar 2019"
       },
       {
         "company": "SOC Asesores",
-        "endDate": "Octubre 2018",
-        "jobDescription": "Desarrollo de interfaces",
-        "jobTitle": "Programador Jr",
-        "startDate": "Enero 2019"
+        "endDate": "Oct 2018",
+        "jobDescription": "Development interfaces using Html Css and JS with jquery and Bootstap",
+        "jobTitle": " Jr Programmer",
+        "startDate": "Jan 2019"
       }
     ],
     "skills": [
