@@ -1,0 +1,17 @@
+.About-items {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.About-item {
+    margin: 5px 20px;
+}
+.About-item:first-of-type {
+    margin: 5px 0;
+}
+
+.About-title {
+    margin-left: 26%;
+}

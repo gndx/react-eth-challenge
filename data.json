@@ -1,71 +1,71 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "name": "Martin Gutierrez",
+    "profession": "Full Stack Developer",
+    "address": "Medellín, Colombia",
+    "email": "martin72.gutierrez@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "312-xxx-xxxx",
+    "avatar": "https://media-exp2.licdn.com/dms/image/C4E03AQGn4IuE9RRMbA/profile-displayphoto-shrink_400_400/0/1640702305030?e=1663200000&v=beta&t=z1mj-AwGxnA2rw9zs38IL_n6efksJaQBgK2mqMf8yos",
+    "Profile": "Civil Engineer turned into Full Stack Developer",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Dec 2022",
+        "description": "Certified Full Stack Developer",
+        "institution": "Digital House",
+        "name": "Full Stack Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Jun 2018",
+        "description": "Renewable Energies and Green Economy Certificate",
+        "institution": "Eafit",
+        "name": "Diplomado en Energías Renovables y Economía Verde"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Civil Engineer",
+        "description": "Undergraduate Degree in Civil Engineering",
+        "endDate": "Jul 2019",
+        "institution": "EIA",
+        "startDate": "Jan 2013"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Full Stack Developer",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "endDate": "December 2021",
+        "institution": "Digital House",
+        "startDate": "Mar 2022"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "company": "Globant",
+        "endDate": "May 2022",
+        "jobDescription": "FrontEnd Developer working with an American Media Company, getting their Fantasy Football app updated, also handled their python based API ande the MySQL DB",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "Jan 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "GOAT Energy",
+        "endDate": "Dec 2020",
+        "jobDescription": "Co-Founder and project analyst",
+        "jobTitle": "Project Analyst",
+        "startDate": "Aug 2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80%"
       },
       {
         "name": "React",
@@ -76,15 +76,26 @@
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "blockchain",
+      "statistics",
+      "TCG's"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
+        "percentage": "95%"
+      },
+      {
+        "name": "French",
+        "percentage": "70%"
+      },
+      {
+        "name": "Portuguese",
         "percentage": "50%"
       }
     ],
