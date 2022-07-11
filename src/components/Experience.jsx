@@ -9,9 +9,12 @@ const Experience = function ({ data }) {
       <ul>
         {
           data ?
-            data.map((experience, index) => {
+            data.map((experience) => {
               return (
-                <li key={index} className='Experience-item'>
+                <li
+                  key={`${experience.jobTitle}_${experience.startDate}_${experience.endDate}`}
+                  className='Experience-item'
+                >
                   <h3>
                     <span className='Job-title'>
                       {experience.jobTitle}
