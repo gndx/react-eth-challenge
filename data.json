@@ -1,11 +1,11 @@
 {
   "data": {
     "name": "Ignacio Molina",
-    "profession": "FrontEnd Developer",
+    "profession": "Fullstack Developer",
     "address": "Buenos Aires, Argentina.",
     "email": "ignacio.molina.portoles@gmail.com",
     "website": "nicanor.fun",
-    "phone": "2235860788",
+    "phone": "223 1860788",
     "avatar": "https://www.nicanor.fun/images/profile.png",
     "Profile": "Ñam fi frufi fali frufi ñam fi fru",
     "certificate": [
@@ -24,13 +24,6 @@
     ],
     "Academic": [
       {
-        "degree": "Tecnico informatico profesional",
-        "description": "Capacitado para asistir al usuario de productos y servicios informáticos",
-        "endDate": "Feb 2012",
-        "institution": "EEST. N°3",
-        "startDate": "Dic 2019"
-      },
-      {
         "degree": "Ethereum Developer Program",
         "description": "Impulsa tu carrera en desarrollo de blockchain",
         "endDate": "Sep 2022",
@@ -43,6 +36,13 @@
         "endDate": "-",
         "institution": "EEST. N°3",
         "startDate": "Feb 2020"
+      },
+      {
+        "degree": "Tecnico informatico profesional",
+        "description": "Capacitado para asistir al usuario de productos y servicios informáticos",
+        "endDate": "Feb 2012",
+        "institution": "EEST. N°3",
+        "startDate": "Dic 2019"
       }
     ],
     "experience": [

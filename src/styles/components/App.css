@@ -61,7 +61,9 @@
   margin-bottom: 15px;
 }
 
-/* About */
+.about-info-wrapper {
+  margin-bottom: 5px;
+}
 
 .Header-job-title {
   padding-top: 5px;
@@ -78,7 +80,7 @@
   color: rgb(124, 181, 255);
 }
 .Header-adress {
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 /* Items */
