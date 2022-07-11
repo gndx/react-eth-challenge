@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Interest = ({ interests = [{}, {}, {}]}) => {
+const Interest = ({ interests = [[], [], []] }) => {
     return (
         <Container>
             <h3 className='title Interest-title'>Interests</h3>
