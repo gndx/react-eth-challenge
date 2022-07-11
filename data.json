@@ -1,109 +1,162 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Leandro Alvarez",
+    "profession": "Full Stack MERN Developer | Node.js | React",
+    "address": "Quito, Ecuador.",
+    "email": "leandroalvarez.dev@gmail.com",
+    "website": "https://platzi.com/p/leandroalvarez/",
+    "phone": "+593995348008",
+    "avatar": "https://avatars.githubusercontent.com/u/43589282?v=4",
+    "Profile": "I have been 3 years of experience in software development creating technology for the Fintech and Social Industries. I have been part of the design and development of a Web and Mobile Payment Application with stack MongoDB, React, Node.js; API integration with GraphQL and Express.js. and ECMAScript 6",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Apr 2022",
+        "description": "Introduction to basic concepts of Web3's reaches",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Web3 Fundamentals"
       },
       {
         "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "description": "Bases to start your path as an Engineering Manager and successfully grow your team and company.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de Engineering Management"
+      },
+      {
+        "date": "Nov 2020",
+        "description": "Learning ML & Deep Learnig and Creating project applying NLTK and Deep Learning",
+        "institution": "Saturdays.AI",
+        "name": "Machine Learning & Deep Learning"
+      },
+      {
+        "date": "Sep 2020",
+        "description": "Applying Scrum in development of a Payment Platform ",
+        "institution": "StartupMexico",
+        "name": "Agile Scrum Frameworks"
+      },
+      {
+        "date": "Jan 2020",
+        "description": "Improving skills about Stack MEAN (MongoDb, Express, React, Node Js and GraphQL)",
+        "institution": "DEVF",
+        "name": "Full Stack Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Ethereum Developer Program",
+        "description": "",
+        "endDate": "Present",
+        "institution": "Platzi - Ethereum Foundation",
+        "startDate": "Jul 2022"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Electronics & Automation Engineering",
+        "description": "The branch of electrical engineering which deals with application of such electronic devices as integrated circuits and transistors. Besides control theories and process automation",
+        "endDate": "December 2018",
+        "institution": "ESPE",
+        "startDate": "Oct 2011"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Yapa Inc.",
+        "endDate": "Feb 2022",
+        "jobDescription": "Design and Development of a Digital Wallet in a Mobile Application that allows Merchants and Small Businesses to accept Credit Cards from their customers: Back-end development with Node.js; API development with Graphql and Express.js; Front-end development with React and Mobile Application with React Native; Mongodb Scalable Database Design; Integration with Stripe; Unit Testing; Integration and Deploy with AWS services: Rekognition,TextTrack,EC2, Route53, Cognition",
+        "jobTitle": "Software Developer & Product Owner",
+        "startDate": "March 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "iGEM Community",
+        "endDate": "Oct 2021",
+        "jobDescription": "Development of a WIKI with Javascript/JQuery, HTML and CSS. To expose on Brazil the AgroBactory 593 project, a Bacterial Platform that mitigates the spread of Fusarium in Ecuador",
+        "jobTitle": "Freelance - Website Developer",
+        "startDate": "May 2021"
+      },
+      {
+        "company": "ID-Payer",
+        "endDate": "Oct 2021",
+        "jobDescription": "Software development:Fast prototyping of Mobile Application (Mockups); Mobile Application Development with JAVA; Biometric Recognition API Developed with Python/Django; SQL Database Design; ServerLess implementation in AWS Lambda; Microservices Design. Fintech solutions: Biometric Onboarding; Digital Correspondents with Dataphones (POS) with Android OS",
+        "jobTitle": "Co-Founder & Software Developer",
+        "startDate": "Jun 2018"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
+        "name": "Electronic",
+        "percentage": "90%"
+      },
+      {
+        "name": "Artificial Intelligence",
+        "percentage": "70%"
+      },
+      {
+        "name": "Node.js",
+        "percentage": "85%"
+      },
+      {
+        "name": "Python",
+        "percentage": "65%"
+      },
+      {
+        "name": "Java",
+        "percentage": "50%"
+      },
+      {
+        "name": "HTML,CSS, JavaScript",
         "percentage": "75%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "React, React Native",
+        "percentage": "70%"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "API Rest",
+        "percentage": "70%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Docker",
+        "percentage": "65%"
+      },
+      {
+        "name": "CI/CD",
+        "percentage": "65%"
       }
+      
     ],
     "interest": [
-      "javascript",
-      "develop",
+      "Web3 - Blockchain",
+      "Science Fiction Books",
+      "Project Maker",
       "backend",
-      "frontend"
+      "Play The guitar",
+      "Travel and Camping",
+      "Tango Dancing"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Spanish (Native)",
+        "percentage": "100%"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "English (Intermediate B2)",
+        "percentage": "70%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/leoalvarzs/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/leandrodev_"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/leomaker1993"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/leandroalvarezs"
       }
     ]
   }
