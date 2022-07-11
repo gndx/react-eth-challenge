@@ -20,23 +20,23 @@
     "academic": [
       {
         "institution": "Tech technological university",
+        "institutionUrl": "https://www.techtitute.com/",
         "degree": "Bachelor’s degree in systems engineering, information technology and telematics.",
-        "startDate": "December 2021",
-        "endDate": "December 2025",
+        "date": "December 2021 - December 2025",
         "type": "Remote"
       },
       {
         "institution": "Platzi",
+        "institutionUrl": "https://platzi.com",
         "degree": "Blockchain and cryptocurrency, JavaScript and English schools.",
-        "startDate": "October 2021",
-        "endDate": "Undefined",
+        "date": "October 2021 - Undefined",
         "type": "Remote"
       },
       {
         "institution": "EDx",
+        "institutionUrl": "https://www.edx.org/",
         "degree": "IBM Courses full stack cloud developer.",
-        "startDate": "July 2022 ",
-        "endDate": "Undefined",
+        "date": "July 2022 - Undefined",
         "type": "Remote"
       }
     ],
