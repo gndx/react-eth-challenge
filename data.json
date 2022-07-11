@@ -1,91 +1,84 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Alberto Beltrán",
+    "profession": "FullStack Developer",
+    "address": "México",
+    "email": "albertobeltran@protonmail.com",
+    "website": "",
+    "phone": "",
+    "avatar": "https://cdn.substack.com/image/fetch/w_1200,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https:%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F80ae9471-7d89-4b5d-acb6-8cebee1194f5_631x631.png",
+    "Profile": "Full-Stack & Web3 Developer | Blockchain & Crypto Evangelist | JavaScript, Node.js, MongoDB, Express, React, Solidity | Software Engineering student",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Dec 2020",
+        "description": "Diploma of 24 hours duration, approved with 9/10.",
+        "institution": "ITPE",
+        "name": "Blockchain Technology Diploma"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "May 2022",
+        "description": "Scholarship given by Santander Universities and BEDU",
+        "institution": "BEDU",
+        "name": "OPEN Web Development with JavaScript"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Software Engineering",
+        "description": "Currently, I am studying a degree in Software Engineering in one of the best universities in Mexico",
+        "endDate": "Dec 2025",
+        "institution": "UAQ",
+        "startDate": "Aug 2021"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Apprentice Worldwide",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "I feel grateful for being able to be part of the technological revolution.",
+        "jobTitle": "Web3 Internship",
+        "startDate": "Jun 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Mr. Coin Blockchain",
+        "endDate": "Apr 2022",
+        "jobDescription": "As a strategy advisor I have been involved in events and workshops for different clients and partners of Mr.Coin.",
+        "jobTitle": "Strategy Advisor",
+        "startDate": "Apr 2021"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "70%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "85%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "25%"
+      },
+      {
+        "name": "NodeJS",
+        "percentage": "70%"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "blockchain",
+      "web3",
+      "fullstack"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [
