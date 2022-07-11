@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* Header */
+.container-header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  gap: 80px;
+  border-bottom: 2px solid black;
+}
+
+.header-img {
+  height: 200px;
+}
+
+/* About */
+.about-li-coontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-li-coontainer li {
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Profile */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+.Profile-title {
+  margin: 10px 0;
+}
+
+/* experience */
+.experience-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+.Experience-title {
+  margin: 10px 0;
+}
+
+.single-item {
+  margin: 15px 0;
+  width: 50%;
+}
+
+.experience-container-items, .interest-container-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/*  */
+.grid-container{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: 800px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+/* academic */
+.single-item-academic{
+    margin: 10px 0;
+}
+
+/* skills */
+.skills-container-items{
+    display: flex;
+    flex-flow: column;
+}
+.single-item-skills, .single-item-interest, .single-item-languages{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.single-item-interest {
+    margin: 10px 10px 10px 0;
+}
+@media (max-width: 850px) {
+  .single-item {
+    width: 100%;
+  }
+  .grid-container{
+    grid-template-columns: 100%;
+    width: 100%;
+}
+.skills-container-items,.languages-container-items{
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+}
+
+.container-header {
+    gap: 10px;
+  }
+}
+
+.container-loader{
+   display: grid;
+   height: 100vh;
+   place-items: center;
+}
+.loader {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(141, 136, 136);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000000;
+    width: 60px;
+    height: 60px;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+  }
+      
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 

@@ -245,7 +245,7 @@
     ],
     "radix": 2,
     "jsx-quotes": [
-      2,
+      0,
       "prefer-single"
     ],
     "jsx-a11y/click-events-have-key-events": 0,

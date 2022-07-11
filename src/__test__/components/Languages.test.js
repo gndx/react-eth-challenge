@@ -1,9 +1,10 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Languages from '../../components/Languages';
+import { skillsTest } from '../../utils/testData';
 
 describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+  const languages = shallow(<Languages languages={skillsTest.skills} />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);

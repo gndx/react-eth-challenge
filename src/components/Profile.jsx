@@ -1,7 +1,12 @@
 import React from 'react';
 
-const Profile = () => {
-  return <h1>Profile</h1>;
+const Profile = ({ profile }) => {
+  return (
+    <div className="profile-container">
+      <h1 className="Profile-title">Profile</h1>
+      <p className="Profile-desc">{profile}</p>
+    </div>
+  );
 };
 
 export default Profile;
