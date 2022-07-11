@@ -1,6 +1,6 @@
 ## DESCRIPTION
 
-Solución al reto:
+Solución al reto: https://react-eth-challenge-chi.vercel.app
 
 ### Crear los componentes del proyecto
 Aplicando la metodologia TDD, cada componente fue creado en el directorio *.src/components* basado en los archivos testing 
@@ -13,13 +13,14 @@ La API se está integrada a traves de **React Hooks** y una suscripción al cont
 ### Personalizar API
 Se editó el archivo *data.json* con toda la información necesaria para el CV de Leandro Alvarez
 ### Documentar
-La documentación describe el proceso de desarrollo en un archivo Markdown con extensión. md
+La documentación describe el proceso de desarrollo en un archivo Markdown con extensión *.md*
 ### Deploy
-El despligue de la aplicación se lo hace a través de **Vercel** en ek siguiente [enlace](https://www.example.com) 
+El despligue de la aplicación se lo hace a través de **Vercel** en ek siguiente [enlace](https://react-eth-challenge-chi.vercel.app/) 
 
 
-Nombre: Leandro Alvarez
-Usuario Platzi: leandroalvarez
+Nombre: Leandro Alvarez  
+Usuario Platzi: leandroalvarez  
+[Perfil en Platzi](https://platzi.com/p/leandroalvarez/)
 
 ## Reto:
 
