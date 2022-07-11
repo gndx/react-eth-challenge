@@ -1,26 +1,21 @@
 import React from 'react';
-import useUserData from '../hooks/useUserData';
 
-const Languages = () => {
-  const { userData } = useUserData();
+const Languages = ({ userData }) => {
   return (
-    <>
-      {(userData) &&
-        <div>
-          <h2 className='Languages-title'>Languages</h2>
 
-          <div className='Items-container'>
-            {userData.languages.map(({ name, percentage }, idx) => (
+    <div>
+      <h2 className='Languages-title'>Languages</h2>
 
-              <h4 className='Languages-item' id={`${idx}-${idx}`} >
-                {name} - {percentage}
-              </h4>
-            ))}
+      <section className='Items-container'>
+        {userData.languages.map(({ name, percentage }, idx) => (
 
-          </div>
-        </div>
-      }
-    </>
+          <h4 key={`Languages-item-${idx}-${idx}`} className='Languages-item' >
+            {name} - {percentage}
+          </h4>
+        ))}
+
+      </section>
+    </div >
   )
 };
 

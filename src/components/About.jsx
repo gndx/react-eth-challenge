@@ -1,9 +1,6 @@
 import React from 'react';
-import useUserData from '../hooks/useUserData';
 
-const About = () => {
-
-  const { userData } = useUserData();
+const About = ({ userData }) => {
 
   return (
     <>

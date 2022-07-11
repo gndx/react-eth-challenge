@@ -1,24 +1,18 @@
 import React from 'react';
-import useUserData from '../hooks/useUserData';
 
-const Skills = () => {
-  const { userData } = useUserData();
+const Skills = ({ userData }) => {
 
   return (
-    <>
-      {(userData) &&
-        <div>
-          <h2 className='Skills-title'>Skills</h2>
+    <div>
+      <h2 className='Skills-title'>Skills</h2>
 
-          {userData.skills.map(({ name, percentage }, idx) => (
+      {userData.skills.map(({ name, percentage }, idx) => (
 
-            <div className='Skills-item' id={`${idx}-${idx}`} >
-              <h4>{name} - {percentage}</h4>
-            </div>
-          ))}
+        <div className='Skills-item' key={`${idx}-${idx}`} >
+          <h4>{name} - {percentage}</h4>
         </div>
-      }
-    </>
+      ))}
+    </div>
   )
 };
 
