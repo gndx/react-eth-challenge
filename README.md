@@ -63,3 +63,16 @@ Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en 
 ### Licencia
 
 frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+
+# Documentación 
+## Tests
+Se modificaron los test sin cambiar la lógica, se cambió el metodo mount() por shallow() y se añadió datos para poder evaluar los componentes de react.
+
+## Estilos
+Se usó bulma css para añadir estilos rapidamente a los componentes de la web
+
+## Datos
+Se modificó la función getData para que consulte la información a través del método fetch, para este caso, los datos se piden del repositorio de github.
+
+## Deploy
+La aplicación se puede encontrar en: [https://andiazo-cv.vercel.app/](https://andiazo-cv.vercel.app/)
