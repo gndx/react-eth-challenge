@@ -1,0 +1,153 @@
+{
+  "data": {
+    "name": "Ignacio Presas",
+    "profession": "Frontend Developer",
+    "address": "Buenos Aires, Argentina",
+    "email": "Linkedin",
+    "website": "Github",
+    "phone": "+54 11 1111-1111",
+    "avatar": "./assets/profile.png",
+    "Profile": "Descubrí que con la tecnología tengo el poder de crear soluciones que impacten el mundo entero, descubrí que gracias a la tecnología podría ayudar a construir un mundo mas justo, un mundo mejor. Actualmente soy estudiante de Ingeniería Electrónica, trabajo como desarrollador frontend y me estoy formando como desarrollador en Ethereum y Web3.",
+    "certificate": [
+      {
+        "date": "Jan 2021",
+        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "institution": "Platzi",
+        "name": "FrontEnd Developer"
+      },
+      {
+        "date": "Jan 2021",
+        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "institution": "Platzi",
+        "name": "Backend Developer"
+      }
+    ],
+    "Academic": [
+      {
+        "degree": "Ingeniería Electrónica",
+        "description": "Me encuentro cursando el primer año de la carrera universitaria, durante todo el camino que me espera mi misión es formarme como ingeniero, entender y crear tecnología, aprender a entender la realidad desde una perspectiva científica, y poder aplicar todo eso en desarrollar soluciones con un impacto real en el mundo.",
+        "site": "https://utn.edu.ar/es/",
+        "institution": "Universidad Tecnologica de Buenos Aires"
+      },
+      {
+        "degree": "Fundamentals of Hacking and Defense",
+        "description": "Durante mi formación, desarrolle mi conocimiento en seguridad informática desde las bases mas elementales hasta escenarios y casos reales, el aprendizaje consistió tanto en contenido teórico y practico en todas las áreas de la tecnología, desde la computación en la nube hasta infraestructuras criticas.",
+        "site": "https://hackademy.ekoparty.org/",
+        "institution": "Ekoparty Hackademy"
+      },
+      {
+        "degree": "Ecosistema Crypto & DeFi 101",
+        "description": "Mi formación en este curso consistió en desarrollar conocimientos en el ecosistema de crypto y defi, partimos desde el inicio entendiendo las bases, hasta las tecnologías actuales como Ethereum, Smart Contracts, redes L2, Bitcoin junto a Lighting Network, y también aprendimos a entender como funcionan las principales plataformas de finanzas descentralizadas y su uso.",
+        "site": "https://campus.defyeducation.com/courses/crypto-defi",
+        "institution": "Defy Education"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Valtech",
+        "site": "https://www.valtech.com/es-ar/",
+        "startDate": "Dic 2021",
+        "endDate": "Present",
+        "jobDescription": "En mi puesto actual me encuentro trabajando en un equipo multidisciplinario atendiendo las necesidades de los clientes, ya sea desarrollando nuevas funcionalidades o solucionando problemas que se presentan en el sistema.",
+        "jobStack": "Mi stack tecnologico dentro de mi trabajo abarca Javascript, React con Redux y su framework Next.js, CSS y Styled Components.",
+        "jobTitle": "Frontend Development"
+      },
+      {
+        "company": "Hackear",
+        "site": "https://www.hackear.com.ar/",
+        "startDate": "Dic 2021",
+        "endDate": "Present",
+        "jobDescription": "Hackear es un proyecto en el cual formo parte como colaborador junto a un gran equipo multidisciplinario, todos juntos trabajamos en desarrollar una plataforma que brinde la oportunidad de aprender y formarte en seguridad informática mediante la practica sobre entornos controlados y maquinas virtuales seguras, acompañadas de material teórico hecho por el mismo equipo de Hackear.",
+        "jobStack": "El stack tecnologico utilizado para la plataforma es Javascript, React con Redux, Firebase, CSS y TailwindCSS.",
+        "jobTitle": "Core Technical Member"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "img": "./assets/skill-icons/html.svg"
+      },
+      {
+        "name": "CSS",
+        "img": "./assets/skill-icons/css.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "img": "./assets/skill-icons/tailwindcss.png"
+      },
+      {
+        "name": "SaSS",
+        "img": "./assets/skill-icons/SaSS.svg"
+      },
+      {
+        "name": "JavaScript",
+        "img": "./assets/skill-icons/javascript.svg"
+      },
+      {
+        "name": "React",
+        "img": "./assets/skill-icons/react.svg"
+      },
+      {
+        "name": "Next.js",
+        "img": "./assets/skill-icons/next-js.svg"
+      },
+      {
+        "name": "ether.js",
+        "img": "./assets/skill-icons/etherjs.png"
+      },
+      {
+        "name": "C",
+        "img": "./assets/skill-icons/c.svg"
+      },
+      {
+        "name": "Cybersecurity",
+        "img": "./assets/skill-icons/cibersecurity.svg"
+      },
+      {
+        "name": "Solidity",
+        "img": "./assets/skill-icons/ethereum.svg"
+      },
+      {
+        "name": "Alchemy",
+        "img": "./assets/skill-icons/alchemy.png"
+      },
+      {
+        "name": "Firebase",
+        "img": "./assets/skill-icons/firebase.svg"
+      },
+      {
+        "name": "Git",
+        "img": "./assets/skill-icons/git.svg"
+      }
+    ],
+    "interest": "",
+    "languages": [
+      {
+        "name": "Español",
+        "percentage": "100%"
+      },
+      {
+        "name": "Ingles",
+        "percentage": "80%"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://facebook.com/"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/"
+      }
+    ]
+  }
+}

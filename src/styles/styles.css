@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Rajdhani:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.glass {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+
+.glass-card {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(8px);
+}
+
+.neon-poap {
+    animation: flicker 5s infinite alternate; 
+    border: 0.12rem solid #fff;
+}
+
+.neon-border {
+    border: 0.12rem solid #fff;
+    box-shadow: 
+                0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 0.2rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 1.5rem #bc13fe,
+                inset 0 0 0.7rem #bc13fe;
+}
+
+.neon-name {
+    font-size: 2.2rem;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+}
+
+.neon-text {
+    text-shadow:
+    0 0 7px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+}
+
+.neon-title {
+    font-size: 2rem;
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 21px #fff,
+    0 0 42px #5271ff,
+    0 0 82px #5271ff,
+    0 0 92px #5271ff,
+    0 0 102px #5271ff,
+    0 0 151px #5271ff;
+}
+
+.neon-link {
+    font-size: 1.6rem;
+}
+
+.neon-link:hover {
+    transition: 0.2s;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+}
+
+.neon-social:hover {
+    transition: 0.2s;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;    
+}
+
+.divider {
+    border: 0.2px solid #fff;
+    box-shadow: 
+    0 0 0.2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 1.5rem #bc13fe,
+    inset 0 0 0.7rem #bc13fe;
+}
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #5271ff,
+        0 0 80px #5271ff,
+        0 0 90px #5271ff,
+        0 0 100px #5271ff,
+        0 0 150px #5271ff;
+    box-shadow: 
+                0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 0.2rem #5271ff,
+                0 0 0.8rem #5271ff,
+                0 0 1.5rem #5271ff,
+                inset 0 0 0.7rem #5271ff;
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+      box-shadow: none;
+    }
+  }
