@@ -8,19 +8,24 @@ import Academic from '../components/Academic/Academic';
 import Skills from '../components/Skills/Skills';
 import Interest from '../components/Interest/Interest';
 import Languages from '../components/Languages/Languages';
+import { AppProvider } from '../components/AppContext';
 
 const App = () => {
+
   return (
-    <main className="cv-container">
-      <Header />
-      <Languages />
-      <Profile />
-      <Experience />
-      <Academic />
-      <About />
-      <Skills />
-      <Interest />
-    </main>
+
+    <AppProvider>
+      <main className="cv-container">
+        <Header />
+        <Languages />
+        <Profile />
+        <Experience />
+        <Academic />
+        <About />
+        <Skills />
+        <Interest />
+      </main>
+    </AppProvider>
   )
 };
 

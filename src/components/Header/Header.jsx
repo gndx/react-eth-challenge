@@ -1,17 +1,26 @@
 import React from 'react';
 import "./Header.scss";
+import { AppContext } from '../AppContext';  
 
 
 const Header = () => {
 
+    const { data } = React.useContext(AppContext);
+
+    const { name, profession, phone, email, address, website } = data;
+
+    let values = email ? Object.values(email) : "hola" ;
+
+    console.log(values)
+
     return (
         <section className='Header'>
-            <h1 className='Header-title'>Leandro Gavidia Santamaria</h1>
-            <p>React front-end developer</p>
+            <h1 className='Header-title'>{name}</h1>
+            <p>{profession}</p>
             <ul>
                 <li>
                     <strong>Phone:</strong>
-                    <a href="https://wa.me/584122249713" target="_blank" title="Phone"> +58 0412-224-9713</a>
+                    <a href="{phone.url}" target="_blank" title="Phone"> </a>
                 </li>
                 <li>
                     <strong>Email:</strong>
@@ -21,7 +30,7 @@ const Header = () => {
                     <strong>Website:</strong>
                     <a href="https://github.com/LeanderGS" target="_blank" title="Website"> GitHub profile</a>
                 </li>
-                <li><strong>Location:</strong> Caracas, Venezuela</li>
+                <li><strong>Location:</strong> {address}</li>
             </ul>
         </section>
     )
