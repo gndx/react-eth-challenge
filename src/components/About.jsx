@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const About = ({data}) => {
+const About = ({data = [{}]}) => {
     return (
         <div>
             <h5 className='h4 About-title'>{data.profession}</h5>

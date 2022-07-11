@@ -1,7 +1,7 @@
-import React from 'react'
-import Container from '../styles/components/Container'
+import React from 'react';
+import Container from '../styles/components/Container';
 
-const Skills = ({ skills }) => {
+const Skills = ({skills = [{}, {}, {}]}) => {
     return (
         <Container>
             <h3 className='title Skills-title'>Skills</h3>
@@ -26,6 +26,5 @@ const Skills = ({ skills }) => {
         </Container>
     )
 }
-
 
 export default Skills;

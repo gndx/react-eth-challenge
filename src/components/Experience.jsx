@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '../styles/components/Container';
 
-const Experience = ({ experience }) => {
+const Experience = ({experience = [{}, {}, {}]}) => {
     return (
         <Container >
             <h3 className='title Experience-title'>Work Experience</h3>
