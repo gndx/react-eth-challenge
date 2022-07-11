@@ -4,27 +4,25 @@ import ProgressBar from './ProgressBar';
 
 const Skills = ({ data }) => {
   return (
-    <div className="Skills">
-      <h2 className="Skills-title">Skills</h2>
+    <div className='Skills'>
+      <h2 className='Skills-title'>Skills</h2>
       <ul>
         {
           data ?
-              data.map((skill, index) => {
-                return (
-                  <li key={index} className="Skills-item">
-                    <ProgressBar
-                      name={ skill.name }
-                      percentage={ skill.percentage }
-                    />
-                  </li>
-                )
-              })
-            :
-              <>Cargando data...</>
+            data.map((skill) => {
+              return (
+                <li key={skill.name} className='Skills-item'>
+                  <ProgressBar
+                    name={skill.name}
+                    percentage={skill.percentage}
+                  />
+                </li>
+              );
+            }) : <>Cargando data...</>
         }
       </ul>
     </div>
   );
-}
+};
 
 export default Skills;
