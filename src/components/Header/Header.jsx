@@ -5,7 +5,7 @@ import { AppContext } from '../AppContext';
 
 const Header = () => {
 
-    const { data } = React.useContext(AppContext);
+    const data = React.useContext(AppContext);
 
     const { name, profession, phone, email, address, website } = data;
 
@@ -24,16 +24,11 @@ const Header = () => {
                 <li>
                     <strong>Email:</strong>
                     <a 
-                        href={email ? email.url : ""} 
-                        target="_blank" 
-                        title="Email"> {email ? email.name : ""}</a>
+                    href={email ? email.url : ""} target="_blank" title="Email"> {email ? email.name : ""}</a>
                 </li>
                 <li>
                     <strong>Website:</strong>
-                    <a 
-                        href={website ? website.url : ""} 
-                        target="_blank" 
-                        title="Website"> {website ? website.name : ""}</a>
+                    <a href={website ? website.url : ""} target="_blank" title="Website"> {website ? website.name : ""}</a>
                 </li>
                 <li><strong>Location:</strong> {address}</li>
             </ul>

@@ -5,7 +5,7 @@ import { AppContext } from "../AppContext";
 
 const Academic = () => {
 
-    const { data } = React.useContext(App);
+    const { data } = React.useContext(AppContext);
     const { academic } = data;
 
     return (
@@ -22,31 +22,6 @@ const Academic = () => {
                         type={aca.type}
                         date={aca.date}
                     />) : "" }
-                
-                <AcademicItem 
-                    className="Academic-item"
-                    career="Bachelor’s degree in systems engineering, information technology and telematics."
-                    institution="Tech technological university"
-                    institutionUrl="https://www.techtitute.com/"
-                    date="December 2021 - December 2025"
-                    type="Remote"
-                />
-                <AcademicItem 
-                    className="Academic-item"
-                    career="Blockchain and cryptocurrency, JavaScript and English schools."
-                    institution="Platzi"
-                    institutionUrl="https://platzi.com"
-                    date="October 2021 - Undefined"
-                    type="Remote"
-                />
-                <AcademicItem 
-                    className="Academic-item"
-                    career="IBM Courses full stack cloud developer."
-                    institution="EDx"
-                    institutionUrl="https://www.edx.org/"
-                    date="July 2022 - Undefined"
-                    type="Remote"
-                />
             </ol>
         </section>
     );

@@ -21,7 +21,7 @@ const Experience = () => {
                             className="Experience-item"
                             position={exp.position}
                             company={exp.company}
-                            companyUrl={exp.companyUrl}
+                            companyUrl={exp.url}
                             date={exp.date}
                             description={exp.jobDescription}
                         />) : "" }

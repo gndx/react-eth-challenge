@@ -9,6 +9,7 @@ import Skills from '../components/Skills/Skills';
 import Interest from '../components/Interest/Interest';
 import Languages from '../components/Languages/Languages';
 import { AppProvider } from '../components/AppContext';
+import { AppContext } from '../components/AppContext';
 
 const App = () => {
 

@@ -3,6 +3,8 @@
 @mixin sectionStyle {
     width: 100%;
     border-bottom: $primary-color 0.1rem solid;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 @mixin linkStyle {
