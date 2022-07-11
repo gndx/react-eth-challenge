@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Uchiha Sasuke",
+    "profession": "Kage ninja developer",
+    "address": "Konoha, Japan.",
+    "email": "uchiha_sasuke@konohavillage.com",
+    "website": "https://uchihaclan.jp",
+    "phone": "+81 88-683-6262",
+    "avatar": "https://pbs.twimg.com/media/D8wvWZoXoAAjyzb.jpg",
+    "Profile": "I Hate A Lot Of Things, And I Don't Particularly Like Anything. I'll Become Hokage Fullstack",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,68 +24,113 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Fullstack ninja dev",
+        "description": "FullStack ninja developer certificate",
+        "endDate": "Apr 2008",
+        "institution": "Orochimaru Academy",
+        "startDate": "Jun 2005"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Jōnin Backend",
+        "description": "Backend Jōnin basic certificate",
+        "endDate": "Jun 2005",
+        "institution": "Konoha Academy",
+        "startDate": "Feb 2005"
+      },
+      {
+        "degree": "Genin Frontend",
+        "description": "Frontend Genin basic certificate",
+        "endDate": "Feb 2003",
+        "institution": "Konoha Academy",
+        "startDate": "Nov 2002"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Konoha Village",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Complex village protection missions with all the skills I have acquired over my years of experience.",
+        "jobTitle": "Kage ninja developer",
+        "startDate": "Apr 2008"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "On my own",
+        "endDate": "Apr 2008",
+        "jobDescription": "Field missions where I improve my recent skills and solve pending cases from my past life, this makes me grow to the highest level.",
+        "jobTitle": "FullStack ninja developer",
+        "startDate": "Jan 2008"
+      },
+      {
+        "company": "Orochimaru & co",
+        "endDate": "Jan 2008",
+        "jobDescription": "Intensive training to boost my skills with all kinds of techniques to become a Fullstack. I end up outdoing my boss",
+        "jobTitle": "Jōnin Backend",
+        "startDate": "Jun 2005"
+      },
+      {
+        "company": "Konoha Village",
+        "endDate": "Jun 2005",
+        "jobDescription": "Research missions that have an impact on Konoha Village and direct dealings with the Hokage.",
+        "jobTitle": "Jōnin Backend",
+        "startDate": "Feb 2005"
+      },
+      {
+        "company": "Konoha Village",
+        "endDate": "Feb 2003",
+        "jobDescription": "More complex missions outside Konoha, accompanied by Konoha Team 7, teamwork.",
+        "jobTitle": "Chūnin Frontend",
+        "startDate": "Feb 2005"
+      },
+      {
+        "company": "Konoha Village",
+        "endDate": "Nov 2002",
+        "jobDescription": "First missions with Konoha Company 7, they all suck.",
+        "jobTitle": "Genin Frontend",
+        "startDate": "Feb 2003"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "HTML",
+        "percentage": "100"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "98"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "95"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "50"
+      },
+      {
+        "name": "Mangekyō Sharingan",
+        "percentage": "100"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "react",
+      "ninja"
     ],
     "languages": [
       {
+        "name": "Japanese",
+        "percentage": "100"
+      },
+      {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "50"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60"
       }
     ],
     "social": [

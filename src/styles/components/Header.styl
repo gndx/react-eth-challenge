@@ -1,0 +1,43 @@
+header.Header
+  background: #6f73d2;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  @media (max-width: 992px)
+    display: flex;
+    flex-direction: column;
+  img.Avatar
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 5px solid #fff;
+    margin: 10px auto;
+    padding: 4px;
+  article.Card
+    color: white;
+    h1.Header-title
+      margin: 0px;
+      font-size: 30px;
+    @media (max-width: 992px)
+      h1.Header-title
+        text-align: center;
+    ul
+      list-style: none;
+      padding: 0;
+      @media (min-width: 992px)
+        display: inline-flex;
+      li
+        @media (max-width: 992px)
+          line-height: 30px;
+          text-align: center;
+        @media (min-width: 992px)
+          margin-right: 10px;
+          &:after
+            position: absolute;
+            content: ' | ';
+          &:last-child
+            &:after
+              content: ' ';

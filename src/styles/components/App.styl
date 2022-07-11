@@ -1,2 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Open+Sans:wght@300&display=swap');
+
 body
-  background-color blue
+  background-color #D9F0FF
+  font-family: 'Gloria Hallelujah', cursive;
+  div#app
+    width: 90%;
+    margin: 0 5%;
+  a
+    color: #6F73D2;
+  h2
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+ .c-Profile, .c-Experience, .c-Extras
+    article.Card
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin: 10px 0px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      letter-spacing: 1px;
+      h2
+        font-family: 'Gloria Hallelujah', cursive;
+        border-bottom: 4px dotted #fff;
+        border-top: 4px dotted #fff;
+        letter-spacing: 2px;
+        font-size: 30px;
+        color: #ffffff;
+        padding-left: 10px;
+  .c-Extras
+    @media (min-width: 992px)
+      display: grid;
+      grid-template-columns: 50% 50%;
+      gap: 10px;
+    article.Card
+      background: #ABE188;
+      color: #5D675B;
+      ul
+        list-style: none;
+        padding: 0 10px;
+        li.Skills-item, li.Languages-item
+          display: grid;
+          grid-template-columns: 30% 60%;
+          align-items: center;
+          gap: 20px;
+          h3
+            font-weight: bold;
+            padding-right: 20px;
