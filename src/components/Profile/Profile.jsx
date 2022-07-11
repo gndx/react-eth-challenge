@@ -6,12 +6,12 @@ const Profile = () => {
 
     const { data } = React.useContext(AppContext);
     
-    const { Profile } = data;
+    const { profile } = data;
 
     return (
         <section className="Profile">
             <h2 className='Profile-title'>Profile</h2>
-            <p className="Profile-desc">{Profile}</p>
+            <p className="Profile-desc">{profile}</p>
         </section>
     )
 }

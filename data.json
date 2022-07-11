@@ -45,24 +45,21 @@
         "position": "Wordpress web developer",
         "company": "Brooklyn Chile",
         "url": "https://brooklynchile.cl/",
-        "startDate": "November 2021",
-        "endDate": "Present",
+        "date": "November 2021 - Present",
         "jobDescription": "My achievements within the agency have focused on improving the agency's website, both in design, code, and performance. Currently, my main function is to create different web products for agency clients."
       },
       {
         "position": "Webmaster",
         "company": "4qui",
         "url": "https://www.linkedin.com/company/4qui/about/",
-        "startDate": "April 2021",
-        "endDate": "November 2021",
+        "date": "April 2021 - November 2021",
         "jobDescription": "Within the company, my main challenge was focused on managing and improving a subscription system for different services through different websites created with WordPress and Shopify. These services were aimed at the Spanish public. On the other hand, another achievement within the company was leading a small team of 3 people, which, thanks to task and time management tools and the Scrum methodology, was a success."
       },
       {
         "position": "Shopify web developer",
         "company": "El Chollo España",
         "url": "https://www.instagram.com/elchollo.es/",
-        "startDate": "June 2020",
-        "endDate": "February 2021",
+        "date": "June 2020 - February 2021",
         "jobDescription": "An online store was created through the Shopify platform using the “Drop-shipping” sales model. This same store, together with conversion campaigns in Facebook ADS and the Facebook Pixel, managed to obtain a ROAS (return on advertising investment) greater than 5."
       }
     ],
