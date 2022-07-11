@@ -3,14 +3,7 @@ class About extends React.Component {
   constructor(props) {
     super(props)
 
-      this.state = { social : props.social || 
-        [
-          {"name": "facebook", "url": "https://facebook.com/"},
-          {"name": "twitter", "url": "https://twitter.com/"},
-          {"name": "github","url": "https://github.com/"},
-          {"name": "linkedin","url": "https://www.linkedin.com/"}
-        ]
-      }
+      this.state = { social : props.social || Array(4).fill({}) }
     }
     render() {
       return (
@@ -18,9 +11,9 @@ class About extends React.Component {
           <div className="level-left About-title">         
             {
               this.state.social.map((media, k) =>
-              <a className="level-item About-item" href={media.url} key={k}>
-                <span className="icon is-small">
-                  <i className={"fa fa-"+ media.name}></i>&nbsp;                    
+              <a className="level-item About-item has-text-white" href={media.url} key={k}>
+                <span className="icon is-large">
+                  <i className={"fa fa-2x fa-"+ media.name}></i>&nbsp;                    
                 </span>
               </a>
               )            
