@@ -8,7 +8,7 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
-import getData from '../utils/getData.js'
+import getData from '../utils/getData';
 
 const App = () => {
   const [list, setList] = useState([]);
