@@ -1,9 +1,14 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Profile from '../../components/Profile';
 
 describe('<Profile />', () => {
-  const profile = mount(<Profile />);
+
+  const userData = {
+    Profile: ''
+  };
+
+  const profile = shallow(<Profile userData={userData} />);
 
   test('Profile render', () => {
     expect(profile.length).toEqual(1);

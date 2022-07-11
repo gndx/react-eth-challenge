@@ -1,9 +1,19 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Languages from '../../components/Languages';
 
 describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+
+  const userData = {
+    languages: [{
+      name: 'javascript', percentage: '',
+    }, {
+      name: 'develop', percentage: '',
+    }, {
+      name: 'backend', percentage: '',
+    }]
+  };
+  const languages = shallow(<Languages userData={userData} />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);

@@ -1,9 +1,16 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Academic from '../../components/Academic';
 
 describe('<Academic />', () => {
-  const academic = mount(<Academic />);
+
+  const userData = {
+    Academic: [{ degree: '', description: '', institution: '', startDate: '', endDate: '' },
+    { degree: '', description: '', institution: '', startDate: '', endDate: '' },
+    { degree: '', description: '', institution: '', startDate: '', endDate: '' }
+    ]
+  };
+  const academic = shallow(<Academic userData={userData} />);
 
   test('Academic render', () => {
     expect(academic.length).toEqual(1);

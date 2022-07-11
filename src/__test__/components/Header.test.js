@@ -1,9 +1,15 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Header from '../../components/Header';
 
 describe('<Header />', () => {
-  const header = mount(<Header />);
+
+  const userData = {
+    avatar: '',
+    name: ''
+  };
+  
+  const header = shallow(<Header userData={userData} />);
 
   test('Header render', () => {
     expect(header.length).toEqual(1);

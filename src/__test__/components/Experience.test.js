@@ -1,9 +1,18 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Experience from '../../components/Experience';
 
 describe('<Experience />', () => {
-  const experience = mount(<Experience />);
+  const userData = {
+    experience: [{
+      jobTitle: '', jobDescription: '', company: '', startDate: '', endDate: ''
+    }, {
+      jobTitle: '', jobDescription: '', company: '', startDate: '', endDate: ''
+    }, {
+      jobTitle: '', jobDescription: '', company: '', startDate: '', endDate: ''
+    }]
+  };
+  const experience = shallow(<Experience userData={userData} />);
 
   test('Experience render', () => {
     expect(experience.length).toEqual(1);

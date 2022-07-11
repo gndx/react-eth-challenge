@@ -1,109 +1,187 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Edgar A Guevara ",
+    "profession": "Senior Java Development Engineer | Technical leader Web Development",
+    "address": "Panamá City, Panamá.",
+    "email": "edgarguevara33@gmail.com",
+    "website": "",
+    "phone": "+507 6600 6089",
+    "avatar": "https://avatars.githubusercontent.com/u/7269022?s=96&v=4",
+    "Profile": "I am a software engineer with 7+ year experience in software development, in multiples projects and solutions like enterprise portals for banking and telecommunications Companies. \n\n I am currently serving as a technical leader and senior development in following technologies: \n Liferay DXP v7.2, Angular 7, Sass, Bootstrap 3, Clarity, NPM, Maven, JAVA 12, REST-API with JWT and GIT.\n About me, I could say I am passionate about all technology's world, and also could describe myself as a very hard-working, self-critical, self-taught, and proactive person, always I want to be the better me, so that I use all my skills to prepare to create a better world through the last technologies. ",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Oct 2021",
+        "description": "Liferay DevOps 7.2 ",
+        "institution": "Liferay",
+        "name": "Liferay DevOps 7.2 "
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Oct 2021",
+        "description": "Liferay Fundamentals 7.2 ",
+        "institution": "Liferay",
+        "name": "Liferay Fundamentals 7.2 "
+      },
+      {
+        "date": "Oct 2021",
+        "description": "Liferay Front-End Developer 7.2 ",
+        "institution": "Liferay",
+        "name": "Liferay Front-End Developer 7.2 "
+      },
+      {
+        "date": "Jan 2022",
+        "description": "English Leve 8 Aling to Level B2 of CEFR.",
+        "institution": "Open English",
+        "name": "English Leve 8 Aling to Level B2 of CEFR."
+      },
+      {
+        "date": "Nov 2021",
+        "description": "Essential Google Cloud Infrastructure : Core Services",
+        "institution": "Google Cloud",
+        "name": "Essential Google Cloud Infrastructure : Core Services"
+      },
+      {
+        "date": "Nov 2021",
+        "description": "Reliable Google Cloud Infrastructure: Design and Process",
+        "institution": "Google Cloud",
+        "name": "Reliable Google Cloud Infrastructure: Design and Process"
+      },
+      {
+        "date": "Nov 2021",
+        "description": "Elastic Google Cloud Infrastructure: Scaling and Automation",
+        "institution": "Google Cloud",
+        "name": "Elastic Google Cloud Infrastructure: Scaling and Automation"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ingeniero en Informática",
+        "description": "Ingeniería informática",
+        "endDate": "Jan 2014",
+        "institution": "Universidad 'Alejandro de Humboldt'",
+        "startDate": "Jan 2009"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Consultec-TI Corp",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "As a Senior Software Development Engineer to one Local bank which is a client of Consultec-TI  where I am responsible development of new features to an integral business solution based on AWS cloud microservices",
+        "jobTitle": "Senior Software Development Engineer",
+        "startDate": "Feb 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Consultec-TI Corp",
+        "endDate": "Feb 2021",
+        "jobDescription": "As a Senior Technical / Developer leader, my role was based on: \n Provide technical support for the creation of functionalities definitions within an omnichannel banking solution, specifically in the WEB channel that is based on Liferay DXP v7.2. \n Technically support and guidance to the development team following good programming practices as the latest standards in the market. \n Study together with the team of technical leaders the new tools on the market, as well as determine the different mechanisms to make the application faster, fully functional, and sustainable over time. \n Maintain and support the different implementations of the solution, keeping that the structure of the main product. \n Manage, together with the infrastructure team, all the necessary components for the generation of the project's CI / CD.",
+        "jobTitle": "Software Developer Technical Lead",
+        "startDate": "Dec 2018"
+      },
+      {
+        "company": "Consultec-TI Corp",
+        "endDate": "Dec 2018",
+        "jobDescription": "Worked as Senior Software Developer and team leader to one Local bank, where I had the responsibility of leadership the development of new features to an integral business solution based Liferay DXP7.0 \n And Java 1.8., APIs RESTfull, Gradle, AngularJS, Bootstrap 3, HTML5, GIT. \n Then I helped team up with all the necessary information to maintain the entire solution, and I had to create a work pattern within an agile team and create all the supporting documentation for future developers.",
+        "jobTitle": "Senior Software Developer Team Lead",
+        "startDate": "Oct 2016"
+      },
+      {
+        "company": "Consultec-TI Corp",
+        "endDate": "Oct 2016",
+        "jobDescription": "Worked with the following technologies:\n j2EE, Spring, Struts, PrimeFaces and Hibernate ORM.\n I helped with the maintenance of systems developed with WEB technologies by many different clients of the Company .",
+        "jobTitle": "Semi Senior Software Developer",
+        "startDate": "Jul 2015"
+      },
+      {
+        "company": "Consultec-TI Corp",
+        "endDate": "Jul 2015",
+        "jobDescription": "Worked with PHP 4 and 5, JavaScript with JQUERY, for templates used HTML5 and CCS3 with Bootstrap, then I helped with maintenance of systems developed with those technologies. \n I leadership the change of technology department that included using PHP 5.4 with framework PhalconPHP and using GIT to manage version of source code, including GitLab.",
+        "jobTitle": "Software analyst Jr",
+        "startDate": "Sep 2014"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
+      },
+      {
+        "name": "Bootstrap",
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
         "name": "React",
         "percentage": "90%"
+      },
+      {
+        "name": "AngulaJs",
+        "percentage": "90%"
+      },
+      {
+        "name": "Angular 7+",
+        "percentage": "90%"
+      },
+      {
+        "name": "Java 15+",
+        "percentage": "90%"
+      },
+      {
+        "name": "Spring-boot",
+        "percentage": "90%"
+      },
+      {
+        "name": "Python",
+        "percentage": "60%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "70%"
+      },
+      {
+        "name": "PostgreSQL",
+        "percentage": "70%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Develop",
+      "Backend",
+      "Frontend",
+      "WEB3",
+      "Cloud"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/profile.php?id=100013245370462"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/thecrash17"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/EdgarAGuevara"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/edgar-alexander-guevara-naranjo-a46655b9/"
       }
     ]
   }
