@@ -5,8 +5,8 @@ import Container from '../styles/Container';
 const Profile = () => {
     return (
         <Container>
-            <h3 className='h2 title'>.Profile-title</h3>
-            <p>.Profile-desc</p>
+            <h3 className='h2 title Profile-title'>.Profile-title</h3>
+            <p className='Profile-desc'>.Profile-desc</p>
         </Container>
     )
 }

@@ -5,11 +5,11 @@ import Container from '../styles/Container';
 const Languages = () => {
     return (
         <Container>
-            <h3 className='h2 title'>.Language-title</h3>
+            <h3 className='h2 title Languages-title'>.Languages-title</h3>
             <div className='container-columns-text-exp'>
-                <p>.Experience-item</p>
-                <p>.Experience-item</p>
-                <p>.Experience-item</p>
+                <p className='Languages-item'>.Languages-item</p>
+                <p className='Languages-item'>.Languages-item</p>
+                <p className='Languages-item'>.Languages-item</p>
             </div>
         </Container>
     )
