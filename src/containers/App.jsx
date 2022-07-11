@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/components/App.css';
+import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -13,13 +14,16 @@ import getData from '../utils/getData';
 function App() {
   const [user, setUser] = useState(undefined);
 
-  const API = process.env.SERVER || 'https://raw.githubusercontent.com/Miguel-Huaman/react-eth-challenge-test/main/data.json';
+  const API = process.env.SERVER || 
+  'https://raw.githubusercontent.com/Miguel-Huaman/react-eth-challenge/main/data.json';
 
   useEffect(() => {
-    const data = getData(API);
-    data.then((data) => {
-      const { data: info } = data;
-      (!info) ? setUser(data) : setUser(info);
+    const getUserData = getData(API);
+    getUserData.then((data) => {
+      const { data: userInfo } = data;
+      (!userInfo)?
+      setUser(data):
+      setUser(userInfo);
     });
   }, []);
 

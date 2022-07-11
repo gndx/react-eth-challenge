@@ -1,5 +1,6 @@
 import React from 'react';
 import Item from './Item';
+import '../styles/components/Academic.css';
 
 function Academic({ academic = Array(3).fill({
   degree: '',
@@ -7,15 +8,13 @@ function Academic({ academic = Array(3).fill({
   endDate: '',
   institution: '',
   startDate: '',
-}), certificate = Array(3).fill({
-  date: '',
-  description: '',
-  institution: '',
-  name: '',
-}) }) {
+})
+}) {
   return (
-    <section className='AcademicContainer'>
-      <h2 className='Academic-title'>Academic</h2>
+    <section className='Academic-Container'>
+      <h3 className='Academic-title'>
+        Academic achievements
+      </h3>
       {
         academic.map(({
           degree,
@@ -24,32 +23,11 @@ function Academic({ academic = Array(3).fill({
           institution,
           startDate,
         }, index) => (
-          <Item
-            className='Academic-item'
-            title={degree}
-            sub={institution}
-            description={description}
-            date={`${startDate}-${endDate}`}
-            key={`academic-${index}`}
-          />
-        ))
-      }
-      <h2 className='Certificate-title'>Certificates</h2>
-      {
-        certificate.map(({
-          date,
-          description,
-          institution,
-          name,
-        }, index) => (
-          <Item
-            className='Certificate-item'
-            title={name}
-            sub={institution}
-            description={description}
-            date={date}
-            key={`certificate-${index}`}
-          />
+          <div key={index}>
+            <h4>{degree}</h4>
+            <p>{institution} - {description}</p>
+            <p>{startDate} - {endDate}</p>
+          </div>
         ))
       }
     </section>

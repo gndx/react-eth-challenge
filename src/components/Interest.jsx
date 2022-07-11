@@ -1,25 +1,23 @@
 import React from 'react';
+import '../styles/components/Interests.css';
 
 function Interest({
   interest = Array(3).fill(''),
 }) {
   return (
-    <section>
-      <h2 className='Interest-title'>Interest</h2>
-      <ul>
-        {
-          interest.map((item, index) => {
+    <section className='Interests'>
+      <h3 className='Interest-title'>
+        Personal interests beyond web development
+      </h3>
+      <div>
+        {interest.map((item, index) => {
             return (
-              <li
-                key={`interest-${index}`}
-                className='Interest-item'
-              >
+              <p key={index} className='Interest-item'>
                 {item}
-              </li>
+              </p>
             );
-          })
-        }
-      </ul>
+        })}
+      </div>
     </section>
   );
 }

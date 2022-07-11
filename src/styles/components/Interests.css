@@ -1,0 +1,13 @@
+.Interests div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 720px) {
+    .Interests p {
+        width: 50%;
+    }
+    .Interests div {
+        flex-direction: row;
+    }
+}
