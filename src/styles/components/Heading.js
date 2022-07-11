@@ -1,12 +1,34 @@
 import styled from "styled-components";
 
-const Heading = styled.header.attrs(() => ({
-    className: 'col-12 rounded-1',
-}))
-`
+const Heading = styled.header`
     font-weight: bold;
-    padding: 1em;
-    background-color: #168aad;
+    display: flex;
+    flex-direction:row;
+    column-gap: 1em;
+
+    .thumb {
+        width: 20%;
+
+        img {
+            width: 100%;
+            border-radius: 100%;
+        }
+    }
+
+    
+    h1 {
+        font-size: 20px;
+    }
+
+    h2, h3, h4, h5, p {
+        font-size: 14px;
+    }
+
+    p {
+        font-weight: lighter;
+        color: #AAAAAA;
+        margin-bottom: 0;
+    }
 `;
 
 export default Heading;
