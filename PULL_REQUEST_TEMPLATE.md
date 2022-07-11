@@ -13,7 +13,7 @@ Usuario rennypetit:
 - [x] Cuarto Problema
 - [x] Quinto Problema
 - [x] Sexto Problema
-- [] Septimo Problema
+- [x] Septimo Problema
 
 ### Instalación
 

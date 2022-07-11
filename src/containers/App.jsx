@@ -14,7 +14,9 @@ const App = () => {
   const [dataPerson, setDataPerson] = useState(false);
   useEffect(() => {
     const fetchDataPerson = async () => {
-      const data = await getData('http://localhost:3000/data');
+      const data = await getData(
+        'https://rennypetit.github.io/react-eth-challenge/data.json'
+      );
       setDataPerson(data);
     };
     fetchDataPerson();
