@@ -1,6 +1,7 @@
 {
   "name": "react-eth-challenge",
   "version": "1.0.0",
+  "homepage": " https://martiniglesias86.github.io",
   "description": "React Eth Challenge",
   "main": "index.js",
   "scripts": {
@@ -26,6 +27,7 @@
     "babel-loader": "8.2.5",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
+    "gh-pages": "^4.0.0",
     "html-loader": "3.1.2",
     "html-webpack-plugin": "5.5.0",
     "jest-fetch-mock": "3.0.3",
