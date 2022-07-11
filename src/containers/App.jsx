@@ -15,8 +15,8 @@ const App = () => {
 
   useEffect(() => {
     getData('http://127.0.0.1:3000/data')
-    .then(data => setCvData(data))
-    .catch(error => console.log(error));
+      .then(data => setCvData(data))
+      .catch(error => console.log(error));
   }, [])
 
   console.log(cvData)
@@ -24,8 +24,8 @@ const App = () => {
   return (
     <div className='container my-4'>
       <div className='row mb-3'>
-        <Header>
-          <About />
+        <Header
+          data={cvData}>
         </Header>
       </div>
       <div className='row mb-3'>

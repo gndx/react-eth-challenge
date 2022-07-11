@@ -1,17 +1,16 @@
 import React from 'react'
 import styled from 'styled-components';
 
-const About = () => {
+const About = ({data}) => {
     return (
         <div>
-            <h5 className='h3 About-title'>About</h5>
-            <p className='About-item'>.Header-job-title</p>
+            <h5 className='h4 About-title'>{data.profession}</h5>
             <div className='container-columns-txt'>
-                <p className='About-item'>.Header-phone</p>
-                <p className='About-item'>.Header-email</p>
-                <p className='About-item'>.Header-website</p>
+                <p className='About-item'>{data.phone}</p>
+                <p className='About-item'>{data.email}</p>
+                <p className='About-item'>{data.website}</p>
             </div>
-            <p className='About-item'>.Header-address</p>
+            <p className='About-item'>{data.address}</p>
         </div>
     )
 }
