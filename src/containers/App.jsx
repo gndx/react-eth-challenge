@@ -11,11 +11,11 @@ import '../styles/components/dist/App.css';
 import '../styles/components/dist/Header.css';
 import '../styles/components/dist/Card.css';
 import '../styles/components/dist/Avatar.css';
+import Card from '../components/Card.jsx';
 
 const App = () => {
   return (
     <>
-      {' '}
       <div className="App">
         <div className="App-container">
           <Header>
@@ -24,12 +24,18 @@ const App = () => {
           <Profile />
           <Experience />
           <div className="App-grid">
-            <Academic />
-            <Skills />
-          </div>
-          <div className="App-grid">
-            <Interest />
-            <Languages />
+            <div className="div1">
+              <Academic />
+            </div>
+            <div className="div2">
+              <Skills />
+            </div>
+            <div className="div3">
+              <Interest />
+            </div>
+            <div className="div4">
+              <Languages />
+            </div>
           </div>
         </div>
       </div>
