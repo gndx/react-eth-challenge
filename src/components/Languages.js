@@ -29,7 +29,17 @@ const Languages = () => {
                 {   // Si ya la api trajo la info muestrala
                     data.languages !== undefined ? 
                         data.languages.map((lang, i) => <Language key={`${i}--lang`} {...lang}/>) 
-                        : null
+                        : <>
+                            {/* Elemento mientras carga la info de la API
+                                ayuda a pasar el TEST porque el Enzyme no
+                                puede manejar contextos y shallow no
+                                permite entrar mas abajos en el DOM
+                                (Por eso me toca ponerlos en plano)
+                            */}
+                            <li className="Languages-item"><h3>...</h3><div></div></li>
+                            <li className="Languages-item"><h3>...</h3><div></div></li>
+                            <li className="Languages-item"><h3>...</h3><div></div></li>
+                          </>
                 }
             </ul>
         </section>

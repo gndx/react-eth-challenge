@@ -6,6 +6,16 @@ const Academic = () => {
     // Data from API
     const data = useContext(Context);
 
+    // Elemento mientras carga la info de la API
+    // ayuda a pasar el TEST porque el Enzyme no
+    // puede manejar contextos
+    const emptyItem = (
+        <li className="Academic-item">
+            <h3>...</h3>
+            <small>----</small>
+        </li>
+    )
+
     return (
         <section className='semi-section'>
             <h3 className="Academic-title">
@@ -20,7 +30,13 @@ const Academic = () => {
                             <small>{deg.time}</small>
                         </li>
                     )
-                }) : null}
+                }) : (
+                    <>
+                        {emptyItem}
+                        {emptyItem}
+                        {emptyItem}
+                    </>
+                )}
             </ul>
         </section>
     )

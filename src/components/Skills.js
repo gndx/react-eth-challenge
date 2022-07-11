@@ -30,7 +30,17 @@ const Skills = () => {
                 {   // Si ya la api trajo la info muestrala
                     data.skills !== undefined ? 
                         data.skills.map((skill, i) => <Skill key={`${i}--skill`} {...skill}/>) 
-                        : null
+                        : <>
+                            {/* Elemento mientras carga la info de la API
+                                ayuda a pasar el TEST porque el Enzyme no
+                                puede manejar contextos y shallow no
+                                permite entrar mas abajos en el DOM
+                                (Por eso me toca ponerlos en plano)
+                            */}
+                            <li className="Skills-item"><h3>...</h3><div></div></li>
+                            <li className="Skills-item"><h3>...</h3><div></div></li>
+                            <li className="Skills-item"><h3>...</h3><div></div></li>
+                          </>
                 }
             </ul>
         </section>

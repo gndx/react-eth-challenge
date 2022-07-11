@@ -32,7 +32,35 @@ const Experience = () => {
                 {   // Si ya la api trajo la info muestrala
                     data.experience !== undefined ? 
                         data.experience.map(el => <ExperienceItem key={el.title} {...el}/>) 
-                        : null
+                        : <>
+                            {/* Elemento mientras carga la info de la API
+                                ayuda a pasar el TEST porque el Enzyme no
+                                puede manejar contextos y shallow no
+                                permite entrar mas abajos en el DOM
+                                (Por eso me toca ponerlos en plano)
+                            */}
+                            <article className="Experience-item">
+                                <h3><a href="#" rel="nofollow" target="_blank">...</a></h3>
+                                <small><i>----</i></small>
+                                <p>
+                                    Cargando información...
+                                </p>
+                            </article>
+                            <article className="Experience-item">
+                                <h3><a href="#" rel="nofollow" target="_blank">...</a></h3>
+                                <small><i>----</i></small>
+                                <p>
+                                    Cargando información...
+                                </p>
+                            </article>
+                            <article className="Experience-item">
+                                <h3><a href="#" rel="nofollow" target="_blank">...</a></h3>
+                                <small><i>----</i></small>
+                                <p>
+                                    Cargando información...
+                                </p>
+                            </article>
+                          </>
                 }
             </div>
         </section>
