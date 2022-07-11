@@ -15,8 +15,7 @@ const Academic = ({ data }) => {
                   className='Academic-item'
                 >
                   <h3>
-                    {academicItem.institution}
-                    |
+                    {`${academicItem.institution} | `}
                     <span>
                       {academicItem.startDate}
                     </span>
