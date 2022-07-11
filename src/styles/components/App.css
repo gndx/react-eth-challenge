@@ -69,16 +69,20 @@
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .Header-phone {
   padding-right: 10px;
 }
+
 .Header-email {
   padding-right: 10px;
 }
+
 .Header-website {
   padding-right: 10px;
   color: rgb(124, 181, 255);
 }
+
 .Header-adress {
   padding-top: 15px;
 }
