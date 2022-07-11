@@ -3,7 +3,13 @@ import { shallow } from 'enzyme';
 import Header from '../../components/Header';
 
 describe('<Header />', () => {
-  const header = shallow(<Header />);
+
+  const userData = {
+    avatar: '',
+    name: ''
+  };
+  
+  const header = shallow(<Header userData={userData} />);
 
   test('Header render', () => {
     expect(header.length).toEqual(1);

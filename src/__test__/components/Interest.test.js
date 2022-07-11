@@ -3,7 +3,11 @@ import { shallow } from 'enzyme';
 import Interest from '../../components/Interest';
 
 describe('<Interest />', () => {
-  const interest = shallow(<Interest />);
+
+  const userData = {
+    interest: ['javascript', 'develop', 'frontend']
+  };
+  const interest = shallow(<Interest userData={userData} />);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);

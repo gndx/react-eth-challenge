@@ -3,7 +3,14 @@ import { shallow } from 'enzyme';
 import Academic from '../../components/Academic';
 
 describe('<Academic />', () => {
-  const academic = shallow(<Academic />);
+
+  const userData = {
+    Academic: [{ degree: '', description: '', institution: '', startDate: '', endDate: '' },
+    { degree: '', description: '', institution: '', startDate: '', endDate: '' },
+    { degree: '', description: '', institution: '', startDate: '', endDate: '' }
+    ]
+  };
+  const academic = shallow(<Academic userData={userData} />);
 
   test('Academic render', () => {
     expect(academic.length).toEqual(1);

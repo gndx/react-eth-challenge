@@ -3,7 +3,15 @@ import { shallow } from 'enzyme';
 import About from '../../components/About';
 
 describe('<About />', () => {
-  const about = shallow(<About />);
+
+  const userData = {
+    phone: '',
+    email: '',
+    website: '',
+    address: ''
+  };
+  
+  const about = shallow(<About userData={userData} />);
 
   test('About render', () => {
     expect(about.length).toEqual(1);

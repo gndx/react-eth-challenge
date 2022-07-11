@@ -3,7 +3,17 @@ import { shallow } from 'enzyme';
 import Skills from '../../components/Skills';
 
 describe('<Skills />', () => {
-  const skills = shallow(<Skills />);
+
+  const userData = {
+    skills: [{
+      name: 'HTML5', percentage: '',
+    }, {
+      name: 'CSS', percentage: '',
+    }, {
+      name: 'JAvascript', percentage: '',
+    }]
+  };
+  const skills = shallow(<Skills userData={userData} />);
 
   test('Skills render', () => {
     expect(skills.length).toEqual(1);
