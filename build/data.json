@@ -1,0 +1,153 @@
+{
+  "data": {
+    "name": "Renny Petit",
+    "profession": "Full stack Developer",
+    "address": "Bogotá, Colombia",
+    "email": "rennypetit01@gmail.com",
+    "website": "https://github.com/rennypetit",
+    "phone": "+573102287781",
+    "avatar": "https://avatars.githubusercontent.com/u/24458818?s=400&u=ba25f0431ca14b5c9605650bf3e3083a155ad0f8&v=4",
+    "Profile": "Desarrollador Web responsable, enfocado en su trabajo, que sigue normativas y reglamentos. De igual manera me gusta aprender nuevas tecnologías y herramientas que me ayuden a realizar mi labor de manera eficiente. Por otra parte, Soy colaborador y se trabajar en equipo.",
+    "certificate": [
+      {
+        "date": "Jul 2022",
+        "description": "Next.js te da la mejor experiencia de desarrollo en React.js con todas las características que necesitas para producción como Client Side Rendering, Server Side Rendering, Generación de Sitios Estáticos (ESG) y hasta despliegues a producción automáticos con Vercely. Aprende esto y comienza a crear sitios web profesionales listos para despliegue sin complicarte con configuraciones tediosas.",
+        "institution": "Platzi",
+        "name": "Curso de Next.js"
+      },
+      {
+        "date": "Jun 2022",
+        "description": "Aprende desarrollo web con NestJS, el framework de Node.js con mayor crecimiento. Conoce la estructura de proyectos backend en JavaScript con arquitectura escalable y construye una API REST siguiendo buenas prácticas de integrabilidad de datos. Impulsa tu carrera profesional como backend developer con tu profesor Nicolas Molina.",
+        "institution": "Platzi",
+        "name": "Curso de Backend con NestJS"
+      },
+      {
+        "date": "Jun 2022",
+        "description": "Crea aplicaciones móviles en ReactJS. Genera consultas en GraphQL y gestiona usuarios. Implementa Testing básico con Cypress y convierte tus apps en PWA con herramientas como Hooks, React Apollo, Reach Router y JSON Web Tokens.",
+        "institution": "Platzi",
+        "name": "Curso de React Avanzado"
+      },
+      {
+        "date": "mar 2020",
+        "description": "¡Convierte tus diseños en HTML y CSS a componentes reutilizables en React.js! Configura tu entorno de desarrollo con Webpack y Babel. Define los componentes, contenedores, rutas, react hooks de tu proyecto. Despliega tu proyecto a producción con Netlify. Conviértete en React Developer profesional con tu profesor Oscar Barajas.",
+        "institution": "Platzi",
+        "name": "React.js"
+      }
+    ],
+    "Academic": [
+      {
+        "degree": "Licenciado en Computación",
+        "description": "Licenciado en computación egresado de la universidad del Zulia núcleo Punto Fijo | Falcón | Venezuela",
+        "endDate": "Jun 2017",
+        "institution": "Universidad del Zulia",
+        "startDate": "mar 2013"
+      },
+      {
+        "degree": "Técnico Medio en Comercio y Servicios Administrativos Mención Informática",
+        "description": "Técnico Medio en Comercio y Servicios Administrativos Mención Informática | Punto Fijo | Falcón | Venezuela",
+        "endDate": "Jun 2012",
+        "institution": "U.E. Padre Víctor Iriarte Fe y Alegría",
+        "startDate": "Sep 2009"
+      },
+      {
+        "degree": "Primaria",
+        "description": "Primaria | Punto Fijo | Falcón | Venezuela",
+        "endDate": "Jun 2009",
+        "institution": "U.E Antiguo Aeropuerto",
+        "startDate": "Sep 2000"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Si señor agencia",
+        "endDate": "Present",
+        "jobDescription": "Desarrollar sitios web con: Nextjs, Nestjs, Wordpress.",
+        "jobTitle": "Full stack Developer",
+        "startDate": "Jan 2019"
+      },
+      {
+        "company": "Slice group",
+        "endDate": "dic 2018",
+        "jobDescription": "Desarrollador web con el framework Ruby On rails y el CMS Wordpress",
+        "jobTitle": "Web developer, tesista, pasante",
+        "startDate": "mar 2017"
+      },
+      {
+        "company": "Petróleos de Venezuela S.A. (PDVSA) ",
+        "endDate": "Jul 2012",
+        "jobDescription": "Crear informes,inventario entre otros.",
+        "jobTitle": "Tesiste en el Centro de refinación Paraguana (CRP)",
+        "startDate": "May 2012"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "percentage": "90%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "88%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "77%"
+      },
+      {
+        "name": "React.js",
+        "percentage": "80%"
+      },
+      {
+        "name": "Next.js",
+        "percentage": "75%"
+      },
+      {
+        "name": "Node.js",
+        "percentage": "60%"
+      },
+      {
+        "name": "Nest.js",
+        "percentage": "65%"
+      },
+      {
+        "name": "Wordpress",
+        "percentage": "85%"
+      }
+    ],
+    "interest": [
+      "javascript",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Nest.js",
+      "Rust",
+      "Solidity",
+      "Blockchain",
+      "Ethereum"
+    ],
+    "languages": [
+      {
+        "name": "Spanish",
+        "percentage": "90%"
+      },
+      {
+        "name": "English",
+        "percentage": "10%"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/renny.petit"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/rennypetit"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/renny-petit-478581133/"
+      }
+    ]
+  }
+}

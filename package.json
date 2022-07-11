@@ -5,8 +5,8 @@
   "main": "index.js",
   "homepage": "https://rennypetit.github.io/react-eth-challenge",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "server": "json-server data.json",
@@ -25,6 +25,7 @@
     "@babel/preset-env": "7.18.6",
     "@babel/preset-react": "7.18.6",
     "babel-loader": "8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
     "html-loader": "3.1.2",
