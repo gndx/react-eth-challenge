@@ -1,9 +1,9 @@
 ## DESCRIPTION
 
-**Solución al reto:** [Repositorio](https://github.com/LeanderGS/react-eth-challenge) / [Deploy](https://leandergs.github.io/react-eth-challenge/)
+#### **Solución al reto:** [Repositorio](https://github.com/LeanderGS/react-eth-challenge) / [Deploy](https://leandergs.github.io/react-eth-challenge/)
 
-**Nombre:** Leandro Gavidia Santamaria
-**Usuario Platzi:** leandergs1234130
+#### **Nombre:** Leandro Gavidia Santamaria
+#### **Usuario Platzi:** leandergs1234130
 
 ## Reto:
 
