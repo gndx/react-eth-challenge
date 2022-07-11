@@ -4,7 +4,7 @@ import Academic from '../../components/Academic';
 import DataStub from '../../__stubs__/full_cv.json';
 
 describe('<Academic />', () => {
-  const academicData = DataStub.data.Academic;
+  const academicData = DataStub.data.academic;
   const academic = shallow(
     <Academic data={academicData} />,
   );

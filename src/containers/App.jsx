@@ -12,7 +12,7 @@ import getData from '../utils/getData';
 
 const App = () => {
   const [list, setList] = useState([]);
-  const apiUrl = 'http://localhost:3000/data';
+  const apiUrl = process.env.DATA_URL;
 
   useEffect(() => {
     let displayed = true;

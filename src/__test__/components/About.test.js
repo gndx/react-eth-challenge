@@ -4,11 +4,7 @@ import About from '../../components/About';
 import DataStub from '../../__stubs__/full_cv.json';
 
 describe('<About />', () => {
-  const { phone } = DataStub;
-  const { address } = DataStub;
-  const { email } = DataStub;
-  const { website } = DataStub;
-  const { profession } = DataStub;
+  const { phone, address, email, website, profession } = DataStub.data;
   const about = shallow(
     <About
       profession={profession}
