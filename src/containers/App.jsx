@@ -38,7 +38,7 @@ const App = () => {
           phone={list.phone}
         />
       </Header>
-      <Profile description={list.Profile} />
+      <Profile description={list.profile} />
       <Experience data={list.experience} />
       <Academic data={list.academic} />
       <Skills data={list.skills} />
