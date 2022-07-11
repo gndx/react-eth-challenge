@@ -7,7 +7,7 @@
     "website": "andiazo.github.io",
     "phone": "3013461814",
     "avatar": "https://avatars.githubusercontent.com/u/36974713?v=4",
-    "Profile": "I am a software engineer student at National University of Colombia. I am a passionate about AI, learning and coding.",
+    "Profile": "I am a Computer and Systems Engineering student at Universidad Nacional de Colombia, curious, creative, with good mathematical foundations and enthusiast of artificial intelligence and blockchain. I want to transform the country’s productive and environmental sector through my skills and entrepreneurships.",
     "Academic": [
       {
         "degree": "BS, Systems and Computer Engineering",
@@ -49,11 +49,11 @@
         "startDate": "AUGUST 2021"
       },
       {
-        "company": "ITRM",
-        "endDate": "PRESENT",
-        "jobDescription": "I develope software and utils for the metaverse",
-        "jobTitle": "Software Developer",
-        "startDate": "MAY 2022"
+        "company": "Universidad Nacional de Colomia",
+        "endDate": "JANUARY 2021",
+        "jobDescription": "Administrative support of extension courses",
+        "jobTitle": "Student Assistant",
+        "startDate": "SEPTEMBER 2020"
       }
     ],
     "skills": [

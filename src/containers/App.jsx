@@ -19,20 +19,20 @@ const App = () => {
   useEffect(() => {
     let url = 'https://raw.githubusercontent.com/andiazo/react-eth-challenge/main/data.json'
     getData(url)
-      .then((data) => {setData(data.data)})
+      .then((data) => {setData(data.data); console.log(data)})
   }, [])
 1
   return data ? (
     <>
-      <Header title={data.name}>
-        <About />
+      <Header title={data.name} avatar={data.avatar}>
+        <About data={data}/>
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Profile data={data} />
+      <Experience data={data} />
+      <Academic data={data} />
+      <Skills data={data} />
+      <Interest data={data} />
+      <Languages data={data} />
     </>
   ) : (
     <Loading />

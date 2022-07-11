@@ -1,7 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 export default function Loading() {
   return (
-    <div>Loading...</div>
-  )
+    <section className="section">
+      <div className="container">
+        <div className="columns is-centered">
+          <div className="column is-half">
+            <progress className="progress is-small is-info" max="100">
+              15%
+            </progress>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
