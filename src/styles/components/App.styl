@@ -1,2 +1,19 @@
 body
-  background-color blue
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 16px;
+
+.resumeContainer
+  color: #FFF
+
+.Two-columns
+  display: flex
+  gap: 16px;
+  & > *
+    flex-grow: 1
+
+.hoverable
+  border: 1px solid transparent;
+
+.hoverable:hover
+   background: #3d5a80;
+   border: 1px solid #293241;
