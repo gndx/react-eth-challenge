@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/components/Experience.styl';
 
-const Experience = function ({ data }) {
+const Experience = ({ data }) => {
   return (
     <div className='Experience'>
       <h2 className='Experience-title'>Experience</h2>
