@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Profile from '../../components/Profile';
-import data from '../../__mocks__/styleMock';
+import { data } from '../../__mocks__/styleMock';
 
 describe('<Profile />', () => {
   const profile = shallow(<Profile data={data}/>);

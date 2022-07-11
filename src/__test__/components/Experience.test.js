@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Experience from '../../components/Experience';
-import data from '../../__mocks__/styleMock'
+import { data } from '../../__mocks__/styleMock';
 
 describe('<Experience />', () => {
   const experience = shallow(<Experience data={data}/>);
