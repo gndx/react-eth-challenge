@@ -1,0 +1,166 @@
+.app {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.base-wrapper {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 10px;
+  flex-direction: column;
+  min-height: 130px;
+  width: 100%;
+  margin-top: 24px;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.flex-row {
+  flex-direction: row;
+  min-height: 130px;
+  display: flex;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.half-wrapper {
+  background: #fff;
+  box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 50%;
+  margin-right: 24px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.second-half-wrapper {
+  background: #fff;
+  box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: -2px 1px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 50%;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.custom-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.about-info-wrapper {
+  margin-bottom: 5px;
+}
+
+.Header-job-title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Header-phone {
+  padding-right: 10px;
+}
+
+.Header-email {
+  padding-right: 10px;
+}
+
+.Header-website {
+  padding-right: 10px;
+  color: rgb(124, 181, 255);
+}
+
+.Header-adress {
+  padding-top: 15px;
+}
+
+/* Items */
+
+.Profile-desc {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.Academic-item {
+  padding-top: 10px;
+}
+
+.Interest-item {
+  padding-top: 10px;
+}
+
+.Skills-item {
+  padding-top: 10px;
+}
+
+.Languages-item {
+  padding-top: 10px;
+}
+
+.Experience-item {
+  padding-top: 10px;
+}
+
+/* Titles */
+
+.About-title {
+  margin-top: 5px;
+  font-weight: 500;
+  color: #46525f;
+}
+
+.Header-title {
+  font-size: 27px;
+  font-weight: 700;
+  color: #46525f;
+}
+
+.Profile-title {
+  font-size: 27px;
+  font-weight: 700;
+  color: #46525f;
+}
+
+.Experience-title {
+  font-size: 27px;
+  font-weight: 700;
+  color: #46525f;
+}
+
+.Academic-title {
+  font-size: 27px;
+  font-weight: 700;
+  color: #46525f;
+}
+
+.Skills-title {
+  font-size: 27px;
+  font-weight: 700;
+  color: #46525f;
+}
+
+.Interest-title {
+  font-size: 27px;
+  font-weight: 700;
+  color: #46525f;
+  margin-bottom: 10px;
+}
+
+.Languages-title {
+  font-size: 27px;
+  font-weight: 700;
+  color: #46525f;
+}
