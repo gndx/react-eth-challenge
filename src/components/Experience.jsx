@@ -8,9 +8,10 @@ class Experience extends React.Component {
 
     render() {
       return (
-        <div className="hero is-white">
+        <div className="hero is-small">
             <div className="hero-body content">
-              <p className="Experience-title title">Experiencia Laboral</p>
+              <p className="Experience-title title is-size-4 is-uppercase not-margin">Experiencia Laboral</p>
+              <hr/>
               <ul>
               {
                 this.state.exp.map((experience, k) =>
@@ -20,7 +21,6 @@ class Experience extends React.Component {
                       <span className="is-size-6 is-italic">{experience.startDate}- {experience.endDate}</span>                      
                     </p>
                     <p className="is-size-5 subtitle">{experience.jobDescription}</p>     
-                    <br/>
                   </li>                  
                 )
               }

@@ -3,26 +3,22 @@ class Academic extends React.Component {
     constructor(props){
       super(props)
 
-      this.state = {academic : props.academic || 
-        [
-          {degree: "Master", institution: "MIT", description: "Some description" },
-          {degree: "Engineering", institution: "MIT", description: "Some description" },
-          {degree: "Sci-Fi", institution: "MIT", description: "Some description" },
-        ]
+      this.state = {academic : props.academic || Array(3).fill({})
       }
     }
 
     render() {
       return (
-        <div className="hero is-white has-equal-height">
+        <div className="hero">
           <div className="hero-body content">
-            <p className="title Academic-title">Estudios</p>
+            <p className="Academic-title title is-size-4 is-uppercase not-margin">Estudios</p>
+            <hr/>
             <ul>
               {
                 this.state.academic.map((data, k) => 
                   <li className="Academic-item" key={k}>
-                    <p className="has-text-weight-bold">{data.degree} <code>{data.institution}</code></p>
-                    {data.description}
+                    <p className="is-size-5 title">{data.degree} <span className="has-text-weight-normal">in {data.institution}</span></p>
+                    <p className="is-size-5 subtitle">{data.description}</p>
                   </li>
                 )
               }

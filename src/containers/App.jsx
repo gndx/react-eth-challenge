@@ -28,40 +28,45 @@ const App = () => {
 
   return !isLoading ? (<p>Cargando...</p>) : 
   (       
-    <div className="container">         
-      <div className="columns is-multiline">
-        <div className="column is-full">
-          <Header Name={data.name} Phone={data.phone} Address={data.address} Email={data.email} WebSite={data.website} Profession={data.profession} Avatar={data.avatar}>
-            <About social={data.social}/>
-          </Header>  
-        </div>    
-        <div className="column is-full">
-          <Profile profile={data.Profile}/>
-        </div>
-        <div className="column is-full">
-          <Experience exp={data.experience}/>    
-        </div>  
-        <div className="column is-full is-half-desktop">
-          <Academic academic={data.Academic}/>
-        </div>        
-        <div className="column is-full is-half-desktop">
-          <Interest interest={data.interest}/>
-        </div>
-        <div className="column is-full">
-          <div className="hero is-white">
-            <div className="hero-body">
-              <div className="columns is-multiline">
-                <div className="column is-full is-half-desktop">
-                  <Skills skills={data.skills}/>
-                </div>
-                <div className="column is-full is-half-desktop">
-                  <Languages languages={data.languages}/>
-                </div>
+    <div className="container">     
+      <div className="box">
+        <article className="media">
+          <div className="box-content">
+            <div className="columns is-multiline">
+              <div className="column is-full not-padding">
+                <Header Name={data.name} Profession={data.profession} Avatar={data.avatar}>
+                  <About social={data.social}/>
+                </Header>  
+              </div> 
+              <div className="column is-full">
+                <Profile profile={data.Profile} Phone={data.phone} Address={data.address} Email={data.email} WebSite={data.website}>
+                  <Interest interest={data.interest}/>
+                </Profile>
               </div>
+              <div className="column is-full">
+                <div className="hero">
+                  <div className="hero-body">
+                    <div className="columns is-multiline">
+                      <div className="column is-full is-half-desktop">
+                        <Skills skills={data.skills}/>
+                      </div>
+                      <div className="column is-full is-half-desktop">
+                        <Languages languages={data.languages}/>
+                      </div>
+                    </div>
+                  </div>
+                </div>          
+              </div>
+              <div className="column is-full">
+                <Experience exp={data.experience}/>    
+              </div>  
+              <div className="column is-full">
+                <Academic academic={data.Academic}/>
+              </div>   
             </div>
-          </div>          
-        </div>
-      </div>
+          </div>
+        </article>
+      </div>          
     </div>
   )
 };
