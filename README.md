@@ -1,10 +1,6 @@
 # react-eth-challenge
 
-## React Curriculum vitae
-
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
-
-![react-cv](https://github.com/gndx/react-eth-challenge/blob/440befcbc257b886015bd050666a21a3bec6c244/screenshot.png)
+## Mi solución para los siguientes retos:
 
 ### Retos
 
@@ -15,6 +11,14 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 5. [Personalizar API](https://github.com/gndx/react-eth-challenge/issues/5)
 6. [Documentar](https://github.com/gndx/react-eth-challenge/issues/6)
 7. [Deploy](https://github.com/gndx/react-eth-challenge/issues/7)
+
+
+### Principales cambios:
+
+  - Stylus -> Sass
+  - Nueva sección "About my projects"
+  - CV de una sola columna
+  - Sin imagen
 
 ### Instalación
 
@@ -51,14 +55,6 @@ npm run test
 ```
 npm run lint
 ```
-
-### Enviar solución de reto
-
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
-
-### Contribuir
-
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [react-eth-challenge](https://github.com/gndx/react-eth-challenge/)
 
 ### Licencia
 
