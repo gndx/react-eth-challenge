@@ -7,7 +7,7 @@
     "website": "https://blog.eperedo.com",
     "phone": "999999999",
     "avatar": "https://avatars.githubusercontent.com/u/461124?s=400&u=3c93eb00adc26b974a8357c7ba36b30edb879795&v=4",
-    "Profile": "I am a software developer with 10 years of experience building desktop, web and mobile applications.",
+    "Profile": "I am a software developer with 10 years of experience building desktop, web and mobile applications. Besides code I love playing soccer, videogames and I have a 1700 streak on duolingo.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,18 +24,33 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Platzi English Academy",
+        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "endDate": "May 2021",
+        "institution": "Platzi",
+        "startDate": "Jan 2017"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Escuela de Programación y Desarrollo de Software",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "endDate": "December 2018",
+        "institution": "Platzi",
         "startDate": "Jan 2017"
+      },
+
+      {
+        "degree": "Escuela de Base de Datos",
+        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "endDate": "Sep 2018",
+        "institution": "Platzi",
+        "startDate": "Jan 2017"
+      },
+      {
+        "degree": "Escuela de Desarrollo Web",
+        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
+        "endDate": "Jan 2018",
+        "institution": "Platzi",
+        "startDate": "Jan 2018"
       }
     ],
     "experience": [
@@ -43,7 +58,7 @@
         "company": "Indra",
         "endDate": "Present",
         "jobDescription": "Front End Developer.",
-        "jobTitle": "Senior Front End Developer.",
+        "jobTitle": "Senior Front End Developer",
         "startDate": "Jun 2021"
       },
       {
@@ -56,7 +71,7 @@
       {
         "company": "AppRunn",
         "endDate": "Oct 2016",
-        "jobDescription": "Lead Developer.",
+        "jobDescription": "Lead Developer",
         "jobTitle": "Lead Developer",
         "startDate": "March 2019"
       },
@@ -71,50 +86,85 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
         "name": "React",
         "percentage": "90%"
-      }
-    ],
-    "interest": ["javascript", "develop", "backend", "frontend"],
-    "languages": [
+      },
       {
-        "name": "Spanish",
+        "name": "Vue",
         "percentage": "90%"
       },
       {
+        "name": "Node",
+        "percentage": "90%"
+      },
+      {
+        "name": "Postgres",
+        "percentage": "90%"
+      },
+      {
+        "name": "MySql",
+        "percentage": "90%"
+      },
+      {
+        "name": "Lumen",
+        "percentage": "70%"
+      },
+      {
+        "name": "Elixir",
+        "percentage": "30%"
+      }
+    ],
+    "interest": [
+      "web development",
+      "mobile development",
+      "backend",
+      "frontend",
+      "esports",
+      "travel",
+      "soccer",
+      "music",
+      "running"
+    ],
+    "languages": [
+      {
+        "name": "Spanish",
+        "percentage": "100%"
+      },
+      {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
-      {
-        "image": "/icons/twitter.svg",
-        "name": "twitter",
-        "url": "https://twitter.com/eperedo"
-      },
       {
         "image": "/icons/github.svg",
         "name": "github",
         "url": "https://github.com/eperedo"
       },
       {
-        "image": "/icons/github.svg",
+        "image": "/icons/blog.svg",
         "name": "blog",
-        "url": "https://eperedo.blog.com/"
+        "url": "https://blog.eperedo.com/"
       },
       {
-        "image": "/icons/github.svg",
+        "image": "/icons/twitter.svg",
+        "name": "twitter",
+        "url": "https://twitter.com/eperedo"
+      },
+
+      {
+        "image": "/icons/linkedin.svg",
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/eperedox"
       }
