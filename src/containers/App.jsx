@@ -14,8 +14,8 @@ const App = () => {
   const [cvData, setCvData] = useState({});
 
   useEffect(() => {
-    getData('http://127.0.0.1:3000/data')
-      .then(data => setCvData(data))
+    getData('https://mocki.io/v1/e4500c30-19be-4595-b165-f160532c25cb')
+      .then(data => setCvData(data.data))
       .catch(error => console.log(error));
   }, [])
 
