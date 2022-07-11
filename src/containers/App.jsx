@@ -10,7 +10,7 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import getData from '../utils/getData';
 
-const API = 'http://localhost:3000/data';
+const API = 'https://raw.githubusercontent.com/santi1234567/react-eth-challenge/main/data.json';
 
 export default function App() {
 
@@ -19,10 +19,11 @@ export default function App() {
   useEffect(() => {
     getData(API)
       .then((data) => {
-        setcvData(data);
+        setcvData(data.data);
       });
   }, []);
   return (
+
     <div>
       {
         cvData && (
