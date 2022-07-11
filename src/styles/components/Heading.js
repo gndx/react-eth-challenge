@@ -15,19 +15,12 @@ const Heading = styled.header`
         }
     }
 
-    
     h1 {
         font-size: 20px;
     }
 
     h2, h3, h4, h5, p {
         font-size: 14px;
-    }
-
-    p {
-        font-weight: lighter;
-        color: #AAAAAA;
-        margin-bottom: 0;
     }
 `;
 

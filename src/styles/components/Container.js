@@ -25,6 +25,18 @@ const Container = styled.div`
             margin-bottom: 12px;
         }
     }
+
+    @media screen and (max-width: 800px) {
+        .container-content {
+            display: flex;
+            flex-direction: column;
+            padding-left: 1em;
+        }
+
+        .Profile-desc {
+            padding-left: 1em;
+        }
+    }
 `;
 
 export default Container;
