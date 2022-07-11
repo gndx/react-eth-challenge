@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = ({profession, email, phone, address, website}) => {
+const About = ({ profession, email, phone, address, website }) => {
   return (
     <>
       <h3 className='About-title'>{profession}</h3>
