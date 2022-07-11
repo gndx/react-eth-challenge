@@ -24,25 +24,32 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Frontend Developer",
+        "description": "Scholarship. The program developed skills in the creation of new ventures and expand your knowledge in digital transformation and programming.",
+        "endDate": "Dic 2021",
+        "institution": "Platzi - Innova Perú",
+        "startDate": "Jul 2021"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Reto de habalr en público",
+        "description": "Problem Solving Using Computational Thinking.",
+        "endDate": "Mar 2022",
+        "institution": "Platzi",
+        "startDate": "May 2022"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Problem Solving Using Computational Thinking",
+        "description": "Problem Solving Using Computational Thinking.",
+        "endDate": "Mar 2021",
+        "institution": "University of Michigan",
+        "startDate": "May 2021"
+      },
+      {
+        "degree": "Copywriting",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "endDate": "Fec 2021",
+        "institution": "EDteam",
+        "startDate": "May 2021"
       }
     ],
     "experience": [

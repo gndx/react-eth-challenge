@@ -9,6 +9,7 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import Footer from '../components/Footer';
 import getData from '../utils/getData';
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
       <Skills skills={skills} />
       <Interest interest={interest} />
       <Languages languages={languages} />
+      <Footer />
     </div>
   );
 }

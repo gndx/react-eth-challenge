@@ -23,7 +23,7 @@ function Academic({ academic = Array(3).fill({
           institution,
           startDate,
         }, index) => (
-          <div key={index}>
+          <div key={index} className='Academic-item'>
             <h4>{degree}</h4>
             <p>{institution} - {description}</p>
             <p>{startDate} - {endDate}</p>
