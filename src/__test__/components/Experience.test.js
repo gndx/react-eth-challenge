@@ -13,7 +13,7 @@ describe('<Experience />', () => {
     expect(experience.find('.Experience-title').length).toEqual(1);
   });
 
-  test('Experience haves 3 items', () => {
+  test('Experience has 3 items', () => {
     expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
   });
 
