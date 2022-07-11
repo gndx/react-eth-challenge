@@ -1,9 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Profile from '../../components/Profile';
+import db from '../../../data.json';
 
 describe('<Profile />', () => {
-  const profile = shallow(<Profile />);
+  const profile = shallow(<Profile data={db.data} />);
 
   test('Profile render', () => {
     expect(profile.length).toEqual(1);

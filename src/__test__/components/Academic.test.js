@@ -1,9 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Academic from '../../components/Academic';
+import db from '../../../data.json';
 
 describe('<Academic />', () => {
-  const academic = shallow(<Academic />);
+  const academic = shallow(<Academic data={db.data} />);
 
   test('Academic render', () => {
     expect(academic.length).toEqual(1);

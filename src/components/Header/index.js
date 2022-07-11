@@ -1,21 +1,20 @@
 import React from 'react';
-import db from '../../../data.json';
 import { Anchor, Image, HeaderStyle } from './styles';
 import About from '../About';
 
-function Header() {
+function Header({ data = {} }) {
   return (
 
     <HeaderStyle className='header' key='HeaderStyle'>
       <Anchor key='HeaderAnchor'>
         <Image
           alt='Avatar'
-          src={db.data.avatar}
+          src={data.avatar}
         />
       </Anchor>
       {' '}
-      <h1 className='Header-title'>{db.data.name}</h1>
-      <About />
+      <h1 className='Header-title'>{data.name}</h1>
+      <About data={data} />
 
     </HeaderStyle>
 

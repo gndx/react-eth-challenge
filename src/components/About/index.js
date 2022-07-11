@@ -1,45 +1,44 @@
 import React from 'react';
 import { AboutStyle } from './styles';
-import db from '../../../data.json';
 
-export default function About() {
+export default function About({ data = {} }) {
   return (
     <AboutStyle key='AboutStyle'>
       <h2 className='About-title'>About</h2>
-      <div className='About-item' key='Profession'>
+      <p className='About-item' key='Profession'>
         <b>Profession:</b>
         {' '}
-        {db.data.profession}
+        {data.profession}
         {' '}
 
-      </div>
-      <div className='About-item' key='Phone'>
+      </p>
+      <p className='About-item' key='Phone'>
         <b>Phone:</b>
         {' '}
-        {db.data.phone}
+        {data.phone}
         {' '}
 
-      </div>
-      <div className='About-item' key='Email'>
+      </p>
+      <p className='About-item' key='Email'>
         <b>Email:</b>
         {' '}
-        {db.data.email}
+        {data.email}
         {' '}
 
-      </div>
-      <div className='About-item' key='Website'>
+      </p>
+      <p className='About-item' key='Website'>
         <b>Website:</b>
         {' '}
-        {db.data.website}
+        {data.website}
         {' '}
 
-      </div>
-      <div className='About-item' key='Address'>
+      </p>
+      <p className='About-item' key='Address'>
         <b>Address:</b>
         {' '}
-        {db.data.address}
+        {data.address}
 
-      </div>
+      </p>
     </AboutStyle>
   );
 };

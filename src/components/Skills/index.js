@@ -1,16 +1,15 @@
 import React from 'react';
 import { FiChevronsRight } from 'react-icons/fi';
-import db from '../../../data.json';
 import { SkillsStyle, Item, SkillsItemTitle } from './styles';
 
-function Skills() {
+function Skills({ data = {} }) {
   return (
 
     <SkillsStyle className='skills' key='SkillsStyle'>
 
       {' '}
       <h2 className='Skills-title'>Skills</h2>
-      {db.data.skills.map((skills) => (
+      {data.skills.map((skills) => (
         <Item key={skills.name} className='Skills-item'>
 
           <SkillsItemTitle>

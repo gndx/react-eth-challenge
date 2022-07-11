@@ -6,6 +6,7 @@ export const ExperienceStyle = styled.div`
   box-shadow: 0px 14px 18px rgba(0, 0, 0, .2);
   border-radius: 15px;
   padding: 5px;
+  margin-top: 5px;
 `;
 
 export const Item = styled.ul`

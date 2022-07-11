@@ -1,17 +1,16 @@
 import React from 'react';
 import { FiChevronsRight, FiMinus } from 'react-icons/fi';
 import { GoCalendar } from 'react-icons/go';
-import db from '../../../data.json';
 import { AcademicStyle, Item, AcademicItemTitle, AcademicItemDate } from './styles';
 
-function Academic() {
+function Academic({ data = {} }) {
   return (
 
     <AcademicStyle className='academic' key='academicStyle'>
 
       {' '}
       <h2 className='Academic-title'>Academic</h2>
-      {db.data.academic.map((academic) => (
+      {data.academic.map((academic) => (
         <Item key={academic.degree} className='Academic-item'>
 
           <AcademicItemTitle>
@@ -32,8 +31,11 @@ function Academic() {
             {academic.endDate}
 
           </AcademicItemDate>
-          {' '}
-          {academic.description}
+          <p>
+            {' '}
+            {academic.description}
+
+          </p>
 
         </Item>
       ))}

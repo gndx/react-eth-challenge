@@ -1,19 +1,17 @@
 import React from 'react';
-import db from '../../../data.json';
-import { Text, ProfileStyle } from './styles';
+import { ProfileStyle } from './styles';
 
-function Profile() {
+function Profile({ data = {} }) {
   return (
 
     <ProfileStyle className='profile' key='ProfileStyle'>
-      <Text>
+
+      {' '}
+      <h2 className='Profile-title'>Profile</h2>
+      <p className='Profile-desc'>
         {' '}
-        <h2 className='Profile-title'>Profile</h2>
-        <div className='Profile-desc'>
-          {' '}
-          {db.data.profile}
-        </div>
-      </Text>
+        {data.profile}
+      </p>
 
     </ProfileStyle>
 

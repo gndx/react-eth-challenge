@@ -1,17 +1,16 @@
 import React from 'react';
 import { FiChevronsRight, FiMinus } from 'react-icons/fi';
 import { GoCalendar } from 'react-icons/go';
-import db from '../../../data.json';
 import { ExperienceStyle, Item, ExperienceItemTitle, ExperienceItemDate } from './styles';
 
-function Experience() {
+function Experience({ data = {} }) {
   return (
 
     <ExperienceStyle className='experience' key='ExperienceStyle'>
 
       {' '}
       <h2 className='Experience-title'>Experience</h2>
-      {db.data.experience.map((experience) => (
+      {data.experience.map((experience) => (
         <Item key={experience.jobTitle} className='Experience-item'>
 
           <ExperienceItemTitle>
@@ -32,8 +31,11 @@ function Experience() {
             {experience.endDate}
 
           </ExperienceItemDate>
-          {' '}
-          {experience.jobDescription}
+          <p>
+            {' '}
+            {experience.jobDescription}
+
+          </p>
 
         </Item>
       ))}
