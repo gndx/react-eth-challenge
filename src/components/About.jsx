@@ -7,7 +7,7 @@ const About = ({ data }) => {
             <p className='About-item'>{data.phone}</p>
             <p className='About-item'>{data.email}</p>
             <p className='About-item'>{data.address}</p>
-            <a className='About-item website'>{data.website}</a>
+            <a href='https://github.com/albbeltran' target="_blank" rel='noopener' className='About-item website'>{data.website}</a>
         </div>
     )
 }
