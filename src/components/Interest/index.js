@@ -1,13 +1,41 @@
-import React from 'react'
-import './styles.styl'
-export const Interest = () => { return (
-  <div className='two_cols'> 
-    <div className='Interest-title'>
-      <h2>Interests 🌌</h2>
+import React from 'react';
+import './styles.styl';
+import PropTypes from 'prop-types';
+/**
+ * This is a Custom container that shows Interest array
+ */
+export function Interest({ interest = ['', '', ''] }) {
+
+  return (
+    <div className='two-cols slow-animation'>
+      <div className='Interest-title'>
+        <h2>Interests 🌌</h2>
+      </div>
+      <ul>
+        {
+          interest.map((element, id) => (
+            <li key={id}>
+              <div className='Interest-item'>{element}</div>
+            </li>
+          ))
+        }
+      </ul>
+
     </div>
-    <div className='Interest-item'>Lorem</div>
-    <div className='Interest-item'>Uopsum</div>
-    <div className='Interest-item'>dolorem</div>
-  </div>
-  )
+  );
 }
+
+Interest.propTypes = {
+  /** ```json
+   "interest": [
+      "Renewable Energies",
+      "Web 3",
+      "IoT",
+      "Machine Learning",
+      "Soccer",
+      "Vegan wanna be"
+    ],
+``` */
+  interest: PropTypes.array,
+
+};

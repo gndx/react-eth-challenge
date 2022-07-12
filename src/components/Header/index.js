@@ -1,15 +1,26 @@
-import React from 'react'
-import './styles.styl'
-const DEFAULT_IMAGE = 'https://avatars.githubusercontent.com/LuisFDuarte'
+import React from 'react';
+import PropTypes from 'prop-types';
+import './styles.styl';
 
+const DEFAULT_IMAGE = 'https://avatars.githubusercontent.com/LuisFDuarte';
+/**
+ * This is a Custom Header that uses two props avatar and name
+ */
+export function Header({ name, avatar = DEFAULT_IMAGE }) {
 
-export const Header = ({ cover= DEFAULT_IMAGE}) => { 
-    return (
+  return (
     <div className='Container-Header'>
-        <img src={cover} className='avatar'/>
-        <div className='Header-title'>
-            <h1>Luis Felipe Duarte Herrera</h1>
-        </div> 
+      <img src={avatar} className='avatar' alt='photo' />
+      <div className='Header-title'>
+        <h1>{name}</h1>
+      </div>
     </div>
-   )
+  );
 }
+
+Header.propTypes = {
+  /** Name of CV user */
+  name: PropTypes.string,
+  /** URL of CV photo */
+  avatar: PropTypes.string,
+};

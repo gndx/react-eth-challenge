@@ -1,17 +1,25 @@
-import React from 'react'
+import React from 'react';
+import './styles.styl';
 
-export const About = () => {
+export function About({ email = '', profession = '', address = '', website = '' }) {
   return (
-  <div className='About-title'>
-    <div className='About-item'>
-      <p>Engineer</p>
+    <div className='About-title'>
+      <p className='About-item'>
+        Email:
+        {email}
+      </p>
+      <p className='About-item'>
+        Profesion:
+        {profession}
+      </p>
+      <p className='About-item'>
+        Address:
+        {address}
+      </p>
+      <p className='About-item'>
+        Website:
+        {website}
+      </p>
     </div>
-    <div className='About-item'>
-      <p>Engineer</p>
-    </div>
-    <div className='About-item'>
-      <p>Engineer</p>
-    </div>
-  </div>
-  )
+  );
 }

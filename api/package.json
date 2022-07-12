@@ -1,5 +1,5 @@
 {
-  "name": "test-cv-ld-server",
+  "name": "test-cv-ld-json-server",
   "version": "1.0.0",
   "description": "Mock apio for react challenge",
   "main": "server.js",
