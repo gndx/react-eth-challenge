@@ -8,13 +8,13 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 
 ### Retos
 
-1. [Crear los componentes del proyecto](https://github.com/platzi/react-eth-challenge/issues/1) 6/7
-2. [Añadir estilos](https://github.com/platzi/react-eth-challenge/issues/2) 1/1
-3. [Crear función getData.js](https://github.com/platzi/react-eth-challenge/issues/3) 1/1
-4. [Integrar API](https://github.com/platzi/react-eth-challenge/issues/4)
-5. [Personalizar API](https://github.com/platzi/react-eth-challenge/issues/5)
-6. [Documentar](https://github.com/platzi/react-eth-challenge/issues/6)
-7. [Deploy](https://github.com/platzi/react-eth-challenge/issues/7)
+1. [Crear los componentes del proyecto](https://github.com/gndx/react-eth-challenge/issues/1) 6/7
+2. [Añadir estilos](https://github.com/gndx/react-eth-challenge/issues/2) 1/1
+3. [Crear función getData.js](https://github.com/gndx/react-eth-challenge/issues/3) 1/1
+4. [Integrar API](https://github.com/gndx/react-eth-challenge/issues/4)
+5. [Personalizar API](https://github.com/gndx/react-eth-challenge/issues/5)
+6. [Documentar](https://github.com/gndx/react-eth-challenge/issues/6)
+7. [Deploy](https://github.com/gndx/react-eth-challenge/issues/7)
 
 ### Instalación
 
@@ -58,7 +58,7 @@ Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pul
 
 ### Contribuir
 
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [react-eth-challenge](https://github.com/platzi/react-eth-challenge/)
+Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [react-eth-challenge](https://github.com/gndx/react-eth-challenge/)
 
 ### Licencia
 
