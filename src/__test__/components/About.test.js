@@ -16,7 +16,6 @@ describe('<About />', () => {
   });
 
   test('About title', () => {
-
     expect(about.find('.About-title').length).toEqual(1);
   });
 

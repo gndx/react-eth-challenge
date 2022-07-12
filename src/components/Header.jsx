@@ -1,8 +1,8 @@
-import React, { useContext } from 'react'
-import AppContext from '../context/AppContext';
+import React from 'react'
+import { useAppContext} from '../context/AppContext';
 
 const Header = ({ children }) => {
-  const { name, profession, address, email, website, phone, avatar} = useContext(AppContext);
+  const { name, profession, address, email, website, phone, avatar} = useAppContext();
   return (
   <div className='header'>
     <div className='header_container'>
@@ -10,7 +10,7 @@ const Header = ({ children }) => {
         <img src={avatar} className="avatar"/>
       </div>
       <div className='info_container'>
-        <h1 className='Header-Title'>{name}</h1>
+        <h1 className='Header-title'>{name}</h1>
         <p className='Header-phone'>{profession}</p>
         <div className="inline_container">
           <p className='Header-phone'>{phone}</p>
