@@ -1,24 +1,27 @@
 import React from 'react';
 import {Titulos} from '../styles/components/About'
 
-const About = () => {
+const About = ({
+    about = Array(4).fill({
+        name: '',
+        url: '',
+    }),
+    }) => {
     return(
         <div>
             <Titulos className='About-title'>About me</Titulos>
-            <div className='About-item'>
-                <p>Email: <a href="mailto:">josepina@pinalikefruit.com</a></p>
-            </div>
-            <div className='About-item'>
-                <p>Github: <a href="https://github.com/pinajmr">@pianjmr</a></p>
-            </div>
-            <div className='About-item'>
-                <p>Linkedin: <a href="https://www.linkedin.com/in/pinajmr/">@pinajmr</a></p>
-            </div>
-            <div className='About-item'>
-                <p>website <a href="https://pinalikefruit.com">pinalikefruit.com</a></p>
-            </div>
+            <ul>
+                {about.map(
+                    (
+                        {name, url},index
+                        ) => (
+                    <li key={`${name}_${index}`} className="About-item">
+                        <p>{name}: <a href={`${url}`}> @pinajmr </a></p>
+                    </li>
+                ))}
+            </ul>
         </div>
-    )
-}
+    );
+};
 
 export default About;

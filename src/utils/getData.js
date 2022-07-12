@@ -1,10 +1,7 @@
-const getData = (URL) => {
-    if (!URL) {
-        return "No connexion"
-    }
-    return fetch(URL).then(
-        (resp) => resp.json()
-    );
-}
-
-export default getData;
+const getData = (url) => {
+    if (!url) return 'no url provided';
+  
+    return fetch(url).then((res) => res.json());
+  };
+  
+  export default getData;

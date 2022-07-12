@@ -1,28 +1,26 @@
 import React from 'react';
-import {Title} from '../styles/components/Academic'
+import { Titulo } from '../styles/components/Academic'
 
-const Academic = () => {
-    return (
-        <div >
-          <Title className="Academic-title">Academic</Title>
-          <div className='Academic-item'>
-            <h3>Industrial Enginner</h3>
-            <div>Universidad de Carabobo</div>
-            <div>2012-2018</div>     
-          </div>
-          <div className='Academic-item'>
-            <h3>Telecom Enginner</h3>
-            <div>Universidad José Antonio Páez</div>
-            <div>2016-2019</div>     
-          </div>
-          <div className='Academic-item'>
-            <h3>Smart Contract Dev </h3>
-            <div>Platzi</div>
-            <div>2019-2021</div>     
-          </div>
-        </div>
-        
-    );
+const Academic = ({
+  academic = Array(3).fill({ degree: '', description: '', institution: '' }),
+}) => {
+  return (
+    <div>
+      <Titulo className="Academic-title">Academic</Titulo>
+      <ul>
+        {academic.map(({ degree, description, institution }, index) => (
+          <li
+            key={`${degree}_${description}_${institution}_${index}`}
+            className="Academic-item"
+          >
+            <h3>{degree}</h3>
+            <p>{description}</p>
+            <h4>{institution}</h4>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 };
 
-export  default Academic; 
+export default Academic;

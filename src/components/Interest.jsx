@@ -1,21 +1,19 @@
-import React from 'react'
-import { Interes } from '../styles/components/Interest';
+import React from 'react';
+import {Interes} from "../styles/components/Interest" 
 
-const Interest = () => {
+const Interest = ({ interest = Array(3).fill('') }) => {
   return (
     <div>
-      <h3 className='Interest-title'> Why are my interest? </h3>
-      <div>
-        <Interes>
-          <li className='Interest-item'>Cryotografic</li>
-          <li className='Interest-item'>Defi Quant</li>
-          <li className='Interest-item'>Trading</li>
-          <li className='Interest-item'>Security</li>
-          <li className='Interest-item'>Math</li>
-        </Interes>
-      </div>
+      <h2 className="Interest-title">Why are my interest?</h2>
+      <Interes>
+        {interest.map((individualinterest, index) => (
+          <li key={`${individualinterest}_${index}`} className="Interest-item">
+            <h4>{individualinterest}</h4>
+          </li>
+        ))}
+      </Interes>
     </div>
-  )
-}
+  );
+};
 
 export default Interest;
