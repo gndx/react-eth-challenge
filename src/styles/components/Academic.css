@@ -1,3 +1,11 @@
 .Academic-Container {
     margin: 0;
 }
+
+@media (min-width: 640px) {
+    .Academic-description {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+    }
+}

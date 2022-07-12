@@ -1,5 +1,13 @@
-header div {
+.About-container {
     display: flex;
-    gap: 1em;
-    background-color: lavenderblush;
+    flex-direction: column;
+    gap: 0em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.About-container a {
+    padding-right: 1em;
+    color: var(--white-text);
 }

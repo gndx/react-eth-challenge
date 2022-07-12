@@ -4,8 +4,12 @@ import '../styles/components/Profile.css';
 function Profile({ profile }) {
   return (
     <section className='Profile'>
-      <h2 className='Profile-title'>Profile</h2>
-      <p className='Profile-desc'>{profile}</p>
+      <h2 className='Profile-title'>
+        Profile
+      </h2>
+      <p className='Profile-desc'>
+        {profile}
+      </p>
     </section>
   );
 }

@@ -1,16 +1,27 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 0em;
+    align-items: center;
+}
+
 header img {
-    border-radius: 200px;
+    border-radius: 12em;
     height: 12em;
     width: 12em;
 }
 
-.AboutContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    width: 75%;
+h1 {
+    font-size: 2.5rem;
+    color: var(--white-title);
+    text-align: center;
     margin: 0;
-    padding: 0;
+    padding-top: 0.5em;
+}
+
+header h3 {
+    color: var(--cyan-accent);
 }
 
 .Social {
@@ -25,8 +36,17 @@ header img {
     list-style: none;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
+@media (min-width: 720px) {
+    header {
+        flex-direction: row;
+        align-content: space-between;
+        gap: 2em;
+        padding-left: 2em;
+        align-items: center;
+    }
+    h1 {
+        text-align: left;
+        font-size: 3em;
+        padding-top: 0;
+    }
 }

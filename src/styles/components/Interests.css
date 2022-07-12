@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 640px) {
     .Interests p {
         width: 50%;
     }

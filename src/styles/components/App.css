@@ -1,18 +1,45 @@
+:root {
+    --blue-bg: #121f3d;
+    --blue-section: #24385b;
+    --white-title: #fff;
+    --white-text: #eff3f8;
+    --green-accent: #98ca3f;
+    --cyan-accent: #74caff;
+    --gray-text: #637b9d;
+}
+
 body {
-    background-color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    background-color: var(--blue-bg);
+    color: var(--white-text);
 }
 
 section {
-    background-color: burlywood;
+    background-color: var(--blue-section);
     border-radius: 1em;
     padding: 1em;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
 }
 
 .App {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 2em;
     max-width: 1000px;
     margin: 0 auto;
+    padding-top: 1em;
+}
+
+small {
+    color: var(--gray-text);
+}
+
+@media (min-width: 720px) {
+    .App {
+        padding-top: 4em;
+    }
 }

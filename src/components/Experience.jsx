@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/components/Experience.css';
-import Item from './Item';
 
 function Experience({
   experience = Array(3).fill({
@@ -23,14 +22,11 @@ function Experience({
             jobTitle,
             startDate,
           }, index) => (
-            <Item
-              className='Experience-item'
-              title={company}
-              sub={jobTitle}
-              description={jobDescription}
-              date={`${startDate}-${endDate}`}
-              key={`experience-${index}`}
-            />
+            <div key={index} className='Experience-item'>
+              <h4>{company}</h4>
+              <p>{jobTitle} - {jobDescription}</p>
+              <small>{startDate} - {endDate}</small>
+            </div>
           ))
         }
       </div>

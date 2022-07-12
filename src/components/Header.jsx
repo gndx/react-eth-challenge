@@ -13,7 +13,7 @@ function Header({
   return (
     <header>
       <img src={avatar} alt='Profile pic'/>
-      <div className='AboutContainer'>
+      <div className='About-container'>
         <h1 className='Header-title'>{name}</h1>
         {children}
         <ul className='Social'>

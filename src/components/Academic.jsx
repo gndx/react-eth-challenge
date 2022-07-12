@@ -1,5 +1,4 @@
 import React from 'react';
-import Item from './Item';
 import '../styles/components/Academic.css';
 
 function Academic({ academic = Array(3).fill({
@@ -15,6 +14,7 @@ function Academic({ academic = Array(3).fill({
       <h3 className='Academic-title'>
         Academic achievements
       </h3>
+      <div className='Academic-description'>
       {
         academic.map(({
           degree,
@@ -26,10 +26,11 @@ function Academic({ academic = Array(3).fill({
           <div key={index} className='Academic-item'>
             <h4>{degree}</h4>
             <p>{institution} - {description}</p>
-            <p>{startDate} - {endDate}</p>
+            <small>{startDate} - {endDate}</small>
           </div>
         ))
       }
+      </div>
     </section>
   );
 }
