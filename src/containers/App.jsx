@@ -23,7 +23,7 @@ const App = () => {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    getData('../../data.json').then((response) => {
+    getData('./data.json').then((response) => {
       setData(response.data);
     });
   }, []);
