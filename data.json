@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Mateo Barrios",
+    "profession": "Front-End and Web3 Developer",
+    "address": "Córdoba, Argentina",
+    "email": "matbarrios@protonmail.com",
+    "website": "https://github.com/MatBarrios",
+    "phone": "3516758658",
+    "avatar": "https://avatars.githubusercontent.com/MatBarrios",
+    "profile": "I'm constantly improving my skills, everything I dont know, I ask without shame. I’m currently learning smart contracts development with solidity, and my goal is to combine my web3 interest with coding, to create amazing things.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -17,75 +17,96 @@
       },
       {
         "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "description": "",
         "institution": "Platzi",
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Ethereum Developer Program",
+        "description": "Scholarship to kickstart my web3 professional career",
+        "endDate": "Sep 2022",
+        "institution": "Platzi",
+        "startDate": "Jun 2022"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "JavaScript",
+        "description": "DOM, Events, AJAX",
+        "endDate": "May 2022",
+        "institution": "CoderHouse",
+        "startDate": "Mar 2022"
+      },
+      {
+        "degree": "Responsive Web Design",
+        "description": "HTML, CSS, Responsive, Flexbox",
+        "endDate": "Jan 2022",
+        "institution": "freeCodeCamp",
+        "startDate": "Dec 2021"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "dApps Projects",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "ERC20 and ERC 721 tokens standards",
+        "jobTitle": "Developer",
+        "startDate": "Jan 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Greenally",
+        "endDate": "Present",
+        "jobDescription": "Onboarding to web3",
+        "jobTitle": "Cofounder",
+        "startDate": "May 2021"
+      },
+      {
+        "company": "CoderHouse",
+        "endDate": "Present",
+        "jobDescription": "I resolve questions from the students about blockchain",
+        "jobTitle": "Blockchain tutor",
+        "startDate": "May 2022"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+      },
+      {
+        "name": "Ethereum",
+        "logo": "https://www.logo.wine/a/logo/Ethereum/Ethereum-Logo.wine.svg"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Blockchain enthusiast",
+      "Muaythai practitioner",
+      "friends & food"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "Native"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "level": "Advanced"
+      },
+      {
+        "name": "Portuguese",
+        "level": "Basic"
       }
     ],
     "social": [
