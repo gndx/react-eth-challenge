@@ -93,10 +93,6 @@
                 "percentage": "100%"
             },
             {
-                "name": "Rust",
-                "percentage": "70%"
-            },
-            {
                 "name": "Vanilla JavaScript",
                 "percentage": "100%"
             },
@@ -105,32 +101,8 @@
                 "percentage": "100%"
             },
             {
-                "name": "NASM",
-                "percentage": "70%"
-            },
-            {
-                "name": "IPFS",
-                "percentage": "80%"
-            },
-            {
                 "name": "C",
                 "percentage": "100%"
-            },
-            {
-                "name": "PHP",
-                "percentage": "100%"
-            },
-            {
-                "name": "Python",
-                "percentage": "90%"
-            },
-            {
-                "name": "React",
-                "percentage": "10%"
-            },
-            {
-                "name": "Java",
-                "percentage": "70%"
             },
             {
                 "name": "Linux",
@@ -141,20 +113,8 @@
                 "percentage": "100%"
             },
             {
-                "name": "PL/SQL",
-                "percentage": "100%"
-            },
-            {
-                "name": "Transact SQL",
-                "percentage": "100%"
-            },
-            {
                 "name": "Docker",
                 "percentage": "100%"
-            },
-            {
-                "name": "Kubernetes",
-                "percentage": "90%"
             },
             {
                 "name": "Git",
@@ -162,6 +122,14 @@
             },
             {
                 "name": "gRPC",
+                "percentage": "100%"
+            },
+            {
+                "name": "PL/SQL",
+                "percentage": "100%"
+            },
+            {
+                "name": "Transact SQL",
                 "percentage": "100%"
             },
             {
@@ -175,6 +143,38 @@
             {
                 "name": "Networking",
                 "percentage": "100%"
+            },
+            {
+                "name": "PHP",
+                "percentage": "100%"
+            },
+            {
+                "name": "Python",
+                "percentage": "90%"
+            },
+            {
+                "name": "Kubernetes",
+                "percentage": "90%"
+            },
+            {
+                "name": "IPFS",
+                "percentage": "80%"
+            },
+            {
+                "name": "NASM",
+                "percentage": "70%"
+            },
+            {
+                "name": "Rust",
+                "percentage": "70%"
+            },
+            {
+                "name": "Java",
+                "percentage": "70%"
+            },
+            {
+                "name": "React",
+                "percentage": "10%"
             }
         ],
         "interest": [

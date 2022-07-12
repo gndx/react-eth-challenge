@@ -37,14 +37,16 @@ const App = () => {
         <>
             <ProfileContext.Provider value={data}>
                 <Header>
-                    <Profile />
                     <About />
                 </Header>
+                <Profile />
                 <Experience />
-                <Academic />
-                <Skills />
-                <Interest />
-                <Languages />
+                <section className="Group">
+                    <Academic />
+                    <Skills />
+                    <Interest />
+                    <Languages />
+                </section>
             </ProfileContext.Provider>
         </>
     )
