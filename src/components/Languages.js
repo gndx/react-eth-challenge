@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-const Languages = () => {
+function Languages() {
   return (
-    <>
-    <h2 className='Languages-title'>Languages</h2>
-    <ul>
-      <li className="Languages-item"></li>
-      <li className="Languages-item"></li>
-      <li className="Languages-item"></li>
-    </ul>
+    <div className='Languages'>
+      <h2 className='Languages-title'>Languages</h2>
+      <ul>
+        <li className='Languages-item' />
+        <li className='Languages-item' />
+        <li className='Languages-item' />
+      </ul>
 
-    </>
-  )
+    </div>
+  );
 }
 
-export default Languages
+export default Languages;

@@ -1,8 +1,10 @@
 .Header
-  background-color: middle-color
-  height: 10rem
+  borderContainerBold()
+  margin-bottom: 2rem
+  height: 12rem
   padding: 1rem
   display: flex
+  flex-wrap: wrap
   align-items: center
   justify-content: space-between
   .Header-img-container
@@ -18,13 +20,29 @@
       object-fit: cover
   .Header-info
     height: 100%
-    background-color: red
     width: calc(80% - 1rem)
     .Header-title
       margin: 0
     .contact-info
       display: flex
       list-style none
-      width: 50%
-      justify-content: space-between
+      width: auto
+      justify-content: flex-start
+      flex-wrap: wrap
       padding-left: 0
+      li
+        padding-right: 2rem
+        padding-bottom: .5rem
+        a
+          color: color-leters
+          cursor pointer
+          font-weight: bold
+
+
+@media (max-width: 760px)
+  .Header
+    flex-direction: columns
+    height: 24rem
+    .Header-img-container, .Header-info  
+      width: 100%
+      height: 50%

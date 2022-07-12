@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Skills = () => {
+function Skills() {
   return (
-    <>
-      <h2 className="Skills-title">Skills</h2>
+    <div className='Skills'>
+      <h2 className='Skills-title'>Skills</h2>
       <ul>
-        <li className="Skills-item"></li>
-        <li className="Skills-item"></li>
-        <li className="Skills-item"></li>
+        <li className='Skills-item' />
+        <li className='Skills-item' />
+        <li className='Skills-item' />
       </ul>
-    </>
+    </div>
   );
-};
+}
 
 export default Skills;

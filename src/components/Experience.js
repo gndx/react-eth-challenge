@@ -1,16 +1,30 @@
-import React from 'react';
+import React, { useId } from 'react';
 
-const Experience = () => {
+const Card = ({ company, endDate, jobDescription, jobTitle, startDate }) => {
   return (
-    <>
-      <h1 className="Experience-title">Experience</h1>
-      <ul>
-        <li className="Experience-item"></li>
-        <li className="Experience-item"></li>
-        <li className="Experience-item"></li>
-      </ul>
-    </>
+    <li className="Experience-item">
+      <h3>{jobTitle}</h3>
+      <em>
+        {startDate} - {endDate}
+      </em>
+      <hr />
+      <p>{jobDescription}</p>
+      <em>{company}</em>
+    </li>
   );
 };
+
+function Experience({ experience = [] }) {
+  return (
+    <section className="Experience">
+      <h2 className="Experience-title">Experience</h2>
+      <ul className="experience-list">
+        {experience.map((item) => (
+          <Card key={useId()} {...item} />
+        ))}
+      </ul>
+    </section>
+  );
+}
 
 export default Experience;
