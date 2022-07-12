@@ -33,7 +33,7 @@ const App = () => {
         <div>
           <section className="header">
             <div>
-              <img className='avatar' src="profile-pic.jpeg"></img>
+              <img className='avatar' src="https://avatars.githubusercontent.com/u/89404026?s=400&u=5eacfe3319ea4479a17b64766239e3882af94fff&v=4"></img>
             </div>
             <Header>
               <About />
