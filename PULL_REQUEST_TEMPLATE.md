@@ -5,6 +5,7 @@ Solución al reto:
 Nombre: Julian Camilo Garcia EScobar
 Usuario Platzi: juliancamilogarcia
 Link usuario: https://platzi.com/p/juliancamilogarcia/
+Deploy: http://JuliXnCXm.github.io/react-eth-challenge
 
 ## Problems and solutions
     1.Project installation - when installing the project and even installing every dependendy the installation threw errors for enzyme dependency , so I run the commands using --force this flag let install with no problems.
