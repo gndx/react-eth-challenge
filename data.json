@@ -1,109 +1,123 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Miguel Angel Huamán",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Lima, Peru.",
+    "email": "hola@miguelhuaman.com",
+    "website": "https://miguelhuaman.com",
+    "phone": "+51 969696969",
+    "avatar": "https://static.platzi.com/media/avatars/avatars/miguellangell_2ebcb5cc-727e-4949-9bfa-6e318cedecf0.jpg",
+    "Profile": "I used to work in civil construction, but one day I learned to program apps and websites. I have never been the same person since. The pandemic allowed me to rethink what I wanted in life. So I decided to leave my career in civil construction to become a developer.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jul 2021",
+        "description": "Scholarship. The program developed skills in the creation of new ventures and expand your knowledge in digital transformation and programming.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Frontend Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "May 2021",
+        "description": "Problem Solving Using Computational Thinking",
+        "institution": "University of Michigan",
+        "name": "Programmer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Frontend Developer",
+        "description": "Scholarship. This program developed my skills in the creation of new ventures and expand my knowledge on digital transformation and programming.",
+        "endDate": "Dic 2021",
+        "institution": "Innova Perú & Platzi",
+        "startDate": "Jul 2021"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Reto para Dominar el Arte de Hablar en Público",
+        "description": "Workshop. I learned storytelling techniques to captivate the audience.",
+        "endDate": "Feb 2022",
+        "institution": "Platzi",
+        "startDate": "Mar 2022"
+      },
+      {
+        "degree": "Problem Solving Using Computational Thinking",
+        "description": "Computational thinking is the process of approaching a problem in a systematic manner and creating and expressing a solution such that it can be carried out by a computer.",
+        "endDate": "Mar 2021",
+        "institution": "University of Michigan & Coursera",
+        "startDate": "May 2021"
+      },
+      {
+        "degree": "Copywriting: ¿cómo escribir para vender más?",
+        "description": "I used to write for machines. But in that workshop I learned to write for people.",
+        "endDate": "Apr 2021",
+        "institution": "EDteam",
+        "startDate": "Mar 2021"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Dígito",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Expert with Microsoft No-Code tools, like Power Apps and Power Automate.",
+        "jobTitle": "App Developer",
+        "startDate": "Jan 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Dígito",
+        "endDate": "Present",
+        "jobDescription": "Web developer. React and WordPress.",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Jul 2021"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "Markdown",
+        "percentage": "100%"
+      },
+      {
+        "name": "JSON",
+        "percentage": "100%"
+      },
+      {
+        "name": "YAML",
+        "percentage": "100%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "percentage": "5%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Philosophy. Because philosophy is often concerned with is to make explicit what has always been implicit in our thinking and acting.",
+      "Blockchain. This technology can provide secure transactions, reduce compliance costs, and speed up data transfer processing. Its awesome!",
+      "AI ethics. AI needs philosophy to prevent existential risks for humanity, and to solve any issues related to bias.",
+      "Smart Contracts. I love the idead of removing intermediaries and allow the end user to interact directly with the ledger."
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Español",
+        "percentage": "51%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "49%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
+        "name": "Facebook",
         "url": "https://facebook.com/"
       },
       {
-        "name": "twitter",
+        "name": "Twitter",
         "url": "https://twitter.com/"
       },
       {
-        "name": "github",
+        "name": "Github",
         "url": "https://github.com/"
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "Linkedin",
+        "url": "https://linkedin.com/"
       }
     ]
   }

@@ -1,0 +1,101 @@
+:root {
+    --blue-bg: #121f3d;
+    --blue-section: #24385b;
+    --white-title: #fff;
+    --white-text: #eff3f8;
+    --green-accent: #98ca3f;
+    --cyan-accent: #74caff;
+    --gray-text: #637b9d;
+}
+
+body {
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    background-color: var(--blue-bg);
+    color: var(--white-text);
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+section {
+    background-color: var(--blue-section);
+    border-radius: 1em;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0;
+    padding-top: 0.5em;
+    margin-top: 0;
+    line-height: 1;
+}
+
+h4 {
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 1.25;
+}
+
+.App {
+    padding-top: 1em;
+}
+
+small {
+    color: var(--gray-text);
+}
+
+@media (min-width: 900px) {
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    header {
+        grid-area: hea;
+    }
+
+    .Profile {
+        grid-area: pro;
+    }
+
+    .Experience {
+        grid-area: exp;
+    }
+
+    .Academic-Container {
+        grid-area: aca;
+    }
+
+    .skills-section {
+        grid-area: ski;
+    }
+
+    .languages-section {
+        grid-area: lan;
+    }
+
+    .Interests {
+        grid-area: int;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    .App {
+        padding-top: 4em;
+        display: grid;
+        grid-template-areas: 
+        'hea hea' 'pro pro' 'exp exp' 'aca aca' 'ski lan' 'int int' 'footer footer';
+        gap: 2em;
+    }
+    section {
+        margin-top: 0em;
+    }
+}

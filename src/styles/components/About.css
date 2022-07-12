@@ -1,0 +1,15 @@
+.About-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.About-container a {
+    padding-right: 1em;
+    font-size: 0.75em;
+    color: var(--green-accent);
+}

@@ -15,6 +15,7 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 5. [Personalizar API](https://github.com/gndx/react-eth-challenge/issues/5)
 6. [Documentar](https://github.com/gndx/react-eth-challenge/issues/6)
 7. [Deploy](https://github.com/gndx/react-eth-challenge/issues/7)
+- [Deploy site](https://react-challenge-miguel-huaman.netlify.app/)
 
 ### Instalación
 
