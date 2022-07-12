@@ -1,2 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+title-text-size = 36px
+text-size = 18px
+subtitle-text-size = 24px
+
+max-width-1 = 950px
+
+gap-between = 30px
+
+
 body
-  background-color blue
+  background-color: #FFF
+  margin: 16px
+
+section
+  background-color: #7dd4cc
+  border-radius: 8px
+  padding: 30px
+
+h2
+  margin: 0 0 35px
+
+h3
+  font-size: subtitle-text-size
+
+h4
+  margin: 0
+
+p
+a
+  text-decoration: none
+  font-size: text-size
+  margin: 5px 0
+
+.Main-content
+  display: grid
+  grid-template-rows: auto 1fr auto auto auto auto
+  grid-template-columns: 1fr 1fr 1fr
+  gap: 20px
+
+  .Header
+    grid-column: 1 / 4
+
+  .Profile
+    grid-column: 1 / 4
+
+  .Experience
+    grid-column: 1 / 4
+  
+  .Academic
+    grid-column: 1 / 4
+
+  .Certificates
+    grid-column: 1 / 4
+
+
+.Header
+    display: grid
+    grid-template-columns: 22% 78%
+
+    .Header-picture
+        place-self: center
+
+        img
+            border-radius: 50%
+            width: 80%
+            background: #ebe3de
+    
+    .Header-title
+        margin: 5px 0

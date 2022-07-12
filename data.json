@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "name": "40471",
+    "profession": "FrontEnd HATER (Ingeniero Informatico)",
+    "address": "Madrid, España.",
+    "email": "email@example.com",
     "website": "https://example.com",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://avatars.githubusercontent.com/u/97989737?v=4",
+    "Profile": "Ingeniero informatico, estudiante de 42Madrid y en Platzi. Me encanta programar lo que sea menos FrontEnd (Pero si hay que hacerlo se hace)",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -56,36 +56,37 @@
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "Java",
+        "percentage": "80%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "Python",
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
         "percentage": "55%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "C/C++",
+        "percentage": "70%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "blockchain",
+      "Machine Learning"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "95%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [
