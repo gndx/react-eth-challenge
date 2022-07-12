@@ -16,10 +16,10 @@ const certificate = ({ certificate }) => {
               return (
                 <li key={item.date}>
                   <div>
-                    <h3 className="Academic-item">{item.degree}</h3>
-                    <p className="Academic-item">{item.description}</p>
-                    <h4 className="Academic-item">{item.institution}</h4>
-                    <p className="Academic-item">{item.date}</p>
+                    <h3 className=".Academic-item">{item.degree}</h3>
+                    <p className=".Academic-item">{item.description}</p>
+                    <h4 className=".Academic-item">{item.institution}</h4>
+                    <p className=".Academic-item">{item.date}</p>
                   </div>
                 </li>
               );

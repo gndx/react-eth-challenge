@@ -5,6 +5,7 @@ const Skills = ({ skills }) => {
   return (
     <Card>
       <h2 className="Skills-title">Skills</h2>
+
       <ul>
         {skills &&
           skills.map((item) => {

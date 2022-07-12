@@ -10,9 +10,9 @@ const Languages = ({ languages }) => {
           languages.map((item) => {
             return (
               <li key={item.name}>
-                <div className="Languages-item">
-                  <h3 className="Languages-item">{item.name}</h3>
-                  <p className="Languages-item">{item.percentage}</p>
+                <div className=".Languages-item">
+                  <h3 className=".Languages-item">{item.name}</h3>
+                  <p className=".Languages-item">{item.percentage}</p>
                 </div>
               </li>
             );
