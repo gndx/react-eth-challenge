@@ -1,0 +1,133 @@
+{
+  "data": {
+    "name": "Luis Felipe Duarte Herrera",
+    "profession": "Researcher at Energetica 2030, startup founder, developer",
+    "address": "Medellín, Colombia.",
+    "email": "ledh02@gmail.com",
+    "website": "https://example.com",
+    "phone": "3136413553",
+    "avatar": "https://avatars.githubusercontent.com/LuisFDuarte",
+    "Profile": "Experienced Researcher with a demonstrated history of working in the electrical and electronic manufacturing industry. Skilled in Entrepreneurship Education, Machine learning with Python, C#, Web Applications, Internet of Things, and Software Development. Strong research professional with a Bachelor's degree focused in Electrical and Electronics Engineering and Master of engineering from Universidad Pontificia Bolivariana.",
+    "certificate": [
+      {
+        "date": "Jan 2022",
+        "description": "Python Developer",
+        "institution": "Platzi",
+        "name": "FrontEnd Developer"
+      },
+      {
+        "date": "Jan 2022",
+        "description": ".NET Fundamentals",
+        "institution": "Platzi",
+        "name": "Backend Developer"
+      }
+    ],
+    "Academic": [
+      {
+        "degree": "Bachelor's degree",
+        "description": "Electrical and Electronics Engineering",
+        "endDate": "July 2017",
+        "institution": "UPB",
+        "startDate": "Jan 2010"
+      },
+      {
+        "degree": "Master of Engineering - MEng",
+        "description": "MEng, Electrical Engineering",
+        "endDate": "Agu 2017",
+        "institution": "UPB",
+        "startDate": "Oct 2021"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Universidad Pontificia Bolivariana",
+        "endDate": "Present",
+        "jobDescription": "Developer of .NET solutions for supervising colombian electrical national system.",
+        "jobTitle": "Researcher and developer",
+        "startDate": "Jan 2017"
+      },
+      {
+        "company": "Energetica 20300",
+        "endDate": "Present",
+        "jobDescription": "Developer of prototypes for energy forecasting of solar and wind power plants.",
+        "jobTitle": "Backend",
+        "startDate": "Mar 2019"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "percentage": "75%"
+      },
+      {
+        "name": "Javascript",
+        "percentage": "60%"
+      },
+      {
+        "name": "C#",
+        "percentage": "60%"
+      },
+      {
+        "name": "Influx DB, Mongo DB",
+        "percentage": "70%"
+      },
+      {
+        "name": "Pandas, Scikit-Learn",
+        "percentage": "80%"
+      },
+      {
+        "name": "Solar Power",
+        "percentage": "70%"
+      }, 
+      {
+        "name": "Domotics",
+        "percentage": "80%"
+      },
+      {
+        "name": "Electronics",
+        "percentage": "80%"
+      }
+      
+    ],
+    "interest": [
+      "Renewable Energies",
+      "Web 3",
+      "IoT",
+      "Machine Learning",
+      "Soccer",
+      "Vegan wanna be"
+    ],
+    "languages": [
+      {
+        "name": "Spanish",
+        "percentage": "100%"
+      },
+      {
+        "name": "English",
+        "percentage": "80%"
+      },
+      {
+        "name": "Chinese",
+        "percentage": "20%"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://facebook.com/"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/"
+      }
+    ]
+  }
+}
