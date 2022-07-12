@@ -17,7 +17,6 @@ function App() {
       </Header>
       <Profile />
       <Experience />
-
       <Academic />
       <Skills />
       <Interest />
