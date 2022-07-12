@@ -1,7 +1,11 @@
-h2.title {
+h2.title-component {
   font-size: 70px;
   font-weight: lighter;
-  width: max-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  @media all and (max-width: 720px) {
+    font-size: 50px;
+  }
   &::before {
     content: '';
     position: relative;

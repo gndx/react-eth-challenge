@@ -2,6 +2,10 @@
   ul {
     max-height: 550px;
     transition: 0.5s max-height;
+    overflow: hidden;
+    @media all and (max-width: 720px) {
+      max-height: 545px;
+    }
     &.show-all {
       max-height: 10000px;
     }
@@ -9,6 +13,9 @@
       width: 49%;
       list-style: none;
       height: 250px;
+      @media all and (max-width: 720px) {
+        width: 100%;
+      }
       .academic-item {
         background-color: #32383e;
         .title {

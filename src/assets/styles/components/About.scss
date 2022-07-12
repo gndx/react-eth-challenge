@@ -1,23 +1,27 @@
 .about-section {
   width: 100%;
   .typing-name {
-    width: 580px;
-    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
+    color: #0000;
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
-    color: rgba(195, 195, 190, 1) !important;
+    background: linear-gradient(-90deg, #c3c3be 5px, #0000 0) 10px 0,
+      linear-gradient(#c3c3be 0 0) 0 0;
+    background-size: calc(53 * 1ch) 200%;
+    -webkit-background-clip: padding-box, text;
+    background-clip: padding-box, text;
+    background-repeat: no-repeat;
+    animation: b 0.7s infinite steps(1), t calc(53 * 0.3s) steps(53) forwards;
   }
-  @keyframes typing {
+
+  @keyframes t {
     from {
-      width: 0;
+      background-size: 0 200%;
     }
   }
-  @keyframes blink {
+  @keyframes b {
     50% {
-      border-color: transparent;
+      background-position: 0 -100%, 0 0;
     }
   }
   p {

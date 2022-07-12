@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import '@/assets/styles/components/Title.scss';
 
-type title = {
-  title: string;
-};
-
-const Title = ({ title }: title) => {
+/** Shows Title information*/
+const Title = ({ title }) => {
   const [firstText, setFirstText] = useState('');
   const [lastText, setLastText] = useState('');
 
@@ -19,7 +16,7 @@ const Title = ({ title }: title) => {
   });
 
   return (
-    <h2 className="title my-4">
+    <h2 className="title-component my-4">
       {firstText && `${firstText} `}
       <strong>{lastText}</strong>
     </h2>

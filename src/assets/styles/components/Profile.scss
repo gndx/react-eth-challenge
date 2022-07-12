@@ -1,12 +1,23 @@
 .profile-title-container {
   font-weight: 400;
-  h1 {
+  .profile {
     font-size: 22px;
+    font-weight: lighter;
   }
   h2 {
     font-size: 17px;
+    font-weight: 400;
   }
   h3 {
     font-size: 17px;
+  }
+  .logo {
+    width: 30px;
+  }
+  .change-language-btn {
+    background-color: #e18962;
+    border-color: #e18962;
+    height: 40px;
+    color: #232323;
   }
 }

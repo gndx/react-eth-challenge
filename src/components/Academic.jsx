@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { withTranslation } from 'react-i18next';
-import { ReactComponetProps, AcademicProps } from '@/types/global';
 import Title from '@/components/Title';
 import '@/assets/styles/components/Academic.scss';
 
-const Academic = ({ t }: ReactComponetProps) => {
-  const [viewMore, setViewMore] = useState<Boolean>(false);
+/** Shows Academic information*/
+const Academic = ({ t }) => {
+  const [viewMore, setViewMore] = useState(false);
 
-  const AcademicItem = ({ title, institute, year, link }: AcademicProps) => (
+  /** AcademicItem component*/
+  const AcademicItem = ({ title, institute, year, link }) => (
     <div className="academic-item p-4 rounded mb-4 h-100">
       <h3 className="title">{title}</h3>
       <h4 className="institute">{institute}</h4>
@@ -29,21 +30,19 @@ const Academic = ({ t }: ReactComponetProps) => {
           viewMore ? ' show-all' : ''
         }`}
       >
-        {t?.('academic', { returnObjects: true }).map(
-          (item: AcademicProps, index: number) => (
-            <li
-              key={index}
-              className={`mb-4${index > 3 && !viewMore ? ' d-none' : ''}`}
-            >
-              <AcademicItem
-                title={item.title}
-                institute={item.institute}
-                year={item.year}
-                link={item?.link}
-              />
-            </li>
-          )
-        )}
+        {t?.('academic', { returnObjects: true }).map((item, index) => (
+          <li
+            key={index}
+            className={`mb-4${index > 3 && !viewMore ? ' d-none' : ''}`}
+          >
+            <AcademicItem
+              title={item.title}
+              institute={item.institute}
+              year={item.year}
+              link={item?.link}
+            />
+          </li>
+        ))}
       </ul>
       {t?.('academic', { returnObjects: true }).length > 4 && (
         <div

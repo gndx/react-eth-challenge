@@ -1,24 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import locales from '@/locales/Locales';
-//import getData from '@/utils/getData';
 
-/* const getLocales = async (): Promise<Object> => {
-  const en = await getData(
-    'https://firebasestorage.googleapis.com/v0/b/briefcase-6e790.appspot.com/o/locales/en/translation.json?alt=media'
-  );
-  const es = await getData(
-    'https://firebasestorage.googleapis.com/v0/b/briefcase-6e790.appspot.com/o/locales/es/translation.json?alt=media'
-  );
-
-  return {
-    en,
-    es
-  };
-};
-const resources: Object = await getLocales(); */
-
-const i18nInit = (resources: any) => {
+const i18nInit = (resources) => {
   i18n
     .use(initReactI18next) // passes i18n down to react-i18next
     .init({

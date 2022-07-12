@@ -15,6 +15,9 @@
   li {
     width: 49%;
     list-style: none;
+    @media all and (max-width: 720px) {
+      width: 100%;
+    }
     .experience-item {
       background-color: #32383e;
       .title {

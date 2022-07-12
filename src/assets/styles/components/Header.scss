@@ -1,8 +1,17 @@
 .profile-container {
   width: 300px;
+  position: fixed;
+  @media all and (max-width: 900px) {
+    position: initial;
+    width: calc(100% - 3rem);
+    margin: 1.5rem !important;
+  }
   .profile-menu {
     margin-top: 62.5px;
     height: calc(100% - 62.5px);
+    @media all and (max-width: 900px) {
+      width: 100%;
+    }
     &::before {
       content: '';
       position: absolute;
@@ -19,6 +28,10 @@
       height: 200px;
       overflow: hidden;
       margin-top: -50px;
+      @media all and (max-width: 900px) {
+        margin-right: 30px;
+        margin-bottom: 30px;
+      }
       .img {
         height: 100%;
       }
