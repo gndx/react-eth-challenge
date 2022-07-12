@@ -11,7 +11,7 @@ import getData from '../utils/getData';
 import '../styles/globals.css';
 
 const URL =
-  'https://raw.githubusercontent.com/miltondl96/react-eth-challenge/dev/data.json';
+  'https://raw.githubusercontent.com/miltondl96/react-eth-challenge/main/data.json';
 
 export default function App() {
   const [data, setData] = useState({});
