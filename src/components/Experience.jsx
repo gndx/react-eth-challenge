@@ -1,16 +1,15 @@
 import React from 'react';
 import ExperienceItem from './items/ExperienceItem';
 import '../styles/components/Experience.styl';
+import CompleteData from '../../data.json';
 
 function Experience() {
+  const { data } = CompleteData;
   return (
     <section className='Experience'>
       <h2 className='Experience-title'>Experience</h2>
       <div className='Experience__items'>
-        <ExperienceItem className='Experience-item' />
-        <ExperienceItem className='Experience-item' />
-        <ExperienceItem className='Experience-item' />
-        <ExperienceItem className='Experience-item' />
+        {data.experience.map((item, index) => <ExperienceItem className='Experience-item' key={`${index + 1}-experience`} item={item} />)}
       </div>
     </section>
   );

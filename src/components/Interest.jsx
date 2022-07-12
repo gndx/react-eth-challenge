@@ -2,15 +2,12 @@ import React from 'react';
 import InterestItem from './items/InterestItem';
 import '../styles/components/Interest.styl';
 
-function Interest() {
+function Interest({ data }) {
   return (
     <section className='Interest'>
       <h2 className='Interest-title'>Interest</h2>
       <div className='Interest-items'>
-        <InterestItem className='Interest-item' />
-        <InterestItem className='Interest-item' />
-        <InterestItem className='Interest-item' />
-        <InterestItem className='Interest-item' />
+        {data?.map((item, index) => <InterestItem className='Interest-item' key={`${index + 1}-interest`} item={item} />)}
       </div>
     </section>
   );
