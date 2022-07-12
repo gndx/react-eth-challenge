@@ -1,0 +1,24 @@
+import styled from 'styled-components'
+
+
+export const Container = styled.div`	
+	background-color: #273139;	
+	width: 100%;
+	height: 100%;	
+`
+
+export const Title = styled.h2`
+	margin: 10px;	
+`
+
+export const SkillsContainer = styled.div`
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+	width: 80%;
+	height: 50%;
+	margin: auto;
+`
+
+export const Info = styled.p`		
+`
