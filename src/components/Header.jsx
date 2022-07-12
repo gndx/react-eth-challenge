@@ -9,8 +9,8 @@ const Header = ({ data = {} }) => {
                     <img className='Header-image' src={data.avatar} alt='' />
                 </div>
                 <div className='col-8'>
-                    <h1 className='Header-title'>{data.name}</h1>
-                    <h3 className='Header-job-title'>{data.profession}</h3>
+                    <h1 className='Header-title title'>{data.name}</h1>
+                    <h3 className='Header-job-title subtitle'>{data.profession}</h3>
                     <p className='Header-phone'>{'Phone: ' + data.phone}</p>
                     <p className='Header-email'>Email: <a href={'mailto:' + data.email}>{data.email}</a></p>
                     <p className='Header-email'>Web: <a href={data.website} className='Header' target='_blank' rel='noreferrer'>{data.website}</a>
