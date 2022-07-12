@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import '../styles/components/App.styl';
 import getData from '../utils/getData';
 import Header from '../components/Header';
+import About from '../components/About';
+import Profile from '../components/Profile';
+import Experience from '../components/Experience';
+
 //import jsonData from 'data.json';
 /*import About from '../components/About';
 import Profile from '../components/Profile';
@@ -10,13 +14,6 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';*/
-
-/*
-const { data } = await getData(
-  '../data.json'
-);*/
-
-
 
 
 const App = () => {
@@ -37,12 +34,13 @@ const App = () => {
 
     return (
       <>
-        <Header name={data.name}>
-          {/*<About />*/}
+        <Header name={data.name} avatar={data.avatar}>
+          <About profession={data.profession}
+        phone={data.phone} email={data.email} website={data.website} address={data.address} />
         </Header>
+        <Profile profile={data.Profile} />
+        <Experience experience={data.experience} />
         {/*
-        <Profile />
-        <Experience />
         <Academic />
         <Skills />
         <Interest />
