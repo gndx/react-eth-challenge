@@ -50,6 +50,16 @@ export const Container = styled.div`
 export const Span = styled.span`
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   gap: 8px;
+`;
+
+export const ProfileP = styled.p`
+  margin-bottom: 8px;
+`;
+
+export const Div = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 `;

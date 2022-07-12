@@ -1,6 +1,33 @@
 import styled, { keyframes } from 'styled-components';
 import { FaNodeJs, FaReact, FaPython } from 'react-icons/fa';
-import { SiJavascript, SiCplusplus, SiHtml5 } from 'react-icons/si';
+import { SiJavascript, SiCplusplus, SiHtml5, SiCss3 } from 'react-icons/si';
+import { BsCodeSlash } from 'react-icons/bs';
+import React from 'react';
+
+const IconComponents = {
+  node: FaNodeJs,
+  javascript: SiJavascript,
+  react: FaReact,
+  python: FaPython,
+  cplusplus: SiCplusplus,
+  html5: SiHtml5,
+  css: SiCss3,
+  default: BsCodeSlash,
+};
+
+export const getIconContainer = (iconName = 'default') => {
+  let Icon = IconComponents[iconName.toLowerCase()];
+  if (Icon === undefined) {
+    Icon = IconComponents['default'];
+  }
+  const IconContainer = styled(Icon)`
+    display: block;
+    margin: auto;
+    font-size: 80px;
+    opacity: 0.4;
+  `;
+  return <IconContainer />;
+};
 
 const waveMove = keyframes`
       0% {transform: translateX(0);}
@@ -17,7 +44,7 @@ export const SkillsContainer = styled.div`
   width: 95%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   color: #fff;
 `;
@@ -42,58 +69,6 @@ export const Frame = styled.div`
   border-radius: 10px;
 `;
 
-export const ImgNode = styled(FaNodeJs)`
-  display: block;
-  margin: auto;
-  font-size: 80px;
-  opacity: 0.4;
-`;
-
-export const ImgJavascript = styled(SiJavascript)`
-  display: block;
-  margin: auto;
-  font-size: 80px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  opacity: 0.4;
-`;
-
-export const ImgReact = styled(FaReact)`
-  display: block;
-  margin: auto;
-  font-size: 80px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  opacity: 0.4;
-`;
-
-export const ImgPython = styled(FaPython)`
-  display: block;
-  margin: auto;
-  font-size: 80px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  opacity: 0.4;
-`;
-
-export const ImgCplusplus = styled(SiCplusplus)`
-  display: block;
-  margin: auto;
-  font-size: 80px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  opacity: 0.4;
-`;
-
-export const ImgHtml = styled(SiHtml5)`
-  display: block;
-  margin: auto;
-  font-size: 80px;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  opacity: 0.4;
-`;
-
 export const Name = styled.h1`
   font-size: 24px;
   font-weight: 300;
@@ -114,8 +89,9 @@ export const SkillLevel = styled.div`
   font-size: 12px;
   border-radius: 50%;
   border: 2px solid;
-  border-color: #ff4a57;
-  color: #ff4a57;
+  border-color: #4fa0ff;
+  color: white;
+  font-weight: bold;
 `;
 
 export const Wave = styled.div`

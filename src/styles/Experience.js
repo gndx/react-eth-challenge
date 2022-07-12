@@ -34,13 +34,7 @@ export const Info = styled.div`
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   padding-right: 24px;
   position: relative;
-  /* &::before {
-    content: '•';
-    position: absolute;
-    right: -6px;
-    top: -8px;
-    font-size: 30px;
-  } */
+  min-width: 160px;
 `;
 
 export const Desc = styled.div`
@@ -51,4 +45,9 @@ export const Desc = styled.div`
 
 export const Li = styled.li`
   padding-bottom: 24px;
+`;
+
+export const H3 = styled.h3`
+  text-align: center;
+  margin-bottom: 8px;
 `;

@@ -6,9 +6,9 @@ export const Ul = styled.ul`
 `;
 
 export const Li = styled.li`
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 `;
 
-export const H3 = styled.h3`
+export const H4 = styled.h4`
   font-weight: 500;
 `;
