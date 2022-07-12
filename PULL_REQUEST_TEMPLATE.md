@@ -1,11 +1,11 @@
-## DESCRIPTION
+# DESCRIPTION
 
 Solución al reto:
 
 Nombre:
 Usuario Platzi:
 
-## Reto:
+## Reto
 
 - [ ] Primer problema
 - [ ] Segundo problema
