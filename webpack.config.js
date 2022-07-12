@@ -14,6 +14,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|gif|jpg)$/,
+        use: [
+          {
+            loader: 'file-loader'
+          }
+        ],
+      },
+      {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
@@ -29,13 +37,14 @@ module.exports = {
         ],
       },
       {
-        test: /\.css|.styl$/,
+        test: /\.s[ac]ss$/i,
         use: [
-          {
-            loader: MiniCssExtractPlugin.loader,
-          },
-          'css-loader',
-          'stylus-loader',
+          // Creates `style` nodes from JS strings
+          "style-loader",
+          // Translates CSS into CommonJS
+          "css-loader",
+          // Compiles Sass to CSS
+          "sass-loader",
         ],
       },
     ],

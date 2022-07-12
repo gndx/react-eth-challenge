@@ -1,0 +1,27 @@
+.Academic {
+  display: flex;
+  flex-direction: column;
+  &-title {
+    font-size: 40px;
+    text-align: center;
+    margin: 2rem;
+  }
+  &-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    gap: 2rem;
+    &-item {
+      font-size: 32px;
+      margin: 0;
+      & a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+          color: #102189;
+        }
+      }
+    }
+  }
+}
