@@ -1,7 +1,7 @@
 .Experience .container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 3em;
+    gap: 2.5em;
 }
 
 .Experience-item h4 {
@@ -11,5 +11,6 @@
 @media(min-width: 640px) {
     .Experience .container {
         grid-template-columns: 1fr 1fr;
+        gap: 3em;
     }
 }

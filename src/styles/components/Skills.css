@@ -2,4 +2,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    padding-bottom: 1.5em;
+}
+
+.Skills-item h4, .Languages-item h4 {
+    color: var(--green-accent);
 }

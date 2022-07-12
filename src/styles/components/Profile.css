@@ -5,12 +5,13 @@
 
 .Profile-desc {
     text-align: center;
-    padding: 0;
+    padding-bottom: 0;
 }
 
 @media (min-width: 640px) {
     .Profile-desc {
         margin: 0 auto;
         max-width: 40em;
+        padding-bottom: 1em;
     }
 }

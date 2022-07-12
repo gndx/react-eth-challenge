@@ -6,14 +6,14 @@
     "email": "hola@miguelhuaman.com",
     "website": "https://miguelhuaman.com",
     "phone": "+51 969696969",
-    "avatar": "https://media-exp2.licdn.com/dms/image/C4D03AQElneznum5t6A/profile-displayphoto-shrink_200_200/0/1631588655090?e=1663200000&v=beta&t=mkhb4fi9QYk7f5RVaDI3DgPzo6JYFeUK7AD1JfGrLXg",
+    "avatar": "https://static.platzi.com/media/avatars/avatars/miguellangell_2ebcb5cc-727e-4949-9bfa-6e318cedecf0.jpg",
     "Profile": "I used to work in civil construction, but one day I learned to program apps and websites. I have never been the same person since. The pandemic allowed me to rethink what I wanted in life. So I decided to leave my career in civil construction to become a developer.",
     "certificate": [
       {
         "date": "Jul 2021",
         "description": "Scholarship. The program developed skills in the creation of new ventures and expand your knowledge in digital transformation and programming.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Frontend Developer"
       },
       {
         "date": "May 2021",
@@ -63,7 +63,7 @@
       {
         "company": "Dígito",
         "endDate": "Present",
-        "jobDescription": "Web developer",
+        "jobDescription": "Web developer. React and WordPress.",
         "jobTitle": "Frontend Developer",
         "startDate": "Jul 2021"
       }

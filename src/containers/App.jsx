@@ -13,8 +13,8 @@ import Footer from '../components/Footer';
 import getData from '../utils/getData';
 
 function App() {
-  const [user, setUser] = useState(undefined);
 
+  const [user, setUser] = useState(undefined);
   const API = process.env.SERVER || 
   'https://raw.githubusercontent.com/Miguel-Huaman/react-eth-challenge/main/data.json';
 
@@ -50,7 +50,10 @@ function App() {
 
   return (
     <div className='App'>
-      <Header name={name} avatar={avatar} social={social}>
+      <Header 
+        name={name}
+        avatar={avatar}
+        social={social}>
         <About
           profession={profession}
           address={address}
@@ -59,12 +62,25 @@ function App() {
           phone={phone}
         />
       </Header>
-      <Profile profile={profile} />
-      <Experience experience={experience} />
-      <Academic academic={academic} certificate={certificate} />
-      <Skills skills={skills} />
-      <Interest interest={interest} />
-      <Languages languages={languages} />
+      <Profile 
+        profile={profile} 
+      />
+      <Experience 
+        experience={experience}
+      />
+      <Academic 
+        academic={academic}
+        certificate={certificate}
+      />
+      <Skills
+        skills={skills}
+      />
+      <Interest
+        interest={interest}
+      />
+      <Languages 
+        languages={languages}
+      />
       <Footer />
     </div>
   );
