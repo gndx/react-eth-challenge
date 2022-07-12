@@ -19,7 +19,6 @@ function App() {
     }
     getDataApi();
   }, []);
-
   return (
     <>
       <Header
