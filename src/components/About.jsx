@@ -1,7 +1,7 @@
 import React from 'react';
 import { withTranslation } from 'react-i18next';
-import Title from '@/components/Title';
-import '@/assets/styles/components/About.scss';
+import Title from './Title';
+import '../assets/styles/components/About.scss';
 
 /** Shows about information*/
 const About = ({ t }) => (

@@ -41,7 +41,6 @@
   },
   "devDependencies": {
     "babel-eslint": "10.1.0",
-    "babel-plugin-module-resolver": "^4.1.0",
     "css-loader": "6.7.1",
     "dotenv-webpack": "^8.0.0",
     "eslint": "8.19.0",
@@ -65,8 +64,7 @@
     "verbose": true,
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/fileMock.js",
-      "\\.(scss|css)$": "<rootDir>/src/__mocks__/styleMock.js",
-      "^@/(.*)$": "<rootDir>/src/"
+      "\\.(scss|css)$": "<rootDir>/src/__mocks__/styleMock.js"
     },
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"

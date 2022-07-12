@@ -1,11 +1,11 @@
 import React from 'react';
 import { withTranslation } from 'react-i18next';
 import Image from 'react-bootstrap/Image';
-import githubLogo from '@/assets/img/github-logo.png';
-import linkedinLogo from '@/assets/img/linkedin-logo.png';
-import twitterLogo from '@/assets/img/twitter-logo.png';
-import instagramLogo from '@/assets/img/instagram-logo.png';
-import '@/assets/styles/components/Profile.scss';
+import githubLogo from '../assets/img/github-logo.png';
+import linkedinLogo from '../assets/img/linkedin-logo.png';
+import twitterLogo from '../assets/img/twitter-logo.png';
+import instagramLogo from '../assets/img/instagram-logo.png';
+import '../assets/styles/components/Profile.scss';
 
 /** Shows Profile information*/
 const Profile = ({ t, i18n }) => (

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
-import profileImg from '@/assets/img/profile.jpg';
-import '@/assets/styles/components/Header.scss';
+import profileImg from '../assets/img/profile.jpg';
+import '../assets/styles/components/Header.scss';
 
 /** Shows Header information*/
 const Header = ({ children }) => (

@@ -1,17 +1,17 @@
 import React from 'react';
 import { FirebaseAppProvider } from 'reactfire';
 import { I18nextProvider } from 'react-i18next';
-import firebaseConfig from '@/firebaseConfig';
-import i18n from '@/i18n';
-import '@/assets/styles/components/App.scss';
-import Header from '@/components/Header';
-import About from '@/components/About';
-import Profile from '@/components/Profile';
-import Experience from '@/components/Experience';
-import Academic from '@/components/Academic';
-import Skills from '@/components/Skills';
-import Interest from '@/components/Interest';
-import Languages from '@/components/Languages';
+import firebaseConfig from '../firebaseConfig';
+import i18n from '../i18n';
+import '../assets/styles/components/App.scss';
+import Header from '../components//Header';
+import About from '../components//About';
+import Profile from '../components//Profile';
+import Experience from '../components//Experience';
+import Academic from '../components//Academic';
+import Skills from '../components//Skills';
+import Interest from '../components//Interest';
+import Languages from '../components//Languages';
 
 const App = () => (
     <FirebaseAppProvider firebaseConfig={firebaseConfig}>

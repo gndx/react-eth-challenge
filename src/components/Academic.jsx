@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { withTranslation } from 'react-i18next';
-import Title from '@/components/Title';
-import '@/assets/styles/components/Academic.scss';
+import Title from './Title';
+import '../assets/styles/components/Academic.scss';
 
 /** Shows Academic information*/
 const Academic = ({ t }) => {

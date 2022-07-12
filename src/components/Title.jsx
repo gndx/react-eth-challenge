@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '@/assets/styles/components/Title.scss';
+import '../assets/styles/components/Title.scss';
 
 /** Shows Title information*/
 const Title = ({ title }) => {
