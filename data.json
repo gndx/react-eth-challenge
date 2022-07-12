@@ -1,12 +1,12 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Bryan Madrid",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "address": "Cancún, México.",
+    "email": "sbryanmadridn@gmail.com",
+    "website": "https://serbrylex.com",
+    "phone": "+55 9983963548",
+    "avatar": "https://serbrylex.com/static/media/yomero.f394a247.png",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
@@ -52,6 +52,13 @@
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
         "startDate": "Sept 2019"
+      },
+      {
+        "company": "SpaceX",
+        "endDate": "Jan 2016",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Hard Stuff Builder",
+        "startDate": "Sept 2019"
       }
     ],
     "skills": [
@@ -86,6 +93,10 @@
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Japanese",
+        "percentage": "2%"
       }
     ],
     "social": [
