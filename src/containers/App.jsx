@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../styles/main.scss'
 import Provider from '../components/Context';
 import AppUI from './AppUI';
 
