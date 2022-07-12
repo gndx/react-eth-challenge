@@ -19,7 +19,9 @@ function Header({
         <h1 className="Header-title">{name}</h1>
         <strong className="Header-job-title">{profession}</strong>
         <ul className="contact-info">
-          <li className="Header-phone">{phone}</li>
+          <li className="Header-phone">
+            <a href={`tel:${phone}`}>{phone}</a>
+          </li>
           <li className="Header-email">
             <a href={`mailto:${email}`}> {email}</a>
           </li>

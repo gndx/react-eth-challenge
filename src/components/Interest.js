@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useId } from 'react';
 
-function Interest() {
+function Interest({ interest = [] }) {
   return (
-    <div className='Interest'>
-      <h2 className='Interest-title'>Interest</h2>
+    <div className="Interest">
+      <h2 className="Interest-title">Interest</h2>
       <ul>
-        <li className='Interest-item' />
-        <li className='Interest-item' />
-        <li className='Interest-item' />
+        {interest.map((item) => (
+          <li className="Interest-item" key={useId()}>
+            {item}
+          </li>
+        ))}
       </ul>
     </div>
   );

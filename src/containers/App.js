@@ -56,7 +56,6 @@ const App = () => {
         <Profile profile={profile} />
         <Experience experience={experience} />
         <section className="App-subcontainer">
-          {/* <Academic academic={academic} certificate={certificate} /> */}
           <Academic academic={academic} />
           <Skills skills={skills} />
           <Interest interest={interest} />
