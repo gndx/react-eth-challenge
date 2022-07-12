@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Skills = () => {
-  return (
-    <>
-    
-    </>
-  )
-}
-
-export default Skills
-=======
 import React from 'react';
 import '../styles/components/Skills.styl';
 
@@ -29,4 +16,3 @@ function Skills({ skills = [{}, {}, {}] }) {
 }
 
 export default Skills;
->>>>>>> test

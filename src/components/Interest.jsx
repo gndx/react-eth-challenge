@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Interest = () => {
-  return (
-    <>
-    
-    </>
-  )
-}
-
-export default Interest
-=======
 import React from 'react';
 import '../styles/components/Interest.styl';
 
@@ -30,4 +17,3 @@ function Interest({ interest = ['', '', ''] }) {
 }
 
 export default Interest;
->>>>>>> test

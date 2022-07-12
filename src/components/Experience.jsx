@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Experience = () => {
-  return (
-    <>
-    
-    </>
-  )
-}
-
-export default Experience
-=======
 import React from 'react';
 import '../styles/components/Experience.styl';
 
@@ -35,4 +22,3 @@ function Experience({ experience = [{}, {}, {}] }) {
 }
 
 export default Experience;
->>>>>>> test

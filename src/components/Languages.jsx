@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Languages = () => {
-  return (
-    <>
-    
-    </>
-  )
-}
-
-export default Languages
-=======
 import React from 'react';
 import '../styles/components/Languages.styl';
 
@@ -33,4 +20,3 @@ function Languages({ languages = [{}, {}, {}] }) {
 }
 
 export default Languages;
->>>>>>> test

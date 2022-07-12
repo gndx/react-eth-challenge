@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Profile = () => {
-  return (
-    <>
-    
-    </>
-  )
-}
-
-export default Profile
-=======
 import React from 'react';
 import '../styles/components/Profile.styl';
 
@@ -24,4 +11,3 @@ function Profile({ profile }) {
 }
 
 export default Profile;
->>>>>>> test

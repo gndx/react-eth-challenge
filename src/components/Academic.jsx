@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Academic = () => {
-  return (
-    <>
-    
-    </>
-  )
-}
-
-export default Academic
-=======
 import React from 'react';
 import '../styles/components/Academic.styl';
 
@@ -35,4 +22,3 @@ function Academic({ academic = [{}, {}, {}] }) {
 }
 
 export default Academic;
->>>>>>> test

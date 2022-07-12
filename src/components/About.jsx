@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const About = () => {
-  return (
-    <>
-      <h2>About Me</h2>
-    </>
-  )
-}
-
-export default About
-=======
 import React from 'react';
 import '../styles/components/About.styl';
 
@@ -31,4 +18,3 @@ function About({ avatar, name, profession, phone, email, website, address }) {
 }
 
 export default About;
->>>>>>> test

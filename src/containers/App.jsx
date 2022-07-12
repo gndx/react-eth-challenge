@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
-=======
 import React, { useState, useEffect } from 'react';
->>>>>>> test
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import Profile from '../components/Profile';
@@ -55,10 +51,6 @@ function App() {
       />
     </>
   );
-<<<<<<< HEAD
-};
-=======
 }
->>>>>>> test
 
 export default App;
