@@ -1,110 +1,450 @@
 {
-  "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+  "en": {
+    "translation": {
+      "changeLanguage": "Change language",
+      "title": "Software Developer - Senior",
+      "hello": "Hello, I am Jonathan Villegas!",
+      "checkMySocialNet": "Check my social net!",
+      "descriptionTitle": "About me",
+      "description": "I am a self-taught person, always in search of knowledge. My learning curve is always in a positive range, constantly growing. I do not limit myself to the information I currently have, I constantly seek to expand in order to be more versatile when it comes to performing in my area. If there is any tool that I do not know or do not fully master, I will do my best to specialize in it, and thus be more useful and effective every day.",
+      "experienceTitle": "Experience",
+      "experience": [
+        {
+          "title": "Full-stack Developer",
+          "company": "Switch Software Solutions",
+          "year": "2021",
+          "description": "I work with technologies that use JavaScript as a language. I am specifically using Vue and React Native. I am in charge of adding improvements, correcting errors, performing unit tests, preparing the deployment of apps. I have also been in charge of conducting technical interviews for new hires, as well as correcting and assisting other developers on other projects."
+        },
+        {
+          "title": "Frontend Developer",
+          "company": "Vexels",
+          "year": "2019 - 2021",
+          "description": "I was in charge of the maintenance, improvements, and corrections of a web platform that is a stock of graphic resources. I handled everything that had to do with JavaScript, CSS, and HTML. At certain times I also worked with PHP. I participated in the renewal of the website using the Nuxt framework."
+        },
+        {
+          "title": "Full-stack Developer",
+          "company": "Equifax",
+          "year": "2018 - 2019",
+          "description": "I worked with several technologies, adding improvement to \"Clearing Informes\" software. I developed on asp.net, asp classic, as well as web development in general, I also used Oracle database. I was in charge of giving maintenance to a system that shows the patrimonial or credit solvency of the people."
+        },
+        {
+          "title": "Database Analyst",
+          "company": "Ternium",
+          "year": "2017 - 2018",
+          "description": "Analyst in database SQL Server, I worked with Data Warehouse, the creation of Stored Procedure, data migration, query optimization, and bugs correction."
+        },
+        {
+          "title": "Web Developer",
+          "company": "La Casa Creativa",
+          "year": "2016 - 2017",
+          "description": "Developer of web platforms and APIs Rest, both in the programming language PHP 7, using the frameworks Laravel 5.1 and Lumen 5.2 respectively. In charge of the management of different projects, administrator of instances EC2 and RDS and components SQS and S3 of Amazon Web Service. Project leader."
+        },
+        {
+          "title": "Full-stack Developer",
+          "company": "Capicua",
+          "year": "2017 - 2017",
+          "description": "Web platform developer, responsible for working with various technologies such as ASP.NET Web Form, Umbraco, ASP.NET MVC 5, Node, Angular 1, and Angular 4. Responsible for maintaining various applications, error correction, adding new features, and analysis of Projects"
+        },
+        {
+          "title": "Web Developer",
+          "company": "Aluna Studio",
+          "year": "2017 - 2017",
+          "description": "Development of web platforms in the Laravel 5.1 framework. Project management, and simple server administrator for informational websites."
+        },
+        {
+          "title": "Web Developer",
+          "company": "Freelancer ",
+          "year": "2015 - 2016",
+          "description": "I work on several small projects, doing layout, some development work, and deployment. I worked with PHP, JavaScript, CSS, and HTML."
+        }
+      ],
+      "academicTitle": "Academic",
+      "credential": "Credential",
+      "academic": [
+        {
+          "title": "Computer engineering (not concluded)",
+          "institute": "Andres Bello Catholic University",
+          "year": "2013 - 2017"
+        },
+        {
+          "title": "Introduction to Blockchain Development: Smart Contracts",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2561-course/diploma/detalle/"
+        },
+        {
+          "title": "Introduction to Solidity",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2576-solidity/diploma/detalle/"
+        },
+        {
+          "title": "Create Positive Habits",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2356-creacion-habitos/diploma/detalle/"
+        },
+        {
+          "title": "Effective Time Management",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/1749-gestion-tiempo/diploma/detalle/"
+        },
+        {
+          "title": "Strategies for Productivity and Organization",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2497-estrategias-productividad/diploma/detalle/"
+        },
+        {
+          "title": "Bitcoin and Cryptocurrency Money Quadrant",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2693-cuadrante-bitcoin/diploma/detalle/"
+        },
+        {
+          "title": "Ethereum for Developers",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2560-ethereum-developers/diploma/detalle/"
+        },
+        {
+          "title": "Web3 Fundamentals Audio Course",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2727-fundamentos-web3/diploma/detalle/"
+        },
+        {
+          "title": "Audio course on the History of Ethereum and Smart Contracts",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2579-historia-ethereum/diploma/detalle/"
+        },
+        {
+          "title": "Bitcoin and Blockchain",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2451-bitcoin-blockchain/diploma/detalle/"
+        },
+        {
+          "title": "Prework for Blockchain Application Development",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2559-prework-blockchain/diploma/detalle/"
+        },
+        {
+          "title": "Audio course on the History of Bitcoin and Cryptocurrencies",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2443-course/diploma/detalle/"
+        },
+        {
+          "title": "Emotional Investment Management in Cryptocurrencies",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2553-emociones-cripto/diploma/detalle/"
+        },
+        {
+          "title": "Facebook Ads",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2498-facebook-ads/diploma/detalle/"
+        },
+        {
+          "title": "Digital Economy: Bitcoin and Cryptocurrencies",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2452-economia-digital/diploma/detalle/"
+        },
+        {
+          "title": "Complete Digital Marketing Course - 23 Courses in 1",
+          "institute": "Udemy",
+          "year": "2021",
+          "link": "https://www.udemy.com/certificate/UC-f8f5d61f-4de6-4020-8ce2-e570fd8b6c66/"
+        },
+        {
+          "title": "MongoDB - The Complete Developer's Guide 2021",
+          "institute": "Udemy",
+          "year": "2021",
+          "link": "https://www.udemy.com/certificate/UC-9e2a14f2-5bb8-44e6-b6c1-f4feeb5e3dc5/"
+        },
+        {
+          "title": "React Advanced: Fullstack Next.js, Apollo, MongoDB and GraphQL",
+          "institute": "Udemy",
+          "year": "2020",
+          "link": "https://www.udemy.com/certificate/UC-6a5af973-ce3b-49c4-a7aa-2295bb829c23/"
+        },
+        {
+          "title": "React Native Expo: Creating a Restaurant TripAdvisor",
+          "institute": "Udemy",
+          "year": "2020",
+          "link": "https://www.udemy.com/certificate/UC-6348deb9-9b9c-4e2b-bd6f-9b27b08d533b/"
+        }
+      ],
+      "viewMore": "View more",
+      "viewLess": "View less",
+      "skillsTitle": "Abilities & Skills",
+      "skills": [
+        "GraphQL",
+        "React",
+        "React Native",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "MongoDB",
+        "MySQL",
+        "MariaDB",
+        "SQL Server",
+        "Node",
+        "Vue",
+        "Apollo",
+        "Git",
+        "GitHub",
+        "Firebase",
+        "AWS",
+        "SCRUM",
+        "Jira",
+        "Team leader",
+        "Junior leader",
+        "Technical interviewer"
+      ],
+      "interestsTitle": "Interests",
+      "interests": [
+        "Guitar",
+        "Video games",
+        "Gym",
+        "Movies",
+        "Technology",
+        "Greek mythology",
+        "Pets",
+        "Healthy food"
+      ],
+      "languagesTitle": "Languages",
+      "languages": [
+        { "language": "English", "level": "Limited proficiency" },
+        { "language": "Spanish", "level": "Native" }
+      ]
+    }
+  },
+  "es": {
+    "translation": {
+      "changeLanguage": "Cambiar lenguaje",
+      "title": "Desarrollador de Software - Senior",
+      "hello": "Hola, soy Jonathan Villegas!",
+      "checkMySocialNet": "¡Ve mis redes sociales!",
+      "descriptionTitle": "Sobre mí",
+      "description": "Soy una persona autodidacta, siempre en busca del conocimiento. Mi curva de aprendizaje siempre está en un rango positivo, en constante crecimiento. No me limito a la información que tengo actualmente, busco expandirme constantemente para ser más versátil a la hora de desempeñarme en mi área. Si hay alguna herramienta que no conozco o no domino en su totalidad, haré lo posible por especializarme en ella, y así ser cada día más útil y eficaz.",
+      "experienceTitle": "Experiencia",
+      "experience": [
+        {
+          "title": "Desarrollador Full-Stack",
+          "company": "Switch Software Solutions",
+          "description": "Trabajo con tecnologías que utilizan JavaScript como lenguaje. Estoy usando específicamente Vue y React Native. Estoy a cargo de agregar mejoras, corregir errores, realizar pruebas unitarias, preparar el despliegue de aplicaciones. También me he encargado de realizar entrevistas técnicas para nuevas contrataciones, así como corregir y asistir a otros desarrolladores en otros proyectos."
+        },
+        {
+          "title": "Desarrollador Frontend",
+          "company": "Vexels",
+          "description": "Estuve a cargo del mantenimiento, mejoras y correcciones de una plataforma web que es un stock de recursos gráficos. Manejé todo lo que tenía que ver con JavaScript, CSS y HTML. En determinados momentos también trabajé con PHP. Participé en la renovación del sitio web utilizando el framework Nuxt."
+        },
+        {
+          "title": "Desarrollador Full-Stack",
+          "company": "Equifax",
+          "description": "Trabajé con varias tecnologías, agregando una mejora al software \"Clearing Informes\". Desarrollé en ASP.NET, ASP Classic, así como el desarrollo web en general, también utilicé Oracle Database. Estaba a cargo de dar mantenimiento a un sistema que muestra la solvencia patrimonial o de crédito de las personas."
+        },
+        {
+          "title": "Analista en base de datos",
+          "company": "Ternium",
+          "description": "Analista En la base de datos SQL Server, trabajé con Data Warehouse, la creación de procedimientos almacenados, migración de datos, optimización de consultas y corrección de errores."
+        },
+        {
+          "title": "Desarrollador Web",
+          "company": "La Casa Creativa",
+          "description": "Desarrollador de plataformas web y REST API, tanto en el lenguaje de programación PHP 7, utilizando los marcos Laravel 5.1 y Lumen 5.2 respectivamente. A cargo de la gestión de diferentes proyectos, administrador de instancias EC2 y RDS y componentes SQS y S3 del servicio web de Amazon. Líder del proyecto."
+        },
+        {
+          "title": "Desarrollador Full-Stack",
+          "company": "Capicua",
+          "description": "Desarrollador de plataforma web, responsable de trabajar con varias tecnologías como ASP.NET Web Form, Umbraco, ASP.NET MVC 5, Node, Angular 1 y Angular 4. Responsable de mantener varias aplicaciones, corrección de errores, agregar nuevas características y análisis de proyectos"
+        },
+        {
+          "title": "Desarrollador Web",
+          "company": "Aluna Studio",
+          "description": "Desarrollo de plataformas web en el marco Laravel 5.1. Gestión de proyectos y administrador simple del servidor para sitios web informativos."
+        },
+        {
+          "title": "Desarrollador Web",
+          "company": "Freelancer",
+          "description": "Trabajo en varios proyectos pequeños, haciendo diseño, algunos trabajos de desarrollo e implementación. Trabajé con PHP, JavaScript, CSS y HTML."
+        }
+      ],
+      "academicTitle": "Académico",
+      "credential": "Credencial",
+      "academic": [
+        {
+          "title": "Ingeniería Informática (no concluido)",
+          "institute": "Universidad Católica Andrés Bello",
+          "year": "2013 - 2017"
+        },
+        {
+          "title": "Introducción al Desarrollo Blockchain: Smart Contracts",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2561-course/diploma/detalle/"
+        },
+        {
+          "title": "Introducción a Solidity",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2576-solidity/diploma/detalle/"
+        },
+        {
+          "title": "Crear Hábitos Positivos",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2356-creacion-habitos/diploma/detalle/"
+        },
+        {
+          "title": "Gestión Efectiva del Tiempo",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/1749-gestion-tiempo/diploma/detalle/"
+        },
+        {
+          "title": "Estrategias para la Productividad y la Organización",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2497-estrategias-productividad/diploma/detalle/"
+        },
+        {
+          "title": "Cuadrante de Dinero de Bitcoin y Criptomonedas",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2693-cuadrante-bitcoin/diploma/detalle/"
+        },
+        {
+          "title": "Ethereum para Developers",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2560-ethereum-developers/diploma/detalle/"
+        },
+        {
+          "title": "Audiocurso de Fundamentos de Web3",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2727-fundamentos-web3/diploma/detalle/"
+        },
+        {
+          "title": "Audiocurso de Historia de Ethereum y Smart Contracts",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2579-historia-ethereum/diploma/detalle/"
+        },
+        {
+          "title": "Bitcoin y Blockchain",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2451-bitcoin-blockchain/diploma/detalle/"
+        },
+        {
+          "title": "Prework para Desarrollo de Aplicaciones Blockchain",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2559-prework-blockchain/diploma/detalle/"
+        },
+        {
+          "title": "Audiocurso de Historia de Bitcoin y Criptomonedas",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2443-course/diploma/detalle/"
+        },
+        {
+          "title": "Gestión Emocional de Inversión en Criptomonedas",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2553-emociones-cripto/diploma/detalle/"
+        },
+        {
+          "title": "Facebook Ads",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2498-facebook-ads/diploma/detalle/"
+        },
+        {
+          "title": "Economía Digital: Bitcoin y Criptomonedas",
+          "institute": "Platzi",
+          "year": "2022",
+          "link": "https://platzi.com/p/JonathanDVZ/curso/2452-economia-digital/diploma/detalle/"
+        },
+        {
+          "title": "Curso Completo de Marketing Digital - 23 Cursos en 1",
+          "institute": "Udemy",
+          "year": "2021",
+          "link": "https://www.udemy.com/certificate/UC-f8f5d61f-4de6-4020-8ce2-e570fd8b6c66/"
+        },
+        {
+          "title": "MongoDB: la guía completa para desarrolladores 2021",
+          "institute": "Udemy",
+          "year": "2021",
+          "link": "https://www.udemy.com/certificate/UC-9e2a14f2-5bb8-44e6-b6c1-f4feeb5e3dc5/"
+        },
+        {
+          "title": "React Avanzado: Fullstack Next.js, Apollo, MongoDB y GraphQL",
+          "institute": "Udemy",
+          "year": "2020",
+          "link": "https://www.udemy.com/certificate/UC-6a5af973-ce3b-49c4-a7aa-2295bb829c23/"
+        },
+        {
+          "title": "React Native Expo: Creando un TripAdvisor de Restaurantes",
+          "institute": "Udemy",
+          "year": "2020",
+          "link": "https://www.udemy.com/certificate/UC-6348deb9-9b9c-4e2b-bd6f-9b27b08d533b/"
+        }
+      ],
+      "viewMore": "Ver más",
+      "viewLess": "Ver menos",
+      "skillsTitle": "Habilidades y destrezas",
+      "skills": [
+        "GraphQL",
+        "React",
+        "React Native",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "MongoDB",
+        "MySQL",
+        "MariaDB",
+        "SQL Server",
+        "Node",
+        "Vue",
+        "Apollo",
+        "Git",
+        "GitHub",
+        "Firebase",
+        "AWS",
+        "SCRUM",
+        "Jira",
+        "Líder de equipo",
+        "Líder junior",
+        "Entrevistador técnico"
+      ],
+      "interestsTitle": "Intereses",
+      "interests": [
+        "Guitarra",
+        "Video juegos",
+        "Gym",
+        "Cine",
+        "Tecnología",
+        "Mitología griega",
+        "Mascotas",
+        "Comida sana"
+      ],
+      "languagesTitle": "Lenguajes",
+      "languages": [
+        { "language": "Inglés", "level": "Competencia básica limitada" },
+        { "language": "Español", "level": "Nativo" }
+      ]
+    }
   }
 }
