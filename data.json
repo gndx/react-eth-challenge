@@ -1,57 +1,84 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "AGUS CASSI",
+    "profession": "Full Stack Developer",
+    "address": "Buenos Aires, Argentina.",
+    "email": "m.agustina.cassi@gmail.com",
+    "website": "https://linktr.ee/tinicassi",
+    "phone": "+5491100000000",
+    "avatar": "./public/static/profile.jpeg",
+    "profile": "¡Hey! I’m Agustina, but you can call me by my nickname, Tini. I’m lawyer turned into a full stack developer, based in Argentina. I consider that the use of technology is the path to improve people’s lives, that’s the reason why I decided to change my professional career, with the desire to create experiences that causes a great impact in others.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Mar 2018",
+        "description": "Course taken to develop my oratory skills.",
+        "institution": "Buenos Aires University",
+        "name": "Oratory"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Mar 2011",
+        "description": "Examination taken to certificate my english skills.",
+        "institution": "Cambridge University",
+        "name": "First Certificate in English"
+      },      
+      {
+        "date": "Jul 2022",
+        "description": "Taking courses in a daily-basis at Platzi to beef up my technical and soft skills.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Platzi Courses"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Ethereum Developer Program",
+        "description": "Program to develop my Web 3.0 Developer career, supported by the Ethereum Foundation and Road to Devcon.",
+        "endDate": "Currently taking classes",
+        "institution": "Plataforma 5 - Coding Bootcamp",
+        "startDate": "Jan 2022"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Coding Bootcamp",
+        "description": "Full-time, 710 hours training course. I learned how to use the most demanded technologies developing three projects grouply and individually, using the SCRUM methodology.",
+        "endDate": "April 2022",
+        "institution": "Plataforma 5 - Coding Bootcamp",
+        "startDate": "Jan 2022"
+      },
+      {
+        "degree": "Postgraduate in Blockchain and Smart Contract's Law",
+        "description": "Law Degree",
+        "endDate": "Mar 2021",
+        "institution": "Buenos Aires University",
+        "startDate": "Mar 2013"
+      },
+      {
+        "degree": "Lawyer",
+        "description": "Law Degree",
+        "endDate": "Dec 2020",
+        "institution": "Buenos Aires University",
+        "startDate": "Mar 2013"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "company": "Streamint Portfolio Project",
+        "endDate": "April 2022",
+        "jobDescription": "Web 3.0 Streaming Platform with outstanding features like a log in with Metamask wallet and POAP minting. Check the site in http://www.streamint.online.",
         "jobTitle": "Frontend",
         "startDate": "Jan 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "company": "E-commerce Portfolio Project",
+        "endDate": "April 2022",
+        "jobDescription": "E-commerce platform developed with Node.js, Express, PSQL, React and Redux.",
         "jobTitle": "Backend",
         "startDate": "Sept 2019"
+      },       
+      {
+        "company": "WAGMI Movies Portfolio Project",
+        "endDate": "April 2022",
+        "jobDescription": "Movie streaming platform consuming TMDB API.",
+        "jobTitle": "Frontend",
+        "startDate": "Jan 2020"
       }
     ],
     "skills": [
@@ -68,42 +95,70 @@
         "percentage": "55%"
       },
       {
+        "name": "PostgreSQL",
+        "percentage": "55%"
+      },
+      {
+        "name": "Express",
+        "percentage": "55%"
+      },
+      {
         "name": "React",
+        "percentage": "55%"
+      },
+      {
+        "name": "Redux",
         "percentage": "90%"
+      },
+      {
+        "name": "Node.js",
+        "percentage": "90%"
+      },
+      {
+        "name": "Learning Solidity",
+        "percentage": "Currently learning"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      {
+        "name": "Back-end"
+      },
+      {
+        "name": "Blockchain Development"
+      },
+      {
+        "name": "Build the Web 3.0"
+      }
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "Native"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "level": "Upper-Intermediate"
+      },
+      {
+        "name": "+ 3 years job experience in English"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "github",
+        "url": "https://github.com/agustinacassi"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/aguscassi"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
+        "name": "medium",
+        "url": "https://agustinacassi.medium.com/"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/agustinacassi/"
       }
     ]
   }
