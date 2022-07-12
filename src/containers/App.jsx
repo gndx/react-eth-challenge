@@ -17,7 +17,7 @@ const App = () => {
   const [data, setData] = useState(null);
 
   const getCVData = async () => {
-    const { data }  = await getData('data.json');
+    const { data }  = await getData('https://raw.githubusercontent.com/jejimenez/react-eth-challenge/main/public/data.json');
     setData(data);
   };
 
