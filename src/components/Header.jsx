@@ -1,16 +1,18 @@
 import React from 'react';
-import { Titulos } from '../styles/components/Header';
+import { Cabecera  } from '../styles/components/Header';
 
 const Header = ({name,profession, cellphone, email, website,address}) => {
     return (
-        <div>
-            <Titulos className='Header-title'>{name}</Titulos>
-            <h3 className='Header-job-title'>{profession}</h3>
-            <h3 className='Header-phone'>{cellphone}</h3>
-            <h3 className='Header-email'>{email}</h3>
-            <h3 className='Header-website'>{website}</h3>
-            <h3 className='Header-address'>{address}</h3>
-        </div>
+        <Cabecera>
+            <h1 className='Header-title'>{name}</h1>
+            <h2 className='Header-job-title'>{profession}</h2>
+            <div>
+            <p className='Header-phone'>{cellphone}</p>
+            <p className='Header-email'>{email}</p>
+            <p className='Header-website'>{website}</p>
+            <p className='Header-address'>{address}</p>
+            </div>
+        </Cabecera>
         
     )
 }

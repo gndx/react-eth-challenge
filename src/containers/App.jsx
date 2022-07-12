@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import '../styles/components/App.styl';
+import '../styles/components/App.css';
 import  Header from '../components/Header';
 import  About  from '../components/About';
 import Profile from '../components/Profile';
@@ -45,7 +45,7 @@ const App = () => {
 
   return (
     <>
-    <Header 
+    <Header
       name={name} 
       profession={profession}
       cellphone={phone}

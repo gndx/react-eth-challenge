@@ -2,7 +2,7 @@ import React from 'react';
 import {Titulos} from '../styles/components/About'
 
 const About = ({
-    about = Array(2).fill({
+    about = Array(3).fill({
         name: '',
         url: '',
     }),

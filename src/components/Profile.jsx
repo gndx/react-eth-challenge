@@ -1,12 +1,12 @@
 import React from 'react';
-import {Title} from '../styles/components/Profile'
+import {Boxing} from '../styles/components/Profile'
 
 const Profile = ({ profile }) => {
   return (
-    <div>
-      <Title className="Profile-title">Profile</Title>
+    <Boxing>
+      <h1 className="Profile-title">Profile</h1>
       <p className="Profile-desc">{profile}</p>
-    </div>
+    </Boxing>
   );
 };
 

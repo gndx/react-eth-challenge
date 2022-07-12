@@ -1,12 +1,12 @@
 import React from 'react';
-import { Titulo } from '../styles/components/Academic'
+import { Boxing } from '../styles/components/Academic'
 
 const Academic = ({
   academic = Array(3).fill({ degree: '', description: '', institution: '' }),
 }) => {
   return (
-    <div>
-      <Titulo className="Academic-title">Academic</Titulo>
+    <Boxing>
+      <h1 className="Academic-title">Academic</h1>
       <ul>
         {academic.map(({ degree, description, institution }, index) => (
           <li
@@ -19,7 +19,7 @@ const Academic = ({
           </li>
         ))}
       </ul>
-    </div>
+    </Boxing>
   );
 };
 

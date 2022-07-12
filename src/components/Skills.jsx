@@ -1,5 +1,5 @@
 import React from 'react';
-import { Titulo } from "../styles/components/Skills"
+import { Boxing } from "../styles/components/Skills"
 
 const Skills = ({ 
   skills = Array(3).fill({
@@ -8,8 +8,8 @@ const Skills = ({
 }),
 }) => {
   return (
-    <div>
-      <Titulo className="Skills-title">Skills</Titulo>
+    <Boxing>
+      <h1 className="Skills-title">Skills</h1>
       <ul>
         {skills.map(
           (
@@ -23,7 +23,7 @@ const Skills = ({
           </li>
         ))}
       </ul>
-    </div>
+    </Boxing>
   );
 };
 

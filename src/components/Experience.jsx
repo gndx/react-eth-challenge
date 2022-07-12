@@ -1,5 +1,5 @@
 import React from 'react';
-import {Titulo} from "../styles/components/Experience"
+import {Boxing} from "../styles/components/Experience"
 
 const Experience = ({
   experience = Array(3).fill({
@@ -11,8 +11,8 @@ const Experience = ({
   }),
 }) => {
   return (
-    <div>
-      <Titulo className="Experience-title">Experience</Titulo>
+    <Boxing>
+      <h1 className="Experience-title">Experience</h1>
       <ul>
         {experience.map(
           (
@@ -33,7 +33,7 @@ const Experience = ({
           )
         )}
       </ul>
-    </div>
+    </Boxing>
   );
 };
 
