@@ -17,6 +17,7 @@ const Academic = () => {
                                 <h5>{exp.startDate} - {exp.endDate}</h5>
                                 <h5>{exp.institution}</h5>
                                 <p>{exp.description}</p>
+                                <hr />
                             </div>
                         </div>
                     ))}
@@ -27,8 +28,10 @@ const Academic = () => {
                         <div className="Certificate-item" key={index}>
                             <div className="Certificate-item-title">
                                 <h4>{exp.name}</h4>
-                                <h5>{exp.date}</h5>
-                                <h5>{exp.institution}</h5>
+                                <div>
+                                    <h5 className="left">{exp.institution}</h5>
+                                    <h5 className="right">{exp.date}</h5>
+                                </div>
                                 <p>{exp.description}</p>
                             </div>
                         </div>

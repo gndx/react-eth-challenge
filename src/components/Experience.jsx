@@ -17,6 +17,7 @@ const Experience = () => {
                                 <h5>{exp.startDate} - {exp.endDate}</h5>
                                 <h5>{exp.company}</h5>
                                 <p>{exp.jobDescription}</p>
+                                <hr />
                             </div>
                         </div>
                     ))}

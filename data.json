@@ -10,28 +10,28 @@
         "Profile": "My daily job is to write backend applications using Go and defining the software architecture of new applications. I also work with microservices and Docker. Working with these technologies, I try to improve myself every day. My interests in other technologies include: Go, ASM, C, Python, Javascript & a lot of shell scripting(POSIX compliant). In addition, I'm interested in the DevOps & SysAdmin side of things and have taken an online course in this area in Platzi. Open to offers related to the open source world (FOSS taliban).",
         "certificate": [
             {
-                "date": "Jan 2020",
+                "date": "Mar 2020",
                 "description": "Backend software development with Go",
                 "institution": "Platzi",
-                "name": "Go Backend Developer"
+                "name": "Go Backend Developer - Career"
             },
             {
-                "date": "Jan 2019",
+                "date": "Mar 2020",
+                "description": "Backend software development with Python & Django",
+                "institution": "Platzi",
+                "name": "Python Backend Developer - Career"
+            },
+            {
+                "date": "Feb 2018",
                 "description": "The objective is to meet security goals without compromising any IT performance. Software Cracking, Networking discovery(sniffing, poisoning, etc)",
                 "institution": "Platzi",
-                "name": "SecOps"
+                "name": "SecOps - Career"
             },
             {
-                "date": "Jan 1996",
+                "date": "Jan 2000",
                 "description": "Cracking, hacking, sniffing, poisoning, etc.",
                 "institution": "Web 1.0",
-                "name": "SecOps"
-            },
-            {
-                "date": "Jan 2019",
-                "description": "Software development with Python",
-                "institution": "Platzi",
-                "name": "Python Backend Developer"
+                "name": "DragonJar"
             }
         ],
         "Academic": [
@@ -169,8 +169,16 @@
                 "percentage": "70%"
             },
             {
+                "name": "Cobol",
+                "percentage": "60%"
+            },
+            {
                 "name": "Java",
                 "percentage": "70%"
+            },
+            {
+                "name": "Sinclair Basic",
+                "percentage": "50%"
             },
             {
                 "name": "React",

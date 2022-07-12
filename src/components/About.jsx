@@ -7,9 +7,9 @@ const About = () => {
     const { address, email, name, avatar, website, phone, social = [{}] } = data;
     return (
         <>
-            <h3 className='About-title'>About me</h3>
             <img className='About-image' width="200" src={avatar} height="200" alt={name} />
             <div className='About-items'>
+                <h3 className='About-title'>About me</h3>
                 <ul>
                     <li className='About-item'><a href={`tel:${phone}`} target='_blank' rel='noopener noreferrer'>{phone}</a></li>
                     <li className='About-item'><a href={`mailto:${email}`} target='_blank' rel='noopener noreferrer'>{email}</a></li>
@@ -19,7 +19,7 @@ const About = () => {
                 <ul className='About-rss'>
                     {social.map((s, index) => (
                         <li className='About-item' key={index}>
-                            | <a href={s.url} alt={s.name}>{s.name}</a> |
+                            <a href={s.url} alt={s.name}>{s.name}</a>
                         </li>
                     ))}
                 </ul>
