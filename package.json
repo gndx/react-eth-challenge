@@ -13,8 +13,7 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest",
-    "heroku-postbuild": "webpack -p"
+    "test": "jest"
   },
   "keywords": [
     "react",
