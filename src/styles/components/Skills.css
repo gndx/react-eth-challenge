@@ -8,3 +8,7 @@
 .Skills-item h4, .Languages-item h4 {
     color: var(--green-accent);
 }
+
+.Skills-item, .Languages-item {
+    padding: 0.5em;
+}

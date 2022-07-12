@@ -12,12 +12,15 @@ body {
     font-family: 'Roboto', 'Segoe UI', sans-serif;
     background-color: var(--blue-bg);
     color: var(--white-text);
+    margin: 0 auto;
+    max-width: 900px;
 }
 
 section {
     background-color: var(--blue-section);
     border-radius: 1em;
     padding: 2em;
+    margin-top: 1em;
 }
 
 h3 {
@@ -40,11 +43,6 @@ p {
 }
 
 .App {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    max-width: 1000px;
-    margin: 0 auto;
     padding-top: 1em;
 }
 
@@ -52,11 +50,52 @@ small {
     color: var(--gray-text);
 }
 
-@media (min-width: 720px) {
-    .App {
-        padding-top: 4em;
-    }
+@media (min-width: 900px) {
+
     h3 {
         font-size: 2.5rem;
+    }
+
+    header {
+        grid-area: hea;
+    }
+
+    .Profile {
+        grid-area: pro;
+    }
+
+    .Experience {
+        grid-area: exp;
+    }
+
+    .Academic-Container {
+        grid-area: aca;
+    }
+
+    .skills-section {
+        grid-area: ski;
+    }
+
+    .languages-section {
+        grid-area: lan;
+    }
+
+    .Interests {
+        grid-area: int;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    .App {
+        padding-top: 4em;
+        display: grid;
+        grid-template-areas: 
+        'hea hea' 'pro pro' 'exp exp' 'aca aca' 'ski lan' 'int int' 'footer footer';
+        gap: 2em;
+    }
+    section {
+        margin-top: 0em;
     }
 }

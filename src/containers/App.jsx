@@ -75,11 +75,11 @@ function App() {
       <Skills
         skills={skills}
       />
-      <Interest
-        interest={interest}
-      />
       <Languages 
         languages={languages}
+      />
+      <Interest
+        interest={interest}
       />
       <Footer />
     </div>

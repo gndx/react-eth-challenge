@@ -3,7 +3,7 @@ import '../styles/components/Skills.css';
 
 function Skills({ skills = Array(3).fill({ name: '', percentage: '' }) }) {
   return (
-    <section>
+    <section className='skills-section'>
       <h3 className='Skills-title'>
         Skills
       </h3>

@@ -4,7 +4,7 @@ function Languages({
   languages = Array(3).fill({ name: '', percentage: '' }),
 }) {
   return (
-    <section>
+    <section className='languages-section'>
       <h3 className='Languages-title'>
         Languages
       </h3>
