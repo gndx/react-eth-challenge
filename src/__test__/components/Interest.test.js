@@ -1,9 +1,11 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Interest from '../../components/Interest';
+import datajson from '../../../data.json';
+
 
 describe('<Interest />', () => {
-  const interest = mount(<Interest />);
+  const interest = shallow(<Interest data={datajson.data.interest}/>);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);

@@ -1,9 +1,11 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Academic from '../../components/Academic';
+import datajson from '../../../data.json';
+
 
 describe('<Academic />', () => {
-  const academic = mount(<Academic />);
+  const academic = shallow(<Academic data={datajson.data.Academic} />);
 
   test('Academic render', () => {
     expect(academic.length).toEqual(1);

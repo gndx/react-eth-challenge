@@ -1,81 +1,167 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Julian Camilo Garcia",
+    "profession": "Software Developer & Data Scientist",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "email": "juliancamilogarciaescobar7@gmail.com",
     "website": "https://example.com",
     "phone": "3042034240",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "Data Scientist & Software Developer interested in developing impact projects that allow to explore various fields action valuable in the business. Management in various technologies fields such as Data Science and Software development In search of developing projects that take into account my knowledge and skills in favor of a professional growth that manages to impact the Organization",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "2020",
+        "description": "Learning path focused on javascript , frontend and backend development",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Javascript School"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "2020",
+        "description": "Learning path focused on design UI/UX",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Design UI/UX school"
+      },
+      {
+        "date": "2021",
+        "description": "Intensive learning path focused on Data Science and Artificial Intelligence",
+        "institution": "Platzi",
+        "name": "Data Science and IA"
+      },
+      {
+        "date": "2021-Present",
+        "description": "Certified Tech Developer carrer with Mercado Libre & Globant focused on Software Development",
+        "institution": "Digital House",
+        "name": "Certified Tech Developer"
+      },
+      {
+        "date": "2022",
+        "description": "Learning path focused on backend development using python with django , flask and fastapi",
+        "institution": "Platzi",
+        "name": "Backend development with python and Django"
+      },
+      {
+        "date": "2022 in progress",
+        "description": "Learning path in web3 development",
+        "institution": "Platzi",
+        "name": "Ethereum developer program"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Professional in International Business",
+        "description": "International Business Student in University of Rosario",
+        "endDate": "June 2022",
+        "institution": "University of Rosario",
+        "startDate": "Jan 2017"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Big Data Analytics",
+        "description": "Diploma focused on big data analitycs and machine learning",
+        "endDate": "Jun 2022",
+        "institution": "University of Sabana",
+        "startDate": "March 2022"
+      },
+      {
+        "degree": "Web FullStack Developer",
+        "description": "Diploma focused on Web fullstack development using React , Mongo , Express and NodeJS",
+        "endDate": "jan 2021",
+        "institution": "Pontificia bolivariana University (Mintic)",
+        "startDate": "Nov 2021"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Freelancer",
+        "endDate": "present",
+        "jobDescription": "Freelancer in datascience and web development",
+        "jobTitle": "Freelancer",
+        "startDate": "Jan 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Rappi",
+        "endDate": "Jun 2022",
+        "jobDescription": "BI Analyst for business insights Colombia team",
+        "jobTitle": "BI Analyst",
+        "startDate": "Jan 2022"
+      },
+      {
+        "company": "Rappi",
+        "endDate": "Present",
+        "jobDescription": "BI Intern for business insights Colombia team",
+        "jobTitle": "BI Intern",
+        "startDate": "Jul 2022"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "nodeJS",
+        "percentage": "57%"
+      },
+      {
+        "name": "react",
+        "percentage": "78%"
+      },
+      {
+        "name": "Mongo",
+        "percentage": "45%"
+      },
+      {
+        "name": "HTML",
+        "percentage": "78%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "78%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "87%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Express",
+        "percentage": "46%"
+      },
+      {
+        "name": "SQL",
+        "percentage": "60%"
+      },
+      {
+        "name": "Python",
+        "percentage": "87%"
+      },
+      {
+        "name": "Pandas",
+        "percentage": "67%"
+      },
+      {
+        "name": "Numpy",
+        "percentage": "56%"
+      },
+      {
+        "name": "Data Vizualization",
+        "percentage": "45%"
+      },
+      {
+        "name": "Data Analysis",
+        "percentage": "78%"
+      },
+      {
+        "name": "MachineLearning",
+        "percentage": "40%"
+      },
+      {
+        "name": "SQL",
+        "percentage": "60%"
+      },
+      {
+        "name": "Data Wrangling & Data Minning",
+        "percentage": "70%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
       "backend",
+      "data science",
+      "machine learning",
       "frontend"
     ],
     "languages": [
@@ -85,7 +171,11 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
+      },
+      {
+        "name": "French",
+        "percentage": "30%"
       }
     ],
     "social": [
@@ -95,15 +185,15 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/julianca_garcia"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/JuliXnCXm"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/camilo-garcia-escobar/"
       }
     ]
   }

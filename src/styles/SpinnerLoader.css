@@ -1,0 +1,32 @@
+.spinner {
+    animation: Rotate 2.4s both infinite linear;
+    width: 50%;
+    height: 50%;
+}
+
+.path {
+    animation: DrawLine 1.6s both infinite alternate linear;
+    fill: none;
+    stroke: #000;
+    stroke-width: 130;
+}
+
+@keyframes Rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes DrawLine {
+    0% {
+        stroke-dasharray: 0 126;
+    }
+
+    100% {
+        stroke-dasharray: 126 126;
+    }
+}
