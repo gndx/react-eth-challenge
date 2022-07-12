@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+var server_port = process.env.YOUR_PORT || process.env.PORT || 5000;
 
 module.exports = {
   entry: './src/index.js',
@@ -39,6 +40,10 @@ module.exports = {
         ],
       },
     ],
+  },
+  devServer: {
+    compress: true,
+    port: server_port,
   },
   plugins: [
     new HtmlWebPackPlugin({

@@ -1,9 +1,17 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Header from '../../components/Header';
+import datajson from '../../../data.json';
+
 
 describe('<Header />', () => {
-  const header = mount(<Header />);
+  const header = shallow(<Header data={
+    datajson.data.address+
+    datajson.data.email+
+    datajson.data.name+
+    datajson.data.phone+
+    datajson.data.profession
+    }/>);
 
   test('Header render', () => {
     expect(header.length).toEqual(1);
@@ -12,5 +20,4 @@ describe('<Header />', () => {
   test('Header title', () => {
     expect(header.find('.Header-title').length).toEqual(1);
   });
-
 });
