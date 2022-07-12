@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../styles/components/Container';
 
-const Profile = ({ description }) => {
+const Profile = ({ description = "" }) => {
     return (
         <Container>
             <h3 className='title Profile-title'>Profile</h3>
