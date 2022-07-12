@@ -1,0 +1,36 @@
+@import '../../components/Header/header.scss';
+@import '../../components/Profile/profile.scss';
+@import '../../components/Experience/experience.scss';
+@import '../../components/Academic/academic.scss';
+@import '../../components/Skills/skills.scss';
+@import '../../components/Interest/interest.scss';
+@import '../../components/Languages/languages.scss';
+@import '../../components/Loading/loading.scss';
+@import '../../components/About/about.scss';
+
+*{
+  ul {
+    list-style: none;
+    text-align: center;
+  }
+  li {
+    list-style: none;
+    font-size: 32px;
+  }
+
+}
+body {
+  background-color: #05001e;
+  color: #fff;
+  font-weight: 300;
+  word-spacing: 3px;
+}
+
+section {
+  background-color: #102189;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 15px;
+  margin: 1rem;
+}
+

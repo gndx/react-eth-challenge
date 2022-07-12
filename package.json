@@ -15,15 +15,13 @@
     "react",
     "webpack"
   ],
-  "author": "Oscar Barajas <oscar@platzi.com>",
+  "author": "Carlos Meneses <carlosameneses@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "7.18.6",
     "@babel/preset-env": "7.18.6",
     "@babel/preset-react": "7.18.6",
     "babel-loader": "8.2.5",
-    "enzyme": "3.11.0",
-    "enzyme-adapter-react-16": "1.15.6",
     "html-loader": "3.1.2",
     "html-webpack-plugin": "5.5.0",
     "jest-fetch-mock": "3.0.3",
@@ -44,19 +42,21 @@
     "eslint-plugin-jsx-a11y": "6.6.0",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.30.1",
+    "file-loader": "^6.2.0",
     "husky": "8.0.1",
     "jest": "28.1.2",
     "json-server": "^0.17.0",
     "mini-css-extract-plugin": "2.6.1",
     "prettier": "2.7.1",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
     "style-loader": "3.3.1",
-    "stylus": "0.58.1",
-    "stylus-loader": "7.0.0"
+    "webpack": "^5.73.0"
   },
   "jest": {
     "verbose": true,
     "moduleNameMapper": {
-      "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMock.js"
+      "\\.(scss|css)$": "<rootDir>/src/__mocks__/styleMock.js"
     },
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"

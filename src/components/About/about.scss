@@ -1,0 +1,15 @@
+.About-title {
+  font-size: 40px;
+  margin: 0rem;
+}
+.About-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0rem;
+  .About-item {
+    font-size: 32px;
+    margin: 0;
+  }
+}

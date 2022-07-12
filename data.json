@@ -1,71 +1,72 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Carlos Meneses",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Edo. Mex, Mexico.",
+    "email": "carlosamenesesc@gmail.com",
+    "website": "menesescarlos.com",
+    "phone": "5633057702",
+    "avatar": "https://media-exp2.licdn.com/dms/image/C5603AQEFH_8bka9Naw/profile-displayphoto-shrink_800_800/0/1642567641579?e=1663200000&v=beta&t=Tsn0WO2yv5pfVASMAVw_oXBrODWZFomw4nGAbauwiIk",
+    "Profile": "I am a web developer with 3 years of experience, my specialty is JavaScript, I enjoy making code in css and its pre-processors, as well as working on the interface design with tools like figma.",
     "certificate": [
       {
         "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "description": "online technology school.",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Systems Engineer",
+        "description": "seeks to generate solutions to optimize resources and contribute to the development and well-being of society",
+        "endDate": "Jan 2015",
+        "institution": "T.E.S.E",
+        "startDate": "Jan 2011"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Frontend Developer",
+        "description": " seeks to generate solutions to optimize resources and contribute to the development and well-being of society",
+        "endDate": "Apr 2022",
+        "institution": "Platzi Master",
+        "startDate": "Oct 2021"
+      },
+      {
+        "degree": "Frontend Developer",
+        "description": " seeks to generate solutions to optimize resources and contribute to the development and well-being of society",
+        "endDate": "Apr 2022",
+        "institution": "Platzi Master",
+        "startDate": "Oct 2021"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Indra sistemas mexico",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Working has a frontend developer for many projects.",
+        "jobTitle": "Consultant",
+        "startDate": "Apr 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "WakeMedia",
+        "endDate": "Apr 2022",
+        "jobDescription": "Working has a frontend developer for many projects.",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Aug 2021"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "100%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "100%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
         "name": "React",
@@ -74,28 +75,28 @@
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
+      "Blockchain",
+      "Web 3.0",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "90%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/carlosmen351"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/carlosmen351"
       },
       {
         "name": "github",
@@ -103,7 +104,7 @@
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/carlosmen351"
       }
     ]
   }
