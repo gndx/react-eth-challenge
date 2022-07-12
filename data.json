@@ -40,18 +40,25 @@
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Jenial Software",
+        "endDate": "February 2022",
+        "jobDescription": "Led the product development and support team of the company.",
+        "jobTitle": "Lead Developer",
+        "startDate": "August 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Sotavento",
+        "endDate": "August 2021",
+        "jobDescription": "I had the opportunity to participate as an educator in the area of ​​physics in the Sotavento popular education group, giving and supporting classes for young people and adults who aspired to access higher education.",
+        "jobTitle": "Volunteer community physics educator",
+        "startDate": "March 2021"
+      },
+      {
+        "company": "Lavenir",
+        "endDate": "November 2017",
+        "jobDescription": "I worked on the design and development of cross-platform Chatbots with Dialogflow from Google Cloud.",
+        "jobTitle": "Chatbot Developer",
+        "startDate": "July 2017"
       }
     ],
     "skills": [

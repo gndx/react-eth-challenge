@@ -49,6 +49,7 @@
     "json-server": "^0.17.0",
     "mini-css-extract-plugin": "2.6.1",
     "prettier": "2.7.1",
+    "standard": "^17.0.0",
     "style-loader": "3.3.1",
     "stylus": "0.58.1",
     "stylus-loader": "7.0.0"
