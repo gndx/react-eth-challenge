@@ -1,6 +1,6 @@
 ## DESCRIPTION
 
-Solución al reto:
+Solución al reto: https://cv-react-carlos.netlify.app/
 
 Nombre:Carlos Meneses
 Usuario Platzi:CarlosMen351
