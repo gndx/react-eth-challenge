@@ -1,0 +1,149 @@
+{
+  "data": {
+    "name": "Jaime Jiménez",
+    "profession": "QA Automation and BackEnd Developer",
+    "address": "Bogotá, Colombia.",
+    "email": "jimenez.ing.sis@gmail.com",
+    "website": "https://www.linkedin.com/in/jaimeenriquejimenez/",
+    "phone": "+573193914876",
+    "avatar": "https://avatars.githubusercontent.com/jejimenez",
+    "Profile": "Software engineer passionate for technology and committed with new challenges, working in support, maintenance and software development from 2009 with different tools and frameworks for PlSql, Java, Python, Javascript, Php. Working in core banking and finance systems in Quality Assurance teams during the last 7 years. Well versed managing windows and linux environments. Agilism optimist and Scrum Master certified. Strong background in customer relations.",
+    "certificate": [
+      {
+        "date": "2019",
+        "description": "",
+        "institution": "Oracle",
+        "name": "Oracle Universal Banking 12 Technical Implementation Specialist Assesment"
+      },
+      {
+        "date": "2017",
+        "description": "SEI-Certified PSP Developer (Personal Software Process)",
+        "institution": "Software Engineering Institute - Carnegie Mellon University ",
+        "name": "PSP Developer"
+      },
+      {
+        "date": "2015",
+        "description": "Scrum Master Certified",
+        "institution": "Agile Alliance",
+        "name": "Scrum Master Certified (CSM)"
+      }
+    ],
+    "Academic": [
+      {
+        "degree": "Software Engineering",
+        "description": "",
+        "endDate": "2010",
+        "institution": "Universidad de Cundinamarca",
+        "startDate": "Jan 2018"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Intertec International - IPFS",
+        "endDate": "Present",
+        "jobDescription": " Quality Assurance for web and internal software. UI test automation with Protractor - Selenium. Leankit bugs and requirements tracking.. REST API testing. Front End Testing. Functional and Non-Functional testing. New requirements and bug test documents",
+        "jobTitle": "QA Sr",
+        "startDate": "09/2021"
+      },
+      {
+        "company": "Globant - Disney",
+        "endDate": "08/2021",
+        "jobDescription": "Quality Assurance for entitlements and subscriptions project. Jira bugs and requirements tracking. New requirements and bug documents.. Functional and Non-functional testing. DynamoDB, AWS, REST API with GraphQL testing. Automate API tests with Postman",
+        "jobTitle": "QA Analyst",
+        "startDate": "05/2021"
+      },
+      {
+        "company": "Globant - Banco de Occidente",
+        "endDate": "05/2021",
+        "jobDescription": "Support and maintain the core banking system: Flexcube.. Reports, analysis, tracking and testing of issues. Plsql.. Coordinate follow up meetings.. Leading Support of following Modules: Integrated Liquidity Management, Term Deposit and Demand Drafts Modules.. Automate batch processes with Python scripts. Automate load tests with SOAP UI",
+        "jobTitle": "Senior Technical Consultant",
+        "startDate": "09/2014"
+      },
+      {
+        "company": "Morpho Colombia - Registro Civil Chile",
+        "endDate": "09/2014",
+        "jobDescription": "Maintain, fix and create new user’s reports for Visas and Identification Cards System Factory of Chile.. Leading the project. (OracleDB, Talend ETL, PostgreSQL, Oracle Business Intelligence). Support and maintain the Interoperability between the subsystems of the solutions developed by Morpho and different suppliers through Oracle Service Bus",
+        "jobTitle": "Senior Technical Consultant",
+        "startDate": "10/2013"
+      },
+      {
+        "company": "Morpho Colombia - Easy Marketing Guatemala",
+        "endDate": "09/2013",
+        "jobDescription": "Web Service for fingerprint authentication.. Developing the web service to authenticate the fingerprint (Python, Java, JAX-WS, Pl/Sql)",
+        "jobTitle": "Senior Technical Consultant",
+        "startDate": "05/2013"
+      },
+      {
+        "company": "Morpho Colombia - Registraduría Nacional de Colombia",
+        "endDate": "04/2013",
+        "jobDescription": "Implement a new device to capture the fingerprints called MorphoTop: Testing the new device in the existing software to identify the needed changes. Apply the changes and release the new version of the MorphoCivis modules affected. (Java, Struts, JavaScript, CSS, Pl/Sql, Python, Visual Basic)",
+        "jobTitle": "Senior Technical Consultant",
+        "startDate": "11/2012"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "percentage": "75%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "25%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "55%"
+      },
+      {
+        "name": "React",
+        "percentage": "90%"
+      },
+      {
+        "name": "Java",
+        "percentage": "80%"
+      },
+      {
+        "name": "Python",
+        "percentage": "80%"
+      },
+      {
+        "name": "Django",
+        "percentage": "80%"
+      }
+    ],
+    "interest": [
+      "javascript",
+      "develop",
+      "backend",
+      "frontend"
+    ],
+    "languages": [
+      {
+        "name": "Spanish",
+        "percentage": "100%"
+      },
+      {
+        "name": "English",
+        "percentage": "90%"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://facebook.com/"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/"
+      }
+    ]
+  }
+}
