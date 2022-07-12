@@ -16,10 +16,9 @@ const App = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    getData('http://localhost:3000/data')
+    getData('https://raw.githubusercontent.com/williamvp10/react-eth-challenge/main/data.json')
       .then((dataResponse) => {
-        setData(dataResponse);
-        console.log(dataResponse);
+        setData(dataResponse.data);
       })
       .catch((err) => {
         throw new Error(err);
