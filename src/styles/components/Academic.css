@@ -1,0 +1,23 @@
+.Academic{    
+    text-align: center;
+    align-items: center;
+}
+
+.Academic-items{
+    text-align: center;
+    display: grid;
+}
+
+.Academic-item{
+    border: 1px;
+    margin: 2%;
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 16px;
+    box-shadow: 0px 1px 24px #fafbff;
+
+}
+  
+.Academic-item:hover {
+    box-shadow: 0px 6px 32px #c3c8e5;
+}

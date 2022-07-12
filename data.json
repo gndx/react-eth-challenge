@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "William David Vasquez Parada",
+    "profession": "Research, Development and Innovation Engineer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "email": "williamdvp@hotmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "3057084037",
+    "avatar": "https://github.com/williamvp10/react-eth-challenge/raw/main/public/foto.jpeg",
+    "Profile": "Professional in Systems and Telecommunications Engineering, with good communication skills, ability to solve problems, software project planning, creative skills, proactive, responsible, attention to detail, autonomous learning, leadership, and teamwork. <br> With experience in Research and development of BlockChain technology, development of Dapps, development of smart contracts in Solidity, Front-end development in React and Angular, back-end development and full stack development.Advanced management of programming languages such as TypeScript, JavaScript, Python, Solidity, Java and advanced management of Frameworks such as Angular, React, Django, Flask, and Spring. <br> Interest on innovation projects focused on the latest technologies (BlockChain, IoT, AI).",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -20,60 +20,97 @@
         "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
         "name": "Backend Developer"
+      },
+      {
+        "date": "Jan 2021",
+        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "institution": "Platzi",
+        "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
+        "degree": "Software and telecommunications engineer",
+        "description": "Actividades y grupos: hotbed 'Software as a Innovation', a young researcher from the Siku group(Colciencias). Research article, IEEE editorial.",
+        "endDate": "December 2020",
         "institution": "MIT",
-        "startDate": "Jan 2018"
+        "startDate": "Jan 2015"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
+        "degree": "DeepLearning.AI TensorFlow Developer",
+        "description": "neural networks development using Tensorflow and python.",
+        "endDate": "October 2020",
         "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "startDate": "Jun 2020"
+      },
+      {
+        "degree": "Bachelor degree",
+        "description": "",
+        "endDate": "December 2014",
+        "institution": "Gimnasio Militar Fuerza Aérea Colombiana",
+        "startDate": "Jan 2008"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Ci2 – Compañía Internacional de Integración",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Leader of research development and innovation in Blockchain",
+        "jobTitle": "Research Development and Innovation Engineer",
+        "startDate": "August 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Universidad Sergio Arboleda - MISIÓN TIC 2022",
+        "endDate": "December 2021",
+        "jobDescription": "Backend development for automatic execution and validation of unit tests, SQL queries, and REST services.",
+        "jobTitle": "Backend Developer - Independent",
+        "startDate": "April 2021"
+      },
+      {
+        "company": "Tkarga SAS - Ekokarga",
+        "endDate": "August 2021",
+        "jobDescription": "Chatbot developer",
+        "jobTitle": "Senior Full Stack Developer ",
+        "startDate": "June 2021"
+      },
+      {
+        "company": "Everis Colombia",
+        "endDate": "June 2021",
+        "jobDescription": "Full Stack Developer (java - angular).",
+        "jobTitle": "Consultant IT, Solutions & Services (ITS&S) Banking",
+        "startDate": "February 2021"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "65%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "75%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70%"
+      },
+      {
+        "name": "Python",
+        "percentage": "80%"
+      },
+      {
+        "name": "Solidity",
+        "percentage": "80%"
       }
     ],
     "interest": [
+      "BlockChain",
       "javascript",
+      "React",
       "develop",
       "backend",
       "frontend"
@@ -85,7 +122,11 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
+      },
+      {
+        "name": "English",
+        "percentage": "60%"
       }
     ],
     "social": [
