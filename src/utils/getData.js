@@ -1,16 +1,7 @@
-import { useEffect, useState } from 'react';
-
-const getData = () => {
-  const [result, useResult] = useState({})
-
-  useEffect(function () {
-    fetch('https://react-eth-ai5nk6yax-josevsalina.vercel.app/cv')
-      .then(data => data.json())
-      .then(data=> useResult(data))
-  }, [])
-
-  return { result }
-
+const getData = (url = 'https://react-eth-ai5nk6yax-josevsalina.vercel.app/cv') => {
+  return fetch(url)
+    .then(data => data.json())
+    .then(data=> useResult(data))
 }
 
 module.exports = getData
