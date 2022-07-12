@@ -1,9 +1,9 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import About from '../../components/About';
 
 describe('<About />', () => {
-  const about = mount(<About />);
+  const about = shallow(<About />);
 
   test('About render', () => {
     expect(about.length).toEqual(1);

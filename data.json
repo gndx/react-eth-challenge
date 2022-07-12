@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Juan Pablo Méndez",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "address": "Bucaramanga, Colombia.",
+    "email": "juanmendezs.a@gmail.com",
+    "website": "https://juamez.vercel.app",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://avatars.githubusercontent.com/u/73722650?v=4",
+    "Profile": "Frontend Developer with acquired skills in ReactJs, JavaScript, HTML, CSS. Building UI webpages across browser compatibility between multiple devices.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,18 +24,18 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
+        "degree": "Eth Developer Program",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "endDate": "Sep 2022",
+        "institution": "Platzi",
+        "startDate": "July 2022"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Web Developer",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "endDate": "Present",
+        "institution": "Platzi",
+        "startDate": "March 2021"
       }
     ],
     "experience": [
@@ -57,35 +57,43 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "75"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70"
+      },
+      {
+        "name": "Git",
+        "percentage": "70"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Web Development",
+      "Backend",
+      "Frontend",
+      "React",
+      "Blockchain",
+      "Web3",
+      "Ethereum"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "85"
       }
     ],
     "social": [
