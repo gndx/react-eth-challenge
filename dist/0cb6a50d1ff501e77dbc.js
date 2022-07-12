@@ -1,0 +1,1 @@
+import React from"react";import{createRoot}from"react-dom/client";import App from"./containers/App";var container=document.getElementById("app"),root=createRoot(container);root.render(React.createElement(App,null));

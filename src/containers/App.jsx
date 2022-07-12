@@ -9,9 +9,9 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
-const App = () => {
+function App() {
   return (
-    <>
+    <div className='App'>
       <Header>
         <About />
       </Header>
@@ -21,8 +21,9 @@ const App = () => {
       <Skills />
       <Interest />
       <Languages />
-    </>
-  )
-};
+    </div>
+
+  );
+}
 
 export default App;
