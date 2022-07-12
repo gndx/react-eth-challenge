@@ -1,2 +1,31 @@
+@import "normalize.css";
+
 body
-  background-color blue
+  font-family Arial, sans-serif;
+  background-color #f3f2ef
+  margin 15px
+
+p
+  margin 0
+
+ul
+  list-style none
+  padding 0
+
+#app 
+  margin auto
+  max-width 900px 
+  display grid;
+  grid-gap 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas "header header" "profile profile" "experience experience" "academic skills" "interest languages";
+
+@import "Header";
+@import "About";
+@import "Profile";
+@import "Experience";
+@import "Academic";
+@import "Skills";
+@import "Interest";
+@import "Languages";

@@ -9,18 +9,32 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
+import json from '../../data.json'
+
 const App = () => {
+
+  const {
+    avatar,
+    profile,
+    experience,
+    interest,
+    languages,
+    academic,
+    skills,
+    ...about
+  } = json.data
+
   return (
     <>
-      <Header>
-        <About />
+      <Header avatar={avatar}>
+        <About {...about}/>
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Profile profile={profile}/>
+      <Experience items={experience}/>
+      <Academic items={academic}/>
+      <Skills items={skills}/>
+      <Interest items={interest}/>
+      <Languages items={languages}/>
     </>
   )
 };
