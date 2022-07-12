@@ -1,7 +1,7 @@
 ## DESCRIPTION
 
-Solución al reto: https://github.com/MartinIglesias86/react-eth-challenge
-Deploy: 
+Solución al reto: https://github.com/MartinIglesias86/react-eth-challenge <br />
+Deploy: https://react-eth-challenge-flame.vercel.app/
 
 Nombre: Martin Iglesias
 Usuario Platzi: martin_codes86
