@@ -3,7 +3,7 @@ import { ProfileContext } from '../containers/App';
 
 const Experience = () => {
     const data = useContext(ProfileContext);
-    const { experience = [{}] } = data;
+    const { experience = [{}, {}, {}] } = data;
     return (
         <>
             <h3 className='Experience-title'>Experience</h3>

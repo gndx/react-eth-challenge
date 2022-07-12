@@ -41,10 +41,10 @@ const App = () => {
                     <About />
                 </Header>
                 <Experience />
-                {/* <Academic /> */}
-                {/* <Skills /> */}
-                {/* <Interest /> */}
-                {/* <Languages /> */}
+                <Academic />
+                <Skills />
+                <Interest />
+                <Languages />
             </ProfileContext.Provider>
         </>
     )
