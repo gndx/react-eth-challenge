@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Context } from './Context';
 
 export default function Header({ children }) {
+  const { data } = useContext(Context);
+  const fullName = data.name.split(' ');
+  const name = fullName[0];
+  const lastName = fullName[1];
+
   return (
     <header>
-      <img alt='myself' />
+      <img alt='myself' src={data.avatar} />
       <div className='header__content'>
         <p>
           CV
-          <span>@bramucci</span>
         </p>
         <h1>
-          Candela
+          {name}
           {' '}
-          <span>Bramucci</span>
+          <span>{lastName}</span>
         </h1>
         {children}
       </div>

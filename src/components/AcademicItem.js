@@ -1,14 +1,18 @@
 import React from 'react';
-import Academic from './Academic';
 
-export function AcademicItem() {
+export default function AcademicItem({
+  degree,
+  description,
+  endDate,
+  startDate,
+  institution }) {
   return (
     <ul className='academic__item'>
-      <li />
-      <li />
-      <li />
-      <li />
-      <li />
+      <li>{degree}</li>
+      <li>{description}</li>
+      <li>{endDate}</li>
+      <li>{startDate}</li>
+      <li>{institution}</li>
     </ul>
   );
 }

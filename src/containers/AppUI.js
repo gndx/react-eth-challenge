@@ -7,9 +7,11 @@ import Languages from '../components/Languages';
 import Profile from '../components/Profile';
 import Interest from '../components/Interest';
 import { Context } from '../components/Context';
+import Skills from '../components/Skills';
 
 export default function AppUI() {
   const { data, loading, error } = React.useContext(Context);
+  if (!loading) console.log(data);
 
   return (
     <>
@@ -25,6 +27,7 @@ export default function AppUI() {
             <Languages />
             <Profile />
             <Interest />
+            <Skills />
           </main>
         </>
       )}

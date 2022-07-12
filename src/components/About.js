@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Context } from './Context';
 
 export default function About() {
+  const { data } = useContext(Context);
+
   return (
     <section className='about'>
-      <h2>Programmer</h2>
+      <h2>{data.profession}</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque,
         blanditiis! Facilis velit porro aperiam adipisci voluptate soluta quos
