@@ -19,7 +19,7 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 ### Instalación
 
 ```
-npm install
+npm install --force
 ```
 
 ### Ejecución
