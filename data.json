@@ -1,41 +1,41 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Bryan Madrid",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Cancún, México.",
+    "email": "sbryanmadridn@gmail.com",
+    "website": "https://serbrylex.com",
+    "phone": "+55 9983963548",
+    "avatar": "https://serbrylex.com/static/media/yomero.f394a247.png",
+    "Profile": "I’m an eternal student who works everyday to improve his habilitis, and someday change the world with the help of technology.",
     "certificate": [
       {
         "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "description": "Now I’m able to control myself, think and analyze my feelings and focus on those feelings to improve whatever I’m working on.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Curso de Inteligencia Emocional"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Jan 2022",
+        "description": "Now I'm able to write SmartContracts, and make the first step to a great world",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de Introducción a Solidity"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Programming technician",
+        "description": "In highschool I dedicate all my time learning the basics of computer science. I touch languages like java, c++, python and javascript, data structures and algorithms.",
+        "endDate": "Jan 2016",
+        "institution": "CBTIS #111",
+        "startDate": "Jan 2019"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Web developer 2/3",
+        "description": "I study everyday in Plazi about a lot of different things but my focus is work as a fullstack developer.",
+        "endDate": "Still",
+        "institution": "Platzi",
+        "startDate": "Jan 2019"
       }
     ],
     "experience": [
@@ -51,6 +51,13 @@
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
+        "startDate": "Sept 2019"
+      },
+      {
+        "company": "SpaceX",
+        "endDate": "Jan 2016",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Hard Stuff Builder",
         "startDate": "Sept 2019"
       }
     ],
@@ -86,6 +93,10 @@
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Japanese",
+        "percentage": "2%"
       }
     ],
     "social": [
