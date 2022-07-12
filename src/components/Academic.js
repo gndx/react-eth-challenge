@@ -7,17 +7,19 @@ export default function Academic() {
 
   return (
     <section className='academic'>
-      <h2>Academic</h2>
-      {data.Academic.map((item) => (
-        <AcademicItem
+      <div className='container'>
+        <h2>Academic</h2>
+        {data.Academic.map((item) => (
+          <AcademicItem
           key={item.degree}
           degree={item.degree}
           description={item.description}
           endDate={item.endDate}
           startDate={item.startDate}
           institution={item.institution}
-        />
-      ))}
+          />
+          ))}
+      </div>
     </section>
   );
 }

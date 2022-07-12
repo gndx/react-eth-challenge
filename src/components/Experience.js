@@ -7,17 +7,19 @@ export default function Experience() {
 
   return (
     <section className='experience'>
-      <h2>Experience</h2>
-      {data.experience.map((item) => (
-        <ExperienceItem
+      <div className='container'>  
+        <h2>Experience</h2>
+        {data.experience.map((item) => (
+          <ExperienceItem
           key={item.company}
           company={item.company}
           endDate={item.endDate}
           startDate={item.startDate}
           jobDescription={item.jobDescription}
           jobTitle={item.jobTitle}
-        />
-      ))}
+          />
+          ))}
+      </div>
     </section>
   );
 }

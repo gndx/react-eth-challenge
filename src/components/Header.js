@@ -8,19 +8,14 @@ export default function Header({ children }) {
   const lastName = fullName[1];
 
   return (
-    <header>
-      <img alt='myself' src={data.avatar} />
-      <div className='header__content'>
-        <p>
-          CV
-        </p>
+    <header className='header'>
+      <img className='avatar' alt='avatar' src={data.avatar} />
         <h1>
           {name}
           {' '}
           <span>{lastName}</span>
         </h1>
-        {children}
-      </div>
+        <p>This is my CV</p>
     </header>
   );
 }

@@ -6,10 +6,12 @@ export default function Skills() {
 
   return (
     <section className='skills'>
-      <h2>Skills</h2>
-      <ul>
-        {data.skills.map((skill) => <li key={skill.name}>{skill.name}</li>)}
-      </ul>
+      <div className='container'>
+        <h2>Skills</h2>
+        <ul>
+          {data.skills.map((skill) => <li key={skill.name}>{skill.name}</li>)}
+        </ul>
+        </div>
     </section>
   );
 }

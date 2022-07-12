@@ -4,7 +4,7 @@ import About from '../components/About';
 import Experience from '../components/Experience';
 import Academic from '../components/Academic';
 import Languages from '../components/Languages';
-import Profile from '../components/Profile';
+// import Profile from '../components/Profile';
 import Interest from '../components/Interest';
 import { Context } from '../components/Context';
 import Skills from '../components/Skills';
@@ -18,16 +18,18 @@ export default function AppUI() {
       {error && <p>error</p>}
       {data && !loading && (
         <>
-          <Header>
-            <About />
-          </Header>
+          <Header/>
           <main>
-            <Experience />
-            <Academic />
-            <Languages />
-            <Profile />
-            <Interest />
+            <About />
             <Skills />
+            <Experience />
+            <section className='languages-and-interest'>
+              <div className='container'>
+                <Languages />
+                <Interest />
+              </div>
+            </section>
+            <Academic />
           </main>
         </>
       )}

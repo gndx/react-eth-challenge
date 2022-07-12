@@ -1,0 +1,13 @@
+.header {
+    background-color: hsl(0, 0%, 60%);
+    display: flex;
+    padding: 10em 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    .avatar {
+        border-radius: 5rem;
+    }
+}

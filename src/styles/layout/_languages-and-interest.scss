@@ -1,0 +1,11 @@
+.languages-and-interest {
+    background-color: hsl(0, 0%, 55%);
+
+    .container {
+        display: flex;
+
+        >* {
+            width: 100%;
+        }
+    }
+}

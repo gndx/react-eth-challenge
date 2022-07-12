@@ -6,13 +6,15 @@ export default function About() {
 
   return (
     <section className='about'>
-      <h2>{data.profession}</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque,
-        blanditiis! Facilis velit porro aperiam adipisci voluptate soluta quos
-        perspiciatis a tempore repellat laudantium, minima libero qui officiis
-        aliquid nulla eius?
-      </p>
+      <div className='container'>
+        <div>
+          <h2>discover<span>About me</span></h2>
+        </div>
+        <div>
+          <h3>{data.profession}</h3>
+          <p>{data.Profile}</p>
+        </div>
+        </div>
     </section>
   );
 }

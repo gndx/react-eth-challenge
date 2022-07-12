@@ -1,0 +1,18 @@
+.about {
+    background-color: hsl(0, 0%, 50%);
+
+    .container {
+        display: flex;
+        gap: 2em;
+    }
+
+    h2 {
+        font-size: 1rem;
+
+        span {
+            font-size: 2rem;
+            display: block;
+            text-transform: capitalize;
+        }
+    }
+}

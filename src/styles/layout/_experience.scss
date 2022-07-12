@@ -1,0 +1,12 @@
+.experience {
+    background-color: hsl(0, 0%, 50%);
+
+    &__item {
+        border: .2em solid #000;
+
+        // selects all items with a previous sibling
+        &+* {
+            margin-top: 1em;
+        }
+    }
+}

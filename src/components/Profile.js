@@ -7,7 +7,6 @@ export default function Profile() {
   return (
     <section className='profile'>
       <h2>Profile</h2>
-      <p>{data.Profile}</p>
     </section>
   );
 }
