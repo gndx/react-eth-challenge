@@ -40,7 +40,6 @@ module.exports = (env) => {
               loader: MiniCssExtractPlugin.loader
             },
             'css-loader',
-            'stylus-loader',
             'sass-loader'
           ]
         },
