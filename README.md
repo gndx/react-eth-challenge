@@ -1,5 +1,7 @@
 # react-eth-challenge
 
+Enlace del deploy: https://react-eth-challenge-pink.vercel.app/
+
 ## React Curriculum vitae
 
 Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
