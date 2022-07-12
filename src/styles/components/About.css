@@ -9,5 +9,6 @@
 
 .About-container a {
     padding-right: 1em;
-    color: var(--white-text);
+    font-size: 0.75em;
+    color: var(--green-accent);
 }

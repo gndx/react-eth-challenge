@@ -4,8 +4,10 @@
 }
 
 @media (min-width: 640px) {
-    .Interests p {
-        width: 50%;
+    .Interests li {
+        padding-right: 1em;
+        color: var(--green-accent);
+        width: 25%;
     }
     .Interests div {
         flex-direction: row;

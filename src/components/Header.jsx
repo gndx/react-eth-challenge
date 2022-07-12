@@ -14,8 +14,12 @@ function Header({
     <header>
       <img src={avatar} alt='Profile pic'/>
       <div className='About-container'>
-        <h1 className='Header-title'>{name}</h1>
+        <h1 className='Header-title'>
+          {name}
+        </h1>
+        
         {children}
+        
         <ul className='Social'>
           {social.map(({ name, url }, index) => (
               <li key={index}>

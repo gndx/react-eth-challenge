@@ -7,9 +7,11 @@ header {
 }
 
 header img {
-    border-radius: 12em;
     height: 12em;
     width: 12em;
+    border-radius: 12em;
+    border-width: 2px;
+    border-color: red;
 }
 
 h1 {
@@ -20,14 +22,14 @@ h1 {
     padding-top: 0.5em;
 }
 
-header h3 {
-    color: var(--cyan-accent);
+header h2 {
+    font-size: 1.5em;
 }
 
 .Social {
     display: flex;
-    flex-direction: row;
-    gap: 1em;
+    flex-direction: row-reverse;
+    gap: 0.5m;
     margin: 0;
     padding: 0;
 }

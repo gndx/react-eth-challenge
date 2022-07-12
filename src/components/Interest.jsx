@@ -9,15 +9,15 @@ function Interest({
       <h3 className='Interest-title'>
         Personal interests beyond web development
       </h3>
-      <div>
+      <ul>
         {interest.map((item, index) => {
             return (
-              <p key={index} className='Interest-item'>
+              <li key={index} className='Interest-item'>
                 {item}
-              </p>
+              </li>
             );
         })}
-      </div>
+      </ul>
     </section>
   );
 }

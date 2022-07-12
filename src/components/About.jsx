@@ -11,7 +11,9 @@ function About({
 
   return (
     <>
-      <h3 className='About-title'>{profession}</h3>
+      <h2 className='About-title'>
+        {profession}
+      </h2>
       <div>
         <a href={`tel:${phone}`} target='_blank' rel='noopener noreferrer' className='About-item'>
           {phone}
@@ -23,7 +25,9 @@ function About({
           {website}
         </a>
       </div>
-      <p>{address}</p>
+      <p>
+        {address}
+      </p>
     </>
   );
 }

@@ -20,9 +20,19 @@ section {
     padding: 1em;
 }
 
-section h2 {
+h3 {
     text-align: center;
     font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 1.25;
 }
 
 .App {

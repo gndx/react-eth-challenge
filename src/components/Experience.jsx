@@ -12,7 +12,9 @@ function Experience({
 }) {
   return (
     <section className='Experience'>
-      <h2 className='Experience-title'>Experience</h2>
+      <h3 className='Experience-title'>
+        Experience
+      </h3>
       <div className='container'>
         {
           experience.map(({
