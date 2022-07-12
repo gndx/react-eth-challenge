@@ -62,4 +62,7 @@ export const Div = styled.div`
   display: flex;
   justify-content: center;
   gap: 20px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;

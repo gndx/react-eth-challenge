@@ -19,18 +19,21 @@ function Experience({ experience = [{}, {}, {}], certificate = [{}, {}, {}] }) {
     <Container>
       <Span>
         <BiBriefcase style={style} />
-        <h2 className="Experience-title">Experience</h2>
+        <h2 className='Experience-title'>Experience</h2>
       </Span>
       <Div>
         <ul>
           {experience?.map((exp, index) => {
             return (
-              <Li key={index} className="Experience-item">
+              <Li key={exp.jobDescription} className='Experience-item'>
                 <Job>
                   <Info>
                     <Company>{exp.company}</Company>
                     <Time>
-                      {exp.startDate} -{exp.endDate}
+                      {exp.startDate}
+                      {' '}
+                      -
+                      {exp.endDate}
                     </Time>
                   </Info>
                   <Desc>
@@ -46,7 +49,7 @@ function Experience({ experience = [{}, {}, {}], certificate = [{}, {}, {}] }) {
           <H3>Certificates</H3>
           {certificate?.map((element, index) => {
             return (
-              <Li key={index} className="Experience-item">
+              <Li key={element.description} className='Experience-item'>
                 <Job>
                   <Info>
                     <Company>{element.institution}</Company>

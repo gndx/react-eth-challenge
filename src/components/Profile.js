@@ -8,12 +8,13 @@ function Profile({ description }) {
     <Container>
       <Span>
         <TbUser style={style} />
-        <h2 className="Profile-title">Profile</h2>
+        <h2 className='Profile-title'>Profile</h2>
       </Span>
-      <ProfileP className="Profile-desc">{description}</ProfileP>
+      <ProfileP className='Profile-desc'>{description}</ProfileP>
       <ProfileP>
-        P.D. I love this quote: 'An invest in knowledge always pays the best
-        interest'
+        P.D. I love this quote:
+        {' '}
+        <q>An invest in knowledge always pays the best interest</q>
       </ProfileP>
     </Container>
   );

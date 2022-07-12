@@ -18,17 +18,20 @@ function Academic({ academic = [{}, {}, {}] }) {
     <Container>
       <Span>
         <MdSchool style={style} />
-        <h2 className="Academic-title">Academic</h2>
+        <h2 className='Academic-title'>Academic</h2>
       </Span>
       <ul>
         {academic?.map((element, index) => {
           return (
-            <Li key={index} className="Academic-item">
+            <Li key={element.description} className='Academic-item'>
               <Job>
                 <Info>
                   <School>{element.institution}</School>
                   <Time>
-                    {element.startDate} -{element.endDate}
+                    {element.startDate}
+                    {' '}
+                    -
+                    {element.endDate}
                   </Time>
                 </Info>
                 <Desc>

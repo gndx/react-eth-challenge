@@ -9,12 +9,12 @@ function Interest({ interest = [{}, {}, {}] }) {
     <Container>
       <Span>
         <BiLike style={style} />
-        <h2 className="Interest-title">Interest</h2>
+        <h2 className='Interest-title'>Interest</h2>
       </Span>
       <Ul>
         {interest?.map((element) => {
           return (
-            <Li key={element} className="Interest-item">
+            <Li key={element} className='Interest-item'>
               <H4>{element}</H4>
             </Li>
           );

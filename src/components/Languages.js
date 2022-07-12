@@ -9,14 +9,17 @@ function Languages({ languages = [{}, {}, {}] }) {
     <Container>
       <Span>
         <BsTranslate style={style} />
-        <h2 className="Languages-title">Languages</h2>
+        <h2 className='Languages-title'>Languages</h2>
       </Span>
       <Ul>
         {languages?.map((element, index) => {
           return (
-            <Li key={index}>
-              <H4 className="Languages-item">
-                {element.name} -{element.percentage}
+            <Li key={element.name}>
+              <H4 className='Languages-item'>
+                {element.name}
+                {' '}
+                -
+                {element.percentage}
               </H4>
             </Li>
           );

@@ -8,6 +8,12 @@ export const Avatar = styled.img`
   position: absolute;
   left: 27px;
   bottom: -45px;
+  @media (max-width: 768px) {
+    height: 76px;
+    width: 76px;
+    left: 78px;
+    top: 10px;
+  }
 `;
 
 export const Div = styled.div`

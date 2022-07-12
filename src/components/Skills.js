@@ -18,13 +18,13 @@ function Skills({ skills = [{}, {}, {}] }) {
     <Container>
       <Span>
         <BsTrophy style={style} />
-        <h2 className="Skills-title">Skills</h2>
+        <h2 className='Skills-title'>Skills</h2>
       </Span>
       <Section>
         <SkillsContainer>
           {skills?.map((skill, index) => {
             return (
-              <Card key={(skill, index)} className="Skills-item">
+              <Card key={skill.name} className='Skills-item'>
                 {getIconContainer(skill.name)}
                 <SkillLevel>{skill.percentage}</SkillLevel>
                 <Name>{skill.name}</Name>
