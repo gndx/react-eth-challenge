@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+    background-color: #bde0fe;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-container{
+    margin-left: 2rem;
+}
+
+.Header-title{
+    font-size: 30px;
+}
+
+.job-title{
+    margin-top: 0.5rem;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #74bbf9;
+    width: fit-content;
+    padding: 0 0.35rem;
+    border-radius: 8px;
+}
+
+.img{
+    width: 10rem;
+    max-width: 13rem;
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    margin-top: 1rem;    
+}
+
+.About-title{
+    margin-right: 1.5rem;
+}
+
+.About-item {
+    margin-right: 2rem;
+}
+
+.About-item a {
+    text-decoration: none;
+}
+
+.profile{
+    background-color: #b7e4c7;
+    padding: 1rem 3rem;
+    margin: 0.5rem 0;
+}
+
+.Profile-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.Profile-desc p{
+    margin: 0.25rem;
+}
+
+.experience{
+    background-color: #b7e4c7;
+    padding: 1rem 3rem;
+    margin: 0.25rem 0;
+}
+
+.Profile-title, .Experience-title, .Academic-title, .Skills-title, .Interest-title, .Languages-title{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Experience-item, .Academic-item{
+    margin: 1rem 0;
+}
+
+.cont{
+    display: flex;
+}
+
+.academic{
+    background-color: #b7e4c7;
+    padding: 1rem 3rem;
+    margin: 0.25rem 0;
+    width: 100%;
+}
+
+.skills{
+    background-color: #e5eee9;
+    padding: 1rem 3rem;
+    margin: 0.25rem 0;
+    width: 100%;
+    margin-left: 0.5rem;
+}
+
+.Skills-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.interest{
+    background-color: #53bf9e;
+    padding: 1rem 3rem;
+    margin: 0.25rem 0;
+    width: 100%;
+}
+
+.languages{
+    background-color: #53bf9e;
+    padding: 1rem 3rem;
+    margin: 0.25rem 0;
+    width: 100%;
+    margin-left: 0.5rem;
+}
+
+li{
+    list-style: none;
+}
+
+
