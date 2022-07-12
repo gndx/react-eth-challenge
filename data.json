@@ -1,110 +1,228 @@
 {
-  "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
-  }
+    "data": {
+        "name": "Claudio Lepín",
+        "profession": "Software Architect/DevOps/Backend Developer/SysAdmin",
+        "address": "Santiago, Chile.",
+        "email": "azratul@proton.me",
+        "website": "https://melchior.unnerv.xyz",
+        "phone": "56977135494",
+        "avatar": "https://www.silensclamor.com/1653659663847.jpeg",
+        "Profile": "My daily job is to write backend applications using Go and defining the software architecture of new applications. I also work with microservices and Docker. Working with these technologies, I try to improve myself every day. My interests in other technologies include: Go, ASM, C, Python, Javascript & a lot of shell scripting(POSIX compliant). In addition, I'm interested in the DevOps & SysAdmin side of things and have taken an online course in this area in Platzi. Open to offers related to the open source world (FOSS taliban).",
+        "certificate": [
+            {
+                "date": "Mar 2020",
+                "description": "Backend software development with Go",
+                "institution": "Platzi",
+                "name": "Go Backend Developer - Career"
+            },
+            {
+                "date": "Mar 2020",
+                "description": "Backend software development with Python & Django",
+                "institution": "Platzi",
+                "name": "Python Backend Developer - Career"
+            },
+            {
+                "date": "Feb 2018",
+                "description": "The objective is to meet security goals without compromising any IT performance. Software Cracking, Networking discovery(sniffing, poisoning, etc)",
+                "institution": "Platzi",
+                "name": "SecOps - Career"
+            },
+            {
+                "date": "Jan 2000",
+                "description": "Cracking, hacking, sniffing, poisoning, etc.",
+                "institution": "DragonJar",
+                "name": "Hacking"
+            }
+        ],
+        "Academic": [
+            {
+                "degree": "Bachelor's degree, Computer Engineering",
+                "description": "Development focus, but also some basics of networking and SysAdmin",
+                "endDate": "Mar 2007",
+                "institution": "Instituto DuocUC",
+                "startDate": "Dec 2011"
+            },
+            {
+                "degree": "Bachelor's degree, Graphics Design. Incomplete",
+                "description": "I don't remember anything, because it's something I've always hated",
+                "endDate": "Sep 2004",
+                "institution": "Universidad Santo Tomás",
+                "startDate": "Mar 1999"
+            }
+        ],
+        "experience": [
+            {
+                "company": "Universidad de Chile",
+                "endDate": "Present",
+                "jobDescription": "Software Architect & Tech Lead",
+                "jobTitle": "Software Architect",
+                "startDate": "Mar 2022"
+            },
+            {
+                "company": "Compsci",
+                "endDate": "Mar 2022",
+                "jobDescription": "Senior Backend, DevOps and Architect (outsourced)",
+                "jobTitle": "Backend Engineer",
+                "startDate": "Nov 2021"
+            },
+            {
+                "company": "Universidad de Chile",
+                "endDate": "Mar 2022",
+                "jobDescription": "Senior Ninja Developer",
+                "jobTitle": "Fullstack Software Engineer",
+                "startDate": "Jul 2019"
+            },
+            {
+                "company": "Servicio Nacional del Consumidor",
+                "endDate": "Jul 2019",
+                "jobDescription": "Senior Developer, Linux SysAdmin, Pentester & Project Manager",
+                "jobTitle": "Fullstack Software Engineer",
+                "startDate": "Jan 2012"
+            },
+            {
+                "company": "Servicio Nacional del Patrimonio Cultural",
+                "endDate": "Jan 2012",
+                "jobDescription": "Web developer(Front & Backend), Tech Lead",
+                "jobTitle": "Software Developer",
+                "startDate": "Jul 2008"
+            }
+        ],
+        "skills": [
+            {
+                "name": "Go",
+                "percentage": "100%"
+            },
+            {
+                "name": "Vanilla JavaScript",
+                "percentage": "100%"
+            },
+            {
+                "name": "Shell Scripting",
+                "percentage": "100%"
+            },
+            {
+                "name": "C",
+                "percentage": "100%"
+            },
+            {
+                "name": "Linux",
+                "percentage": "100%"
+            },
+            {
+                "name": "BSD",
+                "percentage": "100%"
+            },
+            {
+                "name": "Docker",
+                "percentage": "100%"
+            },
+            {
+                "name": "Git",
+                "percentage": "100%"
+            },
+            {
+                "name": "gRPC",
+                "percentage": "100%"
+            },
+            {
+                "name": "PL/SQL",
+                "percentage": "100%"
+            },
+            {
+                "name": "Transact SQL",
+                "percentage": "100%"
+            },
+            {
+                "name": "GraphQL",
+                "percentage": "100%"
+            },
+            {
+                "name": "Ansible",
+                "percentage": "100%"
+            },
+            {
+                "name": "Networking",
+                "percentage": "100%"
+            },
+            {
+                "name": "PHP",
+                "percentage": "100%"
+            },
+            {
+                "name": "Python",
+                "percentage": "90%"
+            },
+            {
+                "name": "Kubernetes",
+                "percentage": "90%"
+            },
+            {
+                "name": "IPFS",
+                "percentage": "80%"
+            },
+            {
+                "name": "NASM",
+                "percentage": "70%"
+            },
+            {
+                "name": "Rust",
+                "percentage": "70%"
+            },
+            {
+                "name": "Cobol",
+                "percentage": "60%"
+            },
+            {
+                "name": "Java",
+                "percentage": "70%"
+            },
+            {
+                "name": "Sinclair Basic",
+                "percentage": "50%"
+            },
+            {
+                "name": "React",
+                "percentage": "10%"
+            }
+        ],
+        "interest": [
+            "Hacking",
+            "Devops",
+            "Kernel development",
+            "SBC",
+            "Music Broadcaster"
+        ],
+        "languages": [
+            {
+                "name": "Spanish",
+                "percentage": "100%"
+            },
+            {
+                "name": "English",
+                "percentage": "80%"
+            }
+        ],
+        "social": [
+            {
+                "name": "Gitlab",
+                "url": "https://gitlab.com/azratul"
+            },
+            {
+                "name": "Stack Overflow",
+                "url": "https://stackoverflow.com/users/5261784/claudio-lepin"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/azratul"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/claudio-lepín-a0b2031b2/"
+            },
+            {
+                "name": "Online Radio",
+                "url": "https://www.silensclamor.com/"
+            }
+        ]
+    }
 }
