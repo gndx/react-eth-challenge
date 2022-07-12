@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "React Eth Challenge",
   "main": "index.js",
+  "engines": {
+    "node": "16.15.1"
+  },
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
