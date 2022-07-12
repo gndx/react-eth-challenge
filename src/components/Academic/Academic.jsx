@@ -8,7 +8,7 @@ const Academic = () => {
     const [ academic, setAcademic ] = React.useState([]);
 
     React.useEffect(() => {
-        getData("http://localhost:3000/data").then(res => setAcademic(res.academic))
+        getData("https://raw.githubusercontent.com/LeanderGS/react-eth-challenge/main/data.json").then(res => setAcademic(res.data.academic))
     }, [])
 
     return (

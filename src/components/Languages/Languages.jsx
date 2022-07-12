@@ -8,7 +8,7 @@ const Languages = () => {
     const [languages, setLanguages] = React.useState([])
 
     React.useEffect(() => {
-        getData("http://localhost:3000/data").then(res => setLanguages(res.languages))
+        getData("https://raw.githubusercontent.com/LeanderGS/react-eth-challenge/main/data.json").then(res => setLanguages(res.data.languages))
     }, [])
 
     return (

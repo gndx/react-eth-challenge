@@ -7,7 +7,7 @@ const Skills = () => {
     const [ skills, setSkills ] = React.useState([]);
     
     React.useEffect(() => {
-        getData("http://localhost:3000/data").then(res => setSkills(res.skills))
+        getData("https://raw.githubusercontent.com/LeanderGS/react-eth-challenge/main/data.json").then(res => setSkills(res.data.skills))
     }, [])
     
     return (

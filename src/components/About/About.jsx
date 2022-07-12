@@ -8,7 +8,7 @@ const About = () => {
     const [ projects, setProjects ] = React.useState([]);
 
     React.useEffect(() => {
-        getData("http://localhost:3000/data").then(res => setProjects(res.projects))
+        getData("https://raw.githubusercontent.com/LeanderGS/react-eth-challenge/main/data.json").then(res => setProjects(res.data.projects))
     }, [])
 
     return (

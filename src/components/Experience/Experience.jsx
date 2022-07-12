@@ -8,7 +8,7 @@ const Experience = () => {
     const [ experience, setExperience ] = React.useState([]);
 
     React.useEffect(() => {
-        getData("http://localhost:3000/data").then(res => setExperience(res.experience))
+        getData("https://raw.githubusercontent.com/LeanderGS/react-eth-challenge/main/data.json").then(res => setExperience(res.data.experience))
     }, [])
 
     return (

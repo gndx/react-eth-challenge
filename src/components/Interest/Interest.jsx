@@ -7,7 +7,7 @@ const Interest = () => {
     const [ interest, setInterest ] = React.useState([]);
 
     React.useEffect(() => {
-        getData("http://localhost:3000/data").then(res => setInterest(res.interest));
+        getData("https://raw.githubusercontent.com/LeanderGS/react-eth-challenge/main/data.json").then(res => setInterest(res.data.interest));
     }, [])
 
     return (

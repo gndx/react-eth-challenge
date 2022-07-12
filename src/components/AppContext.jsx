@@ -8,7 +8,7 @@ const AppProvider = (props) => {
     const [data, setData] = React.useState({})
 
     React.useEffect(() => {
-      getData("http://localhost:3000/data").then(res => setData(res))
+      getData("https://raw.githubusercontent.com/LeanderGS/react-eth-challenge/main/data.json").then(res => setData(res.data))
     }, [])
 
     return (
