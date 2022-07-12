@@ -30,18 +30,11 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
+        "degree": "Software Engineering",
+        "description": "",
+        "endDate": "2010",
+        "institution": "Universidad de Cundinamarca",
         "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
       }
     ],
     "experience": [
@@ -104,6 +97,18 @@
       {
         "name": "React",
         "percentage": "90%"
+      },
+      {
+        "name": "Java",
+        "percentage": "80%"
+      },
+      {
+        "name": "Python",
+        "percentage": "80%"
+      },
+      {
+        "name": "Django",
+        "percentage": "80%"
       }
     ],
     "interest": [
@@ -115,11 +120,11 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "90%"
       }
     ],
     "social": [

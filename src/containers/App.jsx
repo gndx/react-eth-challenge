@@ -5,15 +5,11 @@ import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
 import Experience from '../components/Experience';
-
-//import jsonData from 'data.json';
-/*import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
 import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
-import Languages from '../components/Languages';*/
+import Languages from '../components/Languages';
+
 
 
 const App = () => {
@@ -40,12 +36,14 @@ const App = () => {
         </Header>
         <Profile profile={data.Profile} />
         <Experience experience={data.experience} />
-        {/*
-        <Academic />
-        <Skills />
-        <Interest />
-        <Languages />
-    */}
+        <div className="double-column">
+          <Academic academic={data.Academic} /> 
+          <Skills skills={data.skills}/>
+        </div>
+        <div className="double-column">
+          <Languages languages={data.languages} /> 
+          <Interest interest={data.interest}/>
+        </div>
       </>
     )
   }
