@@ -4,8 +4,12 @@ export default function Header({ children, data }) {
   return (
     <div className="bg-gray-700 p-5 lg:p-10 rounded-xl border border-gray-900 shadow-xl lg:flex">
       <div className="w-56 flex-shrink-0 mx-auto">
-        <div className="rounded-full border-2 border-gray-700 overflow-hidden w-48 mx-auto lg:mx-0">
-          <img src={data?.avatar} alt={data?.name} className=" w-full h-full" />
+        <div className="rounded-full border-2 border-gray-700 overflow-hidden w-48 h-48 mx-auto lg:mx-0">
+          <img
+            src={data?.avatar}
+            alt={data?.name}
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
       <div className="w-full mt-5 lg:mt-0">

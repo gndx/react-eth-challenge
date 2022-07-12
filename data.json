@@ -24,18 +24,18 @@
     ],
     "Academic": [
       {
-        "degree": "Ingeniaeria en Sistemas y Computación",
+        "degree": "Ingenieria en Sistemas y Computación",
         "description": "",
         "endDate": "Mayo 2022",
         "institution": "UTEC",
         "startDate": "Enero 2015"
       },
       {
-        "degree": "Tecnico en Electrónica",
+        "degree": "Técnico en Electrónica",
         "description": "",
-        "endDate": "Enero 2012",
+        "endDate": "Diciembre 2014",
         "institution": "CEREN",
-        "startDate": "Diciembre 2014"
+        "startDate": "Enero 2012" 
       }
     ],
     "experience": [
