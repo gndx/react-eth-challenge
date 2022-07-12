@@ -13,7 +13,7 @@ import getData from '../utils/getData';
 
 export default function App() {
   
-  const url = 'https://raw.githubusercontent.com/joelesdar/JSON-API-React-Challenge/gh-pages/data.json';
+  const url = 'https://raw.githubusercontent.com/joelesdar/react-eth-challenge/main/data.json';
   const [data, setData] = useState(null);
 
   useEffect(() => {
