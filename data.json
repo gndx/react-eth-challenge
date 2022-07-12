@@ -1,82 +1,149 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "info": {
+      "name": "Fabian Reyes",
+      "profession": "Ingeniero en Telecomunicaciones, Desarrollador Flutter, Desarrollador JavaScript y TypeScript, Especialista en Seguridad Informática, Ingeniero de DevOps",
+      "address": "Bucaramanga, Colombia",
+      "email": "freyes1750@gmail.com",
+      "website": "https://smart-dev.com.co",
+      "phone": "n/a",
+      "avatar": "https://res.cloudinary.com/practicaldev/image/fetch/s--EdWBKIYs--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/671700/d6000539-49ae-41e2-861b-648757301250.jpg",
+      "profile": "Profesional en Ingeniería de Telecomunicaciones con especialización en seguridad informática, desarrollador de aplicaciones web y móviles con una sólida fundamentación científica, técnica, empresarial y humanista, que está habilitado para desempeñar competentemente las funciones de gestión y operación de infraestructuras tecnológicas, desarrollo de soluciones de software móviles, web y multi plataforma. "
+    },
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "2022",
+        "institution": "Udemy",
+        "name": "Principios Solid Y Clean Code"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "2022",
+        "institution": "Aws Educate / Mintic",
+        "name": "Aws Cloud 101"
+      },
+      {
+        "date": "2022",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso Profesional de Git y GitHub"
+      },
+      {
+        "date": "2022",
+        "institution": "FreeCodeCamp",
+        "name": "JavaScript Algoritms and Data Structures"
+      },
+      {
+        "date": "2022",
+        "institution": "CertiProf",
+        "name": "Scrum Foundation Professional Certificate - SFPC™"
+      },
+      {
+        "date": "2021",
+        "institution": "Platzi",
+        "name": "Flutter Avanzado"
+      },
+      {
+        "date": "2020",
+        "institution": "Udemy",
+        "name": "Flutter"
+      },
+      {
+        "date": "2020",
+        "institution": "Udemy",
+        "name": "Vuejs"
+      },
+      {
+        "date": "2019",
+        "institution": "Udemy",
+        "name": "Node JS"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "ESPECIALIZACIÓN EN SEGURIDAD INFORMÁTICA",
+        "endDate": "2018",
+        "institution": "Universidad Pontificia Bolivariana"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "degree": "INGENIERO EN TELECOMUNICACIONES",
+        "endDate": "2014",
+        "institution": "Unidades Tecnológicas De Santander UTS",
+        "startDate": "Jan 2017"
+      },
+      {
+        "degree": "TECNÓLOGO EN TELECOMUNICACIONES",
+        "endDate": "2011",
+        "institution": "Unidades Tecnológicas De Santander UTS",
         "startDate": "Jan 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Smart Dev Agency",
+        "endDate": "Actual",
+        "startDate": "Sept 2012",
+        "jobDescription": "Administrar y garantizar la seguridad de la información digital y física empleando las medidas definidas por la empresa. Administración y configuración de certificados de seguridad. Desarrollar y administrar aplicaciones y páginas web usando tecnologías como HTML, CSS, WordPress, Prestashop JavaScript y uso de frameworks de JavaScript como VueJs y React. Desarrollar y administrar aplicaciones móviles usando lenguajes como Swift, Dart, y framework Flutter.",
+        "jobTitle": "Jefe de TI - Desarrollador"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Sevicol LTDA",
+        "endDate": "Abr 2018",
+        "startDate": "Jun 2016",
+        "jobDescription": "Administrar y gestionar el desarrollo del personal a su cargo asegurando el cumplimiento de los lineamientos establecidos por la organización. Gestionar el área de infraestructura tecnológica y transmitir oportunamente la información para la toma de decisiones a la Dirección TIC's. Verificar y controlar el licenciamiento de software, hardware y patentes. Gestionar adquisición de infraestructura tecnológica y manejo de proveedores de servicios de tecnología.",
+        "jobTitle": "Jefe de TI"
+      },
+      {
+        "company": "Agroavicola San Marino S.A",
+        "endDate": "Mar 2016",
+        "startDate": "Sept 2011",
+        "jobDescription": "Jefe del departamento de sistemas, Gestión de los recursos tecnológicos de la regional norte, manejo de proveedores y adquisición de equipos, mantenimiento de equipos (preventivo y correctivo tanto en hardware como en software), soporte técnico presencial y remoto en sistemas, configuración de equipos activos de red, gestión de seguridad informática (VPN, Firewall Fortinet), soporte de apoyo en el sistema contable Siesa 8.5 (creación de clientes, proveedores, anulación de facturas), administrador de dominio de correo empresarial.",
+        "jobTitle": "Jefe de Sistemas"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "100%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Flutter & Dart",
+        "percentage": "100%%"
+      },
+      {
+        "name": "Linux",
+        "percentage": "100%%"
+      },
+      {
+        "name": "Swift UI",
+        "percentage": "70%"
+      },
+      {
+        "name": "Docker",
+        "percentage": "70%"
+      },
+      {
+        "name": "Linux",
+        "percentage": "100%"
+      },
+      {
+        "name": "GIT",
+        "percentage": "100%"
+      },
+      {
+        "name": "TypeScript",
+        "percentage": "100%"
+      },
+      {
+        "name": "Node Js",
+        "percentage": "80%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "SwiftUI",
+      "AWS",
+      "BlockChain",
+      "Ethereum",
+      "Google Cloud",
+      "Azure"
     ],
     "languages": [
       {
@@ -90,20 +157,29 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Dev.To",
+        "url": "https://dev.to/elreyes",
+        "icon": "https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/public/assets/devto-icon.svg"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "Twitter",
+        "url": "https://twitter.com/ReyesMFabian",
+        "icon": "https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/public/assets/twitter-tile.svg"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
+        "name": "Github",
+        "url": "https://github.com/reyesmfabian",
+        "icon": "https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/public/assets/github-tile.svg"
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/reyesmfabian/",
+        "icon": "https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/public/assets/linkedin-tile.svg"
+      },
+      {
+        "name": "Stack Overflow",
+        "url": "https://es.stackoverflow.com/users/145473/fabian-reyes",
+        "icon": "https://raw.githubusercontent.com/reyesmfabian/react-eth-challenge/main/public/assets/stackoverflow-tile.svg"
       }
     ]
   }
