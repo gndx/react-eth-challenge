@@ -17,16 +17,20 @@ body {
 section {
     background-color: var(--blue-section);
     border-radius: 1em;
-    padding: 1em;
+    padding: 2em;
 }
 
 h3 {
     text-align: center;
     font-size: 2rem;
+    padding-bottom: 0;
+    padding-top: 0.5em;
+    margin-top: 0;
+    line-height: 1;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin: 0;
     padding: 0;
 }
@@ -51,5 +55,8 @@ small {
 @media (min-width: 720px) {
     .App {
         padding-top: 4em;
+    }
+    h3 {
+        font-size: 2.5rem;
     }
 }

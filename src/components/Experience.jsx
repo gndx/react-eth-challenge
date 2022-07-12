@@ -26,7 +26,8 @@ function Experience({
           }, index) => (
             <div key={index} className='Experience-item'>
               <h4>{company}</h4>
-              <p>{jobTitle} - {jobDescription}</p>
+              <b>{jobTitle}</b>
+              <p>{jobDescription}</p>
               <small>{startDate} - {endDate}</small>
             </div>
           ))

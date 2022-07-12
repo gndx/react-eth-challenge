@@ -27,7 +27,7 @@
         "degree": "Frontend Developer",
         "description": "Scholarship. This program developed my skills in the creation of new ventures and expand my knowledge on digital transformation and programming.",
         "endDate": "Dic 2021",
-        "institution": "Platzi - Innova Perú",
+        "institution": "Innova Perú & Platzi",
         "startDate": "Jul 2021"
       },
       {
@@ -41,7 +41,7 @@
         "degree": "Problem Solving Using Computational Thinking",
         "description": "Computational thinking is the process of approaching a problem in a systematic manner and creating and expressing a solution such that it can be carried out by a computer.",
         "endDate": "Mar 2021",
-        "institution": "University of Michigan - Coursera",
+        "institution": "University of Michigan & Coursera",
         "startDate": "May 2021"
       },
       {
@@ -56,16 +56,16 @@
       {
         "company": "Dígito",
         "endDate": "Present",
-        "jobDescription": "Web developer",
-        "jobTitle": "Frontend Developer",
-        "startDate": "Jul 2021"
+        "jobDescription": "Expert with Microsoft No-Code tools, like Power Apps and Power Automate.",
+        "jobTitle": "App Developer",
+        "startDate": "Jan 2022"
       },
       {
         "company": "Dígito",
         "endDate": "Present",
-        "jobDescription": "Expert with Microsoft No-Code tools, like Power Apps and Power Automate.",
-        "jobTitle": "App Developer",
-        "startDate": "Jan 2022"
+        "jobDescription": "Web developer",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Jul 2021"
       }
     ],
     "skills": [
@@ -83,12 +83,12 @@
       },
       {
         "name": "CSS",
-        "percentage": "10%"
+        "percentage": "5%"
       }
     ],
     "interest": [
-      "Philosophy. What philosophy is often concerned with is to make explicit what has always been implicit in our thinking and acting.",
-      "Blockchain. Because it can provide secure transactions, reduce compliance costs, and speed up data transfer processing. Its awesome.",
+      "Philosophy. Because philosophy is often concerned with is to make explicit what has always been implicit in our thinking and acting.",
+      "Blockchain. This technology can provide secure transactions, reduce compliance costs, and speed up data transfer processing. Its awesome!",
       "AI ethics. AI needs philosophy to prevent existential risks for humanity, and to solve any issues related to bias.",
       "Smart Contracts. I love the idead of removing intermediaries and allow the end user to interact directly with the ledger."
     ],

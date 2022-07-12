@@ -2,10 +2,32 @@
     margin: 0;
 }
 
+.Academic-Container h3 {
+    margin-bottom: 0em;
+}
+
+.Academic-item {
+    padding-top: 3em;
+}
+
+.Academic-item h4 {
+    margin-bottom: 0.5em;
+}
+
+b {
+    color: var(--green-accent);
+}
+
 @media (min-width: 640px) {
     .Academic-description {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 2em;
+        gap: 3em;
+    }
+    .Academic-Container h3 {
+        margin-bottom: 1em;
+    }
+    .Academic-item {
+        padding-top: 0;
     }
 }

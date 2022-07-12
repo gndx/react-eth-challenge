@@ -5,11 +5,12 @@
 
 @media (min-width: 640px) {
     .Interests li {
-        padding-right: 1em;
         color: var(--green-accent);
-        width: 25%;
+        padding-bottom: 1em;
     }
-    .Interests div {
+    .Interests ul {
         flex-direction: row;
+        max-width: 40em;
+        margin: 0 auto;
     }
 }
