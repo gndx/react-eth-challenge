@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Joel Diaz Arévalo",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "jodiazare@gmail.com",
+    "website": "https://joelesdar.com",
+    "phone": "+57-3225504022",
+    "avatar": "https://avatars.githubusercontent.com/u/23407649?v=4",
+    "Profile": "I'm a passionate and creative Web developer and Computer Engineering student. I love creating products with a focus on the human experience and attention to detail.✨",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,86 +24,105 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Computer Engineering",
+        "description": "I am currently in the eighth semester at one of the top Universities in Latin America.",
+        "endDate": "Someday",
+        "institution": "National University of Colombia",
+        "startDate": "July 2018"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Never-stop-learning Student",
+        "description": "I am a student in the best online education platform in Latin America, expanding my knowledge in databases and soft skills.",
+        "endDate": "Never",
+        "institution": "Platzi",
+        "startDate": "December 2021"
+      },
+      {
+        "degree": "High School",
+        "description": "Yep, I hardly got graduated from school.",
+        "endDate": "November 2017",
+        "institution": "Colegio Enrique Olaya Herrera",
+        "startDate": "February 2010"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Jenial Software",
+        "endDate": "February 2022",
+        "jobDescription": "Led the product development and support team of the company.",
+        "jobTitle": "Lead Developer",
+        "startDate": "August 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Sotavento",
+        "endDate": "August 2021",
+        "jobDescription": "I had the opportunity to participate as an educator in the area of ​​physics in the Sotavento popular education group, giving and supporting classes for young people and adults who aspired to access higher education.",
+        "jobTitle": "Volunteer community physics educator",
+        "startDate": "March 2021"
+      },
+      {
+        "company": "Lavenir",
+        "endDate": "November 2017",
+        "jobDescription": "I worked on the design and development of cross-platform Chatbots with Dialogflow from Google Cloud.",
+        "jobTitle": "Chatbot Developer",
+        "startDate": "July 2017"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "HTML5"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "CSS"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "JavaScript"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Bootstrap"
+      },
+      {
+        "name": "Git-Github"
+      },
+      {
+        "name": "Wordpress"
+      },
+      {
+        "name": "React.js"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
+      "JavaScript",
+      "Solidity",
+      "Web3",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "C2"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "level": "B2"
+      },
+      {
+        "name": "French",
+        "level": "A2"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/JoelEsDar"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/joelesdar"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/joelesdar/"
       }
     ]
   }

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "React Eth Challenge",
   "main": "index.js",
+  "engines": {
+    "node": "16.15.1"
+  },
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
@@ -49,6 +52,7 @@
     "json-server": "^0.17.0",
     "mini-css-extract-plugin": "2.6.1",
     "prettier": "2.7.1",
+    "standard": "^17.0.0",
     "style-loader": "3.3.1",
     "stylus": "0.58.1",
     "stylus-loader": "7.0.0"
