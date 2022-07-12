@@ -1,16 +1,19 @@
 {
+  "homepage": "https://luisfduarte.github.io/react-eth-challenge/",
   "name": "react-eth-challenge",
   "version": "1.0.0",
   "description": "React Eth Challenge",
   "main": "index.js",
   "scripts": {
+    "predeploy":"npm run build",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "server": "json-server -p 4000 data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
     "test": "jest",
-    "doc": "npx styleguidist server"
+    "doc": "npx styleguidist server",
+    "deploy":"gh-pages -d dist"
   },
   "keywords": [
     "react",
@@ -48,6 +51,7 @@
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.30.1",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "gh-pages": "^4.0.0",
     "husky": "8.0.1",
     "jest": "28.1.2",
     "jest-environment-jsdom": "^28.1.2",
