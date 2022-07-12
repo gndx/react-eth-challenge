@@ -7,7 +7,6 @@ const Skills = ({ data = {} }) => {
       {data.skills.map((skills) => (
         <div className="Skill-item" key={skills.name}>
           <h5>{skills.name}</h5>
-          <p>{skills.percentage}</p>
         </div>
       ))}
     </div>

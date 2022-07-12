@@ -28,12 +28,11 @@ export default function App() {
       {
         data && (
           <div>
-            <Header key='Header' data={data}>
-              <About data={data} />
-            </Header>
+            <Header key='Header' data={data} />
             <Profile data={data} />
+            <About data={data} />
             <Experience key='Experience' data={data} />
-            <div className='container'>
+            <div className='Section-container container'>
               <div className="row">
                 <Academic data={data} />
                 <Skills data={data} />

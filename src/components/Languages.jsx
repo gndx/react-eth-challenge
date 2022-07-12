@@ -7,7 +7,7 @@ const Languages = ({ data = {} }) => {
       {data.languages.map((language) => (
         <div className="Languages-item" key={language.name}>
           <h5>{language.name}</h5>
-          <p>{language.percentage}</p>
+          <p>{language.level}</p>
         </div>
       ))}
     </div>

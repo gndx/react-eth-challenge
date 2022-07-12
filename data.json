@@ -7,7 +7,7 @@
     "website": "https://joelesdar.com",
     "phone": "+57-3225504022",
     "avatar": "https://joelesdar.com/static/media/profile.c7cc70fb.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "I'm a passionate and creative Web developer and Computer Engineering student. I love creating products with a focus on the human experience and attention to detail.✨",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,18 +24,18 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Computer Engineering",
+        "description": "I am currently in the eighth semester at one of the top Universities in Latin America.",
+        "endDate": "Someday",
+        "institution": "National University of Colombia",
+        "startDate": "July 2018"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "High School",
+        "description": "Yep, I hardly got graduated from school.",
+        "endDate": "November 2017",
+        "institution": "Colegio Enrique Olaya Herrera",
+        "startDate": "February 2010"
       }
     ],
     "experience": [
@@ -63,54 +63,59 @@
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "HTML5"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "CSS"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "JavaScript"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Bootstrap"
+      },
+      {
+        "name": "Git-Github"
+      },
+      {
+        "name": "Wordpress"
+      },
+      {
+        "name": "React.js"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
+      "JavaScript",
+      "Solidity",
+      "Web3",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "C2"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "level": "B2"
+      },
+      {
+        "name": "French",
+        "level": "A2"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/JoelEsDar"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/joelesdar"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/joelesdar/"
       }
     ]
   }
