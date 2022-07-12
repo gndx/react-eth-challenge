@@ -1,0 +1,22 @@
+.Interest{    
+    text-align: center;
+    align-items: center;
+}
+
+.Interest-items{
+    text-align: center;
+    display: grid;
+}
+
+.Interest-item{
+    border: 1px;
+    margin: 2%;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 1px 24px #fafbff;
+
+}
+  
+.Interest-item:hover {
+    box-shadow: 0px 6px 32px #c3c8e5;
+}

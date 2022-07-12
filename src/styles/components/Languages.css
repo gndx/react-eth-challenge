@@ -1,0 +1,21 @@
+.Languages{    
+    text-align: center;
+}
+
+.Languages-items{
+    text-align: center;
+    display: grid;
+}
+
+
+.Languages-item{
+    border: 1px;
+    margin: 2%;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 1px 24px #fafbff;
+}
+  
+.Languages-item:hover {
+    box-shadow: 0px 6px 32px #c3c8e5;
+}

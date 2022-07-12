@@ -1,0 +1,19 @@
+.Experience-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.Experience-item{
+    border: 1px;
+    margin: 2%;
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 16px;
+    box-shadow: 0px 1px 24px #fafbff;
+
+}
+  
+.Experience-item:hover {
+    box-shadow: 0px 6px 32px #c3c8e5;
+}
