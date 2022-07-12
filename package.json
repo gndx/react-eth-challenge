@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React Eth Challenge",
   "main": "index.js",
-  "homepage": "."
+  "homepage": ".",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
