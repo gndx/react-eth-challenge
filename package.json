@@ -1,7 +1,7 @@
 {
   "name": "react-eth-challenge",
   "version": "1.0.0",
-  "homepage": " https://martiniglesias86.github.io/react-eth-challenge",
+  "homepage": " https://martiniglesias86.github.io/react-eth-challenge/src",
   "description": "React Eth Challenge",
   "main": "index.js",
   "scripts": {
