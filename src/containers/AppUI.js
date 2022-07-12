@@ -8,6 +8,7 @@ import Languages from '../components/Languages';
 import Interest from '../components/Interest';
 import { Context } from '../components/Context';
 import Skills from '../components/Skills';
+import Contact from '../components/Contact';
 
 export default function AppUI() {
   const { data, loading, error } = React.useContext(Context);
@@ -20,7 +21,9 @@ export default function AppUI() {
         <>
           <Header/>
           <main>
-            <About />
+            <About>
+              <Contact/>
+            </About>
             <Skills />
             <Experience />
             <section className='languages-and-interest'>
