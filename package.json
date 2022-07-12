@@ -10,9 +10,7 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "jest"
   },
   "keywords": [
     "react",
