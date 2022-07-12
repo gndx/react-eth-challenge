@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React Eth Challenge",
   "main": "index.js",
-  "homepage": "./dist/index.html",
+  "homepage": "https://react-eth-challenge-ten.vercel.app/",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
