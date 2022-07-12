@@ -1,109 +1,105 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "name": "Milton De León",
+    "profession": "Programador Web",
+    "address": "San Salvador, El Salvador.",
+    "email": "miltondeleon1996@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "+50378793170",
+    "avatar": "https://res.cloudinary.com/djtf0pmpo/image/upload/v1657249095/FOTO7_den0eu.jpg",
+    "Profile": "Soy Ingeniero en Sistemas y Computación. actualmente trabajo como programador web de forma 100% remota para diversas empresa.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Julio 2022",
+        "description": "Desarrollarás habilidades de autoeficacia, autonomía y growth mindset para triunfar como estudiante.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Estrategias para aprender en línea"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Julio 2022",
+        "description": "Crea aplicaciones móviles en ReactJS. Genera consultas en GraphQL y gestiona usuarios.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de React Avanzado"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Ingeniaeria en Sistemas y Computación",
+        "description": "",
+        "endDate": "Mayo 2022",
+        "institution": "UTEC",
+        "startDate": "Enero 2015"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Tecnico en Electrónica",
+        "description": "",
+        "endDate": "Enero 2012",
+        "institution": "CEREN",
+        "startDate": "Diciembre 2014"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "12 Aeme Std.",
+        "endDate": "Presente",
+        "jobDescription": "Desarrollo de paginas web con ReactJS",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Enero 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Coffunity",
+        "endDate": "Diciembre 2019",
+        "jobDescription": "Desarrollo de paginas web con ReactJS",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Septiembre 2019"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "HTML",
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "80%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "React",
+      "Blockchain",
+      "Frontend"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Español",
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "20%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Twitter",
+        "url": "https://twitter.com/m___deleon"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "Github",
+        "url": "https://github.com/miltondl96"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/mdl1996/"
       }
     ]
   }
