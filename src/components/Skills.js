@@ -1,4 +1,4 @@
-import React, { useId } from 'react';
+import React from 'react';
 
 const Item = ({ name, percentage = '' }) => {
   const number = percentage.slice(0, 2);
@@ -19,8 +19,8 @@ function Skills({ skills = [] }) {
     <div className="Skills">
       <h2 className="Skills-title">Skills</h2>
       <ul className="Skills-list">
-        {skills.map((item) => (
-          <Item key={useId()} {...item} />
+        {skills.map((item, i) => (
+          <Item key={Date.now() + i} {...item} />
         ))}
       </ul>
     </div>

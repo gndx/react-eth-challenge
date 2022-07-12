@@ -1,4 +1,4 @@
-import React, { useId } from 'react';
+import React from 'react';
 
 const Card = ({ company, endDate, jobDescription, jobTitle, startDate }) => {
   return (
@@ -19,8 +19,8 @@ function Experience({ experience = [] }) {
     <section className="Experience">
       <h2 className="Experience-title">Experience</h2>
       <ul className="experience-list">
-        {experience.map((item) => (
-          <Card key={useId()} {...item} />
+        {experience.map((item, i) => (
+          <Card key={Date.now() + i} {...item} />
         ))}
       </ul>
     </section>

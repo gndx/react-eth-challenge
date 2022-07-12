@@ -2,8 +2,10 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Languages from '../../components/Languages';
 
+import { data } from '../../../data.json';
+
 describe('<Languages />', () => {
-  const languages = shallow(<Languages />);
+  const languages = shallow(<Languages languages={data.languages} />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);

@@ -1,4 +1,4 @@
-import React, { useId } from 'react';
+import React from 'react';
 
 const Card = ({ degree, description, endDate, institution, startDate }) => {
   return (
@@ -9,8 +9,9 @@ const Card = ({ degree, description, endDate, institution, startDate }) => {
           {startDate} / {endDate}
         </time>
       </h3>
-      <p>{description} ( <em>{institution}</em> )</p>
-      
+      <p>
+        {description} ( <em>{institution}</em> )
+      </p>
     </li>
   );
 };
@@ -20,8 +21,8 @@ function Academic({ academic = [] }) {
     <div className="Academic">
       <h2 className="Academic-title">Academic</h2>
       <ul className="academic-list">
-        {academic.map((item) => (
-          <Card key={useId()} {...item} />
+        {academic.map((item, i) => (
+          <Card key={Date.now() + i} {...item} />
         ))}
       </ul>
     </div>

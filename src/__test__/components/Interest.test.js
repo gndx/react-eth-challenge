@@ -2,8 +2,10 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Interest from '../../components/Interest';
 
+import { data } from '../../../data.json';
+
 describe('<Interest />', () => {
-  const interest = shallow(<Interest />);
+  const interest = shallow(<Interest interest={data.interest} />);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);
