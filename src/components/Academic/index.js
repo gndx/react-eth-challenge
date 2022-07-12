@@ -4,11 +4,16 @@ import './styles.styl';
 const Academic = ({ data }) => {
   return (
     <div className="academic">
-      <h2 className="Academic-title">Title academic</h2>
+      <h2 className="Academic-title">Academia</h2>
       {data.map((item, i) => (
-        <p key={`academic-${i}`} className="Academic-item">
-          {item.description}
-        </p>
+        <div className='Academic-item'>
+          <h4>{item.institution}</h4>
+          <b>
+          {item.degree}
+          </b>
+          <h5>{item.startDate} - {item.endDate}</h5>
+          <p>{item.description}</p>
+        </div>
       ))}
     </div>
   );

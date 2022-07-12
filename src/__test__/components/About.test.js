@@ -4,7 +4,7 @@ import About from '../../components/About';
 import { data } from '../../../data.json';
 
 describe('<About />', () => {
-  const about = shallow(<About />);
+  const about = shallow(<About data={data.about}/>);
 
   test('About render', () => {
     expect(about.length).toEqual(1);

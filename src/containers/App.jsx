@@ -31,13 +31,13 @@ const App = () => {
   return (
     <>
       <Header data={header}>
-        <About />
+        <About data={data.about} />
       </Header>
       <Profile profile={data.Profile} />
       <Experience data={data.experience} />
       <Academic data={data.Academic} />
       <Skills data={data.skills} />
-      <div className='last'>
+      <div className="last">
         <Interest data={data.interest} />
         <Languages data={data.languages} />
       </div>

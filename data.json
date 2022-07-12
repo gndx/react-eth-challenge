@@ -4,80 +4,87 @@
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
     "email": "sa.garciaescobar@gmail.com",
-    "website": "https://example.com",
+    "website": "www.linkedin.com/in/sa-garcia",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "Desarrollador Full Stack interesado en desarrollar proyectos de impacto que permitan explorar diversos campos accion. Manejo en diversas tecnologías como JavaScript, React, Java y SpringBoot. En Búsqueda de la aplicación de conocimientos arquitectura y la programación para la consecución de proyectos disrruptivos.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "2021-2022",
+        "description": "Desarrollo de aplicativos web",
+        "institution": "Digital house",
+        "name": "Certified Tech Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Arquitecto",
+        "description": " Diseño de vivienda y urbanismo.",
+        "endDate": "2020",
+        "institution": "Universidad de los Andes de Colombia",
+        "startDate": "2016"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Universidad de los andes",
+        "endDate": "2020",
+        "jobDescription": "Asistente de la clase de Analisis de Dinamicas espaciales para el apoyo al profesor y estudiantes.",
+        "jobTitle": "Asistente",
+        "startDate": "2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "USEED",
+        "endDate": "2020",
+        "jobDescription": "Asistente para el desarrollo de cartografias digitales con sistemas de informacion georreferenciada y otras actividades.",
+        "jobTitle": "Asistente de GIS",
+        "startDate": "2020"
+      },
+      {
+        "company": "ALQUIMIA BTL",
+        "endDate": "2021",
+        "jobDescription": "Diseño y representacion digital de productos publicitarios como stands y productos varios (planos y renders).",
+        "jobTitle": "Renderista",
+        "startDate": "2020"
+      },
+      {
+        "company": "GX Samper arquitectos",
+        "endDate": "2022",
+        "jobDescription": "Arquitecto encargado de diseño, modelado , dibujo y coordinacion arquitectonica en proyectos de vivienda.",
+        "jobTitle": "Arquitecto",
+        "startDate": "2020"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "85%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "85%"
       },
       {
         "name": "React",
         "percentage": "90%"
+      },
+      {
+        "name": "Java",
+        "percentage": "90%"
+      },
+      {
+        "name": "Spring boot",
+        "percentage": "90%"
+      },
+      {
+        "name": "Python",
+        "percentage": "40%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
@@ -85,7 +92,7 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
@@ -105,6 +112,7 @@
         "name": "linkedin",
         "url": "https://www.linkedin.com/"
       }
-    ]
+    ],
+    "about": ["Liderasgo", "Creatividad", "Respeto", "Adaptabilidad"]
   }
 }

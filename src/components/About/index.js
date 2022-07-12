@@ -1,16 +1,17 @@
 import React from 'react';
+import './styles.styl';
 
-const About = () => {
+const About = ({ data }) => {
   return (
-    <div>
-      <h2 className='About-title'>About</h2>
-      {
-        [1, 2, 3].map((id) => (
-          <p key={id} className='About-item'>About item</p>
-        ))
-      }
+    <div className='about'>
+      <h2 className="About-title">Cualidades</h2>
+      {data.map((item) => (
+        <p key={item} className="About-item">
+          {item}
+        </p>
+      ))}
     </div>
   );
-}
+};
 
 export default About;
