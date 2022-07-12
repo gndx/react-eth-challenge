@@ -9,9 +9,8 @@ const Academic = ({ data = {} }) => {
           <div className="Academic-item col-12 col-md-6" key={academic.degree}>
             <h5 className='subtitle'>{academic.degree}</h5>
             <p>{academic.description}</p>
-            <p>{academic.endDate}</p>
+            <p>{academic.startDate} - {academic.endDate}</p>
             <p>{academic.institution}</p>
-            <p>{academic.startDate}</p>
           </div>
         ))}
       </div>

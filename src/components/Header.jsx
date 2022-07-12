@@ -4,7 +4,7 @@ const Header = ({ data = {} }) => {
     
     return (
         <header className='Header-container container'>
-            <div className='row align-items-center justify-content-around'>
+            <div className='row align-items-center justify-content-between justify-content-md-around'>
                 <div className='col-2'>
                     <img className='Header-image' src={data.avatar} alt='' />
                 </div>
