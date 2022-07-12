@@ -11,7 +11,9 @@ import Languages from '../components/Languages';
 import { useGetData } from '../hooks/useGetData';
 
 const App = () => {
-  const { data, loading, error } = useGetData('http://localhost:8080/data.json');
+  const { data, loading, error } = useGetData(
+    'http://localhost:8080/data.json'
+  );
 
   if (loading) return <p>cargando..</p>;
   if (error) return <p>A occurido un error</p>;
@@ -35,8 +37,10 @@ const App = () => {
       <Experience data={data.experience} />
       <Academic data={data.Academic} />
       <Skills data={data.skills} />
-      <Interest data={data.interest} />
-      <Languages data={data.languages} />
+      <div className='last'>
+        <Interest data={data.interest} />
+        <Languages data={data.languages} />
+      </div>
     </>
   );
 };

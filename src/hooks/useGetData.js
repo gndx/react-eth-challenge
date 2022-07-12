@@ -8,7 +8,7 @@ export const useGetData = (url) => {
 
   useEffect(() => {
     getData(url).then((res) => {
-      setData(res);
+      setData(res.data);
       setLoading(false);
     })
     .catch(e => {setError('ocurrio un error, intentelo mas tarde')})
