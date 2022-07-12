@@ -1,9 +1,6 @@
 {
   "name": "react-eth-challenge",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.x"
-  },
   "description": "React Eth Challenge",
   "homepage": "http://JuliXnCXm.github.io/react-eth-challenge",
   "main": "index.js",
