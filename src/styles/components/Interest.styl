@@ -1,0 +1,51 @@
+@import "mixins.styl"
+
+.Interest
+  width 100%
+  display flex
+  flex-direction column
+  border-containers(interest)
+
+.Interest-title
+  font-size 3rem
+  margin 0 auto
+
+.Interest-items
+  width: 100%
+  display flex
+  flex-wrap: wrap
+  gap 20px
+  margin 20px auto 0 auto
+  justify-content: center
+
+.Interest-item
+  display flex
+  flex-direction column
+  align-items center
+  padding 20px
+  transition: all 0.3s ease-in-out
+  background: #0a1e32
+  font-size: 1.5rem
+  width: 200px
+  border-radius: 10px
+  &:hover
+    background-color: #fff
+    color: #0a1e32
+
+.Interest-item__img
+  grid-area: image
+  max-width: 100px
+  border-radius: 50%
+
+.Interest-item__institution
+  grid-area: institution
+  font-size: 1.8rem
+  font-weight: bold
+  margin-top: 10px
+
+.Interest-item__time
+  grid-area: time
+  font-size: 1.5rem
+  font-weight: bold
+  margin-top: 10px
+  align-self: start

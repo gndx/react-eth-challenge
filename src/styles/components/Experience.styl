@@ -1,0 +1,61 @@
+@import "mixins.styl"
+
+.Experience
+  grid-area: experience
+  width: 100%
+  border-containers(experience)
+  display: grid
+  justify-content: center
+  align-items: center
+
+  margin-bottom: 20px
+
+.Experience-title
+  font-size: 3rem
+  font-weight: bold
+  margin 0 auto
+
+.Experience__items
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-gap: 20px
+  width: 100%
+  justify-content: center
+  align-items: center
+  margin-top: 20px
+
+.Experience-item
+  display: grid
+  gap 10px
+  grid-template-areas : "image institution" "image time"
+  justify-content: center
+  align-items: center
+  width: 100%
+  padding: 20px
+  border-radius: 10px
+  background-color: #0a1e32
+  color: #fff
+  font-size: 1.5rem
+  font-weight: bold
+  transition: all 0.3s ease-in-out
+  &:hover
+    background-color: #fff
+    color: #0a1e32
+
+.Experience-item__img
+  grid-area: image
+  max-width: 100px
+  border-radius: 50%
+
+.Experience-item__institution
+  grid-area: institution
+  font-size: 1.8rem
+  font-weight: bold
+  margin-top: 10px
+
+.Experience-item__time
+  grid-area: time
+  font-size: 1.5rem
+  font-weight: bold
+  margin-top: 10px
+  align-self: start

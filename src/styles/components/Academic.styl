@@ -1,0 +1,33 @@
+@import "mixins.styl"
+
+.Academic
+  max-width: 100%
+  display flex
+  flex-direction column
+  border-containers(academic)
+
+.Academic-title
+  font-size 3rem
+  margin 0 auto
+
+.Academic-items
+  width: 100%
+  display flex
+  flex-wrap: wrap
+  gap 20px
+  margin 20px auto 0 auto
+  justify-content: center
+
+.Academic-item
+  display flex
+  flex-direction column
+  align-items center
+  padding 20px
+  border-containers(academic-items)
+  transition: all 0.3s ease-in-out
+  background: #0a1e32
+  font-size: 1.5rem
+  width: 200px
+  &:hover
+    background-color: #fff
+    color: #0a1e32
