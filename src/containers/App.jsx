@@ -8,14 +8,15 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import Context from '../Context/context';
 
 const App = () => {
   const URL = 'http://localhost:3000/data';
   const [data, setData] = useState(null);
 
   const getProfileData = async () => {
-    const result = await getData(URL);
-    setData(result);
+    const response = await getData(URL);
+    setData(response);
   };
 
   useEffect(() => {
@@ -23,7 +24,7 @@ const App = () => {
   }, []);
 
   return (
-    <>
+    <Context.Provider value={data} >
       <Header>
         <About />
       </Header>
@@ -38,7 +39,7 @@ const App = () => {
       <Interest />
       <Languages /> 
     </div>
-    </>
+    </Context.Provider>
   )
 };
 
