@@ -16,9 +16,9 @@ const Academic = ({
         <Icon name="Education" className="mr-0.5 text-neutral-900" />
         <h3 className="Academic-title">{data.academic.title}</h3>
       </span>
-      <div className="flex flex-col">
+      <ul className="flex flex-col">
         {data.academic.academics.map((item, index) => (
-          <span
+          <li
             key={index}
             className="Academic-item mb-4 bg-active  rounded py-5 px-3 flex"
           >
@@ -37,9 +37,9 @@ const Academic = ({
               </p>
               <p>{item.description}</p>
             </span>
-          </span>
+          </li>
         ))}
-      </div>
+      </ul>
     </Section>
   );
 };

@@ -11,13 +11,13 @@ const Profile = ({
         <Icon name="Profile" className="w-[27px] mr-[1px] text-sky-500" />
         <h3 className="Profile-title">{data.profile.title}</h3>
       </span>
-      <div className="Profile-desc">
+      <ul className="Profile-desc">
         {data.profile.description.map((description, index) => (
-          <p key={index} className="mb-2.5">
+          <li key={index} className="mb-2.5">
             {description}
-          </p>
+          </li>
         ))}
-      </div>
+      </ul>
     </Section>
   );
 };

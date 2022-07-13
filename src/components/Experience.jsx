@@ -11,9 +11,9 @@ const Experience = ({
         <Icon name="Experience" className="mr-0.5 text-amber-800" />
         <h3 className="Experience-title">{data.experience.title}</h3>
       </span>
-      <div className="flex flex-col">
+      <ul className="flex flex-col">
         {data.experience.experiences.map((experience, index) => (
-          <span
+          <li
             key={index}
             className="Experience-item mb-4 bg-active rounded py-5 px-4 flex"
           >
@@ -32,9 +32,9 @@ const Experience = ({
               </p>
               <p>{experience.jobDescription}</p>
             </span>
-          </span>
+          </li>
         ))}
-      </div>
+      </ul>
     </Section>
   );
 };

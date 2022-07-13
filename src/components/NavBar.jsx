@@ -31,10 +31,10 @@ const NavBar = () => {
         <Icon name="Fire" className="mr-0.5 text-red-500" />
         Interest
       </a>
-      <a href="#About" className="link" draggable="false">
+      {/* <a href="#About" className="link" draggable="false">
         <Icon name="User" className="mr-0.5 text-cyan-400" />
         About
-      </a>
+      </a> */}
       <a href="#Languages" className="link" draggable="false">
         <Icon name="Language" className="mr-0.5" />
         Languages

@@ -9,9 +9,9 @@ const Skills = ({ data = { skills: { title: '', skills: [{}, {}, {}] } } }) => {
         <Icon name="Lightning" className="mr-0.5 text-yellow-300" />
         <h3 className="Skills-title">{data.skills.title}</h3>
       </span>
-      <div className="grid grid-rows-4 grid-cols-4 lg:grid-rows-2 lg:grid-cols-8">
+      <ul className="grid grid-rows-4 grid-cols-4 lg:grid-rows-2 lg:grid-cols-8">
         {data.skills.skills.map((skill, index) => (
-          <span
+          <li
             className="Skills-item py-[2vw] lg:py-[1.2vw] px-[0.8vw] m-[0.5vw] bg-active rounded-md flex flex-col items-center justify-center cursor-pointer"
             key={index}
           >
@@ -25,9 +25,9 @@ const Skills = ({ data = { skills: { title: '', skills: [{}, {}, {}] } } }) => {
             <span className="font-semibold text-sm md:text-md">
               {skill.name}
             </span>
-          </span>
+          </li>
         ))}
-      </div>
+      </ul>
     </Section>
   );
 };

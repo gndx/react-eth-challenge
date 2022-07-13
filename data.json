@@ -22,7 +22,10 @@
     "interest": {
       "title": "Interests",
       "interests": [
-        "I'm currently learning and practicing Solidity to write better Smart Contracts, Hardhat as work enviroment for automatizing tasks and increasing my efficiency, Ethers.js to interact with the blockchain from my frontend & dev enviroment, Chai to test my Smart Contracts, IPFS to permanently store my projects resources, Oracles (ChainLink) to provide my contracts secure real-word data and TypeScript to write more robust and secure code overall. This way, I plan to ascend myself to be a full stack web3 developer.",
+        "I'm currently learning and practicing Solidity to write better smart contracts, Hardhat as work enviroment to automatice tasks and increasing my efficiency.",
+        "Ethers.js to interact with the blockchain from my frontend & dev enviroment, Chai to test intensely my Smart Contracts, IPFS to permanently store my projects resources",
+        "Oracles (ChainLink) to provide my contracts with secure real-word data and TypeScript to write more robust and secure code overall ",
+        "This way, I plan to ascend to be a full stack web3 developer.",
         "I'm highly interested to work in web3 with a strong team and contribute to the ecosystem."
       ]
     },
@@ -197,7 +200,7 @@
           "title": "Multi-chain Web3 Explorer",
           "date": "Jun 2022",
           "description": "A multi-chain web3 explorer. Built with Next.js, React.js, Ethers.js, TailwindCSS ",
-          "image": "https://i.ibb.co/N1vz83f/image-5-1-1.png",
+          "image": "https://i.ibb.co/YWQSYn3/image.png",
           "repo": "https://github.com/gonzaotc/web3explorer"
         },
         {
