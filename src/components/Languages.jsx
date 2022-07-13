@@ -13,11 +13,11 @@ const Languages = ({ data }) => {
         {data.languages.languages.map((item, index) => (
           <span key={index} className="mb-4 flex items-center">
             <img
-              className="w-11 h-7 object-cover rounded-sm drop-shadow-lg mr-2.5"
+              className="w-10 h-6 object-cover rounded-sm drop-shadow-lg mr-2.5"
               src={item.image}
               alt={item.name.concat(' flag')}
             />
-            <h3 className="mr-2">
+            <h3 className="mr-2 ">
               {item.name} {item.level}
             </h3>
           </span>

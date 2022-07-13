@@ -13,7 +13,7 @@ const Experience = ({ data }) => {
         {data.experience.experiences.map((experience, index) => (
           <span
             key={index}
-            className="Experience-item mb-4 bg-white/10 rounded py-5 px-4 flex"
+            className="Experience-item mb-4 bg-active rounded py-5 px-4 flex"
           >
             {experience.image && (
               <img

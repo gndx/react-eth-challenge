@@ -5,7 +5,7 @@ import Section from '../containers/Section';
 const Interest = ({ data }) => {
   return (
     <Section id="Interest" className="flex flex-col">
-      <span className="flex items-center mb-2">
+      <span className="flex items-center mb-3">
         <Icon name="Fire" className="mr-0.5 text-red-500" />
         <h3 className="Interest-title">{data.interest.title}</h3>
       </span>

@@ -4,6 +4,7 @@ import { shallow } from 'enzyme';
 import About from '../../components/About';
 
 describe('<About />', () => {
+  
   const about = shallow(<About />);
 
   test('About render', () => {

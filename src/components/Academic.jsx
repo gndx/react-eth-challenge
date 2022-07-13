@@ -3,8 +3,6 @@ import Icon from '../containers/Icon';
 import Section from '../containers/Section';
 
 const Academic = ({ data }) => {
-  console.log(data);
-  console.log(data.academic.academics);
   return (
     <Section id="Academic" className="flex flex-col">
       <span className="flex items-center mb-3">
@@ -15,7 +13,7 @@ const Academic = ({ data }) => {
         {data.academic.academics.map((item, index) => (
           <span
             key={index}
-            className="Experience-item mb-4 bg-white/10  rounded py-5 px-3 flex"
+            className="Experience-item mb-4 bg-active  rounded py-5 px-3 flex"
           >
             {item.image && (
               <img

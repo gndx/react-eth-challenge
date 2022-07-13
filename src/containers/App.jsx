@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import Profile from '../components/Profile';
 import About from '../components/About';
@@ -9,23 +9,45 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import NavBar from '../components/NavBar';
 import Projects from '../components/Projects';
+import getData from '../utils/getData';
 
-import jsonData from '../../data.json';
-let data = jsonData.data;
+// import jsonData from '../../data.json';
+// let data = jsonData.data;
+let url =
+  'https://raw.githubusercontent.com/gonzaotc/react-eth-challenge/main/data.json';
 
 const App = () => {
+  const [data, setData] = useState(undefined);
+
+  useEffect(() => {
+    getData(url)
+      .then((data) => {
+        console.log(data);
+        setData(data.data);
+      })
+      .catch((error) => console.log(error));
+  }, []);
+
   return (
-    <div className="bg-gradient flex flex-col items-center pb-8 relative">
-      <NavBar data={data} />
-      <Header data={data} />
-      <Profile data={data} />
-      <Skills data={data} />
-      <Experience data={data} />
-      <Academic data={data} />
-      <Projects data={data} />
-      <Interest data={data} />
-      <About data={data} />
-      <Languages data={data} />
+    <div
+      className={`bg-gradient flex flex-col items-center pb-8 relative ${
+        !data && 'h-full'
+      }`}
+    >
+      {data && (
+        <>
+          <NavBar data={data} />
+          <Header data={data} />
+          <Profile data={data} />
+          <Skills data={data} />
+          <Experience data={data} />
+          <Academic data={data} />
+          <Projects data={data} />
+          <Interest data={data} />
+          <About data={data} />
+          <Languages data={data} />
+        </>
+      )}
     </div>
   );
 };

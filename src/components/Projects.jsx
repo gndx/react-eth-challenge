@@ -23,13 +23,11 @@ const Projects = ({ data }) => {
           className="FullImage fixed h-[100%] w-[100%] bg-black/70 z-10 flex justify-center items-center"
           onClick={handleCloseFullImage}
         >
-          {/* <div className="border-2"> */}
           <img
-            className="w-4/6  rounded-sm object-fit shadow-[0_0_20px_rgba(1,1,1,1)]"
+            className="w-full sm:w-5/6 rounded object-fit shadow-[0_0_20px_rgba(1,1,1,1)]"
             src={fullImage.image}
             alt="project fullimage"
           />
-          {/* </div> */}
         </div>
       )}
       <Section id="Projects" className="flex flex-col">
@@ -46,7 +44,7 @@ const Projects = ({ data }) => {
               <span>
                 <h3 className="mb-1">{item.title}</h3>
                 <img
-                  className="w-full object-scale-down mb-2 drop-shadow-lg cursor-pointer"
+                  className="w-full object-scale-down mb-2 drop-shadow-lg cursor-pointer rounded"
                   src={item.image}
                   alt={item.title.concat(' project')}
                   onClick={() => {
@@ -56,8 +54,12 @@ const Projects = ({ data }) => {
                 <p className="mb-1">{item.description}</p>
               </span>
               <span className="flex justify-between">
-                <a href={item.repo} className="flex items-center">
-                  <img src="/github.svg" className="mr-2"></img>Github link
+                <a
+                  href={item.repo}
+                  target={'_blank'}
+                  className="flex items-center"
+                >
+                  <img src="../github.svg" className="mr-2"></img>Github link
                 </a>
                 <p className="mb-1">{item.date}</p>
               </span>
