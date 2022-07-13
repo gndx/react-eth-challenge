@@ -6,6 +6,10 @@
     .container {
         display: flex;
         gap: 2em;
+
+        @include for-phone-only {
+            flex-direction: column;
+        }
     }
 
     .languages {

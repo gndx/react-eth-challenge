@@ -6,6 +6,11 @@
     .container {
         display: flex;
         justify-content: space-between;
+
+        @include for-tablet-portrait-down {
+            flex-direction: column;
+            gap: 5rem;
+        }
     }
 
     .skills {

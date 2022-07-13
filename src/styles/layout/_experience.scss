@@ -32,6 +32,10 @@
         >* {
             width: 100%;
         }
+
+        @include for-phone-only {
+            flex-direction: column;
+        }
     }
 
     &__dates {
