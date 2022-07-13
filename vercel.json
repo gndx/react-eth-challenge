@@ -12,6 +12,10 @@
             "dest": "$1.json"
         },
         {
+            "src": "(.*).png",
+            "dest": "$1.png"
+        },
+        {
             "src": "(.*).css",
             "dest": "$1.css"
         },
