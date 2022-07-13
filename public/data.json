@@ -1,0 +1,124 @@
+{
+  "data": {
+    "name": "Yuri Portugal",
+    "profession": "Software Engineer",
+    "address": "Lima, Perú.",
+    "email": "yurixtugal12@gmail.com",
+    "website": "https://example.com",
+    "phone": "+51 952235126",
+    "avatar": "./yuri.jpg",
+    "Profile": "Software Engineer with 10 years of experience implementing and leading development software projects. High skills in solving conflicts , adaptable to changes and empathy with the project team and stakeholders. Interested in new software technologies and decentralized applications in the blockchain.",
+    "certificate": [
+      {
+        "date": "Jan 2021",
+        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "institution": "Platzi",
+        "name": "FrontEnd Developer"
+      },
+      {
+        "date": "Jan 2021",
+        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "institution": "Platzi",
+        "name": "Backend Developer"
+      }
+    ],
+    "Academic": [
+      {
+        "degree": "Informatic Engineer",
+        "description": "Software Engineer at PUCP",
+        "endDate": "March 2007",
+        "institution": "PUCP",
+        "startDate": "July 2013"
+      },
+      {
+        "degree": "Agile projects with Scrum and Kanban",
+        "description": "Agile projects at CENTRUM",
+        "endDate": "September 2018",
+        "institution": "CENTRUM - PUCP",
+        "startDate": "December 2018"
+      }
+    ],
+    "experience": [
+      {
+        "company": "PUCP",
+        "endDate": "Present",
+        "jobDescription": "Leading and document software projects for academic and administrative departments at PUCP. Responsible for analysing and design software solutions, also estimate and scheduling user requirements. Responsible for supervising the development team during the project, software testing, user presentation, and deploying the software to production. Softwares deployed to production:  Orcid and Campus Virtual  integration, Professor's Contract Addenda Management,  Professor Work Plan.",
+        "jobTitle": "IT Solutions Profesional",
+        "startDate": "May 2020"
+      },
+      {
+        "company": "PUCP",
+        "endDate": "April 2020",
+        "jobDescription": "Support the project management and analyze, design, and implement software solutions for academic and administrative departments at PUCP. Responsible for unit and integration tests, user presentations, and deploying software to production.Softwares deployed to production:  Web services for professor website,   Research Groups Management and Evaluation, Social Responsibility Fund, Teaching Innovation Fund.",
+        "jobTitle": "System Analyst I",
+        "startDate": "July 2015"
+      },
+      {
+        "company": "PUCP",
+        "endDate": "June 2015",
+        "jobDescription": "Support the project management and analyze, design, and implement software solutions for academic and administrative departments at PUCP. Responsible for unit and integration tests, user presentations, and deploying software to production.Softwares deployed to production:  Web services for professor website,   Research Groups Management and Evaluation, Social Responsibility Fund, Teaching Innovation Fund.",
+        "jobTitle": "System Analyst II",
+        "startDate": "August 2013"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "percentage": "80%",
+        "number": 80
+
+      },
+      {
+        "name": "Javascript",
+        "percentage": "70%",
+        "number": 70
+      },
+      {
+        "name": "GraphQL",
+        "percentage": "60%",
+        "number": 60
+      },
+      {
+        "name": "Solidity",
+        "percentage": "20%",
+        "number": 20
+      }
+    ],
+    "interest": [
+      "javascript",
+      "develop",
+      "backend",
+      "blockchain"
+    ],
+    "languages": [
+      {
+        "name": "Spanish",
+        "percentage": "90%",
+        "number": 90
+      },
+      {
+        "name": "English",
+        "percentage": "60%",
+        "number": 60
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://facebook.com/"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/"
+      }
+    ]
+  }
+}
