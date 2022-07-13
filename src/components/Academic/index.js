@@ -7,8 +7,11 @@ export default function () {
   return (
     <ContainerComponent>
       <Title>.Academic.title</Title>
-        <RowDiv><Item>.Academic.item</Item><Item>.Academic.item</Item></RowDiv>
+      <RowDiv>
         <Item>.Academic.item</Item>
+        <Item>.Academic.item</Item>
+      </RowDiv>
+      <Item>.Academic.item</Item>
     </ContainerComponent>
   );
 

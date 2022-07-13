@@ -7,7 +7,11 @@ export default function () {
   return (
     <ContainerComponent>
       <Title>.Languages.title</Title>
-      <RowDiv><Item>.Languages.item</Item><Item>.Languages.item</Item><Item>.Interest.item</Item></RowDiv>
+      <RowDiv>
+        <Item>.Languages.item</Item>
+        <Item>.Languages.item</Item>
+        <Item>.Interest.item</Item>
+      </RowDiv>
     </ContainerComponent>
   );
 
