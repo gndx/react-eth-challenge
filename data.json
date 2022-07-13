@@ -12,7 +12,8 @@
       "description": [
         "Passionate about software development and decentralized systems.",
         "Frontend developer at Valtech, currently working on a large payment and billing management platform for pharmacies. Mostly using Next.js, React.js, Styled Components, Storybook, Webpack, Git, BitBucket, Jira and Agile Methodologies.",
-        "I like to spend my free time learning and practicing Solidity, Ethers.js, Hardhat, Chai and TypeScript to contribute to the web3 ecosystem."
+        "I like to spend my free time learning and practicing Solidity, Ethers.js, Hardhat, Chai and TypeScript to contribute to the web3 ecosystem.",
+        "I'm mostly a self-taught developer, I like to read, discuss and learn about blockchain, productivity, philosophy and entrepeneurship."
       ]
     },
     "about": {
@@ -23,9 +24,9 @@
       "title": "Interests",
       "interests": [
         "I'm currently learning and practicing Solidity to write better smart contracts, Hardhat as work enviroment to automatice tasks and increasing my efficiency.",
-        "Ethers.js to interact with the blockchain from my frontend & dev enviroment, Chai to test intensely my Smart Contracts, IPFS to permanently store my projects resources",
-        "Oracles (ChainLink) to provide my contracts with secure real-word data and TypeScript to write more robust and secure code overall ",
-        "This way, I plan to ascend to be a full stack web3 developer.",
+        "Ethers.js to interact with the blockchain from my frontend & dev enviroment, Chai to test intensely my contracts, IPFS to permanently store my projects resources.",
+        "Oracles (ChainLink) to provide my contracts with secure real-word data, and TypeScript to write more robust and secure code overall.",
+        "This way, I plan to ascend to be a full stack web3 developer sooner.",
         "I'm highly interested to work in web3 with a strong team and contribute to the ecosystem."
       ]
     },
@@ -57,12 +58,12 @@
           "institution": "National University of Mar del Plata",
           "startDate": "Aug 2019",
           "endDate": "Jan 2024",
-          "description": "Engineer degree on Software Engineering & Computer Science. I will focus on distribuited systems."
+          "description": "Engineer degree on Software Engineering & Computer Science. I will be focusing on distribuited systems."
         },
         {
           "image": "https://scontent.faep9-3.fna.fbcdn.net/v/t1.6435-9/162526530_5539287129416505_8887209467184853921_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=yXQvaKer8wYAX-6z7jz&_nc_ht=scontent.faep9-3.fna&oh=00_AT_41lw1MtfSsj1aw-dm60PCG3jilsnLnhqxiX31z93mrA&oe=62F042B5",
           "degree": "Industrial Engineering",
-          "description": "Engineer degree with a focus on achieving the maximun possible efficiency in productive processes, resources optimization and business management",
+          "description": "Engineer degree with an emphasis on achieving the maximun possible efficiency in productive processes, resources optimization and business management",
           "endDate": "Dec 2017",
           "institution": "National University of Mar del Plata",
           "startDate": "Aug 2019"
