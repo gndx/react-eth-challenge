@@ -19,7 +19,8 @@
     "expect": true,
     "sinon": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  // "requireConfigFile": false,
   "plugins": [
     "react",
     "jsx-a11y",
@@ -240,6 +241,13 @@
       "avoid-escape"
     ],
     "radix": 2,
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
     "jsx-quotes": [
       2,
       "prefer-single"
