@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React Eth Challenge",
   "main": "index.js",
-  "homepage": "https://onedrako.github.io/react-eth-challenge/",
+  "homepage": "./dist",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
