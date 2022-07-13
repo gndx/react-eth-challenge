@@ -12,7 +12,7 @@ import Projects from '../components/Projects';
 import getData from '../utils/getData';
 
 const url =
-  "https://github.com/kadormeli/react-eth-challenge/blob/feature/react-eth-challenge-cv-kador/data.json";
+  'https://raw.githubusercontent.com/kadormeli/react-eth-challenge/feature/react-eth-challenge-cv-kador/data.json';
 
 const App = () => {
   const [data, setData] = useState(undefined);

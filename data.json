@@ -6,13 +6,11 @@
     "email": "gonza.otc@gmail.com",
     "website": "i_dont_have_a_website_yet",
     "phone": "+549223456789",
-    "avatar": "https://i.postimg.cc/D0vbqtz0/1.jpg",
+    "avatar": "https://media-exp2.licdn.com/dms/image/C4E03AQHNAqLlEx9evA/profile-displayphoto-shrink_800_800/0/1612294688099?e=1663200000&v=beta&t=QHmjRVuJz1zBmPHoOwn-pRSRDl9oM1miwAZY53k5PZQ",
     "profile": {
       "title": "Profile",
       "description": [
-        "Passionate about software development and decentralized systems.",
-        "Frontend developer at Valtech, currently working on a large payment and billing management platform for pharmacies. Mostly using Next.js, React.js, Styled Components, Storybook, Webpack, Git, BitBucket, Jira and Agile Methodologies.",
-        "I like to spend my free time learning and practicing Solidity, Ethers.js, Hardhat, Chai and TypeScript to contribute to the web3 ecosystem. Also reading about blockhain, philosophy, productivity and entrepeneurship."
+        "Chemical engeniering and software development"
       ]
     },
     "about": {
@@ -22,17 +20,12 @@
     "interest": {
       "title": "Interests",
       "interests": [
-        "I'm currently learning and practicing Solidity to write better smart contracts, Hardhat as work enviroment to automatice tasks and increasing my efficiency.",
-        "Ethers.js to interact with the blockchain from my frontend & dev enviroment, Chai to test intensely my contracts, IPFS to permanently store my projects resources.",
-        "Oracles (ChainLink) to provide my contracts with secure real-word data, and TypeScript to write more robust and secure code overall.",
-        "This way, I plan to ascend to be a full stack web3 developer sooner.",
-        "I'm highly interested to work in web3 with a strong team and contribute to the ecosystem."
+        "Software development"
       ]
     },
     "networks": {
-      "github": "github.com/gonzaotc",
-      "linkedin": "linkedin.com/in/gonzaotc",
-      "twitter": "twitter.com/gonzaotc"
+      "github": "github.com/kador",
+      "linkedin": "linkedin.com/in/kevindorado"
     },
     "certificate": [
       {
@@ -53,19 +46,19 @@
       "academics": [
         {
           "image": "data:image/png;base64,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",
-          "degree": "Computer Science Engineering",
-          "institution": "National University of Mar del Plata",
-          "startDate": "Aug 2019",
-          "endDate": "Jan 2024",
-          "description": "Engineer degree on Software Engineering & Computer Science. I will be focusing on distribuited systems."
+          "degree": "Chemical engineer",
+          "institution": "National University of Colombia",
+          "startDate": "Aug 2011",
+          "endDate": "Jan 2016",
+          "description": "Engineer degree on CHemical Engineering."
         },
         {
           "image": "https://scontent.faep9-3.fna.fbcdn.net/v/t1.6435-9/162526530_5539287129416505_8887209467184853921_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=yXQvaKer8wYAX-6z7jz&_nc_ht=scontent.faep9-3.fna&oh=00_AT_41lw1MtfSsj1aw-dm60PCG3jilsnLnhqxiX31z93mrA&oe=62F042B5",
-          "degree": "Industrial Engineering",
-          "description": "Engineer degree with an emphasis on achieving the maximun possible efficiency in productive processes, resources optimization and business management",
+          "degree": "Software developmet",
+          "description": "Engineer degree",
           "endDate": "Dec 2017",
-          "institution": "National University of Mar del Plata",
-          "startDate": "Aug 2019"
+          "institution": "UI digital de antioquia",
+          "startDate": "Aug 2020"
         }
       ]
     },
@@ -73,27 +66,19 @@
       "title": "Experience",
       "experiences": [
         {
-          "company": "Valtech",
-          "jobTitle": "Full-time Frontend developer",
-          "startDate": "Dec 2021",
-          "endDate": "Actual Job",
-          "jobDescription": "Working on a large payment and billing management system for pharmacies. Mostly using Next.js, React.js, Styled Components, StoryBook, Webpack, Git, BitBucket, Jira, Agile Methodologies, SCRUM.",
+          "company": "Comisión Nacional de energía atómica",
+          "jobTitle": "Chemical engenieer",
+          "startDate": "Dec 2019",
+          "endDate": "Dec 2020",
+          "jobDescription": "",
           "image": "https://media-exp2.licdn.com/dms/image/C4E0BAQF8aHzv9WIGJQ/company-logo_200_200/0/1656746185945?e=1665014400&v=beta&t=oouj8-YEQzk-s7hElxKgw1zrivVJDE5Lf4tFl7DZwI4"
         },
         {
-          "company": "Freelance",
-          "jobTitle": "Part-time Full stack web developer",
+          "company": "Mercado Libre",
+          "jobTitle": "Backend developer",
           "startDate": "Jun 2021",
-          "endDate": "Dec 2021",
-          "jobDescription": "Developing fully responsive websites with React.js, Firebase, Sass, Making multiple API integrations depending on customer needs.",
-          "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAmVBMVEXw208yMzDw2kvz5ITx3Vnz4nr34VDy3U8vMTAaIC7UwkpCQTL24FAqLC8nKi/65FEVHC55cDkSGi0dIi4hJS4oKy8cIS4uLzDl0U0/PjLOvUnhzkxeWTY5OTHDs0fcyUu5qkVoYjernUJwaTiekkBIRjNQTTSTiD5XUzWCeTuwokOOhD1UUDRiXDagk0B/djv26Z8AES0AACzM4yC8AAAI00lEQVR4nO2ceXv6qhLH8Z5zmURJyKaJ+65VWz3nvv8XdxNtf1UzJLj1Yfrw/bcW+QgMzALsr1+uf9h/frn+y365LCF9WUL6soT0ZQnpyxLSlyWkL0tIX5aQviwhfVlC+rKE9GUJ6csS0pclpC9LSF+WkL4sIX1ZQvqyhPRlCenLEtKXJaQvS0hflpC+LCF9WUL6soT0ZQnpyxLSlyWkL0tIX5aQviwhfVlC+rKE9GUJ6csS0pclpC9LSF+WkL4sIX1ZQvqyhPRlCenLEtKXJaQvS0hflpC+LCF9kSAEEIJzeRTnXADc8M8/RcgxaXUUhGTN7TqcrrrDYXf1Md/NRn2RY2p+8w8Rik1Y1nxc20sQvLkYJG7ie2nqFEo9P4mDYbjNuND66h8i5F3fKylq1hCCzBbdwE8bJTleEnxMhM5A/hRhyyl3060mBDkOUbxPpXFjBvXjaC6hYJugrcQ7jWQynMi6YTSVEOTE86v5jozBlNUMo6GEIMIA+Q9Eba/HK7/aTEJgq0SL7ziMW1n11UYSQjb0dAFzRfsqRBMJc0C1BUURZxWIBhICrG4ZwSPiRL0WDSSUofYa/KNAbbTMIxST4GbARtpgKkTjCIG19baJS/lz1VI0jpBvNDZ6RMFEsfObRgj9O+ZoIcdXzFPTCO8dwkYjCXF7ahghsI5ykDw/l6dapEmrR2IMxVaxU3huY77eL9bhMkiQptJgoYoYGEbIp+hm77jTHudCFOGabD8s/Qqdt7FyyzeLEFiMAiajbzcQhFhHF6158awi5GMYYc9FAccXOwHI3pnrn7uIWZX/ZBah2GPL0B1db3Vi7H+156c1br5ZhPyAxC28afm4InrR8W9pENLy8fkAcZviEXb0mRXzORmOiMVpZBf5WIyGuOWHlwY7crE20Sh/zFmidgT6/y6btQPIDCMEQCZp+oZ7DWKkF9gnQPiu2As0ExdGETJwkFnq6OUnVDKLkA+RjwX9W5JpJZlFKJfIx/x9dci3RmYRogdvp3FTRvRahhHuMP/XP1QGtWtkFqGYoe6hu9bZ+BQyixD3LfJPHrST2iUZRgiof1jEKLTOL5jMIsxNjSJj4USHTK+y4VqGESoWYqF2Z3MXo2GEkEUqwtymBuEdc9UwQibnVXmndjQY6VfSnGQaIfSqY96p292zmyaraYRMYm7+BWOSbMY3TFbjCKFZsRI/5UcfI82KKAMJmdxoJEhTdzkRZlV96RMCYC5USU483GqNo3mE+TzVS7AdGevXo4GEjE/ql+KJsbOkFk38lNxrItaG9JmhhEwutDPBXrCvnqpmEjI5i3TMzVHxqk8nM3P2D6NYuy4q7Uxo1USdJDL94r1GtFEbHGMJGYh1oD2M8VQZrTKXMP+n5qqjuxr9NxWiyYQM5KytO1X9N4VXZTRhUey9TjQLbBJF3ZfhhAx4tnN9rbnqLtBNw3TCgpGtPayGpqQIrRkyn7BghO3Sra+qdVqYr0GB8Hg5aDSNahdkguVwaBCywq72d35Ss0EmSNqUDOFxQc5abiVjsijPU0KEp8k6CCoWpDMkTsiOFV/TSM3olmtvqBEWjM0P5YG1fSjZGnqEBeNoqLCrjvMrCPPDHGwUQQC3dC+VJmFxJscRk+21rSFKyJjcooj+7nqakiVkEq3q96a/hxAY5jqW6/yMJayHx0tTPCLrEHi/NicBI6ysIXgtoTIcJLBsS9my//k4rP+nusf0/WUZVpoSXY/+Uwl5XzUqAptQKkKQk0bieFldFIdhjQYvJAS+d1d4rAQYZtoDlCE/lb27Dl7AftXozxLmR+Jl3HBLG+7pj01sQmHeHONZGJ1OnZ1FNSL00Vn6qjONYGFxHHZS1Aii15mcRvnXEGL/HVuLRpVpJdzS+K+xNPkhyj91DK8j5AesqrI0pfMjdff8p3CbVdZGhkij6Uv2w3zlLP/8nEHpgkthYjGPzru6MAhyfOUWOXHFewkwxpKM6SvONMUTHWfXkJKy/cBrufzLkEPRzPUP4bgj1VoE/o45iS84l4Lcti9sWtq9XorAUizcGU/gvJlZGzWNazz/CXKOxvuf7lt8mfZzea3s8qqZGKBhh+hssKHfjfGgb7LslTNnwLMBntAInuwfXk7QL6X+RP5Jk4Dsv6MOedo6n09iqQpMpMG0d1HLBsBh1sZjNU63NKsfIhTbFO28475PWPEqF5eit1EEAC9XDIzUxQlesFz0QB4vkeZNQm+XqqL85WX4GCEPVWHoNIla03A+XQUd1TtB7mWWQc4rHhRK/U60mu/Wi8UuzJtUZ2qQ1yMeIsRPFV+9Kh67UidUnMbVXpHVZApPd7nVl7mP34ncIHpsHeIumpb89ZXRu+s9jCu5iEPyGCEw5KKSZmdK26Y83P6myaXQi3wP7hZ3//D+ptQZEDe/S3OlALtt+uiOL5XGplrlISyWonPb20JXwt83eZQQoHtPr2L0thaM9fLZuBRv1Dx+ahtrZaCvOrPCT9TiEUTFO0OPn7y/Lo7fICdWXSkU4/Tetah6K+oJvoV2Oeh3ZxAP61OQLe+zqMr3vp7hH/KR5vt4X53ZVvjuAOEd5rniWbqn+Pi85+vPLSeqfiMvd8fiW2eq56td5edEMUT2rrh0VlKaVEdfjq1N9Wv2CrmDTB3ueFIkCviiKr/+rXhVH8wu4jUthbuIyPdnVcXeT4sm8usgC9qZTk3J8peE2A47WuPoB7uKAWTPjAjnP/xb5ZOqTuJu6srOvyX4ZBDV7Y5p7O/qruw9M6oPshcmMe7epL47XNx2f1DI8WIZJCp3yfES92Nbf8vryZkZziZheny5+bsnqefHbmvX03rX+LI5wcezuefGfvs8luWk7bzFRjjJpEaTz86u5Z3i4+1uuvSjIHDdIAgab+FilMn7rrie2pssDoNu8tlgFHcHh8WoLzUvIr4if3h8QV2wrD8e9zNx8yPq5fbg2Mhng+zGFl+XIYWTnt7grS2SeFf/IVlC+rKE9GUJ6csS0pclpC9LSF+WkL5ywr9/uf76P55lpJkCOleQAAAAAElFTkSuQmCC"
-        },
-        {
-          "company": "Professor",
-          "jobTitle": "Part-time Math & Physics teacher",
-          "startDate": "Jun 2019",
-          "endDate": "Jun 2021",
-          "jobDescription": "Math, Physics, and Algebra classes to pre-academic and academic students. Preparing students for their university application.",
+          "endDate": "Actual Job",
+          "jobDescription": "Backend developer JAVA and GO",
           "image": "https://cdn-icons-png.flaticon.com/512/43/43102.png"
         }
       ]
@@ -120,46 +105,6 @@
         {
           "name": "TailwindCSS",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
-        },
-        {
-          "name": "Styled Comp.",
-          "image": "https://www.daggala.com/static/228867c3668e439101821568a8a03b54/19ca5/sc.png"
-        },
-        {
-          "name": "Sass",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"
-        },
-        {
-          "name": "PostCSS",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/PostCSS_Logo.svg/790px-PostCSS_Logo.svg.png"
-        },
-        {
-          "name": "Ethereum",
-          "image": "https://i.pinimg.com/originals/1b/9f/c2/1b9fc2f3a48868013b251accf905c205.png"
-        },
-        {
-          "name": "Solidity",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/1200px-Solidity_logo.svg.png"
-        },
-        {
-          "name": "Hardhat",
-          "image": "https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png"
-        },
-        {
-          "name": "Ethers.js",
-          "image": "https://seeklogo.com/images/E/ethers-logo-D5B86204D8-seeklogo.com.png"
-        },
-        {
-          "name": "Chai",
-          "image": "https://avatars.githubusercontent.com/u/1515293?s=280&v=4"
-        },
-        {
-          "name": "IPFS",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Ipfs-logo-1024-ice-text.png"
-        },
-        {
-          "name": "Alchemy",
-          "image": "data:image/jpeg;base64,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"
         },
         {
           "name": "C",
