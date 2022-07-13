@@ -1,2 +1,50 @@
-body
-  background-color blue
+body 
+  font-family -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+  margin 0;
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+
+
+.App 
+  background-color #2439db
+  color white
+  display flex
+  min-height 100vh
+  position relative
+  overflow hidden
+  @media (min-width: 600px)
+    padding 50px
+  @media (max-width: 600px)
+    padding 10px
+  
+
+.App-container
+  z-index 1
+
+
+.App-round 
+  background-color #d5368e 
+  border-radius 50%
+  height 300px
+  position absolute
+  width 300px
+  opacity .9
+
+.App-top-left
+  top -118px
+  left -118px
+
+.App-bottom-right
+  bottom -118px
+  right  -118px
+
+article
+  margin-bottom: 24px
+
+@media (min-width: 600px)
+  .App-grid
+    align-items: center
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
