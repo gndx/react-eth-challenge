@@ -19,7 +19,7 @@ export const Context = createContext({});
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
-  const API = 'http://localhost:3000/data';
+  const API = 'https://62cf0d92826a88972d085588.mockapi.io/';
 
   useEffect(() => {
     getData(API)
