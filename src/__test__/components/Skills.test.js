@@ -5,10 +5,8 @@ import Skills from '../../components/Skills';
 import { data } from '../../../data.json';
 
 describe('<Skills />', () => {
-
   const wrapper = shallow(<Skills skills={data.skills} />);
 
-  
   test('Skills render', () => {
     expect(wrapper.length).toEqual(1);
   });

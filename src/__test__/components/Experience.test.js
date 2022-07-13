@@ -5,7 +5,7 @@ import Experience from '../../components/Experience';
 import { data } from '../../../data.json';
 
 describe('<Experience />', () => {
-  const experience = shallow(<Experience experience={data.experience}/>);
+  const experience = shallow(<Experience experience={data.experience} />);
 
   test('Experience render', () => {
     expect(experience.length).toEqual(1);
@@ -18,5 +18,4 @@ describe('<Experience />', () => {
   test('Experience haves 3 items', () => {
     expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
   });
-
 });
