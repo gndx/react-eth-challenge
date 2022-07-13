@@ -24,23 +24,23 @@ const App = () => {
   }, []);
 
   return (
-    <Context.Provider value={data} >
+    <Context.Provider value={data}>
       <Header>
         <About />
       </Header>
       <Profile />
       <Experience />
 
-    <div className='container'>
-      <Academic />
-      <Skills />
-    </div>
-    <div className='container'>
-      <Interest />
-      <Languages /> 
-    </div>
+      <div className="container">
+        <Academic />
+        <Skills />
+      </div>
+      <div className="container">
+        <Interest />
+        <Languages />
+      </div>
     </Context.Provider>
-  )
+  );
 };
 
 export default App;
