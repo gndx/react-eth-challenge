@@ -8,7 +8,6 @@ const Header = (props) => {
     <>
     <div className="Header">
     <div className="Header-title">
-      header
       {children}
     </div>
     </div>

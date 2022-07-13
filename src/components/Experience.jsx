@@ -5,15 +5,21 @@ const Experience = (props) => {
   const { experience } = props;
   return (
     <>
-    <div className="Experience">
-    <div className="Experience-title">
+    <h2 className="Experience-title">
       experiencia
-    </div>
-    <ul>
+    </h2>
+ 
   {experience.map((item, index) => 
-  <li className='Experience-item' key={index}>{item.jobTitle}</li>) }
-    </ul>
-    </div>
+    <React.Fragment key={index}>
+  <div className='Experience-item' key={index}>
+  <h3>{item.jobTitle}</h3>
+  <p>{item.company}</p>
+  <p>{item.startDate}</p>
+  <p>{item.endDate}</p>
+  <p>{item.jobDescription}</p>
+  </div>
+  </React.Fragment>
+  ) }
     </>
   )
 };

@@ -44,8 +44,8 @@ const App = () => {
     <>
       <Header>
         <>
-        {data &&  <Profile profile ={data.Profile}/>}
         {data &&  <About {...data}/>}
+        {data &&  <Profile profile ={data.Profile}/>}
         </>
       </Header>
       {data && <Experience experience={data.experience}/>}

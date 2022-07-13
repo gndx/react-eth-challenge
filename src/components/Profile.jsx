@@ -7,10 +7,8 @@ const Profile = (props) => {
     return (
     <>
     <div className="Profile-title">
-        hola
     </div>
     <div className="Profile-desc">
-        hola2
         {profile}
     </div>
     </>
