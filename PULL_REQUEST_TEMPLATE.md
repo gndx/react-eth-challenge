@@ -24,4 +24,4 @@ Usuario Platzi: yurixtugal
 - [x] Cuarto Problema
 - [x] Quinto Problema
 - [x] Sexto Problema
-- [x] Septimo Problema
+- [] Septimo Problema (Tuve problemas para deployar en Heroku y GithubPages)
