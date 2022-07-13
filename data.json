@@ -1,109 +1,88 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "name": "Francisco Olivares",
+    "profession": "Backend Developer",
+    "email": "test@gmail.com",
+    "website": "https://github.com/Panchop10",
+    "phone": "123456789",
+    "avatar": "https://img001.prntscr.com/file/img001/Dj18KMKYTVWQzjT8kG2wcQ.png",
+    "profile": "Software Engineer with 6 years of experience designing and developing desktop, mobile and web applications. Capable in Software Analysis, Object-Oriented Design, Debugging and Troubleshooting. Team player and fast learner with tenacity to face problems and constantly enthusiastic about nonstop enhancement.",
+    "academic": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "degree": "Computer Science",
+        "institution": "UTFSM",
+        "endDate": "2011",
+        "startDate": "2015"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "General English",
+        "endDate": "2017",
+        "institution": "NED College",
+        "startDate": "2017"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Bachelor of Technology",
+        "endDate": "2018",
+        "institution": "CCT College",
+        "startDate": "2021"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "NED College",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobTitle": "IT Manager",
+        "startDate": "2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "ArenaSoft SpA",
+        "endDate": "2017",
+        "jobTitle": "Software Engineer",
+        "startDate": "2014"
+      },
+      {
+        "company": "Cargoflex SpA",
+        "endDate": "2014",
+        "jobTitle": "Programmer",
+        "startDate": "2013"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "React JS",
+        "percentage": "65%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "SQL",
+        "percentage": "85%"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "Node JS",
+        "percentage": "95%"
       },
       {
-        "name": "React",
+        "name": "Kotlin",
         "percentage": "90%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
+      "gaming",
+      "football",
       "backend",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Native"
       },
       {
         "name": "English",
+        "percentage": "80%"
+      },
+      {
+        "name": "Portuguese",
         "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
       }
     ]
   }

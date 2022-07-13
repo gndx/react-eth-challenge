@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/components/App.styl';
+import React, { useEffect, useState } from 'react';
+import Container from './styles';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -9,9 +9,20 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 
+import Context from '../Context'
+import getData from '../utils/getData';
+
 const App = () => {
+  const [userInfo, setUserInfo] = useState({})
+
+  useEffect(() => { 
+    getData('https://raw.githubusercontent.com/Panchop10/react-eth-challenge/main/data.json')
+    .then((data) => setUserInfo(data.data))
+  }, [])
+
   return (
-    <>
+    <Context.Provider value={userInfo}>
+    <Container>
       <Header>
         <About />
       </Header>
@@ -21,7 +32,8 @@ const App = () => {
       <Skills />
       <Interest />
       <Languages />
-    </>
+    </Container>
+    </Context.Provider>
   )
 };
 
