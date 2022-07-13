@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import getData from '../utils/getData';
 
 function Skills() {
-  const [skills, setSkills] = useState([]);
+  const [skills, setSkills] = useState([{}, {}, {}, {}]);
 
   useEffect(() => {
     getData('https://sergiogval.github.io/jsonapi/data.json')

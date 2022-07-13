@@ -4,7 +4,7 @@ import getData from '../utils/getData';
 // TODO: Fix test for this component
 
 function Interest() {
-  const [interest, setInterest] = useState([]);
+  const [interest, setInterest] = useState([{}, {}, {}, {}, {}]);
 
   useEffect(() => {
     getData('https://sergiogval.github.io/jsonapi/data.json')
@@ -14,12 +14,12 @@ function Interest() {
   }, []);
 
   return (
-    <div className='interests'>
+    <div className='interest'>
       <h2 className='Interest-title'> Interests </h2>
       <ul className='Interest-items'>
         {interest.map((item) => {
           return (
-            <li className='Interest-item' key={item}>{item}</li>
+            <li className='Interest-item' key={item.name}>{item.name}</li>
           );
         })}
       </ul>

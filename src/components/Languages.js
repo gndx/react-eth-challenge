@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import getData from '../utils/getData';
 
 function Languages() {
-  const [languages, setLanguages] = useState([]);
+  const [languages, setLanguages] = useState([{}, {}]);
 
   useEffect(() => {
     getData('https://sergiogval.github.io/jsonapi/data.json')

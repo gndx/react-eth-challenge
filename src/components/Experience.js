@@ -4,7 +4,7 @@ import getData from '../utils/getData';
 // TODO: Fix test for this component
 
 function Experience() {
-  const [experience, setExperience] = useState([]);
+  const [experience, setExperience] = useState([{}, {}]);
 
   useEffect(() => {
     getData('https://sergiogval.github.io/jsonapi/data.json')

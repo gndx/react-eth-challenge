@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import getData from '../utils/getData';
 
 function Academic() {
-  const [academic, setAcademic] = useState([]);
+  const [academic, setAcademic] = useState([{}, {}]);
 
   useEffect(() => {
     getData('https://sergiogval.github.io/jsonapi/data.json')
