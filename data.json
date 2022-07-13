@@ -1,57 +1,88 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Diana Alfaro",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Lima, Perú.",
+    "email": "dicaalba@gmail.com",
+    "website": "lachami.hashnode.dev",
+    "phone": "+51942935003",
+    "avatar": "https://pbs.twimg.com/profile_images/1542644128151920649/DvG-K9t8_400x400.jpg",
+    "profile": "Software engineer | React | Angular | NodeJS | Agile | AWS ☁️",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Apr 2022",
+        "description": "ID: VPBSVH9BHE1EQMW3",
+        "institution": "Amazon Web Services (AWS)",
+        "name": "AWS Certified Cloud Practitioner"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Apr 2022",
+        "description": "ID: JLHTLLLJPF-NNKZBKVC-YDGBQJWDYY",
+        "institution": "CertiProf",
+        "name": "DEVOPS Advanced Professional Certificate - DAPC™"
+      },
+      {
+        "date": "Oct 2021",
+        "description": "ID: CLRQQRYNSQ-KVJJZLGK-XSWSMYXMTW",
+        "institution": "CertiProf",
+        "name": "Scrum Master Professional Certificate SMPC®"
+      },
+      {
+        "date": "Oct 2021",
+        "description": "ID: 70660045",
+        "institution": "CertiProf",
+        "name": "Kanban Essentials Professional Certificate - KEPC™"
+      },
+      {
+        "date": "2008",
+        "description": "",
+        "institution": "IBM Advanced Career Education",
+        "name": "Application Development Programming"
+      },
+      {
+        "date": "2008",
+        "description": "",
+        "institution": "IBM Advanced Career Education",
+        "name": "Basic Programming and Linux"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Master of Business Administration",
+        "description": "",
+        "endDate": "Current",
+        "institution": "Universidad Tecnológica del Perú",
+        "startDate": "Jan 2020"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Project Managemen",
+        "description": "",
+        "endDate": "Current",
+        "institution": "Universidad Católica Andrés Bell",
+        "startDate": "Jul 2018"
+      },
+      {
+        "degree": "Bachelor's Degree in Computing",
+        "description": "",
+        "endDate": "Mar 2015",
+        "institution": "Universidad Central de Venezuela",
+        "startDate": "Oct 2009"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Multiplica",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "Java, SQL, JavaScript, Spring MVC, jQuery,  AngularJS, Angular 8, Redux, Jira, Confluence, GIT, Scrum.",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "Apr 2015"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "company": "Corporación Perzona",
+        "endDate": "Mar 2015",
+        "jobDescription": "Java, PhoneGap/Cordova, SVN",
         "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "Jun 2013"
       }
     ],
     "skills": [
@@ -65,23 +96,18 @@
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "60%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "cloud", "aws", "react"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
@@ -90,20 +116,16 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/lachamive"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/dicaalba"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/dianaalfarobazan"
       }
     ]
   }
