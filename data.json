@@ -4,15 +4,26 @@
     "profession": "Frontend & Smart Contract Developer",
     "address": "Mar del Plata, Argentina",
     "email": "gonza.otc@gmail.com",
-    "website": "nulo.com",
-    "phone": "223 456 789",
+    "website": "i_dont_have_a_website_yet",
+    "phone": "+549223456789",
     "avatar": "https://i.postimg.cc/D0vbqtz0/1.jpg",
     "profile": {
       "title": "Profile",
       "description": [
         "Passionate about software development and decentralized systems.",
-        "Frontend developer at Valtech (+4000 people), currently working on a large payment and billing management system for pharmacies. Mostly using Next.js, React.js, Styled Components, Storybook, Webpack, Git, BitBucket, Jira and Agile Methodologies.",
+        "Frontend developer at Valtech, currently working on a large payment and billing management platform for pharmacies. Mostly using Next.js, React.js, Styled Components, Storybook, Webpack, Git, BitBucket, Jira and Agile Methodologies.",
         "I like to spend my free time learning and practicing Solidity, Ethers.js, Hardhat, Chai and TypeScript to contribute to the web3 ecosystem."
+      ]
+    },
+    "about": {
+      "title": "About me",
+      "items": ["aboutme1", "aboutme2", "aboutme3"]
+    },
+    "interest": {
+      "title": "Interests",
+      "interests": [
+        "I'm currently learning and practicing Solidity to write better Smart Contracts, Hardhat as work enviroment for automatizing tasks and increasing my efficiency, Ethers.js to interact with the blockchain from my frontend & dev enviroment, Chai to test my Smart Contracts, IPFS to permanently store my projects resources, Oracles (ChainLink) to provide my contracts secure real-word data and TypeScript to write more robust and secure code overall. This way, I plan to ascend myself to be a full stack web3 developer.",
+        "I'm highly interested to work in web3 with a strong team and contribute to the ecosystem."
       ]
     },
     "networks": {
@@ -151,14 +162,7 @@
           "name": "C",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png"
         }
-      ],
-      "interest": {
-        "title": "Interests",
-        "interests": [
-          "I'm currently learning and practicing Solidity to write better Smart Contracts, Hardhat as work enviroment for automatizing tasks and increasing my efficiency, Ethers.js to interact with the blockchain from my frontend & dev enviroment, Chai to test my Smart Contracts, IPFS to permanently store my projects resources, Oracles (ChainLink) to provide my contracts secure real-word data and TypeScript to write more robust and secure code overall. This way, I plan to ascend myself to be a full stack web3 developer.",
-          "I'm highly interested to work in web3 with a strong team and contribute to the ecosystem."
-        ]
-      }
+      ]
     },
     "languages": {
       "title": "Languages",
@@ -193,7 +197,7 @@
           "title": "Multi-chain Web3 Explorer",
           "date": "Jun 2022",
           "description": "A multi-chain web3 explorer. Built with Next.js, React.js, Ethers.js, TailwindCSS ",
-          "image": "https://i.ibb.co/YWQSYn3/image.png",
+          "image": "https://i.ibb.co/N1vz83f/image-5-1-1.png",
           "repo": "https://github.com/gonzaotc/web3explorer"
         },
         {

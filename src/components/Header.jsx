@@ -42,7 +42,7 @@ const Header = ({
           <div className="flex">
             <a
               className="flex mr-4 "
-              href={'https://' + data?.networks.linkedin}
+              href={'https://' + data.networks.linkedin}
               target="_blank"
               draggable="false"
             >
@@ -51,7 +51,7 @@ const Header = ({
             </a>
             <a
               className="flex mr-4"
-              href={'https://' + data?.networks.github}
+              href={'https://' + data.networks.github}
               target="_blank"
               draggable="false"
             >
@@ -60,7 +60,7 @@ const Header = ({
             </a>
             <a
               className="flex mr-4 "
-              href={'https://' + data?.networks.twitter}
+              href={'https://' + data.networks.twitter}
               target="_blank"
               draggable="false"
             >

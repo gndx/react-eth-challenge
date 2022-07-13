@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from '../containers/Icon';
 import Section from '../containers/Section';
 
-const About = () => {
+const About = ({ data = { about: { title: '', items: [{}, {}, {}] } } }) => {
   return (
     <Section id="About" className="">
       <div className="flex flex-col">
@@ -11,9 +11,11 @@ const About = () => {
           <h3 className="About-title">About</h3>
         </span>
         <div className="flex">
-          <p className="About-item mr-2">abouttext1</p>
-          <p className="About-item mr-2">abouttext1</p>
-          <p className="About-item mr-2">abouttext1</p>
+          {data.about.items.map((item, index) => (
+            <p className="About-item" key={index}>
+              {item}
+            </p>
+          ))}
         </div>
       </div>
     </Section>

@@ -53,7 +53,7 @@ const Projects = ({
                     handleOpenFullImage(item.image);
                   }}
                 />
-                <p className="mb-1">{item.description}</p>
+                <p className="mb-2">{item.description}</p>
               </span>
               <span className="flex justify-between">
                 <a
