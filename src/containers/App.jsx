@@ -19,7 +19,7 @@ export const Context = createContext({});
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
-  const API = 'https://62cf0d92826a88972d085588.mockapi.io/';
+  const API = 'https://tiniapp5.free.beeceptor.com';
 
   useEffect(() => {
     getData(API)
