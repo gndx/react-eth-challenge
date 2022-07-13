@@ -1,22 +1,22 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "name": "Daniel Lara",
+    "profession": "Developer",
+    "address": "Retalhuleu, Guatemala.",
+    "email": "dlara@example.com",
     "website": "https://example.com",
     "phone": "3042034240",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "fdsfsdfs the dsfdsfs, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
-        "date": "Jan 2021",
+        "date": "Jan 2022",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Backend Developer"
       },
       {
-        "date": "Jan 2021",
+        "date": "Jan 2022",
         "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
         "name": "Backend Developer"
@@ -36,7 +36,15 @@
         "endDate": "Decenber 2015",
         "institution": "Harvard",
         "startDate": "Jan 2017"
+      },
+      {
+        "degree": "Space Engineering",
+        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "endDate": "Decenber 2015",
+        "institution": "Harvard",
+        "startDate": "Jan 2017"
       }
+
     ],
     "experience": [
       {
@@ -52,24 +60,31 @@
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
         "startDate": "Sept 2019"
+      },
+      {
+        "company": "CatStore",
+        "endDate": "Jan 2016",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Backend",
+        "startDate": "Sept 2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "100%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "50%"
       }
     ],
     "interest": [
@@ -85,7 +100,7 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "30%"
       }
     ],
     "social": [
