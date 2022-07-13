@@ -14,7 +14,7 @@ describe('<Languages.js />', () => {
   });
 
   test('Languages.js has 3 items', () => {
-    expect(languages.find('.Languages.js-item').length).toBeGreaterThan(2);
+    expect(languages.find('.Languages.js-item').length).toBeGreaterThan(1);
   });
 
 });

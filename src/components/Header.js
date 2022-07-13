@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Header({ data = {} }) {
-  console.log(data);
   return (
     <div className='header'>
       <img src={data.avatar} alt='avatar' />

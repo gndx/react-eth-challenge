@@ -1,13 +1,27 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import getData from '../utils/getData';
+
+// TODO: Fix test for this component
 
 function Interest() {
+  const [interest, setInterest] = useState([{}, {}, {}, {}, {}]);
+
+  useEffect(() => {
+    getData('https://sergiogval.github.io/jsonapi/data.json')
+      .then((data) => {
+        setInterest(data.interest);
+      });
+  }, []);
+
   return (
-    <div className='interests'>
+    <div className='interest'>
       <h2 className='Interest-title'> Interests </h2>
       <ul className='Interest-items'>
-        <li className='Interest-item'>Web Development</li>
-        <li className='Interest-item'>Photography</li>
-        <li className='Interest-item'>Music</li>
+        {interest.map((item) => {
+          return (
+            <li className='Interest-item' key={item.name}>{item.name}</li>
+          );
+        })}
       </ul>
     </div>
   );

@@ -8,11 +8,11 @@ describe('Fetch API', () => {
   test('Test API', () => {
     fetch.mockResponseOnce(JSON.stringify({ data: '12345' }));
 
-    getData('http://localhost:3000/data')
+    getData('https://sergiogval.github.io/jsonapi/data.json')
       .then((response) => {
         expect(response.data).toEqual('12345');
       });
     expect(fetch.mock.calls.length).toEqual(1);
-    expect(fetch.mock.calls[0][0]).toEqual('http://localhost:3000/data');
+    expect(fetch.mock.calls[0][0]).toEqual('https://sergiogval.github.io/jsonapi/data.json');
   });
 });
