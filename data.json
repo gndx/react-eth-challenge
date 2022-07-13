@@ -68,18 +68,18 @@
         {
           "company": "Comisión Nacional de energía atómica",
           "jobTitle": "Chemical engenieer",
-          "startDate": "Dec 2019",
-          "endDate": "Dec 2020",
+          "startDate": "Jan 2017",
+          "endDate": "Dec 2019",
           "jobDescription": "",
-          "image": "https://media-exp2.licdn.com/dms/image/C4E0BAQF8aHzv9WIGJQ/company-logo_200_200/0/1656746185945?e=1665014400&v=beta&t=oouj8-YEQzk-s7hElxKgw1zrivVJDE5Lf4tFl7DZwI4"
+          "image": "https://es.m.wikipedia.org/wiki/Archivo:CNEA_logo.png"
         },
         {
           "company": "Mercado Libre",
           "jobTitle": "Backend developer",
-          "startDate": "Jun 2021",
+          "startDate": "Jul 2021",
           "endDate": "Actual Job",
           "jobDescription": "Backend developer JAVA and GO",
-          "image": "https://cdn-icons-png.flaticon.com/512/43/43102.png"
+          "image": "https://www.infobae.com/economia/2021/08/05/vuela-la-accion-de-mercado-libre-en-wall-street-salta-13-luego-de-que-la-empresa-duplicara-sus-ingresos-en-el-segundo-trimestre/"
         }
       ]
     },
@@ -109,6 +109,14 @@
         {
           "name": "C",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png"
+        },
+        {
+          "name": "JAVA",
+          "image": "https://thumbs.dreamstime.com/z/logotipo-de-java-118452997.jpg"
+        },
+        {
+          "name": "GO",
+          "image": "https://www.culturetech.cl/momento-de-conocer-a-golang/"
         }
       ]
     },
@@ -124,36 +132,6 @@
           "name": "English",
           "level": "C1",
           "image": "https://img.freepik.com/free-vector/illustration-uk-flag_53876-18166.jpg"
-        }
-      ]
-    },
-    "projects": {
-      "title": "Some personal projects",
-      "projects": [
-        {
-          "title": "Netflix clone",
-          "date": "Dec 2021",
-          "description": "Fullstack clone built with React, Redux, Sass, TMdb API, Firebase and Stripe API for payments management.",
-          "highlights": [
-            "I made all the application authentification, users database and monthly subscription payment management with Firebase.",
-            "Integrating the Stripe API to manage payments and montly subscriptions was a great learning experience."
-          ],
-          "image": "https://i.ibb.co/WcbqG9K/netflix.png",
-          "repo": "https://github.com/gonzaotc/Netflix-clone"
-        },
-        {
-          "title": "Multi-chain Web3 Explorer",
-          "date": "Jun 2022",
-          "description": "A multi-chain web3 explorer. Built with Next.js, React.js, Ethers.js, TailwindCSS ",
-          "image": "https://i.ibb.co/YWQSYn3/image.png",
-          "repo": "https://github.com/gonzaotc/web3explorer"
-        },
-        {
-          "title": "NFT-Gated voting sys & POA",
-          "date": "Jun 2022",
-          "description": "Alchemy Hackaton: Your voting credential (NFT) evolves when you emit a vote. Built with Next.js, Solidity, Hardhat, IPFS. ",
-          "image": "https://i.ibb.co/MBkkcmg/image.png",
-          "repo": "https://github.com/lukecd/team-dinamita-web3-voting"
         }
       ]
     }
