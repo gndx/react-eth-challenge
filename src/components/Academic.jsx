@@ -10,8 +10,8 @@ const Academic = () => {
       {data.academic ? (
         data.academic.map((info, i) => {
           return (
-            <ul>
-              <li key={i} className="Academic-item">
+            <ul key={i}>
+              <li className="Academic-item">
                 <h3>{info.degree}</h3>
                 <small>Description: {info.description}</small><br></br>
                 <small>Institution: {info.institution}</small><br></br>
