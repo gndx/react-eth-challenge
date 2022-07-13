@@ -1,11 +1,11 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
+    "name": "Gitmel Gutierrez",
+    "profession": "Product Developer",
+    "address": "Venezuela.",
+    "email": "gitmelbco@gmail.com",
+    "website": "https:gitguti.com",
+    "phone": "+584122923294",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
@@ -43,14 +43,21 @@
         "company": "PugStar",
         "endDate": "Present",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "jobTitle": "Frontenddewfwfew",
         "startDate": "Jan 2020"
       },
       {
         "company": "CatStore",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
+        "jobTitle": "Backendnendde",
+        "startDate": "Sept 2019"
+      },
+      {
+        "company": "Zeus",
+        "endDate": "Jan 2016",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Desingner",
         "startDate": "Sept 2019"
       }
     ],

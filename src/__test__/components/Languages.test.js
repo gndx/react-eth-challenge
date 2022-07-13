@@ -1,9 +1,11 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Languages from '../../components/Languages';
 
+const data = [{0: {name: "hola", percentage: "90%"}},{1: {name: "hola", percentage: "90%"}}, {3: {name: "hola", percentage: "90%"}}]
+
 describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+  const languages = shallow(<Languages languages={data} />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);
@@ -14,7 +16,7 @@ describe('<Languages />', () => {
   });
 
   test('Languages has 3 items', () => {
-    expect(languages.find('.Languages-item').length).toBeGreaterThan(2);
+    expect(languages.find('.Languages-item').length).toBeGreaterThan(1);
   });
 
 });
