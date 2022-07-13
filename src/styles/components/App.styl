@@ -1,2 +1,46 @@
 body
-  background-color blue
+  background-color white
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+.card
+  width 100
+  background-color: rgb(230, 230, 230)
+  border-radius: 5px
+  padding: 10px
+  margin: 5px
+
+.title
+  font-size: 28px
+  font-weight: 600
+
+.item
+  margin: 5px
+  padding 5px
+  background-color: rgb(215, 215, 215)
+
+.Header, .Profile, .Experience, .Academic, .Skills, .Interest, .Languages, .About
+  flex: 1
+  &-title
+    @extend .title
+  &-item
+    @extend .item
+
+.container
+  display flex
+
+.avatar
+  flex 1
+  &-image
+    vertical-align middle
+    width 150px
+    height 150px
+    border-radius 50%
+
+.About
+  flex 3
+  &-content
+    padding: 10px
+    display flex
+    justify-content space-between
+
+

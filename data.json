@@ -1,91 +1,112 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Gabriel Rodriguez",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "address": "Guayaquil, Ecuador.",
+    "email": "rodriguezpgabriel@gmail.com",
+    "website": "https://rodriguezpgabriel.com",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://media-exp2.licdn.com/dms/image/C5603AQFN1jclSyl1kA/profile-displayphoto-shrink_800_800/0/1643046956026?e=1663200000&v=beta&t=LFGSkLUUxB7DTl5lZZDxpA7PlQxXLaXwGTHb8mHB1X8",
+    "Profile": "Soy un desarrollador front-end con experiencia en el desarrollo de aplicaciones web, móviles y de escritorio. Me especializo en Angular TypeScript / JavaScript y React",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "2021",
+        "description": "Fundamentos de Javascript. ",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Frontend Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "2021",
+        "description": "Fundamentos de Javascript",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Fundamentos de Javascript"
+      },
+      {
+        "date": "2021",
+        "description": "Javascript",
+        "institution": "Platzi",
+        "name": "Javascript"
+      },
+      {
+        "date": "2021",
+        "description": "React JS",
+        "institution": "Platzi",
+        "name": "React JS"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Ingeniería en sistemas con mención en gestión",
+        "description": "Ingeniería en sistemas",
+        "endDate": "2016",
+        "institution": "Universidad Politécnica Salesiana",
+        "startDate": "2011"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ingeniería en sistemas con mención en gestión",
+        "description": "Ingeniería en sistemas",
+        "endDate": "2016",
+        "institution": "Universidad Politécnica Salesiana",
+        "startDate": "2011"
+      },
+      {
+        "degree": "Ingeniería en sistemas con mención en gestión",
+        "description": "Ingeniería en sistemas",
+        "endDate": "2016",
+        "institution": "Universidad Politécnica Salesiana",
+        "startDate": "2011"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Technisys",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Frontend developer",
+        "jobTitle": "Frontend Developer",
+        "startDate": "2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Spoonity",
+        "endDate": "2021",
+        "jobDescription": "Frontend developer",
+        "jobTitle": "Frontend developer",
+        "startDate": "2020"
+      },
+      {
+        "company": "Semgroup",
+        "endDate": "2021",
+        "jobDescription": "Frontend developer",
+        "jobTitle": "Frontend developer",
+        "startDate": "2019"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
         "name": "React",
         "percentage": "90%"
+      },
+      {
+        "name": "Angular",
+        "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "French",
+        "percentage": "25%"
       }
     ],
     "social": [
