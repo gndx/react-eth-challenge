@@ -1,5 +1,16 @@
 import React from 'react';
 
-export default () => {
-    return <h1>Interest</h1>
+import { Title, Item } from './styles';
+import { ContainerComponent, RowDiv } from '../../styles/components';
+
+export default function () {
+  return (
+    <ContainerComponent>
+      <Title>.Interest.title</Title>
+      <RowDiv><Item>.Interest.item</Item><Item>.Interest.item</Item></RowDiv>
+        
+        <Item>.Interest.item</Item>
+    </ContainerComponent>
+  );
+
 }

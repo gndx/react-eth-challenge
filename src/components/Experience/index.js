@@ -1,5 +1,21 @@
 import React from 'react';
 
-export default () => {
-    return <h1>Experience</h1>
+import { Title, Item } from './styles';
+import { ContainerComponent, RowDiv } from '../../styles/components';
+
+export default function () {
+  return (
+    <ContainerComponent fullWidth>
+      <Title>.Experience.title</Title>
+      <RowDiv>
+        <Item>.Experience.item</Item>
+        <Item>.Experience.item</Item>
+      </RowDiv>
+      <RowDiv>
+        <Item>.Experience.item</Item>
+        <Item>.Experience.item</Item>
+      </RowDiv>
+    </ContainerComponent>
+  );
+
 }

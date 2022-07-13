@@ -1,5 +1,14 @@
 import React from 'react';
 
-export default () => {
-    return <h1>Profile</h1>
+import { Title, ProfileDesc } from './styles';
+import { ContainerComponent } from '../../styles/components';
+
+export default function () {
+  return (
+    <ContainerComponent fullWidth>
+      <Title>.Profile-title</Title>
+      <ProfileDesc>.Profile-desc</ProfileDesc>
+    </ContainerComponent>
+  );
+
 }
