@@ -1,82 +1,112 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Alberto Silva",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "CMDX, México.",
+    "email": "silvacazaresluis@outlook.com",
+    "website": "https://github.com/Alberto-SC",
+    "phone": "+52 5540969864",
+    "avatar": "https://i.postimg.cc/X72Xhp1g/PSX-20210905-194342.jpg",
+    "Profile": "Hi, I am Alberto Silva a Computer systems student and competitive programmer that always trying to learn someone new. I love everything about programming and development i am a experienced problem solver  and programmer with an extensive knowledge in algorithms and data structures as well as fullstack web developer skills",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "April 2022",
+        "description": "Finishes the ICPC Mexico contest circuit in 9th place out of 400+ teams and qualified for the Latin American regional final",
+        "institution": "ICPC",
+        "name": "ICPC regional finalist"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Jan 2021 - present",
+        "description": "40+ courses aproved, majority of javascript school and 'React' related",
+        "institution": "Platzi ",
+        "name": "Platzi javascript school"
+      },
+      {
+        "date": "May 2022",
+        "description": "Problem solving and python certificate by 'HackerRank' ",
+        "institution": "HackerRank",
+        "name": "Problem solver and python"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Bachelor in Computer systems engineer",
+        "description": "Studing computer systems engineer in one of the best universities of my country",
+        "endDate": "Jun 2022",
+        "institution": "IPN",
+        "startDate": "Jan 2017"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Front end developer",
+        "description": "Finished 40+ courses in the platform of effective online education 'Platzi'. the majority related to web develpment ",
+        "endDate": "Present",
+        "institution": "Platzi",
+        "startDate": "Dec 2021"
+      },
+      {
+        "degree": "Ethereum developer program",
+        "description": "A program dedicated to improve the skills in blockchain techmologies",
+        "endDate": "Present",
+        "institution": "Platzi",
+        "startDate": "Jun 2022"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Freelance",
+        "endDate": "Sep 2021",
+        "jobDescription": "Development of some web tools that improves the manage of finances of a private school ",
+        "jobTitle": "Full stack developer",
+        "startDate": "Apr 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "IPN (social service) ",
+        "endDate": "Sep 2021",
+        "jobDescription": "Crete a custom frontEnd components to deploy in an institutional page of the 'Instituto politecnico nacional' (IPN)",
+        "jobTitle": "Front end developer",
+        "startDate": "Feb 2021"
+      },
+      {
+        "company": "ESCOM",
+        "endDate": "May 2022",
+        "jobDescription": "Teacher of data structures for a club of competiive programing , teached structures like ,Segment tree, Aho corasick, Lowest common ancestor ",
+        "jobTitle": "Teacher",
+        "startDate": "May 2021"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80%"
       },
       {
         "name": "React",
+        "percentage": "70%"
+      },
+      {
+        "name": "Cplusplus",
         "percentage": "90%"
+      },
+      {
+        "name": "python",
+        "percentage": "75%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Blockchain and smart contracts: Probabily the future of the internet.",
+      "Go language, lua: To create CLI interfaces, and lua for make tools for linux distros",
+      "Linux distros in general: I want to create my own distribution based in arch,( my actual OS )",
+      "Design in general: To create better UX experiences and better UI designs , make my own animations,icons, illustrations etc (Skills containers in this page is one of my attempts)  ",
+      "Cloud: explore more azure and aws sevices and pass the AZ204 exam",
+      "Learn more about,Trading, investing and economy "
     ],
     "languages": [
       {
@@ -85,25 +115,18 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
-      }
+        "percentage": "76%"
+      },
+      { "name": "Japanesse", "percentage": "15%" }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/Alberto-SC"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/alberto-silva-358955175/"
       }
     ]
   }
