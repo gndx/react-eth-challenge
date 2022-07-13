@@ -6,9 +6,12 @@ export default function Header({ children }) {
   const fullName = data.name.split(' ');
   const name = fullName[0];
   const lastName = fullName[1];
+  const background = data.background;
 
   return (
-    <header className='header'>
+    <header className='header' style={{ 
+      backgroundImage: `url(${background})`
+    }}>
       <img className='avatar' alt='avatar' src={data.avatar} />
         <h1>
           {name}

@@ -1,17 +1,21 @@
 @use '../abstract' as *;
 
 .header {
-    background-color: map-get($map: $color-bg, $key: 'neutral');
+    background-color: rgba(map-get($map: $color-bg, $key: 'neutral'), .6);
+    background-blend-mode: multiply;
     display: flex;
     padding: 10em 0;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-weight: 600;
 
     h1 {
         color: $color-accent;
+        text-transform: uppercase;
     }
+
 
     .avatar {
         border-radius: 50rem;
