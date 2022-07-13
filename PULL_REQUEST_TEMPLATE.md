@@ -68,7 +68,7 @@ cuando se vizualizan los archivos de un repositorio en 'raw' este endpont nos vi
 
 se reduce únicamente a devolver un json lo cual es justo lo que tenemos, el endpoint es el siguiente [https://raw.githubusercontent.com/Alberto-SC/react-eth-challenge/main/data.json](https://raw.githubusercontent.com/Alberto-SC/react-eth-challenge/main/data.json).
 
--Quinto problema: _Custom API_
+- Quinto problema: _Custom API_
 
 Este problema es básicamente cambiar la información por defecto y usar nuestra propia información , Cabe mencionar que se trato de incluir
 
@@ -76,11 +76,11 @@ todos los campos incluido el campo 'certificate' que en principio según el dise
 
 container que 'experience' ya que era uno muy grande.
 
--Sexto problema: _Document_
+- Sexto problema: _Document_
 
 Documentar la solución a travez de este mismo pull request
 
--Septimo problema: _Deploy_
+- Septimo problema: _Deploy_
 
 Se decidio utilizar netlify ya que desde mi punto de vista es el mas sencillo, no necesita de configuración y lo único que necesita
 
