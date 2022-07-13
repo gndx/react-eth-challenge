@@ -22,7 +22,9 @@ function App() {
     fetchData();
   }, []);
 
-  const { Profile: profile } = data;
+  const {
+    Profile: profile,
+  } = data;
 
   return (
     <div>

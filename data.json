@@ -52,6 +52,13 @@
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
         "startDate": "Sept 2019"
+      },
+      {
+        "company": "CatStore",
+        "endDate": "Jan 2016",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Backend",
+        "startDate": "Sept 2019"
       }
     ],
     "skills": [
@@ -72,12 +79,7 @@
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
