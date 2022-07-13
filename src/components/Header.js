@@ -9,9 +9,11 @@ export default function Header({ children }) {
   const background = data.background;
 
   return (
-    <header className='header' style={{ 
+    <header className='header' id='Home' style={{ 
       backgroundImage: `url(${background})`
     }}>
+      {children}
+      <div className='header__content'>
       <img className='avatar' alt='avatar' src={data.avatar} />
         <h1>
           {name}
@@ -19,6 +21,7 @@ export default function Header({ children }) {
           <span>{lastName}</span>
         </h1>
         <p>{data.user}</p>
+      </div>
     </header>
   );
 }

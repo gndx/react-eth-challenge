@@ -4,11 +4,11 @@ import About from '../components/About';
 import Experience from '../components/Experience';
 import Academic from '../components/Academic';
 import Languages from '../components/Languages';
-// import Profile from '../components/Profile';
 import Interest from '../components/Interest';
 import { Context } from '../components/Context';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
+import Nav from '../components/Nav';
 
 export default function AppUI() {
   const { data, loading, error } = React.useContext(Context);
@@ -18,7 +18,9 @@ export default function AppUI() {
       {error && <p>error</p>}
       {data && !loading && (
         <>
-          <Header/>
+          <Header>
+            <Nav />
+          </Header>
           <main>
             <About>
               <Contact/>

@@ -6,7 +6,7 @@ export default function Academic() {
   const { data } = useContext(Context);
 
   return (
-    <section className='academic'>
+    <section className='academic' id='Academic'>
         <h2>Academic</h2>
         <div>
         {data.Academic.map((item) => (

@@ -5,11 +5,11 @@ export default function Languages() {
   const { data } = useContext(Context);
 
   return (
-    <article className='languages'>
+    <section className='languages' id='Languages'>
       <h2>Languages</h2>
       <ul>
         {data.languages.map((language) => <li key={language}>{language}</li>)}
       </ul>
-    </article>
+    </section>
   );
 }

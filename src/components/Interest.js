@@ -5,11 +5,11 @@ export default function Interest() {
   const { data } = useContext(Context);
 
   return (
-    <article className='interest'>
+    <section className='interest' id='Interest'>
       <h2>Interest</h2>
       <ul>
         {data.interest.map((interestName) => <li key={interestName}>{interestName}</li>)}
       </ul>
-    </article>
+    </section>
   );
 }

@@ -1,0 +1,19 @@
+@use '../abstract/' as *;
+
+.main-nav {
+    background-color: hsla(209, 20%, 40%, 0.5);
+    position: fixed;
+    top: 0;
+    display: flex;
+    gap: 1rem;
+    padding: 1em 2em;
+    z-index: 9999;
+    width: 100%;
+
+    a {
+        color: $color-text;
+        text-decoration: none;
+        text-transform: capitalize;
+
+    }
+}

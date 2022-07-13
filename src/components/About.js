@@ -5,7 +5,7 @@ export default function About({children}) {
   const { data } = useContext(Context);
 
   return (
-    <section className='about'>
+    <section className='about' id='About'>
       <div className='container'>
         <div>
           <h2>discover<span>About me</span></h2>

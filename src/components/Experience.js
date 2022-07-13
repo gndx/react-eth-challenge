@@ -6,7 +6,7 @@ export default function Experience() {
   const { data } = useContext(Context);
 
   return (
-    <section className='experience'>
+    <section className='experience' id='Experience'>
       <div className='container'>  
         <h2>Experience</h2>
         <div className='experience__content'>
