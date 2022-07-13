@@ -3,7 +3,6 @@ import { useAppContext } from '../context/AppContext';
 
 const About = () => {
   const { social } = useAppContext();
-  console.log(social)
   return (
   <>
     <span className='About-title'>Social Media</span>
