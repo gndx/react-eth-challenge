@@ -1,0 +1,52 @@
+.Header
+  borderContainerBold()
+  margin-bottom: 2rem
+  height: 12rem
+  padding: 1rem
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
+  .Header-img-container
+    height: 100%
+    width: 20%
+    .Header-image
+      display: block
+      margin-left: auto
+      margin: auto
+      border-radius: 50%
+      height: 100%
+      width: auto
+      object-fit: cover
+  .Header-info
+    height: 100%
+    width: calc(80% - 1rem)
+    .Header-title
+      margin: 0
+    .contact-info
+      display: flex
+      list-style none
+      width: auto
+      justify-content: flex-start
+      flex-wrap: wrap
+      padding-left: 0
+      li
+        padding-right: 2rem
+        padding-bottom: .5rem
+        a
+          color: color-leters
+          cursor pointer
+          font-weight: bold
+
+
+@media (max-width: 760px)
+  .Header
+    flex-direction: columns
+    height: 24rem
+    .Header-img-container, .Header-info  
+      width: 100%
+    .Header-info  
+      height: 65%
+    .Header-img-container
+      height: 35%
+      margin-bottom: 1rem

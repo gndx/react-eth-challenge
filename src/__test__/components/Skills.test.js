@@ -1,20 +1,21 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Skills from '../../components/Skills';
 
+import { data } from '../../../data.json';
+
 describe('<Skills />', () => {
-  const skills = mount(<Skills />);
+  const wrapper = shallow(<Skills skills={data.skills} />);
 
   test('Skills render', () => {
-    expect(skills.length).toEqual(1);
+    expect(wrapper.length).toEqual(1);
   });
 
   test('Skills title', () => {
-    expect(skills.find('.Skills-title').length).toEqual(1);
+    expect(wrapper.find('.Skills-title').length).toEqual(1);
   });
 
   test('Skills has 3 items', () => {
-    expect(skills.find('.Skills-item').length).toBeGreaterThan(2);
+    expect(wrapper.find('.Skills-item').length).toBe(2);
   });
-
 });

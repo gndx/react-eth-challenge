@@ -1,55 +1,62 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Gerardo Miranda",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Tarija Bolivia",
+    "email": "gerardodev25@gmail.com",
+    "website": "https://github.com/GerardoDev25",
+    "phone": "+591 60269347",
+    "avatar": "https://avatars.githubusercontent.com/u/83968980?s=400&u=8e39d3c4feca10a3cc5d96f43cda6598b90c5b09&v=4",
+    "Profile": "Hello I'm a person that like keep learning about many different topic permanently, I like to work with web technologies based in javascript like ReactJs in the Front-end and a little back-end with nodeJs",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "jun 2022",
+        "description": "this is a course about the introduction to work as a front-end developer . ",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Curso de Frontend Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "jun 2022",
+        "description": "this is a course about the introduction to work in the linux terminal . ",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de Introducción a la Terminal y Línea de Comandos"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "high school",
+        "description": "I went to a public school",
+        "endDate": "Jan 2002",
+        "institution": "JAC",
+        "startDate": "Jan 2014"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "degree": "computer Engineering",
+        "description": "study for a computer engineering degree at a university. ",
         "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "institution": "UAJMS",
         "startDate": "Jan 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "N/A",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "I don't have experience working in the IT industry.",
         "jobTitle": "Frontend",
         "startDate": "Jan 2020"
       },
       {
-        "company": "CatStore",
+        "company": "N/A",
         "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobDescription": "I don't have experience working in the IT industry.",
+        "jobTitle": "Backend",
+        "startDate": "Sept 2019"
+      },
+      {
+        "company": "N/A",
+        "endDate": "Jan 2016",
+        "jobDescription": "I don't have experience working in the IT industry.",
         "jobTitle": "Backend",
         "startDate": "Sept 2019"
       }
@@ -57,15 +64,15 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "60%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
       },
       {
         "name": "React",
@@ -74,18 +81,20 @@
     ],
     "interest": [
       "javascript",
-      "develop",
+      "frontend",
       "backend",
-      "frontend"
+      "blokchain",
+      "devops",
+      "develop"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "99%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "35%"
       }
     ],
     "social": [
@@ -95,15 +104,15 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/GerardoML25"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/GerardoDev25"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/gerardodev25/"
       }
     ]
   }

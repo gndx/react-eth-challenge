@@ -1,0 +1,20 @@
+.App
+  height: auto
+  min-height: 100vh
+  max-width: 1200px;
+  min-width: 390px
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background-color: back-color
+  .App-subcontainer
+    display: grid
+    gap: 1rem
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: 1fr 1fr
+
+@media (max-width: 760px)
+  .App
+    .App-subcontainer
+      grid-template-columns: 1fr
+      grid-template-rows: repeat(1fr, 4)
