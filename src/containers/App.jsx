@@ -26,7 +26,7 @@ import getData from '../utils/getData'
 //   return {informacion}
 // }
 
-const url = 'http://localhost:3000/data'
+const url = 'https://my-json-server.typicode.com/gitguti/eth-challenge-backend/db'
 const App = () => {
   // const information = {data};
   const [data, setData] = useState(false);
@@ -36,7 +36,7 @@ const App = () => {
     const getDataApi = async () => {
       const response = await getData(url);
       console.log("linea 1", response);
-      setData(response);
+      setData(response.data);
     }
     getDataApi();
   }, []);

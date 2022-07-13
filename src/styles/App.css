@@ -93,7 +93,7 @@ a {
   }
   
   .container-grid-item {
-    width: 0%;
+    width: 100%;
     display: flex;
     margin: 0;
   }
