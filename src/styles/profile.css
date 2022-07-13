@@ -1,0 +1,13 @@
+.Profile-title {
+    color: #7a7894;
+    font-size: 1.4rem;
+    font-weight: medium;
+}
+
+.Profile-desc {
+    color: #4f4f50;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: normal;
+    margin-bottom:30px;
+}

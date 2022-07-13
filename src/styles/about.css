@@ -1,0 +1,32 @@
+.About {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: #4f4f50;
+    align-items: center;
+}
+
+.About-title {
+    color: #131515;
+    font-size: 2.2rem;
+}
+
+.About-profession {
+    color: #7a7894;
+    font-size: 1.8rem;
+}
+
+.About-contact {
+    display: flex;
+    flex-direction: column;
+    font-size:1.2rem;
+    line-height: 1.6rem;
+    text-align: right;
+    margin-bottom:10px;
+}
+
+.About-social {
+    display: flex;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../styles/skills.css'
 
 const Skills = (props) => {
   const { skills } = props;
@@ -10,20 +10,32 @@ const Skills = (props) => {
   console.log("🚀 ~ file: Skills.jsx ~ line 10 ~ Skills ~ familiar", familiar)
   return (
     <>
-    <div className="Skills">
-    <div className="Skills-title">
+    <div className="container">
+      <div className="container-left">
+    <h3 className="Skills-title">
       Skills
+    </h3>
     </div>
-    <ul>
+    <div className="skills-container-right">
+    <div className="skills-right">
+    <h3 className="subtitle"> Compentente: </h3>
+    <div className="skills-right-items">
   {proficients.map((item, index) => 
-  <React.Fragment key={index}><li className='Skills-item' key={index} >{item.name}</li>
+  <React.Fragment key={index}><p className='Skills-item' key={index} >{item.name}</p>
   </React.Fragment>) }
-    </ul>
-    <ul>
+  </div>
+  </div>
+  <div className="skills-container-right">
+    <div className="skills-right">
+      <h3 className="subtitle">Familiarizada con: </h3>
+      <div className="skills-right-items">
   {familiar.map((item, index) => 
-  <React.Fragment key={index}><li className='Skills-item' key={index} >{item.name}</li>
+  <React.Fragment key={index}><p className='Skills-item' key={index} >{item.name}</p>
   </React.Fragment>) }
-    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
     </>
   )

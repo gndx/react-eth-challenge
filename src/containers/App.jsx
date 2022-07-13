@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import '../styles/components/App.styl';
+import '../styles/App.css';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -42,17 +42,19 @@ const App = () => {
   }, []);
   return (
     <>
+    <main className="main-container">
       <Header>
-        <>
         {data &&  <About {...data}/>}
-        {data &&  <Profile profile ={data.Profile}/>}
-        </>
       </Header>
-      {data && <Experience experience={data.experience}/>}
+      {data &&  <Profile profile ={data.Profile}/>}
       {data && <Academic academic={data.Academic}/> }
+      {data && <Experience experience={data.experience}/>}
       {data && <Skills skills={data.skills}/> }
+      <div className="container-flex">
       {data && <Interest interest = {data.interest}/>}
       {data && <Languages languages = {data.languages}/>}
+      </div>
+      </main>
     </>
   )
 };``

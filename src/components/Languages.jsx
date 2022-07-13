@@ -1,16 +1,17 @@
 import React from 'react';
+import '../styles/languages.css'
 
 const Languages = (props) => {
   const { languages } = props;
-  console.log("🚀 ~ file: Languages.jsx ~ line 5 ~ Languages ~ languages", languages)
-  // //console.log('lenfuajes kinea 5 Languajes.jsx',languages)
   return (
     <>
-    <div className="Languages">
-    <div className="Languages-title">
-      idiomas
+    <div className="container-grid-item">
+      <div className="container-left">
+    <h3 className="Languages-title">
+      Languages
+    </h3>
     </div>
-    <ul>
+    <ul className="container-right-interest">
   {languages.map((item, index) => 
   <li className='Languages-item' key={index} >{item.name}</li>)}
     </ul> 

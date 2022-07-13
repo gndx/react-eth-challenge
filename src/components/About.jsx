@@ -1,24 +1,28 @@
 import React from 'react';
+import '../styles/about.css'
 
 
 const About = (props) => {
-  const {social, name, phone, email, address} = props;
-  console.log(social,'soy social')
+  const {social, profession, name, phone, email, address} = props;
   return (
     <>
     <div className="About">
+    <div className="About-left">
     <h2 className="About-title">{name}</h2>
+    <p className="About-profession">{profession}</p>
     </div>
-    <ul>
-        <li className="About-item">{address}</li>
-        <li className="About-item">{phone}</li>
-        <li className="About-item">{email}</li>
-        {/* <li className="About-item">{social[0]}</li> */}
-    </ul>
+    <div className="About-right">
+    <div className="About-contact">
+        <p className="About-item">{address}</p>
+        <p className="About-item">{phone}</p>
+        <p className="About-item">{email}</p>
+    </div>
 
-    <ul>
+    {/* <div className="About-social">
   {social.map((item, index) => <li className='Experience-item' key={index} >{item.name}</li>)}
-    </ul>
+    </div> */}
+    </div>
+    </div>
     </>
   )
 };
