@@ -12,8 +12,8 @@ const Skills = () => {
       {data.skills? (
         data.skills.map((info, i) => {
           return (
-            <ul>
-            <li key={i} className="Skills-item">
+            <ul key={i}>
+            <li className="Skills-item">
              <small>{info.name}</small>
             </li>
             </ul>
