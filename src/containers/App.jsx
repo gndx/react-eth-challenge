@@ -17,7 +17,7 @@ const App = () => {
 
   useEffect(() => { 
     getData('https://raw.githubusercontent.com/Panchop10/react-eth-challenge/main/data.json')
-    .then((data) => setUserInfo(data))
+    .then((data) => setUserInfo(data.data))
   }, [])
 
   return (
