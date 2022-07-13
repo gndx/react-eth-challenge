@@ -1,0 +1,9 @@
+body{background-color:#908774;box-sizing:border-box;padding:0;margin:0}body p{font-family:helvetica}body img{width:190px;height:190px;border-radius:50%}body .Header-title,body .Profile-section,body .Experience-section,body .Academic-section,body .Skills-section,body .Interest-section,body .Languages-section{margin:20px 200px;padding:10px 0 20px 20px;border-radius:20px;background:#dfded9}
+.About-section{display:flex;flex-direction:column;font-size:15px}.About-section .About-item{margin:5px}.About-section a.About-item{text-decoration:none}
+.Header-title{display:flex;justify-content:space-evenly;align-items:center}
+.Profile-section{background:#525a5e}
+.Experience-section{background:#cecece}.Experience-section .Experience-grid{display:grid;margin-bottom:20px}.Experience-section .Experience-grid .Experience-item{margin:8px}
+.Academic-section{background:#dedede}
+.Skills-section{background:rgba(170,170,170,0.667)}.Skills-section .Skills-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center}.Skills-section .Skills-grid p.Skills-item{justify-self:center}.Skills-section .Skills-grid progress{height:25px}
+.Interest-section{background:#ccc}.Interest-section .Interest-grid{display:grid;grid-template-columns:1fr 1fr;justify-items:center}
+.Languages-section{background:#334}.Languages-section .Languages-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center}.Languages-section .Languages-grid p.Languages-item{justify-self:center}.Languages-section .Languages-grid progress{height:25px}
