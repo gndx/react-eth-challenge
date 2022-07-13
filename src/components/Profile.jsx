@@ -2,7 +2,9 @@ import React from 'react';
 import Icon from '../containers/Icon';
 import Section from '../containers/Section';
 
-const Profile = ({ data }) => {
+const Profile = ({
+  data = { profile: { title: '', description: [{}, {}, {}] } },
+}) => {
   return (
     <Section id="Profile" className="flex flex-col">
       <span className="flex items-center mb-3">

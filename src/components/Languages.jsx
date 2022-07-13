@@ -2,7 +2,9 @@ import React from 'react';
 import Icon from '../containers/Icon';
 import Section from '../containers/Section';
 
-const Languages = ({ data }) => {
+const Languages = ({
+  data = { languages: { title: '', languages: [{}, {}, {}] } },
+}) => {
   return (
     <Section id="Languages" className="flex flex-col">
       <span className="flex items-center mb-4">
@@ -11,11 +13,11 @@ const Languages = ({ data }) => {
       </span>
       <div className="flex flex-col">
         {data.languages.languages.map((item, index) => (
-          <span key={index} className="mb-4 flex items-center">
+          <span key={index} className="Languages-item mb-4 flex items-center">
             <img
               className="w-10 h-6 object-cover rounded-sm drop-shadow-lg mr-2.5"
               src={item.image}
-              alt={item.name.concat(' flag')}
+              alt={item.name?.concat(' flag')}
             />
             <h3 className="mr-2 ">
               {item.name} {item.level}

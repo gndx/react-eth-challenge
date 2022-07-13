@@ -24,7 +24,7 @@ import User from '../icons/User.jsx';
 
 const Icon = ({ name, className }) => {
   return (
-    <div
+    <span
       className={`w-7 ${className} text-sky-500 drop-shadow-[0_0_7px_rgba(1,1,1,0.25)]`}
     >
       {name === 'Block' && <Block className={className} />}
@@ -49,7 +49,7 @@ const Icon = ({ name, className }) => {
       {name === 'Light' && <Light className={className} />}
       {name === 'Fire' && <Fire className={className} />}
       
-    </div>
+    </span>
   );
 };
 

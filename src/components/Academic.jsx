@@ -2,7 +2,14 @@ import React from 'react';
 import Icon from '../containers/Icon';
 import Section from '../containers/Section';
 
-const Academic = ({ data }) => {
+const Academic = ({
+  data = {
+    academic: {
+      title: '',
+      academics: [{  }, {  }, {  }],
+    },
+  },
+}) => {
   return (
     <Section id="Academic" className="flex flex-col">
       <span className="flex items-center mb-3">
@@ -13,7 +20,7 @@ const Academic = ({ data }) => {
         {data.academic.academics.map((item, index) => (
           <span
             key={index}
-            className="Experience-item mb-4 bg-active  rounded py-5 px-3 flex"
+            className="Academic-item mb-4 bg-active  rounded py-5 px-3 flex"
           >
             {item.image && (
               <img

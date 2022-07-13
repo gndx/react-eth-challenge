@@ -2,7 +2,9 @@ import React from 'react';
 import Icon from '../containers/Icon';
 import Section from '../containers/Section';
 
-const Experience = ({ data }) => {
+const Experience = ({
+  data = { experience: { title: '', experiences: [{}, {}, {}] } },
+}) => {
   return (
     <Section id="Experience" className="flex flex-col">
       <span className="flex items-center mb-3">

@@ -2,7 +2,16 @@ import React from 'react';
 import Section from '../containers/Section.jsx';
 import Icon from '../containers/Icon.jsx';
 
-const Header = ({ data }) => {
+const Header = ({
+  data = {
+    avatar: '',
+    name: '',
+    profession: '',
+    phone: '',
+    email: '',
+    networks: {},
+  },
+}) => {
   return (
     <Section
       id="Header"
@@ -33,7 +42,7 @@ const Header = ({ data }) => {
           <div className="flex">
             <a
               className="flex mr-4 "
-              href={'https://' + data.networks.linkedin}
+              href={'https://' + data?.networks.linkedin}
               target="_blank"
               draggable="false"
             >
@@ -42,7 +51,7 @@ const Header = ({ data }) => {
             </a>
             <a
               className="flex mr-4"
-              href={'https://' + data.networks.github}
+              href={'https://' + data?.networks.github}
               target="_blank"
               draggable="false"
             >
@@ -51,7 +60,7 @@ const Header = ({ data }) => {
             </a>
             <a
               className="flex mr-4 "
-              href={'https://' + data.networks.twitter}
+              href={'https://' + data?.networks.twitter}
               target="_blank"
               draggable="false"
             >

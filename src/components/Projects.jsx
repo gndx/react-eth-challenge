@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import Icon from '../containers/Icon';
 import Section from '../containers/Section';
 
-const Projects = ({ data }) => {
+const Projects = ({
+  data = { projects: { title: '', projects: [{}, {}, {}] } },
+}) => {
   const [fullImage, setFullImage] = useState({ display: false, image: null });
 
   const handleOpenFullImage = (imageUrl) => {
@@ -20,7 +22,7 @@ const Projects = ({ data }) => {
     <>
       {fullImage.display && (
         <div
-          className="FullImage fixed h-[100%] w-[100%] bg-black/70 z-10 flex justify-center items-center"
+          className="FullImage fixed h-[100%] w-[100%] bg-black/70 z-10 flex justify-center items-center cursor-pointer"
           onClick={handleCloseFullImage}
         >
           <img
@@ -39,7 +41,7 @@ const Projects = ({ data }) => {
           {data.projects.projects.map((item, index) => (
             <article
               key={index}
-              className="flex flex-col justify-between bg-white/10 rounded-md py-3 px-4 drop-shadow-lg w-full mb-4 sm:m-2 sm:w-[50vw] lg:w-[35vw]"
+              className="Project-item flex flex-col justify-between bg-active rounded-md py-3 px-4 drop-shadow-lg w-full mb-4 sm:m-2 sm:w-[50vw] lg:w-[35vw]"
             >
               <span>
                 <h3 className="mb-1">{item.title}</h3>
@@ -59,9 +61,9 @@ const Projects = ({ data }) => {
                   target={'_blank'}
                   className="flex items-center"
                 >
-                  <img src="../github.svg" className="mr-2"></img>Github link
+                  <img src="../github.svg" className="mr-1"></img>Github link
                 </a>
-                <p className="mb-1">{item.date}</p>
+                <p className="">{item.date}</p>
               </span>
             </article>
           ))}

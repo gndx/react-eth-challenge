@@ -2,7 +2,9 @@ import React from 'react';
 import Icon from '../containers/Icon';
 import Section from '../containers/Section';
 
-const Interest = ({ data }) => {
+const Interest = ({
+  data = { interest: { title: 'interest', interests: [{}, {}, {}] } },
+}) => {
   return (
     <Section id="Interest" className="flex flex-col">
       <span className="flex items-center mb-3">
@@ -11,7 +13,7 @@ const Interest = ({ data }) => {
       </span>
       <div className="flex flex-col">
         {data.interest.interests.map((interest, index) => (
-          <p className="mb-2" key={index}>
+          <p className="Interest-item mb-2" key={index}>
             {interest}
           </p>
         ))}

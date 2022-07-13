@@ -11,9 +11,7 @@ import NavBar from '../components/NavBar';
 import Projects from '../components/Projects';
 import getData from '../utils/getData';
 
-// import jsonData from '../../data.json';
-// let data = jsonData.data;
-let url =
+const url =
   'https://raw.githubusercontent.com/gonzaotc/react-eth-challenge/main/data.json';
 
 const App = () => {
@@ -22,7 +20,7 @@ const App = () => {
   useEffect(() => {
     getData(url)
       .then((data) => {
-        console.log(data);
+        console.log(data.data);
         setData(data.data);
       })
       .catch((error) => console.log(error));
@@ -36,7 +34,7 @@ const App = () => {
     >
       {data && (
         <>
-          <NavBar data={data} />
+          <NavBar />
           <Header data={data} />
           <Profile data={data} />
           <Skills data={data} />
