@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Skills from '../../components/Skills';
 
-const data = [{0: {name: "hola"}},{1: {name: "hola"}}, {3: {name: "hola"}}]
+const data = [{name: "hola", percentage: "competente"},{name: "hola", percentage: "competente"},  {name: "hola", percentage: "competente"}]
 describe('<Skills />', () => {
   const skills = shallow(<Skills skills={data}/>);
 
