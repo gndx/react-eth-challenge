@@ -7,7 +7,7 @@
     "website": "https://example.com",
     "phone": "+584241756709",
     "avatar": "https://avatars.githubusercontent.com/u/11640071?v=4",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "Software engineer with more than 4 years of experience developing: Web Applications, Web Services and Mobile Apps, to enterprises in the Educational, Insurance and Financial sector. I participate in projects from the begining, making the requirements gathering and project design, to the end, putting to production and keeping the Final Product. Using relational (MySQL, Postgress, Oracle) and non-relational databases (MongoDB, Firestore, Redis) and working with Scrum and others Agile methodologies in presentials and remote teams.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,61 +24,79 @@
     ],
     "Academic": [
       {
-        "degree": "",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Bachelor degree in Computer Ciens",
+        "description": "",
+        "endDate": "May 2021",
+        "institution": "UCV",
+        "startDate": "Oct 2013"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Nearsure",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Working as contractor for US companies working as Backend Engineer",
+        "jobTitle": "Senior NodeJS Developer",
+        "startDate": "Jan 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Teravision Tecnologies",
+        "endDate": "Dic 2021",
+        "jobDescription": "Experience with AWS, NodeJS, Java, Python, Microservices, React, React Native",
+        "jobTitle": "Ssr Full Stack Developer",
+        "startDate": "Jun 2020"
+      },
+      {
+        "company": "Consorcio Unplugged",
+        "endDate": "Jun 2020",
+        "jobDescription": "From intern to Software Specialist, participating in many project as a full stack developer and mobile developer. Working with tecnologies as Angular, Java, PHP, Node, HTML, React Native",
+        "jobTitle": "Development Specialist",
+        "startDate": "Feb 2017"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70%"
+      },
+      {
+        "name": "Angular",
+        "percentage": "70%"
+      },
+      {
+        "name": "Node JS",
+        "percentage": "80%"
+      },
+      {
+        "name": "Java",
+        "percentage": "50%"
+      }, 
+      {
+        "name": "Python",
+        "percentage": "50%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "aws",
+      "elasticsearch",
+      "etherium"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
