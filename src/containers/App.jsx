@@ -30,14 +30,12 @@ const url = 'http://localhost:3000/data'
 const App = () => {
   // const information = {data};
   const [data, setData] = useState(false);
-  if(data){
-    console.log("🚀 ~ file: App.jsx ~ line 31 ~ App ~ data", data)
-    console.log(data.languages)
-  }
+
 
   useEffect(() => {
     const getDataApi = async () => {
       const response = await getData(url);
+      console.log("linea 1", response);
       setData(response);
     }
     getDataApi();
