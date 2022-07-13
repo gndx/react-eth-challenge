@@ -12,7 +12,8 @@ const Skills = (props) => {
     </div>
     <ul>
   {skills.map((item, index) => 
-  <li className='Skills-item' >{item.name}</li>) }
+  <React.Fragment key={index}><li className='Skills-item' key={index} >{item.name}</li>
+  <li className='Skills-item' key={index} >{item.percentage}</li></React.Fragment>) }
     </ul>
     </div>
     </>

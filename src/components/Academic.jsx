@@ -12,10 +12,10 @@ const Academic = (props) => {
     <ul>
 
   {academic.map((item, index) => 
-  <>
-  <li className='Academic-item' >{item.degree}</li>
-   <p className='Experience-item-desc'>{item.description}</p>
-   </>
+  <React.Fragment key={index}>
+  <li className='Academic-item' key={index} >{item.degree}</li>
+   <p className='Experience-item-desc' key={index} >{item.description}</p>
+   </React.Fragment>
    )}
     </ul>
     </div>

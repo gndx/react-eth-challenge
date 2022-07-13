@@ -12,7 +12,7 @@ const Languages = (props) => {
     </div>
     <ul>
   {languages.map((item, index) => 
-  <li className='Languages-item' >{item.name}</li>)}
+  <li className='Languages-item' key={index} >{item.name}</li>)}
     </ul> 
     </div>
     </>

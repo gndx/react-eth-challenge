@@ -11,7 +11,7 @@ const Interest = (props) => {
     </div>
     <ul>
   {interest.map((item, index) => 
-  <li className='Interest-item' >{item}</li>) }
+  <li className='Interest-item' key={index} >{item}</li>) }
     </ul>
     </div>
     </>

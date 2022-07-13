@@ -19,7 +19,7 @@ const About = (props) => {
 
     <ul>
 
-  {social.map((item, index) => <li className='Experience-item' >{item.name}</li>)}
+  {social.map((item, index) => <li className='Experience-item' key={index} >{item.name}</li>)}
     </ul>
     </div>
     </>

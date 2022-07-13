@@ -11,7 +11,7 @@ const Experience = (props) => {
     </div>
     <ul>
   {experience.map((item, index) => 
-  <li className='Experience-item' >{item.jobTitle}</li>) }
+  <li className='Experience-item' key={index}>{item.jobTitle}</li>) }
     </ul>
     </div>
     </>
