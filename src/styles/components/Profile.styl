@@ -1,0 +1,15 @@
+@require "Container.styl"
+
+.Profile
+  @extends .FullContainer
+  grid-column 1/3
+  grid-row 2/3
+  .Profile-title
+    text-align center
+
+  .Profile-desc
+    margin 15px
+
+@media screen and (max-width: 1000px)
+  .Profile
+    grid-column 1/3

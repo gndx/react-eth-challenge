@@ -1,0 +1,145 @@
+{
+  "name": "Julian Murphy",
+  "profession": "Backend Developer",
+  "address": "🇦🇷Buenos Aires - Argentina.",
+  "email": "njmdistrisoft@gmail.com",
+  "website": "",
+  "phone": "(+54) 29xxxxxxx-x",
+  "avatar": "https://avatars.githubusercontent.com/u/9388504?v=4",
+  "profile": "Software developer / Sysadmin. Currently Software Engineer in Trocafoe within the sales/ecommerce area, integration with other marketplaces, payment processing and billing.",
+  "certificate": [
+    {
+      "date": "Dic 2018",
+      "description": "GIS and IDE (Qgis)",
+      "institution": "Universidad Nacional de Avellaneda",
+      "name": "FrontEnd Developer"
+    },
+    {
+      "date": "2021",
+      "description": "3rd position in optimization. Ci-Vi is a platform for networking and gaining certified work experience. Self sovereign identity in blockchain. React Native Application Demo",
+      "institution": "DiDi - IdentiHack Project",
+      "name": "Backend Developer"
+    }
+  ],
+  "academic": [
+    {
+      "degree": "Tec. System Administration and free software",
+      "description": "Tesis: Telegram bot for remote server managment, resources metrics and download logs. Tech: Django, Docker and Python",
+      "endDate": "Jan 2019",
+      "institution": "Universidad Nacional del Comahue",
+      "startDate": "Jan 2017"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Trocafone",
+      "endDate": "Present",
+      "jobDescription": "Development of the ecommerce website website in laravel, jQuery and JavaScript (and AlpineJS), with integrations to microservices developed in Python and NodeJS to process payment and sales of external marketplaces.",
+      "jobTitle": "Software developer",
+      "startDate": "Aug 2021"
+    },
+    {
+      "company": "TWGroup SpA",
+      "endDate": "Aug 2021",
+      "jobDescription": "Software factory. Mainly, developments in PHP (Laravel), jQuery and JavaScript. Project leader in Lex development for a law firm. Development in Laravel with LiveWire and AlpineJS for 'ProLibro' ecommerce, open to bookstores throughout Chile. Development of electronic document issuance(billing) and control module for integration with Chile's SII. Deployment of billing services and ERPs, creation and maintenance of docker images. Personalized ERP, report in pre-existing systems, marketplaces for SMEs, among other",
+      "jobTitle": "Software developer",
+      "startDate": "Oct 2020"
+    },
+    {
+      "company": "Tribunal de Cuentas de la Provincia de Río Negro",
+      "endDate": "2021",
+      "jobDescription": "Development of web file system with backend in Laravel and stock system in Yii Framework together with a frontend team that developed in Angular. I was in change of developing a desktop application in Java for digital signature of PDF document integrated to the document workflow system. Support for digital signature tokens (HSM via the PKCS11 standard). Implementation of SSO (single sign on) architecture through the use of Keycloak integrated with LDAP. SysAdmin, mostly automating tasks through bash and python scripting. Solutions for the team interconnecting systems with sensors (Telegram bot, GLPI, humidity and temperature sensors for datacenters, among others). I carried out the implementation of proxmox, migration of KVM, creation of LXC containers. Development of multi-stage docker images for services provided in the organization. Server maintenance, basic managment of network equipment such as MikroTik and Cisco switches. Administration of services such as SAMBA, Squid, IRC, OpenLDAP.",
+      "jobTitle": "Software developer / Sysadmin",
+      "startDate": "2018"
+    },
+    {
+      "company": "Universidad Nacional del Comahue",
+      "endDate": "Present",
+      "jobDescription": "Development of applications related to the university, mainly developed in Yii Framework(PHP). Make docker enviroments and maintenance of the workflow system for academic programs. Development of career search module and presentation of plans in ReactJS for the official website (web.curza.uncoma.edu.ar). Configuration of network equipment such as MikroTik router, Cisco and TP-Link switches, Unifi and Ubiquiti AP and their controller. Support in the design of vlans.",
+      "jobTitle": "Software developer / Sysadmin",
+      "startDate": "2018"
+    },
+    {
+      "company": "Desarrollos Tello",
+      "endDate": "Present",
+      "jobDescription": "Web application development in Laravel PHP for credit calculation. 'VotarOnline' Project, use in different cooperatives in the country to carry out elections through voting in the midst of the pandemic. Stress test with JMeter and code performance improvements. Implementation of event queues with redis. Maintenance of Wordpress sites and cofnigurations with Woocommerce. Server administration, scripting for backups and configuration of Github Actions, autodeploy of changes.",
+      "jobTitle": "Software developer / Sysadmin",
+      "startDate": "2017"
+    },
+    {
+      "company": "Alessandro Leonardo",
+      "endDate": "Present",
+      "jobDescription": "Development of websites from the designer's own mockups mentioned as a reference. Multipage web solutions for online sales with Woocommerce. Cloud server managment",
+      "jobTitle": "Software developer / Sysadmin",
+      "startDate": "2019"
+    },
+    {
+      "company": "Cooperativa Obrera Ltda.",
+      "endDate": "2016",
+      "jobDescription": "Installation and configuration of GNU/Linux servers to renew the equipment of each branch of the company. Maintenance of networks and managment of communication equipment. Registry utility for MACAddress control with non-relational database (redis)",
+      "jobTitle": "Sysadmin",
+      "startDate": "2016"
+    }
+
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "percentage": "85%"
+    },
+    {
+      "name": "CSS",
+      "percentage": "25%"
+    },
+    {
+      "name": "JavaScript",
+      "percentage": "50%"
+    },
+    {
+      "name": "React",
+      "percentage": "40%"
+    },
+    {
+      "name": "GNU/Linux",
+      "percentage": "70%"
+    },
+    {
+      "name": "Python",
+      "percentage": "60%"
+    }
+  ],
+  "interest": [
+    "javascript",
+    "develop",
+    "backend",
+    "frontend",
+    "python",
+    "kubernetes",
+    "containers",
+    "IA"
+  ],
+  "languages": [
+    {
+      "name": "Spanish",
+      "percentage": "90%"
+    },
+    {
+      "name": "Portuguese",
+      "percentage": "40%"
+    },
+    {
+      "name": "English",
+      "percentage": "20%"
+    }
+  ],
+  "social": [
+    {
+      "name": "github",
+      "url": "https://github.com/fkmurphy"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/njulianmurphy"
+    }
+  ]
+}

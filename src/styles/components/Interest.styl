@@ -1,0 +1,24 @@
+@require "Container.styl"
+
+.Interest
+  @extends .SplitContainer
+  border-top-color #FE6000
+  grid-column 1/2
+  //grid-row 5/6
+  .Interest-title
+    text-align center
+
+  ul
+    display flex
+    flex-wrap wrap
+
+  .Interest-item
+    flex-grow 1
+    flex-basis 50%
+    text-align center
+    margin-bottom 1rem
+
+@media screen and (max-width: 1000px)
+  .Interest
+    grid-column 1/3
+

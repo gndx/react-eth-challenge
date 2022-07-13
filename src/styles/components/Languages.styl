@@ -1,0 +1,23 @@
+@require "Container.styl"
+
+.Languages
+  @extends .SplitContainer
+  border-top-color #fea300
+  grid-column 2/3
+
+  .Languages-title
+    text-align center
+
+  ul
+    display flex
+    flex-wrap wrap
+    gap 3em
+
+  .Languages-item
+    flex 1 0
+    text-align center
+    margin-bottom 1rem
+
+@media screen and (max-width: 1000px)
+  .Languages
+    grid-column 1/3

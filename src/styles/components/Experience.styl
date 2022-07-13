@@ -1,0 +1,34 @@
+@require "Container.styl"
+
+.Experience
+  @extends .FullContainer
+  background-color white 
+  grid-column 1/3
+  grid-row 3/4
+  .Experience-title
+    text-align center
+  ul
+    display flex
+    flex-wrap wrap
+    gap 2rem
+    margin auto 1rem
+
+  .Experience-item 
+    flex 1 0 40%
+    h3
+      margin-bottom 0
+      font-size 1.3em
+      .Job-dates
+        font-style italic 
+        font-size .9em
+    p
+      margin 0
+    .Company
+      font-size .9em
+
+@media screen and (max-width: 1000px)
+  .Experience
+    ul
+      margin 0
+      flex-direction column
+      flex-wrap nowrap

@@ -1,0 +1,16 @@
+@require "Container.styl"
+
+.Academic
+  @extends .SplitContainer
+  grid-column 1/2
+  //grid-row 4/5
+  border-top-color #00B55B
+  .Academic-title
+    text-align center
+  .Academic-item
+    margin-bottom 1rem
+
+@media screen and (max-width: 1000px)
+  .Academic
+    grid-column 1/3
+

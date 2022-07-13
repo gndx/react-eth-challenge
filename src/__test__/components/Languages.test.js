@@ -1,9 +1,13 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Languages from '../../components/Languages';
+import DataStub from '../../__stubs__/full_cv.json';
 
 describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+  const data = DataStub.data.languages;
+  const languages = shallow(
+    <Languages data={data} />,
+  );
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);

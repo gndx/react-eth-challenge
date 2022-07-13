@@ -1,0 +1,15 @@
+@require "Container.styl"
+
+.Skills
+  @extends .SplitContainer
+  grid-column 2/3
+  border-top-color #04bfbf
+  .Skills-title
+    text-align center
+  .Skills-item
+    text-align center
+    margin-bottom 1rem
+
+@media screen and (max-width: 1000px)
+  .Skills
+    grid-column 1/3

@@ -1,2 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+$hex-platzi-color = #98ca3f
+$rgba-platzi-color = rgba(204,205,203,1)
+
 body
-  background-color blue
+  font-family 'Lato', sans-serif
+  margin 0
+  padding 0
+  background rgb(152,202,63)
+  background linear-gradient(15deg, rgba(152,202,63,.3) 0%, rgba(255,255,255,.3) 10%, rgba(255,255,255,.3) 90%, rgba(152,202,63,.3) 100%)
+  background-repeat none
+
+#app
+  display: grid
+  gap 1em 0em
+  margin 0em 2em
+  grid-template-columns repeat(2, 1fr)
+  grid-template-rows repeat(3, fit-content(.2fr)) repeat(2, .25fr)
+  ul
+    padding 0
+    list-style none
+a
+  color green
+  text-decoration none
