@@ -1,9 +1,15 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
+import data from 'api/data.json';
 import About from '../../components/About';
+import * as AppContext from '../../context/AppContext';
 
 describe('<About />', () => {
-  const about = mount(<About />);
+  jest
+    .spyOn(AppContext, 'useAppContext')
+    .mockImplementation(() => data.data);
+
+  const about = shallow(<About />);
 
   test('About render', () => {
     expect(about.length).toEqual(1);

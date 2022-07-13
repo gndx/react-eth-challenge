@@ -1,9 +1,15 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
+import data from 'api/data.json';
 import Skills from '../../components/Skills';
+import * as AppContext from '../../context/AppContext';
 
 describe('<Skills />', () => {
-  const skills = mount(<Skills />);
+  jest
+    .spyOn(AppContext, 'useAppContext')
+    .mockImplementation(() => data.data);
+
+  const skills = shallow(<Skills />);
 
   test('Skills render', () => {
     expect(skills.length).toEqual(1);
