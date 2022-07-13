@@ -1,87 +1,233 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "name": "Ruben Dario Troche Piñanez",
+    "profession": "Desarrollador Genexus",
+    "address": "Asuncion, Paraguay.",
+    "email": "dtf.ruben.troche@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "+595 981356739",
+    "avatar": "http://en.gravatar.com/avatar/ef3ca8ef02de23da584520516503660e?size=200",
+    "Profile": "Desarrollo de aplicaciones para Empresas Comerciales, Industristriales y Financieras. Para diferentes Plataformas OS/400, Linux, Windows, Diferentes Servidores de Aplicaciones JBoss, WebSphere, Tomcat, Generando Aplicaciones en RPG y Java",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "30 Junio 2022",
+        "description": "Fundamentos de Ingeniería de Software",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Fundamentos de Ingeniería de Software"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "26 Abril 2022",
+        "description": "Historia de Ethereum y Smart Contracts",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Historia de Ethereum y Smart Contracts"
+      }
+      {
+        "date": "26 Abril 2022",
+        "description": "Historia de los Cypherpunks",
+        "institution": "Platzi",
+        "name": "Historia de los Cypherpunks"
+      }
+      {
+        "date": "13 Abril 2022",
+        "description": "Oratoria y Hablar en Público",
+        "institution": "Platzi",
+        "name": "Oratoria y Hablar en Público"
+      }
+      {
+        "date": "7 Abril 2022",
+        "description": "Optimización del Perfil Profesional",
+        "institution": "Platzi",
+        "name": "Optimización del Perfil Profesional"
+      }
+      {
+        "date": "7 Abril 2022",
+        "description": "Triunfar en Entrevistas de Trabajo",
+        "institution": "Platzi",
+        "name": "Triunfar en Entrevistas de Trabajo"
+      }
+      {
+        "date": "5 Abril 2022",
+        "description": "Cómo Prepararte Profesionalmente para el Futuro",
+        "institution": "Platzi",
+        "name": "Cómo Prepararte Profesionalmente para el Futuro"
+      }
+      {
+        "date": "5 Abril 2022",
+        "description": "Creación de Portafolio y CV",
+        "institution": "Platzi",
+        "name": "Creación de Portafolio y CV"
+      }
+      {
+        "date": "5 Abril 2022",
+        "description": "Conseguir Trabajo en Tecnología",
+        "institution": "Platzi",
+        "name": "Conseguir Trabajo en Tecnología"
+      }
+      {
+        "date": "14 Marzo 2022",
+        "description": "Marca Personal",
+        "institution": "Platzi",
+        "name": "Marca Personal"
+      }
+      {
+        "date": "28 Febrero 2022",
+        "description": "English for Job Interviews Course",
+        "institution": "Platzi",
+        "name": "English for Job Interviews Course"
+      }
+      {
+        "date": "17 Febrero 2022",
+        "description": "Estrategias para Aprender en Línea",
+        "institution": "Platzi",
+        "name": "Estrategias para Aprender en Línea"
+      }
+      {
+        "date": "16 Febrero 2022",
+        "description": "Gestión Efectiva del Tiempo",
+        "institution": "Platzi",
+        "name": "Gestión Efectiva del Tiempo"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Técnico Superior en Fútbol",
+        "description": "Asunción-Paraguay",
+        "endDate": "Diciembre 2014",
+        "institution": "Escuela Nacional de Educación Física - ENEF",
+        "startDate": "Enero 2018"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Licenciado en Análisis de Sistemas Informáticos",
+        "description": "Campus Universitario San Lorenzo",
+        "endDate": "Diciembre 2002",
+        "institution": "Facultad Politécnica - U.N.A.",
+        "startDate": "Enero 1994"
+      }
+      {
+        "degree": "Programador de Computadoras",
+        "description": "Campus Universitario San Lorenzo",
+        "endDate": "Diciembre 1993",
+        "institution": "Facultad Politécnica - U.N.A.",
+        "startDate": "Enero 1991"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Banco Basa SAECA",
+        "endDate": "Actual",
+        "jobDescription": "Desarrollar Proyectos Regulatorios - Auditoría Forense Informática",
+        "jobTitle": "Desarrollador del Core Bancario.",
+        "startDate": "Enero 2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Banco Amambay S.A.E",
+        "endDate": "Diciembre 2017",
+        "jobDescription": "Desarrollar Nuevas Funcionalidades para el Core Bancario - Optimización de Procesos",
+        "jobTitle": "Desarrollador Genexus",
+        "startDate": "Octubre 2016"
+      }
+      {
+        "company": "Banco Itapua",
+        "endDate": "Octubre 2016",
+        "jobDescription": "Coordinador del Area de Desarrollo",
+        "jobTitle": "Desarrollador Genexus",
+        "startDate": "Mayo 2011"
+      }
+      {
+        "company": "Banco Integracion",
+        "endDate": "Abril 2011",
+        "jobDescription": "Jefe del Area de Desarrollo",
+        "jobTitle": "Desarrollador Genexus",
+        "startDate": "Mayo 2005"
+      }
+      {
+        "company": "Banco Itau",
+        "endDate": "Abril 2005",
+        "jobDescription": "Desarrollo de Nuevas Funcionalidades y Optimización de Procesos Existentes",
+        "jobTitle": "Desarrollador Genexus",
+        "startDate": "Abril 2004"
+      }
+      {
+        "company": "Financiera Atlas",
+        "endDate": "Abril 2004",
+        "jobDescription": "Desarrollo de Nuevas Funcionalidades y Optimización de Procesos Existentes",
+        "jobTitle": "Desarrollador Genexus",
+        "startDate": "Marzo 2002"
+      }
+      {
+        "company": "Horizonte S.R.L.",
+        "endDate": "Marzo 2002",
+        "jobDescription": "Desarrollo de Aplicaciones para el Core Bancario de Paraguay",
+        "jobTitle": "Desarrollador Genexus",
+        "startDate": "Marzo 1999"
+      }
+      {
+        "company": "Gunder I.C.S.A.",
+        "endDate": "Marzo 1999",
+        "jobDescription": "Desarrollo de Aplicaciones Comerciales - Venta de Automoviles Nuevos y Usados - Repuestos - Taller de Chaperia y Pintura",
+        "jobTitle": "Desarrollador Genexus",
+        "startDate": "Enero 1998"
+      }
+      {
+        "company": "Galerias Guarani",
+        "endDate": "Diciembre 1997",
+        "jobDescription": "Desarrollo de Aplicaciones Comerciales",
+        "jobTitle": "Desarrollador Genexus",
+        "startDate": "Enero 1996"
+      }
+      {
+        "company": "Galerias Guarani",
+        "endDate": "Diciembre 1995",
+        "jobDescription": "Desarrollo de Cliente/Servidor en FoxPro",
+        "jobTitle": "Programador de Computadoras",
+        "startDate": "Enero 1994"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "Genexus",
+        "percentage": "85%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "AS/400",
+        "percentage": "85%"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "DBMS Oracle, DB2/400, PostgreSQL",
+        "percentage": "85%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Servidores de Aplicaciones JBoss, WebSphere, Tomcat",
+        "percentage": "60%"
+      }
+      {
+        "name": "RPG",
+        "percentage": "80%"
+      }
+      {
+        "name": "Java",
+        "percentage": "40%"
+      }
+      {
+        "name": "Docker",
+        "percentage": "40%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Inteligencia Artificial - Machine Learning",
+      "Ciencia de Datos",
+      "Auditoría Forense Informática",
+      "Web 3.0 - Blockchaing - Crypto",
+      "Integracion de Aplicaciones"
     ],
     "languages": [
       {
-        "name": "Spanish",
+        "name": "Español",
         "percentage": "90%"
+      },
+      {
+        "name": "Guaraní",
+        "percentage": "50%"
       },
       {
         "name": "English",
