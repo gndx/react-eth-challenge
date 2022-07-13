@@ -13,4 +13,5 @@ Usuario Platzi: nilt0n
 - [x] Cuarto Problema
 - [x] Quinto Problema
 - [x] Sexto Problema
-- [x] Septimo Problema
+- [x] Septimo Problema => https://react-eth-challenge-phi.vercel.app/
+
