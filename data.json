@@ -1,34 +1,34 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "name": "Nilton",
+    "profession": "FullStack Developer",
+    "address": "Asunción, Paraguay.",
+    "email": "nilt345@example.com",
+    "website": "https://example.net",
+    "phone": "54567890'",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQEGDvOkHGuSbQ/profile-displayphoto-shrink_200_200/0/1517658822686?e=2147483647&v=beta&t=_8yhycs3355WGsD2AW2xjU1YaFN6kChP6mqxeG_dc_o",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
-        "date": "Jan 2021",
+        "date": "Jan 2022",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "institution": "Soy Henry",
+        "name": "Full Stack Developer"
       },
       {
-        "date": "Jan 2021",
+        "date": "Jan 2017",
         "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "institution": "EDX",
+        "name": "Web Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
+        "degree": "Informatic Ingeniere",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "endDate": "Jan 2009",
+        "institution": "Umiversity",
+        "startDate": "Jan 2004"
       },
       {
         "degree": "Space Engineering",
@@ -55,22 +55,13 @@
       }
     ],
     "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
+      "Wordpress",
+      "HTML5",
+      "CSS",
+      "JavaScript",
+      "React"
+
+
     ],
     "interest": [
       "javascript",
@@ -81,11 +72,11 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "40%"
       }
     ],
     "social": [

@@ -1,0 +1,21 @@
+@media (max-width: 600px)
+  .Header
+    align-items: center
+    display: flex
+    flex-direction: column
+
+    & img
+      margin-bottom: 16px
+
+@media (min-width: 600px)
+  .Header
+    align-items: center
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+    & img
+      grid-column: 1 / 2;
+    & article
+       grid-column: 2 / end;
