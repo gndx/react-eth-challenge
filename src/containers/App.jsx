@@ -16,7 +16,7 @@ const App = () => {
   const [userInfo, setUserInfo] = useState({})
 
   useEffect(() => { 
-    getData('http://localhost:3000/data')
+    getData('https://raw.githubusercontent.com/Panchop10/react-eth-challenge/main/data.json')
     .then((data) => setUserInfo(data))
   }, [])
 
