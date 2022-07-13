@@ -1,109 +1,109 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "José Piña",
+    "profession": "Smart Contract Developer",
+    "address": "Valencia, Venezuela.",
+    "email": "josepina@pinalikefruit.com",
+    "website": "https://pinalikefruit.com",
+    "phone": "+584127170707",
+    "avatar": "https://static.platzi.com/media/avatars/avatars/pinajmr_b5b96ec3-2bc7-4de3-b14b-08e1645dc578.jpeg",
+    "Profile": "I'm Piña. Yes, like fruit in traslated into spanish, I'm a Smart Contract Developer in continuous learning working mainly with DeFi protocols.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "2022",
+        "description": "Master Online with Binance colaboration ",
+        "institution": "Founderz",
+        "name": "Master Blockchain & Negocio"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "2021",
+        "description": "",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Smart Contract"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Industrial Engineer",
+        "description": " ",
+        "endDate": "2018",
+        "institution": "Universidad de Carabobo",
+        "startDate": "2012"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Telecommunication Engineer",
+        "description": "",
+        "endDate": "2019",
+        "institution": "Universidad José Antonio Páez",
+        "startDate": "2016"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Triunico",
+        "endDate": "Jun 2021",
+        "jobDescription": "I have worked in the development of projects such as TriUnico ,TriMarket and Summer.so , collaborating in the areas of SEO, Marketing and Project Manager.",
+        "jobTitle": "Project Manager",
+        "startDate": "Mar 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Empresas Polar",
+        "endDate": "Feb 2019",
+        "jobDescription": "Internship",
+        "jobTitle": "Electricity Engineer",
+        "startDate": "Oct 2018"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
+        "name": "Solidity",
         "percentage": "75%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "Python",
+        "percentage": "80%"
       },
       {
         "name": "JavaScript",
         "percentage": "55%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Typescript",
+        "percentage": "40%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "DeFi",
+      "Security",
+      "Finance",
+      "Cryptographic"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
+      },
+      {
+      "name": "French",
+      "percentage": "15%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/pinajmr"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/pinajmr"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/pinajmr"
       }
     ]
   }
