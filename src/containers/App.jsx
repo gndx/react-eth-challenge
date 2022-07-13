@@ -9,7 +9,7 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 // import data from '../../data.json'
-import { getData } from '../utils/getData'
+import getData from '../utils/getData'
 
 // function getData() {
 //   const [informacion, setInformacion] = useState([])
