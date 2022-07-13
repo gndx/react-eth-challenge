@@ -29,24 +29,29 @@ module.exports = {
         ],
       },
       {
-        test: /\.css|.styl$/,
+        test: /\.css$/,
         use: [
+          'style-loader',
           {
-            loader: MiniCssExtractPlugin.loader,
+            loader: 'css-loader',
+            options: { importLoaders: 1 },
           },
-          'css-loader',
-          'stylus-loader',
+          'postcss-loader',
         ],
       },
     ],
+  },
+  devServer: {
+    static: path.resolve(__dirname, 'src'),
+    port: 8080,
+    open: true,
+    hot: true,
   },
   plugins: [
     new HtmlWebPackPlugin({
       template: './public/index.html',
       filename: './index.html',
     }),
-    new MiniCssExtractPlugin({
-      filename: 'assets/[name].css',
-    }),
+    new MiniCssExtractPlugin(),
   ],
 };
