@@ -2,7 +2,7 @@ const getData = async (url = 'https://raw.githubusercontent.com/Juamez/react-eth
   try {
     const res = await fetch(url);
     const data = await res.json();
-    return data.data;
+    return data;
   } catch (e) {
     throw new Error('Failed Call');
   }

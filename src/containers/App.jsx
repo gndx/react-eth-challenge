@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     async function getDataApi() {
       const data = await getData();
-      setDataApi(data);
+      setDataApi(data.data);
     }
     getDataApi();
   }, []);
