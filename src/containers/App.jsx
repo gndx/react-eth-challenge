@@ -21,10 +21,15 @@ const App = () => {
       </Header>
       <Profile />
       <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <div className="container_row">
+        <Academic/>
+        <Skills/>
+      </div>
+      <div className="container_row">
+        <Interest />
+        <Languages />
+      </div>
+     
     </AppContext.Provider>
   )
 };
