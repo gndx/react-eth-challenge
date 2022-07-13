@@ -15,7 +15,7 @@ export default function Header({ children }) {
           {' '}
           <span>{lastName}</span>
         </h1>
-        <p>This is my CV</p>
+        <p>{data.user}</p>
     </header>
   );
 }

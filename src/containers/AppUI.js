@@ -12,7 +12,6 @@ import Contact from '../components/Contact';
 
 export default function AppUI() {
   const { data, loading, error } = React.useContext(Context);
-  if (!loading) console.log(data);
 
   return (
     <>
@@ -24,7 +23,12 @@ export default function AppUI() {
             <About>
               <Contact/>
             </About>
-            <Skills />
+            <section className='skills-and-academic'>
+              <div className='container'>
+                <Skills />
+                <Academic />
+              </div>
+            </section>
             <Experience />
             <section className='languages-and-interest'>
               <div className='container'>
@@ -32,7 +36,6 @@ export default function AppUI() {
                 <Interest />
               </div>
             </section>
-            <Academic />
           </main>
         </>
       )}

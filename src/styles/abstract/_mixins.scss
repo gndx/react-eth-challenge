@@ -1,0 +1,31 @@
+@use './variables' as *;
+
+@mixin vertical-title($height) {
+    transform: scale(-1);
+    writing-mode: vertical-rl;
+    position: relative;
+
+    &::after {
+        content: '';
+        background-color: $color-accent;
+        width: .1rem;
+        height: $height;
+        inset: auto 0;
+        margin: auto;
+        margin-top: .5em;
+        position: absolute;
+    }
+}
+
+@mixin block-mark {
+    padding-left: 1em;
+
+    &::before {
+        content: '';
+        height: 100%;
+        width: .5rem;
+        position: absolute;
+        background-color: $color-accent;
+        left: -.1em;
+    }
+}

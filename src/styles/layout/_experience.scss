@@ -1,12 +1,45 @@
+@use '../abstract' as *;
+
 .experience {
-    background-color: hsl(0, 0%, 50%);
+    background-color: map-get($map: $color-bg, $key: "dark");
 
-    &__item {
-        border: .2em solid #000;
+    h2 {
+        text-align: right;
+        margin-bottom: 1em;
+        position: relative;
 
-        // selects all items with a previous sibling
-        &+* {
-            margin-top: 1em;
+        &::before {
+            width: 5rem;
+            height: .2rem;
+            content: '';
+            background-color: $color-accent;
+            position: absolute;
+            right: 0;
+            bottom: 0;
         }
     }
+
+    h3 span {
+        color: $color-accent;
+        // text-transform: uppercase;
+        font-size: 1.25rem;
+    }
+
+    &__content {
+        display: flex;
+        gap: 2em;
+
+        >* {
+            width: 100%;
+        }
+    }
+
+    &__dates {
+        font-weight: 600;
+    }
+
+    &__description {
+        padding: 1em;
+    }
+
 }

@@ -1,11 +1,50 @@
+@use '../abstract/' as *;
+
 .languages-and-interest {
-    background-color: hsl(0, 0%, 55%);
+    background-color: map-get($map: $color-bg, $key: "neutral");
 
     .container {
         display: flex;
+        gap: 2em;
+    }
 
-        >* {
-            width: 100%;
+    .languages {
+        display: flex;
+
+        h2 {
+            @include vertical-title(0%)
         }
+
+        ul {
+            border: .2rem solid $color-accent ;
+            padding: 2em;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            position: relative;
+
+            &::before {
+                content: '';
+                height: 30%;
+                width: .2em;
+                background-color: $color-accent;
+                position: absolute;
+                inset: 0;
+                margin: auto;
+                transform: rotate(-30deg);
+            }
+
+            li {
+                font-weight: 600;
+
+            }
+        }
+
+    }
+
+    .interest ul li {
+        position: relative;
+        margin-bottom: .75em;
+        @include block-mark
     }
 }

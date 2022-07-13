@@ -1,3 +1,5 @@
+@use '../abstract/' as *;
+
 /* montserrat-200 - latin */
 @font-face {
     font-family: 'Montserrat';
@@ -60,6 +62,7 @@
 
 body {
     font-family: 'Montserrat';
+    color: $color-text
 }
 
 h1,

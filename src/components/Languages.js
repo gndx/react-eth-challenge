@@ -8,7 +8,7 @@ export default function Languages() {
     <article className='languages'>
       <h2>Languages</h2>
       <ul>
-        {data.languages.map((language) => <li key={language.name}>{language.name}</li>)}
+        {data.languages.map((language) => <li key={language}>{language}</li>)}
       </ul>
     </article>
   );

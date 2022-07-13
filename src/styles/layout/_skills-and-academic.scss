@@ -1,0 +1,36 @@
+@use '../abstract/' as *;
+
+.skills-and-academic {
+    background-color: map-get($map: $color-bg, $key: 'neutral');
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .skills {
+        display: flex;
+
+        h2 {
+            @include vertical-title(60%)
+        }
+    }
+
+    .academic {
+        display: flex;
+
+        h2 {
+            @include vertical-title(30%)
+        }
+
+        span {
+            color: $color-accent;
+            font-weight: 600;
+        }
+    }
+
+    p {
+        position: relative;
+        @include block-mark
+    }
+}

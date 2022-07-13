@@ -1,5 +1,7 @@
+@use '../abstract/' as *;
+
 .about {
-    background-color: hsl(0, 0%, 50%);
+    background-color: map-get($map: $color-bg, $key: 'dark');
 
     .container {
         display: flex;
@@ -8,11 +10,18 @@
 
     h2 {
         font-size: 1rem;
+        color: $color-accent;
 
         span {
+            color: $color-text;
+            line-height: 1;
             font-size: 2rem;
             display: block;
             text-transform: capitalize;
         }
+    }
+
+    .contact {
+        margin-top: 2rem;
     }
 }

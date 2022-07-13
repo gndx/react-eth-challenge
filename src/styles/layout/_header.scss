@@ -1,5 +1,7 @@
+@use '../abstract' as *;
+
 .header {
-    background-color: hsl(0, 0%, 60%);
+    background-color: map-get($map: $color-bg, $key: 'neutral');
     display: flex;
     padding: 10em 0;
     flex-direction: column;
@@ -7,7 +9,12 @@
     text-align: center;
     justify-content: center;
 
+    h1 {
+        color: $color-accent;
+    }
+
     .avatar {
-        border-radius: 5rem;
+        border-radius: 50rem;
+        width: 15vw;
     }
 }

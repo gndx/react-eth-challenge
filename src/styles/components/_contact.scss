@@ -1,0 +1,20 @@
+@use '../abstract/' as *;
+
+.contact {
+    border: .2rem solid $color-accent;
+
+    ul {
+        display: inline-flex;
+        flex-direction: column;
+        gap: .5em;
+        padding: 1em;
+
+        li {
+            display: inline-block;
+        }
+    }
+
+    span {
+        font-weight: 600;
+    }
+}

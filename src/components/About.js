@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Context } from './Context';
 
-export default function About() {
+export default function About({children}) {
   const { data } = useContext(Context);
 
   return (
@@ -13,6 +13,7 @@ export default function About() {
         <div>
           <h3>{data.profession}</h3>
           <p>{data.Profile}</p>
+          {children}
         </div>
         </div>
     </section>

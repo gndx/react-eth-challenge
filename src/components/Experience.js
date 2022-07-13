@@ -9,6 +9,7 @@ export default function Experience() {
     <section className='experience'>
       <div className='container'>  
         <h2>Experience</h2>
+        <div className='experience__content'>
         {data.experience.map((item) => (
           <ExperienceItem
           key={item.company}
@@ -19,6 +20,7 @@ export default function Experience() {
           jobTitle={item.jobTitle}
           />
           ))}
+          </div>
       </div>
     </section>
   );
