@@ -17,7 +17,6 @@ export default function () {
             <p>{item.degree} ({item.startDate} - {item.endDate})</p>
             <ul>
               <li>{item.institution}</li>
-              <li>{item.description}</li>
             </ul>
           </Item>
         }) : <><Item>.Academic.item</Item><Item>.Academic.item</Item><Item>.Academic.item</Item></>

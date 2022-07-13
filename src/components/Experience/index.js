@@ -17,7 +17,6 @@ export default function () {
               <p>{item.company} ({item.startDate} - {item.endDate})</p>
               <ul>
                 <li>{item.jobTitle}</li>
-                <li>{item.jobDescription}</li>
               </ul>
             </Item>
           }) : <><Item>.Experience.item</Item><Item>.Experience.item</Item><Item>.Experience.item</Item></>
