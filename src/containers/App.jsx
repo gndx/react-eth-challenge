@@ -23,7 +23,7 @@ const App = () => {
 
   useEffect(() => {
     getData(API)
-      .then((data) => setResumeData(data))
+      .then((data) => setResumeData(data.data))
       .catch((error) => console.log(error));
   }, []);
 
