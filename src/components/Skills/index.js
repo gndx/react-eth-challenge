@@ -1,17 +1,25 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import { Title, Item } from './styles';
 import { ContainerComponent, RowDiv } from '../../styles/components';
 
+import Context from '../../Context'
+
 export default function () {
+  const data = useContext(Context);
+
   return (
     <ContainerComponent>
-      <Title>.Skills.title</Title>
+      <Title>Skills</Title>
       <RowDiv>
-        <Item>.Skills.item</Item>
-        <Item>.Skills.item</Item>
+      {
+          data && data.skills ? data.skills.map((item, key) => {
+            return <Item key={key}>
+              <p>{item.name} ({item.percentage})</p>
+            </Item>
+          }) : <><Item>.Skills.item</Item><Item>.Skills.item</Item><Item>.Skills.item</Item></>
+        }
       </RowDiv>
-      <Item>.Skills.item</Item>
     </ContainerComponent>
   );
 
