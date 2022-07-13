@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React Eth Challenge",
   "main": "index.js",
-  "homepage": "https://pinajmr.github.io/",
+  "homepage": "https://pinajmr.github.io/react-eth-challenge/",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
