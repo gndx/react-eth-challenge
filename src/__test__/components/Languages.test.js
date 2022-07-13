@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import data from 'api/data.json';
 import Languages from '../../components/Languages';
-import data from '../../../api/data.json'
 import * as AppContext from '../../context/AppContext';
 
 describe('<Languages />', () => {
   jest
-  .spyOn(AppContext, 'useAppContext')
-  .mockImplementation(()=> data.data)
+    .spyOn(AppContext, 'useAppContext')
+    .mockImplementation(() => data.data);
 
   const languages = shallow(<Languages />);
 

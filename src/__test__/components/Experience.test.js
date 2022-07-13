@@ -1,13 +1,13 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+import data from 'api/data.json';
 import Experience from '../../components/Experience';
-import data from '../../../api/data.json'
 import * as AppContext from '../../context/AppContext';
 
 describe('<Experience />', () => {
   jest
     .spyOn(AppContext, 'useAppContext')
-    .mockImplementation(()=> data.data)
+    .mockImplementation(() => data.data);
 
   const experience = shallow(<Experience />);
 
