@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+    color:rgba(0, 0, 0, .8);
+    text-shadow: 0 0 2px rgba(0, 0, 0, .2);
+}
+body{
+    background-color: blueviolet;
+}
+
+.main-container{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+
+.info-container{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.header-content{
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.profile-data {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    align-self: flex-end;       
+}
+
+.imagen-container{
+    overflow: hidden;
+    width: 120px;
+    background-color: black;
+    border-radius: .125rem;
+}
+.profile-image {
+    width: 100%;
+    display: block;
+    border-radius: .125rem;
+    border: 3px solid black;
+}
+
+.info-container,
+.Header-container{
+    max-width: max(700px, 100%);
+  
+}
+.Profile-container,
+.Header-container,
+.Languages-container,
+.Interest-container,
+.Skills-container,
+.Academic-container,
+.Experience-container{
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: .125rem;
+    background-color: rgba(255, 255, 255, .9);
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.4);
+    display: flex;   
+    gap: 1rem;
+}
+
+.Profile-container,
+.Languages-container,
+.Interest-container,
+.Skills-container,
+.Academic-container,
+.Experience-container{
+    flex-direction: column;
+    padding-bottom: 1.5rem;    
+}
+
+.Languages-item,
+.Interest-item,
+.Skills-item,
+.Academic-item,
+.Experience-item{
+    display: flex;    
+    flex-direction: column;    
+    gap: .25rem;
+}
+
+.titleh3{
+    font-weight: bold;
+}
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.skills-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;    
+}
+.item-chips{
+    padding: .25rem .5rem;
+    border-radius: 1px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.6);
+}
+.btn-hire_me{
+    position: absolute;
+    top: -4px;
+    right:  4px;
+    padding: .5rem 1rem;
+    border-radius: 1px;
+    border: 3px solid rgba(0, 0, 0, 1);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.6);
+    background-color: blueviolet;
+    text-decoration: none;
+    color: #e2e2e2;
+    font-weight: bolder;
+    text-align: center;
+    font-size: .8rem;    
+}
+.btn-hire_me:hover{
+    top: -2px;
+    right:  2px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.8);
+}
+.btn-hire_me:active{
+    top: 0px;
+    right:  0px;
+    box-shadow: 0px 0px 0 rgba(0, 0, 0, 1);
+}
+.Profile-desc{
+    line-height: calc(1rem * 1.5);
+}
+.Header-profession{
+    font-style: italic;
+    font-size: .9rem;
+}
+.Header-title{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}

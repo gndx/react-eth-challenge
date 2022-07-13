@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
-    "server": "json-server data.json",
+    "server": "json-server --watch data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
     "test": "jest"
@@ -34,7 +34,7 @@
     "webpack-dev-server": "4.9.3"
   },
   "devDependencies": {
-    "babel-eslint": "10.1.0",
+    "@babel/eslint-parser": "^7.18.2",
     "css-loader": "6.7.1",
     "eslint": "8.19.0",
     "eslint-config-airbnb": "19.0.4",
