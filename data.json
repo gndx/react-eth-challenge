@@ -1,25 +1,60 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Gabriel Hernández",
+    "profession": "FullStack JavaScript Developer",
+    "address": "México",
+    "email": "gabrielhv@onedrako.com",
+    "website": "www.onedrako.com",
+    "avatar": "https://avatars.githubusercontent.com/onedrako",
+    "Profile": "I´m a Frontend and Backend (FullStack) JavaScript Developer. Also I´m a bachelor on administration by UNAM (National Autonomous University of Mexico).",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Apr 2022",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "English Academy",
+        "img": "https://static.platzi.com/media/platzi-isotipo@2x.png"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Apr 2022",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "App Development with React Native",
+        "img": "https://static.platzi.com/media/platzi-isotipo@2x.png"
+      },
+      {
+        "date": "Apr 2022",
+        "institution": "Platzi",
+        "name": "Frontend with React",
+        "img": "https://static.platzi.com/media/platzi-isotipo@2x.png"
+      },
+      {
+        "date": "Mar 2022",
+        "institution": "Platzi",
+        "name": "JavaScript School",
+        "img": "https://static.platzi.com/media/platzi-isotipo@2x.png"
+      },
+      {
+        "date": "May 2019",
+        "institution": "National Autonomous University of Mexico(UNAM)",
+        "name": "Degree Diploma in Tourist Business Administration",
+        "img": "https://i.imgur.com/9HBHsNb.jpg"
+      },
+      {
+        "date": "Jun 2017",
+        "institution": "National Autonomous University of Mexico(UNAM)",
+        "name": "Bachelor´s in Administration",
+        "img": "https://i.imgur.com/9HBHsNb.jpg"
+      },
+      {
+        "date": "Oct 2013",
+        "institution": "National Autonomous University of Mexico(UNAM)",
+        "name": "English Intermediate",
+        "img": "https://i.imgur.com/9HBHsNb.jpg"
+      },
+      {
+        "date": "Jun 2013",
+        "institution": "Autonomous University of State of Mexico(UAEM)",
+        "name": "English Elementary",
+        "img": "https://i.imgur.com/GtvLKOw.jpg"
       }
     ],
     "Academic": [
@@ -40,52 +75,65 @@
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "El Compi / Sabor a Mi",
+        "endDate": "Mar 2021",
+        "jobDescription": "I found a Dark Mexican Kitchen in Mexico City, was in charge of Supply, Budget, cost and forecast, management before the authorities, contact to suppliers, customer service, human resources management y maintenance for the unit.",
+        "jobTitle": "Co-founder / Manager",
+        "startDate": "Jul 2019",
+        "img": "https://i.imgur.com/4UrovJt.png"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Centro Nacional de Control del Gas Natural",
+        "endDate": "Feb 2019",
+        "jobDescription": "Organization in general and for the data of area, providers negotiation and control",
+        "jobTitle": "Jr Analyst",
+        "startDate": "Apr 2018",
+        "img": "https://i.imgur.com/G55Mj0h.png"
+      },
+      {
+        "company": "Centro Nacional de Control del Gas Natural",
+        "endDate": "Mar 2018",
+        "jobDescription": "Principally Organization for the Area",
+        "jobTitle": "Social Service",
+        "startDate": "nov 2017",
+        "img": "https://i.imgur.com/G55Mj0h.png"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "Next.js",
+        "img": "https://i.imgur.com/kLvapT0.png"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "img": "https://i.imgur.com/eyKy8rf.png"
+      },
+      {
+        "name": "JavaScript",
+        "img": "https://i.imgur.com/nIYW1or.png"
+      },
+      {
+        "name": "TypeScript",
+        "img": "https://i.imgur.com/2oW4wzC.png"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      {"name": "Code"},
+      {"name": "Movies"},
+      {"name": "Music"},
+      {"name": "VideoGames"}
+      
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "native",
+        "img": "https://cdn-icons-png.flaticon.com/512/197/197593.png"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "level": "B2",
+        "img": "https://cdn-icons.flaticon.com/png/512/4628/premium/4628638.png?token=exp=1657654584~hmac=399706c87b8335a563417b1c19f9cead"
       }
     ],
     "social": [
