@@ -1,28 +1,72 @@
-import React from 'react';
-import '../styles/components/App.styl';
-import Header from '../components/Header';
-import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import React, { useEffect, useState, createContext } from 'react';
+
+import {
+  Header,
+  About,
+  Experience,
+  Academic,
+  Skills,
+  Interest,
+  Languages,
+  Profile,
+  Certificate
+} from '../components/index.js';
+import Social from '../components/Social.jsx';
+
+import getData from '../utils/getData';
+
+export const Context = createContext({});
 
 const App = () => {
+  const [resumeData, setResumeData] = useState({});
+  const API = 'https://62cf0d92826a88972d085588.mockapi.io/resume';
+
+  useEffect(() => {
+    getData(API)
+      .then((data) => setResumeData(data.data))
+      .catch((error) => console.log(error));
+  }, []);
+
   return (
-    <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
-  )
+    <div className="container">
+      <Context.Provider value={resumeData}>
+        <div>
+          <section className="header">
+            <div>
+              <img className='avatar' src="https://avatars.githubusercontent.com/u/89404026?s=400&u=5eacfe3319ea4479a17b64766239e3882af94fff&v=4"></img>
+            </div>
+            <Header>
+              <About />
+            </Header>
+          </section>
+          <section className="profile">
+            <Profile />
+          </section>
+          <section className="experience">
+            <Experience />
+          </section>
+          <section className="academic">
+            <Academic />
+          </section>
+          <section className="academic">
+            <Certificate />
+          </section>
+          <section className="skills">
+            <Skills />
+          </section>
+          <section className="interest">
+            <Interest />
+          </section>
+          <section className="languages">
+            <Languages />
+          </section>
+          <section className='social-media'>
+            <Social/>
+          </section>
+        </div>
+      </Context.Provider>
+    </div>
+  );
 };
 
 export default App;

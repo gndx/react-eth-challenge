@@ -1,0 +1,78 @@
+body {
+    background-color: #595959;
+}
+
+.container{
+    width: 21cm; min-height: 29.7cm; padding: 2cm; margin: 1cm auto; border: 1px #D3D3D3 solid; border-radius: 5px; background: white; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 22% 78%;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.profile{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.experience{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.academic{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.skills{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.interest{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.languages{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.Header-title{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.social-media{
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+#unique-ul{
+    list-style: none;
+}
+
+.About-title{
+    display: none;
+}
