@@ -1,9 +1,13 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Languages from '../../components/Languages';
+import data from '../../../data.json';
+import * as AppContext from '../../containers/AppContext';
 
 describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+  jest.spyOn(AppContext, 'appContext').mockImplementation(() => data.data);
+
+  const languages = shallow(<Languages />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);

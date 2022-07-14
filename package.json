@@ -7,6 +7,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "server": "json-server data.json",
+    "vercel-build":"npm run build",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
     "test": "jest"
@@ -19,8 +20,10 @@
   "license": "MIT",
   "dependencies": {
     "@babel/core": "7.18.6",
+    "@babel/eslint-parser": "^7.18.2",
     "@babel/preset-env": "7.18.6",
     "@babel/preset-react": "7.18.6",
+    "axios": "^0.27.2",
     "babel-loader": "8.2.5",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
@@ -34,7 +37,6 @@
     "webpack-dev-server": "4.9.3"
   },
   "devDependencies": {
-    "babel-eslint": "10.1.0",
     "css-loader": "6.7.1",
     "eslint": "8.19.0",
     "eslint-config-airbnb": "19.0.4",
@@ -61,5 +63,13 @@
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruizalonso/react-eth-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruizalonso/react-eth-challenge/issues"
+  },
+  "homepage": "https://github.com/ruizalonso/react-eth-challenge#readme"
 }
