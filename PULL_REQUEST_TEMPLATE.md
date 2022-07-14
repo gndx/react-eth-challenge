@@ -20,4 +20,4 @@ Solucionar el problema con la libreria de test
 Modificar los datos del archivo json
 Implementar la logica de cada seccion
 Revisar el cumplimiento de las pruebeas
-Desplegadp en Github pages: https://r3xakead0.github.io/react-eth-challenge/build/index.html
+Desplegadp en Github pages: https://r3xakead0.github.io/react-eth-challenge/dist/index.html

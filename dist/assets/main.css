@@ -1,0 +1,9 @@
+*{font-family:Arial,Helvetica,sans-serif;box-sizing:border-box;padding:0;margin:0}body{background-color:#000080}#app{max-width:1200px;margin:auto;padding:40px}.last{width:100%;display:inline-flex;gap:1rem}
+.about{width:100%}.About-title{margin-top:1rem;width:100%}.about p{width:25%;display:inline;padding-right:10%;line-height:2rem}
+.header{background:#dee2e6;display:inline-flex;border-radius:1rem;margin-bottom:1rem}.header-img{width:30%;border-radius:50%;padding:1rem;display:flex;justify-content:center;align-items:center}.header-img img{margin:auto;width:100%;border-radius:50%}.header-box{width:70%;padding:2rem}.header-box p{margin-bottom:.5rem}.Header-title{margin-bottom:1rem}
+.Profile{background:#dee2e6;border-radius:1rem;padding:1rem;margin-bottom:1rem;display:block}.Profile-desc{padding:1rem}
+.Experience{background:#dee2e6;border-radius:1rem;padding:1rem;margin-bottom:1rem;display:block}.Experience-item{padding:1rem}.Experience-item h5{color:#4a4f54}
+.Academic{background:#dee2e6;border-radius:1rem;padding:1rem;margin-bottom:1rem;display:block}.Academic-item{padding:1rem}.Academic-item h5{color:#4a4f54}
+.Skills{width:50%;background:#dee2e6;border-radius:1rem;padding:1rem;margin-bottom:1rem;display:block}.Skills-title{width:100%}.Skills-item{padding:1rem 0 .2rem 1rem}
+.Interest{width:50%;background:#dee2e6;border-radius:1rem;padding:1rem;margin-bottom:1rem;display:block}.Interest-item{padding:1rem 0 .2rem 1rem}
+.Languages{background:#dee2e6;border-radius:1rem;padding:1rem;margin-bottom:1rem;display:inline-flex;flex-wrap:wrap;width:100%;justify-content:space-around}.Languages-title{width:100%}.Languages-item{width:12%;margin-top:1rem}
