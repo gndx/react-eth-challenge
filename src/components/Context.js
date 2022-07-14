@@ -8,7 +8,7 @@ export default function Provider({ children }) {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/data')
+    fetch('https://my-json-server.typicode.com/bramuccci/react-eth-challenge/data')
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP error at fetching data: The status is ${res.status}`);
         return res.json();
