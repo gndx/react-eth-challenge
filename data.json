@@ -1,109 +1,120 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Matías Oscar leiva",
+    "profession": "Fullstack Developer",
+    "address": "Catamarca, Argentina.",
+    "email": "matiasoscarleiva@gmail.com",
+    "website": "https://leivamatias.com",
+    "phone": "+5493834923149",
+    "avatar": "https://media-exp2.licdn.com/dms/image/C4D03AQG7k_otdF3Ysw/profile-displayphoto-shrink_800_800/0/1616633464185?e=1662595200&v=beta&t=WeBaB9L6gkP0n0Iclx2pVhrzS9SDEkPNkvC2Dmew5qY",
+    "profile": "I am a web developer specialized in React and React Native. I seek to contribute to innovative projects of great social impact. I have a great enthusiasm for entrepreneurship, teamwork and software development.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Aug 2020",
+        "description": "Javascript",
+        "institution": "Udemy",
+        "name": "Functional Programming"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Dec 2019",
+        "description": "Web Develop - Javascript, NodeJS, MongoDB, Angular",
+        "institution": "Udemy",
+        "name": "Master Javascript - MEAN"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Frontend Developer",
+        "description": "React and React Native Bootcamp",
+        "endDate": "March 2021",
+        "institution": "Technology Catamarca Cluster",
+        "startDate": "Janaury 2021"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Javascript developer",
+        "description": "Javascript School",
+        "endDate": "present",
+        "institution": "Platzi",
+        "startDate": "Janaury 2022"
+      },
+      {
+        "degree": "React Developer",
+        "description": "React School",
+        "endDate": "present",
+        "institution": "Platzi",
+        "startDate": "Janaury 2022"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "company": "Reciclads",
+        "endDate": "March 2022",
+        "jobDescription": "React Native Application development, React Web development NodeJS app maintenance",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "June 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Modernization Ministry of Catamarca",
+        "endDate": "Present",
+        "jobDescription": "Create React Websites and libraries",
+        "jobTitle": "Frontend",
+        "startDate": "July 2021"
+      },
+      {
+        "company": "SiDCa",
+        "endDate": "Present",
+        "jobDescription": "Create React Website, React Native App and Moodle server",
+        "jobTitle": "Fullstack",
+        "startDate": "July 2021"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
+        "name": "React",
+        "percentage": "85%"
+      },
+      {
+        "name": "React Native",
+        "percentage": "60%"
+      },
+      {
+        "name": "JavaScript",
         "percentage": "75%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "percentage": "50%"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "React",
+      "Crypto",
+      "frontend",
+      "Backend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "95%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
+      },
+      {
+        "name": "Portuguese",
+        "percentage": "40%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/Matias-Leiva"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/matias-oscar-leiva/"
       }
     ]
   }
