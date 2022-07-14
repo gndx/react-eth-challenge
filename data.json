@@ -1,87 +1,79 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Afu Nang Tse Mundaca",
+    "profession": "Devops Engineer",
+    "address": "Lima, Peru.",
+    "email": "solapa@gmail.com",
+    "website": "https://www.linkedin.com/afutse",
+    "phone": "+51 925 819 322",
+    "avatar": "https://pbs.twimg.com/profile_images/1143115408/me_400x400.jpg",
+    "Profile": "Software Engineer | AWS Certified Solutions Architect | Azure Developer Associate | Azure Fundamentals (x4) | Blockchain",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Jan 2022",
+        "description": "Earning Azure Developer Associate certification validates the skills and knowledge to design, build, test, and maintain cloud applications and services on Microsoft Azure. Candidates participate in all phases of cloud development from requirements definition and design, to development, deployment, and maintenance.",
+        "institution": "Microsoft",
+        "name": "Microsoft Certified: Azure Developer Associate"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Nov 2021",
+        "description": "Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.",
+        "institution": "AWS",
+        "name": "AWS Certified Solutions Architect – Associate"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
+        "degree": "Software Engineering",
+        "description": "I degreed in Software Engineering in one of the best universities in Peru",
         "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "institution": "Universidad Peruana de Ciencia Aplicadas - UPC",
+        "startDate": "Jan 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Tottus",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "I feel grateful to be part of the DevOps team and automate processes.",
+        "jobTitle": "DevOps Engineer",
+        "startDate": "Jan 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Neksys",
+        "endDate": "Dec 2021",
+        "jobDescription": "I worked with clients in software development using Microsoft technologies such as .Net and Sql Server, focusing on E-Commerce.",
+        "jobTitle": "Software Engineer",
+        "startDate": "Sep 2019"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "50%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": ".Net",
+        "percentage": "80%"
+      },
+      {
+        "name": "NodeJS",
+        "percentage": "70%"
+      },
+      {
+        "name": "Sql Server",
+        "percentage": "70%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "devops",
+      "cloud",
+      "develop"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
@@ -91,20 +83,25 @@
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/r3xakead0"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/r3xakead0"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/r3xakead0"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/afutse"
       }
+    ],
+    "about": [
+      "Humility",
+      "Honesty",
+      "Resiliency"
     ]
   }
 }
