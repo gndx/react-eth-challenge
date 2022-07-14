@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "name": "Diego Bustos Puebla",
+    "profession": "FullStack Developer",
+    "address": "CDMX, México.",
+    "email": "diegoabustos@outlook.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "55 1249 0968",
+    "avatar": "https://avatars.githubusercontent.com/u/48221360?v=4",
+    "Profile": "Developer specialized in the frontend in tech as Js React Ts. In constant learning. Interested in new tech like Web3",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,34 +24,41 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Systems engineer",
+        "description": "University studies in computer systems",
+        "endDate": "Aug 2017",
+        "institution": "Universidad CUGS",
+        "startDate": "Sep 2014"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "technician in electronic systems",
+        "description": "knowledge of electronic systems",
+        "endDate": "Jun 2013",
+        "institution": "CONALEP 004",
+        "startDate": "Jul 2010"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "ivoy",
+        "endDate": "Jun 2022",
+        "jobDescription": "Development of internal services for users using Javascript Stack, Node with Express and NestJs for de backend and the front end use React.",
+        "jobTitle": "Fullstack Dev",
+        "startDate": "Jul 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "ivoy",
+        "endDate": "Jun 2021",
+        "jobDescription": "Development interfaces for clients and users replace the platform legacy for the new tech use React.",
+        "jobTitle": "Front End Dev",
+        "startDate": "Mar 2019"
+      },
+      {
+        "company": "SOC Asesores",
+        "endDate": "Oct 2018",
+        "jobDescription": "Development interfaces using Html Css and JS with jquery and Bootstap",
+        "jobTitle": " Jr Programmer",
+        "startDate": "Jan 2019"
       }
     ],
     "skills": [
@@ -61,22 +68,43 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "35%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "65%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "80%"
+      },
+      {
+        "name": "Typescript",
+        "percentage": "55%"
+      },
+      {
+        "name": "GraphQL",
+        "percentage": "80%"
+      },
+      {
+        "name": "NextJs",
+        "percentage": "70%"
+      },
+      {
+        "name": "Git y GitHub",
+        "percentage": "80%"
+      },
+      {
+        "name": "Tailwind",
+        "percentage": "45%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
+      "Devops",
+      "Blockchain",
       "backend",
-      "frontend"
+      "frontend",
+      "web3"
     ],
     "languages": [
       {
@@ -91,19 +119,19 @@
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/profile.php?id=100083048681559"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/Dab_code"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/Diegoabustos"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/diego-bustos-367229167/"
       }
     ]
   }
