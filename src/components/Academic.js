@@ -6,8 +6,12 @@ export default function Academic({ academic = ['', '', ''] }) {
       <h2 className='Academic-title text-4xl font-bold'>Academic</h2>
       <div className='mt-10 grid gap-4'>
         {academic.map((academicItems, index) => (
-          <div key={academicItems.institution} className='w-full p-4 mob:p-2 rounded-lg transition-all ease-out duration-300 hover:bg-slate-50 hover:scale-105 cursor-pointer hover:text-teal-800'>
-            <h3 className='text-3xl'>{academicItems.institution}</h3>
+          <div
+            className='w-full p-4 mob:p-2 rounded-lg transition-all ease-out duration-300 hover:bg-slate-50 hover:scale-105 cursor-pointer hover:text-teal-800'
+            // eslint-disable-next-line react/no-array-index-key
+            key={index}
+          >
+            <h3 className='Academic-item text-3xl'>{academicItems.institution}</h3>
             <p className='opacity-80 text-xl'>
               {academicItems.description}
             </p>

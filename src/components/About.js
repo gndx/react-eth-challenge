@@ -13,16 +13,16 @@ export default function About({ profession = 'profession', social = [], address 
         </div>
       </div>
       <div className='w-full mt-5 lg:mt-0'>
-        <h2 className='Header-title text-4xl font-bold'>{name}</h2>
-        <h3 className='Header-job-title text-2xl font-bold mt-1'>{profession}</h3>
+        <h2 className='About-title text-4xl font-bold'>{name}</h2>
+        <h3 className='text-2xl font-bold mt-1'>{profession}</h3>
         <ul className='flex justify-start flex-wrap pl-0'>
-          <li className='pr-8 pb-2'>
+          <li className='About-item pr-8 pb-2'>
             <a href={`tel:${phone}`}>{phone}</a>
           </li>
-          <li className='pr-8 pb-2'>
+          <li className='About-item pr-8 pb-2'>
             <a href={`mailto:${email}`}>{email}</a>
           </li>
-          <li className='pr-8 pb-2'>
+          <li className='About-item pr-8 pb-2'>
             <a href={website}>{website}</a>
           </li>
         </ul>
