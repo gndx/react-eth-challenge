@@ -18,10 +18,10 @@ export default function AppUI() {
       {error && <p>error</p>}
       {data && !loading && (
         <>
-          <Header/>
+          <Header />
           <main>
             <About>
-              <Contact/>
+              <Contact />
             </About>
             <section className='skills-and-academic'>
               <div className='container'>
@@ -37,7 +37,7 @@ export default function AppUI() {
               </div>
             </section>
           </main>
-          <SocialMedia/>
+          <SocialMedia />
         </>
       )}
     </>

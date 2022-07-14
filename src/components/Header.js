@@ -7,21 +7,25 @@ export default function Header({ children }) {
   const fullName = data.name.split(' ');
   const name = fullName[0];
   const lastName = fullName[1];
-  const background = data.background;
+  const { background } = data;
 
-  const [navVisible, setNavVisible] = useState(false)
-  const toggleNav = ()=>{
-    setNavVisible(!navVisible)
-  }
+  const [navVisible, setNavVisible] = useState(false);
+  const toggleNav = () => {
+    setNavVisible(!navVisible);
+  };
 
   return (
-    <header className='header' id='Home' style={{ 
-      backgroundImage: `url(${background})`
-    }}>
-      <button onClick={toggleNav} className='mobile-nav-toggle' aria-controls='Main-nav' aria-expanded={navVisible}><span className='screenreader-only'>Menu</span></button>
-      <Nav navVisible={navVisible}/>
+    <header
+      className='header'
+      id='Home'
+      style={{
+        backgroundImage: `url(${background})`,
+      }}
+    >
+      <button type='button' onClick={toggleNav} className='mobile-nav-toggle' aria-controls='Main-nav' aria-expanded={navVisible}><span className='screenreader-only'>Menu</span></button>
+      <Nav navVisible={navVisible} />
       <div className='header__content'>
-      <img className='avatar' alt='avatar' src={data.avatar} />
+        <img className='avatar' alt='avatar' src={data.avatar} />
         <h1>
           {name}
           {' '}
