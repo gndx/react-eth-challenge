@@ -1,9 +1,19 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import About from '../../components/About';
 
+const data = {
+  social: [
+    {name: 'example1', url: 'www'},
+    {name: 'example2', url: 'www'},
+    {name: 'example3', url: 'www'}
+  ],
+  name:'andrea', 
+  phone: '634', 
+  email: 'example@'
+}
 describe('<About />', () => {
-  const about = mount(<About />);
+  const about = shallow(<About {...data}/>);
 
   test('About render', () => {
     expect(about.length).toEqual(1);

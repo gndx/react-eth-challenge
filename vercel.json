@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "name": "react-eth-challenge",
+    "builds": [{ "use": "@vercel/static-build", "src": "package.json" }],
+    "routes": [
+        {
+            "src": "(.*).js",
+            "dest": "$1.js"
+        },
+        {
+            "src": "(.*).json",
+            "dest": "$1.json"
+        },
+        {
+            "src": "(.*).png",
+            "dest": "$1.png"
+        },
+        {
+            "src": "(.*).css",
+            "dest": "$1.css"
+        },
+        {
+            "src": "/.*",
+            "dest": "/index.html"
+        }
+    ]
+}

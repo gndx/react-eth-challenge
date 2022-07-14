@@ -1,0 +1,26 @@
+.Interest-title {
+    color: #7a7894;
+    font-size: 1.4rem;
+    font-weight: medium;
+}
+
+.Interest-item {
+    color: #4f4f50;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: normal;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 400px
+}
+
+.container-right-interest {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.container-left-interest {
+    width: 80%;
+}

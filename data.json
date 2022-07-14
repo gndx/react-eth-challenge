@@ -1,13 +1,11 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Gitmel Gutierrez",
+    "profession": "Product Developer",
+    "address": "San Joaquin, Venezuela",
+    "email": "gitmelbco@gmail.com",
+    "phone": "+584122923204",
+    "Profile": "Soy product developer con experiencia en desarrollo frontend. Me especializo en la creacion de productos digitales desde su concepcion hasta el MVP. Mi objetivo es naturalizar el uso de la tecnologia blockchain con productos practicos para las personas",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -16,94 +14,109 @@
         "name": "FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
+        "date": "Sept 2021",
         "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso de Metodologías para Diseñar un Producto Digital"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Ingeniero Electrónico",
+        "description": "",
+        "endDate": "Feb 2012",
+        "institution": "UNEFA",
+        "startDate": "Dic 2018"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Curso de Metodologías para Diseñar un Producto Digital",
+        "description": "",
+        "endDate": "Sept 2021",
+        "institution": "Platzi",
+        "startDate": ""
+      },
+      {
+        "degree": "Curso de ECMAScript 6+",
+        "description": "",
+        "endDate": "Ene 2022",
+        "institution": "Platzi",
+        "startDate": ""
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Ceercle Project",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Diseno de productos desde su concepcion hasta el MVP.",
+        "jobTitle": "Product Developer",
+        "startDate": "Nov 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Freelance",
+        "endDate": "Nov 2021",
+        "jobDescription": "Disene y maquete paginas web",
+        "jobTitle": "Desarrollador frontend",
+        "startDate": "Ene 2020"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "competente"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "git",
+        "percentage": "competente"
+      },
+      {
+        "name": "Lean UX",
+        "percentage": "competente"
+      },
+      {
+        "name": "Javascript",
+        "percentage": "familiarizado"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "familiarizado"
+      },
+      {
+        "name": "VueJS",
+        "percentage": "familiarizado"
+      },
+      {
+        "name": "Scrum",
+        "percentage": "familiarizado"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Ux",
+      "Web3",
+      "Frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Nativo"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "Conversacional"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/whynotgit"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/gitguti"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/gitguti"
       }
     ]
   }
