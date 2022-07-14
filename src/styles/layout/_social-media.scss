@@ -1,0 +1,44 @@
+@use '../abstract/' as *;
+
+.social-media {
+    background-color: map-get($map: $color-bg, $key: "very-dark");
+
+    .container {
+        display: flex;
+
+        >* {
+            width: 100%;
+        }
+
+    }
+
+    p {
+        font-size: 1.25rem;
+
+        span {
+            color: $color-accent;
+            font-weight: 600;
+        }
+    }
+
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 2rem;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            border: .2rem solid $color-accent;
+            padding: 1em;
+            transition: all 300ms ease-in-out;
+
+            &:hover,
+            &:focus {
+                padding-left: 50%;
+            }
+        }
+    }
+}

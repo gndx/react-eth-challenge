@@ -8,6 +8,7 @@ import Interest from '../components/Interest';
 import { Context } from '../components/Context';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
+import SocialMedia from '../components/SocialMedia';
 
 export default function AppUI() {
   const { data, loading, error } = React.useContext(Context);
@@ -36,6 +37,7 @@ export default function AppUI() {
               </div>
             </section>
           </main>
+          <SocialMedia/>
         </>
       )}
     </>
