@@ -1,40 +1,47 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Jose Luis Rodriguez",
+    "profession": "Backend Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "joseing034@gmail.com",
+    "website": "",
+    "phone": "3057047474",
+    "avatar": "https://avatars.githubusercontent.com/u/6017431?s=40&v=4",
+    "Profile": "Im love of tech",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "June 2022",
+        "description": "Course about how get expose on social media",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Marca personal"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "May 2021",
+        "description": "Backend, microservices con nodejs and framework NESTJS",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Backend con NESTJS"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
+        "degree": "Nodejs",
+        "description": "creation of microservices with nodejs",
         "endDate": "Jan 2017",
         "institution": "MIT",
         "startDate": "Jan 2018"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Typescript",
+        "description": "creation of microservices with Typescript",
+        "endDate": "Jan 2018",
+        "institution": "MIT",
+        "startDate": "Jan 2019"
+      },
+      {
+        "degree": "Typescript fundamentals",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "endDate": "December 2015",
+        "institution": "Platzi",
         "startDate": "Jan 2017"
       }
     ],
@@ -52,24 +59,27 @@
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
         "startDate": "Sept 2019"
+      },
+      {
+        "company": "Globant",
+        "endDate": "Jan 2019",
+        "jobDescription": "create microservices with nodejs and nestjs",
+        "jobTitle": "Backend",
+        "startDate": "Sept 2016"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
       },
       {
         "name": "React",
         "percentage": "90%"
+      },
+      {
+        "name": "Nodejs",
+        "percentage": "60%"
       }
     ],
     "interest": [
@@ -86,6 +96,10 @@
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Pourtuges",
+        "percentage": "10%"
       }
     ],
     "social": [

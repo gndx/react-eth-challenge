@@ -1,0 +1,25 @@
+.Languages {
+    background-color: #bdf1d4;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+    margin-left: 0.5%;
+    min-height: 100px;
+    border-radius: 2px;
+}
+
+.Languages-title {
+    color: #47525e;
+    margin: 0 0 10px 0;
+    padding: 0 0 0 20px;
+}
+
+.Languages-item {
+    color: #47525e;
+    margin: 0 0 20px 0;
+    min-width: 100px;
+    font-weight: 400;
+    padding: 0 0 0 20px;
+}
