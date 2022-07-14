@@ -1,0 +1,99 @@
+{
+  "data": {
+    "name": "Candela Bramucci",
+    "profession": "FrontEnd Developer",
+    "address": "Buenos Aires, Argentina.",
+    "email": "candelabramucci05@gmail.com",
+    "user": "@bramuccci",
+    "website": "bramuccci.example",
+    "phone": "+54 1113-9863",
+    "avatar": "https://i.imgur.com/N7uYz3F.jpg",
+    "background": "https://i.imgur.com/awDr11K.jpg",
+    "Profile": "I've been wondering to see what the web has to show me. Now I'm making it, taking it to the next level.",
+    "Academic": [
+      {
+        "degree": "Atomic Master",
+        "endDate": "Jan 2017",
+        "institution": "MIT",
+        "startDate": "Jan 2018"
+      },
+      {
+        "degree": "Space Engineering",
+        "endDate": "December 2015",
+        "institution": "Harvard",
+        "startDate": "Jan 2017"
+      },
+      {
+        "degree": "Computer Science",
+        "endDate": "October 2017",
+        "institution": "Harvard",
+        "startDate": "Jan 2019"
+      }
+    ],
+    "experience": [
+      {
+        "company": "PugStar",
+        "endDate": "Present",
+        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobTitle": "Frontend",
+        "startDate": "Jan 2020"
+      },
+      {
+        "company": "CatStore",
+        "endDate": "Jan 2016",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Backend",
+        "startDate": "Sept 2019"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "description": "Solid bases for solid pages"
+      },
+      {
+        "name": "Sass",
+        "description": "Applying beauty to the web"
+      },
+      {
+        "name": "JavaScript",
+        "description": "Making ideas come true"
+      },
+      {
+        "name": "React",
+        "description": "Taking control about everything"
+      },
+      {
+        "name": "webpack",
+        "description": "Putting all together"
+      }
+    ],
+    "interest": [
+      "Making frontend development with JavaScript and React",
+      "Participating in company activities",
+      "Taking a look in good design"
+    ],
+    "languages": [
+      "Spanish",
+      "English"
+    ],
+    "social": [
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/bramuccci"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/bramuccci"
+      },
+      {
+        "name": "platzi",
+        "url": "https://platzi.com/p/bramuccci/"
+      },
+      {
+        "name": "frontend mentor",
+        "url": "https://www.frontendmentor.io/profile/bramuccci"
+      }
+    ]
+  }
+}

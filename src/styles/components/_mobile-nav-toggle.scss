@@ -1,0 +1,21 @@
+@use '../abstract/' as *;
+
+.mobile-nav-toggle {
+    display: none;
+
+    @include for-tablet-portrait-down {
+        display: inline-block;
+        background: url('../assets/images/menu.svg') transparent center/contain;
+        border: none;
+        width: 2rem;
+        aspect-ratio: 1;
+        right: 2rem;
+        top: 2rem;
+        position: fixed;
+        z-index: 9999;
+
+        &[aria-expanded='true'] {
+            background-image: url('../assets/images/menu-close.svg');
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@use '../abstract/' as *;
+
+.about {
+    background-color: map-get($map: $color-bg, $key: 'dark');
+
+    .container {
+        display: flex;
+        gap: 2em;
+
+        @include for-phone-only {
+            flex-direction: column;
+        }
+    }
+
+    h2 {
+        font-size: 1rem;
+        color: $color-accent;
+
+        span {
+            color: $color-text;
+            line-height: 1;
+            font-size: 2rem;
+            display: block;
+            text-transform: capitalize;
+        }
+    }
+
+    .contact {
+        margin-top: 2rem;
+    }
+}

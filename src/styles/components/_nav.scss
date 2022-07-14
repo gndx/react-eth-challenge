@@ -1,0 +1,46 @@
+@use '../abstract/' as *;
+
+.main-nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    gap: 1rem;
+    padding: 2em;
+    z-index: 1000;
+    width: 100%;
+    transition: background 300ms ease-in-out;
+
+    a {
+        color: $color-text;
+        text-decoration: none;
+        text-transform: capitalize;
+
+        &:hover,
+        &:focus {
+            font-weight: 800;
+            @include block-mark;
+        }
+    }
+
+    &__background {
+        background-color: map-get($map: $color-bg, $key: "dark");
+    }
+
+    @include for-tablet-portrait-down {
+        transform: translateX(100%);
+        backdrop-filter: blur(1rem);
+        background-color: rgba(map-get($map: $color-bg, $key: "neutral"), .7);
+        position: fixed;
+        top: 0;
+        padding: 4em 2em;
+        min-height: 100vh;
+        max-width: 100vw;
+        flex-direction: column;
+        font-size: 1.5rem;
+        justify-content: space-between;
+
+        &[data-visible="true"] {
+            transform: translateX(0%);
+        }
+    }
+}

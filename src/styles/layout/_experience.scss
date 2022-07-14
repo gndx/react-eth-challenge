@@ -1,0 +1,49 @@
+@use '../abstract' as *;
+
+.experience {
+    background-color: map-get($map: $color-bg, $key: "dark");
+
+    h2 {
+        text-align: right;
+        margin-bottom: 1em;
+        position: relative;
+
+        &::before {
+            width: 5rem;
+            height: .2rem;
+            content: '';
+            background-color: $color-accent;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    h3 span {
+        color: $color-accent;
+        // text-transform: uppercase;
+        font-size: 1.25rem;
+    }
+
+    &__content {
+        display: flex;
+        gap: 2em;
+
+        >* {
+            width: 100%;
+        }
+
+        @include for-phone-only {
+            flex-direction: column;
+        }
+    }
+
+    &__dates {
+        font-weight: 600;
+    }
+
+    &__description {
+        padding: 1em;
+    }
+
+}
