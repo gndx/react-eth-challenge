@@ -54,7 +54,7 @@ npm run lint
 
 ### Enviar solución de reto
 
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
+Debes de crear un "Fork" de este proyecto, resolver los problemas y crear un Pull Request hacia tu repositorio.
 
 ### Contribuir
 

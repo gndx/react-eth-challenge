@@ -1,0 +1,17 @@
+.Profile {
+    background-color: #bdf1d4;
+}
+
+.Profile-title {
+    color: #47525e;
+    margin: 0 0 10px 0;
+    padding: 0 0 0 20px;
+}
+
+.Profile-desc {
+    color: #47525e;
+    margin: 0 0 20px 0;
+    min-width: 100px;
+    font-weight: 400;
+    padding: 0 0 0 20px;
+}

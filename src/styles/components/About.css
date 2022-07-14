@@ -1,0 +1,15 @@
+.About {
+    flex-wrap: wrap;
+}
+
+.About-title {
+    color: #47525e;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+}
+
+.About-item {
+    color: #47525e;
+    margin: 0 20px 0 0;
+    font-weight: 400;
+}

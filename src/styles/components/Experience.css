@@ -1,0 +1,21 @@
+.Experience {
+    background-color: #bdf1d4;
+}
+
+.Experience-title {
+    color: #47525e;
+    margin: 0 0 10px 0;
+    padding: 0 0 0 20px;
+}
+
+.Experience-items {
+    
+}
+
+.Experience-item {
+    color: #47525e;
+    margin: 0 0 20px 0;
+    min-width: 300px;
+    font-weight: 400;
+    padding: 0 0 0 20px;   
+}
