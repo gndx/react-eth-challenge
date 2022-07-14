@@ -40,7 +40,6 @@ const App = () => {
           <Skills data={data} />
           <Experience data={data} />
           <Academic data={data} />
-          <Projects data={data} />
           <Interest data={data} />
           <About data={data} />
           <Languages data={data} />
