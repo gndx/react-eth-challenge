@@ -1,20 +1,29 @@
 @use '../abstract/' as *;
 
 .main-nav {
-    background-color: hsla(209, 20%, 40%, 0.5);
     position: fixed;
     top: 0;
     display: flex;
     gap: 1rem;
-    padding: 1em 2em;
+    padding: 2em;
     z-index: 1000;
     width: 100%;
+    transition: background 300ms ease-in-out;
 
     a {
         color: $color-text;
         text-decoration: none;
         text-transform: capitalize;
 
+        &:hover,
+        &:focus {
+            font-weight: 800;
+            @include block-mark;
+        }
+    }
+
+    &__background {
+        background-color: map-get($map: $color-bg, $key: "dark");
     }
 
     @include for-tablet-portrait-down {

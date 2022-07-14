@@ -19,6 +19,7 @@
 
 @mixin block-mark {
     padding-left: 1em;
+    position: relative;
 
     &::before {
         content: '';
