@@ -1,16 +1,23 @@
 ## DESCRIPTION
 
-Solución al reto:
+Solución al reto: React Eth Challenge
 
-Nombre:
-Usuario Platzi:
+Nombre: Afu Nang Tse Mundaca
+Usuario Platzi: afutse
 
 ## Reto:
 
-- [ ] Primer problema
-- [ ] Segundo problema
-- [ ] Tercer problema
-- [ ] Cuarto Problema
-- [ ] Quinto Problema
-- [ ] Sexto Problema
-- [ ] Septimo Problema
+- [x] Primer problema
+- [x] Segundo problema
+- [x] Tercer problema
+- [x] Cuarto Problema
+- [x] Quinto Problema
+- [x] Sexto Problema
+- [x] Septimo Problema
+
+## Documentacion:
+Solucionar el problema con la libreria de test
+Modificar los datos del archivo json
+Implementar la logica de cada seccion
+Revisar el cumplimiento de las pruebeas
+Desplegadp en Github pages: https://r3xakead0.github.io/react-eth-challenge/dist/index.html

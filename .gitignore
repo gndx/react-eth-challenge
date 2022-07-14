@@ -1,3 +1,6 @@
+package-lock.json
+.pre-commit-config.yaml
+
 # Logs
 logs
 *.log
@@ -80,7 +83,6 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
