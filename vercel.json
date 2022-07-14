@@ -11,11 +11,19 @@
         },
         {
             "src": "(.*).json",
-            "dest": "/$1.json"            
+            "dest": "/$1.json"          
+        },
+        {
+            "src": "(.*).css",
+            "dest": "/$1.css"
+        },
+        {
+            "src": "(.*).styl",
+            "dest": "/$1.styl"
         },
         {
             "src": "/.*",
-            "dest": "index.html"
+            "dest": "/index.html"
         }
     ]
 }
