@@ -2,8 +2,10 @@
 
 Solución al reto:
 
-Nombre:
-Usuario Platzi:
+Nombre: Kevin Dorado
+Usuario Platzi: kador
+
+Deploy: 
 
 ## Reto:
 
