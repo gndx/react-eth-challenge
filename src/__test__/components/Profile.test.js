@@ -1,9 +1,12 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Profile from '../../components/Profile';
+import data from '../../../data.json';
+import * as AppContext from '../../containers/AppContext';
 
 describe('<Profile />', () => {
-  const profile = mount(<Profile />);
+  jest.spyOn(AppContext, 'appContext').mockImplementation(() => data.data);
+  const profile = shallow(<Profile />);
 
   test('Profile render', () => {
     expect(profile.length).toEqual(1);

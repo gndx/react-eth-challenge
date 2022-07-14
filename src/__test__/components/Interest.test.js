@@ -1,9 +1,13 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Interest from '../../components/Interest';
+import data from '../../../data.json';
+import * as AppContext from '../../containers/AppContext';
 
 describe('<Interest />', () => {
-  const interest = mount(<Interest />);
+  jest.spyOn(AppContext, 'appContext').mockImplementation(() => data.data);
+
+  const interest = shallow(<Interest />);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);

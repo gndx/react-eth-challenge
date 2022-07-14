@@ -1,2 +1,100 @@
+bg-color = #2E2E2E;
+text-color = #E8E8E8;
+
 body
-  background-color blue
+  background-color bg-color
+  color text-color
+  margin 24px
+  font-family 'Source Sans Pro', sans-serif;
+a
+  text-decoration none
+  color text-color
+  font-weight 500
+  &:visited
+    color text-color
+  &:focus
+    outline none
+span, p
+  font-weight 300
+  color text-color
+  letter-spacing 1.7px
+.Header-data
+  display flex
+  align-items center
+  img
+    width 224px
+    height 224px
+    border-radius 50%
+    display block;
+  .Header-title
+    margin-left 2rem
+    float right
+    .About-title
+      font-weight: bold
+      font-size 4.5rem
+    .About-item:nth-child(2)
+      font-size 3.2rem
+      display block
+      margin-bottom 0.5rem
+    for item in 3 4 5 6
+      .About-item:nth-child({item})
+        display block
+        font-size 2.5rem
+        margin-bottom 0.5rem
+.Social-item
+  display flex
+  justify-content: center
+  a
+    display inline
+    margin-right 5rem
+    font-size 4.5rem
+section
+  margin-top 6rem
+  margin-bottom 6rem
+  h2
+    font-size 3.2rem
+    font-weight: bold
+    display inline
+  article
+    margin 2rem 0 2rem 0
+// tablets
+@media (min-width 40em) and (max-width 63.9em)
+  .Header-data
+    .About-title
+      font-size 2.5rem
+//PC
+@media (min-width 64em)
+  body
+    margin 12px 224px 12px 224px
+  .Header-data
+    img
+      width 128px
+      height 128px
+    .Header-title
+      .About-title
+        font-size 2.5rem
+      .About-item:nth-child(2)
+        font-size 2.2rem
+      for item in 3 4 5 6
+        .About-item:nth-child({item})
+          font-size 1.5rem
+  section 
+    margin-top 2rem
+    margin-bottom 2rem
+    h2
+      font-size 2.2rem
+      font-weight: bold
+      display inline
+  .Social-item
+    display flex
+    justify-content: start
+    a
+      display inline
+      margin-right 5rem
+      font-size 3.5rem
+  .academic-area
+    display grid;
+    grid-template-columns repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap 0px;
+    grid-row-gap 0px;
