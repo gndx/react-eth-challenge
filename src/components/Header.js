@@ -1,5 +1,6 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { Context } from './Context';
+import Nav from './Nav';
 
 export default function Header({ children }) {
   const { data } = useContext(Context);
@@ -8,11 +9,17 @@ export default function Header({ children }) {
   const lastName = fullName[1];
   const background = data.background;
 
+  const [navVisible, setNavVisible] = useState(false)
+  const toggleNav = ()=>{
+    setNavVisible(!navVisible)
+  }
+
   return (
     <header className='header' id='Home' style={{ 
       backgroundImage: `url(${background})`
     }}>
-      {children}
+      <button onClick={toggleNav} className='mobile-nav-toggle' aria-controls='Main-nav' aria-expanded={navVisible}><span className='screenreader-only'>Menu</span></button>
+      <Nav navVisible={navVisible}/>
       <div className='header__content'>
       <img className='avatar' alt='avatar' src={data.avatar} />
         <h1>

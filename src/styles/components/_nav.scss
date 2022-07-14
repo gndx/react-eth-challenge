@@ -7,7 +7,7 @@
     display: flex;
     gap: 1rem;
     padding: 1em 2em;
-    z-index: 9999;
+    z-index: 1000;
     width: 100%;
 
     a {
@@ -15,5 +15,23 @@
         text-decoration: none;
         text-transform: capitalize;
 
+    }
+
+    @include for-tablet-portrait-down {
+        transform: translateX(100%);
+        backdrop-filter: blur(1rem);
+        background-color: rgba(map-get($map: $color-bg, $key: "neutral"), .7);
+        position: fixed;
+        top: 0;
+        padding: 4em 2em;
+        min-height: 100vh;
+        max-width: 100vw;
+        flex-direction: column;
+        font-size: 1.5rem;
+        justify-content: space-between;
+
+        &[data-visible="true"] {
+            transform: translateX(0%);
+        }
     }
 }
