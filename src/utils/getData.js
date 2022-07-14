@@ -1,6 +1,6 @@
 const apiUrl = 'https://resume-api-ruizalonso.vercel.app/';
 
-const getData = () => {
+const getData = async () => {
   return fetch(apiUrl)
     .then((res) => res.json())
     .then((data) => data.data)
