@@ -1,22 +1,20 @@
 import React from 'react';
-import ExperienceCard from './ExperienceCard';
 
 export default function Experience({ experience = ['', '', ''] }) {
   return (
-    <div className='mt-40 mob:mt-2 laptop:mt-40 mob:p-2 laptop:p-0'>
-      <h1 className='Experience-title text-4xl mob:text-3xl laptop:text-4xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5'>.Experience-title</h1>
-      <div className='mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6'>
+    <div className='bg-teal-700 p-5 lg:p-10 rounded-xl border border-gray-900 shadow-xl mt-5 w-full'>
+      <h2 className='Experience-title text-4xl font-bold'>Experience</h2>
+
+      <div className='mt-10 grid lg:grid-cols-2 gap-4'>
         {experience.map((experienceItem, index) => (
-          <ExperienceCard
-            className='Experience-item'
-            // eslint-disable-next-line react/no-array-index-key
-            key={index}
-            name={experienceItem.jobTitle}
-            description={experienceItem.jobDescription}
-            company={experienceItem.company}
-            startDate={experienceItem.startDate}
-            endDate={experienceItem.endDate}
-          />
+          <div key={experienceItem.jobTitle} className='w-full p-4 mob:p-2 rounded-lg transition-all ease-out duration-300 hover:bg-slate-50 hover:scale-105 cursor-pointer hover:text-teal-800'>
+            <h3 className='text-3xl'>{experienceItem.jobTitle}</h3>
+            <p className='text-xl font-semi-bold  mt-2'>{experienceItem.company}</p>
+            <p className='text-l opacity-40'>{`${experienceItem.startDate} - ${experienceItem.endDate}`}</p>
+            <p className='opacity-80 text-xl'>
+              {experienceItem.jobDescription}
+            </p>
+          </div>
         ))}
       </div>
     </div>
