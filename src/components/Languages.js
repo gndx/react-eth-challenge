@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React, { useState, useEffect } from 'react';
 import getData from '../utils/getData';
 
@@ -15,9 +16,9 @@ function Languages() {
     <div className='languages'>
       <h2 className='Languages js-title'> Languages </h2>
       <ul className='Languages js-items'>
-        {languages.map((item) => {
+        {languages.map((item, i) => {
           return (
-            <li className='Languages js-item' key={item.name}>
+            <li className='Languages js-item' key={i}>
               {item.name}
               -
               {item.level}

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React, { useState, useEffect } from 'react';
 import getData from '../utils/getData';
 
@@ -14,9 +15,9 @@ function Academic() {
     <div className='academic'>
       <h2 className='Academic-title'> Academic </h2>
       <ul className='Academic-items'>
-        {academic.map((item) => {
+        {academic.map((item, i) => {
           return (
-            <li className='Academic-item' key={item.degree}>
+            <li className='Academic-item' key={i}>
               {item.degree}
               -
               {item.institution}

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React, { useState, useEffect } from 'react';
 import getData from '../utils/getData';
 
@@ -17,9 +18,9 @@ function Experience() {
     <div className='experience'>
       <h2 className='Experience-title'> Experience </h2>
       <ul>
-        {experience.map((item) => {
+        {experience.map((item, i) => {
           return (
-            <li className='Experience-item' key={item.endDate}>
+            <li className='Experience-item' key={i}>
               <h3>
                 {item.jobTitle}
               </h3>
