@@ -1,12 +1,24 @@
 import React from 'react';
+import { ThreeDots } from 'react-loader-spinner';
 import '../styles/components/Profile.styl';
+import DecoratorContainer from './DecoratorContainer';
 
-function Profile() {
+function Profile({ profile, loading }) {
   return (
-    <div className='Profile'>
-      <h2 className='Profile-title'>Profile</h2>
-      <p className='Profile-desc'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam temporibus debitis ducimus voluptates repudiandae harum laudantium beatae consequatur, veniam ab esse accusantium labore vero! Magnam cumque itaque optio ex vitae!</p>
-    </div>
+    <DecoratorContainer>
+      <h2 className='Profile-title'>Perfil 👤</h2>
+      {!loading ? (
+        profile.map((prf, idx) => (
+          <p key={`Profile-${prf.id || idx}`} className='Profile-desc'>
+            {prf.description}
+          </p>
+        ))
+      ) : (
+        <div className='center'>
+          <ThreeDots color='grey' />
+        </div>
+      )}
+    </DecoratorContainer>
   );
 }
 

@@ -1,3 +1,14 @@
+:root{
+	--size-title: 2em
+}
+
+ul{
+    list-style-type: square;
+}
+
+.center div{
+	justify-content: center;
+}
 .material-theme {
 	--md-sys-color-primary-light: #1360a8;
 	--md-sys-color-on-primary-light: #ffffff;

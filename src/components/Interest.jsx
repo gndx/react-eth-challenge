@@ -1,16 +1,26 @@
 import React from 'react';
+import { ThreeDots } from 'react-loader-spinner';
 import '../styles/components/Interest.styl';
+import DecoratorContainer from './DecoratorContainer';
 
-function Interest() {
+function Interest({ interests, loading }) {
   return (
-    <div className='Interest'>
-      <i className='Interest-title'>About</i>
-      <ul>
-        <li className='Interest-item' Item />
-        <li className='Interest-item' Item />
-        <li className='Interest-item' Item />
-      </ul>
-    </div>
+    <DecoratorContainer>
+      <h3 className='Interest-title'>Intereses 👍</h3>
+      {!loading ? (
+        <ul>
+          {interests.map((interest) => (
+            <li className='Interest-item' key={`Skill-${interest}`}>
+              <h3>{interest}</h3>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <div className='center'>
+          <ThreeDots color='grey' />
+        </div>
+      )}
+    </DecoratorContainer>
   );
 }
 

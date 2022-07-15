@@ -2,25 +2,40 @@ import React from 'react';
 import { useTheme } from '../hooks/useTheme';
 import '../styles/components/Header.styl';
 
-function Header({ children }) {
+function Header({ myself, children }) {
   const [theme, changeTheme] = useTheme();
+  console.log(myself);
+  const { image, name, position, phone, email, web, city, country } = myself;
+
   return (
     <div className='Header'>
       <figure className='Header-image'>
-        <img src='' alt='' />
+        <img src={image || ''} alt={name} />
       </figure>
       <div className='Header-container'>
         <div className='Header-title'>
           <input onClick={() => changeTheme(!theme)} type='checkbox' value={theme} />
-          <h1>Rafael Livise Livise</h1>
-          <p className='Header-job-title'>Header-job-title</p>
+          <h1>{name}</h1>
+          <h2 className='Header-job-title'>{position}</h2>
         </div>
 
         <div className='Header-body'>
-          <p className='Header-phone'>+00-000000</p>
-          <p className='Header-email'>Header@email</p>
-          <p className='Header-website'>header.com</p>
-          <p className='Header-address'>Header-job-title</p>
+          <p className='Header-phone'>
+            <b>Celular: </b>
+            {phone}
+          </p>
+          <p className='Header-email'>
+            <b>Correo: </b>
+            {email}
+          </p>
+
+          <p className='Header-website'>
+            <b>Web: </b>
+            <a href={`http://${web}`}>{web}</a>
+          </p>
+          <p className='Header-address'>
+            <b>{`${city} - ${country}`}</b>
+          </p>
         </div>
         <div>{children}</div>
       </div>
