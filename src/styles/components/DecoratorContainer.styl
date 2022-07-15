@@ -1,0 +1,19 @@
+@import "../_vars.css";
+@import '../mixins.styl';
+
+.DecoratorContainer
+    position relative;
+    container-base()
+    &-svg-arrow
+        position absolute
+        transform scale(0.35);
+        top -15px
+        left -81.5px
+        & path:nth-child(1)
+            stroke-width:2px
+            fill: var(--md-sys-color-on-tertiary-container)
+
+        & path:nth-child(2)
+            fill: var(--md-sys-color-tertiary-container)
+            stroke: var(--md-sys-color-on-tertiary-container)
+            stroke-width:5px

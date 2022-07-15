@@ -1,0 +1,40 @@
+.Layout
+    display: grid
+    grid-template-columns: repeat(2,1fr)
+    grid-template-rows: repeat(5,auto) 
+    grid-template-areas: "Header Header" "Profile Profile" "Experience Experience" "Academic Skills" "Interest Languages"
+    gap: 50px
+    margin: 30px
+    & >:nth-child(n)
+        background-color: var(--md-sys-color-background)
+        
+
+    & >:nth-child(1)
+        background-color: var(--md-sys-color-primary-container)
+        grid-area: Header
+
+    & >:nth-child(2)
+        grid-area: Profile
+
+    & >:nth-child(3)
+        grid-area: Experience
+
+    & >:nth-child(4)
+        grid-area: Academic
+        // background-color: var(--md-sys-color-tertiary-container)
+        color: var(--md-sys-color-tertiary)
+
+    & >:nth-child(5)
+        grid-area: Skills
+        // background-color: var(--md-sys-color-tertiary-container)
+        color: var(--md-sys-color-tertiary)
+
+    & >:nth-child(6)
+        grid-area: Interest
+        // background-color: var(--md-sys-color-tertiary-container)
+        color: var(--md-sys-color-tertiary)
+
+    & >:nth-child(7)
+        grid-area: Languages
+        // background-color: var(--md-sys-color-tertiary-container)
+        color: var(--md-sys-color-tertiary)
