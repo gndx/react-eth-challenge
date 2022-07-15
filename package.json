@@ -2,7 +2,7 @@
   "name": "react-eth-challenge",
   "version": "1.0.0",
   "description": "React Eth Challenge",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
@@ -22,13 +22,19 @@
     "@babel/preset-env": "7.18.6",
     "@babel/preset-react": "7.18.6",
     "babel-loader": "8.2.5",
+    "bootstrap": "^5.1.3",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
+    "firebase": "^9.9.0",
     "html-loader": "3.1.2",
     "html-webpack-plugin": "5.5.0",
+    "i18next": "^21.8.13",
     "jest-fetch-mock": "3.0.3",
     "react": "18.2.0",
+    "react-bootstrap": "^2.4.0",
     "react-dom": "18.2.0",
+    "react-i18next": "^11.18.0",
+    "reactfire": "^4.2.1",
     "webpack": "5.73.0",
     "webpack-cli": "4.10.0",
     "webpack-dev-server": "4.9.3"
@@ -36,6 +42,7 @@
   "devDependencies": {
     "babel-eslint": "10.1.0",
     "css-loader": "6.7.1",
+    "dotenv-webpack": "^8.0.0",
     "eslint": "8.19.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.5.0",
@@ -49,14 +56,15 @@
     "json-server": "^0.17.0",
     "mini-css-extract-plugin": "2.6.1",
     "prettier": "2.7.1",
-    "style-loader": "3.3.1",
-    "stylus": "0.58.1",
-    "stylus-loader": "7.0.0"
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "style-loader": "3.3.1"
   },
   "jest": {
     "verbose": true,
     "moduleNameMapper": {
-      "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMock.js"
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/fileMock.js",
+      "\\.(scss|css)$": "<rootDir>/src/__mocks__/styleMock.js"
     },
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"

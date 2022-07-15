@@ -1,0 +1,40 @@
+.profile-container {
+  width: 300px;
+  position: fixed;
+  @media all and (max-width: 900px) {
+    position: initial;
+    width: calc(100% - 3rem);
+    margin: 1.5rem !important;
+  }
+  .profile-menu {
+    margin-top: 62.5px;
+    height: calc(100% - 62.5px);
+    @media all and (max-width: 900px) {
+      width: 100%;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 1px;
+      top: 0;
+      left: 3px;
+      background-color: rgb(220, 147, 115);
+      opacity: 0.5;
+      z-index: 100;
+    }
+    .img-container {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      margin-top: -50px;
+      @media all and (max-width: 900px) {
+        margin-right: 30px;
+        margin-bottom: 30px;
+      }
+      .img {
+        height: 100%;
+      }
+    }
+  }
+}
