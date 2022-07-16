@@ -1,0 +1,17 @@
+.Skills-title {
+  text-align: center;
+}
+.skill-box {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.Skills-item {
+  padding: 1rem;
+}
+
+.skill-indicator {
+  background-color: green;
+  grid-column: auto;
+  color: white;
+  font-weight: bold;
+}
