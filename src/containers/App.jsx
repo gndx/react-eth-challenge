@@ -28,23 +28,19 @@ function App() {
 
   return (
     <div>
-      <div>
-        <div>
-          <Header data={data} />
-          <div className='container'>
-            <About data={data} />
-            <Profile profile={profile} />
-          </div>
-          <Experience />
-          <div className='container'>
-            <Academic />
-            <Interest />
-          </div>
-          <div className='container'>
-            <Skills />
-            <Languages />
-          </div>
-        </div>
+      <Header data={data} />
+      <div className='container'>
+        <About data={data} />
+        <Profile profile={profile} />
+      </div>
+      <Experience />
+      <div className='container'>
+        <Academic />
+        <Interest />
+      </div>
+      <div className='container'>
+        <Skills />
+        <Languages />
       </div>
     </div>
   );
