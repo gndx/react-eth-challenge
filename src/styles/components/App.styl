@@ -1,2 +1,85 @@
+*, html
+  margin 0
+  padding 0
+  text-align justify
+  font-family 'Roboto', sans-serif;
+
 body
-  background-color blue
+  background-color #c1c1c136
+  margin 2rem
+
+.information-blocks
+  // display flex
+  // flex-wrap wrap
+  // gap 1rem
+  grid-gap 10px
+  margin-top 2rem
+  .two-blocks
+    display grid
+    grid-template-columns repeat(1, 1fr)
+    grid-auto-rows minmax(100px, auto)
+  .three-blocks
+    display grid
+    grid-template-columns repeat(3, 300px)
+    grid-auto-rows minmax(100px, auto)
+    margin-top 2rem
+  .item-title
+    font-weight bold
+  .item-description
+    font-size 15px
+.Academic-title, .Experience-title, .Skills-title, .Interest-title, .Languages-title
+  margin-inline 4rem
+  margin-bottom 1rem
+  font-size 2rem
+.Academic-item, .Experience-item, .Skills-item, .Interest-item, .Languages-item
+  margin-bottom .5rem
+  margin-inline 5rem
+.Header-container
+  display flex
+  // padding 2rem
+  .Profile-image
+    border-radius 50%
+    width 100px
+    height 100px
+  .Header-info
+    margin-left 2rem
+    .information-container
+      margin-left 5px
+    .Header-title
+      font-size 3rem
+    .Header-job-title
+      font-size 2.4rem
+    .Header-address
+      font-size 1.5rem
+    //   margin-left 1rem
+    .Social-icons
+      display flex
+      margin-top -5px
+      .About-item
+        margin-top 10px
+        cursor pointer
+        i
+          font-size 3rem
+          margin-right 7px
+        .bxl-linkedin-square
+          color #0a66c2
+        .bxl-twitter
+          color #1d9bf0
+        .bxl-github
+          color #000000
+        .bxl-gmail
+          color #e89a9a
+@media screen and  (min-width: 500px)
+  .information-blocks .two-blocks
+    grid-template-columns repeat(2, 1fr)
+    grid-auto-rows minmax(100px, auto)
+
+  .Header-container .Header-info
+    .Header-title
+      font-size 2em
+    .Header-job-title
+      font-size 1rem
+    .Header-address
+      font-size 1rem
+    .Social-icons .About-item i
+      font-size 2rem

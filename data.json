@@ -1,14 +1,20 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Carlos García Trujillo",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Colombia, Manizales.",
+    "email": "gtrujilloca@gmail.com",
+    "website": "https://www.linkedin.com/in/carlos-garcia-a57824176/",
+    "phone": "3013116212",
+    "avatar": "https://avatars.githubusercontent.com/u/70419615?v=4",
+    "Profile": "Systems and telecommunications engineer 🧑‍💻📡,      Platzi student 📚📝, Front-end developer 🌠👨‍💻 & Blockchain enthusiast 🌐🪙",
     "certificate": [
+      {
+        "date": "Jan 2021",
+        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "institution": "Platzi",
+        "name": "FrontEnd Developer"
+      },
       {
         "date": "Jan 2021",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
@@ -22,32 +28,46 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Systems and telecommunications engineer",
+        "description": "Develop and design system information",
+        "endDate": "Feb 2021",
+        "institution": "University of Manizales,",
+        "startDate": "Jan 2016"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Technician in accounting of commercial and financial operations",
+        "description": "Develop and design system information",
+        "endDate": "Jan 2014",
+        "institution": "SENA",
+        "startDate": "Jan 2012"
+      },
+      {
+        "degree": "Academic Bachelor",
+        "description": "Basic academic formation",
+        "endDate": "Decenber 2014",
+        "institution": "SIETE DE AGOSTO",
+        "startDate": "Jan 2003"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Easynet",
         "endDate": "Present",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "jobTitle": "Developer Front-End",
+        "startDate": "Jun 2021"
+      },
+      {
+        "company": "Freedom center",
+        "endDate": "Jun 2021",
+        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard2.",
+        "jobTitle": "Developer",
         "startDate": "Jan 2020"
       },
       {
-        "company": "CatStore",
+        "company": "Test",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
@@ -68,8 +88,16 @@
         "percentage": "55%"
       },
       {
+        "name": "Typescript",
+        "percentage": "55%"
+      },
+      {
         "name": "React",
         "percentage": "90%"
+      },
+      {
+        "name": "Angular",
+        "percentage": "70%"
       }
     ],
     "interest": [
@@ -84,26 +112,29 @@
         "percentage": "90%"
       },
       {
+        "name": "Chinese",
+        "percentage": "0%"
+      },
+      {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "20%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/Carlos_G4rcia",
+        "icon" : "bxl-twitter"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/gtrujilloca",
+        "icon" : "bxl-github"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/carlos-garcia-a57824176/",
+        "icon" : "bxl-linkedin-square"
       }
     ]
   }
