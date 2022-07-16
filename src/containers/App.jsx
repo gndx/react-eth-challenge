@@ -18,8 +18,7 @@ function App(){
   const [cvData, setCvData] = React.useState(null);
 
   useEffect(() => {
-    // getData('https://raw.githubusercontent.com/Alextyle8/react-eth-challenge/main/data.json')
-    getData('./data.json')
+    getData('https://raw.githubusercontent.com/Alextyle8/react-eth-challenge/main/data.json')
       .then((json) => {
         setCvData(json.data);
       })
