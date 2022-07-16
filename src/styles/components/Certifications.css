@@ -1,0 +1,11 @@
+.certification-box {
+    margin: 0 auto;
+  }
+  
+  .certification-title {
+    text-align: center;
+  }
+  
+  .certification-item {
+      grid-column: auto;
+  }

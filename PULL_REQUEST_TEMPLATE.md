@@ -1,16 +1,16 @@
 ## DESCRIPTION
 
-Solución al reto:
+Solución al reto: react-eth-challenge -  Se solucionan los restos propuestos
 
-Nombre:
-Usuario Platzi:
+Nombre: Alexander Hinestroza Palacios
+Usuario Platzi: alextyle
 
 ## Reto:
 
-- [ ] Primer problema
-- [ ] Segundo problema
-- [ ] Tercer problema
-- [ ] Cuarto Problema
-- [ ] Quinto Problema
-- [ ] Sexto Problema
-- [ ] Septimo Problema
+- [x] Primer problema
+- [x] Segundo problema
+- [x] Tercer problema
+- [x] Cuarto Problema
+- [x] Quinto Problema
+- [x] Sexto Problema
+- [x] Septimo Problema

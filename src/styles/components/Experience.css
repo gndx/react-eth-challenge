@@ -1,0 +1,13 @@
+.Experience-title {
+    text-align: center;
+  }
+  
+  .Experience-box {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+  }
+  
+  .Experience-item {
+    grid-column: auto;
+    text-align: left;
+  }

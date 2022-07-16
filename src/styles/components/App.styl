@@ -1,2 +1,28 @@
-body
-  background-color blue
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 70%;
+  margin: auto auto;
+}
+
+h1 {
+  color: rgb(77, 75, 75);
+  font-size: 2em;
+}
+
+.Skills-box,
+.Interests-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .Skills-box,
+  .Interests-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

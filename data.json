@@ -1,57 +1,114 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "headInfo":{
+      "name": "Alexander Hinestroza Palacios",
+      "avatar": "https://pbs.twimg.com/profile_images/901812008730980352/HuwDBYZn_400x400.jpg",
+      "profession": "Computer Science Engineer - Specialist Architect",
+      "email": "ahinestroza1116@gmail.com",
+      "website": "https://example.com",
+      "phone": "3042034240",
+      "address": "Medellín, Colombia.",
+      "profile": "I am a systems engineer with high capacity for analysis, problem solving and adaptability to technology, with experience in analysis, design and implementation of SOA services. Also with experience in blockchain technologies, both private (hyperledger) and public. I am a person willing to learn and implement projects that impact the environment in which we live."
+    },
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Jul 2022",
+        "description": "Online Learning Strategies Course",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Online Learning Strategies Course"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Jul 2022",
+        "description": "Personal brand",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Personal brand"
+      },
+      {
+        "date": "Jul 2022",
+        "description": "Software Engineering Fundamentals",
+        "institution": "Platzi",
+        "name": "Software Engineering Fundamentals"
+      },
+      {
+        "date": "Jun 2022",
+        "description": "Basic Javascript Course",
+        "institution": "Platzi",
+        "name": "Basic Javascript Course"
+      },
+      {
+        "date": "Jun 2022",
+        "description": "Javascript practical course",
+        "institution": "Platzi",
+        "name": "Javascript practical course"
+      },
+      {
+        "date": "Jun 2022",
+        "description": "Next.js Course",
+        "institution": "Platzi",
+        "name": "Next.js Course"
+      },
+      {
+        "date": "Jun 2022",
+        "description": "Object Oriented Programming Course: OOP",
+        "institution": "Platzi",
+        "name": "Object Oriented Programming Course: OOP"
+      },
+      {
+        "date": "Sep 2020",
+        "description": "Docker, from Beginner to Expert",
+        "institution": "Udemy",
+        "name": "Docker, from Beginner to Expert"
+      },
+      {
+        "date": "Jun 2022",
+        "description": "Curso Profesional de Git y GitHub",
+        "institution": "Platzi",
+        "name": "Git and GitHub Professional Course"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Software Engineering Specialist",
+        "description": "A Software Engineering Specialist can support the national and international software industry sector. In this sense, the impact and relevance will be linked to the aforementioned industry, which has a large component of knowledge that requires a high level of technological development and training of people capable of producing knowledge and solutions in accordance with the needs of the medium.",
+        "endDate": "2019",
+        "institution": "Universidad de Medellín",
+        "startDate": "2018"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Computer Science Engineer",
+        "description": "I am prepared to face the new challenges of the Fourth Industrial Revolution that include new technologies such as Blockchain, Artificial Intelligence / Machine Learning, and the Internet of Things. They are also prepared to solve problems through software development with modern methodologies and tools, the integration and implementation of business applications, the application of the DevOps culture in organizations, the adoption of good engineering practices in project development, in other aspects.",
+        "endDate": "2012",
+        "institution": "Universidad de Antioquia",
+        "startDate": "2007"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Bancolombia",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "I belong to the area of ​​innovation, where I develop in private blockchain projects with HyperLedger Fabric and I find myself venturing and learning about public blockchains in Ethereum mainly.",
+        "jobTitle": "Specialist Architect",
+        "startDate": "Jul 2021"
+      },{
+        "company": "Bancolombia",
+        "endDate": "Jun 2021",
+        "jobDescription": "Design and implementation of SOA integration services under IBM Datapower, IIB, ApiConnect, MQ (Message Queue) technologies.Lead team development of integration services using SOA service-oriented architecture.",
+        "jobTitle": "Software Engineer",
+        "startDate": "Dec 2016"
       },
       {
-        "company": "CatStore",
+        "company": "PersonalSoft S.A.S.",
         "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "jobDescription": "Outsourcing GANA: Analysis and taking of requirements, development of standalone applications, web services and consumption of REST services in java. Outsourcing Bancolombia: Design and implementation of SOA integration services under IBM Datapower, IIB, ApiConnect, MQ (Message Queue) technologies. SOA - Datapower",
+        "jobTitle": "Software Engineering Analyst",
+        "startDate": "Jul 2015"
+      },
+      {
+        "company": "Fuziona S.A.S.",
+        "endDate": "Jul 2015",
+        "jobDescription": "OutSourcing Alcaldía de Medellín: Development and support of web applications in .NET and PHP, Development of PL/SQL procedures in Oracle, administration of servers in Microsoft's ISS. Introduction to SAP Development.",
+        "jobTitle": ".NET Consultant",
+        "startDate": "Oct 2012"
       }
     ],
     "skills": [
@@ -69,14 +126,57 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
+      },
+      {
+        "name": "IBM Datapower",
+        "percentage": "80%"
+      },
+      {
+        "name": "HyperLedger Fabic",
+        "percentage": "70%"
+      },
+      {
+        "name": "Service-Oriented Architecture (SOA)",
+        "percentage": "70%"
+      },
+      {
+        "name": "SQL",
+        "percentage": "60%"
+      },
+      {
+        "name": "NodeJs",
+        "percentage": "40%"
+      },
+      {
+        "name": "Web3",
+        "percentage": "30%"
+      },
+      {
+        "name": "Ethereum",
+        "percentage": "30%"
+      },
+      {
+        "name": "Golang",
+        "percentage": "30%"
+      },
+      {
+        "name": "Elixir",
+        "percentage": "20%"
+      },
+      {
+        "name": "AWS",
+        "percentage": "60%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Public Blockchains",
+      "Crypto",
+      "Crypto currency",
+      "Ethereum Development",
+      "Bitcoin Development",
+      "International projects",
+      "Better employment opportunities"
     ],
     "languages": [
       {
@@ -85,25 +185,29 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "55%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/Xtyletto",
+        "icon": "https://images.rawpixel.com/image_1300/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3Y5ODItZDEtMDIteC5qcGc.jpg"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/alextyle8",
+        "icon": "https://e7.pngegg.com/pngimages/202/248/png-clipart-twitter-logo-computer-icons-encapsulated-postscript-tweeter-blue-logo-thumbnail.png"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/Alextyle8",
+        "icon": "https://cdn-icons-png.flaticon.com/512/1051/1051377.png"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/alexander-hinestroza-palacios-aba93a64/",
+        "icon": "https://brandlogos.net/wp-content/uploads/2016/06/linkedin-logo.png"
       }
     ]
   }
