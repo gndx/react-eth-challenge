@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Sergio Valadez",
+    "profession": "Freelancer",
+    "address": "Guadajalara, Jalisco, Mexico",
+    "email": "sergioval@gmail.com",
+    "website": "https://sergioval.tech",
+    "phone": "+523333579366",
+    "avatar": "https://avatars.githubusercontent.com/sergiogval",
+    "Profile": "Ethereum Developer wanning to learn about the world of blockchain",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,7 +22,7 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
@@ -52,6 +52,13 @@
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
         "startDate": "Sept 2019"
+      },
+      {
+        "company": "CatStore",
+        "endDate": "Jan 2016",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Backend",
+        "startDate": "Sept 2019"
       }
     ],
     "skills": [
@@ -72,12 +79,7 @@
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
