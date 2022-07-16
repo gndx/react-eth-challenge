@@ -1,0 +1,10 @@
+.interest-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (max-width: 768px) {
+    .interest-box {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
