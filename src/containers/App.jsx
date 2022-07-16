@@ -31,23 +31,23 @@ function App(){
   return cvData ?(
     <>
       <Header info={cvData.headInfo} />
-      <hr />
+      <hr color="#00f"/>
       <Profile profile={cvData.headInfo.profile} />
-      <hr />
+      <hr color="#00f"/>
       <Experience experiences={cvData.experience} />
-      <hr />
+      <hr color="#00f"/>
       <section className='Skills-box'>
         <Academic academics={cvData.academic} />
         <Certification certifications={cvData.certificate} />
       </section>
-      <hr />
+      <hr color="#00f"/>
       <Skills skills={cvData.skills} />
-      <hr />
+      <hr color="#00f"/>
       <section className='Interests-box'>
         <Interest interests={cvData.interest} />
         <Languages languages={cvData.languages} />
       </section>
-      <hr />
+      <hr color="#00f"/>
       <Social socialNetworks={cvData.social} />
     </>
    ) : (

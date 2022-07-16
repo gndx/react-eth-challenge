@@ -9,6 +9,9 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
+.Header-title{
+  color: blue;
+}
 
 .Header-avatar {
   grid-column: 1 / 1;

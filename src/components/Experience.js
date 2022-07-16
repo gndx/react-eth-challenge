@@ -7,7 +7,7 @@ const Experience = (props) => {
       <h2 className="Experience-title">Experience</h2>
       <article className="Experience-box">
         {experiences.map((experience) => (
-          <div className="Experience-item" key={experience.company}>
+          <div className="Experience-item" key={experience.jobTitle}>
             <h3>{experience.company}</h3>
             <h4>{experience.jobTitle}</h4>
             <p>{experience.startDate} - {experience.endDate}</p>
