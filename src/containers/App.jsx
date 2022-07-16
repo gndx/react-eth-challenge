@@ -15,14 +15,6 @@ const ApiURL = 'http://localhost:3000/data';
 
 const App = () => {
 
-  // const [data, setData] = useState(null)
-
-  // console.log(data);
-  // useEffect(() => {
-  //   getData(ApiURL).then(setData)
-  // }, [])
-
-
   return (
     <UserProvider>
       <Header>
