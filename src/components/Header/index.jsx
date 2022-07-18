@@ -7,11 +7,13 @@ export const Header = ({name, avatar, profession, phone, email, website, address
             <div className='avatar'>
                 <img src={avatar} className='avatar' ></img>
             </div>
-            <h2 className="Header-job-title">{profession}</h2>
-            <h3 className="Header-phone">{phone}</h3>
-            <h3 className="Header-email">{email}</h3>
-            <h3 className="Header-website">{website}</h3>
-            <h3 className="Header-address">{address}</h3>
+            <p>
+                <div className="Header-job-title"><strong>{profession}</strong></div>
+                <div className="Header-phone"><strong>Phone:</strong> {phone}</div>
+                <div className="Header-email"><strong>Email:</strong> {email}</div>
+                <div className="Header-website"><strong>Website:</strong> {website}</div>
+                <div className="Header-address"><strong>Location:</strong> {address}</div>
+            </p>
             {children}
         </header>
     );

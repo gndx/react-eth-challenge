@@ -9,7 +9,7 @@ export const Skills = ({ skills }) => {
                     {
                         skills?.map((skill, index) => (
                             <li key={index} className="Skills-item" >
-                                <h3>{skill.name}: <span>{skill.percentage}</span></h3>
+                               {skill.name}: {skill.percentage}<span>%</span>
                             </li>
                         ))
                     }

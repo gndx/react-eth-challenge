@@ -8,7 +8,7 @@ export const Interest = ({interests}) => {
                 <ul>
                     {
                         interests?.map((interest, index) => (
-                            <li key={`${index}`} className="Interest-item">
+                            <li key={index} className="Interest-item">
                                 {interest}
                             </li>
                         ))

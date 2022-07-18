@@ -3,7 +3,8 @@ import { shallow } from 'enzyme';
 import { About } from '../../components/About';
 
 describe('<About />', () => {
-    const about = shallow( < About / > );
+    const mockAbout = ['LinkedIn', 'Twitter', 'Facebook'];
+    const about = shallow( < About social={ mockAbout } / > );
 
     test('About render', () => {
         expect(about.length).toEqual(1);

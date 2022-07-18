@@ -10,8 +10,10 @@ export const About = ({social}) => {
                 <ul>
                     {
                         social?.map((socialNet, index) => (
-                            <li key={index} className="Skills-item" >
-                                {socialNet.name} - {socialNet.url}
+                            <li key={index} className="About-item" >
+                                <a href={socialNet.url}>
+                                    <img align="" src={socialNet.badge}></img>
+                                </a>
                             </li>
                         ))
                     }

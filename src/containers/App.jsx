@@ -46,7 +46,7 @@ export const App = () => {
 
   return (
     <React.Fragment>
-      <Header data={name} avatar={avatar} profession={profession} phone={phone} email={email} website={website} address={address} >
+      <Header name={name} avatar={avatar} profession={profession} phone={phone} email={email} website={website} address={address} >
         <About social={social} />
       </Header>
       <Profile profile={profile} />

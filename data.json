@@ -118,83 +118,83 @@
     "skills": [
       {
         "name": "Java SE",
-        "percentage": "70%"
+        "percentage": "70"
       },
       {
         "name": "Java EE",
-        "percentage": "60%"
+        "percentage": "60"
       },
       {
         "name": "Spring Framework",
-        "percentage": "60%"
+        "percentage": "60"
       },
       {
         "name": "HTML5",
-        "percentage": "70%"
+        "percentage": "70"
       },
       {
         "name": "CSS",
-        "percentage": "50%"
+        "percentage": "50"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "55"
       },
       {
         "name": "Angular",
-        "percentage": "40%"
+        "percentage": "40"
       },
       {
         "name": "React",
-        "percentage": "30%"
+        "percentage": "30"
       },
       {
         "name": "MySQL",
-        "percentage": "75%"
+        "percentage": "75"
       },
       {
         "name": "PostgreSQL",
-        "percentage": "70%"
+        "percentage": "70"
       },
       {
         "name": "Oracle DB",
-        "percentage": "50%"
+        "percentage": "50"
       },
       {
         "name": "PL/SQL",
-        "percentage": "40%"
+        "percentage": "40"
       },
       {
         "name": "Git",
-        "percentage": "55%"
+        "percentage": "55"
       },
       {
         "name": "Scrum",
-        "percentage": "95%"
+        "percentage": "95"
       },
       {
         "name": "JUnit",
-        "percentage": "50%"
+        "percentage": "50"
       },
       {
         "name": "Maven",
-        "percentage": "70%"
+        "percentage": "70"
       },
       {
         "name": "Gradle",
-        "percentage": "50%"
+        "percentage": "50"
       },
       {
         "name": "Docker",
-        "percentage": "50%"
+        "percentage": "50"
       },
       {
         "name": "Kubernetes",
-        "percentage": "40%"
+        "percentage": "40"
       },
       {
         "name": "AWS",
-        "percentage": "60%"
+        "percentage": "60"
       }
     ],
     "interest": [
@@ -209,33 +209,37 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "100%"
+        "percentage": "100"
       },
       {
         "name": "English",
-        "percentage": "70%"
+        "percentage": "70"
       },
       {
         "name": "French",
-        "percentage": "1%"
+        "percentage": "1"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/ewcastroh"
+        "url": "https://facebook.com/ewcastroh",
+        "badge": "https://img.shields.io/badge/Facebook-0077B5?style=for-the-badge&logo=facebook&logoColor=white"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/ewcastroh"
+        "url": "https://twitter.com/ewcastroh",
+        "badge": "https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"
       },
       {
         "name": "github",
-        "url": "https://github.com/ewcastroh"
+        "url": "https://github.com/ewcastroh",
+        "badge": "https://img.shields.io/badge/Github-0077B5?style=for-the-badge&logo=github&logoColor=white"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/ewcastroh"
+        "url": "https://www.linkedin.com/in/ewcastroh",
+        "badge": "https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
       }
     ]
   }
