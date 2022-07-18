@@ -1,75 +1,50 @@
-import React, {useEffect, useState} from 'react';
-import '../styles/components/App.css';
+import React from 'react';
+import '../styles/components/App.styl';
+import About from '../components/About';
 import Header from '../components/Header';
-import About  from '../components/About';
 import Profile from '../components/Profile';
 import Experience from '../components/Experience';
 import Academic from '../components/Academic';
-import Skills  from '../components/Skills';
+import Skills from '../components/Skills';
 import Interest from '../components/Interest';
-import Languages  from '../components/Languages';
-import getData from '../utils/getData'
-
-
-const url =
-  'https://raw.githubusercontent.com/jsandes/react-eth-challenge/main/data.json';
+import Languages from '../components/Languages';
+import { useGetData } from '../hooks/useGetData';
 
 const App = () => {
- 
-  const [user, setUser] = useState(null);
+  const { data, loading, error } = useGetData(
+    'https://raw.githubusercontent.com/jsandes/react-eth-challenge/main/data.json'
+  );
 
-  useEffect(() => {
-    getUserData();
-  }, []);
+  if (loading) return <p>cargando..</p>;
+  if (error) return <p>A occurido un error</p>;
 
-  const getUserData = async () => {
-    const data = await getData(url);
-    setUser(data);
+  const header = {
+    address: data.address,
+    avatar: data.avatar,
+    email: data.email,
+    name: data.name,
+    phone: data.phone,
+    professional: data.profession,
+    website: data.website,
   };
-
-  if (!user) return null;
-  
-  const {
-    Academic: academic,
-    address,
-    avatar,
-    email,
-    experience,
-    interest,
-    languages,
-    name,
-    phone,
-    profession,
-    Profile: profile,
-    skills,
-    website,
-    social
-  } = user;
-
 
   return (
     <>
-    <Header
-      avatar={avatar}
-      name={name} 
-      profession={profession}
-      cellphone={phone}
-      email={email}
-      website={website}
-      address={address}
-      >
-      <About 
-        social={social} />    
-    </Header>
-    <Profile profile={profile} />
-    <Experience experience={experience} />
-    <Academic academic={academic} />
-    <Skills skills={skills} />
-    <Interest interest={interest} />
-    <Languages languages={languages} />
-        
+      <Header data={header}>
+        <About data={data.about} />
+      </Header>
+      <Profile profile={data.Profile} />
+      <Experience data={data.experience} />
+      <div className="last">
+        <Academic data={data.Academic} />
+        <Skills data={data.skills} />
+      </div>
+      <div className="last">
+        <Interest data={data.interest} />
+        <Languages data={data.languages} />
+      </div>
     </>
-  )
+  );
 };
 
 export default App;

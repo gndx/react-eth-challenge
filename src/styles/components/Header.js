@@ -9,4 +9,5 @@ export const Cabecera = styled.div`
   border-bottom: 2px solid white;
   box-shadow: 0px 10px 15px #bbb;
   border-radius: 15px;
+  
 ` 

@@ -1,17 +1,23 @@
 import React from 'react';
 import { Cabecera  } from '../styles/components/Header';
 
-const Header = ({name,profession, cellphone, email, website,address}) => {
+const Header = ({ children, data }) => {
     return (
         <Cabecera>
-            <h1 className='Header-title'>{name}</h1>
-            <h2 className='Header-job-title'>{profession}</h2>
-            <div>
-            <p className='Header-phone'>{cellphone}</p>
-            <p className='Header-email'>{email}</p>
-            <p className='Header-website'>{website}</p>
-            <p className='Header-address'>{address}</p>
-            </div>
+            <section className="header">
+            <section className="header-img">
+                <img src={data.avatar} alt="portfolio img" />
+            </section>
+            <section className="header-box">
+                <h1 className="Header-title">{data.name}</h1>
+                <p className="Header-job-title">{data.professional}</p>
+                <p className="Header-phone">{data.phone}</p>
+                <p className="Header-email">{data.email}</p>
+                <p className="Header-website">{data.website}</p>
+                <p className="Header-address">{data.address}</p>
+                {children}
+            </section>
+            </section>
         </Cabecera>
         
     )

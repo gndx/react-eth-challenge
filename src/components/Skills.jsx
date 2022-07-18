@@ -1,28 +1,18 @@
 import React from 'react';
 import { Boxing } from "../styles/components/Skills"
 
-const Skills = ({ 
-  skills = Array(3).fill({
-    name: '',
-    percentage:'',
-}),
-}) => {
+const Skills = (props) => {
+  const { data = new Array(3).fill('No interests submitted') } = props;
   return (
     <Boxing>
-      <h1 className="Skills-title">Skills</h1>
-      <ul>
-        {skills.map(
-          (
-            { name, percentage}, 
-            index
-            ) => (
-          <li 
-            key={`${name}_${percentage}_${index}`} className="Skills-item">
-            <h3>{name}</h3>
-            <h4>{percentage}</h4>
-          </li>
-        ))}
-      </ul>
+    <section className="Skills">
+      <h2 className="Skills-title">Skills</h2>
+      {data.map((item, i) => (
+        <p key={`Skills-${i}`} className="Skills-item">
+          {item.name} <span>{item.percentage}</span>
+        </p>
+      ))}
+    </section>
     </Boxing>
   );
 };

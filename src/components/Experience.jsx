@@ -1,38 +1,23 @@
 import React from 'react';
 import {Boxing} from "../styles/components/Experience"
 
-const Experience = ({
-  experience = Array(3).fill({
-    company: '',
-    endDate: '',
-    jobDescription: '',
-    jobTitle: '',
-    startDate: '',
-  }),
-}) => {
+const Experience = (props) => {
+  const { data = new Array(3).fill('No experience yet') } = props;
   return (
     <Boxing>
-      <h1 className="Experience-title">Experience</h1>
-      <ul>
-        {experience.map(
-          (
-            { company, endDate, jobDescription, jobTitle, startDate },
-            index
-          ) => (
-            <li
-              key={`${company}_${endDate}_${jobDescription}_${jobTitle}_${startDate}_${index}`}
-              className="Experience-item"
-            >
-              <h3>Company: {company}</h3>
-              <h4>{jobTitle}</h4>
-              <p>
-                {startDate} - {endDate}
-              </p>
-              <p>{jobDescription}</p>
-            </li>
-          )
-        )}
-      </ul>
+      <section className="Experience">
+        <h2 className="Experience-title">Experience</h2>
+        {data.map((item, i) => (
+          <div key={`Experience-${i}`} className="Experience-item">
+            <h4>{item.company}</h4>
+            <b>
+            {item.jobTitle}
+            </b>
+            <h5>{item.startDate} - {item.endDate}</h5>
+            <p>{item.jobDescription}</p>
+          </div>
+        ))}
+      </section>
     </Boxing>
   );
 };

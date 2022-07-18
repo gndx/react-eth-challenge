@@ -82,6 +82,16 @@
       }
 
     ],
+    "about": [
+      {
+        "About-item": "Spanish",
+      },
+      {
+        "name": "English",
+        "percentage": "70%"
+      }
+
+    ],
     "social": [
       {
         "name": "twitter",

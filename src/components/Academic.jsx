@@ -1,24 +1,23 @@
 import React from 'react';
 import { Boxing } from '../styles/components/Academic'
 
-const Academic = ({
-  academic = Array(3).fill({ degree: '', description: '', institution: '' }),
-}) => {
+const Academic = (props) => {
+  const { data = new Array(3).fill('No academic title yet') } = props;
   return (
     <Boxing>
-      <h1 className="Academic-title">Academic</h1>
-      <ul>
-        {academic.map(({ degree, description, institution }, index) => (
-          <li
-            key={`${degree}_${description}_${institution}_${index}`}
-            className="Academic-item"
-          >
-            <h3>{degree}</h3>
-            <p>{description}</p>
-            <h4>{institution}</h4>
-          </li>
+      <section className="Academic">
+        <h2 className="Academic-title">Academic</h2>
+        {data.map((item, i) => (
+          <div className='Academic-item'>
+            <h4>{item.institution}</h4>
+            <b>
+            {item.degree}
+            </b>
+            <h5>{item.startDate} - {item.endDate}</h5>
+            <p>{item.description}</p>
+          </div>
         ))}
-      </ul>
+      </section>
     </Boxing>
   );
 };

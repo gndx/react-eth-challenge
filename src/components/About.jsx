@@ -1,27 +1,18 @@
 import React from 'react';
-import {Titulos} from '../styles/components/About'
 
-const About = ({
-    about = Array(3).fill({
-        name: '',
-        url: '',
-    }),
-    }) => {
-    return(
-        <div>
-            <Titulos className='About-title'>About me</Titulos>
-            <ul>
-                {about.map(
-                    (
-                        {name, url},index
-                        ) => (
-                    <li key={`${name}_${index}`} className="About-item">
-                        <p>{name}: <a href={`${url}`}> @jsandes </a></p>
-                    </li>
-                ))}
-            </ul>
-        </div>
-    );
+const About = (props) => {
+  const { data = new Array(3).fill('No hay dato') } = props;
+  
+  return (
+    <div className='about'>
+      <h2 className="About-title">About</h2>
+      {data.map((item) => (
+        <p key={item} className="About-item">
+          {item}
+        </p>
+      ))}
+    </div>
+  );
 };
 
 export default About;
