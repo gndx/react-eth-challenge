@@ -1,0 +1,14 @@
+.Interest-title {
+  font-size: xxx-large;
+  border-bottom: 1px dotted var(--main-title-color);
+  color: var(--main-title-color);
+}
+.Interest-list {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+@media (max-width: 768px) {
+  .Interest-list {
+    grid-template-columns: 50% 50%;
+  }
+}

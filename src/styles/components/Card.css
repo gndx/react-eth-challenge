@@ -1,0 +1,8 @@
+.Container {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+  background-color: var(--main-card-color);
+  border-radius: 1rem;
+  padding: 1rem;
+}

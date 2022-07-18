@@ -1,0 +1,32 @@
+.Header-img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 30%;
+  height: min-content;
+}
+.Header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.Header-title {
+  font-size: xxx-large;
+}
+
+.About-title{
+  font-size: xx-large;
+}
+
+.Header-contact {
+  display: flex;
+  gap: 1rem;
+  font-size: x-large;
+  flex-wrap: wrap;
+}
+.Header-phone:hover,
+.Header-email:hover,
+.Header-website:hover {
+  text-decoration: underline;
+}

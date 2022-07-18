@@ -1,0 +1,11 @@
+@media (max-width: 992px) {
+  .Layout {
+    padding: 0px 10px;
+  }
+}
+@media (min-width: 992px) {
+  .Layout {
+    grid-template-columns: 50% 50%;
+    display: grid;
+  }
+}

@@ -1,0 +1,17 @@
+.Experience-title {
+  font-size: xxx-large;
+  border-bottom: 1px dotted var(--main-title-color);
+  color: var(--main-title-color);
+}
+@media (max-width: 992px) {
+  .Experience-list {
+    padding: 0px 10px;
+  }
+}
+@media (min-width: 992px) {
+  .Experience-list {
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    display: grid;
+  }
+}
