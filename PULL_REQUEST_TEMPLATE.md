@@ -2,15 +2,15 @@
 
 Solución al reto:
 
-Nombre:
-Usuario Platzi:
+Nombre: Eimer Castro
+Usuario Platzi: ewcastroh
 
 ## Reto:
 
 - [X] Primer problema
-- [ ] Segundo problema
+- [X] Segundo problema
 - [X] Tercer problema
-- [ ] Cuarto Problema
-- [ ] Quinto Problema
-- [ ] Sexto Problema
-- [ ] Septimo Problema
+- [X] Cuarto Problema
+- [X] Quinto Problema
+- [X] Sexto Problema
+- [X] Septimo Problema
