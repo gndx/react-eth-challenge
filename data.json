@@ -1,109 +1,99 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Jonatan Sandes",
+    "profession": "Developer",
+    "address": "Buenos Aires, Argentina",
+    "email": "jonatans@live.com.ar",
+    "website": "https://sandes.com.ar",
+    "phone": "+54 9 11 57997336",
+    "avatar": "https://static.platzi.com/media/avatars/avatars/JSandes_77fb9633-ada4-46b6-97ce-62404700fe27.jpeg",
+    "Profile": "Founder of @devsonchain | Host at @Web3Crew | Mod at @sudaka_el - Developer, Miner and Crypto Fan",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "2022",
+        "description": "Frontend Developer ",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Frontend Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "2022",
+        "description": "Curso Intro React",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Curso Intro React"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Blockchain Carrer",
+        "description": " ",
+        "endDate": "2022",
+        "institution": "Platzi",
+        "startDate": "2022"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "ICBC",
+        "endDate": "Jan 2022",
+        "jobDescription": "Lorem ipsum.",
+        "jobTitle": "Developer",
+        "startDate": "Oct 2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Banco de Galicia",
+        "endDate": "Ago 2018",
+        "jobDescription": "Lorem ipsum.",
+        "jobTitle": "Developer",
+        "startDate": "Oct 2016"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
+        "name": "Solidity",
         "percentage": "75%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "React",
+        "percentage": "80%"
       },
       {
         "name": "JavaScript",
         "percentage": "55%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "Typescript",
+        "percentage": "40%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "SmartContract",
+      "Crypto mining",
+      "Development issues",
+      "Cryptocurrencies"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
+
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/Lennggo"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/jsandes"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/jonatan-d-sandes"
       }
     ]
   }
