@@ -10,6 +10,9 @@ import Interest from '../components/Interest';
 import Languages  from '../components/Languages';
 import getData from '../utils/getData'
 
+const url =
+  'https://raw.githubusercontent.com/gonzaotc/react-eth-challenge/main/data.json';
+
 const App = () => {
  
   const [user, setUser] = useState(null);
@@ -19,7 +22,7 @@ const App = () => {
   }, []);
 
   const getUserData = async () => {
-    const data = await getData('https://raw.githubusercontent.com/jsandes/react-eth-challenge/main/data.json');
+    const data = await getData(url);
     setUser(data);
   };
 

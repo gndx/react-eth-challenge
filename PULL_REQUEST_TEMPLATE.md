@@ -1,16 +1,16 @@
 ## DESCRIPTION
 
-Solución al reto:
+Solución al reto: 
 
-Nombre:
-Usuario Platzi:
+Nombre: Jonatan Sandes
+Usuario Platzi: jonatans@live.com.ar
 
 ## Reto:
 
-- [ ] Primer problema
-- [ ] Segundo problema
-- [ ] Tercer problema
-- [ ] Cuarto Problema
-- [ ] Quinto Problema
-- [ ] Sexto Problema
-- [ ] Septimo Problema
+- [X] Primer problema
+- [X] Segundo problema
+- [X] Tercer problema
+- [X] Cuarto Problema
+- [X] Quinto Problema
+- [X] Sexto Problema
+- [X] Septimo Problema
