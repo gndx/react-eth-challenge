@@ -8,12 +8,13 @@ export const Certificate = ({ certificates }) => {
         {
           certificates?.map((certification, index) => (
             <li key={`${index}`} className="Certificate-item">
-              <p>
+              <div>
                 <div><strong>{certification.name}</strong></div>
                 <div><em>{certification.date}</em></div>
                 <div>{certification.description}</div>
                 <div><em>{certification.institution}</em></div>
-              </p>
+                <br />
+              </div>
             </li>
           ))
         }

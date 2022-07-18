@@ -8,11 +8,12 @@ export const Academic = ({academic}) => {
           {
             academic?.map((place, index) => (
                 <li key={`${index}`} className="Academic-item">
-                  <p>
+                  <div>
                       <div><strong>{place.degree}</strong></div>
                       <div>{place.description}</div>
                       <div><em>{place.institution}</em></div>
-                  </p>
+                      <br />
+                  </div>
                 </li>
             ))
           }

@@ -8,8 +8,9 @@ export const Skills = ({ skills }) => {
                 <ul>
                     {
                         skills?.map((skill, index) => (
-                            <li key={index} className="Skills-item" >
-                               {skill.name}: {skill.percentage}<span>%</span>
+                            <li key={index} className="Skills-item" >                               
+                               <label htmlFor={skill.name}>{skill.name}: {skill.percentage}<span>%</span></label>
+                               <progress id={skill.name} value={skill.percentage} min="0" max="100"> {skill.percentage}% </progress>
                             </li>
                         ))
                     }
