@@ -44,7 +44,7 @@ const App = () => {
         <Languages data={data.languages} />
       </div>
     </>
-  );
+  )
 };
 
 export default App;
