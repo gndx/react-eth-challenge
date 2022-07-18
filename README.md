@@ -19,37 +19,37 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 ### Instalación
 
 ```
-npm install
+pnpm install
 ```
 
 ### Ejecución
 
 ```
-npm run start
+pnpm run start
 ```
 
 ### Server
 
 ```
-npm run server
+pnpm run server
 ```
 
 ### Compilar
 
 ```
-npm run build
+pnpm run build
 ```
 
 ### Pruebas Unitarias
 
 ```
-npm run test
+pnpm run test
 ```
 
 ### ESlint
 
 ```
-npm run lint
+pnpm run lint
 ```
 
 ### Enviar solución de reto
