@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import '../styles/components/App.css';
-import  Header from '../components/Header';
-import  About  from '../components/About';
+import Header from '../components/Header';
+import About  from '../components/About';
 import Profile from '../components/Profile';
 import Experience from '../components/Experience';
 import Academic from '../components/Academic';
@@ -10,8 +10,9 @@ import Interest from '../components/Interest';
 import Languages  from '../components/Languages';
 import getData from '../utils/getData'
 
+
 const url =
-  'https://raw.githubusercontent.com/gonzaotc/react-eth-challenge/main/data.json';
+  'https://raw.githubusercontent.com/jsandes/react-eth-challenge/main/data.json';
 
 const App = () => {
  
@@ -49,6 +50,7 @@ const App = () => {
   return (
     <>
     <Header
+      avatar={avatar}
       name={name} 
       profession={profession}
       cellphone={phone}
