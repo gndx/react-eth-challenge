@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = (props) => {
-  const { data = new Array(3).fill('No hay dato') } = props;
+  const { data = new Array(1).fill('.') } = props;
   
   return (
     <div className='about'>
