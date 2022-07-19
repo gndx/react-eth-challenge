@@ -1,5 +1,4 @@
 import React from 'react';
-import ProgressBar from '@ramonak/react-progress-bar';
 import Card from '../Card';
 import '../../styles/components/Skills.css';
 
