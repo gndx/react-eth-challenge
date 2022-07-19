@@ -1,109 +1,245 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Eimer Castro",
+    "profession": "FullStack Developer",
+    "address": "Medellín, Colombia.",
+    "email": "ewcastroh10@gmail.com",
+    "website": "https://ewcastroh.com",
+    "phone": "3005492196",
+    "avatar": "https://avatars.githubusercontent.com/ewcastroh",
+    "Profile": "I am a Software Engineer with over five years of experience as a Full Stack Developer. I have developed web applications using Full Stack technologies like Java in Backend. HTML, JavaScript, CSS, and Angular in Frontend and working CI/CD. With knowledge in Web Automation Testing. I have worked in teams with Scrum and Kanban methodologies. I am a responsible, agile, and autodidactic developer analyzing and proposing quality solutions. I am committed to my work with a sense of belonging. I like to update my knowledge continually with cutting-edge technologies in software development. I enjoy coding and improving my skills with clean and extensible good practices.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Jun 2022",
+        "description": "This credential helps organizations identify and develop talent with critical skills for implementing cloud initiatives. Earning AWS Certified Solutions Architect - Associate validates the ability to design and implement distributed systems on AWS.",
+        "institution": "Amazon Web Services (AWS)",
+        "name": "AWS Certified Solutions Architect – Associate"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Dec 2021",
+        "description": "This credential helps organizations identify and develop talent with critical skills for implementing cloud initiatives. Earning AWS Certified Developer – Associate validates the ability to write and deploy cloud-based applications.",
+        "institution": "Amazon Web Services (AWS)",
+        "name": "AWS Certified Developer – Associate"
+      },
+      {
+        "date": "Sept 2014 2021",
+        "description": " The Certified Scrum Developer® course is designed for product developers who are working in a Scrum environment. The goal is to expose students to the most important tools and techniques needed to build good products in the iterative and incremental fashion that Scrum requires. These ideas are central to the entire field of agile product development.",
+        "institution": "Ceiba Software House S.A.S.",
+        "name": "Certified Scrum Developer"
+      },
+      {
+        "date": "Sept 2014 2021",
+        "description": "Candidates for this exam are developers with at least one year of experience developing with HTML in an object-based, event-driven programming model, and programming essential business logic for a variety of application types, hardware, and software platforms using JavaScript.",
+        "institution": "Microsoft",
+        "name": "Exam 480: Programming in HTML5 with JavaScript and CSS3"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Grade: Systems and Computer Engineering",
+        "description": "The curricular program of Systems Engineering and Informatics aims to train upstanding and suitable professionals who can adopt, apply and innovate knowledge in the field of systems and informatics. Also, that they are capable of contributing with their organization, structuring, management, planning, modeling, development, processing, validation, transfer and communication. Information technology is applied in numerous and diverse sectors, and today, computers are present in almost all daily tasks.",
+        "endDate": "Apr 2014",
+        "institution": "Universidad Nacional de Colombia",
+        "startDate": "Jan 2008"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "High School ",
+        "description": "Preparation for high education.",
+        "endDate": "Dec 2007",
+        "institution": "Hernan Villa Baena High School",
+        "startDate": "Jan 2002"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "EPAM Systems",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Analysis and software development, maintenance, and support of existing custom applications in Backend using agile methodology Scrum with continuous integration.",
+        "jobTitle": "Software Engineer",
+        "startDate": "Jul 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Globant",
+        "endDate": "Jan 2021",
+        "jobDescription": "Analysis and software development in Backend using agile methodology Scrum with continuous integration.",
+        "jobTitle": "Java Developer",
+        "startDate": "Mar 2019"
+      },
+      {
+        "company": "Ceiba Software",
+        "endDate": "Mar 2019",
+        "jobDescription": "Analysis, designing and software development as Full Stack developer, using agile methodology Scrum and Kanban with continuous integration and continuous delivery.",
+        "jobTitle": "Developer Architect",
+        "startDate": "Aug 2017"
+      },
+      {
+        "company": "TODO1 Services Inc.",
+        "endDate": "Jul 2017",
+        "jobDescription": "Analysis, designing and software development as Full Stack developer, using agile methodology Scrum and Kanban with continuous integration and continuous delivery.",
+        "jobTitle": "Developer Engineer",
+        "startDate": "Oct 2016"
+      },
+      {
+        "company": "Analyst Developer",
+        "endDate": "Mar 2016",
+        "jobDescription": "I. Survey of analysis and requirements. II. Design of custom solutions. III. Development of custom applications. IV. Maintenance and support for custom applications.",
+        "jobTitle": "Clínica Las Américas",
+        "startDate": "Aug 2015"
+      },
+      {
+        "company": "TM Solutions",
+        "endDate": "Jul 2015",
+        "jobDescription": "I. Survey of analysis and requirements. II. Design of custom solutions. III. Development of custom applications. IV. Maintenance and support for custom applications.",
+        "jobTitle": "Systems Engineer",
+        "startDate": "Mar 2015"
+      },
+      {
+        "company": "Softcaribbean ",
+        "endDate": "Feb 2015",
+        "jobDescription": "I. Survey of analysis and requirements. II. Design of custom solutions. III. Development of custom applications. IV. Maintenance and support for custom applications.",
+        "jobTitle": "Systems Engineer",
+        "startDate": "Oct 2014"
+      },
+      {
+        "company": "Mitsubishi Electric de Colombia",
+        "endDate": "Jun 2014",
+        "jobDescription": "I. Helpdesk service line attention. II. Monitoring of communications equipment (backup equipment, servers, switches) and verify correct operation. III. Support in the company's technology projects.",
+        "jobTitle": "Systems Engineer",
+        "startDate": "Jun 2013"
+      },
+      {
+        "company": "Universidad Nacional de Colombia",
+        "endDate": "Jun 2012",
+        "jobDescription": "Implementation of a system based on web services, oriented towards the remote operation of robots capable of executing basic soccer moves.",
+        "jobTitle": "Student Researcher SINTELWEB group",
+        "startDate": "Nov 2011"
       }
     ],
     "skills": [
       {
+        "name": "Java SE",
+        "percentage": "70"
+      },
+      {
+        "name": "Java EE",
+        "percentage": "60"
+      },
+      {
+        "name": "Spring Framework",
+        "percentage": "60"
+      },
+      {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "70"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "55"
+      },
+      {
+        "name": "Angular",
+        "percentage": "40"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30"
+      },
+      {
+        "name": "MySQL",
+        "percentage": "75"
+      },
+      {
+        "name": "PostgreSQL",
+        "percentage": "70"
+      },
+      {
+        "name": "Oracle DB",
+        "percentage": "50"
+      },
+      {
+        "name": "PL/SQL",
+        "percentage": "40"
+      },
+      {
+        "name": "Git",
+        "percentage": "55"
+      },
+      {
+        "name": "Scrum",
+        "percentage": "95"
+      },
+      {
+        "name": "JUnit",
+        "percentage": "50"
+      },
+      {
+        "name": "Maven",
+        "percentage": "70"
+      },
+      {
+        "name": "Gradle",
+        "percentage": "50"
+      },
+      {
+        "name": "Docker",
+        "percentage": "50"
+      },
+      {
+        "name": "Kubernetes",
+        "percentage": "40"
+      },
+      {
+        "name": "AWS",
+        "percentage": "60"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Java",
+      "Javascript",
+      "Solidity",
+      "Blockchain",
+      "Software Development",
+      "Backend",
+      "Frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70"
+      },
+      {
+        "name": "French",
+        "percentage": "1"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/ewcastroh",
+        "badge": "https://img.shields.io/badge/Facebook-0077B5?style=for-the-badge&logo=facebook&logoColor=white"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/ewcastroh",
+        "badge": "https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/ewcastroh",
+        "badge": "https://img.shields.io/badge/Github-0077B5?style=for-the-badge&logo=github&logoColor=white"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/ewcastroh",
+        "badge": "https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
       }
     ]
   }
