@@ -1,0 +1,25 @@
+Documentation:
+
+1) First I solved the dependancy problems by looking in the package.json file as when i tried to install it, everything failed. To solve it I did a binary fetch algorthm with the files and tested them, until I found the troubled ones. Then I looked for them and how to install it on the internet and solved it.
+2) Then, I Created the skeleton in src/containers/App.jsx, very simple just to check te components.
+3) Created all the files of the components just by copying and pasting them to see if they were all working properly.
+4) Created the GetData API using fetch-then and working with the values. Playing with the values was the most difficult part for me and where I messed everything at the begeining.
+5) after this I just started working with the values, the arrays, objects in order to show them in my app and I did a few things that worked for some variables and some didn´t, but I finished the App by doing it in that way, I also tried looking for ways to solve it on the internet, videos, stackoverflow, tutorials, and tried many ways, most of them failed.
+6) after finishing those steps I added some basic CSS. I was more interested in making this whole thing work more than making it to look pretty.
+7) I did my first commit, not to lose the changes.
+8) I ran the tests and they failed, almost all. I also noticed by looking  inside the test files and runing the tests that there was a directory missing, so I added the directory and file there.
+9) I had a look back at the source code and correct some things with the getData function, I kept runing it but keep failing.
+10) I started rechecking the components and I cleaned a bit all the mess I did while playing with the different kind of values handed in by the api. And I used the map method for everything as it was simpler but I had some cases it didn't work directly and there I got help from some friend and they told me to add the ternary comparator to check and the things started to work and to pass the tests.
+
+To run the page I just do:
+1) GIT clone
+2) I errase  REACT and REACT-dom from the package.json
+3) npm install
+4) npm install react react-dom
+5) npm run server
+6) npm start
+7) npm run test
+
+Images.
+1) Tests working in "Test.png"
+2) CV working in localhost "CV.png"

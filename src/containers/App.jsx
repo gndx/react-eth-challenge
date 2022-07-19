@@ -11,52 +11,30 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import getData from '../utils/getData';
 
+const App = () => 
+{
+  const [Cv, setCv] = useState([]);
+  const API = "http://localhost:3000/data";
 
+  useEffect(() => 
+            {
+              getData(API)
+                .then( (nCv) => {setCv(nCv);} ); 
+            }, []);
 
-const App = () => {
-
-const [Cv, setCv] = useState([]);
-const[flag,setFlag] =React.useState({1:false})
-const[exp,setExp] =React.useState([])
-const[aca,setAca] =React.useState([])
-const[ski,setSki] =React.useState([])
-const[lan,setLan] =React.useState([])
-
-useEffect (()=>     {
-
-                        if(flag===true)
-                        {
-                          console.log(flag);
-                        }
-                        else
-                        {
-                          setFlag(!flag);
-                          console.log(flag);
-                          getData('http://localhost:3000/data')
-                            .then((res) => {return res.json()})
-                            .then((nCv) => { setCv(nCv);
-                                              setExp(nCv.experience); 
-                                              setAca(nCv.Academic); 
-                                              setSki(nCv.skills);
-                                              setLan(nCv.languages); })
-                            .catch((err) => {console.log(err)});
-                        }
-                    });
-
-
-  return (
-    <>
-      <Header Name={Cv.name} Image={Cv.avatar} >
-        <About Profession={Cv.profession} Address={Cv.address} Phone={Cv.phone} Email={Cv.email} Website={Cv.website}/>
-      </Header>
-      <Profile Description={Cv.Profile}/>
-      <Experience DATOSE={exp}/>
-      <Academic DATOSA={aca}/>
-      <Skills DATOSS={ski}/>
-      <Interest DATOSI={Cv.interest}/>
-      <Languages DATOSL={lan}/>
-    </>
-  )
+  return  (
+            <>
+              <Header Name={Cv.name} Image={Cv.avatar}>
+                <About Profession={Cv.profession} Address={Cv.address} Phone={Cv.phone} Email={Cv.email} Website={Cv.website}/>
+              </Header>
+              <Profile Description={Cv.Profile} />
+              <Experience data={Cv.experience} />
+              <Academic data={Cv.Academic} />
+              <Skills data={Cv.skills} />
+              <Interest data={Cv.interest} />
+              <Languages data={Cv.languages} />
+            </>
+          );
 };
 
 export default App;

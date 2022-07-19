@@ -1,18 +1,32 @@
 import React from 'react';
 import '../styles/components/Experience.styl';
 
-
-const Experience = (props) => {
-  return (
-    <div className='Experience'>
-    <h1 className='Experience-title'>My experience</h1>
-      {
-        props.DATOSE.map(elemento=>(
-          <div className='Experience-item'><span className='job-title'>{elemento.jobTitle}:</span><span className='company-name'>{elemento.company}</span><span className='date'>({elemento.startDate}-{elemento.endDate})</span></div>
-        ))
-      }
-    </div>
-  );
+const Experience = ({ data }) => 
+{
+  return  (
+            <div className='Experience'>
+              <h2 className='Experience-title'>My Experience</h2>
+                {
+                  data ?
+                    data.map  ((elemento) => 
+                                            {
+                                              return  (
+                                                        <div className='Experience-item'> 
+                                                          <span className='jobTitle'>
+                                                            {elemento.jobTitle} :
+                                                          </span>
+                                                          <span className='company'>
+                                                            {' '+elemento.company}
+                                                          </span>
+                                                          <span className='date'>
+                                                            ({' '+elemento.startDate} - {elemento.endDate})
+                                                          </span>
+                                                        </div>
+                                                      );
+                                            }         ) : <div>...</div>
+                }
+            </div>
+          );
 };
 
 export default Experience;

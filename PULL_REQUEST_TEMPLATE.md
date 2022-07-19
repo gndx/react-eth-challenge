@@ -1,16 +1,16 @@
 ## DESCRIPTION
 
-Solución al reto:
+Solución al reto: Just deploy missing
 
 Nombre:
-Usuario Platzi:
+Usuario Platzi: crisme1989
 
 ## Reto:
 
-- [ ] Primer problema
-- [ ] Segundo problema
-- [ ] Tercer problema
-- [ ] Cuarto Problema
-- [ ] Quinto Problema
-- [ ] Sexto Problema
+- [✓] Primer problema
+- [✓] Segundo problema
+- [✓] Tercer problema
+- [✓] Cuarto Problema
+- [✓] Quinto Problema
+- [✓] Sexto Problema
 - [ ] Septimo Problema
