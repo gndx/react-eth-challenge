@@ -14,3 +14,7 @@ Usuario Platzi: ewcastroh
 - [X] Quinto Problema
 - [X] Sexto Problema
 - [X] Septimo Problema
+
+Deployments
+API: https://ewcastroh.github.io/data.json
+App: https://dist-ewcastroh.vercel.app/

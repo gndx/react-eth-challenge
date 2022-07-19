@@ -44,7 +44,6 @@ export const App = () => {
     languages,
     social,
   } = data;
-  console.log(data);
 
   return (
     <React.Fragment>
