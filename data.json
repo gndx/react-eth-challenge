@@ -54,18 +54,18 @@
           "startDate": "Jun 2022"
         },
         {
+          "company": "Self Employed",
+          "endDate": "Present",
+          "jobDescription": "I work with clients in Web Development using HTML, CSS, Sass, Bootstrap 5, JavaScript, JQuery, React.js, Node.js, MongoDB and CMS such as WordPress, focusing on E-Commerce using Woocommerce and Elementor.",
+          "jobTitle": "Freelance Web Developer",
+          "startDate": "Jun 2021"
+        },
+        {
           "company": "Mr. Coin Blockchain",
           "endDate": "Apr 2022",
           "jobDescription": "As a strategy advisor I have been involved in events and workshops for different clients and partners of Mr.Coin.",
           "jobTitle": "Strategy Advisor",
           "startDate": "Apr 2021"
-        },
-        {
-          "company": "Self Employed",
-          "endDate": "May 2021",
-          "jobDescription": "I worked with clients in Web Development using HTML, CSS, JS and CMS such as WordPress, focusing on E-Commerce using Woocommerce and Elementor.",
-          "jobTitle": "Freelance Web Developer",
-          "startDate": "Aug 2021"
         }
       ],
       "skills": [
