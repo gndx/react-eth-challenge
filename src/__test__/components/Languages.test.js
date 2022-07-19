@@ -3,7 +3,22 @@ import { shallow } from 'enzyme';
 import Languages from '../../components/Languages';
 
 describe('<Languages />', () => {
-  const languages = shallow(<Languages />);
+  const testArray = [
+    {
+      "name": "Spanish",
+      "percentage": "90%"
+    },
+    {
+      "name": "English",
+      "percentage": "70%"
+    },
+    {
+      "name": "French",
+      "percentage": "20%"
+    }
+  ]
+
+  const languages = shallow(<Languages languages={testArray} />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);
