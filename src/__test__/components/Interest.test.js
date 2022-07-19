@@ -1,9 +1,16 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Interest from '../../components/Interest';
 
 describe('<Interest />', () => {
-  const interest = mount(<Interest />);
+  const testArray = [
+    "javascript",
+    "develop",
+    "backend",
+    "frontend"
+  ];
+
+  const interest = shallow(<Interest interest={testArray} />);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);

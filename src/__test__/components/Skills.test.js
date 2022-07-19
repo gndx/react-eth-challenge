@@ -1,9 +1,28 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Skills from '../../components/Skills';
 
+const testArray = [
+  {
+    "name": "HTML5",
+    "percentage": "75%"
+  },
+  {
+    "name": "CSS",
+    "percentage": "25%"
+  },
+  {
+    "name": "JavaScript",
+    "percentage": "55%"
+  },
+  {
+    "name": "React",
+    "percentage": "90%"
+  }
+]
+
 describe('<Skills />', () => {
-  const skills = mount(<Skills />);
+  const skills = shallow(<Skills skills={testArray} />);
 
   test('Skills render', () => {
     expect(skills.length).toEqual(1);

@@ -1,57 +1,57 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Luis Fernando Méndez",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "luisfernando@latimakers.com",
+    "website": "https://latimakers.com",
+    "phone": "+34123456789",
+    "avatar": "https://lh3.googleusercontent.com/a-/AFdZucqlJoUg14ckRAVPZ_7IpwiW_MU4aEJlCNnWeV-VY1s=s576-p-rw-no",
+    "Profile": "Soy un ingeniero de software enfocado en el Frontend con pasión sobre lo que es crear un producto, y que realmente disfruta de encontrar soluciones a problemas reales. Me encanta las web3 porque veo en ella el potencial de ayudar a nuestro continente.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Oct 2022",
+        "description": "Desarrollador enfocado en construir productos y soluciones bajo los esquemas de las web3.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Blockchain Ethereum Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Sep 2022",
+        "description": "Fullstack developer en tecnologías relacionadas a la blockchain, generando soluciones desde establecimiento y despliegue de networks hasta la cara del cliente.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Blockchain Fullstack Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Especialización en Asuntos Públicos",
+        "description": "Capacitación en el análisis, formulación, implementación y evaluación de políticas públicas.",
+        "endDate": "Jul 2022",
+        "institution": "IESA",
+        "startDate": "Nov 2021"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Msc. Digital Management and Innovation for Development",
+        "description": "Estudios enfocados en la gestión y desarrollo de soluciones digitales con tecnologías de vanguardia para ayudar al desarrollo de los países",
+        "endDate": "Apr 2024",
+        "institution": "Oxford",
+        "startDate": "Oct 2023"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Bridge for Billions",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Desarrollo de software para promover el desarrollo de ecosistemas de emprendimiento alrededor del mundo, como una medida que busca generar un cambio real en la economía.",
+        "jobTitle": "Software Engineer",
+        "startDate": "May 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "WeGrow",
+        "endDate": "May 2021",
+        "jobDescription": "Desarrollo de aplicaciones as a service para emprendimientos y negocios ya establecidos alrededor de toda la región latinoamericana.",
+        "jobTitle": "Frontend and Product Designer",
+        "startDate": "Jan 2019"
       }
     ],
     "skills": [
@@ -61,22 +61,24 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "87%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "95%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
-      "backend",
-      "frontend"
+      "blockchain",
+      "frontend",
+      "product",
+      "entrepreneurship"
     ],
     "languages": [
       {
@@ -85,7 +87,11 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
+      },
+      {
+        "name": "French",
+        "percentage": "20%"
       }
     ],
     "social": [
