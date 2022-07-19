@@ -1,0 +1,17 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 1rem;
+  background-color: var(--main-card-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.Profile-title {
+  font-size: xxx-large;
+  border-bottom: 1px dotted var(--main-title-color);
+  color: var(--main-title-color);
+}
+.Profile-desc {
+  font-size: large;
+}
