@@ -11,14 +11,15 @@ import { Interest } from '../components/Interest';
 import { Languages } from '../components/Languages';
 import getData from '../utils/getData';
 
-const url = 'http://localhost:3000/data'
+// const url = 'http://localhost:3000/data'
+const url = 'https://ewcastroh.github.io/data.json'
 
 const getUserData = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
     getData(url)
-      .then(response => setData(response));
+      .then(response => setData(response.data));
   }, []);
   return data;
 }
@@ -43,6 +44,7 @@ export const App = () => {
     languages,
     social,
   } = data;
+  console.log(data);
 
   return (
     <React.Fragment>
