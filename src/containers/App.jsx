@@ -14,7 +14,7 @@ import getData from '../utils/getData';
 const App = () => 
 {
   const [Cv, setCv] = useState([]);
-  const API = "http://localhost:3000/data";
+  const API = "https://raw.githubusercontent.com/DigiCris/react-eth-challenge/main/data.json";
 
   useEffect(() => 
             {
