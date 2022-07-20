@@ -10,6 +10,11 @@ Documentation:
 8) I ran the tests and they failed, almost all. I also noticed by looking  inside the test files and runing the tests that there was a directory missing, so I added the directory and file there.
 9) I had a look back at the source code and correct some things with the getData function, I kept runing it but keep failing.
 10) I started rechecking the components and I cleaned a bit all the mess I did while playing with the different kind of values handed in by the api. And I used the map method for everything as it was simpler but I had some cases it didn't work directly and there I got help from some friend and they told me to add the ternary comparator to check and the things started to work and to pass the tests.
+11) I tried to deploy in github pages, in netlify but all attempts were worthless, I asked for help and my classmates helped me using vercel to deploy it.
+12) I had to upload the github files there, set the configuration for the sistem to know were my files were and then deploy it. It took some time but finally worked.
+13) After deploying I had quite a difficult time changing the localhost of the api to an actual valid ID as git were not taking my changes but that got solved too.
+
+CV Deployed=> https://react-eth-challenge-five-delta.vercel.app/
 
 To run the page I just do:
 1) GIT clone
