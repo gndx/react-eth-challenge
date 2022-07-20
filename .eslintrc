@@ -5,7 +5,9 @@
     "node": true
   },
   "extends": [
-    "airbnb"
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended"
   ],
   "globals": {
     "document": false,
@@ -19,12 +21,18 @@
     "expect": true,
     "sinon": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "plugins": [
     "react",
     "jsx-a11y",
     "import"
   ],
+  "parserOptions": {
+    "requireConfigFile": false,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "rules": {
     "react/jsx-filename-extension": 0,
     "array-bracket-spacing": 2,
@@ -248,6 +256,12 @@
     "jsx-a11y/no-noninteractive-element-interactions": 0,
     "jsx-a11y/media-has-caption": 0,
     "react/display-name": 0,
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function"
+      }
+    ],
     "react/jsx-boolean-value": 0,
     "react/jsx-closing-bracket-location": 2,
     "react/jsx-curly-spacing": [
@@ -272,8 +286,8 @@
     "react/jsx-pascal-case": 2,
     "react/jsx-sort-prop-types": 0,
     "react/jsx-sort-props": 0,
-    "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
     "react/no-did-mount-set-state": 2,
     "react/no-did-update-set-state": 2,
     "react/no-multi-comp": 0,
