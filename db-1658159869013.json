@@ -1,0 +1,163 @@
+{
+  "data": {
+    "name": "Cristian Marchese",
+    "profession": "Engineer in Electronics",
+    "address": "Bs As, Argentina.",
+    "email": "cmarchesetdiii@gmail.com",
+    "website": "https://example.com",
+    "phone": "555corriente",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQFrer5xMiLgtA/profile-displayphoto-shrink_800_800/0/1517856494845?e=1663804800&v=beta&t=mhJ8UIuCwt0kJ3HYd52lJmaNLQFzw0Mr-JWQyRvJLSY",
+    "Profile": "I am an Electronic Engineer currently working on blockchain.",
+    "certificate": [
+      {
+        "date": "Jul 2022",
+        "description": "An advanced course of react that I'll have to check. ",
+        "institution": "Platzi",
+        "name": "React avanzado"
+      },
+      {
+        "date": "Jul 2022",
+        "description": "A course for beginers in React",
+        "institution": "Platzi",
+        "name": "Introduccion a React"
+      }
+    ],
+    "Academic": [
+      {
+        "degree": "Engineer in Electronics",
+        "description": "A 6 year-degree that took me much more than that.",
+        "endDate": "Jan 2017",
+        "institution": "UTN",
+        "startDate": "Apr 2008"
+      },
+      {
+        "degree": "Electronic Technician",
+        "description": "Motorola certified Technician",
+        "endDate": "Dec 2007",
+        "institution": "Harper college",
+        "startDate": "Jan 2005"
+      },
+      {
+        "degree": "Taekwondo Instructor",
+        "description": "ITF",
+        "endDate": "Present",
+        "institution": "Harper college",
+        "startDate": "Mrch 1995"
+      },
+      {
+        "degree": "Music",
+        "description": "Abandoned",
+        "endDate": "2014",
+        "institution": "Harper college",
+        "startDate": "Mrch 2009"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Fintech",
+        "endDate": "Present",
+        "jobDescription": "tokenization for a fintech start up.",
+        "jobTitle": "CTO",
+        "startDate": "Dec 2021"
+      },
+      {
+        "company": "Freelancer",
+        "endDate": "May 2022",
+        "jobDescription": "Blockchain programing and full stack developer.",
+        "jobTitle": "Blockchain developer",
+        "startDate": "Dec 2018"
+      },
+      {
+        "company": "UTN-UBA-INTI-Allegro Microsystems",
+        "endDate": "Dec 2018",
+        "jobDescription": "Designing integrated circuits.",
+        "jobTitle": "Asic Designer",
+        "startDate": "April 2010"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "percentage": "85%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "30%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "20%"
+      },
+      {
+        "name": "React",
+        "percentage": "5%"
+      },
+      {
+        "name": "Solidity",
+        "percentage": "90%"
+      },
+      {
+        "name": "Php",
+        "percentage": "85%"
+      },
+      {
+        "name": "C",
+        "percentage": "90%"
+      },
+      {
+        "name": "Assembly",
+        "percentage": "70%"
+      },
+      {
+        "name": "Verilog",
+        "percentage": "40%"
+      },
+      {
+        "name": "sql",
+        "percentage": "40%"
+      }
+    ],
+    "interest": [
+      "javascript",
+      "develop",
+      "backend",
+      "frontend"
+    ],
+    "languages": [
+      {
+        "name": "Spanish",
+        "percentage": "90%"
+      },
+      {
+        "name": "English",
+        "percentage": "90%"
+      },
+      {
+        "name": "Swedish",
+        "percentage": "50%"
+      },
+      {
+        "name": "German",
+        "percentage": "30%"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://facebook.com/"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/DigiCris"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/"
+      }
+    ]
+  }
+}
