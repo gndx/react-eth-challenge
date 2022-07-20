@@ -1,6 +1,6 @@
 ## DESCRIPTION
 
-Solución al reto: Just deploy missing
+Solución al reto: Everything solved, ran test properly and deployed (https://react-eth-challenge-five-delta.vercel.app/)
 
 Nombre:
 Usuario Platzi: crisme1989
@@ -13,4 +13,4 @@ Usuario Platzi: crisme1989
 - [✓] Cuarto Problema
 - [✓] Quinto Problema
 - [✓] Sexto Problema
-- [ ] Septimo Problema
+- [✓] Septimo Problema
