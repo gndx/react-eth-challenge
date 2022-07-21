@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Luis Felipe Marin Giraldo",
+    "profession": "Software engineer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "email": "luisf.maring0910@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "30581",
+    "avatar": "",
+    "Profile": "",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,33 +24,40 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Software engineer",
+        "description": "The program focused on software architecture, development and management.",
+        "endDate": "Jan 2016",
+        "institution": "Fundación Universitaria Compensar",
+        "startDate": "Jan 2012"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Mathematician",
+        "description": "The mathematics program seeks a balance in pure and applied areas.",
+        "endDate": "Decenber 2021",
+        "institution": "Fundación Universitaria Konrad Lorenz",
+        "startDate": "Jan 2016"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Monokera",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Development and maintenance of the platform in ruby or rails.",
+        "jobTitle": "Back end ruby on rails",
+        "startDate": "Sept 2021"
       },
       {
-        "company": "CatStore",
+        "company": "SincoSoft",
         "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
+        "jobDescription": "Application architecture design, maintenance of cross-cutting modules. Research and application of new technologies.",
+        "jobTitle": "full stack",
+        "startDate": "Sept 2019"
+      },
+      {
+        "company": "Batanga media",
+        "endDate": "Jan 2016",
+        "jobDescription": "Maintenance and development of internal use applications. Database administration. Support in general systems requirements.",
+        "jobTitle": "Full stack .net",
         "startDate": "Sept 2019"
       }
     ],
@@ -65,18 +72,46 @@
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "45%"
+      },
+      {
+        "name": "Vue js",
+        "percentage": "55%"
+      },
+      {
+        "name": ".Net",
+        "percentage": "80%"
+      },
+      {
+        "name": "Net core",
+        "percentage": "60%"
+      },
+      {
+        "name": "ruby on rails",
+        "percentage": "55%"
+      },
+      {
+        "name": "SQL",
+        "percentage": "80%"
+      },
+      {
+        "name": "Solidity",
+        "percentage": "30%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "math",
+      "statistics",
+      "deep learning",
+      "BlockChain"
     ],
     "languages": [
       {
@@ -85,7 +120,7 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "45%"
       }
     ],
     "social": [
