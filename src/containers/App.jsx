@@ -9,22 +9,20 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
-import data from '../../data.json'
+import getData from '../utils/getData';
 
 const App = () => {
 
   const [dataCv, setDataCv] = React.useState({});
 
    useEffect(() => {
-    setDataCv(data)
-     /*getData('https://raw.githubusercontent.com/Alextyle8/react-eth-challenge/main/data.json')
-       .then((json) => {
-        setDataCv(json.data);
-       })
-       .catch((err) => {
-         console.log(err);
-       });
-      */
+    getData('https://raw.githubusercontent.com/LuisFelipe09/react-eth-challenge/main/data.json')
+      .then((json) => {
+        setDataCv(json);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
    }, []);
 
   return (
