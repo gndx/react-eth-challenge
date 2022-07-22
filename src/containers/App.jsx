@@ -19,7 +19,7 @@ const App = () =>
   useEffect(() => 
             {
               getData(API)
-                .then( (nCv) => {setCv(nCv);} ); 
+                .then( (nCv) => { console.log("Imprimir nCv",nCv); setCv(nCv.data); } ); 
             }, []);
 
   return  (
