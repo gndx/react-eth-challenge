@@ -1,9 +1,13 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Interest from '../../components/Interest';
+import DataStub from '../../__stubs__/full_cv.json';
 
 describe('<Interest />', () => {
-  const interest = mount(<Interest />);
+  const data = DataStub.data.interest;
+  const interest = shallow(
+    <Interest data={data} />,
+  );
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);

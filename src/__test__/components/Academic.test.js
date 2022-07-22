@@ -1,9 +1,13 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Academic from '../../components/Academic';
+import DataStub from '../../__stubs__/full_cv.json';
 
 describe('<Academic />', () => {
-  const academic = mount(<Academic />);
+  const academicData = DataStub.data.academic;
+  const academic = shallow(
+    <Academic data={academicData} />,
+  );
 
   test('Academic render', () => {
     expect(academic.length).toEqual(1);

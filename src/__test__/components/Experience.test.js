@@ -1,9 +1,13 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Experience from '../../components/Experience';
+import DataStub from '../../__stubs__/full_cv.json';
 
 describe('<Experience />', () => {
-  const experience = mount(<Experience />);
+  const data = DataStub.data.experience;
+  const experience = shallow(
+    <Experience data={data} />,
+  );
 
   test('Experience render', () => {
     expect(experience.length).toEqual(1);
