@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Brayan Alexander Cardozo Salcedo",
+    "profession": "Software Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "brayanalexander95@hotmail.com",
+    "website": "https://github.com/Brayan-CS",
+    "phone": "3102555374",
+    "avatar": "https://media-exp2.licdn.com/dms/image/C5603AQFRQ-VrGJNt9w/profile-displayphoto-shrink_200_200/0/1626213058696?e=2147483647&v=beta&t=uR6S4aa3amL1QwIIAaK-RlDLGXcojwU4X4_tiSVQerI",
+    "Profile": "Engineer and developer of web solutions, with strengths in the Front-End and the development of Geographic Information Systems, with knowledge and experience in the management of spatial data and its integration with applications in the cloud, as well as the management and treatment of these for the construction of machine learning models focused on the management of natural resources",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,86 +24,95 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Forest Engineering",
+        "description": "Degree",
+        "endDate": "Apr 2021",
+        "institution": "Universidad Distrital",
+        "startDate": "Jan 2014"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "GIS Implementatation",
+        "description": "Technological Specialization",
+        "endDate": "Oct 2020",
+        "institution": "SENA",
+        "startDate": "Jan 2020"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Mercado Criollo",
+        "endDate": "Sep 2020",
+        "jobDescription": "Develop and maintain the company website, also the database management (MySQL), and CMS control (Prestashop, Wordpress).",
+        "jobTitle": "Web Developer",
+        "startDate": "Mar 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Tecnoprocesos",
+        "endDate": "Jul 2021",
+        "jobDescription": "Development of a GIS for the analysis and monitoring of events in the framework of risk management in through of  ArcGIS API for JavaScript, also develop the web interface with ElectronJS",
+        "jobTitle": "GIS Developer/Front-End Developer",
+        "startDate": "May 2021"
+      },
+      {
+        "company": "Bancolombia",
+        "endDate": "Present",
+        "jobDescription": "Development of web solutions keeping in mind the cycle life of the software development, mainly focussed in the Front-End with Angular as Framework, design and devlopment of unit testing with Jasminen and Jest, also develop  e2e automatized testing using Serenity framework, manage of  deployments and DevOps strategys trougth pipelines like CI an CD practices, manage of some cloud infraestrcuture with AWS",
+        "jobTitle": "Software Developer",
+        "startDate": "Jul 2021"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "65%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "75%"
+      },
+      {
+        "name": "Angular",
+        "percentage": "85%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "40%"
+      },
+      {
+        "name": "Python (NumPy/Pandas/SciKit-Learn)",
+        "percentage": "50%"
+      },
+      {
+        "name": "Java/Node",
+        "percentage": "40%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+   
+      "Angular",
+      "BlockChain",
+      "GIS Development",
+      "CSS Animations and Code Art"
+      
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/Brayan-CS"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://co.linkedin.com/in/brayan-cardozo"
       }
     ]
   }
