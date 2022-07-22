@@ -1,9 +1,10 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Experience from '../../components/Experience';
+import dataCv from '../../../data.json'
 
 describe('<Experience />', () => {
-  const experience = mount(<Experience />);
+  const experience = shallow(<Experience {...dataCv.data} />);
 
   test('Experience render', () => {
     expect(experience.length).toEqual(1);
@@ -14,7 +15,7 @@ describe('<Experience />', () => {
   });
 
   test('Experience haves 3 items', () => {
-    expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
+    expect(experience.find('.Experience-item').length).toBeGreaterThan(1);
   });
 
 });
