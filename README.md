@@ -27,7 +27,7 @@
 
 <br/>
 
-[**Deploy**](https://leandergs.github.io/react-eth-challenge/)
+[**Deploy**](https://leandrogavidia.github.io/react-eth-challenge/)
 
 ---
 
