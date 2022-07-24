@@ -1,0 +1,22 @@
+@use "./vars" as *;
+
+@mixin sectionStyle {
+    width: 100%;
+    border-bottom: $primary-color 0.1rem solid;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+@mixin linkStyle {
+    color: $second-color;
+    text-decoration: none;
+    &:hover, &:active, &:visited {
+        color: $third-color;
+    }
+}
+
+@mixin subtitle {
+    font-size: 3.6rem;
+    font-weight: $bold;
+    margin-bottom: 6rem;
+}

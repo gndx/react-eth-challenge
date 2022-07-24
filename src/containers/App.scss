@@ -1,0 +1,9 @@
+.cv-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 6rem;
+  text-align: left;
+  font-size: 2.4rem;
+  padding: 8rem 6rem;
+}

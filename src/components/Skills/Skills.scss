@@ -1,0 +1,24 @@
+@use "../../styles/vars" as *;
+@use "../../styles/mixins" as *;
+
+.Skills {
+    @include sectionStyle;
+    &-title {
+        @include subtitle;
+    }
+    & > p {
+        font-weight: bold;
+    }
+    & > ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-items: start;
+        grid-gap: 4rem;
+        list-style: none;
+        margin: 4rem 0 6rem 0;
+        & > li {
+            font-weight: $semi-bold;
+        }
+    }
+}

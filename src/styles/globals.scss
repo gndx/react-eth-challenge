@@ -1,0 +1,74 @@
+@use "./vars" as *;
+
+@font-face {
+    font-family: "Montserrat";
+    src:
+        url("../assets/fonts/montserrat-v24-latin-300.woff") format("woff2"),
+        url("../assets/fonts/montserrat-v24-latin-300.woff2") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src:
+        url("../assets/fonts/montserrat-v24-latin-500.woff") format("woff2"),
+        url("../assets/fonts/montserrat-v24-latin-500.woff2") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src:
+        url("../assets/fonts/montserrat-v24-latin-800.woff") format("woff2"),
+        url("../assets/fonts/montserrat-v24-latin-800.woff2") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+  
+:focus-visible {
+    outline: 0.1rem $second-color solid;
+}
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: $primary-color rgba(0, 0, 0, 0);
+}
+  
+  /* Works on Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 0.4rem;
+}
+  
+*::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: $primary-color;
+    border-radius: 2rem;
+    border: none;
+}
+  
+html {
+    font-size: 62.5%;
+}
+  
+body {
+    font-family: Montserrat, sans-serif;
+    height: 100vh;
+    background-color: $fourth-color;
+    color: $primary-color;
+}
+
+@media (min-width: 1000px) {
+    *::-webkit-scrollbar {
+        width: 0.6rem;
+    }
+}

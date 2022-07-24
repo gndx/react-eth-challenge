@@ -1,0 +1,20 @@
+@use "../../styles/vars" as *;
+@use "../../styles/mixins" as *;
+
+.Languages {
+    @include sectionStyle;
+    &-title {
+        @include subtitle;
+    }
+    & > ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        & li:nth-child(even) {
+            margin: 0 4rem;
+        }
+        & li:last-child {
+            margin-bottom: 6rem;
+        }
+    }
+}

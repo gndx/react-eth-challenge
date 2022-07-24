@@ -1,0 +1,32 @@
+@use "../../../styles/vars" as *;
+@use "../../../styles/mixins" as *;
+
+.About-item {
+    & > h3 {
+        font-weight: 2.8rem;
+        font-weight: $bold;
+        & > a {
+            @include linkStyle;
+        }
+    }
+    & > p {
+        line-height: 2;
+        margin: 1.2rem 0 4rem 0;
+    }
+    & > ul {
+        font-weight: $bold;
+        & > li {
+            font-weight: $semi-bold;
+            margin-left: 2.4rem;
+            &::marker {
+                color: $second-color;
+            }
+            &:nth-child(odd) {
+                margin: {
+                    top: 2rem;
+                    bottom: 2rem;
+                }
+            }
+        }
+    }
+}
