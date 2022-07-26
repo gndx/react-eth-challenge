@@ -1,4 +1,35 @@
-# react-eth-challenge
+# Curriculum vitae en React
+
+## Descripción
+
+Reto 2: Ethereum Developer Program
+
+## Despliegue Github pages
+
+Github pages url: https://salviega.github.io/Platzi-react-eth-challenge/
+··
+
+## Empezar 🏄
+
+Prerequisitos: [Node (v16 LTS)](https://nodejs.org/en/download/) y [Git](https://git-scm.com/downloads)
+
+> Clona el repositorio:
+
+```
+git clone https://github.com/salviega/Platzi-react-eth-challenge.git
+```
+
+> Instala las dependencias:
+
+```
+npm install
+```
+
+> Corre el proyecto:
+
+```
+npm start
+```
 
 ## React Curriculum vitae
 
