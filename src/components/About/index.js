@@ -1,14 +1,16 @@
 import React from 'react';
 
-const About = (props) => {
-  // console.log(props,'About')
+const About = ({ data }) => {
   return (
-    <>
-      <p>{props.data.profession}</p>
-      <p>Teléfono: {props.data.phone}</p>
-      <p>Correo electrónico: {props.data.email}</p>
-      <p>Residencia: {props.data.address}</p>
-    </>
+    <div>
+      <div className=" Headersection2">
+        <h4 className="About-title"> {data?.name}</h4>
+      </div>
+      <p className="About-item"> {data?.profession}</p>
+      <p className="About-item">Teléfono: {data?.phone}</p>
+      <p className="About-item">Correo electrónico: {data?.email}</p>
+      <p className="About-item">Residencia: {data?.address}</p>
+    </div>
   );
 };
 

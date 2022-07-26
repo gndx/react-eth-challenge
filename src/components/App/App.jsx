@@ -1,26 +1,28 @@
-// Components
+// Libraries
 import React from 'react';
-import Header from '../../components/Header';
-import About from '../../components/About';
-
-import Profile from '../../components/Profile';
-import Experience from '../../components/Experience';
-import Academic from '../../components/Academic';
-import Skills from '../../components/Skills';
-import SocialNetwork from '../SocialNetwork/SocialNetwork';
-import Languages from '../../components/Languages';
 
 // Styles
 import '../../styles/components/App.styl';
 
-// middleware
-import { getData } from '../../middleware/get-data.js';
+// Middleware
+import getData from '../../middleware/getData.js';
+
+// Components
+import Header from '../../components/Header';
+import About from '../../components/About';
+import Profile from '../../components/Profile';
+import Experience from '../../components/Experience';
+import Academic from '../../components/Academic';
+import Skills from '../../components/Skills';
+import SocialNetwork from '../SocialNetwork';
+import Languages from '../../components/Languages';
 
 const App = () => {
+  const url = 'http://localhost:3000/data';
   const [data, setData] = React.useState({});
 
   const featchData = async () => {
-    let data = await getData();
+    let data = await getData(url);
     setData(data);
   };
 

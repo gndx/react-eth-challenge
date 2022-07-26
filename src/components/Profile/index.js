@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Profile = (props) => {
+const Profile = ({ data }) => {
   return (
     <div className="ProfileMainContainer">
-      <h4>Perfil Profesional</h4>
+      <h4 className="Profile-title">Perfil Profesional</h4>
       <div className="ProfileContainer">
-        <p>{props.data.Profile}</p>
+        <p className="Profile-desc">{data?.Profile}</p>
       </div>
     </div>
   );

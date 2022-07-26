@@ -1,31 +1,83 @@
-import React from 'react'
+import React from 'react';
 
-const Experience = ({experience}) => {
-    let datos={};
-    if(experience!= undefined) {
-        datos=experience;
-    }
-    // const experience = data
-        
-
-    return (
-        <div className="ExperienceMainContainer">
-            
-            <div className="section">
-            <h4>Experiencia</h4>
-            {experience === undefined ? 'Loading...': experience.map((experience,index) => {
-                return (
-                    <div className="ExperienceContainer" key={index}>
-                    <p><strong>Fecha: </strong>{experience.startDate} - {experience.endDate}</p>
-                    <p><strong>Compañía:</strong> {experience.company}</p>
-                    <p><strong>Cargo:</strong> {experience.jobTitle}</p>
-                    <p><strong>Descripción:</strong> {experience.jobDescription}</p>
-                    </div>
-                )
-            })}
-            </div>
+const Experience = ({ experience }) => {
+  if (experience === undefined) {
+    experience = [
+      {
+        startDate: '',
+        endDate: '',
+        company: '',
+        jobTitle: '',
+        jobDescription: '',
+      },
+      {
+        startDate: '',
+        endDate: '',
+        company: '',
+        jobTitle: '',
+        jobDescription: '',
+      },
+      {
+        startDate: '',
+        endDate: '',
+        company: '',
+        jobTitle: '',
+        jobDescription: '',
+      },
+    ];
+  }
+  return (
+    <div className="ExperienceMainContainer">
+      <div className="section">
+        <h4 className="Experience-title">Experiencia</h4>
+        <div className="Experience-item ExperienceContainer">
+          <p>
+            <strong>Fecha: </strong>
+            {experience[0]?.startDate} - {experience[0]?.endDate}
+          </p>
+          <p className="Experience-item">
+            <strong>Compañía:</strong> {experience[0]?.company}
+          </p>
+          <p>
+            <strong>Cargo:</strong> {experience[0]?.jobTitle}
+          </p>
+          <p>
+            <strong>Descripción:</strong> {experience[0]?.jobDescription}
+          </p>
         </div>
-    )
-}
+        <div className="Experience-item ExperienceContainer">
+          <p>
+            <strong>Fecha: </strong>
+            {experience[0]?.startDate} - {experience[1]?.endDate}
+          </p>
+          <p className="Experience-item">
+            <strong>Compañía:</strong> {experience[1]?.company}
+          </p>
+          <p>
+            <strong>Cargo:</strong> {experience[1]?.jobTitle}
+          </p>
+          <p>
+            <strong>Descripción:</strong> {experience[1]?.jobDescription}
+          </p>
+        </div>
+        <div className="Experience-item ExperienceContainer">
+          <p>
+            <strong>Fecha: </strong>
+            {experience[0]?.startDate} - {experience[2]?.endDate}
+          </p>
+          <p className="Experience-item">
+            <strong>Compañía:</strong> {experience[2]?.company}
+          </p>
+          <p>
+            <strong>Cargo:</strong> {experience[2]?.jobTitle}
+          </p>
+          <p>
+            <strong>Descripción:</strong> {experience[2]?.jobDescription}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Experience
+export default Experience;
