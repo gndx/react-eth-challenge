@@ -7,10 +7,7 @@ const Header = ({ data, children }) => {
         <div className="Headersection1">
           <img src={data?.avatar} alt="photo" />
         </div>
-        <div>
-          <h4 className="Header-title">{data?.name}</h4>
-          {children}
-        </div>
+        <div>{children}</div>
       </div>
     </>
   );
