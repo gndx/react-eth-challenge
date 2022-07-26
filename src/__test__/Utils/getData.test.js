@@ -1,4 +1,4 @@
-import getData from '../../utils/getData';
+import getData from '../../middleware/getData';
 
 describe('Fetch API', () => {
   beforeEach(() => {

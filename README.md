@@ -1,5 +1,3 @@
-# react-eth-challenge
-
 ## React Curriculum vitae
 
 Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.

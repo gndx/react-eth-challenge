@@ -9,7 +9,9 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "react",
@@ -24,11 +26,12 @@
     "babel-loader": "8.2.5",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
+    "github-pages": "^3.0.2",
     "html-loader": "3.1.2",
     "html-webpack-plugin": "5.5.0",
     "jest-fetch-mock": "3.0.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
     "webpack": "5.73.0",
     "webpack-cli": "4.10.0",
     "webpack-dev-server": "4.9.3"
@@ -61,5 +64,6 @@
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
     ]
-  }
+  },
+  "homepage": "https://salviega.github.io/Platzi-react-eth-challenge/"
 }

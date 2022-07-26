@@ -1,13 +1,12 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Santiago A. Viana V.",
+    "profession": "Ecólogo | Programador full-stack",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "salviega6@gmail.com",
+    "phone": "+57 3197496064",
+    "avatar": "https://avatars.githubusercontent.com/u/90350943?v=4",
+    "Profile": "Formación de base en ecología con experiencia en el estudio de la vegetación en diversidad funcional, en el monitoreo socioeconómico de comunidades implicadas en proyectos ambientales y en la postulación de proyectos de investigación. Con perfil full stack en desarrollo web y conocimientos en softwares y lenguajes de programación para para el análisis y manejo de datos. Tutorías y consultorías.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,86 +23,109 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "startDate": "julio 2022",
+        "endDate": "actualidad",
+        "institution": "Platzi - Ethereum Developer Program",
+        "degree": "Desarrollador blockchain full-stack"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "startDate": "marzo 2022",
+        "endDate": "julio 2022",
+        "degree": "Sofka Technologies - SofkaU",
+        "institution": "Desarrollador full-stack"
+      },
+      {
+        "startDate": "mayo 2021",
+        "endDate": "diciembre 2021",
+        "institution": "MINTIC en convenio con la Universidad de Caldas",
+        "degree": "Desarrollador web"
+      },
+      {
+        "startDate": "enero 2015",
+        "endDate": "diciembre 2020",
+        "institution": "Ponticia Universidad Javeriana",
+        "degree": "Ecólogo"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "julio 2022",
+        "endDate": "actualidad",
+        "company": "Sofka Technologies",
+        "jobTitle": "Consultor de Desarrollo",
+        "Proyect": "«Xplorer - Booktofly»",
+        "jobDescription": "ejecutar acuerdo a los lineamientos definidos a nivel estratégico la efectividad en cada fase de desarrollo en el motor de búsqueda de reservas de Xplorer - Booktofly."
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "octubre 2020",
+        "endDate": "noviembre 2020",
+        "company": "Emgesa S.A. en convenio PUJ",
+        "jobTitle": "Investigador Científico",
+        "Proyect": "«Determinación de los regímenes de caudal ambiental para el área de interés del río Bogotá»",
+        "jobDescription": "responsabilidades en la recolecta, medición y procesamiento de material vegetal para la determinación de rasgos funcionales de bosque ripario."
+      },
+      {
+        "startDate": "noviembre 2019",
+        "endDate": "mayo 2020",
+        "company": "Instituto SINCHI",
+        "jobTitle": "Investigador Científico",
+        "Proyect": "«Restauración de áreas disturbadas por implementación de sistemas productivos agropecuarios en el departamento de Caquetá»",
+        "jobDescription": "determinar la diversidad funcional de la comunidad de plantas en los paisajes amazónicos de lomerío y montaña."
       }
     ],
     "skills": [
       {
+        "name": "R",
+        "tools": "Rstudio"
+      },
+      {
+        "name": "Python",
+        "tools": "Pycharm"
+      },
+      {
+        "name": "Java",
+        "tools": "Springboot"
+      },
+      {
+        "name": "TypeScript",
+        "tools": "Angular"
+      },
+      {
+        "name": "Javascript",
+        "tools": "React"
+      },
+      {
+        "name": "Solidity",
+        "tools": "Remix IDE"
+      },
+      {
         "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
+        "tools": "HTML, CSS, Javascript"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Español",
+        "nivel": "Nativo"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "Inglés",
+        "nivel": "B1"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/salviega/"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/salviega/"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/salviega/"
       }
     ]
   }
