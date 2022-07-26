@@ -7,7 +7,7 @@ Reto 2: Ethereum Developer Program
 ## Despliegue Github pages
 
 Github pages url: https://salviega.github.io/Platzi-react-eth-challenge/ (El deploy no está funcional)
-··
+
 
 ## Empezar 🏄
 
