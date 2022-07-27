@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap");
+
+@layer base {
+  html {
+    @apply font-poppins;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .about-box {
+    @apply dark:border-2 rounded-xl p-6 flex gap-4 border-[#212425];
+  }
+  .after-effect {
+    @apply text-7xl font-bold font-robotoSlab inline-block relative after:absolute  transform after:-translate-y-[50%] after:bg-gradient-to-r from-[#FA5252] to-[#DD2476] after:h-0.5 after:rounded-md after:content-[""] md:after:w-48  after:top-[50%] dark:text-white;
+  }
+  .interest-btn {
+    @apply bg-[#EDF2F2] cursor-default px-5 py-2 rounded-lg  text-gray-lite dark:bg-[#1C1C1C] dark:text-[#A6A6A6];
+  }
+  .socialbtn {
+    @apply w-10 h-10 rounded-lg hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476]  flex justify-center items-center  hover:text-white transition-colors duration-300  ease-in-out bg-[#F3F6F6] dark:bg-[#212425];
+  }
+  .fillter-btn {
+    @apply text-gray-lite dark:text-[#A6A6A6] hover:text-[#FA5252] transition duration-300 cursor-pointer;
+  }
+}
+ /*****************************************************/
+
+ .brand-img{
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.slick-slide {
+  padding: 30px 60px;
+  align-items: center;
+}
+.slick-track {
+  display: flex !important;
+  align-items: center;
+}
+
+.swiper-container {
+  width: 480px;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+  min-height: 50vh;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin-bottom: 30px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* width */
+.scrollbarLight::-webkit-scrollbar, .scrollbarDark::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+.scrollbarLight::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #e9e3e3;
+}
+
+/* Handle */
+.scrollbarLight::-webkit-scrollbar-thumb {
+  background: #797979;
+  border-radius: 100vh;
+  border: 5px solid #9c9fa1;
+}
+
+/* Handle on hover */
+.scrollbarLight::-webkit-scrollbar-thumb:hover {
+  background: #cfd0d3;
+}
+
+
+
+/* Track */
+.scrollbarDark::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #000000;
+}
+
+/* Handle */
+.scrollbarDark::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 100vh;
+  border: 5px solid #4f4f4f;
+}
+
+/* Handle on hover */
+.scrollbarLight::-webkit-scrollbar-thumb:hover {
+  background: #111111;
+}
+
+
+.text-2line{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+}
+.linked{
+  color: white !important;
+}
+/* input:-internal-autofill-selected {
+  background: transparent !important;
+} */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+ {
+
+  -webkit-text-fill-color: gray;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+  background: none !important;
+}
+
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .slick-slide {
+    padding: 10px 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .slick-slide {
+    padding: 15px 30px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .slick-slide {
+    padding: 20px 30px;
+  }
+
+  .swiper-container {
+    width: 992px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

@@ -1,14 +1,18 @@
-import React, { Component } from "react";
+import React from 'react';
 
-class Profile extends Component {
-    render() {
-        return (
-            <div>
-                <h1 className="Profile-title">Profile-title</h1>
-                <p className="Profile-desc">Profile-desc</p>
-            </div>
-        );
-    }
-}
+const Profile = ({ profile }) => {
+  return (
+                <div className="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center Profile-title">
+                <div className="col-span-12 space-y-2.5">
+                  <div className="lg:mr-16 Profile-desc">
+                    {profile?.split('\n').map((line,i) => <p className="text-gray-lite  dark:text-color-910 mt-2.5 leading-7" key={i}>
+                      { line }
+                    </p>)}
+                  </div>
+                </div>
+              </div>
+  );
+
+};
 
 export default Profile;

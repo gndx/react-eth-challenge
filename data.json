@@ -1,109 +1,116 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "name": "Saskia Sejas Rocabado",
+    "profession": "System Engineer",
+    "address": "Cochabamba, Bolivia.",
+    "email": "ivysaskia@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "+591 70358490",
+    "avatar": "https://scontent.flpb1-2.fna.fbcdn.net/v/t1.6435-9/48195645_2355523441143191_1417057779947929600_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=7Fe3vNEQR5oAX8vFYbd&_nc_ht=scontent.flpb1-2.fna&oh=00_AT8GiqTPoq26pjOmKutUFAmReEmcFNw3R3m3dksUfA6ZKg&oe=62FEAC52",
+    "profile": "I am a Systems Engineering student and FullStack Ethereum Developer from Cochabamba, Bolivia, working in web development. I enjoy learning technologies that help me develop solutions to complex problems. And so, give a technological product that solves and helps society to make a change. \n My goal is to build solutions to any problem while learning on the way to grow professionally and personally. Recently, I joined the world of blockchain, Ethereum. I really like volunteering because it allows me to get to know myself and grow in any field. \n       ",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Feb 2018",
+        "description": "Specialist in Forensic Sciences and Criminology. ",
+        "institution": "Instituto Internacional de Ciencias de la Educación",
+        "name": "Specialist in Forensic Sciences and Criminology"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
+        "date": "Jan 2018",
+        "description": "Science Technology Engineering English and Math “STEEM” Scholarship",
+        "institution": "Centro Boliviano Americano  – Embassy of the United States – American Spaces",
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "System Engineer",
+        "description": "Oversee all aspects of a project or system in a variety of fields, such as software, transportation, product development, and manufacturing. Develop a system that creates a product from start to finish.",
+        "endDate": "Present",
+        "institution": "Universidad Católica Boliviana “San Pablo”",
+        "startDate": "Jan 2016"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Bachelor of Humanities",
+        "description": "Study of the Humanities, the development of generic skills and the orientation of its students for the continuation of study.",
+        "endDate": "Dec 2015",
+        "institution": "La Salle",
+        "startDate": "Feb 2005"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Graduation Project",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "A web application is currently being developed for a digital portfolio to protect the justice system in Bolivia.",
+        "jobTitle": "Ethereum and Web",
+        "startDate": "Jul 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "company": "Freelancer",
+        "endDate": "Present",
+        "jobDescription": "Developing new user-facing features. Write code using good software development practices in VueJS, Vuetify.",
+        "jobTitle": "Frontend",
+        "startDate": "Aug 2021"
+      },
+      {
+        "company": "Truextend",
+        "endDate": "Mar 2020",
+        "jobDescription": "240 hours of work were carried out, in which technological skills and training in human factors were developed, as well as decision-making.",
         "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "Jan 2020"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "75"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "55"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "75"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "90"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "QA"
     ],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Spanish - Native",
+        "percentage": "100"
       },
       {
-        "name": "English",
-        "percentage": "50%"
+        "name": "English - Proficient",
+        "percentage": "90"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/ivy.s.rocabado/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://www.instagram.com/ivy_saskia/"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/IvySaskia"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/ivy-rocabado/"
       }
     ]
   }
