@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../components/Home";
 import About from "../components/About";
 import Resume from '../components/Resume';
@@ -10,8 +10,6 @@ import NotFound from "../components/NotFound";
 import ErrorData from "../components/ErrorData";
 import Loading from "../components/Loading";
 import AnimatedCursor from "react-animated-cursor";
-
-
 
 import {
   retrieveCurriculumVitae,
@@ -64,7 +62,7 @@ const App = () => {
   return (
     <>
       { animatedCursor }
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route exact path="/" element={
             <Home>
@@ -97,7 +95,7 @@ const App = () => {
 
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   )
 };
