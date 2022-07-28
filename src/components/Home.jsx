@@ -119,7 +119,7 @@ const Home = ({ children }) => {
             {children}
           </div>
 
-          <div className="col-span-12 lg:col-span-8  ">
+          <div className="col-span-12 lg:col-span-8 -mt-20 ">
             <Menu />
             <Outlet />
           </div>
