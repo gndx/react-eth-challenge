@@ -1,5 +1,8 @@
 import React from 'react';
-//import '../styles/components/App.styl';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -11,17 +14,33 @@ import Languages from '../components/Languages';
 
 const App = () => {
   return (
-    <>
+    <Container>
       <Header>
         <About />
       </Header>
       <Profile />
       <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
+      <Container className='content green-bg'>
+        <Row>
+          <Col sm={6}>
+            <Academic />  
+          </Col>
+          <Col sm={6}>
+            <Skills />
+          </Col>
+        </Row>
+      </Container>
+      <Container className='content green-bg'>
+        <Row>
+          <Col sm={6}>
+            <Languages />
+          </Col>
+          <Col sm={6}>
+            <Interest />
+          </Col>
+        </Row>
+      </Container>
+    </Container>
   )
 };
 

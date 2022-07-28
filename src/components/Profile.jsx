@@ -1,11 +1,15 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 function Profile(){
   return(
-    <>
-      <h2 className="Profile-title"></h2>
-      <div className="Profile-desc"></div>
-    </>
+    <Container fluid className='Profile content green-bg'>
+      <Row>
+        <h2 className='Profile-title'>Profile</h2>
+        <div className='Profile-desc'>Desc</div>
+      </Row>
+    </Container>
   )
 }
 
