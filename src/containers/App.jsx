@@ -9,6 +9,7 @@ import HomeCard from '../components/HomeCard';
 import NotFound from "../components/NotFound";
 import ErrorData from "../components/ErrorData";
 import Loading from "../components/Loading";
+import AnimatedCursor from "react-animated-cursor";
 
 
 
@@ -39,21 +40,30 @@ const App = () => {
   phone={phone}
   website={website}/>;
 
+  const animatedCursor = <AnimatedCursor
+  innerSize={8}
+  outerSize={44}
+  color="221, 36, 118"
+  outerAlpha={0.3}
+  innerScale={0.7}
+  outerScale={1.2} />;
+
   useEffect(() => {
     dispatch(retrieveCurriculumVitae())
     dispatch(getTheme())
   }, []);
 
   if (error) {
-    return <ErrorData />;
+    return <>{ animatedCursor }<ErrorData /></>;
   }
 
   if (loading) {
-    return <Loading/>;
+    return <>{ animatedCursor }<Loading/></>;
   }
 
   return (
     <>
+      { animatedCursor }
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={
