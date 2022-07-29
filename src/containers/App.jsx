@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "../components/Home";
 import About from "../components/About";
 import Resume from '../components/Resume';
@@ -62,7 +62,7 @@ const App = () => {
   return (
     <>
       { animatedCursor }
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path="/" element={
             <Home>
@@ -95,7 +95,7 @@ const App = () => {
 
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 };
