@@ -1,12 +1,9 @@
 {
-  "homepage": "https://IvySaskia.github.io/react-eth-challenge",
   "name": "react-eth-challenge",
   "version": "1.0.0",
   "description": "React Eth Challenge",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "server": "json-server data.json",
