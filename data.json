@@ -1,109 +1,124 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Anghel Melanie Trillo Hernández",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Lima, Perú",
+    "email": "amelanietrillo27@gmail.com",
+    "website": "https://www.linkedin.com/in/angheltrillo/",
+    "phone": "999999999",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQH05RUDJ2KmAw/profile-displayphoto-shrink_400_400/0/1636944769917?e=1664409600&v=beta&t=LFfBR9Ejahvl9mkzXyijUA4M_H2Ezt574SyxrQggwAc",
+    "Profile": "Web developer specialised in Frontend, with 2 years of experience in the accounting and finance sector, I am proficient in agile methodologies (SCRUM), javascript, node, Firebase, SQL, HTML, CSS. Committed to the development of an inclusive society. Interested in the design of interactive software, based on the use of web technologies.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Nov 2021",
+        "description": "Specialisation in frontend development",
+        "institution": "Laboratoria",
+        "name": "Frontend Developer"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "May 2021",
+        "description": "SCRUM master specialisation",
+        "institution": "Projectum Institute",
+        "name": "SCRUM Master"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Frontend Developer",
+        "description": "The Laboratoria bootcamp allows you to develop as a Frontend Developer. Throughout the bootcamp, soft and technical skills are acquired, and agile methodologies with the SCRUM framework are used in all the projects developed.",
+        "endDate": "Nov 2021",
+        "institution": "Laboratoria",
+        "startDate": "May 2021"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Software engineering",
+        "description": "Student",
+        "endDate": "Present",
+        "institution": "Universidad Peruana de Ciencias Aplicadas",
+        "startDate": "2019"
+      },
+      {
+        "degree": "Web application development",
+        "description": "Technical course provided by SENATI together with PRONABEC, with the MI VOCACIÓN TÉCNICA grant.",
+        "endDate": "Dec 2018",
+        "institution": "SENATI",
+        "startDate": "Jul 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Kambista",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Web development - Front end development - Agile methodologies - Web applications - JavaScript - Scrum",
+        "jobTitle": "Frontend Web Developer",
+        "startDate": "Dec 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Laboratoria",
+        "endDate": "Nov 2021",
+        "jobDescription": "Web development - Front end development - Agile methodologies - Web applications - JavaScript - Continuous integration and continuous delivery (CI/CD) - Scrum - Customer-driven design",
+        "jobTitle": "Frontend Web Developer",
+        "startDate": "May 2021"
+      },
+      {
+        "company": "Laesystems",
+        "endDate": "Nov 2021",
+        "jobDescription": "Web development - Web applications - JavaScript - ERP software - WordPress - Technical support service - Customer-oriented design - Tax accounting - Video production - Video editing - Video post-production",
+        "jobTitle": "Programming Analyst",
+        "startDate": "Mar 2020"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "100%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "100%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "100%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "100%"
+      },
+      {
+        "name": "Vue",
+        "percentage": "100%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%",
+        "level": "Native"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "75%",
+        "level": "B2"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/am27th/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/am27th"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/AM27TH"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/angheltrillo/?locale=en_US"
       }
     ]
   }
