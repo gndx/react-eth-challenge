@@ -8,21 +8,26 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import useGetData from '../hooks/useGetData';
 
-const App = () => {
+const API = 'https://raw.githubusercontent.com/AM27TH/react-eth-challenge/main/data.json';
+
+const App = function () {
+  const data = useGetData(API);
+
   return (
     <>
-      <Header>
-        <About />
+      <Header data={data}>
+        <About data={data} />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Profile data={data} />
+      <Experience experience={data?.experience} />
+      <Academic academic={data?.Academic} />
+      <Skills skills={data?.skills} />
+      <Interest interest={data?.interest} />
+      <Languages languages={data?.languages} />
     </>
-  )
+  );
 };
 
 export default App;

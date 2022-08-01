@@ -19,7 +19,7 @@
     "expect": true,
     "sinon": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "plugins": [
     "react",
     "jsx-a11y",
@@ -27,6 +27,7 @@
   ],
   "rules": {
     "react/jsx-filename-extension": 0,
+    "react/no-array-index-key": false,
     "array-bracket-spacing": 2,
     "arrow-body-style": 0,
     "block-scoped-var": 2,
@@ -241,7 +242,7 @@
     ],
     "radix": 2,
     "jsx-quotes": [
-      2,
+      "error",
       "prefer-single"
     ],
     "jsx-a11y/click-events-have-key-events": 0,

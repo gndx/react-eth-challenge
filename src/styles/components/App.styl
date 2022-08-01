@@ -1,2 +1,88 @@
+*
+  font-family Roboto, Arial, Helvetica, sans-serif;
+  box-sizing border-box
+  padding 0
+  margin 0
+
 body
-  background-color blue
+  font-size 16px
+  background-color #D9AFD9
+  background-image linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%)
+
+h1
+  font-size 2rem
+
+h2
+  font-size 1.5rem
+
+h4
+  font-size 1.1rem
+  margin-bottom 4px
+
+ul
+  list-style-type none
+
+#app
+  padding-left 2rem
+  padding-right 2rem
+
+#app section, .Experience-item, .Academic-item
+  margin-top 1rem
+  margin-bottom 1rem
+
+.Header-box, .Profile, .Experience, .Academic, .Skills, .Interest, .Languages
+  background rgba(255, 255, 255, .85);
+  padding 1rem
+  border-radius 20px
+
+#app section h2
+  margin-bottom 0.2rem
+
+.Header
+  display flex
+  flex-wrap wrap
+  gap 2rem
+  justify-content center
+
+.Header-box
+  width 100%
+
+.avatar
+  width 200px
+  height 200px
+  object-fit cover
+  border-radius 50%
+
+.Header-job-title
+  font-size 1.2rem
+
+.Header-title, .Header-job-title
+  text-align center
+
+.Skills-items, .Interest-items, .Languages-items
+  display flex
+  flex-wrap wrap
+  gap 0.5rem
+  margin-top 1rem
+  margin-bottom 1rem
+
+.Skills-item, .Interest-item, .Languages-level
+  background rgb(151, 217, 225);
+  color #17494f
+  padding 0.5rem
+  border-radius 20px
+
+.job-company, .academic-dates
+  margin-bottom 4px
+
+.job-description, .academic-descr
+  margin-left 8px
+
+@media (min-width: 640px) {
+  .Header-box {
+    flex 1
+  }
+  .Header-title, .Header-job-title {
+    text-align left
+  }
+ }
