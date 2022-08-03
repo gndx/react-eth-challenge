@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useContext} from 'react';
+import AppContext from '../context/AppContext';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -6,38 +7,13 @@ import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
 
 function Academic(){
-
-  // Hardcoded
-  const Academic = [
-    {
-      degree: "Degree",
-      institution: "Institution",
-      startDate: "Start Date",
-      endDate: "End Date",
-      description: "Description"
-    },
-    {
-      degree: "Degree",
-      institution: "Institution",
-      startDate: "Start Date",
-      endDate: "End Date",
-      description: "Description"
-    },
-    {
-      degree: "Degree",
-      institution: "Institution",
-      startDate: "Start Date",
-      endDate: "End Date",
-      description: "Description"
-    }
-  ]
-
+  const data = useContext(AppContext)
   return(
     <Container fluid className='Academic content green-bg'>
       <Row>
         <h2 className='Academic-title'>Academic</h2>
         <Col>
-          {Academic.map( (acad, index) => (
+          {data.Academic && data.Academic.map( (acad, index) => (
             <Card
               bg='Light'
               key={index}

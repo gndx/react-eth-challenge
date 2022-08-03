@@ -1,43 +1,20 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import AppContext from '../context/AppContext';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
 
+
 function Experience(){
-
-  // Hardcoded, will change
-  const experience = [
-    {
-      company: "Company",
-      jobTitle: "JobTitle",
-      startDate: "StartDate",
-      endDate: "EndDate",
-      jobDescription: "Job Description"
-    },
-    {
-      company: "Company",
-      jobTitle: "JobTitle",
-      startDate: "StartDate",
-      endDate: "EndDate",
-      jobDescription: "Job Description"
-    },
-    {
-      company: "Company",
-      jobTitle: "JobTitle",
-      startDate: "StartDate",
-      endDate: "EndDate",
-      jobDescription: "Job Description"
-    }
-]
-
+  const data = useContext(AppContext)
   return(
     <Container fluid className='Experience content green-bg'>
       <Row>
         <h2 className='Experience-title'>Experience</h2>
         <Col>
-          {experience.map( (exp, index) => (
+          {data.experience && data.experience.map( (exp, index) => (
             <Card
               bg='Light'
               key={index}

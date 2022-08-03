@@ -1,0 +1,191 @@
+{
+  "data": {
+    "name": "Luis Enrique Rodriguez Diaz",
+    "profession": "BackEnd Developer",
+    "address": "Guadalajara, México.",
+    "email": "hola@brusmax.com",
+    "website": "https://brusmax.com",
+    "phone": "33349262--",
+    "avatar": "https://pbs.twimg.com/profile_images/1543397379101102080/dvByZ1v2_400x400.jpg",
+    "Profile": "Senior Backend Developer (Ruby, Node.js, PHP, Python) Leadership and learning about web3 (crypto)",
+    "certificate": [
+      {
+        "date": "Jan 2021",
+        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "institution": "Platzi",
+        "name": "FrontEnd Developer"
+      },
+      {
+        "date": "Jan 2021",
+        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "institution": "Platzi",
+        "name": "Backend Developer"
+      }
+    ],
+    "Academic": [
+      {
+        "degree": "Web3 Developer, programa ethereum",
+        "description": " I will become a Web3 Developer ",
+        "endDate": "Present",
+        "institution": "Platzi",
+        "startDate": "June 2022"
+      },
+      {
+        "degree": "High Performance Reading",
+        "description": "Program directed by Dr. Nora Beltran ",
+        "endDate": "Diciembre 2017",
+        "institution": "Nobel Asesores - Colombia",
+        "startDate": "2017"
+      },
+      {
+        "degree": "Information Systems Degree",
+        "description": " University Of Guadalajara",
+        "startDate": "2005",
+        "endDate": "2008",
+        "institution": "CUCEA"
+        
+      },
+      {
+        "degree": "Prepa 7",
+        "description": "University of Guadalajara",
+        "startDate": "2002",
+        "endDate": "2005",
+        "institution": "Prepa 7"
+        
+      }
+    ],
+    "experience": [
+      {
+        "company": "Brusmax",
+        "endDate": "Present",
+        "jobDescription": "After Covid I've been doing some freelancing jobs, mostly for local business working with Wordpress",
+        "jobTitle": "Freelancer",
+        "startDate": "Mar 2020"
+      },
+      {
+        "company": "WebGenius",
+        "endDate": "Mar 2020",
+        "jobDescription": "Working remotly for a base New Zealand company full stock, working with Ruby, PHP, HTML5, JS (Backbone), MongoDb",
+        "jobTitle": " FullStack Developer",
+        "startDate": "Dic 2018"
+      },
+      {
+        "company": "WebGenius",
+        "endDate": "Nov 2018",
+        "jobDescription": "Responsible for maintaining the current system by providing new solutions and optimizing it for satisfaction of end customers using for this purpose programming languages such as PHP, MySQL, Ruby, MongoDB and Backbone.",
+        "jobTitle": "Senior Web Developer",
+        "startDate": "Aug 2014"
+      },
+      {
+        "company": "Brusmax",
+        "endDate": "Feb 2014",
+        "jobDescription": "App Development using different languages: Ruby on Rails, PHP, Node.js different languages: Ruby on Rails, PHP, Node.js",
+        "jobTitle": "Backend developer",
+        "startDate": "Jul 2013"
+      },
+      {
+        "company": "Thinblack",
+        "endDate": " Sept 2012",
+        "jobDescription": "Product designer and web developer using Ruby on Rails",
+        "jobTitle": "Backend Developer",
+        "startDate": "Jan 2012"
+      },
+      {
+        "company": "MasFusion",
+        "endDate": " 2012",
+        "jobDescription": "Planning, programming architecture and web development project using SCRUM and CMMI.",
+        "jobTitle": "Leadership Development",
+        "startDate": "Dec 2010"
+      },
+      {
+        "company": "MasFusion",
+        "endDate": "Jan 2011",
+        "jobDescription": "Architecture and Web development with PHP, MySQL, CSS, Jquery, Wordpress and Code Igniter.",
+        "jobTitle": "Web developer",
+        "startDate": "Feb 2008"
+      },
+      {
+        "company": "CUCEA - University of Guadalajara",
+        "endDate": "2008",
+        "jobDescription": "Developing solution for the campus CUCEA working with PHP and MySQL",
+        "jobTitle": "Web Developer",
+        "startDate": "2006"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "percentage": "85%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "75%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "85%"
+      },
+      {
+        "name": "React",
+        "percentage": "50%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "90%"
+      },
+      {
+        "name": "Ruby",
+        "percentage": "80%"
+      },
+      {
+        "name": "NodeJs",
+        "percentage": "75%"
+      },
+      {
+        "name": "Python",
+        "percentage": "40%"
+      },
+      {
+        "name": "Wordpress",
+        "percentage": "90%"
+      }
+    ],
+    "interest": [
+      "backend",
+      "web3",
+      "crypto",
+      "data science (scraping)",
+      "sports (triathlon)",
+      "reading",
+      "traveling"
+    ],
+    "languages": [
+      {
+        "name": "Spanish",
+        "percentage": "95%"
+      },
+      {
+        "name": "English",
+        "percentage": "85%"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/brusmax/"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/brusmax"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/brusmax"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/brusmax"
+      }
+    ]
+  }
+}
