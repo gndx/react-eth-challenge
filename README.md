@@ -1,8 +1,12 @@
 # Reto 1 - Ethereum Developer Program
 This project is a Challenge for the Platzi Ethereum Developer Program which require to do a simple CV of my own data using React.js and deploying the project somewhere, in this case you can see the project here:
 
+[live demo](https://brusmax.github.io/reto1-platzi-brusmax-cv/)
+
+![Brusmax CV](/public/brusmax-cv.jpg)
+
 ### Data
-The data is feeded from the data.json file under Public folder. This data is fetch under this folder:
+The data is feeded from a json file under Public folder. This data is fetch under this folder:
   - hooks/initData
 
 ### Components

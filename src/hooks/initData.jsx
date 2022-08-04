@@ -7,7 +7,7 @@ function initData() {
   const [data, setData] = React.useState({});
 
   useEffect(() => {
-    getData("/data.json").then(json => {
+    getData("./brusmax.json").then(json => {
       setData(json.data);
       setAppLoading(false);
     });
