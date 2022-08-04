@@ -1,4 +1,4 @@
-# react-eth-challenge
+# Reto 1 - Ethereum Developer Program
 This project is a Challenge for the Platzi Ethereum Developer Program which require to do a simple CV of my own data using React.js and deploying the project somewhere, in this case you can see the project here:
 
 ### Data
@@ -54,7 +54,7 @@ npm run test
 ```
 
 ### Forked from:
-(https://github.com/gndx/react-eth-challenge)[https://github.com/gndx/react-eth-challenge]
+[https://github.com/gndx/react-eth-challenge][https://github.com/gndx/react-eth-challenge]
 
 ### Licencia
 
