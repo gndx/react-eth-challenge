@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../styles/App.styl'
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -8,21 +8,25 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import getData from '../utils/getData'
 
-const App = () => {
+function App() {
+  const api = '';
+
+  getData(api);
   return (
     <>
       <Header>
         <About />
       </Header>
       <Profile />
-      <Experience />
+      <Experience /> 
       <Academic />
       <Skills />
       <Interest />
-      <Languages />
+      <Languages /> 
     </>
-  )
-};
+  );
+}
 
 export default App;

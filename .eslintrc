@@ -7,6 +7,8 @@
   "extends": [
     "airbnb"
   ],
+  "eol-last": 0,
+  "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
   "globals": {
     "document": false,
     "escape": false,
@@ -19,7 +21,7 @@
     "expect": true,
     "sinon": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "plugins": [
     "react",
     "jsx-a11y",
