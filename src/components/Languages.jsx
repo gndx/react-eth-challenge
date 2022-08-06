@@ -1,9 +1,6 @@
 import React from 'react'
-import { useDataContext } from '../context/DataContext'
 
-function Languages() {
-  const { data } = useDataContext()
-
+function Languages({data}) {
   if(data){
     return (
       <div id='w-50' className='card bg-black'>
@@ -15,6 +12,15 @@ function Languages() {
       </div>
     )
   }
+
+  return(
+    <div className='card bg-black'>
+      <h1 className='Languages-title'>Languages</h1>
+      <p className='Languages-item'></p>
+      <p className='Languages-item'></p>
+      <p className='Languages-item'></p>
+    </div>
+  )
   
 }
 

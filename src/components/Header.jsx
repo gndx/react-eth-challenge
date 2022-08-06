@@ -1,9 +1,7 @@
-import React, { useEffect } from 'react';
-import { useDataContext } from '../context/DataContext';
+import React from 'react';
 
-function Header({children}) {
-  const { data } = useDataContext()
- 
+function Header({data, children}) {
+ if(data){
   return (
     <div className='card d-flex bg-dark'>
       <div>
@@ -18,6 +16,20 @@ function Header({children}) {
       
     </div>
   );
+ }
+
+ return(
+  <div className='card d-flex bg-dark'>
+    <div>
+      <img className='avatar' src='#' alt='avatar'/>
+    </div>
+    <div>
+      <h1 className='Header-title'></h1>
+      <p></p>
+      {children}
+    </div>
+  </div>
+ )
 }
 
 export default Header;
