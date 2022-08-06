@@ -1,7 +1,7 @@
 {
   "data": {
     "name": "Sasha Racagni",
-    "profession": "FullStack Developer",
+    "profession": "Fulltack Developer",
     "address": "Santa Fe, Argentina.",
     "email": "racagnisasha@gmail.com",
     "website": "https://github.com/sxshita",
@@ -35,7 +35,7 @@
       {
         "company": "Q4Tech",
         "endDate": "Present",
-        "jobDescription": "Model software requirements through a programming language or tool, guaranteeing compliance with the standards set forth in the project and complying with the company's quality standards.",
+        "jobDescription": "In charge of model software requirements using AngularJS and .NET, guaranteeing compliance with the standards set forth in the project and complying with the company's quality standards.",
         "jobTitle": "Analyst Programmer",
         "startDate": "April 2020"
       }
@@ -93,11 +93,11 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Native"
       },
       {
         "name": "English",
-        "percentage": "70%"
+        "percentage": "B2"
       }
     ],
     "social": [

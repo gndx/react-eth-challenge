@@ -8,24 +8,26 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
-import getData from '../utils/getData'
+import {DataContext} from '../context/DataContext';
 
 function App() {
-  const api = '';
-
-  getData(api);
+  
   return (
-    <>
-      <Header>
+    <DataContext>
+      <Header >
         <About />
       </Header>
       <Profile />
       <Experience /> 
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages /> 
-    </>
+      <div className='d-flex'>
+        <Academic/>
+        <Skills />
+      </div>
+      <div className='d-flex'>
+        <Interest />
+        <Languages />
+      </div> 
+    </DataContext>
   );
 }
 
