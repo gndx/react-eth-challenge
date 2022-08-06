@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/components/App.styl';
+import React, {useState, useEffect} from 'react';
+import '../styles/App.styl'
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -8,21 +8,41 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import getData from '../utils/getData'
 
-const App = () => {
+function App() {
+  const [data, setData] = useState({});
+  const [loading, setLoading] = useState(true);
+  const api = 'https://raw.githubusercontent.com/sxshita/react-eth-challenge/main/data.json';
+
+  useEffect(() => {
+    getData(api).then(data => {
+        setData(data);
+        setLoading(false);
+    })
+  },[]);
+
+  if(loading === true){
+    return <div>loading</div>
+  }
+  
   return (
     <>
-      <Header>
-        <About />
+      <Header data={data}>
+        <About data={data}/>
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Profile data={data}/>
+      <Experience data={data}/> 
+      <div className='d-flex'>
+        <Academic data={data}/>
+        <Skills data={data}/>
+      </div>
+      <div className='d-flex'>
+        <Interest data={data}/>
+        <Languages data={data}/>
+      </div>  
     </>
-  )
-};
+  );
+}
 
 export default App;
