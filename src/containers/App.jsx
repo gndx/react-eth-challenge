@@ -10,19 +10,20 @@ import { Interest } from '../components/Interest';
 import { Languages } from '../components/Languages';
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+const GridLayout = styled.div`
+  display: grid
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   justify-content: cener;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  font-size: 1.6rem;
+  text-align: justify;
+  width: 800px;
+  margin-left: 30rem;
+  font-size: 2.1rem;
 `
 const App = () => {
   return (
-    <Wrapper>
+    <GridLayout>
       <Header>
         <About />
       </Header>
@@ -32,7 +33,7 @@ const App = () => {
       <Skills />
       <Interest />
       <Languages />
-    </Wrapper>
+    </GridLayout>
   )
 };
 

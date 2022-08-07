@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 const DescriptionWrapper = styled.div`
   align-items: center;
   margin: 1rem;
-  width: 100vw;
+  width: 100%;
   & a {
     text-decoration: none;
   }
@@ -22,7 +22,7 @@ const Academic = () => {
         Academic
       </h1>
       <DescriptionWrapper>
-        
+
       </DescriptionWrapper>
     </Wrapper>
   )
