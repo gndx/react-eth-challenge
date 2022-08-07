@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -38,6 +38,10 @@ module.exports = {
           'stylus-loader',
         ],
       },
+      {
+        test: /\.(png|gif|jpe?g)$/i,
+        type: 'asset/resource'
+      }
     ],
   },
   plugins: [

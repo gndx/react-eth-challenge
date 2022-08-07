@@ -2,12 +2,12 @@
 
 Solución al reto:
 
-Nombre:
-Usuario Platzi:
+Nombre: Rodrigo Ramos Xochiteotzin
+Usuario Platzi: rdrx
 
 ## Reto:
 
-- [ ] Primer problema
+- [x] Primer problema
 - [ ] Segundo problema
 - [ ] Tercer problema
 - [ ] Cuarto Problema

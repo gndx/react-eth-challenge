@@ -8,10 +8,21 @@ import { Academic } from '../components/Academic';
 import { Skills } from '../components/Skills';
 import { Interest } from '../components/Interest';
 import { Languages } from '../components/Languages';
+import styled from 'styled-components';
 
+const Wrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: cener;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 1.6rem;
+`
 const App = () => {
   return (
-    <>
+    <Wrapper>
       <Header>
         <About />
       </Header>
@@ -21,7 +32,7 @@ const App = () => {
       <Skills />
       <Interest />
       <Languages />
-    </>
+    </Wrapper>
   )
 };
 
