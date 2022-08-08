@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import ImgProfile from '../../public/assets/images/self.png'
 import About from './About'
 
 const Wrapper = styled.div`
@@ -37,17 +36,17 @@ const Header = (props) => {
   return (
     <Wrapper>
       <ImgWrapper
-        src={ImgProfile}
+        src=""
         width="233px"
         height="233px"
         alt="image-profile"
       />
-      <h1>
-        {props.data}
+      <h1 className="Header-title">
+        
       </h1>
       <DescriptionWrapper>
         <ItemWrapper>
-          <About />
+          {props.children}
         </ItemWrapper>
       </DescriptionWrapper>
     </Wrapper>

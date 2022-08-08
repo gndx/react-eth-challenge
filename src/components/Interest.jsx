@@ -42,21 +42,21 @@ const Interest = ({ interest: interests }) => {
     <Wrapper>
       <DescriptionWrapper>
         <ItemWrapper>
-        <h3>Interest</h3>
+        <h3 className='Interest-title'>Interest</h3>
           <ul>
-            <li>
+            <li className="Interest-item">
               Blockchain, NFTs, DeFi
             </li>
-            <li>
+            <li className="Interest-item">
               Philosophy
             </li>
-            <li>
+            <li className="Interest-item">
               Cybernetics
             </li>
-            <li>
+            <li className="Interest-item">
               AI
             </li>
-            <li>
+            <li className="Interest-item">
               IoT
             </li>
           </ul>

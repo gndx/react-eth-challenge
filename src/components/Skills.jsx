@@ -42,11 +42,11 @@ const ItemWrapper = styled.div`
 const Skills = ({ Skills }) => {
   return (
     <Wrapper>
-      <h1>
+      <h1 className="Skills-title">
         Skills
       </h1>
       <DescriptionWrapper>
-          <ItemWrapper>
+          <ItemWrapper className="Skills-item">
           <h3>
             Hard skills
           </h3>
@@ -66,7 +66,7 @@ const Skills = ({ Skills }) => {
             </li>
             </ul>
             </ItemWrapper>
-            <ItemWrapper>
+            <ItemWrapper className="Skills-item">
             <p><i>Front-end</i></p>
             <ul>
             <li>
@@ -86,7 +86,7 @@ const Skills = ({ Skills }) => {
             </li>
             </ul>
             </ItemWrapper>
-            <ItemWrapper>
+            <ItemWrapper className="Skills-item">
             <p><i>Back-end</i></p>
             <ul>
             <li>
@@ -112,7 +112,7 @@ const Skills = ({ Skills }) => {
             </li>
             </ul>
             </ItemWrapper>
-        <ItemWrapper>
+        <ItemWrapper className="Skills-item">
           <h3>
             Soft skills
           </h3>
@@ -129,7 +129,7 @@ const Skills = ({ Skills }) => {
             </li>
             </ul>
         </ItemWrapper>
-        <ItemWrapper>
+        <ItemWrapper className="Skills-item">
           <ul>
             <p><i>Teamwork</i></p>
             <li>

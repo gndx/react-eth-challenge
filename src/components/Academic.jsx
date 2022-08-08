@@ -43,11 +43,11 @@ const ItemWrapper = styled.div`
 const Academic = ({ Academic }) => {
   return (
     <Wrapper>
-      <h1>
+      <h1 className='Academic-title'>
         Academic
       </h1>
       <DescriptionWrapper>
-        <ItemWrapper>
+        <ItemWrapper className="Academi-item">
           <h3>
             UNIR Mexico | Computer Systems Engineering
           </h3>
@@ -66,7 +66,7 @@ const Academic = ({ Academic }) => {
             <li>Physics</li>
           </ul>
         </ItemWrapper>
-        <ItemWrapper>
+        <ItemWrapper className="Academi-item">
           <h3>
             Platzi
           </h3>
@@ -88,7 +88,7 @@ const Academic = ({ Academic }) => {
             </li>
           </ul>
         </ItemWrapper>
-        <ItemWrapper>
+        <ItemWrapper className="Academi-item">
           <h3>
             Philosophy and Letters Faculty. UNAM | Philosophy
           </h3>
@@ -105,7 +105,7 @@ const Academic = ({ Academic }) => {
             </li>
           </ul>
         </ItemWrapper>
-        <ItemWrapper>
+        <ItemWrapper className="Academi-item">
           <h3>
             Microsoft
           </h3>

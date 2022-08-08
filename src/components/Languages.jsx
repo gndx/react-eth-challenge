@@ -35,16 +35,16 @@ const ItemWrapper = styled.div`
 const Languages = ({ languages }) => {
   return (
     <Wrapper>
-      <h3>Languages</h3>
+      <h3 className="Languages-title">Languages</h3>
       <DescriptionWrapper>
         <ul>
-          <li>
+          <li className="Languages-item">
             Spanish. Native
           </li>
-          <li>
+          <li className="Languages-item">
             English. C1
           </li>
-          <li>
+          <li className="Languages-item">
             French. B1 
           </li>
         </ul>

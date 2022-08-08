@@ -40,7 +40,7 @@ const About = ({data}) => {
     <Wrapper>
         <DescriptionWrapper>
         <ItemWrapper>
-        <h3>About</h3>
+        <h3 className="About-title">About</h3>
           <p>
             💻 Software Engineer
           </p>

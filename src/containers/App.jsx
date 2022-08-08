@@ -36,12 +36,13 @@ const App = () => {
   return (
     <GridLayout>
         <Header props={data}>
+          <About props={data}/>
         </Header>
-        <Profile {...data}/>
-        <Experience {...data}/>
-        <Academic {...data}/>
-        <Skills {...data}/>
-        <Interest {...data}/>
+        <Profile props={data}/>
+        <Experience props={data}/>
+        <Academic props={data}/>
+        <Skills props={data}/>
+        <Interest props={data}/>
     </GridLayout>
   )
 };

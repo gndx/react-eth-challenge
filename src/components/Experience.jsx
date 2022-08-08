@@ -43,11 +43,11 @@ const ItemWrapper = styled.div`
 const Experience = ({ experience: experiences }) => {
   return (
     <Wrapper>
-      <h1>
+      <h1 className="Eperience-title">
         Experience
       </h1>
       <DescriptionWrapper>
-        <ItemWrapper>  
+        <ItemWrapper className="Experience-item">  
           <h3>
             Software developer
           </h3>
@@ -63,7 +63,7 @@ const Experience = ({ experience: experiences }) => {
             </li>
           </ul>
         </ItemWrapper>
-        <ItemWrapper>
+        <ItemWrapper className="Experience-item">
           <h3>
             Software Engineer Jr
           </h3>
@@ -85,7 +85,7 @@ const Experience = ({ experience: experiences }) => {
             </li>
           </ul>
         </ItemWrapper>
-        <ItemWrapper>
+        <ItemWrapper className="Experience-item">
           <h3>
             Freelancer
           </h3>

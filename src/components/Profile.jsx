@@ -19,10 +19,10 @@ const DescriptionWrapper = styled.div`
 const Profile = ({ Profile }) => {
   return (
     <Wrapper>
-      <h1>
+      <h1 className="Profile-title">
         Profile
       </h1>
-      <DescriptionWrapper>
+      <DescriptionWrapper className="Profile-desc">
         <p>
           Computer Systems Engineer student at UNIR México. Philosopher graduated by UNAM.
         </p>
