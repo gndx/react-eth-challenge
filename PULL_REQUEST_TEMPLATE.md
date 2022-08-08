@@ -12,5 +12,5 @@ Usuario Platzi: rdrx
 - [x] Tercer problema
 - [x] Cuarto Problema
 - [x] Quinto Problema
-- [ ] Sexto Problema
-- [ ] Septimo Problema
+- [x] Sexto Problema
+- [x] Septimo Problema
