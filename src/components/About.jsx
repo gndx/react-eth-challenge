@@ -35,7 +35,7 @@ const ItemWrapper = styled.div`
   padding: .8rem;
 `
 
-const About = ({social: socials}) => {
+const About = ({data}) => {
   return (
     <Wrapper>
         <DescriptionWrapper>

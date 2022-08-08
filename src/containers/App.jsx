@@ -21,8 +21,9 @@ const GridLayout = styled.div`
   width: 800px;
 `
 const App = () => {
+  //url alterna https://mocki.io/v1/d62540b3-481e-4b52-82c4-5785036005a9
   const [data, setData] = React.useState();
-  const url = 'http://localhost:8080/data';
+  const url = 'http://localhost:3000/data';
   const consumingAPI = async () => {
     const res = await getData(url);
     setData(res);
