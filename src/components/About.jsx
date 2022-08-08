@@ -67,4 +67,4 @@ const About = ({data}) => {
   )
 }
 
-export { About }
+export default About

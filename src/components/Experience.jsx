@@ -118,4 +118,4 @@ const Experience = ({ experience: experiences }) => {
   )
 }
 
-export { Experience }
+export default Experience

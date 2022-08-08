@@ -39,4 +39,4 @@ const Profile = ({ Profile }) => {
   )
 }
 
-export { Profile }
+export default Profile

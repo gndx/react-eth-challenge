@@ -1,5 +1,5 @@
 import React from 'react'
-import { Languages } from '../components/Languages';
+import Languages from '../components/Languages';
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
@@ -69,4 +69,4 @@ const Interest = ({ interest: interests }) => {
   )
 }
 
-export { Interest }
+export default Interest

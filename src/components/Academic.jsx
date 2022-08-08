@@ -128,4 +128,4 @@ const Academic = ({ Academic }) => {
   )
 }
 
-export { Academic }
+export default Academic

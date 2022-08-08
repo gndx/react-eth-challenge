@@ -53,4 +53,4 @@ const Languages = ({ languages }) => {
   )
 }
 
-export { Languages }
+export default Languages
