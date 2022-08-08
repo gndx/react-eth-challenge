@@ -1,12 +1,12 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   display: block;
   justify-content: center;
   align-items: center;
   margin: 2rem;
-`
+`;
 const DescriptionWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -29,42 +29,44 @@ const DescriptionWrapper = styled.div`
   & h3 {
     color: #FF6D09;
   }
-`
+`;
 const ItemWrapper = styled.div`
   margin: 1rem;
   padding: .8rem;
-`
+`;
 
-const About = ({data}) => {
+function About(props) {
+  console.log(props);
   return (
     <Wrapper>
-        <DescriptionWrapper>
+      <DescriptionWrapper>
         <ItemWrapper>
-        <h3 className="About-title">About</h3>
-          <p>
-            💻 Software Engineer
+          <h3 className='About-title'>About</h3>
+          <p className='About-item'>
+            💻 Computer Engineer
           </p>
-          <p>
+          <p className='About-item'>
             🇲🇽 +525513964342
           </p>
-          <p>
+          <p className='About-item'>
             📩 rodrx20@gmail.com
           </p>
-          <p>
-            🌐 <a href="https://rdr-x.github.io/static/EN/englishversion.html">Landing Page</a>
+          <p className='About-item'>
+            🌐
+            <a href='https://rdr-x.github.io/static/EN/englishversion.html'>Landing Page</a>
           </p>
-          <p>
+          <p className='About-item'>
             📍CDMX, Mexico
           </p>
         </ItemWrapper>
         <ItemWrapper>
-          <p>
+          <p className='About-item'>
             I'm really exited about decentrilized technology scope and what it could make possible. Computer engineer and fullstack js developer.
           </p>
         </ItemWrapper>
-        </DescriptionWrapper>
+      </DescriptionWrapper>
     </Wrapper>
-  )
-}
+  );
+};
 
-export default About
+export default About;

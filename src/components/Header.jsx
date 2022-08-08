@@ -1,19 +1,19 @@
-import React from 'react'
-import styled from 'styled-components'
-import About from './About'
+import React from 'react';
+import styled from 'styled-components';
+import About from './About';
 
 const Wrapper = styled.div`
   display: flexbox;
   width: 100%;
   justify-content: center;
   align-items: center;
-`
+`;
 const ImgWrapper = styled.img`
   border-radius: 50%;
   box-shadow: rgba(255, 255, 255, 0.25) 1px 34px 21px -21px, rgba(255, 255, 255, 0.3) 8px 34px 89px -34px, rgba(255, 255, 255, 0.35) -1px -21px 8px 0px inset;
   object-fit: cover;
   margin: 1rem;
-`
+`;
 
 const DescriptionWrapper = styled.div`
   display: grid;
@@ -24,33 +24,30 @@ const DescriptionWrapper = styled.div`
   & a {
     text-decoration: none;
   }
-`
+`;
 
 const ItemWrapper = styled.div`
   margin: 1rem;
   padding: .8rem;
-`
+`;
 
-
-const Header = (props) => {
+function Header(props) {
   return (
     <Wrapper>
       <ImgWrapper
-        src=""
-        width="233px"
-        height="233px"
-        alt="image-profile"
+        src={props.avatar}
+        width='233px'
+        height='233px'
+        alt='image-profile'
       />
-      <h1 className="Header-title">
-        
-      </h1>
+      <h1 className='Header-title' />
       <DescriptionWrapper>
         <ItemWrapper>
           {props.children}
         </ItemWrapper>
       </DescriptionWrapper>
     </Wrapper>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

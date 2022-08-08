@@ -1,11 +1,7 @@
-async function getData (url) {
-    try {
-        const res = await fetch(url);
-        const data = await res.json(data);
-        return data;
-    } catch (err) {
-        error(err);
-    }
-}
+const getData = async (url) => {
+  const res = await fetch(url);
+  const data = await res.json();
+  return data;
+};
 
-export default getData
+export default getData;

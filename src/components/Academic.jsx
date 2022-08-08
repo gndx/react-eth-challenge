@@ -1,12 +1,12 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   display: block;
   justify-content: center;
   align-items: center;
   margin: 2rem;
-`
+`;
 const DescriptionWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -34,20 +34,20 @@ const DescriptionWrapper = styled.div`
   & b {
     color: #FF6D09;
   }
-`
+`;
 const ItemWrapper = styled.div`
   margin: 1rem;
   padding: .8rem;
-`
+`;
 
-const Academic = ({ Academic }) => {
+function Academic({ Academic }) {
   return (
     <Wrapper>
       <h1 className='Academic-title'>
         Academic
       </h1>
       <DescriptionWrapper>
-        <ItemWrapper className="Academi-item">
+        <ItemWrapper className='Academic-item'>
           <h3>
             UNIR Mexico | Computer Systems Engineering
           </h3>
@@ -66,7 +66,7 @@ const Academic = ({ Academic }) => {
             <li>Physics</li>
           </ul>
         </ItemWrapper>
-        <ItemWrapper className="Academi-item">
+        <ItemWrapper className='Academic-item'>
           <h3>
             Platzi
           </h3>
@@ -88,7 +88,7 @@ const Academic = ({ Academic }) => {
             </li>
           </ul>
         </ItemWrapper>
-        <ItemWrapper className="Academi-item">
+        <ItemWrapper className='Academic-item'>
           <h3>
             Philosophy and Letters Faculty. UNAM | Philosophy
           </h3>
@@ -105,7 +105,7 @@ const Academic = ({ Academic }) => {
             </li>
           </ul>
         </ItemWrapper>
-        <ItemWrapper className="Academi-item">
+        <ItemWrapper className='Academic-item'>
           <h3>
             Microsoft
           </h3>
@@ -125,7 +125,7 @@ const Academic = ({ Academic }) => {
         </ItemWrapper>
       </DescriptionWrapper>
     </Wrapper>
-  )
-}
+  );
+};
 
-export default Academic
+export default Academic;
