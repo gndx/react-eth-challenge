@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ImgProfile from '../../public/assets/images/self.png'
+import { About } from './About'
 
 const Wrapper = styled.div`
   display: flexbox;
@@ -32,7 +33,7 @@ const ItemWrapper = styled.div`
 `
 
 
-const Header = (props) => {
+const Header = ({ avatar, name, profession, phone, email, website, address }) => {
   return (
     <Wrapper>
       <ImgWrapper
@@ -46,7 +47,7 @@ const Header = (props) => {
       </h1>
       <DescriptionWrapper>
         <ItemWrapper>
-          {props.children}
+          <About />
         </ItemWrapper>
       </DescriptionWrapper>
     </Wrapper>

@@ -1,22 +1,22 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Rodrigo Ramos Xochiteotzin",
+    "profession": "Computer Engineer",
+    "address": "CDMX, Mexico",
+    "email": "rodrx20@gmail.com",
+    "website": "https://rdr-x.github.io/static/EN/englishversion.html",
+    "phone": "+525513964342",
+    "avatar": "./public/images/self.png",
+    "Profile": "Computer engineer who has experience in web development using JS frameworks (react and vue). I'm starting my path as blockchain development in Ethereum",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Aug 2022",
+        "description": "Road to Devcon program. Ethereum development",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Blockchain Developer jr"
       },
       {
-        "date": "Jan 2021",
+        "date": "Aug 2022",
         "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
         "name": "Backend Developer"
@@ -24,86 +24,90 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Computer System Engineer",
+        "description": "Professional capable of create software solutions to almost any kind of problem. All of this based on math, physics and cs theory",
+        "endDate": "Present",
+        "institution": "UNIR Mexico",
+        "startDate": "May 2022"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Philosopher",
+        "description": "Professional cable of visibilize problems where common people cannot see them",
+        "endDate": "May 2019",
+        "institution": "UNAM",
+        "startDate": "Aug 2015"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Oasis Financiero",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Create software solutions to finantial education field using front-end and back-end technologies.",
+        "jobTitle": "Software developer",
+        "startDate": "May 2022"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Intelligential",
+        "endDate": "May 2022",
+        "jobDescription": "Develop fullstack solutions to fintech problems.",
+        "jobTitle": "Software engineer jr",
+        "startDate": "Feb 2022"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "CSS3",
+        "percentage": "85%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "85%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "75%"
+      },
+      {
+        "name": "Vue",
+        "percentage": "75%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
+      "blockchain",
+      "computer science",
       "backend",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "80%"
+      },
+      {
+        "name": "French",
+        "percentage": "55%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/rdrx_"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/rdr-x"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/rodrx20/"
       }
     ]
   }

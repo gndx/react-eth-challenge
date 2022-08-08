@@ -32,7 +32,7 @@ const ItemWrapper = styled.div`
   margin: 1rem;
   padding: .8rem;
 `
-const Languages = () => {
+const Languages = ({ languages }) => {
   return (
     <Wrapper>
       <h3>Languages</h3>

@@ -8,6 +8,7 @@ import { Academic } from '../components/Academic';
 import { Skills } from '../components/Skills';
 import { Interest } from '../components/Interest';
 import styled from 'styled-components';
+import { getData } from '../utils/getData';
 
 const GridLayout = styled.div`
   display: flex;
@@ -20,16 +21,27 @@ const GridLayout = styled.div`
   width: 800px;
 `
 const App = () => {
+  const [data, setData] = React.useState();
+  const url = 'http://localhost:8080/data';
+  const consumingAPI = async () => {
+    const res = await getData(url);
+    setData(res);
+  }
+
+  React.useEffect(() =>{
+    consumingAPI();
+  }, []);
+
   return (
     <GridLayout>
-        <Header>
-          <About />
+        <Header {...data}>
+          <About {...data}/>
         </Header>
-        <Profile />
-        <Experience />
-        <Academic />
-        <Skills />
-        <Interest />
+        <Profile {...data}/>
+        <Experience {...data}/>
+        <Academic {...data}/>
+        <Skills {...data}/>
+        <Interest {...data}/>
     </GridLayout>
   )
 };

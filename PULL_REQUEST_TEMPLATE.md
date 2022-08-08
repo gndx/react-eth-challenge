@@ -1,6 +1,6 @@
 ## DESCRIPTION
 
-Solución al reto:
+Solución al reto: react-eth-challenge
 
 Nombre: Rodrigo Ramos Xochiteotzin
 Usuario Platzi: rdrx
@@ -9,8 +9,8 @@ Usuario Platzi: rdrx
 
 - [x] Primer problema
 - [x] Segundo problema
-- [ ] Tercer problema
-- [ ] Cuarto Problema
-- [ ] Quinto Problema
+- [x] Tercer problema
+- [x] Cuarto Problema
+- [x] Quinto Problema
 - [ ] Sexto Problema
 - [ ] Septimo Problema

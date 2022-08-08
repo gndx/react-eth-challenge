@@ -40,7 +40,7 @@ const ItemWrapper = styled.div`
   padding: .8rem;
 `
 
-const Experience = () => {
+const Experience = ({ experience: experiences }) => {
   return (
     <Wrapper>
       <h1>

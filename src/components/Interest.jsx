@@ -37,7 +37,7 @@ const ItemWrapper = styled.div`
   margin: 1rem;
   padding: .8rem;
 `
-const Interest = () => {
+const Interest = ({ interest: interests }) => {
   return (
     <Wrapper>
       <DescriptionWrapper>
@@ -51,7 +51,10 @@ const Interest = () => {
               Philosophy
             </li>
             <li>
-              Artificial Intelligence
+              Cybernetics
+            </li>
+            <li>
+              AI
             </li>
             <li>
               IoT

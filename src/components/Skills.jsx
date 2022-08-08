@@ -39,7 +39,7 @@ const ItemWrapper = styled.div`
   margin: 1rem;
 `
 
-const Skills = () => {
+const Skills = ({ Skills }) => {
   return (
     <Wrapper>
       <h1>

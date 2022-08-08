@@ -40,7 +40,7 @@ const ItemWrapper = styled.div`
   padding: .8rem;
 `
 
-const Academic = () => {
+const Academic = ({ Academic }) => {
   return (
     <Wrapper>
       <h1>

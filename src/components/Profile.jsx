@@ -16,7 +16,7 @@ const DescriptionWrapper = styled.div`
   }
 `
 
-const Profile = () => {
+const Profile = ({ Profile }) => {
   return (
     <Wrapper>
       <h1>
