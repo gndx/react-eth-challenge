@@ -36,14 +36,14 @@ const ItemWrapper = styled.div`
 `;
 
 function About(props) {
-  console.log(props);
+  const { profession } = props;
   return (
     <Wrapper>
       <DescriptionWrapper>
         <ItemWrapper>
           <h3 className='About-title'>About</h3>
           <p className='About-item'>
-            💻 Computer Engineer
+            💻 {profession}
           </p>
           <p className='About-item'>
             🇲🇽 +525513964342

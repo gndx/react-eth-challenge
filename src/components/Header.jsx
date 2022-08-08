@@ -32,10 +32,11 @@ const ItemWrapper = styled.div`
 `;
 
 function Header(props) {
+  const {avatar} = props;
   return (
     <Wrapper>
       <ImgWrapper
-        src={props.avatar}
+        src={avatar}
         width='233px'
         height='233px'
         alt='image-profile'
