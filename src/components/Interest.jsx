@@ -1,6 +1,6 @@
-import React from 'react'
-import Languages from '../components/Languages';
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import Languages from './Languages';
 
 const Wrapper = styled.div`
   display: block;
@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   align-items: center;
   margin: 2rem;
   width: 50%;
-`
+`;
 const DescriptionWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -31,42 +31,35 @@ const DescriptionWrapper = styled.div`
   & h3 {
     color: #979797;
   }
-`
+`;
 
 const ItemWrapper = styled.div`
   margin: 1rem;
   padding: .8rem;
-`
-const Interest = ({ interest: interests }) => {
+  width: 16rem;
+`;
+function Interest({ props }) {
   return (
     <Wrapper>
       <DescriptionWrapper>
         <ItemWrapper>
-        <h3 className='Interest-title'>Interest</h3>
+          <h3 className='Interest-title'>Interest</h3>
           <ul>
-            <li className="Interest-item">
-              Blockchain, NFTs, DeFi
-            </li>
-            <li className="Interest-item">
-              Philosophy
-            </li>
-            <li className="Interest-item">
-              Cybernetics
-            </li>
-            <li className="Interest-item">
-              AI
-            </li>
-            <li className="Interest-item">
-              IoT
-            </li>
+            {props?.interest.map((interest) => {
+              return (
+                <li className='Interest-item'>
+                  {interest}
+                </li>
+              )
+            })}
           </ul>
         </ItemWrapper>
         <ItemWrapper>
-          <Languages/>
+          <Languages />
         </ItemWrapper>
       </DescriptionWrapper>
     </Wrapper>
-  )
-}
+  );
+};
 
-export default Interest
+export default Interest;

@@ -40,7 +40,7 @@ const ItemWrapper = styled.div`
   padding: .8rem;
 `;
 
-function Experience({ experience: experiences }) {
+function Experience({ props }) {
   return (
     <Wrapper>
       <h1 className='Experience-title'>
@@ -49,10 +49,10 @@ function Experience({ experience: experiences }) {
       <DescriptionWrapper>
         <ItemWrapper className='Experience-item'>
           <h3>
-            Software developer
+            {props?.experience[0].jobTitle}
           </h3>
           <p>
-            <b>May 2022 - Present</b>
+            <b>{props?.experience[0].startDate} - {props?.experience[0].endDate}</b>
           </p>
           <ul>
             <li>
@@ -65,10 +65,10 @@ function Experience({ experience: experiences }) {
         </ItemWrapper>
         <ItemWrapper className='Experience-item'>
           <h3>
-            Software Engineer Jr
+          {props?.experience[1].jobTitle}
           </h3>
           <p>
-            <b>February 2022 - May 2022</b>
+            <b>{props?.experience[1].startDate} - {props?.experience[1].endDate}</b>
           </p>
           <ul>
             <li>

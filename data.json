@@ -68,19 +68,21 @@
         "percentage": "85%"
       },
       {
-        "name": "React",
+        "name": "React.js",
         "percentage": "75%"
       },
       {
-        "name": "Vue",
+        "name": "Vue.js",
         "percentage": "75%"
       }
     ],
     "interest": [
-      "blockchain",
-      "computer science",
-      "backend",
-      "frontend"
+      "Blockchain, DeFi, NFTs",
+      "Computer science",
+      "Backend",
+      "Frontend",
+      "AI",
+      "Cybernetics"
     ],
     "languages": [
       {

@@ -36,7 +36,7 @@ function App() {
   return (
     <GridLayout>
       <Header props={data}>
-        <About props={data} />
+        {/* <About props={data} /> */}
       </Header>
       <Profile props={data} />
       <Experience props={data} />

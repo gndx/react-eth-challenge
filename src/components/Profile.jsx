@@ -1,12 +1,12 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   display: block;
   justify-content: center;
   align-items: center;
   margin: 2rem;
-`
+`;
 const DescriptionWrapper = styled.div`
   align-items: center;
   margin: 1rem;
@@ -14,17 +14,21 @@ const DescriptionWrapper = styled.div`
   & a {
     text-decoration: none;
   }
-`
+`;
 
-const Profile = ({ Profile }) => {
+function Profile({ props }) {
   return (
     <Wrapper>
-      <h1 className="Profile-title">
+      <h1 className='Profile-title'>
         Profile
       </h1>
-      <DescriptionWrapper className="Profile-desc">
+      <DescriptionWrapper className='Profile-desc'>
         <p>
-          Computer Systems Engineer student at UNIR México. Philosopher graduated by UNAM.
+          My name is
+          {' '}
+          {props?.name}
+          {' '}
+          I'm a Computer Systems Engineer student at UNIR México and a Philosopher graduated by UNAM.
         </p>
         <p>
           I have some job experience as web developer using technolgies as React.js and Vue.js as Javascript frameworks, Sequelize as ORM, Express.js as server based in API Rest architecture and PostgreSQL as database.
@@ -32,11 +36,11 @@ const Profile = ({ Profile }) => {
         </p>
         <p>
           I think that almost everything in our lives has a philosophical background and it's important to all of us do a little research about it. The main reason is because philosophy help us to visibilize invisible problems that we were not aware of them and put a name on them.
-          Also I think that my professional education as Computer System Engineer is very important here because is the other side of the coin: create software solutions to the problems we were not aware of.   
+          Also I think that my professional education as Computer System Engineer is very important here because is the other side of the coin: create software solutions to the problems we were not aware of.
         </p>
       </DescriptionWrapper>
     </Wrapper>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;

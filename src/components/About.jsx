@@ -35,33 +35,32 @@ const ItemWrapper = styled.div`
   padding: .8rem;
 `;
 
-function About(props) {
-  const { profession } = props;
+function About({props}) {
   return (
     <Wrapper>
       <DescriptionWrapper>
         <ItemWrapper>
           <h3 className='About-title'>About</h3>
           <p className='About-item'>
-            💻 {profession}
+            💻 {props?.profession}
           </p>
           <p className='About-item'>
-            🇲🇽 +525513964342
+            🇲🇽 {props?.phone}
           </p>
           <p className='About-item'>
-            📩 rodrx20@gmail.com
+            📩 {props?.email}
           </p>
           <p className='About-item'>
             🌐
-            <a href='https://rdr-x.github.io/static/EN/englishversion.html'>Landing Page</a>
+            <a href={props?.website}>Landing Page</a>
           </p>
           <p className='About-item'>
-            📍CDMX, Mexico
+            📍{props?.address}
           </p>
         </ItemWrapper>
         <ItemWrapper>
           <p className='About-item'>
-            I'm really exited about decentrilized technology scope and what it could make possible. Computer engineer and fullstack js developer.
+            {props?.Profile}
           </p>
         </ItemWrapper>
       </DescriptionWrapper>

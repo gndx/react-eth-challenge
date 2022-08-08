@@ -40,7 +40,7 @@ const ItemWrapper = styled.div`
   padding: .8rem;
 `;
 
-function Academic({ Academic }) {
+function Academic({ props }) {
   return (
     <Wrapper>
       <h1 className='Academic-title'>
@@ -49,9 +49,9 @@ function Academic({ Academic }) {
       <DescriptionWrapper>
         <ItemWrapper className='Academic-item'>
           <h3>
-            UNIR Mexico | Computer Systems Engineering
+            {props?.Academic[0].institution} | {props?.Academic[0].degree}
           </h3>
-          <p><b>May 2022 - Present</b></p>
+          <p><b>{props?.Academic[0].startDate} - {props?.Academic[0].endDate}</b></p>
           <ul>
             <li>
               Fundamentals of computer systems engineering
@@ -90,9 +90,9 @@ function Academic({ Academic }) {
         </ItemWrapper>
         <ItemWrapper className='Academic-item'>
           <h3>
-            Philosophy and Letters Faculty. UNAM | Philosophy
+            Philosophy and Letters Faculty. UNAM | {props?.Academic[1].degree}
           </h3>
-          <p><b>August 2019 graduated</b></p>
+          <p><b>{props?.Academic[0].startDate} - {props?.Academic[0].endDate}</b></p>
           <ul>
             <li>
               "Seminario de Tecnologías Filosóficas" member

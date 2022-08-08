@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import About from './About';
+import getData from '../utils/getData'
 
 const Wrapper = styled.div`
   display: flexbox;
@@ -31,12 +32,11 @@ const ItemWrapper = styled.div`
   padding: .8rem;
 `;
 
-function Header(props) {
-  const {avatar} = props;
+function Header({props}) {
   return (
     <Wrapper>
       <ImgWrapper
-        src={avatar}
+        src={props?.avatar}
         width='233px'
         height='233px'
         alt='image-profile'
@@ -44,7 +44,7 @@ function Header(props) {
       <h1 className='Header-title' />
       <DescriptionWrapper>
         <ItemWrapper>
-          {props.children}
+          <About props={props}/>
         </ItemWrapper>
       </DescriptionWrapper>
     </Wrapper>
