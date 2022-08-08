@@ -3,18 +3,21 @@ import styled from 'styled-components'
 import ImgProfile from '../../public/assets/images/self.png'
 
 const Wrapper = styled.div`
-  display: flex;
-  width: 100vw;
-  justify-content: cener;
+  display: flexbox;
+  width: 100%;
+  justify-content: center;
   align-items: center;
 `
 const ImgWrapper = styled.img`
   border-radius: 50%;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;  object-fit: cover;
-  margin: 1.5rem;
+  box-shadow: rgba(255, 255, 255, 0.25) 1px 34px 21px -21px, rgba(255, 255, 255, 0.3) 8px 34px 89px -34px, rgba(255, 255, 255, 0.35) -1px -21px 8px 0px inset;
+  object-fit: cover;
+  margin: 1rem;
 `
 
 const DescriptionWrapper = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
   align-items: center;
   margin: 1rem;
   width: 30%;
@@ -23,8 +26,13 @@ const DescriptionWrapper = styled.div`
   }
 `
 
+const ItemWrapper = styled.div`
+  margin: 1rem;
+  padding: .8rem;
+`
 
-const Header = () => {
+
+const Header = (props) => {
   return (
     <Wrapper>
       <ImgWrapper
@@ -37,21 +45,9 @@ const Header = () => {
         
       </h1>
       <DescriptionWrapper>
-        <p>
-          💻 Software Engineer
-        </p>
-        <p>
-          🇲🇽 +525513964342
-        </p>
-        <p>
-          📩 rodrx20@gmail.com
-        </p>
-        <p>
-          🌐 <a href="https://rdr-x.github.io/static/EN/englishversion.html">Landing Page</a>
-        </p>
-        <p>
-          📍CDMX, Mexico
-        </p>
+        <ItemWrapper>
+          {props.children}
+        </ItemWrapper>
       </DescriptionWrapper>
     </Wrapper>
   )

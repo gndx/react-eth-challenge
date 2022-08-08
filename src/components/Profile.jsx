@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
   display: block;
-  justify-content: cener;
+  justify-content: center;
   align-items: center;
   margin: 2rem;
 `
