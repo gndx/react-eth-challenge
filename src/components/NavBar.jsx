@@ -20,13 +20,13 @@ const NavBar = () => {
         <Icon name="Education" className="mr-0.5 text-neutral-900" />
         Academic
       </a>
-      <a href="#Projects" className="link" draggable="false">
+      {/* <a href="#Projects" className="link" draggable="false">
         <Icon
           name="Experiment"
           className="mr-0.5 text-fuchsia-600 text-green-500"
         />
         Projects
-      </a>
+      </a> */}
       <a href="#Interest" className="link" draggable="false">
         <Icon name="Fire" className="mr-0.5 text-red-500" />
         Interest
