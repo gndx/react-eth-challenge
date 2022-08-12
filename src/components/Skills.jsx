@@ -1,13 +1,28 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import AppContext from '../context/AppContext';
+import '../styles/components/Skills.styl';
 
 const Skills = () => {
+    const data = useContext(AppContext);
+    const skills = data.skills ? data.skills : [0,1,2];
     return (
-        <>
-            <div className="Skills-title">
+        <section className="Skills">
+            <div className="Skills-content">
+              <h2 className="Skills-title">Skills</h2>
+              <ul>
+                {
+                  skills.map((skill,i) => {
+                    return (
+                      <li key={i} className="Skills-item">
+                        <p>{skill.name}</p>
+                        <p>{skill.percentage}</p>
+                      </li>
+                    )
+                  })
+                }
+              </ul>
             </div>
-            <div className="Skills-item">
-            </div>
-        </>
+        </section>
     )
 };
 

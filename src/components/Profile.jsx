@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import AppContext from '../context/AppContext';
 
 const Profile = () => {
+    const data = useContext(AppContext);
     return (
-        <>
-            <div className="Profile-title">
+        <section className="Profile">
+            <div className="Profile-content">
+              <h2 className="Profile-title">Profile</h2>
+              <p className="Profile-desc">{data.Profile}</p>
             </div>
-            <div className="Profile-desc">
-            </div>
-        </>
+        </section>
     )
 };
 
