@@ -1,57 +1,57 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Rafael Ramirez",
+    "profession": "FullStack Developer",
+    "address": "Cochabamba, Bolivia",
+    "email": "rafael@cryptostore.com.bo",
+    "website": "https://cryptostore.com.bo",
+    "phone": "+591 75992745",
+    "avatar": "https://pbs.twimg.com/profile_images/1549482647449210880/8KfHw-oh_400x400.jpg",
+    "Profile": "FullStack Developer with +7 years of experience developing web applications using JavaScript, Python, PHP, Java, Angular, Nodejs, Ruby on Rails, and Flutter.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Feb 2022",
+        "description": "Learn the essentials of Ruby, the ideal language to start programming that many startups use as the basis of their platforms.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Ruby Course"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "Mar 2022",
+        "description": "Learn React.js, the most popular JavaScript library for building interactive web applications!",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Introduction to React.js Course"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Bachelor of Computer Engineering",
+        "description": "Computer Engineering involves the design and development of systems based on computers and complex digital logic devices. These systems find use in such diverse tasks as computation, communication, entertainment, information processing, artificial intelligence, and control.",
+        "endDate": "Jul 2022",
+        "institution": "UMSS",
+        "startDate": "Feb 2011"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "FullStack Blockchain Developer",
+        "description": "Open program supported by the Ethereum Foundation and Road to Devcon.",
+        "endDate": "Present",
+        "institution": "Platzi",
+        "startDate": "Jun 2022"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Sawers Technology",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Development and maintenance of Ecommerce systems. Implementation of payment methods.",
+        "jobTitle": "FullStack Developer",
+        "startDate": "Jan 2021"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Freelancer",
+        "endDate": "Jan 2021",
+        "jobDescription": "Fullstack development of general purpose information systems for local companies: Sales and inventory systems.",
+        "jobTitle": "Ruby on Rails Full Stack Web Development",
+        "startDate": "may 2016"
       }
     ],
     "skills": [
@@ -91,19 +91,19 @@
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/rrafalinux"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/sass3r"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/sass3r"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/rudyrafaelrc"
       }
     ]
   }
