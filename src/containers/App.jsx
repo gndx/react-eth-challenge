@@ -8,21 +8,30 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import AppContext from '../context/AppContext';
+import useDataHook from '../hooks/useDataHook';
 
 const App = () => {
-  return (
-    <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
-  )
+  const cvData = useDataHook();
+  const render = () => (
+    <div>
+      <AppContext.Provider value={cvData}>
+        <Header>
+          <About />
+        </Header>
+        <Profile />
+        <Experience />
+        <div className="grid">
+          <Academic />
+          <Skills />
+          <Interest />
+          <Languages />
+        </div>
+      </AppContext.Provider>
+    </div> 
+  );
+
+  return <>{render()}</>
 };
 
 export default App;
