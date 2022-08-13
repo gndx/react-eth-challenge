@@ -9,7 +9,9 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "react",
@@ -45,6 +47,7 @@
     "eslint-plugin-jsx-a11y": "6.6.0",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.30.1",
+    "gh-pages": "^4.0.0",
     "husky": "8.0.1",
     "jest": "28.1.2",
     "jest-environment-jsdom": "28.1.3",
@@ -65,5 +68,7 @@
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
     ]
-  }
+  },
+  "homepage": "https://sass3r.github.io/react-eth-challenge"
+
 }
