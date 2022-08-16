@@ -8,19 +8,38 @@ import {Academic} from '../components/Academic';
 import {Skills} from '../components/Skills';
 import {Interest} from '../components/Interest';
 import {Languages} from '../components/Languages';
+import { Grid } from '@mui/material';
 
 const App = () => {
   return (
-    <>      
-      <Header/>
-      <About />
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
+    <div>
+      <Grid container spacing={3}>
+        <Grid item xs={12}>
+          <Header/>
+        </Grid>
+        <Grid item xs={12}>
+          <About />
+        </Grid>
+        <Grid item xs={12}>
+          <Profile />
+        </Grid>
+        <Grid item xs={12}>
+          <Experience />
+        </Grid>
+        <Grid item xs={6}>
+          <Academic />
+        </Grid>
+        <Grid item xs={6}>
+          <Skills />
+        </Grid>
+        <Grid item xs={6}>
+          <Interest />
+        </Grid>
+        <Grid item xs={6}>
+          <Languages />
+        </Grid>
+      </Grid>
+    </div>
   )
 };
 

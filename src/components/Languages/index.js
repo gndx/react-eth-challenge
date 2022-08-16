@@ -1,7 +1,10 @@
 import React from "react";
+import { Wrapper, Title } from "../../styles/components/GlobalStyle";
 
 export const Languages = () => {
     return (
-        <h2>Languages</h2>
+        <Wrapper>
+            <Title>Languages</Title>
+        </Wrapper>
     )
 }

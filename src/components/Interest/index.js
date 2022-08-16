@@ -1,7 +1,10 @@
 import React from "react";
+import { Wrapper, Title } from "../../styles/components/GlobalStyle";
 
 export const Interest = () => {
     return (
-        <h2>Interests</h2>
+        <Wrapper>
+            <Title>Interest</Title>
+        </Wrapper>
     )
 }
