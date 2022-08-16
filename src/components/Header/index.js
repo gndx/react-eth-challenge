@@ -1,21 +1,20 @@
 import React from "react";
 import {Grid} from '@mui/material';
-import { Wrapper, Title } from "../../styles/components/GlobalStyle";
+import { Image, Wrapper, Texto, Name } from "./styles";
 
-export const Header = () => {
+const DEFAULT_IMAGE = 'https://media-exp1.licdn.com/dms/image/C4D03AQHo3s0BEAiVAw/profile-displayphoto-shrink_800_800/0/1556915046600?e=1666224000&v=beta&t=LligCvyeOL1ZR5qwpgJAokPMkr6SYBodcqq8D51ObPs'
+
+export const Header = ( {cover= DEFAULT_IMAGE} ) => {
     return (
         <>
-            <Grid container spacing={1}>
-                <Grid item xs={6} md={4}>
-                    <item>
-                        <Wrapper>
-                            <Title>Photo</Title>
-                        </Wrapper>
-                    </item>
+            <Grid container spacing={10}>
+                <Grid item xs={6} md={2}>
+                            <Image src={cover}/>
                 </Grid>
-                <Grid item xs={6} md={8}>
+                <Grid item xs={6} md={10}>
                     <Wrapper>
-                        <Title>Header</Title>
+                        <Name>Mario Sanchez Jaramillo</Name>
+                        <Texto>Energy engineer</Texto>
                     </Wrapper>
                 </Grid>
             </Grid>
