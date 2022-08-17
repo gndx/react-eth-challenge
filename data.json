@@ -10,7 +10,7 @@
     "profile": {
       "title": "Profile",
       "description": [
-        "Passionate about software development and decentralized systems, I belive in technology as a tool to solve real people's problems ",
+        "Passionate about software development and decentralized systems, I belive in technology as a tool to solve real people's problems.",
         "Experienced in delivering high scale web2 projects, I'm looking to break into the web3 industry through development, building personal projects, and attending hackathons.",
         "Currently working on a large payment and billing management platform for a big Valtech client, being used by more than 500 pharmacies. Built mostly using Next.js, React.js, Redux and Styled Components.",
         "I like to spend my free time learning about blockchain, financial inclusion & crypto adoption, and practicing Smart Contracts development with Solidity, Ethers.js, Hardhat, and TypeScript to contribute to the web3 ecosystem."
@@ -23,11 +23,11 @@
     "interest": {
       "title": "Interests",
       "interests": [
-        "Being the front-end my stronger side, I'm currently learning and practicing Solidity to write better smart contracts, Hardhat as work enviroment to automatice tasks and increasing my efficiency.",
-        "Ethers.js to interact with the blockchain from the frontends & dev enviroments, Chai to test intensely my contracts, IPFS to permanently store my projects resources.",
-        "Oracles (ChainLink) to provide my contracts with secure real-word data, and TypeScript to write more robust and secure code overall.",
-        "I deeply belive in blockchains and decentralization as the tools to build a fairer future.",
-        "I'm highly interested to work in web3 with a strong team and contribute to the ecosystem, so don't hesitate to send me an email or schedule a meet if we could be a good match ;) ."
+        "Being the front-end my stronger side, I'm currently learning and practicing Solidity to write better smart contracts and Hardhat as work enviroment to automatice tasks and increasing my efficiency.",
+        "Ethers.js to interact with the blockchain, Chai to intensely test my contracts, and IPFS to permanently store my projects resources.",
+        "Oracles (Chainlink) to provide my contracts with secure real-word data, and TypeScript to write more robust and secure code overall.",
+        "I deeply belive in blockchains and decentralization as tools to build a fairer future.",
+        "I'm highly interested to work in web3 with a strong team and contribute to the ecosystem, so don't hesitate to send me an email or schedule a meet if you think that we could be a good match ;) ."
       ]
     },
     "networks": {
