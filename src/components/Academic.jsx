@@ -29,8 +29,8 @@ const Academic = ({
                 alt=""
               />
             )}
-            <span>
-              <p className="text-lg font-semibold">{item.degree}</p>
+            <span className="text-neutral-200">
+              <p className="text-lg font-semibold text-white">{item.degree}</p>
               <p className="text-lg ">{item.institution}</p>
               <p className="mb-1">
                 {item.startDate} - {item.endDate}

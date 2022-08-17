@@ -24,8 +24,8 @@ const Experience = ({
                 alt=""
               />
             )}
-            <span className="max-w-[900px]">
-              <p className="text-lg font-semibold">{experience.jobTitle}</p>
+            <span className="max-w-[900px] text-neutral-200">
+              <p className="text-lg font-semibold text-white">{experience.jobTitle}</p>
               <p className="text-lg ">{experience.company}</p>
               <p className="mb-1">
                 {experience.startDate} - {experience.endDate}
