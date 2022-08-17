@@ -34,7 +34,7 @@ p {
 }
 
 .btn {
-  @apply font-semibold rounded-lg px-4 py-2 flex items-center justify-center cursor-pointer;
+  @apply font-semibold rounded-lg px-4 h-[2.6rem] flex items-center justify-center cursor-pointer bg-gradient-to-tr;
 }
 
 .btn--golden {
@@ -42,7 +42,13 @@ p {
 }
 
 .btn--pink {
-  @apply btn text-white bg-pink-600 hover:bg-pink-600/95;
+  @apply btn text-white from-pink-800 to-pink-500 hover:from-pink-900 hover:to-pink-600;
+  filter: drop-shadow(0 0 3px rgba(198, 48, 116, 0.3));
+}
+
+.btn--blue {
+  @apply btn text-white bg-gradient-to-tr from-blue-800 to-blue-500 hover:from-blue-900 hover:to-blue-700;
+  filter: drop-shadow(0 0 3px rgba(20, 20, 255, 0.3));
 }
 
 .bg-gradient {
