@@ -19,13 +19,13 @@ export const Header = ( {cover= DEFAULT_IMAGE2} ) => {
                         <Name>Mario Sanchez Jaramillo</Name>
                         <Texto>Product Owner</Texto>
                         <Grid container>
-                            <Grid xs={4}>
+                            <Grid item xs={4}>
                                 <Texto>✉️ mario.sanchez.j@hotmail.com</Texto>
                             </Grid>
-                            <Grid xs={4}>
+                            <Grid item xs={4}>
                                 <Texto></Texto>
                             </Grid>
-                            <Grid xs={4}>
+                            <Grid item xs={4}>
                                 <Texto>📍 Lille, France</Texto>
                             </Grid>
                         </Grid>

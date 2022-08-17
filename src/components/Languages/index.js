@@ -8,13 +8,13 @@ export const Languages = () => {
             <Wrapper>
                 <Title>Languages</Title>
             <Grid container>
-                <Grid xs={4}>
+                <Grid item xs={4}>
                     <Texto>🇬🇧 English advanced C1</Texto>
                 </Grid>
-                <Grid xs={4}>
+                <Grid item xs={4}>
                     <Texto>🇫🇷 French advanced C1</Texto>
                 </Grid>
-                <Grid xs={4}>
+                <Grid item xs={4}>
                     <Texto>🇪🇸 Spanish native language</Texto>
                 </Grid>
             </Grid>
