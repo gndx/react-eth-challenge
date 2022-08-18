@@ -10,7 +10,6 @@ export const Profile = () => {
     }
     const [data, setData] = useState([])
     useEffect(() => {getData()}, []);
-    console.log(data);
 
     return (
         <Wrapper>

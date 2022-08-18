@@ -1,5 +1,5 @@
+import React, {useState, useEffect} from "react";
 import { Grid } from "@mui/material";
-import React from "react";
 import { Wrapper, Title, Texto } from "../../styles/components/GlobalStyle";
 
 export const Languages = () => {

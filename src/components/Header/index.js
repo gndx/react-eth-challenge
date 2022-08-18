@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {Grid} from '@mui/material';
 import { Image, Wrapper, Texto, Name } from "./styles";
 
@@ -16,7 +16,7 @@ export const Header = ( {cover= DEFAULT_IMAGE2} ) => {
                 </Grid>
                 <Grid item xs={6} md={10}>
                     <Wrapper>
-                        <Name>Mario Sanchez Jaramillo</Name>
+                        <Name>{data}</Name>
                         <Texto>Product Owner</Texto>
                         <Grid container>
                             <Grid item xs={4}>
