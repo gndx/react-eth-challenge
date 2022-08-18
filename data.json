@@ -1,0 +1,150 @@
+{
+  "data": {
+    "name": "Mario Sanchez Jaramillo",
+    "profession": "Frontent Developer",
+    "address": "Lille, France",
+    "email": "mario.sanchez.jar@gmail.com",
+    "website": "https://www.linkedin.com/in/mszjar/",
+    "phone": "+07999999978",
+    "avatar": "https://lh3.googleusercontent.com/Ij2ZRQUfV3IlNkps3f-PiO-0v9XxdktvOXco7tOolV04zFZSgt73mRv8GgSmDCBeWtaMsNOtnSjrDvZDfCMUFjRqG-_cq9Hzr1b6=s0",
+    "profile": "Hi! I'm Mario, an engineer transformed into a Frontend Developer",
+    "certificate": [
+      {
+        "date": "August 2020",
+        "description": "Able to recognize foundational concepts of blockchain, and apply these program concepts on the blockchain.",
+        "institution": "Coursera - University at Buffalo",
+        "name": "Blockchain Basics"
+      },
+      {
+        "date": "August 2022",
+        "description": "High-level qualification that shows the language skills that employers and universities are looking for.",
+        "institution": "Cambridge University",
+        "name": "Cambridge Advanced English C1"
+      },      
+      {
+        "date": "Jul 2021",
+        "description": "High-level qualification in French",
+        "institution": "Universite de Lille",
+        "name": "French C1 Advanced"
+      }
+    ],
+    "academic": [
+      {
+        "degree": "Ethereum Developer Program",
+        "description": "Platzi rogram to develop my Web 3.0 Developer career, supported by the Ethereum Foundation and Road to Devcon.",
+        "endDate": "Currently taking classes",
+        "institution": "Platzi",
+        "startDate": "Jun 2022"
+      },
+      {
+        "degree": "CUOA",
+        "description": "Full-time, 710 hours training course. I learned how to use the most demanded technologies developing three projects grouply and individually, using the SCRUM methodology.",
+        "endDate": "April 2022",
+        "institution": "p",
+        "startDate": "Jan 2022"
+      },
+      {
+        "degree": "Engineer",
+        "description": "Law Degree",
+        "endDate": "Mar 2021",
+        "institution": "Buenos Aires University",
+        "startDate": "Mar 2013"
+      },
+      {
+        "degree": "Master Grande Ecole",
+        "description": "Law Degree",
+        "endDate": "Dec 2020",
+        "institution": "Buenos Aires University",
+        "startDate": "Mar 2013"
+      }
+    ],
+    "experience": [
+      {
+        "company": "Planete-Oui",
+        "endDate": "April 2022",
+        "jobDescription": "nuyrjgsdfhafdjqj",
+        "jobTitle": "Frontend",
+        "startDate": "Jan 2020"
+      },
+      {
+        "company": "Co-op",
+        "endDate": "April 2022",
+        "jobDescription": "hgfkmwsjstyhsdfgy",
+        "jobTitle": "Backend",
+        "startDate": "Sept 2019"
+      },       
+      {
+        "company": "ALTHA",
+        "endDate": "April 2022",
+        "jobDescription": "afdhjasgjnmtwyusjnmwy",
+        "jobTitle": "Frontend",
+        "startDate": "Jan 2020"
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML5",
+        "percentage": "75%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "25%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "55%"
+      },
+      {
+        "name": "Express",
+        "percentage": "55%"
+      },
+      {
+        "name": "React",
+        "percentage": "55%"
+      },
+      {
+        "name": "Node.js",
+        "percentage": "90%"
+      },
+      {
+        "name": "Learning Solidity",
+        "percentage": "Currently learning"
+      }
+    ],
+    "interest": [
+      {
+        "name": "Back-end"
+      },
+      {
+        "name": "Blockchain Development"
+      },
+      {
+        "name": "Build the Web 3.0"
+      }
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "level": "Advanced English C1 Cambridge"
+      },
+      {
+        "name": "French",
+        "level": "Advanced French C1 DALF"
+      },
+      {
+        "name": "Spanish",
+        "level": "Native language"
+      }
+    ],
+    "social": [
+      {
+        "name": "Github",
+        "url": "https://github.com/mszjar"
+      },
+      {
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/mszjar/"
+      }
+    ]
+  }
+}
