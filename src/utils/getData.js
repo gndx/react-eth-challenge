@@ -1,17 +1,8 @@
-import React, {useState, useEffect } from "react";
-
-export async function getData() {
-    return fetch('data.json')
-        .then(response => response.json())
-        .then((data)=> console.log(data.data))
+const getData = async (api) => {
+    return await fetch(api)
+    .then(response => response.json())
+    .then(response => response)
+    .catch(error => console.error(error))
 }
 
-
-
-/* const getData = () => {
-    fetch('data.json')
-        .then(response => response.json())
-        .then(data => setData(data.data.Profile))
-}
-const [info, setData] = useState([])
-useEffect(() => {getData()}, []); */
+export default getData;
