@@ -16,9 +16,9 @@ const Certificate = () => {
                 <Grid key={i}>
                   <Grid className="Certificate-item">
                     <Title>{info.name}</Title>
-                    <Texto>Description: {info.description}</Texto>
-                    <Texto>Institution: {info.institution}</Texto>
-                    <Texto>Date: {info.date}</Texto>
+                    <Texto>{info.description}</Texto>
+                    <Texto>{info.institution}</Texto>
+                    <Texto>{info.date}</Texto>
                   </Grid>
                 </Grid>
               );

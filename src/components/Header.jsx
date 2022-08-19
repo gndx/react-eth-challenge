@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import About from './About';
 import { Context } from '../containers/App';
 import { Grid } from '@mui/material';
-import { Wrapper, Name, Texto, Image } from '../styles/GlobalStyle';
+import { Wrapper, Name, Texto, Image, Title } from '../styles/GlobalStyle';
 
 const Header = () => {
     const data = useContext(Context);
@@ -16,7 +16,7 @@ const Header = () => {
                 <Grid item xs={6} md={10}>
                     <Wrapper>
                         <Name className="Header-title">{data.name}</Name>
-                        <Texto>{data.profession}</Texto>
+                        <Title>{data.profession}</Title>
                         <Grid container>
                             <About />
                         </Grid>

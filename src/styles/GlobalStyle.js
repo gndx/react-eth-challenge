@@ -46,7 +46,7 @@ export const Image = styled.img`
     position: relative;
     align-content: center;
     margin-top: 14px;
-    margin-left: 34px;
+    margin-left: 23px;
 
 `
 

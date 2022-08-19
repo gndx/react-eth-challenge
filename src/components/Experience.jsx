@@ -17,8 +17,10 @@ const Experience = () => {
                 <Grid container key={i}>
                   <Grid className="Experience-item">
                       <Grid>
-                        <Title>{info.company}</Title>
-                        <Texto> Description: {info.jobDescription}</Texto>
+                        <Title>{info.jobTitle}</Title>
+                        <Texto>{info.company}</Texto>
+                        <Texto>{info.jobDescription}</Texto>
+                        <Texto>{info.startDate}-{info.endDate}</Texto>
                       </Grid>
                   </Grid>
                 </Grid>

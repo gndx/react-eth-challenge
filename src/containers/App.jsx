@@ -21,7 +21,7 @@ export const Context = createContext({});
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
-  const API = 'https://mocki.io/v1/f54579a6-43f0-4517-b37c-f3c6490e3ca8';
+  const API = 'https://mocki.io/v1/a73ee70e-b5fa-4828-8f84-b7ba19e80470';
 
   useEffect(() => {
     getData(API)

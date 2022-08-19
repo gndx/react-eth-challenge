@@ -15,9 +15,9 @@ const Academic = () => {
             <Grid key={i}>
               <Grid className="Academic-item">
                 <Title>{info.degree}</Title>
-                <Texto>Description: {info.description}</Texto>
-                <Texto>Institution: {info.institution}</Texto>
-                <Texto>End date: {info.endDate}</Texto>
+                <Texto>{info.description}</Texto>
+                <Texto>{info.institution}</Texto>
+                <Texto>{info.endDate}</Texto>
               </Grid>
             </Grid>
           );
