@@ -1,40 +1,51 @@
-# react-eth-challenge
+# Reto 1 - Ethereum Developer Program
+This project is a Challenge for the Platzi Ethereum Developer Program which require to do a simple CV of my own data using React.js and deploying the project somewhere, in this case you can see the project here:
 
-## React Curriculum vitae
+[live demo](https://brusmax.github.io/reto1-platzi-brusmax-cv/)
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+![Brusmax CV](/public/brusmax-cv.jpg)
 
-![react-cv](https://github.com/gndx/react-eth-challenge/blob/440befcbc257b886015bd050666a21a3bec6c244/screenshot.png)
+### Data
+The data is feeded from a json file under Public folder. This data is fetch under this folder:
+  - hooks/initData
 
-### Retos
+### Components
+All components are under components folder:
+  - About
+  - Academic
+  - Experience
+  - Header
+  - Interest
+  - Languages
+  - Profile
+  - Skills
 
-1. [Crear los componentes del proyecto](https://github.com/gndx/react-eth-challenge/issues/1)
-2. [Añadir estilos](https://github.com/gndx/react-eth-challenge/issues/2)
-3. [Crear función getData.js](https://github.com/gndx/react-eth-challenge/issues/3)
-4. [Integrar API](https://github.com/gndx/react-eth-challenge/issues/4)
-5. [Personalizar API](https://github.com/gndx/react-eth-challenge/issues/5)
-6. [Documentar](https://github.com/gndx/react-eth-challenge/issues/6)
-7. [Deploy](https://github.com/gndx/react-eth-challenge/issues/7)
+### For the use of the app I use App Context
+The main file is located under:
+  - context/AppContext
 
-### Instalación
+### Styling
+There is a main css file under:
+  - styles/components/App
+
+For the styling of the app there were used the following libraries:
+  - [Bootstrap](https://getbootstrap.com/)
+  - [react-icons](https://react-icons.github.io/react-icons/)
+
+### Install
 
 ```
 npm install
 ```
 
-### Ejecución
+### Eject
 
 ```
 npm run start
 ```
 
-### Server
 
-```
-npm run server
-```
-
-### Compilar
+### Build
 
 ```
 npm run build
@@ -46,19 +57,8 @@ npm run build
 npm run test
 ```
 
-### ESlint
-
-```
-npm run lint
-```
-
-### Enviar solución de reto
-
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
-
-### Contribuir
-
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [react-eth-challenge](https://github.com/gndx/react-eth-challenge/)
+### Forked from:
+[https://github.com/gndx/react-eth-challenge][https://github.com/gndx/react-eth-challenge]
 
 ### Licencia
 
