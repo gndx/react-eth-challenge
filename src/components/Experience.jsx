@@ -18,7 +18,7 @@ function Experience(props) {
               {' '}
               {experience.endDate}
             </p>
-            <p>{experience.jobDescription}</p>
+            <p className='Experience-description'>{experience.jobDescription}</p>
           </div>
         ))}
       </article>

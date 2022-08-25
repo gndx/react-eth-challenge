@@ -13,6 +13,10 @@
   padding: 1rem;
 }
 
+.Experience-description{
+  text-align: justify;
+}
+
 @media screen and (max-width: 768px) {
   .Experience-box {
     grid-template-columns: repeat(1, 1fr);
