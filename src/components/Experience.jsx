@@ -51,7 +51,7 @@ function Experience({ props }) {
           <DescriptionWrapper>
             {props.data.experience.map((exp) => {
               return (
-                <ItemWrapper className='Experience-item'>
+                <ItemWrapper className='Experience-item' key={exp.jobTitle}>
                   <h3>
                     {exp.jobTitle}
                   </h3>

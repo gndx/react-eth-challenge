@@ -46,7 +46,7 @@ function Languages({ props }) {
                   {
                     props.data.languages.map((language) => {
                       return (
-                        <li className='Languages-item'>
+                        <li className='Languages-item' key={language.name}>
                           {language.name} - {language.percentage}
                         </li>
                       );

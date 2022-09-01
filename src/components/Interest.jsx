@@ -48,7 +48,7 @@ function Interest({ props }) {
             <ul>
               {props?.data.interest.map((interest) => {
                 return (
-                  <li className='Interest-item'>
+                  <li className='Interest-item' key={interest}>
                     {interest}
                   </li>
                 );
