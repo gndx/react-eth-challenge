@@ -33,26 +33,32 @@ const ItemWrapper = styled.div`
   padding: .8rem;
   width: 20rem;
 `;
-function Languages({ languages }) {
+function Languages({ props }) {
   return (
-    <Wrapper>
-      <h3 className='Languages-title'>Languages</h3>
-      <DescriptionWrapper>
-        <ItemWrapper>
-          <ul>
-            <li className='Languages-item'>
-              Spanish. Native
-            </li>
-            <li className='Languages-item'>
-              English. C1
-            </li>
-            <li className='Languages-item'>
-              French. B1
-            </li>
-          </ul>
-        </ItemWrapper>
-      </DescriptionWrapper>
-    </Wrapper>
+    <div>
+      {
+        props ? (
+          <Wrapper>
+            <h3 className='Languages-title'>Languages</h3>
+            <DescriptionWrapper>
+              <ItemWrapper>
+                <ul>
+                  {
+                    props.data.languages.map((language) => {
+                      return (
+                        <li className='Languages-item'>
+                          {language.name} - {language.percentage}
+                        </li>
+                      );
+                    })
+                  }
+                </ul>
+              </ItemWrapper>
+            </DescriptionWrapper>
+          </Wrapper>
+        ) : null
+      }
+    </div>
   );
 };
 

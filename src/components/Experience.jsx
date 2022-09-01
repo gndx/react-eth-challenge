@@ -46,76 +46,31 @@ function Experience({ props }) {
       <h1 className='Experience-title'>
         Experience
       </h1>
-      <DescriptionWrapper>
-        <ItemWrapper className='Experience-item'>
-          <h3>
-            {props?.experience[0].jobTitle}
-          </h3>
-          <p>
-            <b>{props?.experience[0].startDate} - {props?.experience[0].endDate}</b>
-          </p>
-          <ul>
-            <li>
-              Front-end development using React.js and Typescript
-            </li>
-            <li>
-              Blockchain research and dapp development
-            </li>
-          </ul>
-        </ItemWrapper>
-        <ItemWrapper className='Experience-item'>
-          <h3>
-          {props?.experience[1].jobTitle}
-          </h3>
-          <p>
-            <b>{props?.experience[1].startDate} - {props?.experience[1].endDate}</b>
-          </p>
-          <ul>
-            <li>
-              API improvement with Node.js
-            </li>
-            <li>
-              Database Audit with ORM: Sequelize, Postgres
-            </li>
-            <li>
-              Consuming API Rest
-            </li>
-            <li>
-              Front-end features improvement using Vue.js
-            </li>
-          </ul>
-        </ItemWrapper>
-        <ItemWrapper className='Experience-item'>
-          <h3>
-            Freelancer
-          </h3>
-          <p>
-            <b>March 2021 - Present</b>
-          </p>
-          <ul>
-            <li>
-              Web design of landing pages and E-Commerce web apps focused on customer experience
-            </li>
-            <li>
-              Web app development with CMS software Wordpress
-            </li>
-            <li>
-              Web app development with HTML5, CSS3, Javascript
-            </li>
-            <li>
-              Server development with Node.js, Express.js and Heroku
-            </li>
-            <li>
-              Database integration with ORM: Sequelize, Postgres, MySQL
-            </li>
-            <li>
-              API Rest architecture
-            </li>
-          </ul>
-        </ItemWrapper>
-      </DescriptionWrapper>
+      {
+        props ? (
+          <DescriptionWrapper>
+            {props.data.experience.map((exp) => {
+              return (
+                <ItemWrapper className='Experience-item'>
+                  <h3>
+                    {exp.jobTitle}
+                  </h3>
+                  <p>
+                    <b>
+                      {exp.startDate} - {exp.endDate}
+                    </b>
+                  </p>
+                  <p>
+                    {exp.jobDescription}
+                  </p>
+                </ItemWrapper>
+              );
+            })}
+          </DescriptionWrapper>
+        ) : null
+      }
     </Wrapper>
   );
-};
+}
 
 export default Experience;

@@ -41,23 +41,25 @@ const ItemWrapper = styled.div`
 function Interest({ props }) {
   return (
     <Wrapper>
-      <DescriptionWrapper>
-        <ItemWrapper>
-          <h3 className='Interest-title'>Interest</h3>
-          <ul>
-            {props?.interest.map((interest) => {
-              return (
-                <li className='Interest-item'>
-                  {interest}
-                </li>
-              )
-            })}
-          </ul>
-        </ItemWrapper>
-        <ItemWrapper>
-          <Languages />
-        </ItemWrapper>
-      </DescriptionWrapper>
+      { props ? (
+        <DescriptionWrapper>
+          <ItemWrapper>
+            <h3 className='Interest-title'>Interest</h3>
+            <ul>
+              {props?.data.interest.map((interest) => {
+                return (
+                  <li className='Interest-item'>
+                    {interest}
+                  </li>
+                );
+              })}
+            </ul>
+          </ItemWrapper>
+          <ItemWrapper>
+            <Languages props={props}/>
+          </ItemWrapper>
+        </DescriptionWrapper>
+      ) : null}
     </Wrapper>
   );
 };
