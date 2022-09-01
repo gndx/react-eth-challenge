@@ -28,7 +28,6 @@ function Profile({ props }) {
           {' '}
           {props?.data.name}
           {'. '}
-          I'm a Computer Systems Engineer student at UNIR México and a Philosopher graduated by UNAM.
         </p>
         <p>
           {props?.data.description}
