@@ -32,6 +32,9 @@ const ItemWrapper = styled.div`
   margin: 1rem;
   padding: .8rem;
   width: 20rem;
+  & b {
+    color: #FF6D09;
+  }
 `;
 function Languages({ props }) {
   return (
@@ -47,7 +50,7 @@ function Languages({ props }) {
                     props.data.languages.map((language) => {
                       return (
                         <li className='Languages-item' key={language.name}>
-                          {language.name} - {language.percentage}
+                          <b>{language.name}</b> - {language.percentage}
                         </li>
                       );
                     })

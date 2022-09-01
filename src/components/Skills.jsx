@@ -37,6 +37,9 @@ const DescriptionWrapper = styled.div`
 
 const ItemWrapper = styled.div`
   margin: 1rem;
+  & b {
+    color: #FF6D09;
+  }
 `;
 
 function Skills({ props }) {
@@ -51,7 +54,7 @@ function Skills({ props }) {
             return (
               <ItemWrapper className='Skills-item' key={skill.name}>
                 <p>
-                  {skill.name}
+                  <b>{skill.name}</b>
                   {' '}
                   -
                   {' '}
