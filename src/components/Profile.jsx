@@ -30,7 +30,7 @@ function Profile({ props }) {
           {'. '}
         </p>
         <p>
-          {props?.data.description}
+          {props?.data.Profile}
         </p>
       </DescriptionWrapper>
     </Wrapper>
