@@ -1,9 +1,10 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Header from '../../components/Header';
+import { data } from '../../__mocks__/styleMock';
 
 describe('<Header />', () => {
-  const header = mount(<Header />);
+  const header = shallow(<Header title={data.name} avatar={data.avatar}/>);
 
   test('Header render', () => {
     expect(header.length).toEqual(1);
