@@ -35,27 +35,34 @@ const ItemWrapper = styled.div`
   padding: .8rem;
 `;
 
-function About({props}) {
+function About({ props }) {
   return (
     <Wrapper>
       <DescriptionWrapper>
         <ItemWrapper>
           <h3 className='About-title'>About</h3>
           <p className='About-item'>
-            💻 {props?.profession}
+            💻
+            {' '}
+            {props?.data.profession}
           </p>
           <p className='About-item'>
-            🇲🇽 {props?.phone}
+            🇲🇽
+            {' '}
+            {props?.data.phone}
           </p>
           <p className='About-item'>
-            📩 {props?.email}
+            📩
+            {' '}
+            {props?.data.email}
           </p>
           <p className='About-item'>
             🌐
-            <a href={props?.website}>Landing Page</a>
+            <a href={props?.data.website}>Landing Page</a>
           </p>
           <p className='About-item'>
-            📍{props?.address}
+            📍
+            {props?.data.address}
           </p>
         </ItemWrapper>
         <ItemWrapper>

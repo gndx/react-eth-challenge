@@ -23,6 +23,7 @@ const GridLayout = styled.div`
 function App() {
   //url alterna https://mocki.io/v1/d62540b3-481e-4b52-82c4-5785036005a9
   const [data, setData] = React.useState();
+  //https://mocki.io/v1/21f89a36-a8da-42db-8ea8-0efab021d877
   const url = 'https://raw.githubusercontent.com/rdr-x/react-eth-challenge/main/data.json';
   const consumingAPI = async () => {
     const res = await getData(url);

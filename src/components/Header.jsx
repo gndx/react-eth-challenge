@@ -32,11 +32,11 @@ const ItemWrapper = styled.div`
   padding: .8rem;
 `;
 
-function Header({props}) {
+function Header({ props }) {
   return (
     <Wrapper>
       <ImgWrapper
-        src={props?.avatar}
+        src={props?.data.avatar}
         width='233px'
         height='233px'
         alt='image-profile'
