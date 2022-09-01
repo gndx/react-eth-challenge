@@ -1,0 +1,27 @@
+html {
+	margin: 0;
+	font-size: 62.5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 80%;
+	@media (min-width: 1000px) {
+		margin-left: 5%;
+	}
+	
+	@media (min-width: 1200px) {
+		margin-left: 15%;
+	}
+	@media (min-width: 1400px) {
+		margin-left: 30%;
+	}
+	@media (min-width: 2200px) {
+		margin-left: 35%;
+		font-size: 5rem;
+	}
+}

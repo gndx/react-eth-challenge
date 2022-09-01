@@ -5,8 +5,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'build'),
+    filename: 'bundle.js'
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -38,6 +38,10 @@ module.exports = {
           'stylus-loader',
         ],
       },
+      {
+        test: /\.(png|gif|jpe?g)$/i,
+        type: 'asset/resource'
+      }
     ],
   },
   plugins: [
