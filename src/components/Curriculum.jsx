@@ -3,7 +3,7 @@ import React from 'react';
 const Curriculum = () => {
   return (
     <a
-      href="/CV-Gonzalo-Othacehe.pdf"
+      href="CV-Gonzalo-Othacehe.pdf"
       alt="Gonzalo Othacehe CV"
       target="_blank"
       rel="noopener noreferrer"
