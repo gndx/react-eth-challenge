@@ -17,7 +17,7 @@ const App = () => {
   },[]);
 
   const getUserData = async () => {
-    const data2 = await getData('https://test-cv-ld-json-server.herokuapp.com/data')
+    const data2 = await getData('https://cv-data-intw8flhv-luisfduarte.vercel.app/')
     setUser(data2);
   };
 
