@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 export function Profile({ Profile: profile }) {
   return (
     <div className='container fast-animation'>
-      <div className='Profile-title'>Perfil 👨‍🚀</div>
+      <div className='Profile-title'>Profile 👨‍🚀</div>
       <div className='Profile-desc'>
         <p>
           {profile}
