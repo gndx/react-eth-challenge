@@ -63,3 +63,9 @@ Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en 
 ### Licencia
 
 frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+
+### comando para cambiar a tailwindscss
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+npm install --save-dev postcss-loader postcss
+npm i

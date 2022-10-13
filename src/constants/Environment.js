@@ -1,0 +1,1 @@
+export const CV_API_URL = 'https://mocki.io/v1/6a5c5cba-b9f4-4569-978f-bb4055c16d51';
