@@ -1,5 +1,6 @@
 {
   "name": "react-eth-challenge",
+  "homepage": ".",
   "version": "1.0.0",
   "description": "React Eth Challenge",
   "main": "index.js",
@@ -9,8 +10,7 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest",
-    "homepage": "."
+    "test": "jest"
   },
   "keywords": [
     "react",
