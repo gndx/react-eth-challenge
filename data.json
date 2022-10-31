@@ -1,57 +1,84 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Mario Sanchez Jaramillo",
+    "profession": "React Frontent Developer",
+    "address": "Lille, France",
+    "email": "mario.sanchez.jar@gmail.com",
+    "website": "https://www.linkedin.com/in/mszjar/",
+    "phone": "+07999999978",
+    "avatar": "https://lh3.googleusercontent.com/Ij2ZRQUfV3IlNkps3f-PiO-0v9XxdktvOXco7tOolV04zFZSgt73mRv8GgSmDCBeWtaMsNOtnSjrDvZDfCMUFjRqG-_cq9Hzr1b6=s0",
+    "profile": "Hi! I'm Mario, a React Frontend Developer with 2 years experience testing APIs for two major energy companies in France. I'm also an energy engineer and I'm passionated about the blockchain and entrepreneurship.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "August 2022",
+        "description": "High-level qualification that shows the language skills that employers and universities are looking for.",
+        "institution": "Cambridge University",
+        "name": "Advanced English Cambridge C1"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Jul 2021",
+        "description": "High-level qualification in French",
+        "institution": "Universite de Lille",
+        "name": "Advanced French DALF C1"
+      }, 
+      {
+        "date": "August 2020",
+        "description": "Able to recognize foundational concepts of blockchain, and apply these program concepts on the blockchain.",
+        "institution": "Coursera - University at Buffalo",
+        "name": "Blockchain Basics"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Ethereum Developer Program",
+        "description": "Platzi program to develop my Web 3.0 Developer career, supported by the Ethereum Foundation.",
+        "endDate": "Sept 2022",
+        "institution": "Platzi",
+        "startDate": "Jun 2022"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "degree": "Business Strategy & Marketing Management",
+        "description": "Marketing certification",
+        "endDate": "Jul 2022",
+        "institution": "CUOA Business School",
+        "startDate": "Jul 2022"
+      },
+      {
+        "degree": "Energy Engineer",
+        "description": "",
+        "endDate": "Mar 2017",
+        "institution": "Universidad Federico Santa Maria, Chile. & Aix Marseille Polytech, France.",
+        "startDate": "Mar 2011"
+      },
+      {
+        "degree": "Master Grande Ecole",
+        "description": "Corporate Finance and Entrepreneurship",
+        "endDate": "Jun 2018",
+        "institution": "Audencia Business School",
         "startDate": "Jan 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Planete-Oui",
+        "endDate": "April 2022",
+        "jobDescription": "API Tester for technical support in data integration (Electricity and Gas) of Enedis and GRDF distributors by Data flows and Web Services.",
+        "jobTitle": "Energy supply engineer",
+        "startDate": "Nov 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Co-op",
+        "endDate": "Nov 2019",
+        "jobDescription": "E-commerce selected to participate at tuapp.com tournament in Mexico",
+        "jobTitle": "Co-founder",
+        "startDate": "Mar 2019"
+      },       
+      {
+        "company": "ALTHA",
+        "endDate": "Nov 2019",
+        "jobDescription": "Consulting, proposing management for biomethane projects in France",
+        "jobTitle": "Co-founder",
+        "startDate": "Jan 2018"
       }
     ],
     "skills": [
@@ -68,42 +95,55 @@
         "percentage": "55%"
       },
       {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
+        "name": "Express",
+        "percentage": "55%"
+      },
       {
-        "name": "Spanish",
+        "name": "React",
+        "percentage": "55%"
+      },
+      {
+        "name": "Node.js",
         "percentage": "90%"
       },
       {
+        "name": "Learning Solidity",
+        "percentage": "Currently learning"
+      }
+    ],
+    "interest": [
+      {
+        "name": "Finance"
+      },
+      {
+        "name": "Blockchain Development"
+      },
+      {
+        "name": "Build the Web 3.0"
+      }
+    ],
+    "languages": [
+      {
         "name": "English",
-        "percentage": "50%"
+        "level": "Advanced English C1 Cambridge"
+      },
+      {
+        "name": "French",
+        "level": "Advanced French C1 DALF"
+      },
+      {
+        "name": "Spanish",
+        "level": "Native language"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Github",
+        "url": "https://github.com/mszjar"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/mszjar/"
       }
     ]
   }
