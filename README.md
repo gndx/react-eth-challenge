@@ -2,7 +2,9 @@
 
 ## Curriculum Vitae
 
-Creacion de un Curriculum Vitae, que extrae la DATA de un servidor local en NodeJs local, es responsivo, tiene testing con Jest, Y es Full-Stack.
+Creation of a Curriculum Vitae, that extracts the DATA from a local server in NodeJs, is responsive, has tests with Jest, AND is Full-Stack.
+
+Creacion de un Curriculum Vitae, que extrae la DATA de un servidor local en NodeJs, es responsivo, tiene testing con Jest, Y es Full-Stack.
 
 ![react-cv](https://github.com/gndx/react-eth-challenge/blob/440befcbc257b886015bd050666a21a3bec6c244/screenshot.png)
 
