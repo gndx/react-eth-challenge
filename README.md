@@ -1,4 +1,4 @@
-# react-eth-challenge
+# React-Eth-Challenge
 
 ## React Curriculum vitae
 
@@ -54,4 +54,4 @@ npm run lint
 
 ### Licencia
 
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
