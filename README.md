@@ -2,7 +2,7 @@
 
 ## React Curriculum vitae
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+Creacion de un curriculum Vitae, que extrae la data de un servidor en node, es responsivo, tiene testing con Jest, Y es full stack.
 
 ![react-cv](https://github.com/gndx/react-eth-challenge/blob/440befcbc257b886015bd050666a21a3bec6c244/screenshot.png)
 
