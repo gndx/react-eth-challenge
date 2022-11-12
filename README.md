@@ -1,6 +1,6 @@
 # React-Eth-Challenge
 
-## React Curriculum vitae
+## Curriculum vitae
 
 Creacion de un curriculum Vitae, que extrae la data de un servidor en node, es responsivo, tiene testing con Jest, Y es full stack.
 
