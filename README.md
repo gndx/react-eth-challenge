@@ -1,8 +1,10 @@
-# react-eth-challenge
+# React-Eth-Challenge
 
-## React Curriculum vitae
+## Curriculum Vitae
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+Creation of a Curriculum Vitae, that extracts the DATA from a local server in NodeJs, is responsive, has tests with Jest, AND is Full-Stack.
+
+Creacion de un Curriculum Vitae, que extrae la DATA de un servidor local en NodeJs, es responsivo, tiene testing con Jest, Y es Full-Stack.
 
 ![react-cv](https://github.com/gndx/react-eth-challenge/blob/440befcbc257b886015bd050666a21a3bec6c244/screenshot.png)
 
@@ -52,14 +54,6 @@ npm run test
 npm run lint
 ```
 
-### Enviar solución de reto
-
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia tu repositorio.
-
-### Contribuir
-
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [react-eth-challenge](https://github.com/gndx/react-eth-challenge/)
-
 ### Licencia
 
-frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+Frontend se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
