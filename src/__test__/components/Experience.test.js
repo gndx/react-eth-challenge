@@ -1,9 +1,15 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
+import data from 'api/data.json';
 import Experience from '../../components/Experience';
+import * as AppContext from '../../context/AppContext';
 
 describe('<Experience />', () => {
-  const experience = mount(<Experience />);
+  jest
+    .spyOn(AppContext, 'useAppContext')
+    .mockImplementation(() => data.data);
+
+  const experience = shallow(<Experience />);
 
   test('Experience render', () => {
     expect(experience.length).toEqual(1);

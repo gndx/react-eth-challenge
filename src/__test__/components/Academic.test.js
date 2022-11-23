@@ -1,9 +1,15 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
+import data from 'api/data.json';
 import Academic from '../../components/Academic';
+import * as AppContext from '../../context/AppContext';
 
 describe('<Academic />', () => {
-  const academic = mount(<Academic />);
+  jest
+    .spyOn(AppContext, 'useAppContext')
+    .mockImplementation(() => data.data);
+
+  const academic = shallow(<Academic />);
 
   test('Academic render', () => {
     expect(academic.length).toEqual(1);
@@ -13,8 +19,8 @@ describe('<Academic />', () => {
     expect(academic.find('.Academic-title').length).toEqual(1);
   });
 
-  test('Academic has 3 items', () => {
-    expect(academic.find('.Academic-item').length).toBeGreaterThan(2);
+  test('Academic has 1 items', () => {
+    expect(academic.find('.Academic-item').length).toBeGreaterThan(0);
   });
 
 });

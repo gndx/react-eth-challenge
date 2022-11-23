@@ -1,9 +1,15 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
+import data from 'api/data.json';
 import Header from '../../components/Header';
+import * as AppContext from '../../context/AppContext';
 
-describe('<Header />', () => {
-  const header = mount(<Header />);
+describe.only('<Header />', () => {
+  jest
+    .spyOn(AppContext, 'useAppContext')
+    .mockImplementation(() => data.data);
+
+  const header = shallow(<Header />);
 
   test('Header render', () => {
     expect(header.length).toEqual(1);

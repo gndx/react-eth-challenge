@@ -1,9 +1,9 @@
 ## DESCRIPTION
 
-Solución al reto:
+Solución al reto: react-eth-challenge
 
-Nombre:
-Usuario Platzi:
+Nombre: Jose Valentin Salina
+Usuario Platzi: josevsp
 
 ## Reto:
 
