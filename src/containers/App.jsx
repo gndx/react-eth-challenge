@@ -13,7 +13,7 @@ const App = () => {
   const [cvData, setCvData] = useState({});
 
   useEffect(() => {
-    getData('https://mocki.io/v1/81489650-e42d-4be4-a52e-8b6e0e5cbaf1')
+    getData('https://mocki.io/v1/2307f49a-f9e8-4b70-ba99-00a4ff75ff18')
       .then(data => setCvData(data.data))
       .catch(error => console.log(error));
   }, [])
