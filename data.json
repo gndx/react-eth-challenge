@@ -62,6 +62,13 @@
           "startDate": "Jun 2022"
         },
         {
+          "degree": "Etheruem For Devs Certification",
+          "description": "24-hour program on Ethereum development with Solidity taught by CINCEL for the Autonomus University of Queretaro",
+          "endDate": "Jul 2022",
+          "institution": "CINCEL",
+          "startDate": "Jun 2022"
+        },
+        {
           "degree": "Web Development with JavaScript",
           "description": "I won a scholarship to participate in this Web Development bootcamp given by BEDU and Santander Universities.",
           "endDate": "May 2022",
@@ -73,7 +80,7 @@
         {
           "company": "Uni.DAO UAQ",
           "endDate": "Present",
-          "jobDescription": "Uni.DAO is a university ecosystem of the Autonomous University of Querétaro for disruptive technologies such as Blockchain, Web 3.0 and the Metaverse.",
+          "jobDescription": "Uni.DAO is a university ecosystem of the Autonomous University of Queretaro for disruptive technologies such as Blockchain, Web 3.0 and the Metaverse.",
           "jobTitle": "Coordinator",
           "startDate": "Jan 2023"
         },
