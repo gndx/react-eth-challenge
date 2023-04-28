@@ -1,110 +1,185 @@
-{
-  "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+  {
+    "data": {
+      "name": "Alberto Beltran",
+      "profession": "Blockchain & FullStack Developer",
+      "address": "Queretaro, Mexico",
+      "email": "albertobeltran@protonmail.com",
+      "website": "github.com/albbeltran",
+      "phone": "",
+      "avatar": "https://i.ibb.co/Gty6YHY/img.jpg",
+      "Profile": "Full-Stack & Web3 Developer | Blockchain & Web3 Speaker | JavaScript, Node.js, MongoDB, Express, React, Solidity | Software Engineering student",
+      "certificate": [
+        {
+          "date": "Dec 2020",
+          "description": "Diploma of 24 hours duration, approved with 9/10.",
+          "institution": "ITPE",
+          "name": "Blockchain Technology Diploma"
+        },
+        {
+          "date": "May 2022",
+          "description": "Scholarship given by Santander Universities and BEDU",
+          "institution": "BEDU",
+          "name": "OPEN Web Development with JavaScript"
+        },
+        {
+          "date": "Jun 2022",
+          "description": "Scholarship given by Santander Universities and BEDU",
+          "institution": "BEDU",
+          "name": "Front-End Developer with JavaScript"
+        },
+        {
+          "date": "Jun 2022",
+          "description": "Certification given by CINCEL and UAQ",
+          "institution": "CINCEL",
+          "name": "Ethereum Developer"
+        },
+        {
+          "date": "Sept 2022",
+          "description": "Won 1 of 100 scolarships given by Platzi and Ethereum Foundation",
+          "institution": "Platzi",
+          "name": "Ethereum Developer Program"
+        },
+        {
+          "date": "Oct 2022",
+          "description": "Scholarship given by Santander Universities and BEDU",
+          "institution": "BEDU",
+          "name": "Full-Stack Developer with JavaScript"
+        }
+      ],
+      "Academic": [
+        {
+          "degree": "Software Engineering",
+          "description": "Currently, I am studying a degree in Software Engineering in one of the best universities in Mexico",
+          "endDate": "Dec 2025",
+          "institution": "Autonomous University of Queretaro",
+          "startDate": "Aug 2021"
+        },
+        {
+          "degree": "Etheruem Developer Program",
+          "description": "I was selected to participate in this intense program over weeks including courses, live classes and expert coaching, with the support of Ethereum Foundation & Road to Devcon.",
+          "endDate": "Sep 2022",
+          "institution": "Platzi",
+          "startDate": "Jun 2022"
+        },
+        {
+          "degree": "Etheruem For Devs Certification",
+          "description": "24-hour program on Ethereum development with Solidity taught by CINCEL for the Autonomus University of Queretaro",
+          "endDate": "Jul 2022",
+          "institution": "CINCEL",
+          "startDate": "Jun 2022"
+        },
+        {
+          "degree": "Web Development with JavaScript",
+          "description": "I won a scholarship to participate in this Web Development bootcamp given by BEDU and Santander Universities.",
+          "endDate": "May 2022",
+          "institution": "BEDU",
+          "startDate": "Oct 2022"
+        }
+      ],
+      "experience": [
+        {
+          "company": "Uni.DAO UAQ",
+          "endDate": "Present",
+          "jobDescription": "Uni.DAO is a university ecosystem of the Autonomous University of Queretaro for disruptive technologies such as Blockchain, Web 3.0 and the Metaverse.",
+          "jobTitle": "Coordinator",
+          "startDate": "Jan 2023"
+        },
+        {
+          "company": "Bullground",
+          "endDate": "Present",
+          "jobDescription": "I was invited to teach about Programming and Blockchain in one of the best online platform to learn about Finance, Trading, Blockchain and Crypto.",
+          "jobTitle": "Developer Education",
+          "startDate": "Dec 2022"
+        },
+        {
+          "company": "Nxuni",
+          "endDate": "Oct 2022",
+          "jobDescription": "I worked on 4 projects related to Blockchain and Cryptocurrencies.",
+          "jobTitle": "Front-End Developer",
+          "startDate": "Jul 2022"
+        },
+        {
+          "company": "Apprentice Worldwide",
+          "endDate": "Jul 2022",
+          "jobDescription": "I was selected to work with an Argentine company that is developing its metaverse.",
+          "jobTitle": "Web3 Internship",
+          "startDate": "Jun 2022"
+        },
+        {
+          "company": "Self Employed",
+          "endDate": "Present",
+          "jobDescription": "I work with clients in Web Development using HTML, CSS, Sass, Bootstrap 5, JavaScript, JQuery, React.js, Node.js, MongoDB and CMS such as WordPress, focusing on E-Commerce using Woocommerce and Elementor.",
+          "jobTitle": "Freelance Web Developer",
+          "startDate": "Jun 2021"
+        },
+        {
+          "company": "Mr. Coin Blockchain",
+          "endDate": "Apr 2022",
+          "jobDescription": "As a strategy advisor I have been involved in events and workshops for different clients and partners of Mr.Coin.",
+          "jobTitle": "Strategy Advisor",
+          "startDate": "Apr 2021"
+        }
+      ],
+      "skills": [
+        {
+          "name": "CSS",
+          "percentage": "80%"
+        },
+        {
+          "name": "JavaScript",
+          "percentage": "85%"
+        },
+        {
+          "name": "React",
+          "percentage": "55%"
+        },
+        {
+          "name": "NodeJS",
+          "percentage": "70%"
+        },
+        {
+          "name": "Solidity",
+          "percentage": "70%"
+        },
+        {
+          "name": "C++",
+          "percentage": "70%"
+        }
+      ],
+      "interest": [
+        "#javascript",
+        "#blockchain",
+        "#web3",
+        "#fullstack",
+        "#solidity"
+      ],
+      "languages": [
+        {
+          "name": "Spanish",
+          "percentage": "100%"
+        },
+        {
+          "name": "English",
+          "percentage": "60%"
+        }
+      ],
+      "social": [
+        {
+          "name": "facebook",
+          "url": "https://facebook.com/"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/"
+        }
+      ]
+    }
   }
-}
