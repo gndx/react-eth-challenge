@@ -1,13 +1,13 @@
   {
     "data": {
       "name": "Alberto Beltran",
-      "profession": "FullStack Developer",
+      "profession": "Blockchain & FullStack Developer",
       "address": "Queretaro, Mexico",
       "email": "albertobeltran@protonmail.com",
       "website": "github.com/albbeltran",
       "phone": "",
       "avatar": "https://i.ibb.co/Gty6YHY/img.jpg",
-      "Profile": "Full-Stack & Web3 Developer | Blockchain & Crypto Evangelist | JavaScript, Node.js, MongoDB, Express, React, Solidity | Software Engineering student",
+      "Profile": "Full-Stack & Web3 Developer | Blockchain & Web3 Speaker | JavaScript, Node.js, MongoDB, Express, React, Solidity | Software Engineering student",
       "certificate": [
         {
           "date": "Dec 2020",
@@ -20,6 +20,30 @@
           "description": "Scholarship given by Santander Universities and BEDU",
           "institution": "BEDU",
           "name": "OPEN Web Development with JavaScript"
+        },
+        {
+          "date": "Jun 2022",
+          "description": "Scholarship given by Santander Universities and BEDU",
+          "institution": "BEDU",
+          "name": "Front-End Developer with JavaScript"
+        },
+        {
+          "date": "Jun 2022",
+          "description": "Certification given by CINCEL and UAQ",
+          "institution": "CINCEL",
+          "name": "Ethereum Developer"
+        },
+        {
+          "date": "Sept 2022",
+          "description": "Won 1 of 100 scolarships given by Platzi and Ethereum Foundation",
+          "institution": "Platzi",
+          "name": "Ethereum Developer Program"
+        },
+        {
+          "date": "Oct 2022",
+          "description": "Scholarship given by Santander Universities and BEDU",
+          "institution": "BEDU",
+          "name": "Full-Stack Developer with JavaScript"
         }
       ],
       "Academic": [
@@ -47,9 +71,30 @@
       ],
       "experience": [
         {
-          "company": "Apprentice Worldwide",
+          "company": "Uni.DAO UAQ",
           "endDate": "Present",
-          "jobDescription": "I feel grateful for being able to be part of the technological revolution.",
+          "jobDescription": "Uni.DAO is a university ecosystem of the Autonomous University of Querétaro for disruptive technologies such as Blockchain, Web 3.0 and the Metaverse.",
+          "jobTitle": "Coordinator",
+          "startDate": "Jan 2023"
+        },
+        {
+          "company": "Bullground",
+          "endDate": "Present",
+          "jobDescription": "I was invited to teach about Programming and Blockchain in one of the best online platform to learn about Finance, Trading, Blockchain and Crypto.",
+          "jobTitle": "Developer Education",
+          "startDate": "Dec 2022"
+        },
+        {
+          "company": "Nxuni",
+          "endDate": "Oct 2022",
+          "jobDescription": "I worked on 4 projects related to Blockchain and Cryptocurrencies.",
+          "jobTitle": "Front-End Developer",
+          "startDate": "Jul 2022"
+        },
+        {
+          "company": "Apprentice Worldwide",
+          "endDate": "Jul 2022",
+          "jobDescription": "I was selected to work with an Argentine company that is developing its metaverse.",
           "jobTitle": "Web3 Internship",
           "startDate": "Jun 2022"
         },
@@ -79,7 +124,7 @@
         },
         {
           "name": "React",
-          "percentage": "45%"
+          "percentage": "55%"
         },
         {
           "name": "NodeJS",
@@ -87,7 +132,7 @@
         },
         {
           "name": "Solidity",
-          "percentage": "65%"
+          "percentage": "70%"
         },
         {
           "name": "C++",
